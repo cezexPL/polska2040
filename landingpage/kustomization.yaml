@@ -8,6 +8,7 @@ configMapGenerator:
     files:
       - index.html
       - styles.css
+      - hero.css
       - app.js
 generatorOptions:
   disableNameSuffixHash: false
