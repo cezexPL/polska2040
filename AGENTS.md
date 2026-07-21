@@ -82,6 +82,14 @@ Autor zapisuje wyłącznie we własnym pakiecie domenowym. Nie edytuje dokumentu
 - **Wyjście:** portfolio zastosowań, model regionalnego centrum, kryteria wyboru pilotaży i szablon danych wojewódzkich.
 - **Reguła:** lokalne liczby nie są kopiowane między regionami.
 
+### A13 — suwerenność modeli i odporność geotechnologiczno-energetyczna
+
+- **Cel:** przełożyć proliferację coraz silniejszych modeli lokalnych/open-weight oraz ryzyko zakłóceń energetycznych związanych z napięciami USA–Iran na decyzje dla bezpieczeństwa, gospodarki i programu Polska 2040.
+- **Wyjście:** Filar VII strategii, macierz scenariuszy modeli i energii, wskaźniki wczesnego ostrzegania, plan 100 dni i roadmapa 2027–2040 oraz wkład do modelu finansowego, rejestru ryzyk, briefów RM/BBN i prezentacji.
+- **Współpraca:** A05 prowadzi część modeli i cyber; A01 bezpieczeństwo i doktrynę; A06 przemysł i dostawy; A07 skutki makroekonomiczne i budżetowe; A08 geopolitykę i partnerstwa; A12 wykonuje niezależny red-team.
+- **Reguła:** nie traktuj benchmarków producentów, deklarowanej otwartości modelu, wojny USA–Iran ani prognozy ceny ropy jako faktu bez aktualnych źródeł i jawnego poziomu niepewności.
+- **Granica:** analiza zdolności i odporności państwa, bez instrukcji ofensywnych, katalogów podatności i szczegółów umożliwiających szkodliwe zastosowanie.
+
 ### A12 — audyt dowodów i red-team
 
 - **Cel:** próbować obalić twierdzenia, rekomendacje, wykonalność oraz narrację pozostałych agentów.
