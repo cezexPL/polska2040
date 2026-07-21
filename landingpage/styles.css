@@ -297,3 +297,29 @@ to{transform:scale(1.045)translate(-.4%,-.3%)}
   }
 }
 
+
+/* Progressive public documents catalogue */
+.documents-section{border-top:1px solid var(--line)}
+.documents-section .section-head{align-items:end}
+.documents-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:54px}
+.document-card{border:1px solid var(--line);background:linear-gradient(145deg,#0c192abf,#050a12e6);min-height:310px;padding:26px;display:flex;flex-direction:column;position:relative}
+.document-card.is-pending{opacity:.82}
+.document-meta{display:flex;justify-content:space-between;align-items:center;color:var(--red);font:500 10px var(--font-geist-mono),monospace;text-transform:uppercase;letter-spacing:.12em}
+.document-meta b{color:#788391;font-weight:500}
+.document-card h3{font-size:23px;font-weight:520;line-height:1.16;margin:54px 0 14px}
+.document-card p{color:#8f99a6;font-size:13px;line-height:1.6;margin:0}
+.document-state{display:flex;align-items:center;gap:8px;color:#8f99a6;font:500 10px var(--font-geist-mono),monospace;text-transform:uppercase;letter-spacing:.08em;margin-top:auto;padding-top:28px}
+.document-state i{width:7px;height:7px;border-radius:50%;background:#697584;box-shadow:0 0 0 4px #69758418}
+.is-ready .document-state i{background:#40b67a;box-shadow:0 0 0 4px #40b67a18}
+.document-actions{border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;margin-top:16px;padding-top:16px;min-height:36px}
+.document-link,.document-download{color:var(--ink);font-size:12px;text-decoration:none}
+.document-link span{color:var(--red)}
+.document-pending{color:#697584;font-size:11px}
+.documents-more{margin-top:30px;display:flex;justify-content:flex-end}
+.documents-header{height:92px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.documents-page h1{font-size:clamp(54px,7vw,98px);line-height:.95;letter-spacing:-.055em;margin:36px 0 26px}
+.documents-page h1 em{color:var(--red);font-style:normal}
+.documents-page .section-intro{max-width:680px}
+.documents-loading,.documents-error{color:#8f99a6}
+@media(width<=980px){.documents-grid{grid-template-columns:repeat(2,1fr)}}
+@media(width<=680px){.documents-grid{grid-template-columns:1fr}.documents-header{height:78px}.documents-header .button{width:auto}.document-card{min-height:280px}}
