@@ -1,13 +1,15 @@
 # Briefy portfeli ministerialnych
 
 **Program:** Polska 2040: Suwerenność technologiczna  
-**Status:** niezależny projekt wykonawczy v0.1  
+**Status:** niezależny materiał przedmandatowy v0.1 do konsultacji; nie przypisuje zadań organom<br>
 **Stan wiedzy:** 21 lipca 2026 r.  
 **Uwaga:** nazwy portfeli są funkcjonalne; właściwość i aktualne nazwy organów wymagają formalnego potwierdzenia.
 
 ## Executive Summary / Streszczenie wykonawcze
 
 Program nie może być „własnością” jednego resortu. Każdy portfel otrzymuje mierzalny rezultat, decyzje pierwszych 100 dni, dane, KPI, zależności oraz warunek zatrzymania. Integrator KPRM utrzymuje wspólny obraz, lecz nie przejmuje kompetencji wykonawczych.
+
+Wszystkie działania są kandydatami do rozpatrzenia. Odwołują się do wspólnego rejestru **DEC-0001–DEC-0010**, lecz nie stanowią decyzji ministra ani przydziału ustawowej właściwości. Formalny właściciel i podstawa procesu pozostają `UNKNOWN` (**GAP-0011**).
 
 ### Wspólny kontrakt
 
@@ -155,7 +157,7 @@ Uruchomić federacyjną bezpieczną przestrzeń danych, governance modeli AI, wa
 - mapa istniejącej mocy obliczeniowej i warunków dostępu;
 - standard incydentu i bezpiecznej degradacji.
 
-Polityka AI przewiduje Piast, Gaia, vouchery PLGrid i piaskownice (**CLM-1217**), ale jej zakres sam nie tworzy obronnego stosu danych/modeli (**CLM-1218**). Gaia jest uruchomionym projektem, nie dowodem pełnej gotowości docelowej infrastruktury (**CLM-1219**).
+Polityka AI przewiduje Piast, Gaia, vouchery PLGrid i piaskownice (**CLM-1217**). **INFERENCE o ograniczonym zakresie:** ten jawny dokument sam nie definiuje kompletnego obronnego stosu danych/modeli (**CLM-1218**); nie dowodzi to braku rozwiązań MON ani zdolności niejawnych. Gaia jest uruchomionym projektem, nie dowodem pełnej gotowości docelowej infrastruktury (**CLM-1219**).
 
 ### Dane i KPI
 
@@ -213,6 +215,10 @@ Zależności: użytkownicy, przemysł, dane, edukacja i finansowanie. Ryzyka: gr
 ### Mandat i rezultat
 
 Zapewnić kompetencje techniczne, produkcyjne, serwisowe, zakupowe i regulacyjne odpowiadające na zweryfikowany popyt, z pomiarem zatrudnienia i retencji.
+
+Prawo o szkolnictwie wyższym umożliwia uczelniom współpracę z otoczeniem społeczno-gospodarczym przy programach i praktykach oraz prowadzenie studiów dualnych; dla profilu praktycznego wskazuje co najmniej sześć miesięcy praktyk na studiach pierwszego stopnia i jednolitych magisterskich oraz trzy miesiące na studiach drugiego stopnia, z ustawowym wyjątkiem dla części zawodów regulowanych ([Prawo o szkolnictwie wyższym i nauce](https://api.sejm.gov.pl/eli/acts/DU/2024/1571/text.pdf), **CLM-1013**, **CLM-1014**). Przepisy tworzą dostępne instrumenty, lecz nie uzasadniają automatycznie jednego semestru praktyk w każdym roku.
+
+Branżowe Centra Umiejętności są już jednostkami systemu oświaty obsługującymi uczniów, nauczycieli, dorosłych i pracodawców oraz realizującymi funkcje szkoleniowe, egzaminacyjne i kooperacyjne ([IBE/ZSK](https://kwalifikacje.gov.pl/dla-instytucji/branzowe-centra-umiejetnosci/), **CLM-1015**). Ich obecność jest podstawą do audytu i ewentualnego wykorzystania, nie dowodem skuteczności ani wystarczającej przepustowości.
 
 ### Pięć decyzji
 
@@ -325,18 +331,20 @@ Zależności: obrona, gospodarka, finanse, prawo, cyber i służby. Ryzyka: part
 
 ## 9. Macierz zależności resortowych
 
-| Rezultat | Obrona | Finanse | Gospodarka | Cyfryzacja | Nauka | Edukacja | Wewnętrzne | Zagraniczne |
+| Rezultat funkcjonalny | centrum rządu / prawo | obrona | finanse | gospodarka | cyfryzacja | nauka i edukacja | sprawy wewnętrzne | zagraniczne |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| katalog problemów | A/R | I | C | C | C | I | A/R dla własnych | I |
-| przestrzeń danych | A/C | I | C | A/R | C | I | A/C | C |
-| testy i małe partie | A/R | C | C | C | C | I | A/R dla własnych | I |
-| przemysł i komponenty | C | C | A/R | C | C | C | I | C |
-| kadry | C | C | C | C | C | A/R | C | C |
-| partnerstwa/JV | C | C | C | C | C | C | I | A/R |
-| finansowanie | C | A/R | C | C | C | C | C | C |
-| prawo/etyka | C | C | C | C | C | C | C | C |
+| katalog problemów obronnych | C | A/R | I | C | C | C | I | I |
+| katalog problemów bezpieczeństwa wewnętrznego | C | C | I | C | C | C | A/R | I |
+| wspólne reguły przestrzeni danych | C | R | I | C | A | C | R | C |
+| testy i małe partie obronne | C | A/R | C | C | C | I | I | I |
+| testy bezpieczeństwa wewnętrznego | C | C | C | C | C | I | A/R | I |
+| audyt przemysłu i komponentów | C | R | C | A | C | C | I | C |
+| sieć kompetencji i kwalifikacji | C | C | C | R | C | A/R | C | I |
+| portfel partnerstw/JV | C | R | C | R | C | C | I | A |
+| skonsolidowane ramy finansowe | C | C | A/R | C | C | C | C | C |
+| ścieżka prawna projektu strategii | A/R | C | C | C | C | C | C | C |
 
-Macierz nie zastępuje formalnej właściwości. Pokazuje, że ten sam rezultat może mieć innego `A` zależnie od portfela, a integrator KPRM pozostaje właścicielem wspólnego obrazu i eskalacji.
+Macierz ma dokładnie jedno `A` w każdym wierszu i nie zastępuje formalnej właściwości. Role są funkcjonalne; przed użyciem właściwy organ musi potwierdzić nazwę, podstawę, właściciela służbowego i termin. Integrator KPRM utrzymuje wspólny obraz i eskalację, ale nie przejmuje odpowiedzialności sektorowej.
 
 ## 10. Wspólna bramka po 100 dniach
 

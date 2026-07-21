@@ -29,7 +29,7 @@
 - Scale, iterate, retain as research or close
 - Production, service, export and continuous update
 
-![Delivery cycle from need to update](assets/generated/delivery-cycle.svg)
+![Delivery cycle from need to update](assets/generated/delivery-cycle-en.svg)
 
 ---
 
@@ -81,9 +81,9 @@
 # Talent network
 
 - Existing universities, technical schools and industrial teams
-- Rapid reskilling for current engineers and technicians
+- Test rapid reskilling as a candidate early-capacity pathway
 - Practical projects and long placements
-- Measure competence, employment and 12/24-month retention
+- Compare competence, cost, employment and 12/24-month retention with a baseline
 
 ---
 
@@ -96,9 +96,9 @@
 
 ---
 
-# Partnership invitation
+# Candidate partnership proposition
 
-- Users: measurable problems and feedback
-- Companies: modular products, lifecycle rights and shared risk
-- Research: benchmarks, evaluation and reusable infrastructure
-- Allies and investors: secure testing, supply chains, scale and compliant exports
+- Not an official offer; subject to Polish government approval and legal review
+- Security due diligence is required before any testing, data access or cooperation
+- Candidate inputs: measurable needs, modular products, benchmarks and shared risk
+- Potential allied inputs: security-assessed testing, supply chains, scale and compliant exports

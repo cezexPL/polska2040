@@ -1,7 +1,7 @@
 # Nota decyzyjna dla Premiera i Rady Ministrów
 
 **Sprawa:** uruchomienie przeglądu „Polska 2040: Suwerenność technologiczna”  
-**Status:** niezależny projekt ekspercki v0.1 — nie jest dokumentem rządowym  
+**Status:** niezależny materiał przedmandatowy v0.1 do konsultacji — nie jest dokumentem rządowym ani formalnym przedłożeniem RM<br>
 **Stan wiedzy:** 21 lipca 2026 r.  
 **Decyzja:** kierunkowa, procesowa i odwracalna; bez zatwierdzania docelowego budżetu
 
@@ -9,14 +9,14 @@
 
 ### Rekomendacja
 
-Uruchomić sześciomiesięczny, ponadresortowy przegląd i ograniczony portfel pilotaży. Nie tworzyć na starcie nowej uczelni, megafabryki, agencji ani szerokiej ustawy. Wykorzystać istniejącą zdolność koordynacji centrum rządu, formalnie wskazać ministra odpowiedzialnego za dokument strategiczny i po dwóch kwartałach zdecydować, czy obecny mechanizm wymaga wzmocnienia.
+Rozpatrzyć kandydat **DEC-0001**: sześciomiesięczny, ponadresortowy przegląd i ograniczony portfel pilotaży. Nie tworzyć na starcie nowej uczelni, megafabryki, agencji ani szerokiej ustawy. Wykorzystać istniejącą zdolność koordynacji centrum rządu, formalnie wskazać ministra odpowiedzialnego za dokument strategiczny i po dwóch kwartałach zdecydować, czy obecny mechanizm wymaga wzmocnienia. Do rozstrzygnięcia właściwości i podstawy procesu (**GAP-0011**) nota służy konsultacji, nie wniesieniu pod obrady RM.
 
 ### Dlaczego teraz
 
 - Polska podpisała 8 maja 2026 r. umowę pożyczki SAFE o wartości 43,7 mld EUR i jest największym beneficjentem instrumentu; nie jest to jednak dotacja ani potwierdzenie wypłaty całej kwoty ([Ministerstwo Finansów](https://www.gov.pl/web/finanse/podpisanie-umowy-pozyczki-z-instrumentu-safe), **CLM-1208**).
 - KPRM deklaruje, że 89% środków ma trafić do polskiego przemysłu i gospodarki; jest to cel planistyczny, którego wykonanie trzeba mierzyć według uzgodnionej metodologii ([KPRM](https://www.gov.pl/web/premier/nowe-zdolnosci-wojska-polskiego-dzieki-programowi-safe---lista-zadan), **CLM-1209**).
 - Polska już uczestniczy w BraveTech EU, więc decyzja dotyczy jakości polskiego portfela i korzyści, a nie samego „wejścia” do inicjatywy ([EDA](https://eda.europa.eu/news-and-events/news/2026/04/29/eda-partners-with-the-european-commission-on-bravetech-eu), **CLM-1213**, **CLM-1214**).
-- Polska polityka AI przewiduje Piast, Gaia, vouchery PLGrid i piaskownice, ale sama nie definiuje kompletnego obronnego stosu danych i modeli ([Ministerstwo Cyfryzacji](https://ai.gov.pl/media/2025/11/Polityka-rozwoju-sztucznej-inteligencji-w-Polsce-do-2030-roku-17.11.2025__-1.pdf), **CLM-1217**, **CLM-1218**).
+- Polska polityka AI przewiduje Piast, Gaia, vouchery PLGrid i piaskownice (**CLM-1217**). **INFERENCE o ograniczonym zakresie:** jawny dokument polityki sam nie definiuje kompletnego obronnego stosu danych i modeli (**CLM-1218**); nie jest to dowód braku rozwiązań MON lub zdolności niejawnych ([Ministerstwo Cyfryzacji](https://ai.gov.pl/media/2025/11/Polityka-rozwoju-sztucznej-inteligencji-w-Polsce-do-2030-roku-17.11.2025__-1.pdf)).
 
 ### Decyzja, o którą chodzi
 
@@ -24,16 +24,18 @@ Rada Ministrów nie zatwierdza dziś kwoty ani listy preferowanych dostawców. Z
 
 ## 1. Proponowane rozstrzygnięcia Rady Ministrów
 
-1. **Mandat:** uruchomić przegląd i portfel pilotażowy na sześć miesięcy.
-2. **Właściciel:** wskazać właściwego ministra dla projektu strategii oraz odrębnie integratora realizacji przy KPRM.
-3. **Governance:** przyjąć RACI, rejestr konfliktów interesów, rytm miesięczny i bramki `uruchom–popraw–skaluj–zamknij`.
-4. **Baza:** zlecić audyt przemysłu, komponentów, serwisu, kadr, laboratoriów, danych, programów i zobowiązań finansowych.
-5. **Problemy:** wybrać ograniczoną liczbę potrzeb użytkowników do przetestowania całej pętli, bez wskazywania technologii lub wykonawcy z góry.
-6. **Dane/AI:** uruchomić pilotaż federacyjnej, bezpiecznej przestrzeni danych i wspólnego standardu ewaluacji modeli.
-7. **Zamówienia:** przygotować pierwsze kontrakty etapowe: dowód → test → mała partia → opcja skali.
-8. **Przemysł:** przeprowadzić na reprezentatywnej próbie audyt substytucji oraz scenariusze zwiększenia produkcji i serwisu.
-9. **Partnerstwa:** zbudować portfolio Polska–Ukraina/UE z due diligence, rozdzieleniem IP, cyber, kontrolą eksportu i planem ciągłości.
-10. **Raport:** po sześciu miesiącach przedstawić projekty skalowane, poprawiane i zamknięte oraz trzy scenariusze finansowe.
+1. **`DEC-0001` — mandat:** rozpatrzyć uruchomienie przeglądu i portfela pilotażowego na sześć miesięcy.
+2. **`DEC-0002` — właściciel:** wskazać właściwego ministra dla projektu strategii oraz odrębnie integratora realizacji przy KPRM.
+3. **`DEC-0003` — problemy i governance:** przyjąć jeden `A`, rejestr konfliktów interesów, rytm miesięczny, bramki i ograniczony katalog potrzeb użytkowników bez wskazywania wykonawcy z góry.
+4. **`DEC-0004` — dane/AI:** rozpatrzyć pilotaż federacyjnej, bezpiecznej przestrzeni danych i wspólnego standardu ewaluacji modeli.
+5. **`DEC-0005` — baza przemysłowa:** zlecić audyt komponentów, serwisu, zależności oraz scenariuszy zwiększenia produkcji.
+6. **`DEC-0006` — kadry:** zaprojektować sieć kształcenia dopiero po audycie kompetencji, popytu i infrastruktury.
+7. **`DEC-0007` — partnerstwa:** zbudować portfolio Polska–Ukraina/UE z due diligence, rozdzieleniem IP, cyber, kontrolą eksportu i ciągłością.
+8. **`DEC-0008` — finanse:** skonsolidować istniejące zobowiązania i warianty bez podwójnego liczenia.
+9. **`DEC-0009` — prawo:** przygotować stopniowany pakiet zmian dopiero po mapie barier i opinii prawnej.
+10. **`DEC-0010` — rozliczalność:** po sześciu miesiącach przedstawić projekty skalowane, poprawiane i zamknięte oraz trzy scenariusze finansowe.
+
+Wszystkie powyższe rekordy mają w v0.1 status `candidate`. Nie dokumentują decyzji podjętej przez Radę Ministrów.
 
 ## 2. Warianty
 

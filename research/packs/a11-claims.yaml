@@ -1,0 +1,785 @@
+schema_version: 1
+claims:
+  - id: CLM-1101
+    text: "W 2025 r. technologie AI wykorzystywało 8,4% przedsiębiorstw w Polsce zatrudniających co najmniej 10 osób, wobec 20,0% w UE."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1101]
+    locators: ["SRC-1101: headline results and dataset isoc_eb_ai"]
+    as_of: "2025-12-11"
+    confidence: high
+    author: A11
+    reviewer: A12
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "A12 (2026-07-21): Eurostat potwierdza 8,4% dla Polski i 20,0% dla UE w 2025 r.; badanie obejmuje przedsiębiorstwa z co najmniej 10 pracującymi w określonych sekcjach NACE, nie mikrofirmy ani administrację."
+
+  - id: CLM-1102
+    text: "Według raportu krajowego Komisji Europejskiej w 2025 r. 59% polskich MŚP osiągało co najmniej podstawowy poziom intensywności cyfrowej, wobec 71,4% w UE."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1102]
+    locators: ["SRC-1102: Annex 18 and business environment section"]
+    as_of: "2025-12-31"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Należy zachować definicję wskaźnika Digital Intensity Index i rok referencyjny."
+
+  - id: CLM-1103
+    text: "Komisja Europejska podaje, że produktywność polskich MŚP wynosiła 68% produktywności dużych firm w 2021 r., a w 2023 r. 14% przedsiębiorstw uczestniczyło w partnerstwach strategicznych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1102]
+    locators: ["SRC-1102: Nurturing growth - business environment"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Dwa wskaźniki mają różne lata referencyjne i nie dowodzą związku przyczynowego między partnerstwami a produktywnością."
+
+  - id: CLM-1104
+    text: "W latach 2022-2024 aktywność innowacyjną wykazało 36,5% przedsiębiorstw przemysłowych i 28,9% przedsiębiorstw usługowych, a nakłady na innowacje w 2024 r. wyniosły odpowiednio 24,1 mld zł i 33,4 mld zł."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1104]
+    locators: ["SRC-1104: headline results"]
+    as_of: "2025-10-30"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Aktywność innowacyjna obejmuje także projekty niezakończone lub zaniechane; nie jest miarą udanych wdrożeń."
+
+  - id: CLM-1105
+    text: "W 2024 r. produkty wysokiej techniki stanowiły 10,6% polskiego eksportu i 14,7% importu; eksport wyniósł 162,0 mld zł, import 224,1 mld zł, a największy deficyt grupowy dotyczył elektroniki i telekomunikacji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1105]
+    locators: ["SRC-1105: pp. 87-89, handel produktami wysokiej techniki"]
+    as_of: "2024-12-31"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Klasyfikacja SITC high-tech nie jest klasyfikacją dual-use; dane są kontekstem przemysłowym, nie bilansem technologii autonomicznych."
+
+  - id: CLM-1106
+    text: "Dane GUS za 2024 r. pokazują wyraźne zróżnicowanie regionalne: udział firm wysokiej i średnio-wysokiej techniki w przetwórstwie był powyżej średniej krajowej w czterech województwach, a udział przychodów tych firm w przetwórstwie wahał się między regionami w szerokim zakresie."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1105]
+    locators: ["SRC-1105: pp. 84-85, mapy 2 i 3"]
+    as_of: "2024-12-31"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Wniosek nie uprawnia do automatycznego wskazania lokalizacji centrum; wymaga danych o popycie, kadrach, infrastrukturze i gotowości nabywcy."
+
+  - id: CLM-1107
+    text: "Luka we wdrażaniu AI i intensywności cyfrowej uzasadnia politykę dyfuzji technologii do istniejących MŚP, ale sama nie dowodzi, że grant, robot lub model AI poprawi produktywność konkretnej firmy."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-1101, SRC-1102, SRC-1103]
+    locators: ["SRC-1101: country comparison", "SRC-1102: business environment", "SRC-1103: ICT and SME chapters"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Każde wdrożenie wymaga baseline, kontrfaktycznego porównania i pomiaru całkowitego kosztu posiadania."
+
+  - id: CLM-1108
+    text: "Polska polityka spójności 2021-2027 obejmuje ponad 76 mld EUR oraz 16 programów regionalnych, ale środki są przypisane do programów, celów i zasad, a nie stanowią swobodnej puli dla programu Polska 2040."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1106]
+    locators: ["SRC-1106: aggregate allocation and programme list"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: A12
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "A12 (2026-07-21): MFiPR potwierdza ponad 76 mld EUR polityki spójności i 16 programów regionalnych. Strona rozdziela środki na programy; claim słusznie nie traktuje ich jako wolnej puli."
+
+  - id: CLM-1109
+    text: "Aktualizacja FENG z 1 lipca 2026 r. dodała 14 naborów o łącznej wartości 1,55 mld zł, w tym sześć o alokacji 1,46 mld zł dotyczących technologii obronnych, krytycznych, dual-use lub deep-tech."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1107]
+    locators: ["SRC-1107: opening summary and list of new calls"]
+    as_of: "2026-07-01"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Harmonogram nie jest decyzją o przyznaniu środków i może ulec zmianie; obowiązuje dokumentacja konkretnego naboru."
+
+  - id: CLM-1110
+    text: "Nabór PARP na współfinansowanie działań EDIH miał alokację 100 mln zł, poziom wsparcia do 50% kosztów kwalifikowanych i zakończył się 15 lipca 2026 r.; beneficjentami byli koordynatorzy EDIH, nie bezpośrednio wszystkie MŚP."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1108]
+    locators: ["SRC-1108: support rate, allocation, applicants and dates"]
+    as_of: "2026-07-15"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Dostęp MŚP następuje przez usługi hubów zgodnie z ich ofertą i zasadami pomocy."
+
+  - id: CLM-1111
+    text: "EDIH są projektowane jako regionalne punkty pierwszego kontaktu zapewniające test-before-invest, doradztwo finansowe, kompetencje i pomiar dojrzałości cyfrowej MŚP oraz organizacji sektora publicznego."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1109]
+    locators: ["SRC-1109: functions and Digital Maturity Assessment"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Zakres i jakość konkretnej usługi trzeba potwierdzić w katalogu właściwego hubu."
+
+  - id: CLM-1112
+    text: "Sieć unijnych TEF obejmuje cztery sektory: rolno-spożywczy, zdrowie, produkcję oraz inteligentne miasta; agrifoodTEF ma w Polsce węzeł satelitarny do testowania AI i robotyki w warunkach zbliżonych do rzeczywistych."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1110]
+    locators: ["SRC-1110: TEF projects and agrifoodTEF section"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: A12
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "A12 (2026-07-21): KE potwierdza cztery sektory TEF, testy AI i robotyki w realnych warunkach oraz polski węzeł satelitarny agrifoodTEF. Źródło nie dowodzi dostępności konkretnej usługi ani przyznania finansowania."
+
+  - id: CLM-1113
+    text: "Nabór I3-2026-INV2a jest otwarty do 12 listopada 2026 r. i ma łączyć mniej rozwinięte lub przejściowe regiony z międzyregionalnymi łańcuchami wartości opartymi na komplementarnych inteligentnych specjalizacjach."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1111]
+    locators: ["SRC-1111: status, deadline and objectives"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Kwalifikowalność i konsorcjum trzeba potwierdzić w dokumentacji Funding and Tenders."
+
+  - id: CLM-1114
+    text: "Każde z 16 województw ma własne regionalne inteligentne specjalizacje, zwykle powiązane z Regionalną Strategią Innowacji i warunkiem podstawowym polityki spójności dla wsparcia B+R oraz wdrażania innowacji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1112]
+    locators: ["SRC-1112: national explanation and regional map"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Etykieta specjalizacji nie jest audytem mocy produkcyjnych, popytu ani zdolności testowej."
+
+  - id: CLM-1115
+    text: "Regional Innovation Scoreboard 2025 porównuje 241 regionów europejskich na podstawie 23 wskaźników i wskazuje trwałe zróżnicowanie systemów innowacji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1113]
+    locators: ["SRC-1113: methodology and 2025 scope"]
+    as_of: "2025-07-15"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Indeks ma opóźnienia i nie obejmuje wszystkich cech wymaganych do wyboru pilota."
+
+  - id: CLM-1116
+    text: "Smart specialisation i Regional Innovation Scoreboard powinny służyć do preselekcji i porównań, ale nie są wystarczającą podstawą do wskazania lokalizacji inwestycji lub przeniesienia identycznego celu ilościowego do wszystkich województw."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-1105, SRC-1112, SRC-1113, SRC-1114]
+    locators: ["regional heterogeneity and differences in indicator scope"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Decyzja wymaga audytu aktywów, nabywcy, danych, kadr, kosztów, popytu i ryzyk każdego regionu."
+
+  - id: CLM-1117
+    text: "Polski Plan Strategiczny WPR 2023-2027 obejmuje około 1,4 mln gospodarstw i uznaje wiedzę, innowacje oraz cyfryzację za cel przekrojowy modernizacji rolnictwa i obszarów wiejskich."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1115, SRC-1116]
+    locators: ["SRC-1115: context and goals", "SRC-1116: cross-cutting objective"]
+    as_of: "2026-04-23"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Liczba gospodarstw nie jest liczbą odbiorców technologii; struktura i gotowość są silnie zróżnicowane."
+
+  - id: CLM-1118
+    text: "PAŻP podaje 302 801 zarejestrowanych operatorów BSP na koniec 2024 r.; w 2025 r. odnotowała 19 629 misji i 916 756 check-inów, a PansaUTM jest wdrożony w centrali, 15 wieżach cywilnych i pięciu sektorach FIS oraz połączony z 17 wieżami wojskowymi."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1117]
+    locators: ["SRC-1117: 2024 operator count, 2025 dashboard and implementation footprint"]
+    as_of: "2025-12-31"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Rejestracje, misje i check-iny nie mierzą przychodu, autonomii ani efektu społecznego; misja i check-in są różnymi zdarzeniami."
+
+  - id: CLM-1119
+    text: "Kierunek rozwoju BSP w KSRG przyjęty w sierpniu 2025 r. przewiduje grupy dronowe na poziomie powiatowym oraz specjalistyczne grupy na poziomie wojewódzkim i krajowym, wraz ze standardami sprzętu i szkolenia."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1118]
+    locators: ["SRC-1118: group structure, use cases and standards"]
+    as_of: "2025-08-29"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Źródło potwierdza kierunek, a nie pełną gotowość w każdym powiecie."
+
+  - id: CLM-1120
+    text: "KPO Ministerstwa Infrastruktury obejmuje inwestycję A2.3.1 w lokalne centra kompetencji BSP oraz projekty pilotażowe i infrastrukturę, a także inwestycję E2.2.2 w cyfryzację transportu kolejowego."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1119]
+    locators: ["SRC-1119: A2.3.1 and E2.2.2"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Należy oddzielić planowane produkty, umowy, wykonanie i faktycznie odebrane rezultaty."
+
+  - id: CLM-1121
+    text: "Krajowy Plan Wdrożenia TSI Sterowanie publikuje harmonogram rozbudowy ERTMS w Polsce i jest kontekstem interoperacyjności dla cyfrowych projektów kolejowych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1120]
+    locators: ["SRC-1120: purpose and attached schedule"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "ERTMS nie oznacza automatycznie dopuszczenia autonomicznego prowadzenia pociągów."
+
+  - id: CLM-1122
+    text: "Strategia PSE do 2040 r. wskazuje zwiększenie obserwowalności i sterowalności zasobów rozproszonych, doskonalenie gromadzenia i przetwarzania danych oraz odporność fizyczną i cyber jako kierunki rozwoju systemu elektroenergetycznego."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1121]
+    locators: ["SRC-1121: strategic objectives"]
+    as_of: "2025-12-16"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Kierunek strategii nie jest zobowiązaniem zakupowym wobec konkretnego produktu."
+
+  - id: CLM-1123
+    text: "Projekt Strategii Transformacji Ciepłownictwa do 2040 r. z czerwca 2026 r. obejmuje cyfrowe monitorowanie, sterowanie, automatyzację i cyberbezpieczeństwo, ale na dzień dostępu pozostawał w konsultacjach publicznych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1122]
+    locators: ["SRC-1122: consultation status and digitalisation section"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Nie przedstawiać jako przyjętej strategii przed weryfikacją uchwały Rady Ministrów."
+
+  - id: CLM-1124
+    text: "Obroty ładunkowe polskich portów morskich w 2025 r. wyniosły 128,0 mln ton i wzrosły o 3,1% rok do roku, przy jednoczesnych wzrostach w części portów i spadkach w innych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1123]
+    locators: ["SRC-1123: headline results and port-by-port changes"]
+    as_of: "2025-12-31"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Wolumen przeładunków nie jest rozmiarem rynku autonomii morskiej ani miarą produktywności portu."
+
+  - id: CLM-1125
+    text: "Program rozwoju portów morskich zakłada przekroczenie 150 mln ton przeładunków w 2030 r.; jest to cel programu, a nie potwierdzona prognoza."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1124]
+    locators: ["SRC-1124: main objective and 2030 target"]
+    as_of: "2030-12-31"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Wskaźnik nie mówi, jaki udział wzrostu może wynikać z cyfryzacji lub autonomii."
+
+  - id: CLM-1126
+    text: "NSIS udostępnia serwisy, produkty i narzędzia oparte na danych satelitarnych dla administracji, nauki i biznesu, z deklarowanymi zastosowaniami m.in. w rolnictwie, gospodarce wodnej i leśnej, ochronie środowiska oraz planowaniu przestrzennym."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1125]
+    locators: ["SRC-1125: system purpose and civil applications"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Brakuje w źródle wspólnej miary adopcji, jakości i oszczędności dla tych zastosowań."
+
+  - id: CLM-1127
+    text: "Ustawa o działalności kosmicznej z 2026 r. przydziela POLSA funkcję krajowego administratora danych satelitarnych i zadania związane z interoperacyjnym systemem odbioru, przechowywania, przetwarzania oraz udostępniania danych, z ustawowymi wyłączeniami."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1126]
+    locators: ["SRC-1126: Dz.U. 2026 poz. 465, przepisy o krajowym administratorze danych satelitarnych"]
+    as_of: "2026-04-18"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Zakres wymaga potwierdzenia w tekście ujednoliconym ustaw zmienionych i w regulaminach dostępu do danych."
+
+  - id: CLM-1128
+    text: "W lutym 2026 r. POLSA udostępniła w NSIS dwa ogólnokrajowe produkty leśne oparte na danych Copernicus: monitoring terenów zadrzewionych oraz strukturę i bioróżnorodność drzewostanów."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1127]
+    locators: ["SRC-1127: product description"]
+    as_of: "2026-02-03"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Produkt wymaga oceny dokładności i aktualności dla konkretnej decyzji oraz walidacji naziemnej."
+
+  - id: CLM-1129
+    text: "ESA Phi-Lab Poland działa jako centrum kompetencji w robotyce kosmicznej, AI i autonomii oraz udostępnia specjalistyczne środowiska testowe, symulacyjne i eksperckie dla projektów badawczo-rozwojowych."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1128]
+    locators: ["SRC-1128: mission, competencies and facilities"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: A12
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "A12 (2026-07-21): oficjalna strona ESA Phi-Lab Poland potwierdza centrum kompetencji w space robotics, AI i autonomii oraz laboratoria, testbeds, symulacje i wsparcie eksperckie. Nie potwierdza nieograniczonej dostępności ani dopasowania każdego pilota."
+
+  - id: CLM-1130
+    text: "Projekt NCBR Innowacyjne Zamówienia Publiczne jest realizowany do końca 2029 r. i wykorzystuje zamówienia przedkomercyjne do opracowania i testowania rozwiązań, których nie ma jeszcze na rynku."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1129]
+    locators: ["SRC-1129: project model and duration"]
+    as_of: "2026-05-29"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Trzy opisane wyzwania są cywilne i sektorowe; rozszerzenie modelu wymaga właściwego zamawiającego i analizy prawnej."
+
+  - id: CLM-1131
+    text: "Rada Ministrów przyjęła w czerwcu 2026 r. Strategię Cyfryzacji Państwa do 2035 r.; dokument ustanawia mierzalne cele, monitoring przez Komitet ds. Cyfryzacji i dwuletni cykl przeglądu."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1130]
+    locators: ["SRC-1130: adoption, governance and review cycle"]
+    as_of: "2026-06-10"
+    confidence: high
+    author: A11
+    reviewer: A12
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "A12 (2026-07-21): komunikat MC z 10 czerwca 2026 r. potwierdza przyjęcie przez RM, cele do 2035 r., monitoring przez Komitet ds. Cyfryzacji i przegląd co dwa lata. Cele są zobowiązaniami polityki, nie stanem wykonania."
+
+  - id: CLM-1132
+    text: "GUS publikuje wyniki przewozów ładunków i pasażerów za 2025 r. w podziale na gałęzie transportu, co zapewnia denominator do wyboru problemów logistycznych, ale nie wycenę rynku automatyzacji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1131]
+    locators: ["SRC-1131: downloadable modal tables"]
+    as_of: "2025-12-31"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Do modelu rynku potrzebne są dane o procesach, kosztach, przestojach, wypadkach i gotowości inwestycyjnej nabywców."
+
+  - id: CLM-1133
+    text: "Działanie FEPW 1.2 Automatyzacja i robotyzacja w MŚP miało ocenione projekty i aktualizowane listy wyników, lecz wcześniejsza alokacja została wyczerpana i nie może być prezentowana jako obecnie otwarty nabór."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1132]
+    locators: ["SRC-1132: communications and exhausted-allocation notices"]
+    as_of: "2026-06-24"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Instrument jest dowodem popytu i doświadczeń wdrożeniowych, a nie dostępnym źródłem bazowego finansowania."
+
+  - id: CLM-1134
+    text: "Trwała ścieżka cywilna może zwiększać wykorzystanie mocy produkcyjnych, serwisowych i danych między cyklami zamówień publicznych, ale nie każdy komponent obronny ma bezpieczny lub ekonomiczny rynek cywilny."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-1102, SRC-1104, SRC-1110, SRC-1121, SRC-1125, SRC-1128]
+    locators: ["cross-sector demand, testing and infrastructure signals"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Wymaga osobnego business case, klasyfikacji, praw do IP i zasad bezpieczeństwa dla każdej platformy lub modułu."
+
+  - id: CLM-1135
+    text: "Szesnaście regionalnych centrów powinno tworzyć federację wyspecjalizowanych węzłów z jednym standardem obsługi, a nie szesnaście kopii tej samej infrastruktury, laboratorium i programu dotacyjnego."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1105, SRC-1112, SRC-1113, SRC-1114, SRC-1128]
+    locators: ["regional heterogeneity, existing specialisations and existing test infrastructure"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Ostateczny podział ról wymaga audytu każdego województwa."
+
+  - id: CLM-1136
+    text: "Każdy węzeł regionalny powinien mieć wspólny minimalny model: broker potrzeb, katalog aktywów i danych, dostęp do test-before-invest, wsparcie zamówień, właściciela KPI oraz mechanizm kierowania projektu do innego regionu."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1109, SRC-1110, SRC-1112, SRC-1129]
+    locators: ["EDIH operating model, TEF testing and innovation procurement"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Centrum nie powinno samo oceniać projektu, którego jest dostawcą lub beneficjentem."
+
+  - id: CLM-1137
+    text: "Pierwszy portfel cywilny powinien wybierać problemy, nie technologie: zmniejszenie kosztu lub ryzyka w rolnictwie, energetyce i ciepłownictwie, kolei i logistyce, ratownictwie, portach i offshore, środowisku oraz obserwacji Ziemi."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1115, SRC-1118, SRC-1120, SRC-1121, SRC-1122, SRC-1123, SRC-1125, SRC-1131]
+    locators: ["sector strategies, operational use cases and statistical baselines"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Technologia wchodzi dopiero po zdefiniowaniu użytkownika, procesu, baseline, wyniku i ograniczeń."
+
+  - id: CLM-1138
+    text: "Pilotaże rolnicze powinny być neutralne technologicznie i mierzyć koszt jednostkowy zabiegu, zużycie wody i środków produkcji, plon, czas pracy, dostępność serwisu oraz wynik dla małego i dużego gospodarstwa osobno."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1110, SRC-1115, SRC-1116]
+    locators: ["agrifoodTEF validation model and Polish CAP objectives"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Nie należy utożsamiać demonstracji urządzenia z opłacalnością dla zróżnicowanej struktury gospodarstw."
+
+  - id: CLM-1139
+    text: "Pilotaże energetyczne i ciepłownicze powinny koncentrować się na inspekcji, diagnostyce, prognozowaniu, lokalizacji strat, utrzymaniu predykcyjnym i bezpiecznym sterowaniu, z właścicielem danych po stronie operatora infrastruktury."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1121, SRC-1122]
+    locators: ["observability, data processing, monitoring, automation and cyber objectives"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Bez publikowania topologii, podatności ani danych krytycznych; zakres dostępu zatwierdza operator i właściwy organ."
+
+  - id: CLM-1140
+    text: "Pilotaże kolejowe, logistyczne i portowe powinny być projektowane na interfejsach istniejących standardów ERTMS, systemów zarządców i procesów terminalowych, a nie jako odrębne wyspy technologiczne."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1120, SRC-1123, SRC-1124, SRC-1131]
+    locators: ["interoperability plan and transport or port baselines"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Autonomia nie może omijać certyfikacji, bezpieczeństwa ruchu, prawa pracy ani odpowiedzialności operatora."
+
+  - id: CLM-1141
+    text: "Ratownictwo powinno mieć krajowe standardy danych, szkoleń, bezpieczeństwa i interoperacyjności, ale lokalne zespoły powinny dobierać scenariusze do profilu ryzyka powiatu lub województwa."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1117, SRC-1118, SRC-1119]
+    locators: ["airspace coordination, PSP group structure and KPO competence centres"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Liczba sprzętu nie powinna być głównym KPI; mierzyć czas pozyskania informacji, trafność, dostępność i bezpieczeństwo."
+
+  - id: CLM-1142
+    text: "NSIS powinien być wspólną warstwą danych dla pilotaży środowiskowych i obserwacji Ziemi, z walidacją naziemną, wersjonowaniem produktu, licencją, jakością i rejestrem decyzji podjętych na podstawie danych."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1125, SRC-1126, SRC-1127]
+    locators: ["NSIS purpose, statutory role and forestry products"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Warstwa cywilna musi pozostać oddzielona od ustawowych wyłączeń i informacji o ograniczonym dostępie."
+
+  - id: CLM-1143
+    text: "Standardowa ścieżka MŚP powinna łączyć diagnozę i test-before-invest w EDIH, walidację w TEF lub laboratorium branżowym, test u nabywcy, zamówienie referencyjne i dopiero potem finansowanie skalowania."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1108, SRC-1109, SRC-1110, SRC-1129, SRC-1132]
+    locators: ["EDIH, TEF, innovation procurement and prior automation-support experience"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Każdy etap ma odrębną decyzję stop/go; grant nie jest substytutem klienta."
+
+  - id: CLM-1144
+    text: "Włączenie MŚP wymaga dzielenia zamówień według modułów lub rezultatów, proporcjonalnych wymogów, dopuszczania konsorcjów, płatnych testów, krótkich terminów płatności oraz jasnych praw do danych i IP."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1102, SRC-1109, SRC-1129]
+    locators: ["SME constraints, hub support and innovation procurement model"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Szczegółowy tryb musi potwierdzić A09 lub prawnik zamawiającego; niedopuszczalne jest sztuczne dzielenie zamówienia."
+
+  - id: CLM-1145
+    text: "Wybór pilota regionalnego powinien stosować jawny scoring: 30% mierzalna potrzeba i nabywca, 20% dane oraz możliwość bezpiecznego testu, 20% lokalne kompetencje i serwis, 15% ścieżka skalowania i eksportu, 10% efekt spójnościowy, 5% gotowość prawna i etyczna jako warunek minimalny."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1105, SRC-1112, SRC-1113, SRC-1114, SRC-1129]
+    locators: ["regional heterogeneity, cohesion logic and user-led testing"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Wagi są propozycją do konsultacji; zgodność prawna, bezpieczeństwo i etyka powinny działać jako bramki niezależnie od punktów."
+
+  - id: CLM-1146
+    text: "Każdy pilotaż powinien przejść sekwencję: baseline i właściciel problemu, kontrolowane test-before-invest, płatny test 3-6 miesięcy, niezależna ewaluacja, zamówienie małej skali, skalowanie albo zamknięcie z publikacją lekcji."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1109, SRC-1110, SRC-1129]
+    locators: ["test-before-invest, real-world validation and pre-commercial procurement"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Czas etapu należy dostosować do regulacji i sezonowości, np. cyklu upraw lub rozkładu ruchu."
+
+  - id: CLM-1147
+    text: "KPI portfela cywilnego powinny mierzyć wynik użytkownika, czas wdrożenia, niezawodność, bezpieczeństwo, całkowity koszt posiadania, krajową wartość dodaną, eksport i dyfuzję do MŚP, a nie liczbę konferencji, laboratoriów lub zakupionych urządzeń."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1102, SRC-1104, SRC-1109, SRC-1113]
+    locators: ["productivity, innovation-output and digital-maturity context"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Każdy KPI wymaga definicji, mianownika, źródła, częstotliwości i właściciela."
+
+  - id: CLM-1148
+    text: "Finansowanie regionalne powinno być prowadzone w jednym rejestrze z identyfikatorem projektu, programem i naborem, statusem, kosztem kwalifikowanym, wkładem własnym, pomocą publiczną oraz zakazem podwójnego liczenia tej samej alokacji."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1106, SRC-1107, SRC-1108, SRC-1111, SRC-1132]
+    locators: ["multiple programme envelopes and time-limited calls"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Tylko decyzje przyznające i podpisane umowy mogą wejść do bazowego cash-flow."
+
+  - id: CLM-1149
+    text: "Ścieżka eksportowa powinna zaczynać się od zgodności, interoperacyjności, praw do serwisu i referencji krajowej, a wskaźnikiem wyniku powinien być zrealizowany przychód eksportowy i krajowa wartość dodana, nie liczba memorandum lub targów."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1105, SRC-1111, SRC-1120, SRC-1128]
+    locators: ["high-tech trade baseline, interregional value chains, interoperability and commercialisation"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Klasyfikację eksportową, sankcje i rynki docelowe musi zweryfikować A08/A09 dla konkretnego produktu."
+
+  - id: CLM-1150
+    text: "Nie jest publicznie dostępny kompletny, porównywalny rejestr laboratoriów, poligonów cywilnych, danych, mocy serwisowych i wolnych terminów testowych dla autonomii oraz AI we wszystkich 16 województwach."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1110, SRC-1112, SRC-1117, SRC-1119, SRC-1128]
+    locators: ["fragmentary official catalogues do not form a national asset register"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Pozyskać przez 16 ustandaryzowanych ankiet, wizyty walidacyjne i potwierdzenie właścicieli aktywów."
+
+  - id: CLM-1151
+    text: "Nie ma jednej aktualnej bazy regionalnej łączącej popyt użytkowników, intensywność technologii, koszty procesów, dostęp do danych, wyniki pilotaży, zamówienia i eksport MŚP dla sektorów programu."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1103, SRC-1105, SRC-1113, SRC-1114]
+    locators: ["existing datasets cover different units, periods and indicators"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Zbudować regionalny baseline z GUS/BDL, rejestrów programu i danych nabywców, z pełnymi metadanymi."
+
+  - id: CLM-1152
+    text: "Nie są publicznie znane porównywalne wyniki ROI, całkowitego kosztu posiadania, liczby nieudanych pilotaży i trwałości wdrożeń autonomii lub AI w polskich MŚP oraz samorządach."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1103, SRC-1104, SRC-1109, SRC-1132]
+    locators: ["programme and statistical sources do not publish a unified outcome cohort"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Wymaga ewaluacji kohortowej zakończonych projektów, w tym porażek i kosztów utrzymania po 24 miesiącach."
+
+  - id: CLM-1153
+    text: "Nie wiadomo, jaka część środków spójności, FENG, EDIH, I3, WPR i innych instrumentów pozostaje realnie dostępna dla konkretnych projektów Polska 2040 po uwzględnieniu naborów, zobowiązań, kwalifikowalności i wkładów własnych."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1106, SRC-1107, SRC-1108, SRC-1111, SRC-1115, SRC-1132]
+    locators: ["programme envelopes and call pages do not establish project awards"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Utrzymywać UNKNOWN do decyzji przyznającej lub umowy; nie sumować programu, naboru i projektu."
+
+  - id: CLM-1154
+    text: "Nie są potwierdzone warunki licencji, jakości, aktualizacji, retencji i odpowiedzialności dla wszystkich danych potrzebnych do pilotaży regionalnych, w tym danych operatorów infrastruktury, samorządów, NSIS i gospodarstw."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1117, SRC-1121, SRC-1125, SRC-1126, SRC-1127]
+    locators: ["public descriptions do not replace dataset-specific terms and data agreements"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Dla każdego pilota sporządzić kartę danych i ocenę prawną przed dostępem."
+
+  - id: CLM-1155
+    text: "Nie istnieje potwierdzona publicznie lista nabywców gotowych sfinansować etap po pilotażu ani wieloletni popyt na rozwiązania autonomiczne w sektorach cywilnych objętych programem."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1118, SRC-1121, SRC-1122, SRC-1124, SRC-1129]
+    locators: ["strategies and pilots do not constitute purchase commitments"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Wymaga listów problemowych, planów zamówień, budżetów i podpisu właściciela procesu."
+
+  - id: CLM-1156
+    text: "Bez analizy konkretnego zastosowania nie można potwierdzić zgodności z AI Act, prawem lotniczym, kolejowym, morskim, ochroną danych, odpowiedzialnością produktową, pomocą publiczną i zamówieniami."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1110, SRC-1117, SRC-1120, SRC-1126, SRC-1129]
+    locators: ["sector-specific regulation and supervised testing requirements"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A11
+    reviewer: null
+    used_in: ["research/packs/a11-civil-regions-memo.md"]
+    sensitivity: public
+    notes: "Pytanie do A09 i właściwego regulatora przed rozpoczęciem testu w realnym środowisku."

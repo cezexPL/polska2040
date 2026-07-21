@@ -1,0 +1,874 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Finansowanie i ocena wpływu</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="impact-finance"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="finansowanie-i-ocena-wpywu">Finansowanie i ocena wpływu</h1>
+<p><strong>Program:</strong> Polska 2040: Suwerenność technologiczna<br />
+<strong>Status:</strong> niezależny materiał przedmandatowy v0.1 do konsultacji; nie jest prognozą ani wnioskiem budżetowym<br>
+<strong>Stan wiedzy:</strong> 21 lipca 2026 r.<br />
+<strong>Jednostka modelu:</strong> mln PLN w cenach roku bazowego wskazanego przy każdym założeniu</p>
+<blockquote>
+<p>Dokument nie jest prognozą budżetową, ofertą inwestycyjną ani oceną kwalifikowalności konkretnego wydatku. Wartości bez źródła lub zatwierdzonego założenia pozostają <code>UNKNOWN</code>.</p>
+</blockquote>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<h3 id="odpowiedz">Odpowiedź</h3>
+<p>Materiał nie daje podstawy do zatwierdzenia jednej dużej kwoty dla „programu dronowego”. Kandydat <strong>DEC-0008</strong> proponuje najpierw zbudować <strong>architekturę finansową portfela</strong>: oddzielić badanie problemu, prototyp, małą partię, skalę, infrastrukturę wspólną, kapitał produkcyjny i eksport; zinwentaryzować istniejące zobowiązania; policzyć koszt alternatywny; a nowe środki uwalniać po dowodach z kolejnych bramek. Rekord ma status <code>candidate</code>, a formalna właściwość pozostaje do rozstrzygnięcia (<strong>GAP-0011</strong>).</p>
+<h3 id="najwazniejsze-wnioski">Najważniejsze wnioski</h3>
+<ol>
+<li><strong>Budżet bez bazy byłby pozorną precyzją.</strong> Nie znamy jeszcze kompletnego kosztu istniejących programów, mocy, danych, laboratoriów, kadr i zobowiązań. W modelu v0.1 brak pozostaje <code>UNKNOWN</code>.</li>
+<li><strong>Finansowanie obronne i gospodarcze ma różne cele.</strong> Zakup zdolności, grant badawczy, kapitał w spółce, gwarancja kredytu i ubezpieczenie eksportowe nie są zamienne.</li>
+<li><strong>SAFE zwiększa przestrzeń finansowania, ale jest pożyczką.</strong> Polska podpisała umowę o wartości 43,7 mld EUR i jest największym beneficjentem instrumentu; kwoty tej nie można traktować jako dotacji ani jako środków już w całości wypłaconych (<a href="https://www.gov.pl/web/finanse/podpisanie-umowy-pozyczki-z-instrumentu-safe">Ministerstwo Finansów</a>, <strong>CLM-1208</strong>).</li>
+<li><strong>Deklarowany udział polskiej gospodarki wymaga pomiaru wykonania.</strong> KPRM wskazuje plan 89%, który nie jest jeszcze zweryfikowanym rezultatem (<a href="https://www.gov.pl/web/premier/nowe-zdolnosci-wojska-polskiego-dzieki-programowi-safe---lista-zadan">KPRM</a>, <strong>CLM-1209</strong>).</li>
+<li><strong>Wydatki muszą kupować opcje.</strong> Mały kontrakt powinien redukować niepewność przed dużym zobowiązaniem; prawa do danych, serwisu, aktualizacji i zmiany dostawcy mają wartość ekonomiczną.</li>
+<li><strong>Wpływ gospodarczy nie może być mierzony obrotem dostawcy.</strong> Potrzebne są dodatkowość, wartość dodana, produktywność, eksport, retencja kompetencji, spillovers cywilne i koszt wypierania innych wydatków.</li>
+<li><strong>Nie każdy element musi mieć uzasadnienie cywilne.</strong> Dla części zdolności wartość bezpieczeństwa jest wystarczającym powodem; pozorne dual-use może zniekształcić projekt i pomiar.</li>
+<li><strong>Model scenariuszowy ma pokazywać decyzje, nie jedną „prawdziwą” liczbę.</strong> Wariant niski, bazowy i wysoki różnią się zakresem, tempem, ryzykiem oraz warunkami przejścia.</li>
+</ol>
+<h3 id="rekomendacja">Rekomendacja</h3>
+<p>W pierwszych 100 dniach utworzyć wspólny rejestr finansowy, przypisać każdemu kosztowi unikalny identyfikator oraz wykonać audyt dodatkowości. Do sześciu miesięcy przygotować trzy wycenione scenariusze wraz z analizą wrażliwości i fiskalną. Do 12 miesięcy zawrzeć w budżecie wyłącznie pozycje, które przeszły bramki danych, popytu, bezpieczeństwa, produkcji i prawa.</p>
+<h2 id="spis-tresci">Spis treści</h2>
+<div class="toc">
+<ul>
+<li><a href="#finansowanie-i-ocena-wpywu">Finansowanie i ocena wpływu</a><ul>
+<li><a href="#executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</a><ul>
+<li><a href="#odpowiedz">Odpowiedź</a></li>
+<li><a href="#najwazniejsze-wnioski">Najważniejsze wnioski</a></li>
+<li><a href="#rekomendacja">Rekomendacja</a></li>
+</ul>
+</li>
+<li><a href="#spis-tresci">Spis treści</a></li>
+<li><a href="#1-pytanie-decyzyjne-i-zakres">1. Pytanie decyzyjne i zakres</a><ul>
+<li><a href="#11-pytanie">1.1. Pytanie</a></li>
+<li><a href="#12-co-nalezy-policzyc">1.2. Co należy policzyć</a></li>
+<li><a href="#13-czego-model-nie-powinien-robic">1.3. Czego model nie powinien robić</a></li>
+</ul>
+</li>
+<li><a href="#2-logika-interwencji-ekonomicznej">2. Logika interwencji ekonomicznej</a><ul>
+<li><a href="#21-mozliwe-zawodnosci-rynku-i-panstwa">2.1. Możliwe zawodności rynku i państwa</a></li>
+<li><a href="#22-teoria-zmiany-finansowej">2.2. Teoria zmiany finansowej</a></li>
+</ul>
+</li>
+<li><a href="#3-architektura-kosztow">3. Architektura kosztów</a><ul>
+<li><a href="#31-dziesiec-blokow-kosztowych">3.1. Dziesięć bloków kosztowych</a></li>
+<li><a href="#32-peny-koszt-cyklu-zycia">3.2. Pełny koszt cyklu życia</a></li>
+<li><a href="#33-wartosc-praw-i-opcji">3.3. Wartość praw i opcji</a></li>
+</ul>
+</li>
+<li><a href="#4-dopasowanie-instrumentu-do-etapu">4. Dopasowanie instrumentu do etapu</a><ul>
+<li><a href="#grant">Grant</a></li>
+<li><a href="#zamowienie">Zamówienie</a></li>
+<li><a href="#kapita">Kapitał</a></li>
+<li><a href="#kredyt-i-gwarancja">Kredyt i gwarancja</a></li>
+<li><a href="#infrastruktura-wspolna">Infrastruktura wspólna</a></li>
+</ul>
+</li>
+<li><a href="#5-mapa-zrode-finansowania">5. Mapa źródeł finansowania</a><ul>
+<li><a href="#51-budzet-panstwa">5.1. Budżet państwa</a></li>
+<li><a href="#52-safe">5.2. SAFE</a></li>
+<li><a href="#53-edf-eudis-step-i-inne-instrumenty-ue">5.3. EDF, EUDIS, STEP i inne instrumenty UE</a></li>
+<li><a href="#54-pfr-bgk-ncbr-parp-i-instrumenty-krajowe">5.4. PFR, BGK, NCBR, PARP i instrumenty krajowe</a></li>
+<li><a href="#55-kapita-prywatny-i-strategiczny">5.5. Kapitał prywatny i strategiczny</a></li>
+</ul>
+</li>
+<li><a href="#6-trzy-scenariusze-finansowe">6. Trzy scenariusze finansowe</a><ul>
+<li><a href="#61-scenariusz-l-integracja-niskokosztowa">6.1. SCENARIUSZ L — integracja niskokosztowa</a></li>
+<li><a href="#62-scenariusz-b-portfel-bazowy">6.2. SCENARIUSZ B — portfel bazowy</a></li>
+<li><a href="#63-scenariusz-h-przyspieszona-mobilizacja">6.3. SCENARIUSZ H — przyspieszona mobilizacja</a></li>
+<li><a href="#64-macierz-wyboru">6.4. Macierz wyboru</a></li>
+</ul>
+</li>
+<li><a href="#7-ocena-wpywu-gospodarczego">7. Ocena wpływu gospodarczego</a><ul>
+<li><a href="#71-kontrfaktyczny-scenariusz">7.1. Kontrfaktyczny scenariusz</a></li>
+<li><a href="#72-dodatkowosc">7.2. Dodatkowość</a></li>
+<li><a href="#73-wartosc-dodana-w-polsce">7.3. Wartość dodana w Polsce</a></li>
+<li><a href="#74-produktywnosc">7.4. Produktywność</a></li>
+<li><a href="#75-rynek-pracy">7.5. Rynek pracy</a></li>
+<li><a href="#76-eksport">7.6. Eksport</a></li>
+<li><a href="#77-spillovers-cywilne">7.7. Spillovers cywilne</a></li>
+</ul>
+</li>
+<li><a href="#8-wartosc-bezpieczenstwa-i-odpornosci">8. Wartość bezpieczeństwa i odporności</a></li>
+<li><a href="#9-analiza-fiskalna-i-osiagalnosc">9. Analiza fiskalna i osiągalność</a><ul>
+<li><a href="#91-widok-roczny-i-wieloletni">9.1. Widok roczny i wieloletni</a></li>
+<li><a href="#92-pozyczki-i-gwarancje">9.2. Pożyczki i gwarancje</a></li>
+<li><a href="#93-koszt-alternatywny">9.3. Koszt alternatywny</a></li>
+<li><a href="#94-inflacja-i-zdolnosc-wykonawcza">9.4. Inflacja i zdolność wykonawcza</a></li>
+</ul>
+</li>
+<li><a href="#10-bramka-inwestycyjna">10. Bramka inwestycyjna</a></li>
+<li><a href="#11-analiza-wrazliwosci-i-scenariusze-ryzyka">11. Analiza wrażliwości i scenariusze ryzyka</a></li>
+<li><a href="#12-governance-finansowy-i-kontrola-podwojnego-finansowania">12. Governance finansowy i kontrola podwójnego finansowania</a><ul>
+<li><a href="#121-unikalny-identyfikator-kosztu">12.1. Unikalny identyfikator kosztu</a></li>
+<li><a href="#122-rozdzielenie-rol">12.2. Rozdzielenie ról</a></li>
+<li><a href="#123-raport-kwartalny">12.3. Raport kwartalny</a></li>
+</ul>
+</li>
+<li><a href="#13-model-danych-i-skoroszyt">13. Model danych i skoroszyt</a><ul>
+<li><a href="#minimalne-pola-zaozenia">Minimalne pola założenia</a></li>
+</ul>
+</li>
+<li><a href="#14-wskazniki-finansowe-i-gospodarcze">14. Wskaźniki finansowe i gospodarcze</a></li>
+<li><a href="#15-ryzyka-finansowe-i-odpowiedzi">15. Ryzyka finansowe i odpowiedzi</a></li>
+<li><a href="#16-pierwsze-100-dni-plan-pracy-finansowej">16. Pierwsze 100 dni — plan pracy finansowej</a><ul>
+<li><a href="#d0d30">D0–D30</a></li>
+<li><a href="#d31d60">D31–D60</a></li>
+<li><a href="#d61d100">D61–D100</a></li>
+</ul>
+</li>
+<li><a href="#17-decyzje-wymagane-przed-przyjeciem-budzetu">17. Decyzje wymagane przed przyjęciem budżetu</a></li>
+<li><a href="#dalsze-pytania">Dalsze pytania</a></li>
+<li><a href="#zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-pytanie-decyzyjne-i-zakres">1. Pytanie decyzyjne i zakres</h2>
+<h3 id="11-pytanie">1.1. Pytanie</h3>
+<p>Jak sfinansować zdolność państwa do szybkiego projektowania, testowania, produkcji, utrzymania i aktualizacji krytycznych technologii w sposób:</p>
+<ul>
+<li>dodatkowy względem istniejących programów;</li>
+<li>fiskalnie osiągalny;</li>
+<li>odporny na błędną alokację;</li>
+<li>zgodny z prawem i warunkami instrumentów;</li>
+<li>tworzący bezpieczeństwo oraz możliwie trwałą wartość gospodarczą;</li>
+<li>odwracalny, gdy dowody nie potwierdzą interwencji?</li>
+</ul>
+<h3 id="12-co-nalezy-policzyc">1.2. Co należy policzyć</h3>
+<p>Model obejmuje koszty przyrostowe programu i wpływ na cały portfel. Nie ogranicza się do wydatków oznaczonych nową nazwą. Powinien uwzględniać:</p>
+<ol>
+<li>zobowiązania już zakontraktowane;</li>
+<li>nowe wydatki bieżące i inwestycyjne;</li>
+<li>pożyczki, gwarancje, kapitał i ryzyko warunkowe;</li>
+<li>koszt obsługi długu oraz wymogi współfinansowania;</li>
+<li>koszt utrzymania, serwisu, danych i aktualizacji;</li>
+<li>koszt administracyjny, ewaluacji i bezpieczeństwa;</li>
+<li>koszt zakończenia, migracji lub likwidacji;</li>
+<li>przychody, zwroty kapitałowe i odzyski;</li>
+<li>wartość opcji i redukcji ryzyka;</li>
+<li>koszt alternatywny wobec innych celów publicznych.</li>
+</ol>
+<h3 id="13-czego-model-nie-powinien-robic">1.3. Czego model nie powinien robić</h3>
+<ul>
+<li>nie sumować całych budżetów instrumentów UE jako „wartości programu Polska 2040”;</li>
+<li>nie uznawać podpisanej umowy finansowania za wykonaną płatność;</li>
+<li>nie przypisywać całego obrotu wykonawcy do krajowej wartości dodanej;</li>
+<li>nie mnożyć wydatków arbitralnym „mnożnikiem PKB” bez danych i kontrfaktycznego scenariusza;</li>
+<li>nie liczyć tych samych miejsc pracy w dostawcy, poddostawcy i regionie jako trzech rezultatów;</li>
+<li>nie traktować memorandum eksportowego jako przychodu;</li>
+<li>nie pomijać kosztu utrzymania po zakończeniu dotacji;</li>
+<li>nie wyceniać korzyści bezpieczeństwa z fałszywą dokładnością.</li>
+</ul>
+<h2 id="2-logika-interwencji-ekonomicznej">2. Logika interwencji ekonomicznej</h2>
+<h3 id="21-mozliwe-zawodnosci-rynku-i-panstwa">2.1. Możliwe zawodności rynku i państwa</h3>
+<p>Interwencja może być uzasadniona, gdy występuje co najmniej jeden z mechanizmów:</p>
+<ul>
+<li><strong>zewnętrzna korzyść bezpieczeństwa:</strong> firma nie przechwytuje całej wartości odporności państwa;</li>
+<li><strong>niepewność popytu publicznego:</strong> brak wiarygodnego sygnału zamówień ogranicza inwestycje w moce;</li>
+<li><strong>wysoki koszt wspólnej infrastruktury:</strong> laboratorium, dane lub standard mają wielu użytkowników i trudno pobierać pełną opłatę;</li>
+<li><strong>asymetria informacji:</strong> nabywca nie potrafi porównać deklaracji technologicznych bez testu;</li>
+<li><strong>koordynacja łańcucha:</strong> pojedyncza firma nie sfinansuje wszystkich komplementarnych komponentów i kwalifikacji;</li>
+<li><strong>ograniczenie finansowania skali:</strong> kapitał prywatny może nie finansować długiego lub regulowanego cyklu obronnego;</li>
+<li><strong>spillovers wiedzy:</strong> część korzyści z B+R przechodzi do innych podmiotów i sektorów;</li>
+<li><strong>ryzyko zależności:</strong> cena rynkowa nie odzwierciedla pełnego kosztu przerwania dostaw.</li>
+</ul>
+<p>Istnieją też zawodności państwa: selekcja polityczna, przechwycenie przez dostawcę, brak umiejętności zakupowych, miękkie ograniczenie budżetowe, finansowanie projektu po utracie sensu, zbyt duża tajność i rozproszenie odpowiedzialności. Instrument musi ograniczać oba rodzaje ryzyka.</p>
+<h3 id="22-teoria-zmiany-finansowej">2.2. Teoria zmiany finansowej</h3>
+<p><strong>Wejścia:</strong> mandat, dane bazowe, budżet, kompetencje, prawo i infrastruktura.<br />
+<strong>Działania:</strong> problemy, testy, kontrakty etapowe, inwestycje, szkolenia i partnerstwa.<br />
+<strong>Produkty:</strong> prototypy ocenione przez użytkowników, małe partie, komponenty, serwis, dane i kadry.<br />
+<strong>Rezultaty:</strong> krótszy cykl, mniejsza zależność, większa powtarzalność produkcji, eksport i produktywność.<br />
+<strong>Wpływ:</strong> wyższa odporność państwa i zdolność gospodarki do tworzenia oraz utrzymania zaawansowanych technologii.</p>
+<p>Każde przejście wymaga dowodu. Sam wydatek nie jest produktem, prototyp nie jest zdolnością, a krajowy montaż nie jest automatycznie odpornością.</p>
+<h2 id="3-architektura-kosztow">3. Architektura kosztów</h2>
+<h3 id="31-dziesiec-blokow-kosztowych">3.1. Dziesięć bloków kosztowych</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Blok</th>
+<th>Typowe elementy</th>
+<th>Główna baza</th>
+<th>Ryzyko podwójnego liczenia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C01</td>
+<td>Governance i ewaluacja</td>
+<td>Biuro Realizacji, audyt, red-team, dashboard</td>
+<td>etaty, zamówienia usług, systemy</td>
+<td>istniejąca administracja</td>
+</tr>
+<tr>
+<td>C02</td>
+<td>Problemy, testy i małe partie</td>
+<td>konkurs problemowy, prototyp, poligon/laboratorium, użytkownik</td>
+<td>koszt testu i kontraktu</td>
+<td>programy B+R i zakupy</td>
+</tr>
+<tr>
+<td>C03</td>
+<td>Dane i AI</td>
+<td>katalog, środowiska, etykietowanie, benchmarki, monitoring</td>
+<td>CAPEX/OPEX i dostęp</td>
+<td>polityka AI, infrastruktura MON/PLGrid</td>
+</tr>
+<tr>
+<td>C04</td>
+<td>Cyber i software</td>
+<td>secure SDLC, SBOM, audyt, aktualizacje, reakcja</td>
+<td>koszt cyklu życia</td>
+<td>wymagania kontraktowe już wycenione</td>
+</tr>
+<tr>
+<td>C05</td>
+<td>Przemysł i komponenty</td>
+<td>maszyny, kwalifikacja, tooling, zapasy, energia</td>
+<td>CAPEX, working capital</td>
+<td>istniejące inwestycje wykonawców</td>
+</tr>
+<tr>
+<td>C06</td>
+<td>Serwis i logistyka</td>
+<td>części, naprawy, narzędzia, dokumentacja, utylizacja</td>
+<td>TCO według klasy</td>
+<td>umowy utrzymaniowe</td>
+</tr>
+<tr>
+<td>C07</td>
+<td>Kadry</td>
+<td>programy krótkie, praktyki, nauczyciele, laboratoria</td>
+<td>koszt na kompetencję i retencję</td>
+<td>edukacja powszechna i fundusze UE</td>
+</tr>
+<tr>
+<td>C08</td>
+<td>Partnerstwa i IP</td>
+<td>due diligence, licencje, JV, depozyt, certyfikacja</td>
+<td>koszt transakcji i praw</td>
+<td>granty międzynarodowe</td>
+</tr>
+<tr>
+<td>C09</td>
+<td>Regiony i dual-use</td>
+<td>pilotaże cywilne, centra, zamówienia publiczne</td>
+<td>koszt pilotażu i popyt po nim</td>
+<td>polityka regionalna i sektorowa</td>
+</tr>
+<tr>
+<td>C10</td>
+<td>Eksport</td>
+<td>certyfikacja, gwarancje, ubezpieczenia, serwis</td>
+<td>ekspozycja i wykonany kontrakt</td>
+<td>standardowe instrumenty eksportowe</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-peny-koszt-cyklu-zycia">3.2. Pełny koszt cyklu życia</h3>
+<p>Każdy projekt skali przedstawia co najmniej:</p>
+<ul>
+<li>koszt nabycia i integracji;</li>
+<li>infrastrukturę i szkolenie;</li>
+<li>dane, licencje, chmurę/obliczenia i łączność;</li>
+<li>cyber, testy i certyfikację;</li>
+<li>części, serwis, naprawy i aktualizacje;</li>
+<li>energię, magazynowanie i logistykę;</li>
+<li>zmianę komponentów i dostawców;</li>
+<li>utylizację lub demilitaryzację, gdy dotyczy;</li>
+<li>koszt migracji oraz zakończenia;</li>
+<li>rezerwę na ryzyko z uzasadnieniem.</li>
+</ul>
+<p>Porównanie ofert według ceny zakupu bez TCO może premiować rozwiązanie najdroższe w utrzymaniu albo tworzące niekontrolowalną zależność.</p>
+<h3 id="33-wartosc-praw-i-opcji">3.3. Wartość praw i opcji</h3>
+<p>Model ujmuje jako osobne pozycje prawa do:</p>
+<ul>
+<li>audytu kodu i konfiguracji;</li>
+<li>dostępu do interfejsów;</li>
+<li>naprawy i lokalnej aktualizacji;</li>
+<li>kwalifikacji alternatywnego komponentu;</li>
+<li>depozytu dokumentacji i kodu;</li>
+<li>produkcji awaryjnej na zdefiniowanych warunkach;</li>
+<li>eksportu i modyfikacji;</li>
+<li>zakończenia bez nieproporcjonalnej opłaty.</li>
+</ul>
+<p>Opcja ma koszt, lecz redukuje ekspozycję. Należy porównywać koszt zakupu opcji z oczekiwaną stratą i znaczeniem strategicznym, a nie wymagać wszystkich praw w każdym kontrakcie.</p>
+<h2 id="4-dopasowanie-instrumentu-do-etapu">4. Dopasowanie instrumentu do etapu</h2>
+<table>
+<thead>
+<tr>
+<th>Etap</th>
+<th>Niepewność</th>
+<th>Instrument podstawowy</th>
+<th>Dlaczego</th>
+<th>Warunek stop</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S0 problem</td>
+<td>czy potrzeba jest realna?</td>
+<td>analiza, zamówienie problemowe</td>
+<td>kupuje definicję i bazę</td>
+<td>brak właściciela/użytkownika</td>
+</tr>
+<tr>
+<td>S1 wykonalność</td>
+<td>czy istnieje legalna i techniczna droga?</td>
+<td>mały grant/kontrakt B+R</td>
+<td>ogranicza koszt poznania</td>
+<td>nierozwiązywalne prawo/bezpieczeństwo</td>
+</tr>
+<tr>
+<td>S2 prototyp</td>
+<td>czy mechanizm działa?</td>
+<td>finansowanie etapowe</td>
+<td>płatność za kamień milowy</td>
+<td>brak redukcji kluczowej niepewności</td>
+</tr>
+<tr>
+<td>S3 test</td>
+<td>czy działa względem bazy?</td>
+<td>kontrakt na test i ewaluację</td>
+<td>niezależny dowód</td>
+<td>brak przewagi lub jakości dowodu</td>
+</tr>
+<tr>
+<td>S4 mała partia</td>
+<td>czy jest powtarzalny i utrzymywalny?</td>
+<td>zamówienie z opcją</td>
+<td>dane realnego cyklu życia</td>
+<td>niespełnione kryteria niezawodności/serwisu</td>
+</tr>
+<tr>
+<td>S5 skala</td>
+<td>czy popyt i produkcja są trwałe?</td>
+<td>zamówienie, kredyt, gwarancja, kapitał</td>
+<td>finansuje moce i dostawy</td>
+<td>brak popytu, bezpieczeństwa lub TCO</td>
+</tr>
+<tr>
+<td>S6 eksport</td>
+<td>czy istnieje kontrahent i zgodność?</td>
+<td>ubezpieczenie/gwarancja/finansowanie eksportu</td>
+<td>dzieli ryzyko transakcji</td>
+<td>brak end-user/compliance/przychodu</td>
+</tr>
+</tbody>
+</table>
+<h3 id="grant">Grant</h3>
+<p>Właściwy, gdy wynik ma wysoką niepewność i spillovers, a zamówienie produktu byłoby przedwczesne. Grant powinien mieć kamienie milowe, dane o rezultacie i prawo zakończenia. Nie może zastępować sygnału popytu.</p>
+<h3 id="zamowienie">Zamówienie</h3>
+<p>Właściwe, gdy istnieje użytkownik i możliwy do odebrania rezultat. Kontrakt może kupować badanie, prototyp, test, partię lub usługę. Kluczowe są kryteria odbioru, dane, IP, cyber, TCO i opcje.</p>
+<h3 id="kapita">Kapitał</h3>
+<p>Właściwy, gdy państwo chce uczestniczyć w długoterminowej wartości i ryzyku firmy, a nie tylko kupić produkt. Wymaga profesjonalnego ładu, wyceny, ochrony mniejszości, strategii wyjścia i rozdzielenia decyzji inwestycyjnej od zakupowej.</p>
+<h3 id="kredyt-i-gwarancja">Kredyt i gwarancja</h3>
+<p>Właściwe dla finansowania mocy, zapasów i kapitału obrotowego przy wiarygodnym popycie. Gwarancja tworzy ekspozycję warunkową i musi być wyceniona, limitowana oraz monitorowana.</p>
+<h3 id="infrastruktura-wspolna">Infrastruktura wspólna</h3>
+<p>Może wymagać finansowania publicznego, gdy służy wielu firmom i jednostkom. Powinna mieć zasady równego dostępu, cennik lub uzasadnienie dotacji, miernik wykorzystania, plan bezpieczeństwa i warunek zamknięcia niewykorzystanej infrastruktury.</p>
+<h2 id="5-mapa-zrode-finansowania">5. Mapa źródeł finansowania</h2>
+<h3 id="51-budzet-panstwa">5.1. Budżet państwa</h3>
+<p>Najbardziej bezpośredni instrument dla zadań administracji, bezpieczeństwa i zamówień. Pozwala dopasować zakres do polskich potrzeb, ale ma pełny koszt alternatywny i podlega krajowym regułom budżetowym. W modelu należy wskazać część, dysponenta, rok zobowiązania, płatność i wynik.</p>
+<h3 id="52-safe">5.2. SAFE</h3>
+<p>SAFE jest ważnym źródłem finansowania zakupów i rozwoju zdolności, lecz ma charakter pożyczkowy (<strong>CLM-1208</strong>). Dla każdego kosztu trzeba ustalić kwalifikowalność, terminy, warunki wspólnych zakupów lub udziału przemysłu, przepływ płatności, koszt finansowania i zgodność z krajowym planem. Nie można wpisywać całej dostępnej kwoty jako budżetu nowej strategii.</p>
+<p><strong>REKOMENDACJA:</strong> deklarowany plan 89% dla polskiej gospodarki (<strong>CLM-1209</strong>) przełożyć na metrykę kontraktową z definicją wartości dodanej, publikowaną metodologią i pomiarem ex post.</p>
+<h3 id="53-edf-eudis-step-i-inne-instrumenty-ue">5.3. EDF, EUDIS, STEP i inne instrumenty UE</h3>
+<p>Instrumenty mogą finansować B+R, demonstracje, skalowanie lub kapitał zależnie od bieżących regulaminów. Model nie zakłada kwalifikowalności. Każda pozycja ma: program, call, beneficjenta, koszt kwalifikowany, współfinansowanie, prawa IP, warunki konsorcjum, termin, ryzyko i unikalny identyfikator kosztu.</p>
+<p>Polityka spójności 2021–2027 obejmuje w Polsce ponad 76 mld EUR i 16 programów regionalnych, ale środki są przypisane do konkretnych programów, celów i zasad — nie stanowią swobodnej puli dla programu „Polska 2040” (<a href="https://www.gov.pl/web/fundusze-regiony/fundusze-ue-2021-27">MFiPR</a>, <strong>CLM-1108</strong>). Model może ujmować wyłącznie pozycje z ustaloną kwalifikowalnością, beneficjentem, współfinansowaniem i brakiem podwójnego finansowania.</p>
+<h3 id="54-pfr-bgk-ncbr-parp-i-instrumenty-krajowe">5.4. PFR, BGK, NCBR, PARP i instrumenty krajowe</h3>
+<p>Rola instytucji powinna wynikać z typu ryzyka: grant technologiczny, kapitał, kredyt, gwarancja, internacjonalizacja lub rozwój MŚP. Program nie tworzy automatycznie nowego funduszu, zanim nie wykaże luki, której istniejący instrument nie potrafi obsłużyć.</p>
+<h3 id="55-kapita-prywatny-i-strategiczny">5.5. Kapitał prywatny i strategiczny</h3>
+<p>Kapitał prywatny wzmacnia dyscyplinę rynku, lecz może unikać długiego cyklu, ryzyka eksportowego i ograniczeń bezpieczeństwa. Państwo może redukować konkretną barierę, ale nie powinno gwarantować całego wyniku biznesowego. Warunkiem jest prywatny udział ryzyka, przejrzysta wycena, ochrona interesu publicznego i brak preferencji bez procedury.</p>
+<h2 id="6-trzy-scenariusze-finansowe">6. Trzy scenariusze finansowe</h2>
+<p>Scenariusze są strukturą decyzji. Liczby zostaną uzupełnione po audycie bazowym w skoroszycie <code>financing-scenarios.xlsx</code>.</p>
+<h3 id="61-scenariusz-l-integracja-niskokosztowa">6.1. SCENARIUSZ L — integracja niskokosztowa</h3>
+<p><strong>Zakres:</strong> Biuro Realizacji, wspólne rejestry, ograniczony pilotaż danych/testów, wykorzystanie istniejących laboratoriów i instrumentów, mały program przekwalifikowania.</p>
+<p><strong>Korzyści:</strong> niska ekspozycja, szybkie poznanie luk, możliwość zakończenia.<br />
+<strong>Ryzyka:</strong> brak masy krytycznej, przeciążenie istniejących instytucji, mała zdolność inwestycji w komponenty.<br />
+<strong>Bramka rozszerzenia:</strong> potwierdzony pipeline projektów, użytkownicy i zweryfikowana luka finansowa.</p>
+<h3 id="62-scenariusz-b-portfel-bazowy">6.2. SCENARIUSZ B — portfel bazowy</h3>
+<p><strong>Zakres:</strong> pełne mechanizmy L oraz finansowanie bezpiecznej przestrzeni danych, większej liczby małych partii, wybranych komponentów, infrastruktury wspólnej, pilotaży regionalnych i partnerstw.</p>
+<p><strong>Korzyści:</strong> wystarczająca skala do sprawdzenia systemu i budowy ekosystemu.<br />
+<strong>Ryzyka:</strong> złożoność koordynacji, podwójne finansowanie, presja na szybkie ogłaszanie skali.<br />
+<strong>Bramka rozszerzenia:</strong> wyniki G3, TCO, popyt, produkcja, serwis i pozytywna analiza fiskalna.</p>
+<h3 id="63-scenariusz-h-przyspieszona-mobilizacja">6.3. SCENARIUSZ H — przyspieszona mobilizacja</h3>
+<p><strong>Zakres:</strong> szeroki CAPEX, rezerwy mocy, większe zapasy, rozbudowa sieci edukacyjnej i szybkie partnerstwa.</p>
+<p><strong>Korzyści:</strong> możliwie szybkie zwiększenie podaży przy trafnej diagnozie.<br />
+<strong>Ryzyka:</strong> największy koszt błędu, nieużywane moce, inflacja kosztów, wypieranie prywatnych inwestycji, zależność od dostawcy i ograniczenia wykonawcze.<br />
+<strong>Warunek wejścia:</strong> formalna ocena potrzeby strategicznej, dane bazowe, popyt, audyt przemysłu, prawo, finansowanie i jawna akceptacja kosztu alternatywnego.</p>
+<h3 id="64-macierz-wyboru">6.4. Macierz wyboru</h3>
+<table>
+<thead>
+<tr>
+<th>Kryterium</th>
+<th style="text-align: right;">L</th>
+<th style="text-align: right;">B</th>
+<th style="text-align: right;">H</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>odwracalność</td>
+<td style="text-align: right;">wysoka</td>
+<td style="text-align: right;">średnia/wysoka</td>
+<td style="text-align: right;">niska</td>
+</tr>
+<tr>
+<td>szybkość uczenia</td>
+<td style="text-align: right;">średnia</td>
+<td style="text-align: right;">wysoka</td>
+<td style="text-align: right;">wysoka, jeśli zdolność wykonawcza wystarczy</td>
+</tr>
+<tr>
+<td>ekspozycja fiskalna</td>
+<td style="text-align: right;">niska</td>
+<td style="text-align: right;">średnia</td>
+<td style="text-align: right;">wysoka</td>
+</tr>
+<tr>
+<td>ryzyko niewykorzystanych mocy</td>
+<td style="text-align: right;">niskie</td>
+<td style="text-align: right;">średnie</td>
+<td style="text-align: right;">wysokie</td>
+</tr>
+<tr>
+<td>zdolność budowy komponentów</td>
+<td style="text-align: right;">ograniczona</td>
+<td style="text-align: right;">selektywna</td>
+<td style="text-align: right;">szeroka</td>
+</tr>
+<tr>
+<td>wymóg jakości danych</td>
+<td style="text-align: right;">umiarkowany</td>
+<td style="text-align: right;">wysoki</td>
+<td style="text-align: right;">bardzo wysoki</td>
+</tr>
+<tr>
+<td>rekomendacja v0.1</td>
+<td style="text-align: right;">minimum startowe</td>
+<td style="text-align: right;">wariant do wyceny</td>
+<td style="text-align: right;">tylko warunkowo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7-ocena-wpywu-gospodarczego">7. Ocena wpływu gospodarczego</h2>
+<h3 id="71-kontrfaktyczny-scenariusz">7.1. Kontrfaktyczny scenariusz</h3>
+<p>Wpływ mierzy różnicę względem wiarygodnej alternatywy, nie stan po wydatku. Alternatywami mogą być: import gotowego systemu, pozostawienie obecnego procesu, zakup usługi, wspólny projekt sojuszniczy, inwestycja cywilna albo brak działania. Każda analiza wskazuje kontrfaktyczny wariant i powód wyboru.</p>
+<h3 id="72-dodatkowosc">7.2. Dodatkowość</h3>
+<p>Należy rozdzielić:</p>
+<ul>
+<li>aktywność, która wydarzyłaby się bez programu;</li>
+<li>aktywność przyspieszoną;</li>
+<li>aktywność zwiększoną skalą;</li>
+<li>aktywność całkowicie dodatkową;</li>
+<li>aktywność przeniesioną z innego regionu lub programu;</li>
+<li>aktywność wypartą przez wzrost cen, płac lub dostęp do infrastruktury.</li>
+</ul>
+<h3 id="73-wartosc-dodana-w-polsce">7.3. Wartość dodana w Polsce</h3>
+<p>Metryka powinna obejmować wynagrodzenia, nadwyżkę operacyjną, podatki produkcyjne netto i krajowy wkład poddostawców zgodnie z uzgodnioną metodologią. Nie jest nią cena kontraktu ani udział faktur wystawionych przez polską spółkę. Należy ujawnić poziom łańcucha i ryzyko podwójnego liczenia.</p>
+<h3 id="74-produktywnosc">7.4. Produktywność</h3>
+<p>Kanały wpływu:</p>
+<ul>
+<li>automatyzacja i krótszy czas procesów;</li>
+<li>lepsza jakość, bezpieczeństwo i mniej przestojów;</li>
+<li>dyfuzja software, sensorów, robotyki i metod produkcji;</li>
+<li>wzrost skali oraz specjalizacji dostawców;</li>
+<li>kompetencje przenoszone między sektorami;</li>
+<li>wspólna infrastruktura i standardy;</li>
+<li>eksport i uczenie od wymagających klientów.</li>
+</ul>
+<p>Pomiar wymaga danych przed/po i grupy porównawczej lub innej wiarygodnej metody. Ankieta satysfakcji nie jest miarą produktywności.</p>
+<h3 id="75-rynek-pracy">7.5. Rynek pracy</h3>
+<p>Raportuje się role, kompetencje, wynagrodzenia, czas obsadzenia, retencję i produktywność, nie tylko liczbę miejsc. Trzeba odjąć osoby przesunięte z innych firm i uwzględnić ograniczenia podaży nauczycieli oraz specjalistów. Długotrwały wakat może wskazywać na brak kompetencji, nie automatycznie na potrzebę nowego kierunku studiów.</p>
+<h3 id="76-eksport">7.6. Eksport</h3>
+<p>Wynik eksportowy obejmuje wykonany przychód, marżę, produkcję i serwis pozostający w Polsce, dywersyfikację rynków oraz zgodność. Memoranda, pipeline i licencje eksportowe raportuje się osobno. Koszt gwarancji i ryzyko niewykonania są częścią wyniku publicznego.</p>
+<h3 id="77-spillovers-cywilne">7.7. Spillovers cywilne</h3>
+<p>Wartość cywilna może powstać przez wspólne moduły, software, proces produkcji, sensory, diagnostykę, dane i kompetencje. Każdy deklarowany spillover wymaga produktu, klienta lub testu procesu. Samo określenie technologii jako dual-use nie jest dowodem popytu.</p>
+<h2 id="8-wartosc-bezpieczenstwa-i-odpornosci">8. Wartość bezpieczeństwa i odporności</h2>
+<p>Nie wszystkie korzyści dają się wiarygodnie sprowadzić do PLN. Dla zdolności krytycznych rekomendowane jest połączenie:</p>
+<ul>
+<li>minimalnego wymaganego rezultatu bezpieczeństwa;</li>
+<li>analizy koszt–skuteczność między opcjami;</li>
+<li>scenariuszy zakłócenia i czasu odtworzenia;</li>
+<li>wyceny kosztów możliwych do policzenia;</li>
+<li>jakościowej oceny skutków trudnych do monetyzacji;</li>
+<li>jawnej decyzji o akceptacji ryzyka.</li>
+</ul>
+<p>Nie należy przypisywać arbitralnej ceny unikniętej katastrofie, aby uzasadnić dowolny wydatek. Jeżeli korzyść jest niemierzalna, decyzja polityczna powinna to powiedzieć wprost i porównać alternatywy.</p>
+<h2 id="9-analiza-fiskalna-i-osiagalnosc">9. Analiza fiskalna i osiągalność</h2>
+<h3 id="91-widok-roczny-i-wieloletni">9.1. Widok roczny i wieloletni</h3>
+<p>Model pokazuje zobowiązania, płatności, finansowanie, OPEX po zakończeniu inwestycji, gwarancje i koszt wyjścia. Osobno pokazuje środki krajowe, pożyczkowe, UE i prywatne. Nie miesza limitu dostępnego z harmonogramem płatności.</p>
+<h3 id="92-pozyczki-i-gwarancje">9.2. Pożyczki i gwarancje</h3>
+<p>Pożyczka tworzy aktywo/wydatek oraz koszt obsługi i spłaty. Gwarancja może nie powodować płatności w dniu udzielenia, lecz tworzy ryzyko warunkowe. Raport podaje ekspozycję, prawdopodobieństwo, odzysk i limit koncentracji.</p>
+<h3 id="93-koszt-alternatywny">9.3. Koszt alternatywny</h3>
+<p>Każdy scenariusz wskazuje, które inne wydatki, zdolności lub inwestycje mogą zostać opóźnione. Analiza nie musi wybierać politycznie między nimi, ale nie może przedstawiać środków publicznych jako bezkosztowych.</p>
+<h3 id="94-inflacja-i-zdolnosc-wykonawcza">9.4. Inflacja i zdolność wykonawcza</h3>
+<p>Szybkie zwiększenie popytu przy ograniczonej podaży może podnosić ceny, wynagrodzenia i czas realizacji bez proporcjonalnego wzrostu produkcji. Scenariusz H wymaga analizy podaży maszyn, energii, komponentów, specjalistów i zdolności zakupowych.</p>
+<h2 id="10-bramka-inwestycyjna">10. Bramka inwestycyjna</h2>
+<p>Każda inwestycja przekraczająca ustalony próg portfela przedstawia kartę:</p>
+<ol>
+<li>problem i właściciel;</li>
+<li>wariant bez inwestycji;</li>
+<li>wartość bazowa;</li>
+<li>zakres i pełny koszt cyklu życia;</li>
+<li>źródła finansowania oraz dodatkowość;</li>
+<li>korzyści bezpieczeństwa i gospodarcze;</li>
+<li>ryzyka i analiza wrażliwości;</li>
+<li>popyt i wykorzystanie mocy;</li>
+<li>prawa, bezpieczeństwo i zależności;</li>
+<li>kamienie milowe, stop-rule i koszt zamknięcia;</li>
+<li>konflikt interesów;</li>
+<li>niezależną opinię red-team.</li>
+</ol>
+<p>Decyzja ma cztery możliwe wyniki: finansuj, finansuj etap, przeprojektuj albo odrzuć. „Ważny strategicznie” nie zwalnia z wyboru wariantu i warunku stop.</p>
+<h2 id="11-analiza-wrazliwosci-i-scenariusze-ryzyka">11. Analiza wrażliwości i scenariusze ryzyka</h2>
+<p>Model powinien co najmniej zmieniać:</p>
+<ul>
+<li>koszt CAPEX i OPEX;</li>
+<li>opóźnienie uruchomienia;</li>
+<li>wykorzystanie mocy;</li>
+<li>udział importu i kurs walutowy;</li>
+<li>koszt finansowania;</li>
+<li>odsetek projektów zamkniętych przed skalą;</li>
+<li>tempo aktualizacji technologii;</li>
+<li>eksport i opóźnienie przychodu;</li>
+<li>retencję kadr;</li>
+<li>koszt serwisu i awarii;</li>
+<li>dostępność komponentów;</li>
+<li>wysokość odzysku z inwestycji i gwarancji.</li>
+</ul>
+<p>Wynik raportuje punkt krytyczny: przy jakiej zmianie założenia rekomendowany wariant przestaje być najlepszy. Założenie o największej dźwigni staje się priorytetem pozyskania danych.</p>
+<h2 id="12-governance-finansowy-i-kontrola-podwojnego-finansowania">12. Governance finansowy i kontrola podwójnego finansowania</h2>
+<h3 id="121-unikalny-identyfikator-kosztu">12.1. Unikalny identyfikator kosztu</h3>
+<p>Każdy koszt otrzymuje identyfikator niezależny od projektu i instrumentu. Rekord zawiera beneficjenta, fakturę/umowę, kategorię, okres, źródła, udział finansowania, rezultat i status. Ten sam koszt nie może zostać przypisany dwóm instrumentom poza legalnym współfinansowaniem ujawnionym w rekordzie.</p>
+<h3 id="122-rozdzielenie-rol">12.2. Rozdzielenie ról</h3>
+<ul>
+<li>właściciel problemu określa rezultat;</li>
+<li>nabywca zawiera i odbiera kontrakt;</li>
+<li>instytucja finansująca ocenia instrument i ryzyko;</li>
+<li>ekspert techniczny ocenia dowód;</li>
+<li>finanse konsolidują ekspozycję;</li>
+<li>audyt i red-team sprawdzają dodatkowość, konflikt interesów i wykonanie;</li>
+<li>Komitet podejmuje decyzję portfelową.</li>
+</ul>
+<p>Podmiot nie powinien samodzielnie definiować potrzeby, przyznawać sobie finansowania i zatwierdzać własnego wyniku.</p>
+<h3 id="123-raport-kwartalny">12.3. Raport kwartalny</h3>
+<p>Obejmuje zobowiązania, płatności, ekspozycje warunkowe, odchylenia, wyniki bramek, projekty zamknięte, zmiany TCO, wykorzystanie infrastruktury i ryzyko podwójnego finansowania. Dane wrażliwe są agregowane.</p>
+<h2 id="13-model-danych-i-skoroszyt">13. Model danych i skoroszyt</h2>
+<p>Repozytorium generuje skoroszyt z kartami:</p>
+<ul>
+<li><code>README</code> — status, jednostka i zasady;</li>
+<li><code>Assumptions</code> — każde założenie, wartość, jednostka, rok, źródło i status;</li>
+<li><code>Scenarios</code> — koszty L/B/H według kategorii;</li>
+<li><code>Funding map</code> — instrument, etap, status i ryzyko kolizji;</li>
+<li><code>KPI</code> — definicja, baza, cel, właściciel i źródło.</li>
+</ul>
+<h3 id="minimalne-pola-zaozenia">Minimalne pola założenia</h3>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Znaczenie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>stabilny identyfikator</td>
+</tr>
+<tr>
+<td>opis</td>
+<td>jedno twierdzenie lub parametr</td>
+</tr>
+<tr>
+<td>wartość</td>
+<td>liczba albo <code>UNKNOWN</code></td>
+</tr>
+<tr>
+<td>jednostka</td>
+<td>PLN/EUR, %, osoby, dni itd.</td>
+</tr>
+<tr>
+<td>rok cen</td>
+<td>dla wartości pieniężnych</td>
+</tr>
+<tr>
+<td>okres</td>
+<td>rok lub zakres</td>
+</tr>
+<tr>
+<td>scenariusz</td>
+<td>L/B/H lub wspólne</td>
+</tr>
+<tr>
+<td>źródło</td>
+<td>ID źródła/claimu albo decyzji</td>
+</tr>
+<tr>
+<td>status</td>
+<td>fakt, założenie, estymacja, scenariusz</td>
+</tr>
+<tr>
+<td>właściciel</td>
+<td>osoba/instytucja aktualizująca</td>
+</tr>
+<tr>
+<td>wrażliwość</td>
+<td>wpływ zmiany na wynik</td>
+</tr>
+<tr>
+<td>data ważności</td>
+<td>termin ponownej weryfikacji</td>
+</tr>
+</tbody>
+</table>
+<p>Każda komórka liczbowa w finalnym modelu musi dać się prześledzić do założenia. Ręcznie wpisana wartość bez metadanych jest błędem modelu.</p>
+<h2 id="14-wskazniki-finansowe-i-gospodarcze">14. Wskaźniki finansowe i gospodarcze</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Wskaźnik</th>
+<th>Definicja</th>
+<th>Czego nie mylić</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FIN-01</td>
+<td>koszt do dowodu</td>
+<td>wydatki do B3 / projekt</td>
+<td>cały budżet programu</td>
+</tr>
+<tr>
+<td>FIN-02</td>
+<td>koszt unikniętego zobowiązania</td>
+<td>opcje niewykonane po negatywnym teście</td>
+<td>„oszczędność” bez zatwierdzonej alternatywy</td>
+</tr>
+<tr>
+<td>FIN-03</td>
+<td>TCO na rezultat</td>
+<td>pełny koszt / jednostka wyniku</td>
+<td>cena nabycia</td>
+</tr>
+<tr>
+<td>FIN-04</td>
+<td>udział kosztów dodatkowych</td>
+<td>koszty przyrostowe / wszystkie w zakresie</td>
+<td>całość instrumentów UE</td>
+</tr>
+<tr>
+<td>FIN-05</td>
+<td>wartość dodana w Polsce</td>
+<td>metodologia rachunków uzgodniona ex ante</td>
+<td>wartość faktur polskiej spółki</td>
+</tr>
+<tr>
+<td>FIN-06</td>
+<td>prywatny udział ryzyka</td>
+<td>prywatny kapitał narażony / cały kapitał ryzyka</td>
+<td>kredyt w pełni gwarantowany</td>
+</tr>
+<tr>
+<td>FIN-07</td>
+<td>wykorzystanie infrastruktury</td>
+<td>czas/zdolność wykorzystana / dostępna</td>
+<td>liczba podmiotów zapisanych</td>
+</tr>
+<tr>
+<td>FIN-08</td>
+<td>popyt po pilotażu</td>
+<td>finansowanie właściciela procesu po pilotażu</td>
+<td>kolejna dotacja pilotażowa</td>
+</tr>
+<tr>
+<td>FIN-09</td>
+<td>wykonany eksport</td>
+<td>zrealizowane dostawy i serwis</td>
+<td>pipeline i memoranda</td>
+</tr>
+<tr>
+<td>FIN-10</td>
+<td>ekspozycja warunkowa</td>
+<td>gwarancje i inne zobowiązania według ryzyka</td>
+<td>wyłącznie płatności gotówkowe</td>
+</tr>
+</tbody>
+</table>
+<h2 id="15-ryzyka-finansowe-i-odpowiedzi">15. Ryzyka finansowe i odpowiedzi</h2>
+<table>
+<thead>
+<tr>
+<th>Ryzyko</th>
+<th>Mechanizm</th>
+<th>Zabezpieczenie</th>
+<th>Stop-rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>budżet jako cel</td>
+<td>presja wykorzystania środków</td>
+<td>bramki i opcje</td>
+<td>brak dowodu blokuje skalę</td>
+</tr>
+<tr>
+<td>podwójne finansowanie</td>
+<td>wiele instrumentów</td>
+<td>ID kosztu i konsolidacja</td>
+<td>nierozwiązana kolizja blokuje płatność</td>
+</tr>
+<tr>
+<td>ukryty TCO</td>
+<td>niska cena wejścia</td>
+<td>obowiązkowy lifecycle</td>
+<td>brak danych TCO blokuje G3</td>
+</tr>
+<tr>
+<td>nieużywane moce</td>
+<td>CAPEX bez popytu</td>
+<td>kontrakty, modułowość, test rynku</td>
+<td>niskie wykorzystanie kończy wsparcie</td>
+</tr>
+<tr>
+<td>moral hazard</td>
+<td>pełna gwarancja państwa</td>
+<td>prywatny udział ryzyka</td>
+<td>brak ekspozycji prywatnej wymaga wyjątku</td>
+</tr>
+<tr>
+<td>pozorna wartość krajowa</td>
+<td>montaż i fakturowanie</td>
+<td>metodologia wartości dodanej</td>
+<td>brak danych zmienia claim na UNKNOWN</td>
+</tr>
+<tr>
+<td>fałszywy mnożnik</td>
+<td>arbitralna korzyść PKB</td>
+<td>kontrfaktyczne badanie</td>
+<td>brak metody blokuje publikację</td>
+</tr>
+<tr>
+<td>inflacja podaży</td>
+<td>zbyt szybkie zamówienia</td>
+<td>fazowanie i konkurencja</td>
+<td>odchylenie kosztu otwiera decyzję ponownie</td>
+</tr>
+<tr>
+<td>polityczne utrzymanie</td>
+<td>projekt nie może umrzeć</td>
+<td>raport zamknięć i sunset</td>
+<td>dwie bramki bez postępu kończą finansowanie</td>
+</tr>
+<tr>
+<td>ryzyko walutowe</td>
+<td>import i kurs</td>
+<td>scenariusze, hedging zgodnie z polityką</td>
+<td>przekroczenie tolerancji wymaga decyzji</td>
+</tr>
+</tbody>
+</table>
+<h2 id="16-pierwsze-100-dni-plan-pracy-finansowej">16. Pierwsze 100 dni — plan pracy finansowej</h2>
+<h3 id="d0d30">D0–D30</h3>
+<ul>
+<li>zamrozić definicje kosztu, zobowiązania, płatności i wartości dodanej;</li>
+<li>utworzyć rejestr programów i instrumentów;</li>
+<li>nadać unikalne identyfikatory kosztów;</li>
+<li>wskazać właścicieli danych i terminy;</li>
+<li>oddzielić informacje publiczne, wrażliwe i nieznane.</li>
+</ul>
+<h3 id="d31d60">D31–D60</h3>
+<ul>
+<li>zebrać istniejące zobowiązania i płatności;</li>
+<li>zmapować SAFE, EDF, EUDIS, STEP oraz instrumenty krajowe do etapów;</li>
+<li>wycenić ograniczone pilotaże i koszt dowodu;</li>
+<li>przygotować metodologię TCO i wartości dodanej;</li>
+<li>zidentyfikować największe ryzyka fiskalne i warunkowe.</li>
+</ul>
+<h3 id="d61d100">D61–D100</h3>
+<ul>
+<li>przedstawić jakościowe scenariusze L/B/H i pierwsze przedziały tam, gdzie dane są wystarczające;</li>
+<li>przeprowadzić analizę podwójnego finansowania;</li>
+<li>wybrać założenia o największej wrażliwości;</li>
+<li>przygotować plan ich walidacji do M6;</li>
+<li>przekazać Radzie Ministrów koszt działań odwracalnych i ekspozycję kolejnych bramek.</li>
+</ul>
+<h2 id="17-decyzje-wymagane-przed-przyjeciem-budzetu">17. Decyzje wymagane przed przyjęciem budżetu</h2>
+<ol>
+<li>Jaki problem i rezultat kupuje każda kategoria?</li>
+<li>Jaki jest kontrfaktyczny wariant?</li>
+<li>Które koszty są już zobowiązane?</li>
+<li>Które są dodatkowe i dlaczego?</li>
+<li>Kto ponosi ryzyko techniczne, rynkowe i finansowe?</li>
+<li>Jakie prawa i opcje otrzymuje państwo?</li>
+<li>Jaki jest pełny koszt cyklu życia?</li>
+<li>Jaki warunek zatrzymuje płatność lub skalę?</li>
+<li>Jak mierzony jest wynik bezpieczeństwa i gospodarczy?</li>
+<li>Jaki jest koszt alternatywny i plan wyjścia?</li>
+</ol>
+<h2 id="dalsze-pytania">Dalsze pytania</h2>
+<ul>
+<li>Jaka część istniejących zobowiązań mieści się w zakresie bez zmiany etykiety?</li>
+<li>Jakie są terminy i koszt finansowania SAFE dla poszczególnych pozycji?</li>
+<li>Jak zdefiniować wartość dodaną w Polsce dla software, IP, danych i serwisu?</li>
+<li>Które komponenty uzasadniają CAPEX, a które jedynie dywersyfikację importu?</li>
+<li>Jak wycenić rezerwy mocy i dostępność bez płacenia za nieużywaną infrastrukturę?</li>
+<li>Jaki prywatny udział ryzyka jest możliwy w różnych etapach?</li>
+<li>Które spillovers cywilne mają już nabywcę i bazę produktywności?</li>
+<li>Jak raportować korzyści bezpieczeństwa bez fałszywej monetyzacji?</li>
+<li>Jaki jest koszt administracyjny i pojemność wdrożeniowa instytucji?</li>
+<li>Kiedy program/fundusz powinien zostać rozwiązany?</li>
+</ul>
+<h2 id="zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</h2>
+<ul>
+<li>Wszystkie wartości scenariuszowe pozostają <code>UNKNOWN</code> do czasu audytu i decyzji o założeniach.</li>
+<li>Kwoty z oficjalnych komunikatów opisują instrument lub plan i nie są automatycznie przepływem kasowym programu.</li>
+<li>Kwalifikowalność i warunki każdego instrumentu wymagają weryfikacji w aktualnym regulaminie oraz opinii prawnej/finansowej.</li>
+<li>Wpływ gospodarczy wymaga kontrfaktycznego badania; dokument nie stosuje arbitralnego mnożnika.</li>
+<li>Wartość bezpieczeństwa może wymagać decyzji jakościowej i analizy koszt–skuteczność zamiast monetyzacji.</li>
+<li>Model jest aktualizowany wraz ze źródłami, a zmiana definicji lub roku bazowego tworzy nową wersję wyniku.</li>
+</ul><div class="metadata">Identyfikator: impact-finance · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

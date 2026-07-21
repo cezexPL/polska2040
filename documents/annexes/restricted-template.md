@@ -19,7 +19,7 @@ Szablon pozwala połączyć jawną strategię z odpowiedziami, których nie moż
 3. Zbieramy najmniejszy zakres potrzebny do konkretnej decyzji.
 4. Brak dostępu zapisuje się jako status, nie próbuje rekonstruować z pośrednich danych.
 5. Do warstwy jawnej wraca wyłącznie zatwierdzony agregat, przedział lub jakościowy wniosek.
-6. Każdy eksport przechodzi kontrolę ujawnienia i zatwierdzenie właściciela.
+6. Każde wyniesienie lub udostępnienie artefaktu poza środowisko przechodzi kontrolę ujawnienia i zatwierdzenie właściciela.
 7. Dane źródłowe, notatki robocze i wyniki pośrednie pozostają w środowisku autoryzowanym.
 8. Naruszenie procesu zatrzymuje analizę i uruchamia właściwą procedurę incydentu.
 
@@ -34,6 +34,10 @@ Warstwa jawna otrzymuje odpowiedzi typu:
 - „wniosek może być ujawniony po agregacji według zatwierdzonej metody”.
 
 Nie otrzymuje surowych wolumenów, lokalizacji, bibliotek, parametrów, podatności ani informacji o pojedynczych podmiotach, jeżeli właściciel ich nie dopuści.
+
+## Spis treści
+
+[TOC]
 
 ## 1. Rozdzielenie środowisk
 
@@ -68,7 +72,7 @@ Każde pytanie otrzymuje rekord:
 | agregat jawny | minimalny bezpieczny wynik, jeżeli możliwy |
 | termin | data odpowiedzi i data utraty aktualności |
 | status | otwarte, w toku, odpowiedziane, brak dostępu, zamknięte |
-| zatwierdzenie | osoba/organ dopuszczający produkt i eksport |
+| zatwierdzenie | osoba/organ dopuszczający produkt oraz jego wyniesienie lub udostępnienie |
 
 ### Wzór
 
@@ -190,13 +194,13 @@ Poniższe pytania są kategoriami. Właściciel informacji może je rozbić, ogr
 | Rola | Odpowiedzialność | Nie może samodzielnie |
 |---|---|---|
 | właściciel decyzji | określa pytanie i akceptuje ryzyko | zmieniać klauzuli informacji innego właściciela |
-| właściciel informacji | klasyfikuje, udostępnia, ogranicza i zatwierdza eksport | zatwierdzać merytorycznego wyniku za decydenta |
+| właściciel informacji | klasyfikuje, udostępnia, ogranicza i zatwierdza wyniesienie artefaktu | zatwierdzać merytorycznego wyniku za decydenta |
 | kierownik środowiska | dostęp, logi, konfiguracja i incydenty | rozszerzać celu przetwarzania |
 | analityk | wykonuje minimalną analizę i zapisuje ograniczenia | kopiować dane poza środowisko |
 | recenzent | odtwarza metodę i kwestionuje wniosek | być jedynym autorem tego samego wyniku |
 | bezpieczeństwo/ochrona danych | kontrola zgodności i ryzyka | zastępować decyzję polityczną |
 | sanitizator | przygotowuje wersję możliwą do ujawnienia | sam zatwierdzać publikacji |
-| approver eksportu | dopuszcza konkretny artefakt | udzielać zgody blankietowej na przyszłe wersje |
+| zatwierdzający udostępnienie | dopuszcza konkretny artefakt poza środowisko | udzielać zgody blankietowej na przyszłe wersje |
 | audyt | sprawdza ślad i przestrzeganie reguł | zmieniać danych źródłowych |
 
 ## 5. Workflow analizy autoryzowanej
@@ -236,11 +240,11 @@ Poniższe pytania są kategoriami. Właściciel informacji może je rozbić, ogr
 - wybiera najniższą szczegółowość wystarczającą do decyzji jawnej;
 - zapisuje, co usunięto i dlaczego w środowisku autoryzowanym.
 
-### Krok 6 — eksport
+### Krok 6 — kontrolowane wyniesienie lub udostępnienie
 
 - właściciel informacji zatwierdza konkretną wersję i kanał;
 - plik otrzymuje checksumę, datę i okres ważności;
-- eksport jest logowany;
+- wyniesienie lub udostępnienie jest logowane;
 - w repozytorium powstaje nowy claim z publicznym źródłem/zgodą i recenzentem.
 
 ### Krok 7 — zamknięcie
@@ -267,7 +271,7 @@ Status RAG bez definicji i progu jest niedopuszczalny. Przedział nie może być
 
 ## 7. Kontrola ujawnienia
 
-### Checklista przed eksportem
+### Checklista przed wyniesieniem lub udostępnieniem artefaktu
 
 - Czy odbiorca i decyzja nadal są aktualne?
 - Czy wynik zawiera najmniejszy potrzebny zakres?
@@ -276,7 +280,7 @@ Status RAG bez definicji i progu jest niedopuszczalny. Przedział nie może być
 - Czy czas, lokalizacja albo szczegół techniczny ujawniają podatność?
 - Czy wykres ma osie, komentarze lub nazwę pliku zdradzające więcej niż treść?
 - Czy usunięto komentarze, warstwy, historię zmian i metadane dokumentu?
-- Czy eksport nie narusza praw osoby trzeciej, danych osobowych lub tajemnicy przedsiębiorstwa?
+- Czy udostępnienie nie narusza praw osoby trzeciej, danych osobowych lub tajemnicy przedsiębiorstwa?
 - Czy właściciel informacji zatwierdził tę konkretną wersję?
 - Czy ustawiono datę ponownego sprawdzenia lub wycofania?
 
@@ -288,7 +292,7 @@ Sanitizator porównuje proponowany agregat z innymi danymi publicznymi i wcześn
 
 | Pole | Opis |
 |---|---|
-| `release_id` | identyfikator eksportu |
+| `release_id` | identyfikator kontrolowanego wydania artefaktu |
 | `query_id` | pytanie źródłowe |
 | `public_claim` | dokładne dopuszczone brzmienie |
 | `form` | indeks/przedział/status/wniosek |

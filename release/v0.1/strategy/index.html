@@ -1,0 +1,1281 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Polska 2040: Suwerenność technologiczna</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="strategy"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="polska-2040-suwerennosc-technologiczna">Polska 2040: Suwerenność technologiczna</h1>
+<p><strong>Projekt narodowego programu systemów autonomicznych, AI i technologii podwójnego zastosowania</strong><br>
+<strong>Status:</strong> niezależny, bezpartyjny materiał przedmandatowy v0.1 do konsultacji eksperckich; nie jest formalnym przedłożeniem rządowym<br>
+<strong>Stan wiedzy:</strong> 21 lipca 2026 r.<br />
+<strong>Horyzont decyzji:</strong> 2026–2040</p>
+<blockquote>
+<p>Dokument nie jest strategią rządową ani stanowiskiem jakiejkolwiek instytucji państwa. Opiera się wyłącznie na źródłach jawnych. Nie opisuje zdolności niejawnych, parametrów operacyjnych ani sposobów budowy lub użycia uzbrojenia.</p>
+</blockquote>
+<p><img class="cover-visual" src="../assets/generated/cover-gpt-image.png" alt="Koncepcyjna ilustracja połączonej infrastruktury, przemysłu, danych, energii, transportu i cywilnych systemów autonomicznych pod nadzorem człowieka"></p>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<h3 id="odpowiedz-w-jednym-zdaniu">Odpowiedź w jednym zdaniu</h3>
+<p>Polska powinna zbudować ponadresortowy <strong>system realizacji suwerenności technologicznej</strong>, który łączy potrzeby użytkowników, bezpieczne dane, szybkie testy, iteracyjne zamówienia, produkcję, serwis, kadry, finansowanie i eksport — zamiast tworzyć pojedynczy program dronowy, nową uczelnię albo państwową megafabrykę.</p>
+<h3 id="dziesiec-tez-strategicznych">Dziesięć tez strategicznych</h3>
+<ol>
+<li><strong>Problem jest systemowy, nie edukacyjny.</strong> Większa liczba absolwentów nie przełoży się na zdolności państwa, jeżeli nie istnieją problemy do rozwiązania, dane, środowiska testowe, zamówienia, kapitał, produkcja oraz perspektywa atrakcyjnej pracy.</li>
+<li><strong>Suwerenność nie oznacza autarkii.</strong> Celem jest kontrola krytycznych interfejsów, konfiguracji, danych i cyklu życia, znajomość zależności oraz zdolność zastąpienia dostawcy lub zwiększenia produkcji w kryzysie.</li>
+<li><strong>Zakres musi wykraczać poza statki powietrzne.</strong> Program obejmuje systemy powietrzne, lądowe, nawodne i podwodne, przeciwdziałanie systemom bezzałogowym, sensory, łączność, WRE/SIGINT, cyber, AI, logistykę, serwis, komponenty i zastosowania cywilne — na poziomie polityki technologicznej, bez ujawniania parametrów operacyjnych.</li>
+<li><strong>Potrzeba użytkownika poprzedza grant.</strong> Portfel zaczyna się od jawnej części problemu publicznego i kontrolowanej części wymagań, a kończy decyzją o skalowaniu albo zamknięciu projektu.</li>
+<li><strong>Dane i testy są infrastrukturą strategiczną.</strong> Bez bezpiecznej przestrzeni danych, wspólnych metod ewaluacji i dostępu do laboratoriów oraz poligonów nie da się szybko porównywać rozwiązań.</li>
+<li><strong>Produkcja ma być rozproszona i rekonfigurowalna.</strong> Państwo powinno budować sieć integratorów, dostawców komponentów, serwisu i rezerw mocy, nie jedną fabrykę jednej generacji produktu.</li>
+<li><strong>Współpraca z Ukrainą jest przewagą, ale nie może tworzyć zależności od jednego partnera.</strong> Potrzebne są portfolio partnerstw, due diligence, rozdzielenie IP, kontrola eksportu, depozyt dokumentacji i ciągłość działania.</li>
+<li><strong>Program wymaga mandatu przy centrum rządu.</strong> Biuro realizacji koordynuje portfel i eskaluje konflikty, lecz ministrowie zachowują ustawowe kompetencje i odpowiedzialność za wykonanie.</li>
+<li><strong>Wydatki muszą kupować zarówno bezpieczeństwo, jak i zdolność gospodarczą.</strong> Kontrakty, kapitał, gwarancje i granty pełnią różne funkcje; każdy instrument ma koszt alternatywny, warunek zakończenia oraz miernik rezultatu.</li>
+<li><strong>Wersja v0.1 nie zamraża budżetu ani wolumenów.</strong> Cele ilościowe stają się zobowiązaniem dopiero po audycie wartości bazowych, zobowiązań już istniejących, kosztów i zdolności wykonawczej.</li>
+</ol>
+<h3 id="decyzja-rekomendowana">Decyzja rekomendowana</h3>
+<p>Kandydat decyzji <strong>DEC-0001</strong> zakłada, że Rada Ministrów uruchomi sześciomiesięczny przegląd strategiczny. Powiązane kandydaty <strong>DEC-0002–DEC-0005</strong> obejmują ograniczony portfel działań odwracalnych: formalne wskazanie właściciela, audyt przemysłu i kadr, katalog problemów, pilotaż bezpiecznej przestrzeni danych, wspólny standard testów oraz pierwsze małe zamówienia z jednoznaczną bramką skalowania. Prezydent i BBN mogą wspierać ciągłość strategiczną, zgodność z NATO i coroczny przegląd odporności państwa, bez przejmowania kompetencji wykonawczych rządu. Wszystkie rekordy <code>DEC-*</code> pozostają kandydatami do czasu rozstrzygnięcia właściwości, podstawy procesu i relacji do obowiązujących strategii (<strong>GAP-0011</strong>).</p>
+<h3 id="co-juz-potwierdzaja-zroda-jawne">Co już potwierdzają źródła jawne</h3>
+<ul>
+<li>Polska podpisała 8 maja 2026 r. umowę pożyczki SAFE o wartości 43,7 mld EUR i jest największym beneficjentem instrumentu; nie oznacza to wypłaty całej kwoty ani bezzwrotnej dotacji (<a href="https://www.gov.pl/web/finanse/podpisanie-umowy-pozyczki-z-instrumentu-safe">Ministerstwo Finansów</a>, <strong>CLM-1208</strong>).</li>
+<li>KPRM deklaruje, że 89% funduszy SAFE ma trafić do polskiego przemysłu i gospodarki; jest to plan, nie zmierzony wynik wykonania (<a href="https://www.gov.pl/web/premier/nowe-zdolnosci-wojska-polskiego-dzieki-programowi-safe---lista-zadan">KPRM</a>, <strong>CLM-1209</strong>).</li>
+<li>Polska jest już wymieniona przez EDA jako uczestnik BraveTech EU, inicjatywy o łącznym budżecie 100 mln EUR; właściwą decyzją nie jest więc „wejście”, lecz określenie polskiego portfela i mierników korzyści (<a href="https://eda.europa.eu/news-and-events/news/2026/04/29/eda-partners-with-the-european-commission-on-bravetech-eu">EDA</a>, <strong>CLM-1213</strong>, <strong>CLM-1214</strong>).</li>
+<li>Umowa bezpieczeństwa Polska–Ukraina tworzy ramy dla łańcuchów produkcyjnych, wyboru lokalizacji, wspólnej produkcji i ochrony IP, ale nie ustanawia konkretnej spółki ani produktu (<a href="https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-mizh-ukrayinoyu-ta-92009">Prezydent Ukrainy</a>, <strong>CLM-1212</strong>).</li>
+<li>Polska polityka AI przewiduje rozwój Piast i Gaia AI Factory, vouchery PLGrid oraz piaskownice regulacyjne (<strong>CLM-1217</strong>). <strong>INFERENCE o ograniczonym zakresie dokumentu:</strong> w tym jawnym dokumencie polityki nie zdefiniowano kompletnego obronnego stosu danych i modeli (<strong>CLM-1218</strong>); nie dowodzi to braku rozwiązań MON ani innych zdolności niejawnych (<a href="https://ai.gov.pl/media/2025/11/Polityka-rozwoju-sztucznej-inteligencji-w-Polsce-do-2030-roku-17.11.2025__-1.pdf">Ministerstwo Cyfryzacji</a>).</li>
+<li>NATO utrzymuje sześć zasad odpowiedzialnego użycia AI: legalność, odpowiedzialność i rozliczalność, wyjaśnialność i identyfikowalność, niezawodność, sterowalność oraz ograniczanie stronniczości (<a href="https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy">NATO</a>, <strong>CLM-1220</strong>).</li>
+</ul>
+<p>Te fakty pokazują dostępne ramy i instrumenty. Nie dowodzą jeszcze, że Polska ma zintegrowany system realizacji, wystarczające moce produkcyjne ani osiągnięte rezultaty. Ustalenie rzeczywistego stanu jest pierwszym produktem programu, nie założeniem dokumentu.</p>
+<h2 id="spis-tresci">Spis treści</h2>
+<div class="toc">
+<ul>
+<li><a href="#polska-2040-suwerennosc-technologiczna">Polska 2040: Suwerenność technologiczna</a><ul>
+<li><a href="#executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</a><ul>
+<li><a href="#odpowiedz-w-jednym-zdaniu">Odpowiedź w jednym zdaniu</a></li>
+<li><a href="#dziesiec-tez-strategicznych">Dziesięć tez strategicznych</a></li>
+<li><a href="#decyzja-rekomendowana">Decyzja rekomendowana</a></li>
+<li><a href="#co-juz-potwierdzaja-zroda-jawne">Co już potwierdzają źródła jawne</a></li>
+</ul>
+</li>
+<li><a href="#spis-tresci">Spis treści</a></li>
+<li><a href="#1-mandat-zakres-i-definicje">1. Mandat, zakres i definicje</a><ul>
+<li><a href="#11-problem-publiczny">1.1. Problem publiczny</a></li>
+<li><a href="#12-definicja-suwerennosci-technologicznej-def-0001">1.2. Definicja suwerenności technologicznej (DEF-0001)</a></li>
+<li><a href="#13-zakres-technologiczny">1.3. Zakres technologiczny</a></li>
+<li><a href="#14-horyzonty">1.4. Horyzonty</a></li>
+</ul>
+</li>
+<li><a href="#2-diagnoza-dlaczego-obecny-model-wymaga-integracji">2. Diagnoza: dlaczego obecny model wymaga integracji</a><ul>
+<li><a href="#21-ancuch-wartosci-jest-tak-silny-jak-najsabsza-bramka">2.1. Łańcuch wartości jest tak silny jak najsłabsza bramka</a></li>
+<li><a href="#22-edukacja-bez-popytu-nie-tworzy-zdolnosci">2.2. Edukacja bez popytu nie tworzy zdolności</a></li>
+<li><a href="#23-finansowanie-nie-zastepuje-architektury-wykonania">2.3. Finansowanie nie zastępuje architektury wykonania</a></li>
+<li><a href="#24-szybkosc-i-odpowiedzialnosc-nie-sa-przeciwienstwami">2.4. Szybkość i odpowiedzialność nie są przeciwieństwami</a></li>
+<li><a href="#25-jawne-dane-nie-wystarcza-do-ustalenia-baz">2.5. Jawne dane nie wystarczą do ustalenia baz</a></li>
+</ul>
+</li>
+<li><a href="#3-docelowy-model-dziaania-panstwa">3. Docelowy model działania państwa</a><ul>
+<li><a href="#31-jeden-portfel-wielu-odpowiedzialnych-wascicieli">3.1. Jeden portfel, wielu odpowiedzialnych właścicieli</a></li>
+<li><a href="#32-osiem-strumieni-realizacyjnych">3.2. Osiem strumieni realizacyjnych</a></li>
+<li><a href="#33-wspolne-bramki-portfela">3.3. Wspólne bramki portfela</a></li>
+</ul>
+</li>
+<li><a href="#4-filar-i-potrzeby-testy-i-zamowienia">4. Filar I — potrzeby, testy i zamówienia</a><ul>
+<li><a href="#cel">Cel</a></li>
+<li><a href="#interwencje">Interwencje</a></li>
+<li><a href="#reguy-stop">Reguły stop</a></li>
+<li><a href="#mierniki">Mierniki</a></li>
+</ul>
+</li>
+<li><a href="#5-filar-ii-przemys-i-odporne-ancuchy-dostaw">5. Filar II — przemysł i odporne łańcuchy dostaw</a><ul>
+<li><a href="#cel_1">Cel</a></li>
+<li><a href="#model-przemysowy">Model przemysłowy</a></li>
+<li><a href="#audyt-bazowy">Audyt bazowy</a></li>
+<li><a href="#kontrakty-odpornosciowe">Kontrakty odpornościowe</a></li>
+<li><a href="#czego-nie-robic">Czego nie robić</a></li>
+</ul>
+</li>
+<li><a href="#6-filar-iii-systemy-autonomiczne-ai-dane-i-cyber">6. Filar III — systemy autonomiczne, AI, dane i cyber</a><ul>
+<li><a href="#cel_2">Cel</a></li>
+<li><a href="#narodowa-bezpieczna-przestrzen-danych">Narodowa Bezpieczna Przestrzeń Danych</a></li>
+<li><a href="#governance-modeli-ai">Governance modeli AI</a></li>
+<li><a href="#moc-obliczeniowa">Moc obliczeniowa</a></li>
+<li><a href="#minimalny-standard-cyber">Minimalny standard cyber</a></li>
+</ul>
+</li>
+<li><a href="#7-filar-iv-kadry-i-narodowa-siec-inzynierii-autonomicznej">7. Filar IV — kadry i Narodowa Sieć Inżynierii Autonomicznej</a><ul>
+<li><a href="#cel_3">Cel</a></li>
+<li><a href="#zasada-sieci-nie-nowej-uczelni">Zasada sieci, nie nowej uczelni</a></li>
+<li><a href="#cztery-sciezki">Cztery ścieżki</a></li>
+<li><a href="#proponowany-pilotaz-nie-zatwierdzony-cel">Proponowany pilotaż, nie zatwierdzony cel</a></li>
+<li><a href="#mierniki_1">Mierniki</a></li>
+</ul>
+</li>
+<li><a href="#8-filar-v-ukraina-ue-nato-i-partnerstwa">8. Filar V — Ukraina, UE, NATO i partnerstwa</a><ul>
+<li><a href="#cel_4">Cel</a></li>
+<li><a href="#portfolio-wspopracy-z-ukraina">Portfolio współpracy z Ukrainą</a></li>
+<li><a href="#bravetech-eu-i-instrumenty-europejskie">BraveTech EU i instrumenty europejskie</a></li>
+<li><a href="#interoperacyjnosc">Interoperacyjność</a></li>
+</ul>
+</li>
+<li><a href="#9-filar-vi-zastosowania-cywilne-regiony-i-eksport">9. Filar VI — zastosowania cywilne, regiony i eksport</a><ul>
+<li><a href="#cel_5">Cel</a></li>
+<li><a href="#portfolio-zastosowan">Portfolio zastosowań</a></li>
+<li><a href="#federacja-regionalna-zamiast-szesnastu-kopii">Federacja regionalna zamiast szesnastu kopii</a></li>
+<li><a href="#dwie-sciezki-dyfuzji">Dwie ścieżki dyfuzji</a></li>
+<li><a href="#karta-produktywnosci-pilotazu">Karta produktywności pilotażu</a></li>
+<li><a href="#pierwsze-100-dni-scenariusz-do-decyzji">Pierwsze 100 dni — scenariusz do decyzji</a></li>
+<li><a href="#platformy-i-moduy">Platformy i moduły</a></li>
+<li><a href="#eksport-jako-test-jakosci">Eksport jako test jakości</a></li>
+</ul>
+</li>
+<li><a href="#10-finansowanie-i-wartosc-publiczna">10. Finansowanie i wartość publiczna</a><ul>
+<li><a href="#zasada-dopasowania-instrumentu-do-ryzyka">Zasada dopasowania instrumentu do ryzyka</a></li>
+<li><a href="#trzy-scenariusze">Trzy scenariusze</a></li>
+</ul>
+</li>
+<li><a href="#11-warianty-strategiczne">11. Warianty strategiczne</a></li>
+<li><a href="#12-mapa-realizacji">12. Mapa realizacji</a></li>
+<li><a href="#13-wskazniki-sukcesu">13. Wskaźniki sukcesu</a></li>
+<li><a href="#14-ryzyka-i-zabezpieczenia">14. Ryzyka i zabezpieczenia</a><ul>
+<li><a href="#najwazniejsze-ryzyka">Najważniejsze ryzyka</a></li>
+<li><a href="#kryteria-przerwania-caego-programu-lub-jego-czesci">Kryteria przerwania całego programu lub jego części</a></li>
+</ul>
+</li>
+<li><a href="#15-rejestr-pierwszych-decyzji-kandydujacych">15. Rejestr pierwszych decyzji kandydujących</a></li>
+<li><a href="#16-dalsze-pytania-wymagajace-decyzji-lub-danych">16. Dalsze pytania wymagające decyzji lub danych</a></li>
+<li><a href="#17-zastrzezenia-i-zaozenia">17. Zastrzeżenia i założenia</a></li>
+<li><a href="#aneks-a-taksonomia-portfela-technologicznego">Aneks A. Taksonomia portfela technologicznego</a><ul>
+<li><a href="#a1-domeny-platform">A.1. Domeny platform</a></li>
+<li><a href="#a2-dziewiec-warstw-systemu">A.2. Dziewięć warstw systemu</a></li>
+<li><a href="#a3-klasy-kontroli">A.3. Klasy kontroli</a></li>
+</ul>
+</li>
+<li><a href="#aneks-b-karta-projektu-w-portfelu">Aneks B. Karta projektu w portfelu</a><ul>
+<li><a href="#b1-pola-obowiazkowe">B.1. Pola obowiązkowe</a></li>
+<li><a href="#b2-ocena-bramkowa">B.2. Ocena bramkowa</a></li>
+<li><a href="#b3-lekcja-po-zamknieciu">B.3. Lekcja po zamknięciu</a></li>
+</ul>
+</li>
+<li><a href="#aneks-c-plan-konsultacji">Aneks C. Plan konsultacji</a><ul>
+<li><a href="#c1-grupy-i-pytania">C.1. Grupy i pytania</a></li>
+<li><a href="#c2-produkty-konsultacji">C.2. Produkty konsultacji</a></li>
+</ul>
+</li>
+<li><a href="#aneks-d-rejestr-celow-ilosciowych-z-materiau-inicjujacego">Aneks D. Rejestr celów ilościowych z materiału inicjującego</a></li>
+<li><a href="#aneks-e-sownik-roboczy">Aneks E. Słownik roboczy</a></li>
+<li><a href="#konkluzja">Konkluzja</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-mandat-zakres-i-definicje">1. Mandat, zakres i definicje</h2>
+<h3 id="11-problem-publiczny">1.1. Problem publiczny</h3>
+<p>Polska dysponuje wieloma elementami potrzebnymi do rozwoju technologii podwójnego zastosowania: przemysłem, uczelniami, instytutami, zamówieniami publicznymi, finansowaniem krajowym i europejskim oraz dostępem do doświadczeń sojuszników. Nie wynika z tego automatycznie spójna zdolność państwa. Fragmentacja odpowiedzialności może powodować, że:</p>
+<ul>
+<li>potrzeba użytkownika nie jest przetłumaczona na problem możliwy do rozwiązania przez rynek;</li>
+<li>firma nie uzyskuje bezpiecznego dostępu do danych i środowiska testowego;</li>
+<li>prototyp nie ma ścieżki do małej partii i informacji zwrotnej;</li>
+<li>zamówienie premiuje zamrożoną specyfikację, gdy technologia wymaga iteracji;</li>
+<li>finansowanie badań nie prowadzi do produkcji, serwisu i eksportu;</li>
+<li>państwo nie zna krytycznych zależności komponentowych ani czasu ich substytucji;</li>
+<li>edukacja reaguje na modę technologiczną zamiast na zweryfikowany popyt kompetencyjny;</li>
+<li>obiecujące zespoły przenoszą rozwój i własność intelektualną poza Polskę;</li>
+<li>nieskuteczne projekty trwają, ponieważ system nagradza rozpoczęcie, a nie zakończenie.</li>
+</ul>
+<p>Strategia odpowiada na tę lukę realizacyjną. Nie zastępuje strategii bezpieczeństwa narodowego, planowania obronnego, polityki przemysłowej, polityki AI ani decyzji zakupowych. Tworzy wspólną architekturę wykonania i mierzenia rezultatów między nimi.</p>
+<h3 id="12-definicja-suwerennosci-technologicznej-def-0001">1.2. Definicja suwerenności technologicznej (<code>DEF-0001</code>)</h3>
+<p>Na potrzeby programu <strong>suwerenność technologiczna</strong> oznacza zdolność państwa i gospodarki do:</p>
+<ol>
+<li>podejmowania decyzji o konfiguracji i wykorzystaniu krytycznych systemów zgodnie z polskim prawem i zobowiązaniami sojuszniczymi;</li>
+<li>utrzymania usług i zdolności w przypadku zakłócenia dostaw, aktualizacji, łączności lub wsparcia producenta;</li>
+<li>rozpoznawania zależności w komponentach, oprogramowaniu, danych, kompetencjach i serwisie;</li>
+<li>zastępowania krytycznych dostawców w akceptowalnym czasie albo posiadania kontrolowanego zapasu i planu ciągłości;</li>
+<li>testowania, naprawiania, aktualizowania i skalowania systemu w Polsce lub w zaufanym ekosystemie sojuszniczym;</li>
+<li>zachowania dostępu do niezbędnej dokumentacji, interfejsów, kluczy procesowych i historii konfiguracji;</li>
+<li>dzielenia ryzyka i korzyści z partnerami bez utraty kontroli nad interesem publicznym.</li>
+</ol>
+<p>Definicja jest relacyjna: różne klasy technologii wymagają różnego poziomu kontroli. Dla jednych wystarczy wielu zaufanych dostawców, dla innych konieczna będzie zdolność krajowej integracji, naprawy lub produkcji awaryjnej. Strategia nie zakłada krajowego wytwarzania każdego procesora, sensora czy materiału.</p>
+<h3 id="13-zakres-technologiczny">1.3. Zakres technologiczny</h3>
+<p>Program obejmuje osiem powiązanych warstw:</p>
+<table>
+<thead>
+<tr>
+<th>Warstwa</th>
+<th>Zakres polityki</th>
+<th>Poza zakresem dokumentu jawnego</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Platformy</td>
+<td>systemy powietrzne, lądowe, nawodne i podwodne</td>
+<td>parametry misji i podatności</td>
+</tr>
+<tr>
+<td>Przeciwdziałanie</td>
+<td>wykrywanie, identyfikacja, ochrona i neutralizacja w ramach prawa</td>
+<td>rozmieszczenie i konfiguracje operacyjne</td>
+</tr>
+<tr>
+<td>Sensory i elektromagnetyzm</td>
+<td>optyka, RF, sensory pasywne, WRE/SIGINT na poziomie zdolności przemysłowej</td>
+<td>częstotliwości, biblioteki sygnałów, charakterystyki niejawne</td>
+</tr>
+<tr>
+<td>Łączność i nawigacja</td>
+<td>odporne, modułowe interfejsy i alternatywy dla pojedynczych zależności</td>
+<td>szczegóły kryptograficzne i procedury użycia</td>
+</tr>
+<tr>
+<td>AI i dane</td>
+<td>fuzja danych, percepcja, wsparcie decyzji, autonomia, ewaluacja modeli</td>
+<td>zbiory operacyjne i reguły zaangażowania</td>
+</tr>
+<tr>
+<td>Cyber i software</td>
+<td>bezpieczny cykl wytwarzania, aktualizacje, SBOM, testy i reakcja</td>
+<td>konkretne podatności nieusuniętych systemów</td>
+</tr>
+<tr>
+<td>Produkcja i cykl życia</td>
+<td>komponenty, integracja, serwis, naprawy, logistyka, utylizacja</td>
+<td>rzeczywiste zapasy i moce wrażliwe</td>
+</tr>
+<tr>
+<td>Zastosowania cywilne</td>
+<td>przemysł, energia, rolnictwo, transport, ratownictwo, środowisko</td>
+<td>dane chronione i bezpieczeństwo infrastruktury</td>
+</tr>
+</tbody>
+</table>
+<h3 id="14-horyzonty">1.4. Horyzonty</h3>
+<ul>
+<li><strong>Pierwsze 100 dni:</strong> ustanowienie właścicieli, reguł, audytów i pilotaży odwracalnych.</li>
+<li><strong>Do 12 miesięcy:</strong> pierwsze dane porównawcze, testy użytkownika, małe partie, model finansowy i decyzje legislacyjne.</li>
+<li><strong>2027–2030:</strong> skalowanie potwierdzonych mechanizmów, rozwój komponentów i usług cyklu życia, integracja z inicjatywami UE/NATO.</li>
+<li><strong>2031–2035:</strong> utrwalenie odporności, zdolności substytucji i eksportu oraz aktualizacja portfela technologicznego.</li>
+<li><strong>2036–2040:</strong> przegląd ambicji i migracja do kolejnych generacji technologii bez utrzymywania przestarzałych programów z przyczyn instytucjonalnych.</li>
+</ul>
+<h2 id="2-diagnoza-dlaczego-obecny-model-wymaga-integracji">2. Diagnoza: dlaczego obecny model wymaga integracji</h2>
+<h3 id="21-ancuch-wartosci-jest-tak-silny-jak-najsabsza-bramka">2.1. Łańcuch wartości jest tak silny jak najsłabsza bramka</h3>
+<p>Program nie osiąga rezultatu, gdy choć jeden z jego etapów nie ma właściciela, budżetu, kryterium jakości albo decyzji wyjścia. Poniższy diagram przedstawia cykl zarządczy, a nie parametry systemu ani harmonogram finansowy.</p>
+<p><img alt="Cykl realizacji: od potrzeby przez dane, prototyp, test, zamówienie, produkcję i eksport do aktualizacji" src="../assets/generated/delivery-cycle.svg" /></p>
+<p>Każda pętla powinna kończyć się jedną z czterech decyzji: <strong>skaluj</strong>, <strong>popraw i powtórz</strong>, <strong>utrzymaj ograniczone zastosowanie</strong> albo <strong>zamknij</strong>. Zamknięcie projektu na podstawie dowodów jest wynikiem zarządczym, nie porażką programu.</p>
+<h3 id="22-edukacja-bez-popytu-nie-tworzy-zdolnosci">2.2. Edukacja bez popytu nie tworzy zdolności</h3>
+<p>Nowy kierunek studiów jest działaniem o długim czasie realizacji. <strong>HIPOTEZA do sprawdzenia:</strong> w pierwszych latach przekwalifikowanie istniejących specjalistów, praktyki w realnych zespołach, laboratoria dostępne dla kilku instytucji, mobilność między uczelnią a przemysłem i zadania pochodzące od użytkowników mogą dać efekt wcześniej niż nowe pełne cykle studiów. Pilotaże mają porównać koszt, czas, ukończenie, zmianę roli i retencję; dopiero prognoza popytu według konkretnych kompetencji pozwoli określić liczbę miejsc, nauczycieli i laboratoriów.</p>
+<p>Program KAI–Fire Point jest użytecznym studium modelu finansowania i praktyki, ale nie powinien być kopiowany bez audytu. Oficjalna oferta wskazuje pojemność licencyjną 30, co nie jest liczbą przyjętych studentów (<strong>CLM-1205</strong>); dwie oficjalne strony KAI różnią się także w opisie czasu programu (<strong>CLM-1223</strong>). Wniosek dla Polski brzmi: testować różne modele na istniejących uczelniach i mierzyć retencję, jakość oraz zatrudnienie, zamiast budować strategię wokół jednej marki.</p>
+<h3 id="23-finansowanie-nie-zastepuje-architektury-wykonania">2.3. Finansowanie nie zastępuje architektury wykonania</h3>
+<p>Dostępność finansowania może zwiększyć skalę, ale również utrwalić fragmentację, jeśli projekty są dobierane bez wspólnego portfela, baz i kryteriów wyjścia. SAFE jest finansowaniem pożyczkowym, a deklarowany udział polskiej gospodarki jest planem. Dlatego każda alokacja powinna pokazywać dodatkowość wobec istniejących zobowiązań, wpływ na krajowy cykl życia, koszt obsługi finansowania oraz mierzalny rezultat.</p>
+<h3 id="24-szybkosc-i-odpowiedzialnosc-nie-sa-przeciwienstwami">2.4. Szybkość i odpowiedzialność nie są przeciwieństwami</h3>
+<p>Szybki proces nie oznacza rezygnacji z bezpieczeństwa, konkurencji lub rozliczalności. Oznacza wcześniejsze rozdzielenie ryzyka: mały kontrakt kupuje dowód; test porównawczy ogranicza ryzyko skali; otwarty interfejs zmniejsza zależność; opcja zwiększenia wolumenu jest wykonywana dopiero po spełnieniu kryteriów. Najdroższe są nieudane duże decyzje podjęte bez etapu uczenia się.</p>
+<h3 id="25-jawne-dane-nie-wystarcza-do-ustalenia-baz">2.5. Jawne dane nie wystarczą do ustalenia baz</h3>
+<p>Repozytorium nie interpretuje braku jawnych danych jako braku zdolności. Rzeczywiste wolumeny, zapasy, wymagania odporności, biblioteki testowe i część łańcuchów dostaw mogą być prawnie chronione. Wersja jawna definiuje pytania i wskaźniki. Odpowiedzi powstają w uprawnionym środowisku, a do raportowania publicznego trafiają zatwierdzone agregaty.</p>
+<h2 id="3-docelowy-model-dziaania-panstwa">3. Docelowy model działania państwa</h2>
+<h3 id="31-jeden-portfel-wielu-odpowiedzialnych-wascicieli">3.1. Jeden portfel, wielu odpowiedzialnych właścicieli</h3>
+<p>Rekomendowany model składa się z:</p>
+<ul>
+<li><strong>właściciela politycznego przy KPRM</strong>, odpowiedzialnego w granicach formalnego mandatu za wynik portfela i eskalację konfliktów do właściwego organu;</li>
+<li><strong>Komitetu Sterującego</strong>, który w granicach mandatu zatwierdza portfelowe bramki, priorytety i propozycje raportowania, lecz nie zastępuje decyzji Rady Ministrów, ministra właściwego do spraw finansów, nabywcy ani ministrów sektorowych;</li>
+<li><strong>Biura Realizacji Strategii</strong>, które utrzymuje rejestr decyzji, zależności, ryzyk i wskaźników;</li>
+<li><strong>właścicieli strumieni w resortach i instytucjach</strong>, którzy odpowiadają za dostarczenie produktów w swoich kompetencjach;</li>
+<li><strong>rady użytkowników</strong>, która formułuje problemy i ocenia użyteczność rozwiązań;</li>
+<li><strong>niezależnej funkcji ewaluacji i red-team</strong>, oddzielonej od przyznawania finansowania i od dostawców;</li>
+<li><strong>forum przemysłowo-naukowego</strong>, które konsultuje standardy, bariery i popyt kompetencyjny bez prawa wyboru własnych produktów;</li>
+<li><strong>corocznego przeglądu strategicznego z udziałem Prezydenta i Premiera</strong>, służącego ciągłości oraz zgodności z bezpieczeństwem narodowym i sojuszami.</li>
+</ul>
+<p>Biuro realizacji nie powinno przejmować Agencji Uzbrojenia, resortów, służb, regulatorów ani instytucji finansujących. Jego produktem jest wspólny obraz portfela i doprowadzenie konfliktów do decyzji właściwego organu.</p>
+<h3 id="32-osiem-strumieni-realizacyjnych">3.2. Osiem strumieni realizacyjnych</h3>
+<table>
+<thead>
+<tr>
+<th>Strumień</th>
+<th>Rezultat</th>
+<th>Wiodąca odpowiedzialność funkcjonalna</th>
+<th>Główna bramka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Potrzeby i zamówienia</td>
+<td>mierzalny cykl od problemu do decyzji skali</td>
+<td>użytkownik publiczny i nabywca</td>
+<td>test użytkownika</td>
+</tr>
+<tr>
+<td>Dane, AI i cyber</td>
+<td>bezpieczne środowisko danych i ewaluacji</td>
+<td>właściciele danych, cyfryzacja, obrona</td>
+<td>dopuszczenie danych/modelu</td>
+</tr>
+<tr>
+<td>Przemysł i komponenty</td>
+<td>mapa zależności, moce, serwis i plany substytucji</td>
+<td>gospodarka i obrona</td>
+<td>gotowość 30/90/180 dni</td>
+</tr>
+<tr>
+<td>Kadry i edukacja</td>
+<td>podaż kompetencji związana z popytem</td>
+<td>edukacja, nauka, przemysł</td>
+<td>zatrudnienie i retencja</td>
+</tr>
+<tr>
+<td>Ukraina i partnerstwa</td>
+<td>portfolio bezpiecznych, mierzalnych współprac</td>
+<td>sprawy zagraniczne, obrona, gospodarka</td>
+<td>due diligence i IP</td>
+</tr>
+<tr>
+<td>Finanse i wpływ</td>
+<td>dodatkowe, rozliczalne finansowanie</td>
+<td>finanse i instytucje rozwoju</td>
+<td>wartość publiczna i koszt alternatywny</td>
+</tr>
+<tr>
+<td>Zastosowania cywilne i regiony</td>
+<td>dyfuzja technologii i produktywność</td>
+<td>gospodarka, samorządy, infrastruktura</td>
+<td>popyt i replikowalność</td>
+</tr>
+<tr>
+<td>Prawo, etyka i bezpieczeństwo</td>
+<td>zgodne i audytowalne zasady działania</td>
+<td>właściwe resorty, regulatorzy, służby</td>
+<td>legalność i ryzyko</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-wspolne-bramki-portfela">3.3. Wspólne bramki portfela</h3>
+<ol>
+<li><strong>B0 — problem:</strong> istnieje właściciel, użytkownik, miernik rezultatu i jawna część opisu.</li>
+<li><strong>B1 — wykonalność:</strong> zidentyfikowano dane, ryzyka prawne, bezpieczeństwo, potencjalnych wykonawców i koszt dowodu.</li>
+<li><strong>B2 — prototyp:</strong> rozwiązanie działa w kontrolowanym środowisku, a jego ograniczenia są zapisane.</li>
+<li><strong>B3 — test użytkownika:</strong> porównanie odbywa się według wcześniej ustalonego protokołu, nie prezentacji dostawcy.</li>
+<li><strong>B4 — mała partia:</strong> kontrakt kupuje ograniczone wdrożenie, dane niezawodności, serwisu i kosztu cyklu życia.</li>
+<li><strong>B5 — skala:</strong> decyzja obejmuje produkcję, komponenty, cyber, serwis, szkolenie, aktualizacje, zapasy i wyjście z zależności.</li>
+<li><strong>B6 — przegląd eksploatacyjny:</strong> utrzymanie, zmiana konfiguracji, konkurencyjny upgrade albo zamknięcie.</li>
+</ol>
+<p>Każda bramka ma dokumentowany konflikt interesów. Dostawca może dostarczać dowody, ale nie definiuje sam potrzeb, nie wybiera własnej metody oceny i nie zatwierdza wyniku.</p>
+<h2 id="4-filar-i-potrzeby-testy-i-zamowienia">4. Filar I — potrzeby, testy i zamówienia</h2>
+<h3 id="cel">Cel</h3>
+<p>Skrócić czas od zgłoszenia problemu do wiarygodnego dowodu i pierwszego ograniczonego wdrożenia, zachowując legalność, bezpieczeństwo, konkurencję i rozliczalność.</p>
+<h3 id="interwencje">Interwencje</h3>
+<ol>
+<li><strong>Portfel problemów publicznych.</strong> Co pół roku publikowana jest jawna lista problemów sformułowanych jako oczekiwany rezultat, nie preferowana technologia. Część wrażliwa pozostaje w autoryzowanym obiegu.</li>
+<li><strong>Wspólny protokół testowy.</strong> Dla każdej klasy ustanawia się mierniki użyteczności, niezawodności, interoperacyjności, cyberbezpieczeństwa, serwisu i kosztu cyklu życia.</li>
+<li><strong>Kontrakty etapowe.</strong> Zamówienie oddziela płatność za dowód, małą partię i opcję skali. Niespełnienie bramki kończy etap bez automatycznej kontynuacji.</li>
+<li><strong>Środowiska współdzielone.</strong> Uczelnie, firmy i instytuty uzyskują równy, kontrolowany dostęp do laboratoriów, symulacji i testów zgodnie z poziomem uprawnień.</li>
+<li><strong>Informacja zwrotna użytkownika.</strong> Ocena po wdrożeniu ma ustrukturyzowaną formę i zasila kolejną wersję produktu oraz rejestr typowych awarii.</li>
+<li><strong>Prawo do porównania.</strong> Państwo utrzymuje możliwość testowania alternatywnych dostawców i modułów bez zamykania całego systemu w jednym ekosystemie.</li>
+</ol>
+<h3 id="reguy-stop">Reguły stop</h3>
+<p>Projekt jest zamykany albo przeprojektowany, gdy: nie ma aktywnego użytkownika; wynik nie przewyższa rozwiązania referencyjnego; koszt cyklu życia przekracza zaakceptowany próg; nie da się usunąć ryzyka bezpieczeństwa; dostawca odmawia niezbędnych praw do serwisu i audytu; lub kolejne iteracje nie redukują kluczowej niepewności.</p>
+<h3 id="mierniki">Mierniki</h3>
+<ul>
+<li>mediana czasu B0→B2, B2→B3 i B3→B4;</li>
+<li>udział projektów ocenionych przez rzeczywistego użytkownika;</li>
+<li>udział projektów zamkniętych z udokumentowanym powodem;</li>
+<li>liczba porównań co najmniej dwóch rozwiązań;</li>
+<li>koszt dowodu jako udział potencjalnego zobowiązania skali;</li>
+<li>czas od zgłoszenia krytycznej usterki do bezpiecznej poprawki.</li>
+</ul>
+<h2 id="5-filar-ii-przemys-i-odporne-ancuchy-dostaw">5. Filar II — przemysł i odporne łańcuchy dostaw</h2>
+<h3 id="cel_1">Cel</h3>
+<p>Zapewnić zdolność integracji, produkcji, naprawy i zwiększenia podaży najważniejszych klas systemów mimo zakłóceń, bez ekonomicznie nierealnej ambicji krajowej produkcji wszystkiego.</p>
+<h3 id="model-przemysowy">Model przemysłowy</h3>
+<p>Rekomendowana jest sieć obejmująca integratorów końcowych, elektronikę i RF, napędy, energetykę i zasilanie, optykę i sensory, mechanikę precyzyjną i kompozyty, software i cyber, serwis polowy, logistykę, recykling oraz odrębnie zarządzane efektory. Państwo klasyfikuje każdą warstwę według czterech strategii:</p>
+<ul>
+<li><strong>kontroluj w kraju</strong> — krajowa integracja, dokumentacja i zdolność utrzymania;</li>
+<li><strong>współkontroluj z sojusznikiem</strong> — wspólny standard, produkcja lub depozyt praw;</li>
+<li><strong>dywersyfikuj import</strong> — co najmniej dwa niezależne kierunki i przetestowana substytucja;</li>
+<li><strong>zaakceptuj zależność</strong> — gdy koszt suwerenności przewyższa ryzyko, z jawnym właścicielem ryzyka.</li>
+</ul>
+<h3 id="audyt-bazowy">Audyt bazowy</h3>
+<p>Audyt powinien ustalić na poziomie uprawnionym: rzeczywistą miesięczną zdolność, wąskie gardła, czas zwiększenia produkcji, pochodzenie komponentów, zapasy, alternatywy, prawa IP, zdolność serwisu, kwalifikacje, energię i finansowanie kapitału obrotowego. W wersji publicznej publikowane są indeksy i przedziały po kontroli ryzyka ujawnienia.</p>
+<h3 id="kontrakty-odpornosciowe">Kontrakty odpornościowe</h3>
+<p>Każdy strategiczny kontrakt skali powinien określać:</p>
+<ul>
+<li>alternatywne komponenty i procedurę ich kwalifikacji;</li>
+<li>kontrolę interfejsów oraz zarządzanie konfiguracją;</li>
+<li>SBOM/HBOM tam, gdzie jest to adekwatne;</li>
+<li>prawo do naprawy, aktualizacji i audytu;</li>
+<li>minimalny zestaw dokumentacji oraz warunki depozytu;</li>
+<li>plan wzrostu produkcji dla horyzontów 30/90/180 dni jako scenariusz testowany, nie deklarację marketingową;</li>
+<li>obowiązki cyberbezpieczeństwa i zgłaszania incydentów;</li>
+<li>szkolenie, części, narzędzia, utylizację i koszty wyjścia;</li>
+<li>warunki awaryjnego użycia praw przez państwo zgodne z prawem i umową.</li>
+</ul>
+<h3 id="czego-nie-robic">Czego nie robić</h3>
+<p>Nie budować jednej megafabryki pod jeden model produktu; nie uznawać montażu z importowanych zestawów za pełną suwerenność; nie wymuszać lokalnego komponentu bez oceny kosztu, jakości i dostępności; nie finansować równolegle wielu zakładów bez popytu i planu wykorzystania cywilnego lub eksportowego.</p>
+<h2 id="6-filar-iii-systemy-autonomiczne-ai-dane-i-cyber">6. Filar III — systemy autonomiczne, AI, dane i cyber</h2>
+<h3 id="cel_2">Cel</h3>
+<p>Zbudować bezpieczną zdolność rozwijania i oceniania oprogramowania oraz modeli działających w systemach krytycznych, z pełną identyfikowalnością danych, wersji i decyzji.</p>
+<h3 id="narodowa-bezpieczna-przestrzen-danych">Narodowa Bezpieczna Przestrzeń Danych</h3>
+<p>Przestrzeń danych nie jest jednym „data lake”. Jest federacją środowisk z różnymi właścicielami, poziomami wrażliwości i warunkami dostępu. Minimalne komponenty to:</p>
+<ol>
+<li>katalog zbiorów i właścicieli;</li>
+<li>klasyfikacja, podstawa prawna, przeznaczenie i czas retencji;</li>
+<li>kontrolowane środowiska analityczne bez swobodnego kopiowania;</li>
+<li>wersjonowanie danych, etykiet, modeli, kodu i konfiguracji;</li>
+<li>dane syntetyczne i symulacje wraz z oceną różnicy wobec danych rzeczywistych;</li>
+<li>zestawy testowe odseparowane od treningu;</li>
+<li>rejestr wyników, ograniczeń, incydentów i decyzji dopuszczenia;</li>
+<li>mechanizm cofnięcia modelu i bezpiecznego trybu degradacji;</li>
+<li>wspólny język metryk niezawodności, odporności, stronniczości i bezpieczeństwa;</li>
+<li>kontrolę dostępu, monitoring, audyt oraz procedurę reakcji.</li>
+</ol>
+<p>Brave1 Dataroom pokazuje oficjalnie komunikowany wzorzec kontrolowanego środowiska do treningu i testów na wybranych danych, z dostępem po procedurach bezpieczeństwa (<a href="https://digitalstate.gov.ua/news/tech/ukraine-launches-brave1-dataroom-with-palantir-to-train-ai-models-using-battlefield-data">Digital State UA</a>, <strong>CLM-1216</strong>). Polska powinna ocenić mechanizm, a nie kopiować nazwę, dostawcę ani architekturę bez własnej analizy prawnej, bezpieczeństwa i kosztu wyjścia.</p>
+<h3 id="governance-modeli-ai">Governance modeli AI</h3>
+<p>Każdy model wykorzystywany w systemie krytycznym otrzymuje kartę: przeznaczenie, właściciel, dane, zakres dopuszczalnego użycia, metryki, znane ograniczenia, wynik red-team, wersję, zależności, plan monitoringu i osobę uprawnioną do wstrzymania. Zasady NATO stanowią minimum, a nie deklarację marketingową (<strong>CLM-1220</strong>).</p>
+<h3 id="moc-obliczeniowa">Moc obliczeniowa</h3>
+<p>Gaia AI Factory została oficjalnie uruchomiona jako projekt i ma integrować się z PLGrid oraz współpracować z Piast i LUMI; nie oznacza to pełnej gotowości docelowej infrastruktury (<a href="https://www.gov.pl/web/cyfryzacja/gaia-ai--fabryka-sztucznej-inteligencji-powstaje-w-krakowie">Ministerstwo Cyfryzacji</a>, <strong>CLM-1219</strong>). Program powinien rozdzielić cztery potrzeby: eksperymenty jawne, dane wrażliwe, systemy odseparowane oraz obliczenia brzegowe. Nie każda z nich wymaga tej samej infrastruktury ani dostawcy.</p>
+<h3 id="minimalny-standard-cyber">Minimalny standard cyber</h3>
+<ul>
+<li>bezpieczny cykl wytwarzania i przegląd zależności;</li>
+<li>podpisywanie artefaktów, kontrola aktualizacji i możliwość wycofania;</li>
+<li>SBOM oraz zarządzanie podatnościami adekwatne do ryzyka;</li>
+<li>separacja środowisk rozwoju, testu i eksploatacji;</li>
+<li>test penetracyjny i red-team przed skalą;</li>
+<li>plan utrzymania po zakończeniu wsparcia producenta;</li>
+<li>procedura incydentu obejmująca nabywcę, operatora, integratora i dostawców;</li>
+<li>test bezpiecznej degradacji przy utracie danych, łączności lub aktualizacji.</li>
+</ul>
+<h2 id="7-filar-iv-kadry-i-narodowa-siec-inzynierii-autonomicznej">7. Filar IV — kadry i Narodowa Sieć Inżynierii Autonomicznej</h2>
+<h3 id="cel_3">Cel</h3>
+<p>Zapewnić mierzalną podaż kompetencji projektowych, produkcyjnych, serwisowych, zakupowych i regulacyjnych, powiązaną z realnym popytem oraz retencją w Polsce.</p>
+<h3 id="zasada-sieci-nie-nowej-uczelni">Zasada sieci, nie nowej uczelni</h3>
+<p>Nowa uczelnia wymaga wieloletniej budowy instytucji i administracji. Rekomendowany model wykorzystuje istniejące szkoły, uczelnie, instytuty, przedsiębiorstwa i jednostki testowe. Wspólny rdzeń programu jest modułowy i aktualizowany corocznie z udziałem użytkowników oraz przemysłu.</p>
+<p>Punktem wyjścia jest istniejący system, a nie brak instytucji: według GUS na 31 grudnia 2025 r. działało 345 uczelni, studiowało 1 322,8 tys. osób, a w roku akademickim 2024/2025 studia ukończyło 306,6 tys. osób (<a href="https://stat.gov.pl/obszary-tematyczne/edukacja/edukacja/szkolnictwo-wyzsze-w-roku-akademickim-20252026%2C8%2C12.html">GUS</a>, <strong>CLM-1001</strong>). Dane te opisują skalę systemu, nie jego gotowość do programu ani liczbę osób o wymaganych kompetencjach.</p>
+<h3 id="cztery-sciezki">Cztery ścieżki</h3>
+<ol>
+<li><strong>Szkoła podstawowa:</strong> matematyka, fizyka, informatyka, robotyka, krytyczne korzystanie z AI, cyberhigiena, praca projektowa i odpowiedzialność technologiczna — bez militaryzacji programu powszechnego.</li>
+<li><strong>Licea, technika i szkoły branżowe:</strong> mechatronika, elektronika, RF, kompozyty, CNC, integracja, kontrola jakości, serwis i cyber; zadania patronackie mają kończyć się demonstracją kompetencji.</li>
+<li><strong>Studia:</strong> wspólny rdzeń systemów, elektroniki, sterowania, robotyki, danych, cyber, produkcji i prawa; długie praktyki od wczesnych lat; mobilność kadry między uczelnią a firmą.</li>
+<li><strong>Kształcenie ustawiczne:</strong> krótkie programy dla automatyków, elektroników, programistów, konstruktorów, operatorów, telekomunikacji oraz personelu publicznego; mikropoświadczenia oceniane przez praktyczne zadanie.</li>
+</ol>
+<p>Prognoza Ministra Edukacji na 2026 r. wskazuje 34 zawody o szczególnym znaczeniu dla rozwoju państwa, w tym związane z automatyką, robotyką, mechatroniką, elektrotechniką, mechaniką i spawalnictwem, oraz zawiera wykazy dla wszystkich 16 województw powiązane z mechanizmami finansowania kształcenia branżowego (<a href="https://api.sejm.gov.pl/eli/acts/MP/2026/146/text.pdf">Monitor Polski</a>, <strong>CLM-1005</strong>, <strong>CLM-1006</strong>). Jest to wejście do regionalnego audytu podaży, nie kompletna taksonomia ani prognoza popytu programu.</p>
+<h3 id="proponowany-pilotaz-nie-zatwierdzony-cel">Proponowany pilotaż, nie zatwierdzony cel</h3>
+<p><strong>REKOMENDACJA:</strong> rozpocząć od sieci regionalnych węzłów i szkół patronackich, a skalę 16 centrów i około 100 szkół traktować jako scenariusz do wyceny i walidacji popytu, nie fakt dokonany. Pierwsze dwa lub trzy regiony powinny reprezentować różne profile gospodarcze i dostarczyć koszt jednostkowy, wykorzystanie laboratoriów, retencję nauczycieli i zatrudnienie absolwentów.</p>
+<h3 id="mierniki_1">Mierniki</h3>
+<p>Nie liczba zapisanych osób, lecz ukończenie zadania kompetencyjnego, zatrudnienie w wymaganej roli, retencja po 12/24 miesiącach, produktywność zespołu, wykorzystanie laboratoriów, czas obsadzenia wakatu oraz udział kadry prowadzącej praktykę w realnych projektach.</p>
+<h2 id="8-filar-v-ukraina-ue-nato-i-partnerstwa">8. Filar V — Ukraina, UE, NATO i partnerstwa</h2>
+<h3 id="cel_4">Cel</h3>
+<p>Połączyć polską skalę finansową, przemysłową i regulacyjną z doświadczeniem partnerów, chroniąc bezpieczeństwo, IP, ciągłość i swobodę decyzji państwa.</p>
+<h3 id="portfolio-wspopracy-z-ukraina">Portfolio współpracy z Ukrainą</h3>
+<p>Współpraca może przyjmować różne formy: wspólny projekt B+R, licencję, produkcję kontraktową, spółkę celową, wspólne testy, integrację komponentu, fundusz inwestycyjny, program talentowy lub udział w instrumencie UE. JV jest jednym narzędziem, nie domyślnym celem.</p>
+<p>Każdy partner przechodzi:</p>
+<ul>
+<li>weryfikację właścicieli i beneficjentów rzeczywistych;</li>
+<li>analizę sankcji, kontroli eksportu i jurysdykcji;</li>
+<li>ocenę cyber, kontrwywiadowczą i bezpieczeństwa łańcucha dostaw;</li>
+<li>rozdzielenie IP wcześniejszego, nowego i ulepszeń;</li>
+<li>określenie praw do danych, kodu, dokumentacji, naprawy i produkcji awaryjnej;</li>
+<li>ocenę zależności od osób kluczowych oraz scenariusz ciągłości;</li>
+<li>przejrzyste zasady eksportu, przychodu, reinwestycji i zakończenia współpracy;</li>
+<li>test techniczny i biznesowy bez preferencji wynikającej z rozpoznawalności marki.</li>
+</ul>
+<h3 id="bravetech-eu-i-instrumenty-europejskie">BraveTech EU i instrumenty europejskie</h3>
+<p>Ponieważ Polska już uczestniczy w BraveTech EU (<strong>CLM-1214</strong>), działaniem na pierwsze 100 dni jest wskazanie krajowego właściciela korzyści, mapy zgłoszeń, zasad ochrony IP i wskaźników: liczba rozwiązań przetestowanych, kontrakty następcze, inwestycje w Polsce, czas dostępu do testu i eksport. Program powinien także mapować SAFE, EDF, EUDIS, STEP i instrumenty krajowe, unikając podwójnego finansowania tego samego kosztu.</p>
+<p>SAFE uznaje Ukrainę za uprawnionego partnera wspólnych zamówień i obejmuje — przy spełnieniu warunków dotyczących między innymi siedziby, kontroli i pochodzenia — wykonawców z UE, EOG–EFTA lub Ukrainy; koszt komponentów spoza tych obszarów nie może co do zasady przekroczyć 35% szacowanego kosztu komponentów produktu końcowego (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R1106">rozporządzenie SAFE</a>, <strong>CLM-0806</strong>, <strong>CLM-0807</strong>). Limit ten nie jest miarą polskiej wartości dodanej ani automatycznym potwierdzeniem kwalifikowalności projektu.</p>
+<h3 id="interoperacyjnosc">Interoperacyjność</h3>
+<p>Interoperacyjność obejmuje nie tylko techniczny interfejs, lecz także dane, tożsamość, cyber, procedurę aktualizacji, bezpieczeństwo informacji, logistykę i możliwość wspólnej ewaluacji. Polska powinna wpływać na standardy tam, gdzie posiada doświadczenie i rynek, a nie wyłącznie dostosowywać gotowe produkty.</p>
+<h2 id="9-filar-vi-zastosowania-cywilne-regiony-i-eksport">9. Filar VI — zastosowania cywilne, regiony i eksport</h2>
+<h3 id="cel_5">Cel</h3>
+<p>Przekształcić wydatki bezpieczeństwa w trwałą zdolność przemysłową i produktywność, bez wymuszania pozornego „dual-use” dla każdego produktu.</p>
+<h3 id="portfolio-zastosowan">Portfolio zastosowań</h3>
+<p>Priorytety cywilne powinny wynikać z mierzalnego problemu i gotowości właściciela procesu. Potencjalne domeny obejmują: inspekcję energetyki i infrastruktury, rolnictwo precyzyjne, kolej i logistykę, ratownictwo, ochronę środowiska, gospodarkę morską, górnictwo, budownictwo, geodezję, ochronę granic, magazyny i obserwację Ziemi.</p>
+<p>Zastosowanie cywilne nie jest automatycznym „drugim rynkiem” produktu obronnego. Musi przejść osobną walidację potrzeby, bezpieczeństwa, certyfikacji, ekonomiki i odpowiedzialności. Wspólne mogą być kompetencje, interfejsy, sensory, moduły danych, serwis albo metoda testu; użytkownik, reżim prawny i oczekiwany rezultat pozostają odrębne.</p>
+<p>Istnieje już element infrastruktury do wykorzystania po kwalifikacji konkretnego pilota: unijna sieć Testing and Experimentation Facilities obejmuje cztery sektory — rolno-spożywczy, zdrowie, produkcję i inteligentne miasta — a agrifoodTEF ma w Polsce węzeł satelitarny do testowania AI i robotyki w warunkach zbliżonych do rzeczywistych (<a href="https://digital-strategy.ec.europa.eu/en/policies/testing-and-experimentation-facilities">Komisja Europejska</a>, <strong>CLM-1112</strong>). Źródło potwierdza zakres sieci i obecność węzła, nie dostępność określonej usługi ani finansowanie projektu Polska 2040.</p>
+<h3 id="federacja-regionalna-zamiast-szesnastu-kopii">Federacja regionalna zamiast szesnastu kopii</h3>
+<p><strong>REKOMENDACJA:</strong> regionalne centrum powinno być przede wszystkim funkcją brokera problemu i wdrożenia, a nie nowym budynkiem. Wspólny standard krajowy określa kartę projektu, dane, KPI, konflikt interesów, handoff i sposób publikacji wyników. Region zbiera popyt, przygotowuje baseline, łączy nabywcę z MŚP i prowadzi pilotaż. Węzeł specjalistyczny — także w innym województwie — dostarcza właściwe laboratorium, test, szkolenie lub serwis.</p>
+<p>Taki model pozwala korzystać z istniejących uczelni, instytutów, centrów testowych, infrastruktury sektorowej i usług wsparcia. Region ma prawo skierować projekt tam, gdzie istnieje realna kompetencja i wolna przepustowość. Finansowanie powinno kupować usługę i wynik, nie wymuszać duplikacji sprzętu tylko dlatego, że podział administracyjny ma szesnaście pozycji.</p>
+<p>Minimalny rekord węzła obejmuje: dostępne godziny i warunki dostępu, właściciela infrastruktury, prowadzących, standard bezpieczeństwa, zakres testu, koszt pełny, prawa do wyniku, plan utrzymania oraz wykorzystanie w poprzednich okresach. Samo posiadanie urządzenia lub podpisane memorandum nie jest zdolnością.</p>
+<p>Każdy pilotaż regionalny ma:</p>
+<ul>
+<li>właściciela problemu i procesu zakupowego;</li>
+<li>wartość bazową czasu, kosztu, ryzyka lub jakości;</li>
+<li>dostęp do danych zgodny z prawem;</li>
+<li>konkurencyjny test co najmniej alternatywy procesowej;</li>
+<li>plan utrzymania po dotacji;</li>
+<li>ocenę możliwości replikacji w innym regionie;</li>
+<li>warunek zakończenia, gdy technologia nie tworzy wartości.</li>
+</ul>
+<h3 id="dwie-sciezki-dyfuzji">Dwie ścieżki dyfuzji</h3>
+<ol>
+<li><strong>Usługa publiczna:</strong> właściciel procesu publicznego opisuje koszt, czas, jakość i ryzyko bazowe; płatny test porównuje rozwiązanie z procesem referencyjnym; kontynuacja następuje z budżetu właściciela albo projekt jest zamykany.</li>
+<li><strong>MŚP i przemysł:</strong> firma przechodzi diagnozę dojrzałości, test-before-invest, walidację integracji, płatny test u nabywcy i pierwsze zamówienie. Dotacja może zmniejszyć ryzyko dowodu, ale nie zastępuje klienta, kapitału obrotowego, serwisu ani kompetencji wdrożeniowej.</li>
+</ol>
+<p>W obu ścieżkach miernikiem jest trwała zmiana procesu po 12 i 24 miesiącach. Liczba spotkań, grantów, demonstratorów i zakupionych urządzeń pozostaje miernikiem aktywności, nie produktywności.</p>
+<h3 id="karta-produktywnosci-pilotazu">Karta produktywności pilotażu</h3>
+<p>Każdy projekt cywilny powinien przed startem określić:</p>
+<ul>
+<li>koszt jednostki rezultatu, medianę i P90 czasu procesu;</li>
+<li>dostępność, awaryjność i czas naprawy;</li>
+<li>błędy, fałszywe alarmy, przeoczenia lub reklamacje;</li>
+<li>energię, materiały i inne istotne zasoby;</li>
+<li>pełny TCO: integrację, dane, licencje, cyber, serwis i wycofanie;</li>
+<li>incydenty i near-miss w przeliczeniu na jednostkę pracy;</li>
+<li>prawa do danych, interfejsów, konfiguracji i przeniesienia usługi;</li>
+<li>właściciela budżetu po pilotażu i warunek pierwszego zamówienia.</li>
+</ul>
+<p>Jeżeli baseline nie istnieje, pierwszym produktem jest jego pomiar. Jeżeli nie ma właściciela procesu lub wiarygodnej ścieżki zakupu, projekt nie przechodzi do testu technologicznego.</p>
+<h3 id="pierwsze-100-dni-scenariusz-do-decyzji">Pierwsze 100 dni — scenariusz do decyzji</h3>
+<p><strong>SCENARIUSZ:</strong> w ciągu pierwszych 60 dni przeprowadzić audyt funkcji regionalnych, katalog istniejącej infrastruktury i nabór jawnych problemów cywilnych. Od dnia 61 do 100 ocenić zgłoszenia i wybrać ograniczony portfel pilotaży z różnych domen, nie ustalając jego wielkości przed oceną jakości. Każdy wybrany projekt musi mieć nabywcę, baseline lub plan jego pozyskania, kartę danych, finansowanie testu, ocenę prawną oraz następną decyzję „zamów–popraw–zamknij”.</p>
+<h3 id="platformy-i-moduy">Platformy i moduły</h3>
+<p>Państwo powinno premiować bezpieczne, wymienne moduły i wspólne komponenty, jeżeli redukują koszt wejścia na kolejne rynki. Nie należy wymagać cywilnej wersji produktu, gdy powoduje to ryzyko, nie ma popytu lub ekonomicznie uzasadniona jest specjalizacja obronna.</p>
+<h3 id="eksport-jako-test-jakosci">Eksport jako test jakości</h3>
+<p>Eksport może potwierdzać konkurencyjność i zwiększać serię produkcyjną, ale nie każdy rynek jest zgodny z interesem i prawem. Wsparcie eksportowe wymaga kontroli końcowego użytkownika, zgodności z sankcjami, ochrony IP, zdolności serwisu, bezpieczeństwa cyber oraz oceny reputacyjnej. Miernikiem nie jest liczba podpisanych memorandum, lecz przychód, marża, utrzymana produkcja w Polsce, serwis i brak naruszeń.</p>
+<h2 id="10-finansowanie-i-wartosc-publiczna">10. Finansowanie i wartość publiczna</h2>
+<h3 id="zasada-dopasowania-instrumentu-do-ryzyka">Zasada dopasowania instrumentu do ryzyka</h3>
+<table>
+<thead>
+<tr>
+<th>Etap</th>
+<th>Dominujące ryzyko</th>
+<th>Preferowany instrument</th>
+<th>Warunek dalszego finansowania</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Problem i badanie</td>
+<td>niepewność potrzeby</td>
+<td>zamówienie analizy, konkurs problemowy</td>
+<td>mierzalny problem i użytkownik</td>
+</tr>
+<tr>
+<td>Prototyp</td>
+<td>ryzyko techniczne</td>
+<td>grant etapowy lub kontrakt B+R</td>
+<td>test według protokołu</td>
+</tr>
+<tr>
+<td>Mała partia</td>
+<td>użyteczność i niezawodność</td>
+<td>mały kontrakt z opcją</td>
+<td>wynik użytkownika i cyklu życia</td>
+</tr>
+<tr>
+<td>Skala</td>
+<td>popyt i produkcja</td>
+<td>zamówienie, kredyt, gwarancja, kapitał</td>
+<td>moce, serwis, bezpieczeństwo i koszt</td>
+</tr>
+<tr>
+<td>Eksport</td>
+<td>rynek i kontrahent</td>
+<td>ubezpieczenie, gwarancja, finansowanie eksportu</td>
+<td>zgodność i przychód kontraktowy</td>
+</tr>
+<tr>
+<td>Infrastruktura wspólna</td>
+<td>koordynacja i dostęp</td>
+<td>finansowanie publiczne z opłatami/zasadami dostępu</td>
+<td>wykorzystanie przez wielu użytkowników</td>
+</tr>
+</tbody>
+</table>
+<p>Budżet programu powinien być konsolidowany jako portfel, nawet jeżeli środki pozostają w wielu częściach administracji. Raport pokazuje zobowiązania, płatności, instrument, odbiorcę końcowego, etap, dodatkowość, oczekiwany rezultat, ryzyko i koszt zakończenia.</p>
+<h3 id="trzy-scenariusze">Trzy scenariusze</h3>
+<ul>
+<li><strong>SCENARIUSZ niski:</strong> koordynacja i wspólne standardy przy ograniczonych nowych środkach; wolniejsze skalowanie, niskie ryzyko fiskalne, ryzyko braku masy krytycznej.</li>
+<li><strong>SCENARIUSZ bazowy:</strong> koncentracja nowych środków na danych, testach, małych partiach, komponentach i kadrach, z wykorzystaniem istniejących programów; rekomendowany do wyceny.</li>
+<li><strong>SCENARIUSZ wysoki:</strong> szeroka rozbudowa mocy i infrastruktury przed pełną walidacją popytu; potencjalnie szybszy efekt, ale największe ryzyko błędnej alokacji i wypierania wydatków.</li>
+</ul>
+<p>Wartości pozostają <code>UNKNOWN</code> do czasu audytu. Model finansowy repozytorium pokazuje kategorie i wymagane założenia, nie generuje pozornej precyzji.</p>
+<h2 id="11-warianty-strategiczne">11. Warianty strategiczne</h2>
+<table>
+<thead>
+<tr>
+<th>Wariant</th>
+<th>Opis</th>
+<th>Korzyść</th>
+<th>Główne ryzyko</th>
+<th>Ocena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Status quo+</td>
+<td>lepsza koordynacja istniejących programów bez wspólnego portfela</td>
+<td>mały koszt przejścia</td>
+<td>utrzymanie fragmentacji i braku danych porównawczych</td>
+<td>niewystarczający</td>
+</tr>
+<tr>
+<td>Program edukacyjny</td>
+<td>koncentracja na kierunkach, stypendiach i laboratoriach</td>
+<td>widoczny politycznie i łatwy do uruchomienia</td>
+<td>podaż kompetencji bez popytu i wdrożeń</td>
+<td>działanie pomocnicze</td>
+</tr>
+<tr>
+<td>Megafabryka</td>
+<td>jeden duży zakład i centralny produkt</td>
+<td>szybka narracja skali</td>
+<td>blokada technologiczna, koncentracja ryzyka, brak elastyczności</td>
+<td>odrzucić jako model główny</td>
+</tr>
+<tr>
+<td>Portfel rekomendowany</td>
+<td>KPRM + problemy + dane + testy + małe partie + przemysł + kadry</td>
+<td>uczenie się przed skalą, wspólny obraz i możliwość zamykania</td>
+<td>wymaga silnej dyscypliny międzyresortowej</td>
+<td>rekomendowany</td>
+</tr>
+<tr>
+<td>Maksymalna mobilizacja</td>
+<td>szeroka rozbudowa mocy, zapasów i kadr od początku</td>
+<td>szybkość przy trafnej diagnozie</td>
+<td>wysoki koszt błędu i wypieranie innych celów</td>
+<td>tylko po danych i decyzji politycznej</td>
+</tr>
+</tbody>
+</table>
+<h2 id="12-mapa-realizacji">12. Mapa realizacji</h2>
+<p>Szczegółowy portfel znajduje się w dokumencie „Plan realizacji 2026–2040”. Strategia ustala kolejność:</p>
+<ol>
+<li><strong>ustanów odpowiedzialność i reguły dowodowe;</strong></li>
+<li><strong>poznaj stan bazowy i zależności;</strong></li>
+<li><strong>uruchom małe, porównywalne pilotaże;</strong></li>
+<li><strong>skaluj wyłącznie mechanizmy i produkty, które przeszły bramki;</strong></li>
+<li><strong>buduj zdolność cyklu życia i substytucji;</strong></li>
+<li><strong>aktualizuj portfel oraz zamykaj elementy nieaktualne.</strong></li>
+</ol>
+<h2 id="13-wskazniki-sukcesu">13. Wskaźniki sukcesu</h2>
+<p>Cele liczbowe zostaną ustalone dopiero po bazach. Już teraz można przyjąć definicje:</p>
+<table>
+<thead>
+<tr>
+<th>Wymiar</th>
+<th>Wskaźnik</th>
+<th>Definicja minimalna</th>
+<th>Właściciel danych</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Szybkość</td>
+<td>czas problem→kontrakt pilotażowy</td>
+<td>mediana dni od zatwierdzenia B0 do podpisania</td>
+<td>Biuro Realizacji/nabywca</td>
+</tr>
+<tr>
+<td>Wdrożenie</td>
+<td>udział projektów z testem użytkownika</td>
+<td>licznik projektów po B3 / wszystkie po B2</td>
+<td>właściciel testów</td>
+</tr>
+<tr>
+<td>Dyscyplina</td>
+<td>udział projektów zamkniętych</td>
+<td>zamknięte z powodem / wszystkie zakończone</td>
+<td>Biuro Realizacji</td>
+</tr>
+<tr>
+<td>Produkcja</td>
+<td>czas osiągnięcia scenariusza mocy</td>
+<td>wynik ćwiczenia 30/90/180 dni</td>
+<td>resorty i przemysł</td>
+</tr>
+<tr>
+<td>Odporność</td>
+<td>udział krytycznych elementów z alternatywą</td>
+<td>elementy z przetestowaną substytucją / wszystkie krytyczne</td>
+<td>właściciel systemu</td>
+</tr>
+<tr>
+<td>Cykl życia</td>
+<td>czas naprawy i aktualizacji</td>
+<td>mediana według klasy systemu</td>
+<td>integrator/użytkownik</td>
+</tr>
+<tr>
+<td>Dane/AI</td>
+<td>modele z pełną kartą i monitoringiem</td>
+<td>zgodne modele / modele w zakresie</td>
+<td>właściciel przestrzeni danych</td>
+</tr>
+<tr>
+<td>Kadry</td>
+<td>retencja kompetencji</td>
+<td>osoby w rolach po 12/24 miesiącach</td>
+<td>edukacja/pracodawcy</td>
+</tr>
+<tr>
+<td>Gospodarka</td>
+<td>wartość dodana w Polsce</td>
+<td>metodologia rachunku zatwierdzona przed celem</td>
+<td>finanse/statystyka</td>
+</tr>
+<tr>
+<td>Eksport</td>
+<td>przychód i serwis na rynkach zgodnych</td>
+<td>wykonane kontrakty, nie memoranda</td>
+<td>gospodarka/eksport</td>
+</tr>
+</tbody>
+</table>
+<p>Każdy KPI otrzymuje wartość bazową, cel, częstotliwość, mianownik, odpowiedzialnego, koszt pomiaru i regułę korekty. Dashboard publiczny pokazuje agregaty; dashboard uprawniony może zawierać informacje chronione.</p>
+<h2 id="14-ryzyka-i-zabezpieczenia">14. Ryzyka i zabezpieczenia</h2>
+<h3 id="najwazniejsze-ryzyka">Najważniejsze ryzyka</h3>
+<ol>
+<li><strong>Przechwycenie programu przez dostawców.</strong> Zabezpieczenie: jawne konflikty interesów, oddzielenie potrzeby, finansowania i oceny.</li>
+<li><strong>Centralizacja bez sprawczości.</strong> Zabezpieczenie: małe Biuro Realizacji, formalna eskalacja i odpowiedzialność resortów.</li>
+<li><strong>Grantyzacja.</strong> Zabezpieczenie: bramki użytkownika i produkcji, raport projektów zamkniętych.</li>
+<li><strong>Fałszywa lokalizacja.</strong> Zabezpieczenie: rachunek wartości dodanej i zależności zamiast etykiety „made in Poland”.</li>
+<li><strong>Blokada jednego dostawcy.</strong> Zabezpieczenie: interfejsy, prawa cyklu życia, alternatywy i depozyt.</li>
+<li><strong>Niebezpieczne dane i AI.</strong> Zabezpieczenie: minimalizacja, środowiska kontrolowane, wersjonowanie, red-team i sterowalność.</li>
+<li><strong>Nadmierna skala przed dowodem.</strong> Zabezpieczenie: opcje kontraktowe i finansowanie etapowe.</li>
+<li><strong>Drenaż talentów.</strong> Zabezpieczenie: realne projekty, konkurencyjne ścieżki, mobilność i udział w wartości.</li>
+<li><strong>Niestabilność polityczna.</strong> Zabezpieczenie: mierzalne rezultaty, coroczny przegląd i ponadpartyjna kontrola bez zamrażania technologii.</li>
+<li><strong>Ujawnienie informacji wrażliwych.</strong> Zabezpieczenie: osobne środowisko, właściciel informacji i sanitizacja agregatów.</li>
+<li><strong>Podwójne finansowanie.</strong> Zabezpieczenie: wspólna mapa kosztów, źródeł i zobowiązań.</li>
+<li><strong>Militaryzacja zastosowań cywilnych i edukacji.</strong> Zabezpieczenie: proporcjonalność, etyka, dobrowolność specjalizacji i niezależne zastosowania społeczne.</li>
+</ol>
+<h3 id="kryteria-przerwania-caego-programu-lub-jego-czesci">Kryteria przerwania całego programu lub jego części</h3>
+<p>Rada Ministrów powinna zmniejszyć lub zamknąć strumień, jeżeli po dwóch cyklach przeglądu nie poprawia on żadnego miernika rezultatu, powiela istniejącą funkcję bez wartości dodanej, nie potrafi pozyskać wymaganych danych zgodnie z prawem, tworzy ryzyko nieproporcjonalne do korzyści albo jego koszt alternatywny przewyższa potwierdzony rezultat. Każde zamknięcie obejmuje archiwizację wiedzy, zobowiązań, praw i plan przejścia dla użytkowników.</p>
+<h2 id="15-rejestr-pierwszych-decyzji-kandydujacych">15. Rejestr pierwszych decyzji kandydujących</h2>
+<p>Poniższe identyfikatory są wspólne dla wszystkich formatów. Status <code>candidate</code> oznacza propozycję do rozpatrzenia, a nie decyzję organu państwa. Brak formalnego właściciela i podstawy procesu pozostaje jawną luką <strong>GAP-0011</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Kandydat decyzji</th>
+<th>Status v0.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DEC-0001</code></td>
+<td>uruchomić strategiczny przegląd i ustalić jego jawny mandat</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0002</code></td>
+<td>wskazać właściciela portfela przy KPRM i małe Biuro Realizacji</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0003</code></td>
+<td>uruchomić katalog problemów oraz etapową ścieżkę pilotażową</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0004</code></td>
+<td>uruchomić pilotaż bezpiecznej przestrzeni danych i ewaluacji AI</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0005</code></td>
+<td>przeprowadzić niezależny audyt przemysłu, serwisu i zależności</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0006</code></td>
+<td>zaprojektować sieć kształcenia na bazie istniejących instytucji</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0007</code></td>
+<td>wybrać pilotaże polsko-ukraińskie po due diligence</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0008</code></td>
+<td>zbudować skonsolidowany model finansowy bez podwójnego liczenia</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0009</code></td>
+<td>przygotować stopniowany pakiet zmian procesowych, kontraktowych i prawnych</td>
+<td>candidate</td>
+</tr>
+<tr>
+<td><code>DEC-0010</code></td>
+<td>wdrożyć publiczny dashboard i raport projektów zamkniętych</td>
+<td>candidate</td>
+</tr>
+</tbody>
+</table>
+<h2 id="16-dalsze-pytania-wymagajace-decyzji-lub-danych">16. Dalsze pytania wymagające decyzji lub danych</h2>
+<ul>
+<li>Które problemy mają najwyższą wartość operacyjną i publiczną w horyzontach 2027, 2030 i 2035?</li>
+<li>Jaki jest rzeczywisty czas od zgłoszenia potrzeby do pilotażu i pierwszej partii?</li>
+<li>Które komponenty, kompetencje i usługi mają pojedynczy punkt awarii?</li>
+<li>Jakie istniejące zobowiązania i finansowanie mieszczą się już w zakresie programu?</li>
+<li>Które dane mogą być użyte do badań po anonimizacji, a które wymagają pełnego odseparowania?</li>
+<li>Jakie instrumenty prawne wystarczą w pierwszych 100 dniach, a gdzie potrzebna jest zmiana ustawy?</li>
+<li>Jak mierzyć wartość dodaną pozostającą w Polsce bez premiowania nieefektywności?</li>
+<li>Które zastosowania cywilne mają właściciela, dane i gotowość do zakupu po pilotażu?</li>
+<li>Jakie zobowiązania do interoperacyjności i eksportu wynikają z aktualnych ram NATO i UE?</li>
+<li>Jak zaprojektować ponadpartyjną ciągłość bez ochrony nieskutecznych programów przed zamknięciem?</li>
+</ul>
+<h2 id="17-zastrzezenia-i-zaozenia">17. Zastrzeżenia i założenia</h2>
+<ul>
+<li>Dokument wykorzystuje wyłącznie informacje jawne i nie ocenia niejawnych zdolności państwa.</li>
+<li>Rekomendacje instytucjonalne wymagają opinii właściwych organów prawnych i potwierdzenia aktualnego podziału kompetencji.</li>
+<li>Wskazane instrumenty UE i krajowe wymagają analizy kwalifikowalności, dodatkowości i warunków finansowych dla każdego projektu.</li>
+<li>Liczby z komunikatów instytucji są opisem oficjalnej deklaracji lub stanu na datę źródła, a nie automatycznie dowodem wykonania i skuteczności.</li>
+<li>Cele ilościowe z materiału inicjującego są hipotezami do wyceny; nie zostały przyjęte jako wartości docelowe v0.1.</li>
+<li>Każdy fakt użyty w decyzji wykonawczej powinien być ponownie sprawdzony w dniu wydania dokumentu.</li>
+</ul>
+<h2 id="aneks-a-taksonomia-portfela-technologicznego">Aneks A. Taksonomia portfela technologicznego</h2>
+<p>Taksonomia służy klasyfikacji inwestycji i odpowiedzialności. Nie jest katalogiem parametrów ani listą zakupową.</p>
+<h3 id="a1-domeny-platform">A.1. Domeny platform</h3>
+<table>
+<thead>
+<tr>
+<th>Domena</th>
+<th>Przykładowe klasy zastosowania na poziomie polityki</th>
+<th>Wspólne wymagania cyklu życia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>powietrzna</td>
+<td>obserwacja, inspekcja, transport, wsparcie reakcji, ochrona przestrzeni</td>
+<td>identyfikacja, przestrzeń powietrzna, łączność, serwis i bezpieczeństwo</td>
+</tr>
+<tr>
+<td>lądowa</td>
+<td>logistyka, inspekcja, praca w ryzyku, ewakuacja, rozminowanie na poziomie zdolności</td>
+<td>mobilność, bezpieczeństwo funkcjonalne, operator, naprawa i energia</td>
+</tr>
+<tr>
+<td>nawodna</td>
+<td>inspekcja, monitoring, transport i ochrona infrastruktury morskiej</td>
+<td>łączność, prawo morskie, odzyskanie, serwis portowy i pogoda</td>
+</tr>
+<tr>
+<td>podwodna</td>
+<td>inspekcja, mapowanie, badania i monitoring</td>
+<td>nawigacja, energia, odzyskanie, sensory i utrzymanie</td>
+</tr>
+</tbody>
+</table>
+<p>Każda domena korzysta z tych samych warstw horyzontalnych, ale ma inne środowisko, prawo, ryzyko i infrastrukturę testową. Program nie powinien wymuszać jednej platformy lub jednego standardu, gdy efekt można osiągnąć przez różne architektury.</p>
+<h3 id="a2-dziewiec-warstw-systemu">A.2. Dziewięć warstw systemu</h3>
+<ol>
+<li><strong>misja i człowiek:</strong> cel, użytkownik, odpowiedzialność i procedura;</li>
+<li><strong>platforma:</strong> konstrukcja, mobilność, bezpieczeństwo fizyczne i energia;</li>
+<li><strong>sensory:</strong> pomiar, jakość, kalibracja, pochodzenie i fuzja;</li>
+<li><strong>obliczenia brzegowe:</strong> hardware, system czasu rzeczywistego, modele i degradacja;</li>
+<li><strong>nawigacja i sterowanie:</strong> odporność, alternatywy i bezpieczne zachowanie;</li>
+<li><strong>łączność i interfejsy:</strong> protokoły, tożsamość, dostęp i interoperacyjność;</li>
+<li><strong>dane i software:</strong> wersje, aktualizacje, zależności, benchmarki i monitoring;</li>
+<li><strong>system nadrzędny:</strong> dowodzenie procesem, integracja, ślad decyzji i cyber;</li>
+<li><strong>cykl życia:</strong> produkcja, test jakości, szkolenie, naprawa, zapas, utylizacja.</li>
+</ol>
+<p>Inwestycja w jedną warstwę ma sens tylko wtedy, gdy wskazuje wpływ na cały system. Najlepszy sensor bez kalibracji, danych, oprogramowania i serwisu nie tworzy zdolności; podobnie doskonały model bez kontrolowanego wdrożenia nie tworzy bezpiecznej funkcji.</p>
+<h3 id="a3-klasy-kontroli">A.3. Klasy kontroli</h3>
+<table>
+<thead>
+<tr>
+<th>Klasa</th>
+<th>Kryterium</th>
+<th>Oczekiwana kontrola</th>
+<th>Dowód</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K1 — krytyczna</td>
+<td>utrata uniemożliwia bezpieczne działanie i nie ma szybkiej alternatywy</td>
+<td>krajowa kontrola albo szczególnie silna współkontrola</td>
+<td>test ciągłości i prawa cyklu życia</td>
+</tr>
+<tr>
+<td>K2 — strategiczna</td>
+<td>zakłócenie istotnie ogranicza skalę lub czas</td>
+<td>kilku zaufanych dostawców i kwalifikowana substytucja</td>
+<td>test zmiany komponentu/dostawcy</td>
+</tr>
+<tr>
+<td>K3 — standardowa</td>
+<td>dostępny rynek i umiarkowany koszt zmiany</td>
+<td>konkurencja, standard i monitoring</td>
+<td>analiza rynku i test odbioru</td>
+</tr>
+<tr>
+<td>K4 — akceptowana zależność</td>
+<td>redukcja zależności jest nieproporcjonalna</td>
+<td>jawny właściciel ryzyka i plan obserwacji</td>
+<td>udokumentowana decyzja koszt–ryzyko</td>
+</tr>
+</tbody>
+</table>
+<p>Klasa może zmienić się wraz z technologią, geopolityką, dostawcą lub doświadczeniem eksploatacyjnym. Klasyfikacja jest corocznie odnawiana i wersjonowana.</p>
+<h2 id="aneks-b-karta-projektu-w-portfelu">Aneks B. Karta projektu w portfelu</h2>
+<p>Każdy projekt powinien zmieścić swoją logikę decyzyjną na jednej karcie, a dowody przechowywać w rejestrze.</p>
+<h3 id="b1-pola-obowiazkowe">B.1. Pola obowiązkowe</h3>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Pytanie kontrolne</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID i wersja</td>
+<td>czy decyzję można jednoznacznie odtworzyć?</td>
+</tr>
+<tr>
+<td>problem</td>
+<td>czy opisuje skutek, a nie preferowaną technologię?</td>
+</tr>
+<tr>
+<td>właściciel i użytkownik</td>
+<td>kto odpowiada i kto wykona test?</td>
+</tr>
+<tr>
+<td>baza</td>
+<td>jaka jest wartość, źródło i data albo plan <code>UNKNOWN</code>?</td>
+</tr>
+<tr>
+<td>rezultat</td>
+<td>jaka zmiana ma nastąpić i w jakim czasie?</td>
+</tr>
+<tr>
+<td>alternatywy</td>
+<td>status quo, proces, import, usługa i inne technologie</td>
+</tr>
+<tr>
+<td>dane</td>
+<td>właściciel, podstawa, jakość, dostęp i retencja</td>
+</tr>
+<tr>
+<td>test</td>
+<td>protokół, próg, rozwiązanie referencyjne i niezależność</td>
+</tr>
+<tr>
+<td>bezpieczeństwo</td>
+<td>prawo, cyber, informacja, etyka i bezpieczna degradacja</td>
+</tr>
+<tr>
+<td>przemysł</td>
+<td>moce, komponenty, jakość, serwis i substytucja</td>
+</tr>
+<tr>
+<td>finanse</td>
+<td>koszt etapu, TCO, źródło, dodatkowość i ekspozycja</td>
+</tr>
+<tr>
+<td>prawa</td>
+<td>IP, interfejsy, dokumentacja, naprawa, aktualizacja i wyjście</td>
+</tr>
+<tr>
+<td>bramka</td>
+<td>konkretna następna decyzja i jej organ</td>
+</tr>
+<tr>
+<td>stop-rule</td>
+<td>warunek zatrzymania bez dodatkowego uzasadnienia</td>
+</tr>
+<tr>
+<td>konflikty</td>
+<td>interesy autorów, testerów, finansujących i dostawców</td>
+</tr>
+</tbody>
+</table>
+<h3 id="b2-ocena-bramkowa">B.2. Ocena bramkowa</h3>
+<p>Ocena nie powinna tworzyć jednego „score” ukrywającego ryzyko krytyczne. Stosuje się profile:</p>
+<ul>
+<li>wartość problemu;</li>
+<li>jakość dowodu;</li>
+<li>użyteczność;</li>
+<li>bezpieczeństwo i legalność;</li>
+<li>interoperacyjność;</li>
+<li>przemysł i cykl życia;</li>
+<li>finanse i dodatkowość;</li>
+<li>odwracalność;</li>
+<li>zdolność wykonawcza;</li>
+<li>ryzyko reputacyjne i społeczne.</li>
+</ul>
+<p>Wynik czerwony w bezpieczeństwie, legalności, własności technologii lub dostępie do danych blokuje przejście niezależnie od średniej. Organ uprawniony może zaakceptować ryzyko tylko w prawidłowym trybie, z uzasadnieniem i ograniczeniem zakresu.</p>
+<h3 id="b3-lekcja-po-zamknieciu">B.3. Lekcja po zamknięciu</h3>
+<p>Projekt zamknięty zapisuje:</p>
+<ol>
+<li>hipotezę;</li>
+<li>dowód, który ją obalił albo pozostał niewystarczający;</li>
+<li>koszt i uniknięte zobowiązanie;</li>
+<li>element możliwy do ponownego użycia;</li>
+<li>dane i prawa, które trzeba zachować lub usunąć;</li>
+<li>komunikat możliwy do publikacji;</li>
+<li>warunek ewentualnego ponownego otwarcia.</li>
+</ol>
+<h2 id="aneks-c-plan-konsultacji">Aneks C. Plan konsultacji</h2>
+<p>Konsultacja nie jest plebiscytem nad jedną nazwą programu. Ma ujawnić brakujące opcje, koszty, konflikty i ryzyka wykonawcze.</p>
+<h3 id="c1-grupy-i-pytania">C.1. Grupy i pytania</h3>
+<table>
+<thead>
+<tr>
+<th>Grupa</th>
+<th>Pytanie główne</th>
+<th>Konflikt, który należy kontrolować</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>użytkownicy publiczni</td>
+<td>jaki problem, baza i warunek odbioru?</td>
+<td>preferencja znanego rozwiązania i unikanie ryzyka testu</td>
+</tr>
+<tr>
+<td>nabywcy</td>
+<td>który etap i instrument są prawnie wykonalne?</td>
+<td>optymalizacja procedury zamiast rezultatu</td>
+</tr>
+<tr>
+<td>przemysł prywatny i państwowy</td>
+<td>jaka inwestycja wymaga popytu, standardu lub kapitału?</td>
+<td>dopasowanie potrzeby do własnego produktu</td>
+</tr>
+<tr>
+<td>MŚP/start-upy</td>
+<td>jakie wymagania i czas płatności blokują wejście?</td>
+<td>zaniżenie dojrzałości i kosztu bezpieczeństwa</td>
+</tr>
+<tr>
+<td>uczelnie/instytuty</td>
+<td>jaka infrastruktura i wiedza są dostępne do wspólnego użycia?</td>
+<td>granty i budynki zamiast wdrożeń</td>
+</tr>
+<tr>
+<td>szkoły/nauczyciele</td>
+<td>jaka kompetencja jest realna i kto ją prowadzi?</td>
+<td>cele liczebne bez kadry i czasu</td>
+</tr>
+<tr>
+<td>pracownicy/technicy</td>
+<td>jakie role, płace, mobilność i warunki retencji?</td>
+<td>pomijanie kosztu przejścia i bezpieczeństwa pracy</td>
+</tr>
+<tr>
+<td>samorządy</td>
+<td>jaki lokalny problem ma właściciela i popyt po pilotażu?</td>
+<td>infrastruktura jako cel polityczny</td>
+</tr>
+<tr>
+<td>organizacje społeczne</td>
+<td>jakie skutki praw, prywatności, środowiska i etyki?</td>
+<td>konsultacja po podjęciu decyzji</td>
+</tr>
+<tr>
+<td>inwestorzy/finansujący</td>
+<td>jaka luka kapitałowa i prywatny udział ryzyka?</td>
+<td>uspołecznienie strat i prywatyzacja opcji</td>
+</tr>
+<tr>
+<td>Ukraina i sojusznicy</td>
+<td>jaki model współpracy daje obustronną wartość i ciągłość?</td>
+<td>zależność, eksport i asymetria praw</td>
+</tr>
+<tr>
+<td>red-team</td>
+<td>co obaliłoby diagnozę albo rekomendację?</td>
+<td>symboliczna obecność bez wpływu</td>
+</tr>
+</tbody>
+</table>
+<h3 id="c2-produkty-konsultacji">C.2. Produkty konsultacji</h3>
+<ul>
+<li>rejestr uwag i odpowiedzi;</li>
+<li>lista zmienionych i odrzuconych założeń;</li>
+<li>mapa konfliktów interesów;</li>
+<li>nowe warianty i koszty;</li>
+<li>sprawy przekazane do analizy autoryzowanej;</li>
+<li>elementy wymagające pilotażu zamiast sporu teoretycznego;</li>
+<li>wersja strategii z historią zmian.</li>
+</ul>
+<h2 id="aneks-d-rejestr-celow-ilosciowych-z-materiau-inicjujacego">Aneks D. Rejestr celów ilościowych z materiału inicjującego</h2>
+<p>Poniższe liczby są <strong>SCENARIUSZAMI DO WALIDACJI</strong>, nie przyjętymi celami strategii v0.1.</p>
+<table>
+<thead>
+<tr>
+<th>Hipoteza</th>
+<th>Baza potrzebna przed decyzją</th>
+<th>Test i ryzyko</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20 najważniejszych problemów</td>
+<td>pojemność użytkowników, testów i nabywców</td>
+<td>zbyt szeroki portfel może opóźnić wszystkie projekty</td>
+</tr>
+<tr>
+<td>5 pilotaży Polska–Ukraina</td>
+<td>pipeline partnerów, due diligence i prawa</td>
+<td>presja liczby może preferować słabe projekty</td>
+</tr>
+<tr>
+<td>16 centrów regionalnych</td>
+<td>koszt funkcji, specjalizacje, infrastruktura i popyt</td>
+<td>jeden na województwo może ignorować realne klastry</td>
+</tr>
+<tr>
+<td>około 100 szkół patronackich</td>
+<td>nauczyciele, program, przemysł i retencja</td>
+<td>patronat może stać się reklamą bez jakości</td>
+</tr>
+<tr>
+<td>5000 nowych absolwentów rocznie</td>
+<td>popyt według ról, czas programu i zatrudnienie</td>
+<td>nadpodaż ogólna przy braku rzadkich kompetencji</td>
+</tr>
+<tr>
+<td>15 000 przekwalifikowanych rocznie</td>
+<td>grupa docelowa, koszt i standard kompetencji</td>
+<td>ukończenie kursu bez zmiany roli</td>
+</tr>
+<tr>
+<td>20–30 aktywnych projektów z Ukrainą</td>
+<td>definicja projektu i zdolność nadzoru</td>
+<td>liczba zamiast produktu, IP i kontraktu</td>
+</tr>
+<tr>
+<td>10 produktów eksportowych</td>
+<td>rynek, zgodność, marża, serwis i definicja eksportu</td>
+<td>memorandum lub licencja bez dostawy</td>
+</tr>
+<tr>
+<td>60% wartości dodanej w Polsce</td>
+<td>metodologia, dane łańcucha i kontrfaktyczny koszt</td>
+<td>premiowanie kosztownej lokalizacji bez odporności</td>
+</tr>
+<tr>
+<td>90 dni do umowy pilotażowej</td>
+<td>bieżąca mediana i typ projektu</td>
+<td>termin może obniżyć jakość lub być nierealny dla części klas</td>
+</tr>
+<tr>
+<td>12 miesięcy do pierwszej partii</td>
+<td>gotowość technologiczna, test, prawo i produkcja</td>
+<td>jedna norma czasu dla różnych ryzyk</td>
+</tr>
+</tbody>
+</table>
+<p>Po audycie każda hipoteza otrzymuje status: przyjmij jako cel, zmień, użyj tylko dla pilotażu albo odrzuć. Cel ma właściciela, bazę, koszt, mianownik, tolerancję i konsekwencję niespełnienia.</p>
+<h2 id="aneks-e-sownik-roboczy">Aneks E. Słownik roboczy</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Pojęcie</th>
+<th>Znaczenie w strategii</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>autonomia</td>
+<td>zdolność systemu do wykonywania funkcji w określonych granicach; nie oznacza braku odpowiedzialności człowieka</td>
+</tr>
+<tr>
+<td>—</td>
+<td>system autonomiczny</td>
+<td>platforma, software, dane, człowiek, procedura i cykl życia, nie sama maszyna</td>
+</tr>
+<tr>
+<td>—</td>
+<td>dual-use</td>
+<td>technologia, moduł, kompetencja lub proces mający rzeczywiste zastosowanie cywilne i bezpieczeństwa</td>
+</tr>
+<tr>
+<td>—</td>
+<td>odporność</td>
+<td>zdolność przygotowania, absorpcji zakłócenia, degradacji, odtworzenia i adaptacji</td>
+</tr>
+<tr>
+<td><code>DEF-0001</code></td>
+<td>suwerenność technologiczna</td>
+<td>zdolność do decyzji, utrzymania i zmiany krytycznych funkcji przy kontrolowanych zależnościach</td>
+</tr>
+<tr>
+<td><code>DEF-0002</code></td>
+<td>zdolność substytucji</td>
+<td>przetestowana możliwość zastąpienia elementu bez nieakceptowalnej utraty funkcji</td>
+</tr>
+<tr>
+<td><code>DEF-0003</code></td>
+<td>interoperacyjność</td>
+<td>zdolność współdziałania technicznego, danych, procedur, logistyki, cyber i odpowiedzialności</td>
+</tr>
+<tr>
+<td><code>DEF-0004</code></td>
+<td>TCO</td>
+<td>pełny koszt nabycia, wdrożenia, użycia, utrzymania, aktualizacji i zakończenia</td>
+</tr>
+<tr>
+<td><code>DEF-0005</code></td>
+<td>mała partia</td>
+<td>ograniczone wdrożenie służące zebraniu dowodów powtarzalności i cyklu życia</td>
+</tr>
+<tr>
+<td><code>DEF-0006</code></td>
+<td>bramka decyzyjna</td>
+<td>formalna decyzja o przejściu, poprawie, niszy albo zamknięciu</td>
+</tr>
+<tr>
+<td><code>DEF-0007</code></td>
+<td>wartość bazowa</td>
+<td>mierzalny stan przed interwencją ze źródłem, datą, mianownikiem i definicją</td>
+</tr>
+<tr>
+<td><code>DEF-0008</code></td>
+<td>dodatkowość</td>
+<td>część kosztu lub rezultatu niepokryta już zobowiązaniem albo scenariuszem bazowym</td>
+</tr>
+<tr>
+<td><code>DEF-0009</code></td>
+<td>środowisko autoryzowane</td>
+<td>osobny, dopuszczony proces dla chronionych odpowiedzi; nie repozytorium GitHub</td>
+</tr>
+<tr>
+<td><code>DEF-0010</code></td>
+<td>niezależny red-team</td>
+<td>funkcja próbująca obalić diagnozę, dowód i wykonalność, oddzielona od autora i beneficjenta</td>
+</tr>
+</tbody>
+</table>
+<h2 id="konkluzja">Konkluzja</h2>
+<p>Polska nie potrzebuje pojedynczego „programu dronowego”. Potrzebuje zdolności organizacyjnej, która wielokrotnie i bezpiecznie zamienia problem w sprawdzony produkt, produkt w zdolność produkcyjną, a doświadczenie w kolejną wersję. Najważniejszą inwestycją pierwszego roku nie jest budynek ani hasło, lecz <strong>wiarygodna pętla decyzji oparta na użytkowniku, danych, teście i możliwości zakończenia projektu</strong>. Dopiero ta pętla uzasadnia skalę finansowania, fabryk i edukacji.</p><div class="metadata">Identyfikator: strategy · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

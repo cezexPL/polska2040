@@ -1,7 +1,7 @@
 # Ład instytucjonalny, prawo i zamówienia
 
 **Program:** Polska 2040: Suwerenność technologiczna  
-**Status:** niezależny projekt ekspercki v0.1 do konsultacji prawnej  
+**Status:** niezależny materiał przedmandatowy v0.1 do konsultacji prawnej; nie jest formalnym przedłożeniem<br>
 **Stan wiedzy:** 21 lipca 2026 r.
 
 > Dokument nie jest poradą prawną ani projektem aktu normatywnego. Ostateczne kompetencje, podstawa prawna, tryb konsultacji, ocena oddziaływania i treść klauzul wymagają pisemnego potwierdzenia przez właściwe organy oraz prawników specjalizujących się w danym reżimie.
@@ -11,6 +11,8 @@
 ### Odpowiedź
 
 Program nie powinien zaczynać się od utworzenia nowego ministra, agencji i ustawy omnibusowej. Najpierw należy **wykorzystać istniejącą funkcję koordynacji i nadzoru realizacji przy centrum rządu**, formalnie wskazać ministra właściwego dla dokumentu strategicznego, nadać jednego właściciela każdemu rezultatowi oraz zastosować modułową drabinę instrumentów: strategia → programy wykonawcze → budżet i zamówienia → celowane zmiany prawa.
+
+**Bieżący wynik bramki formalnej: `FAIL` / materiał wyłącznie konsultacyjny.** Właściwy minister, podstawa procesu oraz miejsce dokumentu w hierarchii strategii pozostają nierozstrzygnięte (**GAP-0011**). Nie wolno usuwać tej luki przez założenie autora; musi ją rozstrzygnąć właściwy organ w opinii prawnej.
 
 ### Najważniejsze rozstrzygnięcia
 
@@ -25,9 +27,13 @@ Program nie powinien zaczynać się od utworzenia nowego ministra, agencji i ust
 9. **Autor nie zatwierdza własnych twierdzeń ani produktu.** Potrzeba, finansowanie, test i akceptacja muszą mieć rozdzielone role.
 10. **Nowy pełnomocnik jest wariantem warunkowym.** Należy go rozważyć dopiero po udokumentowaniu, że istniejące mechanizmy nie potrafią usunąć blokad.
 
-### Decyzja rekomendowana na pierwsze 30 dni
+### Kandydaty decyzji na pierwsze 30 dni
 
-Zatwierdzić funkcjonalny model governance, zlecić formalną mapę kompetencji i instrumentów, wskazać właściciela dokumentu oraz integratora portfela, przyjąć RACI i uruchomić dwukwartalny test istniejącego mechanizmu. Po tym okresie Rada Ministrów decyduje, czy potrzebne jest wzmocnienie mandatu, nowy pełnomocnik, zmiana organizacyjna lub akt ustawowy.
+Rekordy **DEC-0001**, **DEC-0002** i **DEC-0009** proponują: uruchomić przegląd, zlecić formalną mapę kompetencji i instrumentów, wskazać właściciela dokumentu oraz integratora portfela, przyjąć RACI i uruchomić dwukwartalny test istniejącego mechanizmu. Wszystkie mają status `candidate`. Dopiero właściwy organ może rozstrzygnąć, czy potrzebne jest wzmocnienie mandatu, nowy pełnomocnik, zmiana organizacyjna lub akt ustawowy.
+
+## Spis treści
+
+[TOC]
 
 ## 1. Zasady ustrojowe i projektowe
 
@@ -44,7 +50,7 @@ Nazwa „narodowy program”, „strategia państwa”, „pełnomocnik” lub �
 - sposób kontroli i odwołania;
 - termin ponownej oceny.
 
-Jeżeli działanie tworzy prawa lub obowiązki podmiotów zewnętrznych, nie może opierać się wyłącznie na dokumencie kierownictwa wewnętrznego. Jeżeli działanie mieści się w istniejącej kompetencji i umowie, nowa ustawa może jedynie opóźnić wynik.
+Art. 93 Konstytucji określa uchwały Rady Ministrów jako akty wewnętrzne, wiążące jednostki organizacyjnie podległe organowi wydającemu, i wyklucza użycie ich jako podstawy decyzji wobec obywateli, osób prawnych oraz innych podmiotów ([Konstytucja RP](https://eli.gov.pl/eli/DU/1997/483/ogl), **CLM-0901**). Jeżeli działanie tworzy prawa lub obowiązki podmiotów zewnętrznych, nie może zatem opierać się wyłącznie na dokumencie kierownictwa wewnętrznego. Jeżeli działanie mieści się w istniejącej kompetencji i umowie, nowa ustawa może jedynie opóźnić wynik.
 
 ### 1.2. Jeden rezultat — jeden rozliczalny właściciel
 
@@ -125,21 +131,22 @@ Powinni otrzymywać roczny przegląd odporności, zgodności z bezpieczeństwem 
 
 Legenda: `A` — zatwierdza i odpowiada; `R` — wykonuje; `C` — konsultowany; `I` — informowany.
 
-| Produkt | RM/PRM | właściwy minister | integrator KPRM | minister sektorowy | użytkownik/nabywca | MF/MFiPR/RCL i bezpieczeństwo | red-team |
+| Produkt | RM/PRM | właściwy minister | integrator KPRM | minister sektorowy | użytkownik / nabywca | finanse / prawo / bezpieczeństwo | red-team |
 |---|---|---|---|---|---|---|---|
 | mandat i granice | A | C | R | C | I | C | C |
-| projekt strategii | I | A/R | C | C | C | C | C |
+| projekt strategii | I | A | R | C | C | C | C |
 | portfel i dashboard | I | C | A/R | R | C | C | C |
 | problem użytkownika | I | C | I | A | R | C | C |
-| protokół testu | I | C | I | A | R | C | C |
+| protokół testu | I | C | I | R | A/R | C | C |
 | kontrakt pilotażowy | I | I | I | C | A/R | C | I |
-| decyzja skali | C/A według progu | C | C | A | R | C | C |
+| skala w zatwierdzonym mandacie | I | C | C | A | R | C | C |
+| skala ponad próg portfela | A | C | R | R | C | C | C |
 | ramy fiskalne | A | R | C | C | I | R/C | C |
-| akt normatywny | A według trybu | A/R | C | C | C | R/C | C |
-| raport roczny | A | C | R | R | C | C | C |
+| projekt instrumentu prawnego | I | A/R | C | C | C | R/C | C |
+| raport roczny | I | C | A | R | C | C | C |
 | zamknięcie projektu | I/C | C | C | A | R | I/C | C |
 
-Tabela jest kontraktem funkcjonalnym. Przed użyciem każda pozycja musi zostać zmapowana do aktualnej kompetencji i progu decyzji.
+Tabela jest kontraktem funkcjonalnym i ma dokładnie jedno `A` w każdym wierszu. Nie opisuje formalnego uchwalania aktu normatywnego ani konstytucyjnych kompetencji; przed użyciem każda pozycja musi zostać zmapowana do aktualnej właściwości, instrumentu i progu decyzji.
 
 ## 5. Architektura dokumentów
 
@@ -246,6 +253,8 @@ Tryb pilny nie może być domyślnym sposobem omijania diagnozy i konsultacji. J
 
 Właściwy tryb prawny dobiera nabywca z prawnikami dla konkretnego przypadku. Strategia nie tworzy ogólnego „wyjątku innowacyjnego”.
 
+W zamówieniach w dziedzinach obronności i bezpieczeństwa aktualne PZP wyłącza między innymi przetarg nieograniczony i partnerstwo innowacyjne; jako tryby podstawowe wskazuje przetarg ograniczony oraz negocjacje z ogłoszeniem, a pozostałe wymienione tryby pozostawia dla przesłanek określonych ustawą ([Prawo zamówień publicznych](https://eli.gov.pl/eli/DU/2026/793/ogl), **CLM-0906**, **CLM-0907**). To ograniczenie nie rozstrzyga trybu żadnego przyszłego zakupu — wymusza kwalifikację konkretnego przedmiotu, przesłanek i rynku.
+
 ### 8.2. Minimalne elementy kontraktu etapowego
 
 - rezultat i kryterium odbioru;
@@ -315,6 +324,10 @@ Klauzula powinna określać przesłanki, zakres, wynagrodzenie, dostęp do dokum
 
 Umowa Polska–Ukraina tworzy oficjalne ramy dla łańcuchów, lokalizacji, wspólnej produkcji i ochrony IP, lecz nie ustanawia automatycznie konkretnego JV (**CLM-1212**). Każdy projekt wymaga osobnej decyzji.
 
+Kontrola transferów dual-use może obejmować nie tylko towary, ale również oprogramowanie, technologię, pośrednictwo i pomoc techniczną; unijne ramy przewidują także mechanizmy `catch-all` oraz obowiązki ewidencyjne ([rozporządzenie (UE) 2021/821](https://eur-lex.europa.eu/eli/reg/2021/821/oj), **CLM-0917**). Kwalifikacja i wymagane zezwolenia muszą zostać ustalone dla konkretnego transferu, także niematerialnego.
+
+W zależności od podmiotu chronionego, inwestora, progów, działalności i konstrukcji transakcji polska kontrola niektórych inwestycji może objąć przejęcie, utworzenie JV albo uzyskanie istotnego uczestnictwa lub dominacji ([ustawa o kontroli niektórych inwestycji](https://eli.gov.pl/eli/DU/2026/47/ogl), **CLM-0925**). Sam zamiar utworzenia JV nie przesądza jednak zastosowania reżimu ani wyniku kontroli.
+
 ### Warunki stop
 
 Partnerstwo nie przechodzi, gdy nie można ustalić właścicieli, praw do technologii, zgodności eksportowej, bezpiecznego dostępu do danych, akceptowalnego planu ciągłości lub równowagi praw. Presja czasu nie zastępuje due diligence; może jedynie ograniczyć pierwszy, odwracalny etap.
@@ -329,6 +342,10 @@ Każdy zbiór ma właściciela, podstawę, cel, zakres, użytkowników, retencj�
 
 Wymagania kontraktowe i dopuszczeniowe powinny odzwierciedlać sześć zasad NATO: legalność, odpowiedzialność i rozliczalność, wyjaśnialność i identyfikowalność, niezawodność, sterowalność oraz ograniczanie stronniczości (**CLM-1220**). Każdy model ma kartę, wersję, wynik testu, zakres użycia, znane ograniczenia, monitoring i osobę uprawnioną do wstrzymania.
 
+Wyłączenie w AI Act dotyczy systemów wyłącznie w zakresie ich celów wojskowych, obronnych lub bezpieczeństwa narodowego; zastosowanie również cywilne wymaga osobnej oceny zakresu rozporządzenia ([AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), **CLM-0921**). Dokument nie przesądza kwalifikacji żadnego przyszłego systemu mieszanego.
+
+Jeżeli projekt dotyczy nowej broni, środka lub metody walki, art. 36 Protokołu dodatkowego I wymaga prawnego przeglądu podczas badań, rozwoju, pozyskania lub przyjęcia ([Protokół dodatkowy I](https://eli.gov.pl/eli/DU/1992/175/ogl), **CLM-0924**). Zapis tej bramki nie jest oceną legalności konkretnego rozwiązania.
+
 ### 11.3. Cyber
 
 Umowa określa secure SDLC, zależności, aktualizacje, SBOM tam, gdzie właściwe, zgłaszanie incydentów, testy, utrzymanie i bezpieczne zakończenie wsparcia. Wymagania należy różnicować według ryzyka, by nie wykluczyć MŚP przez nieproporcjonalny koszt.
@@ -336,6 +353,8 @@ Umowa określa secure SDLC, zależności, aktualizacje, SBOM tam, gdzie właści
 ### 11.4. Informacje niejawne i wrażliwe
 
 Klasyfikacja, dostęp i sanitizacja należą do właściciela informacji w prawidłowym systemie. Repozytorium publiczne lub prywatny GitHub nie jest kancelarią tajną. Jawny dokument może przechowywać identyfikator pytania, status, właściciela i wersję agregatu zatwierdzonego do publikacji.
+
+Ustawa ogranicza dostęp do informacji niejawnych do osób dających rękojmię zachowania tajemnicy i do zakresu niezbędnego do pracy; przewiduje też odrębne wymagania dla systemów teleinformatycznych oraz bezpieczeństwa przemysłowego wykonawców ([ustawa o ochronie informacji niejawnych](https://eli.gov.pl/eli/DU/2025/1209/ogl), **CLM-0910**). Nie oznacza to akredytacji repozytorium ani dopuszczenia w nim danych chronionych.
 
 ## 12. Konflikty interesów i transparentność
 
@@ -447,7 +466,7 @@ Materiał otrzymuje `FAIL`, gdy:
 - nie ma stop-rule albo raportu projektów zamkniętych;
 - opiera pilność na haśle, a nie wąskim wyjątku i kontroli zastępczej.
 
-`PASS` oznacza gotowość do kolejnej bramki, nie pewność sukcesu.
+`PASS` oznacza gotowość do kolejnej bramki, nie pewność sukcesu. Wydanie v0.1 ma wynik `FAIL` z powodu **GAP-0011** i dlatego może być udostępniane wyłącznie jako niezależny materiał do konsultacji eksperckich, nie jako formalna strategia albo nota wnoszona pod obrady Rady Ministrów.
 
 ## Dalsze pytania
 

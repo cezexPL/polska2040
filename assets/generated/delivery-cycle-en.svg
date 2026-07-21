@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Technology-sovereignty delivery cycle</title>
+  <desc id="desc">Seven connected stages from user need through data, prototype, test, procurement, production and service, and export. A portfolio review closes the learning loop.</desc>
+  <rect width="1600" height="620" fill="#f7f9fb"/>
+  <text x="80" y="82" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="700" fill="#0b1f33">From public need to an updated capability</text>
+  <text x="80" y="126" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#5d6873">Each stage has an owner, entry evidence and a stop/go criterion</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#194f7a"/></marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0b1f33" flood-opacity="0.14"/></filter>
+  </defs>
+  <g font-family="DejaVu Sans, sans-serif" filter="url(#shadow)">
+    <g transform="translate(80 210)"><rect width="160" height="110" rx="16" fill="#0b1f33"/><text x="80" y="50" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Need</text><text x="80" y="80" text-anchor="middle" font-size="15" fill="#d9e0e6">user-owned</text></g>
+    <g transform="translate(270 210)"><rect width="160" height="110" rx="16" fill="#194f7a"/><text x="80" y="50" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Data</text><text x="80" y="80" text-anchor="middle" font-size="15" fill="#e8f2f8">access + baseline</text></g>
+    <g transform="translate(460 210)"><rect width="160" height="110" rx="16" fill="#286a98"/><text x="80" y="50" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Prototype</text><text x="80" y="80" text-anchor="middle" font-size="15" fill="#e8f2f8">hypothesis</text></g>
+    <g transform="translate(650 210)"><rect width="160" height="110" rx="16" fill="#387da7"/><text x="80" y="50" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">User test</text><text x="80" y="80" text-anchor="middle" font-size="15" fill="#eef7fb">evidence</text></g>
+    <g transform="translate(840 210)"><rect width="160" height="110" rx="16" fill="#c7333e"/><text x="80" y="50" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">Procurement</text><text x="80" y="80" text-anchor="middle" font-size="15" fill="#ffe9eb">limited batch</text></g>
+    <g transform="translate(1030 210)"><rect width="200" height="110" rx="16" fill="#a52530"/><text x="100" y="43" text-anchor="middle" font-size="21" font-weight="700" fill="#fff">Production</text><text x="100" y="70" text-anchor="middle" font-size="21" font-weight="700" fill="#fff">and service</text><text x="100" y="94" text-anchor="middle" font-size="14" fill="#ffe9eb">scale + continuity</text></g>
+    <g transform="translate(1260 210)"><rect width="160" height="110" rx="16" fill="#c7a24a"/><text x="80" y="50" text-anchor="middle" font-size="22" font-weight="700" fill="#0b1f33">Export</text><text x="80" y="80" text-anchor="middle" font-size="15" fill="#473a1a">market + allies</text></g>
+  </g>
+  <g stroke="#194f7a" stroke-width="5" fill="none" marker-end="url(#arrow)"><path d="M240 265 H266"/><path d="M430 265 H456"/><path d="M620 265 H646"/><path d="M810 265 H836"/><path d="M1000 265 H1026"/><path d="M1230 265 H1256"/></g>
+  <g transform="translate(530 405)"><rect width="540" height="105" rx="18" fill="#fff" stroke="#d9e0e6" stroke-width="2"/><text x="270" y="43" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#0b1f33">Update and portfolio decision</text><text x="270" y="75" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#5d6873">scale · improve · replace · close</text></g>
+  <path d="M1340 324 C1340 430 1120 457 1075 457" fill="none" stroke="#194f7a" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M525 457 C260 457 160 420 160 326" fill="none" stroke="#194f7a" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="80" y="575" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#5d6873">Conceptual diagram · no quantitative data · Poland 2040, draft v0.1</text>
+</svg>

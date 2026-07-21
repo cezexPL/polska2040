@@ -1,7 +1,7 @@
 # Finansowanie i ocena wpływu
 
 **Program:** Polska 2040: Suwerenność technologiczna  
-**Status:** niezależny projekt analityczny v0.1 do konsultacji  
+**Status:** niezależny materiał przedmandatowy v0.1 do konsultacji; nie jest prognozą ani wnioskiem budżetowym<br>
 **Stan wiedzy:** 21 lipca 2026 r.  
 **Jednostka modelu:** mln PLN w cenach roku bazowego wskazanego przy każdym założeniu
 
@@ -11,7 +11,7 @@
 
 ### Odpowiedź
 
-Rada Ministrów nie powinna dziś zatwierdzać jednej dużej kwoty dla „programu dronowego”. Powinna najpierw zatwierdzić **architekturę finansową portfela**: oddzielić badanie problemu, prototyp, małą partię, skalę, infrastrukturę wspólną, kapitał produkcyjny i eksport; zinwentaryzować istniejące zobowiązania; policzyć koszt alternatywny; a nowe środki uwalniać po dowodach z kolejnych bramek.
+Materiał nie daje podstawy do zatwierdzenia jednej dużej kwoty dla „programu dronowego”. Kandydat **DEC-0008** proponuje najpierw zbudować **architekturę finansową portfela**: oddzielić badanie problemu, prototyp, małą partię, skalę, infrastrukturę wspólną, kapitał produkcyjny i eksport; zinwentaryzować istniejące zobowiązania; policzyć koszt alternatywny; a nowe środki uwalniać po dowodach z kolejnych bramek. Rekord ma status `candidate`, a formalna właściwość pozostaje do rozstrzygnięcia (**GAP-0011**).
 
 ### Najważniejsze wnioski
 
@@ -27,6 +27,10 @@ Rada Ministrów nie powinna dziś zatwierdzać jednej dużej kwoty dla „progra
 ### Rekomendacja
 
 W pierwszych 100 dniach utworzyć wspólny rejestr finansowy, przypisać każdemu kosztowi unikalny identyfikator oraz wykonać audyt dodatkowości. Do sześciu miesięcy przygotować trzy wycenione scenariusze wraz z analizą wrażliwości i fiskalną. Do 12 miesięcy zawrzeć w budżecie wyłącznie pozycje, które przeszły bramki danych, popytu, bezpieczeństwa, produkcji i prawa.
+
+## Spis treści
+
+[TOC]
 
 ## 1. Pytanie decyzyjne i zakres
 
@@ -190,6 +194,8 @@ SAFE jest ważnym źródłem finansowania zakupów i rozwoju zdolności, lecz ma
 ### 5.3. EDF, EUDIS, STEP i inne instrumenty UE
 
 Instrumenty mogą finansować B+R, demonstracje, skalowanie lub kapitał zależnie od bieżących regulaminów. Model nie zakłada kwalifikowalności. Każda pozycja ma: program, call, beneficjenta, koszt kwalifikowany, współfinansowanie, prawa IP, warunki konsorcjum, termin, ryzyko i unikalny identyfikator kosztu.
+
+Polityka spójności 2021–2027 obejmuje w Polsce ponad 76 mld EUR i 16 programów regionalnych, ale środki są przypisane do konkretnych programów, celów i zasad — nie stanowią swobodnej puli dla programu „Polska 2040” ([MFiPR](https://www.gov.pl/web/fundusze-regiony/fundusze-ue-2021-27), **CLM-1108**). Model może ujmować wyłącznie pozycje z ustaloną kwalifikowalnością, beneficjentem, współfinansowaniem i brakiem podwójnego finansowania.
 
 ### 5.4. PFR, BGK, NCBR, PARP i instrumenty krajowe
 

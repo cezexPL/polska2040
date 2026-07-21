@@ -1,11 +1,13 @@
 # Polska 2040: Suwerenność technologiczna
 
-**Narodowy program systemów autonomicznych, AI i technologii podwójnego zastosowania**  
-**Status:** niezależny, bezpartyjny projekt ekspercki v0.1 do konsultacji  
+**Projekt narodowego programu systemów autonomicznych, AI i technologii podwójnego zastosowania**<br>
+**Status:** niezależny, bezpartyjny materiał przedmandatowy v0.1 do konsultacji eksperckich; nie jest formalnym przedłożeniem rządowym<br>
 **Stan wiedzy:** 21 lipca 2026 r.  
 **Horyzont decyzji:** 2026–2040
 
 > Dokument nie jest strategią rządową ani stanowiskiem jakiejkolwiek instytucji państwa. Opiera się wyłącznie na źródłach jawnych. Nie opisuje zdolności niejawnych, parametrów operacyjnych ani sposobów budowy lub użycia uzbrojenia.
+
+<img class="cover-visual" src="assets/generated/cover-gpt-image.png" alt="Koncepcyjna ilustracja połączonej infrastruktury, przemysłu, danych, energii, transportu i cywilnych systemów autonomicznych pod nadzorem człowieka">
 
 ## Executive Summary / Streszczenie wykonawcze
 
@@ -28,7 +30,7 @@ Polska powinna zbudować ponadresortowy **system realizacji suwerenności techno
 
 ### Decyzja rekomendowana
 
-Rada Ministrów powinna uruchomić sześciomiesięczny przegląd strategiczny i równolegle ograniczony portfel działań odwracalnych: utworzenie właściciela programu przy KPRM, audyt przemysłu i kadr, katalog problemów, pilotaż bezpiecznej przestrzeni danych, wspólny standard testów oraz pierwsze małe zamówienia z jednoznaczną bramką skalowania. Prezydent i BBN powinni wspierać ciągłość strategiczną, zgodność z NATO i coroczny przegląd odporności państwa, bez przejmowania kompetencji wykonawczych rządu.
+Kandydat decyzji **DEC-0001** zakłada, że Rada Ministrów uruchomi sześciomiesięczny przegląd strategiczny. Powiązane kandydaty **DEC-0002–DEC-0005** obejmują ograniczony portfel działań odwracalnych: formalne wskazanie właściciela, audyt przemysłu i kadr, katalog problemów, pilotaż bezpiecznej przestrzeni danych, wspólny standard testów oraz pierwsze małe zamówienia z jednoznaczną bramką skalowania. Prezydent i BBN mogą wspierać ciągłość strategiczną, zgodność z NATO i coroczny przegląd odporności państwa, bez przejmowania kompetencji wykonawczych rządu. Wszystkie rekordy `DEC-*` pozostają kandydatami do czasu rozstrzygnięcia właściwości, podstawy procesu i relacji do obowiązujących strategii (**GAP-0011**).
 
 ### Co już potwierdzają źródła jawne
 
@@ -36,10 +38,14 @@ Rada Ministrów powinna uruchomić sześciomiesięczny przegląd strategiczny i 
 - KPRM deklaruje, że 89% funduszy SAFE ma trafić do polskiego przemysłu i gospodarki; jest to plan, nie zmierzony wynik wykonania ([KPRM](https://www.gov.pl/web/premier/nowe-zdolnosci-wojska-polskiego-dzieki-programowi-safe---lista-zadan), **CLM-1209**).
 - Polska jest już wymieniona przez EDA jako uczestnik BraveTech EU, inicjatywy o łącznym budżecie 100 mln EUR; właściwą decyzją nie jest więc „wejście”, lecz określenie polskiego portfela i mierników korzyści ([EDA](https://eda.europa.eu/news-and-events/news/2026/04/29/eda-partners-with-the-european-commission-on-bravetech-eu), **CLM-1213**, **CLM-1214**).
 - Umowa bezpieczeństwa Polska–Ukraina tworzy ramy dla łańcuchów produkcyjnych, wyboru lokalizacji, wspólnej produkcji i ochrony IP, ale nie ustanawia konkretnej spółki ani produktu ([Prezydent Ukrainy](https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-mizh-ukrayinoyu-ta-92009), **CLM-1212**).
-- Polska polityka AI przewiduje rozwój Piast i Gaia AI Factory, vouchery PLGrid oraz piaskownice regulacyjne, ale sama nie definiuje kompletnego obronnego stosu danych i modeli ([Ministerstwo Cyfryzacji](https://ai.gov.pl/media/2025/11/Polityka-rozwoju-sztucznej-inteligencji-w-Polsce-do-2030-roku-17.11.2025__-1.pdf), **CLM-1217**, **CLM-1218**).
+- Polska polityka AI przewiduje rozwój Piast i Gaia AI Factory, vouchery PLGrid oraz piaskownice regulacyjne (**CLM-1217**). **INFERENCE o ograniczonym zakresie dokumentu:** w tym jawnym dokumencie polityki nie zdefiniowano kompletnego obronnego stosu danych i modeli (**CLM-1218**); nie dowodzi to braku rozwiązań MON ani innych zdolności niejawnych ([Ministerstwo Cyfryzacji](https://ai.gov.pl/media/2025/11/Polityka-rozwoju-sztucznej-inteligencji-w-Polsce-do-2030-roku-17.11.2025__-1.pdf)).
 - NATO utrzymuje sześć zasad odpowiedzialnego użycia AI: legalność, odpowiedzialność i rozliczalność, wyjaśnialność i identyfikowalność, niezawodność, sterowalność oraz ograniczanie stronniczości ([NATO](https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy), **CLM-1220**).
 
 Te fakty pokazują dostępne ramy i instrumenty. Nie dowodzą jeszcze, że Polska ma zintegrowany system realizacji, wystarczające moce produkcyjne ani osiągnięte rezultaty. Ustalenie rzeczywistego stanu jest pierwszym produktem programu, nie założeniem dokumentu.
+
+## Spis treści
+
+[TOC]
 
 ## 1. Mandat, zakres i definicje
 
@@ -59,7 +65,7 @@ Polska dysponuje wieloma elementami potrzebnymi do rozwoju technologii podwójne
 
 Strategia odpowiada na tę lukę realizacyjną. Nie zastępuje strategii bezpieczeństwa narodowego, planowania obronnego, polityki przemysłowej, polityki AI ani decyzji zakupowych. Tworzy wspólną architekturę wykonania i mierzenia rezultatów między nimi.
 
-### 1.2. Definicja suwerenności technologicznej
+### 1.2. Definicja suwerenności technologicznej (`DEF-0001`)
 
 Na potrzeby programu **suwerenność technologiczna** oznacza zdolność państwa i gospodarki do:
 
@@ -108,7 +114,7 @@ Każda pętla powinna kończyć się jedną z czterech decyzji: **skaluj**, **po
 
 ### 2.2. Edukacja bez popytu nie tworzy zdolności
 
-Nowy kierunek studiów jest działaniem o długim czasie realizacji. Najszybsze efekty przyniosą w pierwszych latach: przekwalifikowanie istniejących specjalistów, praktyki w realnych zespołach, laboratoria dostępne dla kilku instytucji, mobilność między uczelnią a przemysłem i zadania pochodzące od użytkowników. Dopiero prognoza popytu według konkretnych kompetencji pozwoli określić liczbę miejsc, nauczycieli i laboratoriów.
+Nowy kierunek studiów jest działaniem o długim czasie realizacji. **HIPOTEZA do sprawdzenia:** w pierwszych latach przekwalifikowanie istniejących specjalistów, praktyki w realnych zespołach, laboratoria dostępne dla kilku instytucji, mobilność między uczelnią a przemysłem i zadania pochodzące od użytkowników mogą dać efekt wcześniej niż nowe pełne cykle studiów. Pilotaże mają porównać koszt, czas, ukończenie, zmianę roli i retencję; dopiero prognoza popytu według konkretnych kompetencji pozwoli określić liczbę miejsc, nauczycieli i laboratoriów.
 
 Program KAI–Fire Point jest użytecznym studium modelu finansowania i praktyki, ale nie powinien być kopiowany bez audytu. Oficjalna oferta wskazuje pojemność licencyjną 30, co nie jest liczbą przyjętych studentów (**CLM-1205**); dwie oficjalne strony KAI różnią się także w opisie czasu programu (**CLM-1223**). Wniosek dla Polski brzmi: testować różne modele na istniejących uczelniach i mierzyć retencję, jakość oraz zatrudnienie, zamiast budować strategię wokół jednej marki.
 
@@ -130,8 +136,8 @@ Repozytorium nie interpretuje braku jawnych danych jako braku zdolności. Rzeczy
 
 Rekomendowany model składa się z:
 
-- **właściciela politycznego przy KPRM**, odpowiedzialnego za wynik całego portfela i eskalację konfliktów;
-- **Komitetu Sterującego**, który zatwierdza bramki, priorytety, zasady finansowania i raport publiczny;
+- **właściciela politycznego przy KPRM**, odpowiedzialnego w granicach formalnego mandatu za wynik portfela i eskalację konfliktów do właściwego organu;
+- **Komitetu Sterującego**, który w granicach mandatu zatwierdza portfelowe bramki, priorytety i propozycje raportowania, lecz nie zastępuje decyzji Rady Ministrów, ministra właściwego do spraw finansów, nabywcy ani ministrów sektorowych;
 - **Biura Realizacji Strategii**, które utrzymuje rejestr decyzji, zależności, ryzyk i wskaźników;
 - **właścicieli strumieni w resortach i instytucjach**, którzy odpowiadają za dostarczenie produktów w swoich kompetencjach;
 - **rady użytkowników**, która formułuje problemy i ocenia użyteczność rozwiązań;
@@ -283,12 +289,16 @@ Zapewnić mierzalną podaż kompetencji projektowych, produkcyjnych, serwisowych
 
 Nowa uczelnia wymaga wieloletniej budowy instytucji i administracji. Rekomendowany model wykorzystuje istniejące szkoły, uczelnie, instytuty, przedsiębiorstwa i jednostki testowe. Wspólny rdzeń programu jest modułowy i aktualizowany corocznie z udziałem użytkowników oraz przemysłu.
 
+Punktem wyjścia jest istniejący system, a nie brak instytucji: według GUS na 31 grudnia 2025 r. działało 345 uczelni, studiowało 1 322,8 tys. osób, a w roku akademickim 2024/2025 studia ukończyło 306,6 tys. osób ([GUS](https://stat.gov.pl/obszary-tematyczne/edukacja/edukacja/szkolnictwo-wyzsze-w-roku-akademickim-20252026%2C8%2C12.html), **CLM-1001**). Dane te opisują skalę systemu, nie jego gotowość do programu ani liczbę osób o wymaganych kompetencjach.
+
 ### Cztery ścieżki
 
 1. **Szkoła podstawowa:** matematyka, fizyka, informatyka, robotyka, krytyczne korzystanie z AI, cyberhigiena, praca projektowa i odpowiedzialność technologiczna — bez militaryzacji programu powszechnego.
 2. **Licea, technika i szkoły branżowe:** mechatronika, elektronika, RF, kompozyty, CNC, integracja, kontrola jakości, serwis i cyber; zadania patronackie mają kończyć się demonstracją kompetencji.
 3. **Studia:** wspólny rdzeń systemów, elektroniki, sterowania, robotyki, danych, cyber, produkcji i prawa; długie praktyki od wczesnych lat; mobilność kadry między uczelnią a firmą.
 4. **Kształcenie ustawiczne:** krótkie programy dla automatyków, elektroników, programistów, konstruktorów, operatorów, telekomunikacji oraz personelu publicznego; mikropoświadczenia oceniane przez praktyczne zadanie.
+
+Prognoza Ministra Edukacji na 2026 r. wskazuje 34 zawody o szczególnym znaczeniu dla rozwoju państwa, w tym związane z automatyką, robotyką, mechatroniką, elektrotechniką, mechaniką i spawalnictwem, oraz zawiera wykazy dla wszystkich 16 województw powiązane z mechanizmami finansowania kształcenia branżowego ([Monitor Polski](https://api.sejm.gov.pl/eli/acts/MP/2026/146/text.pdf), **CLM-1005**, **CLM-1006**). Jest to wejście do regionalnego audytu podaży, nie kompletna taksonomia ani prognoza popytu programu.
 
 ### Proponowany pilotaż, nie zatwierdzony cel
 
@@ -323,6 +333,8 @@ Każdy partner przechodzi:
 
 Ponieważ Polska już uczestniczy w BraveTech EU (**CLM-1214**), działaniem na pierwsze 100 dni jest wskazanie krajowego właściciela korzyści, mapy zgłoszeń, zasad ochrony IP i wskaźników: liczba rozwiązań przetestowanych, kontrakty następcze, inwestycje w Polsce, czas dostępu do testu i eksport. Program powinien także mapować SAFE, EDF, EUDIS, STEP i instrumenty krajowe, unikając podwójnego finansowania tego samego kosztu.
 
+SAFE uznaje Ukrainę za uprawnionego partnera wspólnych zamówień i obejmuje — przy spełnieniu warunków dotyczących między innymi siedziby, kontroli i pochodzenia — wykonawców z UE, EOG–EFTA lub Ukrainy; koszt komponentów spoza tych obszarów nie może co do zasady przekroczyć 35% szacowanego kosztu komponentów produktu końcowego ([rozporządzenie SAFE](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R1106), **CLM-0806**, **CLM-0807**). Limit ten nie jest miarą polskiej wartości dodanej ani automatycznym potwierdzeniem kwalifikowalności projektu.
+
 ### Interoperacyjność
 
 Interoperacyjność obejmuje nie tylko techniczny interfejs, lecz także dane, tożsamość, cyber, procedurę aktualizacji, bezpieczeństwo informacji, logistykę i możliwość wspólnej ewaluacji. Polska powinna wpływać na standardy tam, gdzie posiada doświadczenie i rynek, a nie wyłącznie dostosowywać gotowe produkty.
@@ -337,6 +349,18 @@ Przekształcić wydatki bezpieczeństwa w trwałą zdolność przemysłową i pr
 
 Priorytety cywilne powinny wynikać z mierzalnego problemu i gotowości właściciela procesu. Potencjalne domeny obejmują: inspekcję energetyki i infrastruktury, rolnictwo precyzyjne, kolej i logistykę, ratownictwo, ochronę środowiska, gospodarkę morską, górnictwo, budownictwo, geodezję, ochronę granic, magazyny i obserwację Ziemi.
 
+Zastosowanie cywilne nie jest automatycznym „drugim rynkiem” produktu obronnego. Musi przejść osobną walidację potrzeby, bezpieczeństwa, certyfikacji, ekonomiki i odpowiedzialności. Wspólne mogą być kompetencje, interfejsy, sensory, moduły danych, serwis albo metoda testu; użytkownik, reżim prawny i oczekiwany rezultat pozostają odrębne.
+
+Istnieje już element infrastruktury do wykorzystania po kwalifikacji konkretnego pilota: unijna sieć Testing and Experimentation Facilities obejmuje cztery sektory — rolno-spożywczy, zdrowie, produkcję i inteligentne miasta — a agrifoodTEF ma w Polsce węzeł satelitarny do testowania AI i robotyki w warunkach zbliżonych do rzeczywistych ([Komisja Europejska](https://digital-strategy.ec.europa.eu/en/policies/testing-and-experimentation-facilities), **CLM-1112**). Źródło potwierdza zakres sieci i obecność węzła, nie dostępność określonej usługi ani finansowanie projektu Polska 2040.
+
+### Federacja regionalna zamiast szesnastu kopii
+
+**REKOMENDACJA:** regionalne centrum powinno być przede wszystkim funkcją brokera problemu i wdrożenia, a nie nowym budynkiem. Wspólny standard krajowy określa kartę projektu, dane, KPI, konflikt interesów, handoff i sposób publikacji wyników. Region zbiera popyt, przygotowuje baseline, łączy nabywcę z MŚP i prowadzi pilotaż. Węzeł specjalistyczny — także w innym województwie — dostarcza właściwe laboratorium, test, szkolenie lub serwis.
+
+Taki model pozwala korzystać z istniejących uczelni, instytutów, centrów testowych, infrastruktury sektorowej i usług wsparcia. Region ma prawo skierować projekt tam, gdzie istnieje realna kompetencja i wolna przepustowość. Finansowanie powinno kupować usługę i wynik, nie wymuszać duplikacji sprzętu tylko dlatego, że podział administracyjny ma szesnaście pozycji.
+
+Minimalny rekord węzła obejmuje: dostępne godziny i warunki dostępu, właściciela infrastruktury, prowadzących, standard bezpieczeństwa, zakres testu, koszt pełny, prawa do wyniku, plan utrzymania oraz wykorzystanie w poprzednich okresach. Samo posiadanie urządzenia lub podpisane memorandum nie jest zdolnością.
+
 Każdy pilotaż regionalny ma:
 
 - właściciela problemu i procesu zakupowego;
@@ -346,6 +370,32 @@ Każdy pilotaż regionalny ma:
 - plan utrzymania po dotacji;
 - ocenę możliwości replikacji w innym regionie;
 - warunek zakończenia, gdy technologia nie tworzy wartości.
+
+### Dwie ścieżki dyfuzji
+
+1. **Usługa publiczna:** właściciel procesu publicznego opisuje koszt, czas, jakość i ryzyko bazowe; płatny test porównuje rozwiązanie z procesem referencyjnym; kontynuacja następuje z budżetu właściciela albo projekt jest zamykany.
+2. **MŚP i przemysł:** firma przechodzi diagnozę dojrzałości, test-before-invest, walidację integracji, płatny test u nabywcy i pierwsze zamówienie. Dotacja może zmniejszyć ryzyko dowodu, ale nie zastępuje klienta, kapitału obrotowego, serwisu ani kompetencji wdrożeniowej.
+
+W obu ścieżkach miernikiem jest trwała zmiana procesu po 12 i 24 miesiącach. Liczba spotkań, grantów, demonstratorów i zakupionych urządzeń pozostaje miernikiem aktywności, nie produktywności.
+
+### Karta produktywności pilotażu
+
+Każdy projekt cywilny powinien przed startem określić:
+
+- koszt jednostki rezultatu, medianę i P90 czasu procesu;
+- dostępność, awaryjność i czas naprawy;
+- błędy, fałszywe alarmy, przeoczenia lub reklamacje;
+- energię, materiały i inne istotne zasoby;
+- pełny TCO: integrację, dane, licencje, cyber, serwis i wycofanie;
+- incydenty i near-miss w przeliczeniu na jednostkę pracy;
+- prawa do danych, interfejsów, konfiguracji i przeniesienia usługi;
+- właściciela budżetu po pilotażu i warunek pierwszego zamówienia.
+
+Jeżeli baseline nie istnieje, pierwszym produktem jest jego pomiar. Jeżeli nie ma właściciela procesu lub wiarygodnej ścieżki zakupu, projekt nie przechodzi do testu technologicznego.
+
+### Pierwsze 100 dni — scenariusz do decyzji
+
+**SCENARIUSZ:** w ciągu pierwszych 60 dni przeprowadzić audyt funkcji regionalnych, katalog istniejącej infrastruktury i nabór jawnych problemów cywilnych. Od dnia 61 do 100 ocenić zgłoszenia i wybrać ograniczony portfel pilotaży z różnych domen, nie ustalając jego wielkości przed oceną jakości. Każdy wybrany projekt musi mieć nabywcę, baseline lub plan jego pozyskania, kartę danych, finansowanie testu, ocenę prawną oraz następną decyzję „zamów–popraw–zamknij”.
 
 ### Platformy i moduły
 
@@ -439,18 +489,22 @@ Każdy KPI otrzymuje wartość bazową, cel, częstotliwość, mianownik, odpowi
 
 Rada Ministrów powinna zmniejszyć lub zamknąć strumień, jeżeli po dwóch cyklach przeglądu nie poprawia on żadnego miernika rezultatu, powiela istniejącą funkcję bez wartości dodanej, nie potrafi pozyskać wymaganych danych zgodnie z prawem, tworzy ryzyko nieproporcjonalne do korzyści albo jego koszt alternatywny przewyższa potwierdzony rezultat. Każde zamknięcie obejmuje archiwizację wiedzy, zobowiązań, praw i plan przejścia dla użytkowników.
 
-## 15. Pierwsze decyzje
+## 15. Rejestr pierwszych decyzji kandydujących
 
-1. Uruchomić strategiczny przegląd i zatwierdzić jawny mandat.
-2. Wyznaczyć ponadresortowego właściciela oraz kierownika Biura Realizacji.
-3. Zatwierdzić wspólny rejestr problemów, decyzji, ryzyk, zobowiązań i wskaźników.
-4. Zlecić audyt przemysłu, komponentów, kadr, laboratoriów, danych i istniejących programów.
-5. Wybrać ograniczony portfel problemów do testu procesu, nie preferowanych produktów.
-6. Uruchomić pilotaż bezpiecznej przestrzeni danych i wspólnego protokołu ewaluacji.
-7. Przygotować pierwsze kontrakty etapowe z opcją skali i regułą stop.
-8. Określić polski portfel w BraveTech EU oraz kryteria partnerstw z Ukrainą.
-9. Przygotować warianty finansowe po audycie dodatkowości i zobowiązań.
-10. Opublikować po sześciu miesiącach raport: co potwierdzono, co odrzucono, co zamknięto i czego nadal nie wiadomo.
+Poniższe identyfikatory są wspólne dla wszystkich formatów. Status `candidate` oznacza propozycję do rozpatrzenia, a nie decyzję organu państwa. Brak formalnego właściciela i podstawy procesu pozostaje jawną luką **GAP-0011**.
+
+| ID | Kandydat decyzji | Status v0.1 |
+|---|---|---|
+| `DEC-0001` | uruchomić strategiczny przegląd i ustalić jego jawny mandat | candidate |
+| `DEC-0002` | wskazać właściciela portfela przy KPRM i małe Biuro Realizacji | candidate |
+| `DEC-0003` | uruchomić katalog problemów oraz etapową ścieżkę pilotażową | candidate |
+| `DEC-0004` | uruchomić pilotaż bezpiecznej przestrzeni danych i ewaluacji AI | candidate |
+| `DEC-0005` | przeprowadzić niezależny audyt przemysłu, serwisu i zależności | candidate |
+| `DEC-0006` | zaprojektować sieć kształcenia na bazie istniejących instytucji | candidate |
+| `DEC-0007` | wybrać pilotaże polsko-ukraińskie po due diligence | candidate |
+| `DEC-0008` | zbudować skonsolidowany model finansowy bez podwójnego liczenia | candidate |
+| `DEC-0009` | przygotować stopniowany pakiet zmian procesowych, kontraktowych i prawnych | candidate |
+| `DEC-0010` | wdrożyć publiczny dashboard i raport projektów zamkniętych | candidate |
 
 ## 16. Dalsze pytania wymagające decyzji lub danych
 
@@ -620,22 +674,22 @@ Po audycie każda hipoteza otrzymuje status: przyjmij jako cel, zmień, użyj ty
 
 ## Aneks E. Słownik roboczy
 
-| Pojęcie | Znaczenie w strategii |
-|---|---|
-| autonomia | zdolność systemu do wykonywania funkcji w określonych granicach; nie oznacza braku odpowiedzialności człowieka |
-| system autonomiczny | platforma, software, dane, człowiek, procedura i cykl życia, nie sama maszyna |
-| dual-use | technologia, moduł, kompetencja lub proces mający rzeczywiste zastosowanie cywilne i bezpieczeństwa |
-| odporność | zdolność przygotowania, absorpcji zakłócenia, degradacji, odtworzenia i adaptacji |
-| suwerenność technologiczna | zdolność do decyzji, utrzymania i zmiany krytycznych funkcji przy kontrolowanych zależnościach |
-| substytucja | przetestowana możliwość zastąpienia elementu bez nieakceptowalnej utraty funkcji |
-| interoperacyjność | zdolność współdziałania technicznego, danych, procedur, logistyki, cyber i odpowiedzialności |
-| TCO | pełny koszt nabycia, wdrożenia, użycia, utrzymania, aktualizacji i zakończenia |
-| mała partia | ograniczone wdrożenie służące zebraniu dowodów powtarzalności i cyklu życia |
-| bramka | formalna decyzja o przejściu, poprawie, niszy albo zamknięciu |
-| wartość bazowa | mierzalny stan przed interwencją ze źródłem, datą i definicją |
-| dodatkowość | część rezultatu, która nie wystąpiłaby w wiarygodnym scenariuszu bez interwencji |
-| autoryzowany aneks | osobny proces dla chronionych odpowiedzi; nie plik w tym repozytorium |
-| red-team | niezależna funkcja próbująca obalić diagnozę, dowód i wykonalność |
+| ID | Pojęcie | Znaczenie w strategii |
+|---|---|---|
+| — | autonomia | zdolność systemu do wykonywania funkcji w określonych granicach; nie oznacza braku odpowiedzialności człowieka |
+| — | system autonomiczny | platforma, software, dane, człowiek, procedura i cykl życia, nie sama maszyna |
+| — | dual-use | technologia, moduł, kompetencja lub proces mający rzeczywiste zastosowanie cywilne i bezpieczeństwa |
+| — | odporność | zdolność przygotowania, absorpcji zakłócenia, degradacji, odtworzenia i adaptacji |
+| `DEF-0001` | suwerenność technologiczna | zdolność do decyzji, utrzymania i zmiany krytycznych funkcji przy kontrolowanych zależnościach |
+| `DEF-0002` | zdolność substytucji | przetestowana możliwość zastąpienia elementu bez nieakceptowalnej utraty funkcji |
+| `DEF-0003` | interoperacyjność | zdolność współdziałania technicznego, danych, procedur, logistyki, cyber i odpowiedzialności |
+| `DEF-0004` | TCO | pełny koszt nabycia, wdrożenia, użycia, utrzymania, aktualizacji i zakończenia |
+| `DEF-0005` | mała partia | ograniczone wdrożenie służące zebraniu dowodów powtarzalności i cyklu życia |
+| `DEF-0006` | bramka decyzyjna | formalna decyzja o przejściu, poprawie, niszy albo zamknięciu |
+| `DEF-0007` | wartość bazowa | mierzalny stan przed interwencją ze źródłem, datą, mianownikiem i definicją |
+| `DEF-0008` | dodatkowość | część kosztu lub rezultatu niepokryta już zobowiązaniem albo scenariuszem bazowym |
+| `DEF-0009` | środowisko autoryzowane | osobny, dopuszczony proces dla chronionych odpowiedzi; nie repozytorium GitHub |
+| `DEF-0010` | niezależny red-team | funkcja próbująca obalić diagnozę, dowód i wykonalność, oddzielona od autora i beneficjenta |
 
 ## Konkluzja
 

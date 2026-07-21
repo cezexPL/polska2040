@@ -1,0 +1,401 @@
+schema_version: 1
+sources:
+  - id: SRC-0801
+    title: Agreement on Security Cooperation between Ukraine and the Republic of Poland
+    publisher: Official website of the President of Ukraine
+    url: https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-mizh-ukrayinoyu-ta-92009
+    published_at: "2024-07-08"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: bilateral security cooperation agreement
+    language: en
+    locator: "section Defence industry cooperation, points 1-11; Final provisions"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Official English text. It establishes policy commitments on industrial cooperation, production location, supply-chain bottlenecks, IP protection and international arms-transfer control; it is not a project contract or financing decision."
+
+  - id: SRC-0802
+    title: "Prime Minister Tusk in Kyiv: We support everything that is right and true"
+    publisher: Chancellery of the Prime Minister of Poland
+    url: https://www.gov.pl/web/primeminister/prime-minister-tusk-in-kyiv-we-support-everything-that-is-right-and-true
+    published_at: "2026-02-05"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official government communication
+    language: en
+    locator: "sections Poland-Ukraine cooperation in security and paragraphs 71, 94-102"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Confirms signature of a letter of intent on joint production and defence technology. The communication does not publish the letter, binding commitments, project list, budget or implementation timetable."
+
+  - id: SRC-0803
+    title: President of Ukraine and the Prime Minister of Poland Agreed on the Implementation of Joint Energy Projects and the Joint Production of Drones
+    publisher: Official website of the President of Ukraine
+    url: https://www.president.gov.ua/en/news/prezident-ukrayini-j-premyer-ministr-polshi-domovilisya-pro-102725
+    published_at: "2026-02-05"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official presidential communication
+    language: en
+    locator: "paragraphs 209-212"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Ukrainian-side confirmation of the letter of intent and stated areas. The underlying letter is not attached."
+
+  - id: SRC-0804
+    title: European Commission partners with the European Defence Agency on BraveTech EU
+    publisher: European Commission, Directorate-General for Defence Industry and Space
+    url: https://defence-industry-space.ec.europa.eu/european-commission-partners-european-defence-agency-bravetech-eu-2026-04-29_en
+    published_at: "2026-04-29"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme communication
+    language: en
+    locator: "paragraphs on the Contribution Agreement, EUR 35 million second phase, two-phase structure and testing"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Confirms the second-phase contribution and delivery model, not Polish participation or an award to any Polish entity."
+
+  - id: SRC-0805
+    title: EDA partners with the European Commission on BraveTech EU
+    publisher: European Defence Agency
+    url: https://www.eda.europa.eu/news-and-events/news/2026/04/29/eda-partners-with-the-european-commission-on-bravetech-eu
+    published_at: "2026-04-29"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme communication
+    language: en
+    locator: "About BraveTech EU and paragraphs 127-141"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "States a total programme budget of EUR 100 million and a EUR 35 million EDA agreement for the testing phase."
+
+  - id: SRC-0806
+    title: Council Regulation (EU) 2025/1106 establishing the Security Action for Europe (SAFE)
+    publisher: Official Journal of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R1106
+    published_at: "2025-05-28"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: EU regulation
+    language: en
+    locator: "Article 2 point 3; Article 16 paragraphs 3-13; recitals 18-23"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Primary legal source for Ukraine in common procurement, establishment/control conditions, third-country components and design restrictions."
+
+  - id: SRC-0807
+    title: Regulation (EU) 2021/697 establishing the European Defence Fund
+    publisher: Official Journal of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32021R0697
+    published_at: "2021-05-12"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: EU regulation
+    language: en
+    locator: "Articles 9, 20 and 23"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Baseline EDF rules on establishment, control, security of information, supply security and ownership of results. Current association status and call terms must be checked separately."
+
+  - id: SRC-0808
+    title: EDF MaJoR project launches first cascade funding call
+    publisher: European Commission, Directorate-General for Defence Industry and Space
+    url: https://defence-industry-space.ec.europa.eu/edf-major-project-launches-first-cascade-funding-call-2026-01-28_en
+    published_at: "2026-01-28"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official call communication
+    language: en
+    locator: "paragraphs 104-117"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Concrete example of a closed EDF cascade call open to SMEs and start-ups from the EU, Norway and Ukraine; not a currently open entitlement."
+
+  - id: SRC-0809
+    title: New EUDIS Defence Business Accelerator Call
+    publisher: European Commission, Directorate-General for Defence Industry and Space
+    url: https://defence-industry-space.ec.europa.eu/new-eudis-defence-business-accelerator-call-2026-04-16_en
+    published_at: "2026-04-16"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official accelerator call communication
+    language: en
+    locator: "paragraphs 103-114"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The cited autumn-cohort call closed on 30 May 2026. It is evidence of the instrument design, not a current application window."
+
+  - id: SRC-0810
+    title: Questions and Answers - Strategic Technologies for Europe Platform
+    publisher: European Commission / STEP Portal
+    url: https://strategic-technologies.europa.eu/about/step-nutshell/questions-and-answers_en
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme guidance
+    language: en
+    locator: "questions Is STEP a new funding programme, What are the eligibility rules, Which stages does STEP support, What does STEP do for defence"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Current portal states that STEP pools 11 programmes and does not replace programme- and call-specific eligibility."
+
+  - id: SRC-0811
+    title: Relations with Ukraine
+    publisher: NATO
+    url: https://nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-ukraine
+    published_at: "2026-07-09"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official NATO topic page
+    language: en
+    locator: "Innovation, science and technology; UNITE - Brave NATO; JATEC"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Updated official overview. It states the first-round UNITE funding and a readiness to scale, which is not the same as a guaranteed future award."
+
+  - id: SRC-0812
+    title: NATO Innovation Scale-Up Package
+    publisher: NATO
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/nato-innovation-scale-up-package
+    published_at: "2026-07-08"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official NATO policy text
+    language: en
+    locator: "paragraphs 6-10, 13-21"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Policy commitments and pilot announcements do not themselves constitute national contracts or investment commitments."
+
+  - id: SRC-0813
+    title: Are DIANA and the NATO Innovation Fund related?
+    publisher: NATO Defence Innovation Accelerator for the North Atlantic
+    url: https://www.diana.nato.int/about-diana/nato-innovation-fund.html
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official institutional explainer
+    language: en
+    locator: "full page"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Clarifies that DIANA and NIF are legally separate and that NIF has no obligation to invest in a DIANA company."
+
+  - id: SRC-0814
+    title: EU launches Ukraine defence industrial partnership, Drone Deal and disburses EUR 1 billion for drones
+    publisher: European External Action Service, Delegation of the European Union to Ukraine
+    url: https://www.eeas.europa.eu/delegations/ukraine/eu-launches-ukraine-defence-industrial-partnership-drone-deal-and-disburses-eur1-billion-drones_en
+    published_at: "2026-07-16"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official EU communication
+    language: en
+    locator: "sections EU-Ukraine Defence Industrial Partnership; BraveTechEU, European Defence Fund and defence innovation; background"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Very recent source. It states that Ukraine is fully associated with EDF and EDIP; detailed legal and call documentation remains controlling."
+
+  - id: SRC-0815
+    title: Readiness Roadmap 2030
+    publisher: European Commission, Directorate-General for Defence Industry and Space
+    url: https://defence-industry-space.ec.europa.eu/eu-defence-industry/readiness-roadmap-2030_en
+    published_at: "2025-10-16"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: EU joint communication and official summary
+    language: en
+    locator: "Ukraine as a key part of Europe's readiness effort; objectives, milestones and indicators"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Proposed EU-level indicators include direct EU investment in the Ukrainian DTIB and the number of EU-Ukraine defence JVs; they are not Polish targets."
+
+  - id: SRC-0816
+    title: Jak uzyskać zezwolenie na obrót uzbrojeniem
+    publisher: Ministerstwo Rozwoju i Technologii
+    url: https://www.gov.pl/web/rozwoj-technologia/zezwolenia-na-obrot-uzbrojeniem
+    published_at: "2026-06-23"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official administrative guidance
+    language: pl
+    locator: "sections Zezwolenia indywidualne i globalne, WSK and Podstawa prawna"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Current guidance following the 2026 amendment. It is not legal advice for a particular transaction."
+
+  - id: SRC-0817
+    title: Kontrola eksportu uzbrojenia i sprzętu wojskowego
+    publisher: Ministerstwo Spraw Zagranicznych
+    url: https://www.gov.pl/web/dyplomacja/kontrola-eksportu-uzbrojenia-i-sprzetu-wojskowego
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official export-control guidance
+    language: pl
+    locator: "paragraphs 97-110"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Explains the roles of the economy minister and the foreign minister and confirms that software, technology and technical assistance can be controlled."
+
+  - id: SRC-0818
+    title: Regulation (EU) 2021/821 setting up a Union regime for the control of exports, brokering, technical assistance, transit and transfer of dual-use items
+    publisher: Official Journal of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2021/821
+    published_at: "2021-06-11"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: consolidated EU regulation
+    language: en
+    locator: "current consolidated text; Articles 3-10 and 12-15"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Use the current consolidated version and current control list for any classification or licensing decision."
+
+  - id: SRC-0819
+    title: Council Common Position 2008/944/CFSP defining common rules governing control of exports of military technology and equipment
+    publisher: Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32008E0944
+    published_at: "2008-12-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: consolidated EU common position
+    language: en
+    locator: "current version 15 April 2025; Articles 1-10"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The current version requires case-by-case assessment against common criteria; industrial interests cannot displace those criteria."
+
+  - id: SRC-0820
+    title: Ustawa z dnia 13 marca 2026 r. o zmianie ustawy o obrocie z zagranicą towarami, technologiami i usługami o znaczeniu strategicznym
+    publisher: Dziennik Ustaw / Rządowe Centrum Legislacji
+    url: https://www.dziennikustaw.gov.pl/DU/2026/471
+    published_at: "2026-04-07"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: Polish statute
+    language: pl
+    locator: "Dz.U. 2026 poz. 471; full act"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Current amendment aligning Polish law with Regulation (EU) 2021/821 and modifying the strategic-goods control framework."
+
+  - id: SRC-0821
+    title: Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 9 stycznia 2026 r. w sprawie ogłoszenia jednolitego tekstu ustawy o kontroli niektórych inwestycji
+    publisher: Dziennik Ustaw / Elektroniczny Dziennik Ustaw
+    url: https://eli.gov.pl/eli/DU/2026/47/ogl
+    published_at: "2026-01-15"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: consolidated Polish statute
+    language: pl
+    locator: "Dz.U. 2026 poz. 47; full consolidated act"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Primary source for determining whether a proposed acquisition or control change requires notification or another form of review."
+
+  - id: SRC-0822
+    title: New clarifications on investment control
+    publisher: Urząd Ochrony Konkurencji i Konsumentów
+    url: https://uokik.gov.pl/public/en/new-clarifications-on-investment-control
+    published_at: "2024-05-09"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official regulatory guidance
+    language: en
+    locator: "sections What investment control is, Who must report and Two stages of the proceedings"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Guidance explains scope and procedure but must be read with the current consolidated act and transaction-specific facts."
+
+  - id: SRC-0823
+    title: Centralny Rejestr Beneficjentów Rzeczywistych
+    publisher: Ministerstwo Finansów / Krajowa Administracja Skarbowa
+    url: https://www.podatki.gov.pl/pozostale/crbr
+    published_at: "2026-01-12"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official beneficial-ownership registry portal
+    language: pl
+    locator: "registry entry point and system information; updated 26 May 2026"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "A registry check is one diligence input and does not replace independent verification of control, funding sources, sanctions exposure or nominee arrangements."
+
+  - id: SRC-0824
+    title: Rozwój współpracy polsko-ukraińskiej w sektorze systemów bezzałogowych
+    publisher: Polska Agencja Inwestycji i Handlu S.A.
+    url: https://www.paih.gov.pl/rozwoj-wspolpracy-polsko-ukrainskiej-w-sektorze-systemow-bezzalogowych/
+    published_at: "2026-02-12"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official investment-promotion communication
+    language: pl
+    locator: "full communication"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Confirms a business event supporting implementation of the letter of intent and interest in locating production in Poland; it does not document concluded projects."
+
+  - id: SRC-0825
+    title: EDIP - Commission adopts EUR 1.5 billion work programme to boost European and Ukrainian defence industry
+    publisher: European Commission, Directorate-General for Defence Industry and Space
+    url: https://defence-industry-space.ec.europa.eu/edip-commission-adopts-eu15-billion-work-programme-boost-european-and-ukrainian-defence-industry-2026-03-30_en
+    published_at: "2026-03-30"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme communication
+    language: en
+    locator: "investment priorities, allocations and next steps"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Programme-level EU budget and calls; no amount should be attributed to Poland or a Polish-Ukrainian project without an award decision."

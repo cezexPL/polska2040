@@ -80,9 +80,9 @@
 
 # Rola Prezydenta i BBN
 
-- Pilnować relacji z dokumentami bezpieczeństwa państwa
-- Wymagać rocznego przeglądu odporności i interoperacyjności
-- Zapewnić niezależny red-team i ciągłość strategiczną
+- Wspierać formalne mapowanie programu do dokumentów bezpieczeństwa państwa — **CLM-0104**
+- Zarekomendować właściwym organom roczny przegląd odporności i interoperacyjności
+- Wspierać utworzenie przez właściwy organ niezależnego red-teamu i ciągłość strategiczną
 - Nie wybierać dostawcy ani zastępować wykonawczej roli rządu
 
 ---
@@ -98,7 +98,7 @@
 
 # Decyzja strategiczna
 
-- Wesprzeć przegląd Prezydent–Premier i model portfela
-- Przyjąć kryteria odpornej, sojuszniczej suwerenności
-- Oddzielić raport jawny od aneksu autoryzowanego
-- Kontynuować tylko po dowodzie użytkownika, cyklu życia i możliwości zamknięcia
+- **KANDYDAT DEC-0001:** zarekomendować RM ponadresortowy przegląd i wesprzeć dialog Prezydent–Premier
+- **KANDYDAT DEC-0002:** zarekomendować RM wskazanie jednego właściciela portfela, bez przejmowania funkcji wykonawczej
+- **KANDYDAT DEC-0003:** wesprzeć portfel pilotaży warunkowanych dowodem użytkownika i możliwością zamknięcia
+- **KANDYDAT DEC-0010:** zarekomendować właściwemu organowi jawny dashboard i coroczny raport, z oddzielonym aneksem autoryzowanym

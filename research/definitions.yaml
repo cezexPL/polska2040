@@ -1,0 +1,52 @@
+schema_version: 1
+definitions:
+  - id: DEF-0001
+    term: "suwerenność technologiczna"
+    definition: "Zdolność państwa i gospodarki do rozpoznawania oraz kontrolowania krytycznych zależności, utrzymania cyklu życia i zastąpienia dostawcy w akceptowalnym czasie, bez założenia pełnej autarkii."
+    scope: "Program Polska 2040; definicja robocza do zatwierdzenia w formalnym procesie."
+    status: candidate
+  - id: DEF-0002
+    term: "zdolność substytucji"
+    definition: "Udokumentowana możliwość zastąpienia krytycznego komponentu, dostawcy, usługi lub procesu w zdefiniowanym czasie przy zachowaniu wymaganego rezultatu i dopuszczalnego ryzyka."
+    scope: "Ocena łańcuchów dostaw i ciągłości działania."
+    status: candidate
+  - id: DEF-0003
+    term: "interoperacyjność"
+    definition: "Zdolność systemów i organizacji do bezpiecznej wymiany danych, usług lub efektów według uzgodnionych interfejsów, standardów i zasad odpowiedzialności."
+    scope: "Współpraca krajowa, UE i NATO; bez domniemania automatycznej certyfikacji."
+    status: candidate
+  - id: DEF-0004
+    term: "pełny koszt cyklu życia (TCO)"
+    definition: "Łączny koszt nabycia, integracji, infrastruktury, eksploatacji, kadr, aktualizacji, serwisu, bezpieczeństwa, finansowania, wycofania i kontrolowanego zakończenia zależności w przyjętym horyzoncie."
+    scope: "Porównywanie opcji finansowych i zakupowych."
+    status: candidate
+  - id: DEF-0005
+    term: "mała partia"
+    definition: "Ograniczone wdrożenie kupujące dowód użyteczności, niezawodności, kosztu i serwisu przed decyzją o skali; wielkość ustala właściwy użytkownik po analizie ryzyka."
+    scope: "Bramki portfela; definicja nie ustala wolumenu ani parametrów operacyjnych."
+    status: candidate
+  - id: DEF-0006
+    term: "bramka decyzyjna"
+    definition: "Udokumentowany punkt oceny z właścicielem, kryteriami wejścia i wyjścia oraz rozstrzygnięciem: uruchom, popraw, utrzymaj ograniczenie, skaluj albo zamknij."
+    scope: "Zarządzanie portfelem i pilotażami."
+    status: candidate
+  - id: DEF-0007
+    term: "wartość bazowa"
+    definition: "Pomiar stanu przed interwencją, z jednostką, mianownikiem, zakresem, datą, źródłem, właścicielem i ograniczeniami jakości danych."
+    scope: "KPI, ewaluacja i model finansowy."
+    status: candidate
+  - id: DEF-0008
+    term: "dodatkowość"
+    definition: "Część kosztu lub rezultatu, która nie jest już pokryta istniejącym zobowiązaniem, programem albo scenariuszem bazowym i nie została policzona drugi raz."
+    scope: "Konsolidacja finansowania krajowego i zewnętrznego."
+    status: candidate
+  - id: DEF-0009
+    term: "środowisko autoryzowane"
+    definition: "Środowisko informacyjne i organizacyjne dopuszczone przez właściwego właściciela danych do pracy z określoną klasą informacji, z kontrolą dostępu, śladem audytowym i zasadami wynoszenia artefaktów."
+    scope: "Przyszły obieg danych ograniczonych; repozytorium GitHub nim nie jest."
+    status: candidate
+  - id: DEF-0010
+    term: "niezależny red-team"
+    definition: "Recenzja wykonywana przez osoby inne niż autorzy i beneficjenci ocenianego działania, z ujawnieniem konfliktów interesów, prawem eskalacji oraz rejestrem odpowiedzi na ustalenia."
+    scope: "Weryfikacja dowodów, projektu programu i kolejnych wydań."
+    status: candidate

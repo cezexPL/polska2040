@@ -1,0 +1,513 @@
+schema_version: 1
+sources:
+  - id: SRC-0501
+    title: Summary of NATO's revised Artificial Intelligence (AI) strategy
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy
+    published_at: 2024-07-10
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official NATO strategy summary
+    language: en
+    locator: "paras 2–17"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Public summary. It defines NATO Principles of Responsible Use, data prerequisites and desired TEV&V outcomes; it does not disclose capability requirements."
+
+  - id: SRC-0502
+    title: NATO's Digital Transformation Implementation Strategy 2.0
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/05/26/natos-digital-transformation-implementation-strategy
+    published_at: 2026-05-26
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official NATO implementation strategy
+    language: en
+    locator: "paras 1–30"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Current public NATO implementation strategy. Only strategic-level, non-operational content is used."
+
+  - id: SRC-0503
+    title: Alliance Digital Strategy
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/01/13/alliance-digital-strategy
+    published_at: 2026-01-13
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official NATO strategy
+    language: en
+    locator: "sections 10–12 and 25"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Supports federated ICAM, standardized labels and metadata, federated data spaces, edge inference and strategy-level KPIs."
+
+  - id: SRC-0504
+    title: Data Quality Framework for the Alliance
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/08/29/data-quality-framework-for-the-alliance
+    published_at: 2025-08-29
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official NATO data quality framework
+    language: en
+    locator: "paras 1–26; especially 9–13"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Public data-quality framework; detailed internal NATO data policies referenced by it were not accessed."
+
+  - id: SRC-0505
+    title: Resortowa strategia sztucznej inteligencji do roku 2039
+    publisher: Ministerstwo Obrony Narodowej
+    url: https://www.gov.pl/web/obrona-narodowa/resortowa-strategia-sztucznej-inteligencji-do-roku-2039
+    published_at: 2024-10-11
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: public ministerial strategy and attached PDF
+    language: pl
+    locator: "public landing page; PDF pp. 3–10 and 17–32"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The 2024 diagnosis is evidence of the ministry's assessment at publication time, not proof of the situation in July 2026. Operational examples are not reproduced."
+
+  - id: SRC-0506
+    title: Uchwała nr 130 Rady Ministrów z dnia 9 czerwca 2026 r. w sprawie przyjęcia strategii dotyczącej informatyzacji państwa
+    publisher: Rada Ministrów / Elektroniczny Dziennik Ustaw
+    url: https://eli.gov.pl/eli/MP/2026/620/ogl
+    published_at: 2026-06-18
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: official Council of Ministers resolution with state digitalisation strategy
+    language: pl
+    locator: "M.P. 2026 poz. 620; strategy pp. 145–161, especially goals 4.2.1–4.2.3"
+    checksum: null
+    license: public legal act
+    archive_path: null
+    status: verified
+    notes: "The adopted strategy explicitly covers AI safety, public-sector inventory, data standards, PLGrid and research coordination."
+
+  - id: SRC-0507
+    title: Polityka rozwoju sztucznej inteligencji w Polsce do 2030 roku — bezpieczne i odpowiedzialne wykorzystanie sztucznej inteligencji
+    publisher: Ministerstwo Cyfryzacji
+    url: https://www.gov.pl/web/cyfryzacja/polityka-rozwoju-sztucznej-inteligencji-w-polsce-do-2030-roku--bezpieczne-i-odpowiedzialne-wykorzystanie-sztucznej-inteligencji
+    published_at: 2025-11-17
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: published policy document and ministry communication
+    language: pl
+    locator: "landing page and attached November 2025 PDF, especially pp. 12–17"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The ministry published an updated text. A March 2026 government progress page still described interministerial processing; no ELI act adopting this 2030 policy was located by 2026-07-21."
+
+  - id: SRC-0508
+    title: Gaia AI — fabryka sztucznej inteligencji powstaje w Krakowie
+    publisher: Ministerstwo Cyfryzacji
+    url: https://www.gov.pl/web/cyfryzacja/gaia-ai--fabryka-sztucznej-inteligencji-powstaje-w-krakowie
+    published_at: 2026-05-11
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official project launch communication
+    language: pl
+    locator: "sections Gaia AI Factory and Informacje o projekcie"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Confirms launch and declared project parameters. It does not prove accreditation for protected defence workloads or current production availability."
+
+  - id: SRC-0509
+    title: Poland — PIAST-AI Factory
+    publisher: European High Performance Computing Joint Undertaking
+    url: https://www.eurohpc-ju.europa.eu/ai-factories/poland_en
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official EuroHPC project profile
+    language: en
+    locator: "Services Available from 2026; Services provided"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Official service description. It does not establish authorization for classified or protected operational data."
+
+  - id: SRC-0510
+    title: Uchwała nr 92 Rady Ministrów z dnia 10 marca 2026 r. w sprawie Strategii Cyberbezpieczeństwa Rzeczypospolitej Polskiej
+    publisher: Rada Ministrów / Elektroniczny Dziennik Ustaw
+    url: https://eli.gov.pl/eli/MP/2026/309/ogl
+    published_at: 2026-03-23
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: official Council of Ministers resolution and strategy
+    language: pl
+    locator: "M.P. 2026 poz. 309; resolution and implementation plan"
+    checksum: null
+    license: public legal act
+    archive_path: null
+    status: verified
+    notes: "In force from 2026-03-24."
+
+  - id: SRC-0511
+    title: Ustawa z dnia 23 stycznia 2026 r. o zmianie ustawy o krajowym systemie cyberbezpieczeństwa oraz niektórych innych ustaw
+    publisher: Sejm Rzeczypospolitej Polskiej / Elektroniczny Dziennik Ustaw
+    url: https://eli.gov.pl/eli/DU/2026/252/ogl
+    published_at: 2026-03-02
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: statute
+    language: pl
+    locator: "Dz.U. 2026 poz. 252; entry into force metadata and act text"
+    checksum: null
+    license: public legal act
+    archive_path: null
+    status: verified
+    notes: "In force from 2026-04-03; implements the NIS2-related reform of the Polish KSC."
+
+  - id: SRC-0512
+    title: Ustawa z dnia 3 lipca 2026 r. o systemach sztucznej inteligencji — tekst ustalony po rozpatrzeniu poprawek Senatu
+    publisher: Sejm Rzeczypospolitej Polskiej
+    url: https://orka.sejm.gov.pl/proc10.nsf/ustawy/2443_u.htm
+    published_at: 2026-07-03
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official final parliamentary text awaiting promulgation check
+    language: pl
+    locator: "act text and legislative status after Senate amendments"
+    checksum: null
+    license: public parliamentary document
+    archive_path: null
+    status: verified
+    notes: "Parliamentary text is verified. No matching promulgated act was located in ELI by 2026-07-21, so the memo does not treat it as in force."
+
+  - id: SRC-0513
+    title: Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence
+    publisher: European Parliament and Council / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+    published_at: 2024-07-12
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: EU regulation — Artificial Intelligence Act
+    language: en
+    locator: "Article 2; Articles 9–17 and 72; recitals 24 and 90–111"
+    checksum: null
+    license: public legal act
+    archive_path: null
+    status: verified
+    notes: "Exclusive military, defence and national-security uses are outside scope; mixed or non-excluded uses require a separate legal analysis."
+
+  - id: SRC-0514
+    title: Regulation (EU) 2022/868 on European data governance
+    publisher: European Parliament and Council / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2022/868/oj
+    published_at: 2022-06-03
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: EU regulation — Data Governance Act
+    language: en
+    locator: "recitals 7–17 and 25–28; Articles 2–8"
+    checksum: null
+    license: public legal act
+    archive_path: null
+    status: verified
+    notes: "Provides a civil secure-processing-environment precedent. Article 3(2)(d) excludes data protected for public security, defence or national security from Chapter II."
+
+  - id: SRC-0515
+    title: Regulation (EU) 2023/2854 on harmonised rules on fair access to and use of data
+    publisher: European Parliament and Council / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2023/2854/oj
+    published_at: 2023-12-22
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: EU regulation — Data Act
+    language: en
+    locator: "Articles 30, 33–36 and 44"
+    checksum: null
+    license: public legal act
+    archive_path: null
+    status: verified
+    notes: "Supports cloud switching, portability and several layers of interoperability; sector-specific and defence constraints still require separate rules."
+
+  - id: SRC-0516
+    title: Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products with digital elements
+    publisher: European Parliament and Council / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+    published_at: 2024-11-20
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: EU regulation — Cyber Resilience Act
+    language: en
+    locator: "Articles 13–14; Annex I Parts I–II; Annex VII"
+    checksum: null
+    license: public legal act
+    archive_path: null
+    status: verified
+    notes: "Used as a product-lifecycle and vulnerability-management benchmark. Scope and transition dates must be checked per product."
+
+  - id: SRC-0517
+    title: Data Spaces Blueprint v2.0 — building block overview and control plane versus data plane
+    publisher: Data Spaces Support Centre
+    url: https://blueprint.dssc.eu/
+    published_at: 2025-05-06
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: EU-funded reference architecture blueprint
+    language: en
+    locator: "Building Block Overview; Control Plane vs. Data Plane; identity, trust, policy and observability blocks"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "DSSC is funded by the Digital Europe Programme. The blueprint is a reference pattern, not a defence accreditation standard."
+
+  - id: SRC-0518
+    title: Artificial Intelligence Risk Management Framework (AI RMF 1.0)
+    publisher: National Institute of Standards and Technology
+    url: https://www.nist.gov/itl/ai-risk-management-framework
+    published_at: 2023-01-26
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official voluntary risk-management framework
+    language: en
+    locator: "AI RMF 1.0 and Playbook; GOVERN, MAP, MEASURE, MANAGE"
+    checksum: null
+    license: US government publication
+    archive_path: null
+    status: verified
+    notes: "AI RMF 1.0 is being revised as of 2026; use as a baseline, not a frozen compliance profile."
+
+  - id: SRC-0519
+    title: Artificial Intelligence Risk Management Framework — Generative Artificial Intelligence Profile
+    publisher: National Institute of Standards and Technology
+    url: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+    published_at: 2024-07-26
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official NIST AI RMF profile
+    language: en
+    locator: "NIST AI 600-1, risks and recommended actions"
+    checksum: null
+    license: US government publication
+    archive_path: null
+    status: verified
+    notes: "Cross-sectoral generative-AI profile; not a military certification scheme."
+
+  - id: SRC-0520
+    title: Secure Software Development Framework (SSDF) Version 1.1
+    publisher: National Institute of Standards and Technology
+    url: https://csrc.nist.gov/pubs/sp/800/218/final
+    published_at: 2022-02-03
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: NIST Special Publication 800-218
+    language: en
+    locator: "practice groups PO, PS, PW and RV"
+    checksum: null
+    license: US government publication
+    archive_path: null
+    status: verified
+    notes: "Version 1.1 is final; Version 1.2 was still a draft in the official publication list at access time."
+
+  - id: SRC-0521
+    title: Zero Trust Architecture
+    publisher: National Institute of Standards and Technology
+    url: https://csrc.nist.gov/pubs/sp/800/207/final
+    published_at: 2020-08-11
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: NIST Special Publication 800-207
+    language: en
+    locator: "abstract, tenets and logical components"
+    checksum: null
+    license: US government publication
+    archive_path: null
+    status: verified
+    notes: "Reference architecture, not an automatic accreditation or a product list."
+
+  - id: SRC-0522
+    title: Developing Cyber-Resilient Systems — A Systems Security Engineering Approach
+    publisher: National Institute of Standards and Technology
+    url: https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final
+    published_at: 2021-12-09
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: NIST Special Publication 800-160 Volume 2 Revision 1
+    language: en
+    locator: "abstract; goals to anticipate, withstand, recover and adapt"
+    checksum: null
+    license: US government publication
+    archive_path: null
+    status: verified
+    notes: "Used for high-level resilience and graceful-degradation principles only."
+
+  - id: SRC-0523
+    title: 2025 Minimum Elements for a Software Bill of Materials (SBOM)
+    publisher: Cybersecurity and Infrastructure Security Agency
+    url: https://www.cisa.gov/sites/default/files/2025-08/2025_CISA_SBOM_Minimum_Elements.pdf
+    published_at: 2025-08-22
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official government SBOM guidance
+    language: en
+    locator: "minimum data fields, automation support and practices"
+    checksum: null
+    license: US government publication
+    archive_path: null
+    status: metadata-only
+    notes: "Official CISA metadata and search extract were accessible; direct PDF retrieval returned HTTP 403. The memo does not quote detailed field requirements."
+
+  - id: SRC-0524
+    title: Cybersecurity of AI and Standardisation
+    publisher: European Union Agency for Cybersecurity
+    url: https://www.enisa.europa.eu/publications/cybersecurity-of-ai-and-standardisation
+    published_at: 2023-03-14
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: ENISA report
+    language: en
+    locator: "executive summary and conclusions on standards gaps"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Assesses the standards landscape; does not itself certify a system."
+
+  - id: SRC-0525
+    title: ENISA's view on Cybersecurity in the Frontier AI Era
+    publisher: European Union Agency for Cybersecurity
+    url: https://www.enisa.europa.eu/sites/default/files/2026-07/ENISA%20view%20on%20cybersecurity%20in%20the%20frontier%20AI%20era_en_0.pdf
+    published_at: 2026-07-07
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: ENISA policy report
+    language: en
+    locator: "executive overview and recommendations"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "TLP:CLEAR. Used only for strategic risk framing; no attack technique is reproduced."
+
+  - id: SRC-0526
+    title: ISO/IEC 42001:2023 — Information technology — Artificial intelligence — Management system
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/42001
+    published_at: 2023-12-18
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "public abstract, scope and status"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "Only public metadata and abstract were used; no conformance is claimed."
+
+  - id: SRC-0527
+    title: ISO/IEC 23894:2023 — Information technology — Artificial intelligence — Guidance on risk management
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/77304.html
+    published_at: 2023-02-06
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "public abstract, scope and status"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "Only public metadata and abstract were used."
+
+  - id: SRC-0528
+    title: ISO/IEC 5259-3:2024 — Artificial intelligence — Data quality for analytics and machine learning — Data quality management requirements and guidelines
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/81092.html
+    published_at: 2024-07-02
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "public abstract, scope and status"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "Only public metadata and abstract were used."
+
+  - id: SRC-0529
+    title: ISO/IEC 5259-5:2025 — Artificial intelligence — Data quality for analytics and machine learning — Data quality governance framework
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/84150.html
+    published_at: 2025-02-12
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "public abstract, scope and status"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "Only public metadata and abstract were used."
+
+  - id: SRC-0530
+    title: ISO/IEC 25059:2023 — Quality model for AI systems
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/80655.html
+    published_at: 2023-06-16
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "public abstract, scope and revision status"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "The 2023 edition is published but marked to be revised; no conformance is claimed."
+
+  - id: SRC-0531
+    title: ISO/IEC 42005:2025 — Artificial intelligence — AI system impact assessment
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/42005
+    published_at: 2025-05-06
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "public abstract, scope and status"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "Only public metadata and abstract were used."
+
+  - id: SRC-0532
+    title: ISO/IEC 5962:2021 — SPDX Specification V2.2.1
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/81870.html
+    published_at: 2021-08-24
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard and public abstract
+    language: en
+    locator: "public abstract and revision status"
+    checksum: null
+    license: standard available without charge; ISO terms apply
+    archive_path: null
+    status: verified
+    notes: "Defines an SBOM data format. The edition is marked to be revised, so procurement should not freeze an obsolete version."

@@ -1,7 +1,7 @@
 # Nota strategiczna dla Prezydenta i BBN
 
 **Sprawa:** odporna, sojusznicza suwerenność technologiczna Polski do 2040 r.  
-**Status:** niezależny projekt ekspercki v0.1 — nie jest dokumentem państwowym  
+**Status:** niezależny materiał przedmandatowy v0.1 — nie jest dokumentem państwowym ani wnioskiem urzędowym<br>
 **Stan wiedzy:** 21 lipca 2026 r.  
 **Zakres:** strategiczny i jawny; bez ocen niejawnych zdolności
 
@@ -13,11 +13,13 @@ Suwerenność technologiczna nie oznacza produkowania wszystkiego w kraju. Oznac
 
 ### Rola Prezydenta i BBN
 
-1. pilnować zgodności programu z interesem bezpieczeństwa narodowego i dokumentami strategicznymi;
+1. monitorować na poziomie strategicznym zgodność programu z interesem bezpieczeństwa narodowego i dokumentami strategicznymi;
 2. wspierać ciągłość ponad kadencjami bez chronienia nieskutecznych projektów przed zamknięciem;
-3. wymagać corocznego przeglądu odporności, interoperacyjności i krytycznych zależności;
-4. utrzymywać rozdzielenie patronatu strategicznego od odpowiedzialności wykonawczej rządu;
-5. zapewnić, aby informacje chronione trafiały wyłącznie do autoryzowanego obiegu.
+3. rekomendować właściwym organom coroczny przegląd odporności, interoperacyjności i krytycznych zależności;
+4. podkreślać rozdzielenie patronatu strategicznego od odpowiedzialności wykonawczej rządu;
+5. wnosić do właściwych organów o potwierdzenie, że informacje chronione trafiają wyłącznie do autoryzowanego obiegu.
+
+Punktem prawnym wymagającym zastosowania przez właściwych prawników jest art. 24 ustawy o obronie Ojczyzny, który obejmuje między innymi rekomendacje Prezydenta przed pracami RM nad strategią oraz zatwierdzanie strategii na wniosek Prezesa Rady Ministrów ([tekst ujednolicony ustawy](https://eli.gov.pl/api/acts/DU/2022/655/text/U/D20220655Lj.pdf), **CLM-0104**). Fakt ten nie przesądza kwalifikacji niniejszego projektu jako konkretnej strategii ani nie przenosi na Prezydenta jej wykonania.
 
 ### Rekomendacja
 
@@ -76,13 +78,13 @@ Polska jest już uczestnikiem BraveTech EU (**CLM-1214**). Priorytetem jest mier
 
 ## 4. Rekomendowane decyzje i patronat
 
-### Decyzje Prezydenta/BBN
+### Rekomendowane kierunki patronatu i wnioski do właściwych organów
 
-1. Zażądać formalnego określenia relacji programu do obowiązujących dokumentów bezpieczeństwa i planowania obronnego.
-2. Przyjąć doktrynę odpornej, sojuszniczej suwerenności jako kryterium przeglądu, nie jako deklarację autarkii.
-3. Ustanowić coroczny przegląd strategiczny z Premierem, obejmujący odporność, interoperacyjność, ciągłość, projekty zamknięte i nowe zależności.
-4. Wymagać jawnego szablonu pytań do części autoryzowanej oraz formalnego właściciela każdej informacji.
-5. Powołać niezależny red-team strategiczny z ujawnionymi konfliktami interesów.
+1. Wnieść do właściwych organów o przedstawienie formalnej relacji programu do obowiązujących dokumentów bezpieczeństwa i planowania obronnego.
+2. Zarekomendować rozważenie doktryny odpornej, sojuszniczej suwerenności jako kryterium przeglądu, nie jako deklaracji autarkii.
+3. Zaproponować Premierowi wspólny coroczny przegląd strategiczny, obejmujący odporność, interoperacyjność, ciągłość, projekty zamknięte i nowe zależności.
+4. Poprosić właściwe organy o przygotowanie jawnego szablonu pytań do części autoryzowanej oraz wskazanie formalnego właściciela każdej informacji.
+5. Zarekomendować właściwemu organowi powołanie niezależnego red-teamu strategicznego z ujawnionymi konfliktami interesów.
 
 ### Czego patronat nie powinien robić
 
@@ -127,18 +129,18 @@ Wersja dla Prezydenta/BBN może zawierać część autoryzowaną przygotowaną p
 
 ## 7. Pierwsze 100 dni z perspektywy Prezydenta/BBN
 
-- otrzymać mapę miejsca programu w systemie strategicznym;
-- uzgodnić jawne kryteria odporności, ciągłości i interoperacyjności;
-- zatwierdzić granicę materiału jawnego i autoryzowanego;
-- wskazać pytania strategiczne do audytu bazowego;
+- poprosić rząd o przedstawienie mapy miejsca programu w systemie strategicznym;
+- zarekomendować właściwym organom uzgodnienie jawnych kryteriów odporności, ciągłości i interoperacyjności;
+- poprosić właściwe organy o potwierdzenie granicy materiału jawnego i autoryzowanego;
+- przekazać pytania strategiczne do audytu bazowego właściwym organom;
 - uczestniczyć w przeglądzie wariantów, bez wejścia w wybór dostawców;
-- zapewnić niezależny red-team i deklaracje konfliktów interesów;
-- uzgodnić format rocznego raportu;
-- wymagać, aby pierwsza decyzja skali miała wynik testu, TCO, serwis i plan substytucji.
+- wspierać utworzenie przez właściwy organ niezależnego red-teamu i stosowanie deklaracji konfliktów interesów;
+- zaproponować format rocznego raportu do uzgodnienia z rządem;
+- wnosić, aby pierwszej decyzji skali towarzyszyły wynik testu, TCO, plan serwisu i plan substytucji.
 
 ## 8. Warunki poparcia kolejnej fazy
 
-Prezydent i BBN powinni rekomendować kontynuację, jeżeli program:
+Prezydent, przy wsparciu BBN, powinien rekomendować kontynuację, jeżeli program:
 
 - ma formalne miejsce i właścicieli;
 - dowodzi zdolności przejścia od problemu do testu;

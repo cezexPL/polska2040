@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-07-21",
+  "artifacts": [
+    {
+      "id": "strategy",
+      "title": "Polska 2040: Suwerenność technologiczna",
+      "status": "reviewed",
+      "outputs": [
+        "dist/strategy/index.html",
+        "dist/strategy/strategy.pdf",
+        "dist/strategy/strategy.docx"
+      ]
+    },
+    {
+      "id": "implementation-roadmap",
+      "title": "Plan realizacji 2026–2040",
+      "status": "reviewed",
+      "outputs": [
+        "dist/implementation-roadmap/index.html",
+        "dist/implementation-roadmap/implementation-roadmap.pdf",
+        "dist/implementation-roadmap/implementation-roadmap.docx"
+      ]
+    },
+    {
+      "id": "impact-finance",
+      "title": "Finansowanie i ocena wpływu",
+      "status": "reviewed",
+      "outputs": [
+        "dist/impact-finance/index.html",
+        "dist/impact-finance/impact-finance.pdf",
+        "dist/impact-finance/impact-finance.docx"
+      ]
+    },
+    {
+      "id": "governance-law",
+      "title": "Ład instytucjonalny, prawo i zamówienia",
+      "status": "reviewed",
+      "outputs": [
+        "dist/governance-law/index.html",
+        "dist/governance-law/governance-law.pdf",
+        "dist/governance-law/governance-law.docx"
+      ]
+    },
+    {
+      "id": "evidence-book",
+      "title": "Księga dowodowa",
+      "status": "reviewed",
+      "outputs": [
+        "dist/evidence-book/index.html",
+        "dist/evidence-book/evidence-book.pdf",
+        "dist/evidence-book/evidence-book.docx"
+      ]
+    },
+    {
+      "id": "restricted-annex-template",
+      "title": "Jawny szablon aneksu ograniczonego",
+      "status": "reviewed",
+      "outputs": [
+        "dist/restricted-annex-template/index.html",
+        "dist/restricted-annex-template/restricted-annex-template.pdf",
+        "dist/restricted-annex-template/restricted-annex-template.docx"
+      ]
+    },
+    {
+      "id": "prime-minister-brief",
+      "title": "Nota decyzyjna dla Premiera i Rady Ministrów",
+      "status": "reviewed",
+      "outputs": [
+        "dist/prime-minister-brief/index.html",
+        "dist/prime-minister-brief/prime-minister-brief.pdf",
+        "dist/prime-minister-brief/prime-minister-brief.docx"
+      ]
+    },
+    {
+      "id": "president-bbn-brief",
+      "title": "Nota strategiczna dla Prezydenta i BBN",
+      "status": "reviewed",
+      "outputs": [
+        "dist/president-bbn-brief/index.html",
+        "dist/president-bbn-brief/president-bbn-brief.pdf",
+        "dist/president-bbn-brief/president-bbn-brief.docx"
+      ]
+    },
+    {
+      "id": "ministerial-briefs",
+      "title": "Briefy portfeli ministerialnych",
+      "status": "reviewed",
+      "outputs": [
+        "dist/ministerial-briefs/index.html",
+        "dist/ministerial-briefs/ministerial-briefs.pdf",
+        "dist/ministerial-briefs/ministerial-briefs.docx"
+      ]
+    },
+    {
+      "id": "international-brief",
+      "title": "Poland 2040: Technology Sovereignty — Executive Brief",
+      "status": "reviewed",
+      "outputs": [
+        "dist/international-brief/index.html",
+        "dist/international-brief/international-brief.pdf",
+        "dist/international-brief/international-brief.docx"
+      ]
+    },
+    {
+      "id": "regional-pilot-card",
+      "title": "Karta kwalifikacji i realizacji pilotażu regionalnego",
+      "status": "reviewed",
+      "outputs": [
+        "dist/regional-pilot-card/index.html",
+        "dist/regional-pilot-card/regional-pilot-card.pdf",
+        "dist/regional-pilot-card/regional-pilot-card.docx"
+      ]
+    },
+    {
+      "id": "voivodeship-data-template",
+      "title": "Szablon danych wojewódzkich",
+      "status": "reviewed",
+      "outputs": [
+        "dist/voivodeship-data-template/index.html",
+        "dist/voivodeship-data-template/voivodeship-data-template.pdf",
+        "dist/voivodeship-data-template/voivodeship-data-template.docx"
+      ]
+    },
+    {
+      "id": "cabinet-deck",
+      "title": "Polska 2040 — decyzje Rady Ministrów",
+      "status": "reviewed",
+      "outputs": [
+        "dist/cabinet-deck/index.html",
+        "dist/cabinet-deck/cabinet-deck.pdf",
+        "dist/cabinet-deck/cabinet-deck.pptx"
+      ]
+    },
+    {
+      "id": "president-deck",
+      "title": "Polska 2040 — odporność i ciągłość państwa",
+      "status": "reviewed",
+      "outputs": [
+        "dist/president-deck/index.html",
+        "dist/president-deck/president-deck.pdf",
+        "dist/president-deck/president-deck.pptx"
+      ]
+    },
+    {
+      "id": "economic-forum-deck",
+      "title": "Polska 2040 — bezpieczeństwo i produktywność: hipotezy do testu",
+      "status": "reviewed",
+      "outputs": [
+        "dist/economic-forum-deck/index.html",
+        "dist/economic-forum-deck/economic-forum-deck.pdf",
+        "dist/economic-forum-deck/economic-forum-deck.pptx"
+      ]
+    },
+    {
+      "id": "regional-deck",
+      "title": "Polska 2040 — szansa dla regionów",
+      "status": "reviewed",
+      "outputs": [
+        "dist/regional-deck/index.html",
+        "dist/regional-deck/regional-deck.pdf",
+        "dist/regional-deck/regional-deck.pptx"
+      ]
+    },
+    {
+      "id": "international-deck",
+      "title": "Poland 2040 — Technology Sovereignty",
+      "status": "reviewed",
+      "outputs": [
+        "dist/international-deck/index.html",
+        "dist/international-deck/international-deck.pdf",
+        "dist/international-deck/international-deck.pptx"
+      ]
+    }
+  ]
+}

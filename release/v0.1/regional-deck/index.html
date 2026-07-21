@@ -1,0 +1,134 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Polska 2040 — szansa dla regionów</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+
+body { background:#111d29; }
+main.deck { width:100%; margin:0; padding:0; background:transparent; box-shadow:none; }
+.slide { width:13.333in; height:7.5in; margin:18px auto; padding:.72in .85in; background:#fff; position:relative; overflow:hidden; page-break-after:always; box-shadow:0 8px 30px rgba(0,0,0,.25); }
+.slide h1 { margin-top:0; font-size:30pt; border-bottom:4px solid var(--red); }
+.slide h2 { font-size:20pt; }
+.slide p,.slide li { font-size:16pt; line-height:1.35; }
+.slide .slide-number { position:absolute; bottom:.25in; right:.45in; font-size:9pt; color:var(--muted); }
+.slide .deck-disclaimer { position:absolute; bottom:.25in; left:.45in; font-size:7.5pt; color:var(--muted); }
+@page { size:13.333in 7.5in; margin:0; }
+@page { @bottom-center { content:none; } }
+@media print { .slide{margin:0;box-shadow:none;} }
+</style></head><body><main class="deck"><section class="slide"><h1 id="polska-2040-szansa-dla-regionow">Polska 2040: szansa dla regionów</h1>
+<ul>
+<li>Kompetencje, MŚP i usługi publiczne w sieci krajowej</li>
+<li>Szablon wypełniany wyłącznie aktualnymi danymi danego województwa</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">1 / 13</div></section><section class="slide"><h1 id="jedna-strategia-rozne-specjalizacje">Jedna strategia, różne specjalizacje</h1>
+<ul>
+<li>Regiony nie kopiują identycznych laboratoriów</li>
+<li>Profil wynika z firm, uczelni, kadr, infrastruktury i popytu</li>
+<li>Wspólne standardy pozwalają dzielić zasoby</li>
+<li>Pilotaż przed trwałym CAPEX</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">2 / 13</div></section><section class="slide"><h1 id="regionalne-centrum-to-funkcja">Regionalne centrum to funkcja</h1>
+<ul>
+<li>Broker łączy problem, nabywcę, MŚP, szkoły i uczelnie</li>
+<li>Węzeł specjalistyczny może działać w innym województwie</li>
+<li>Wspólny standard reguluje dane, test, handoff i wynik</li>
+<li>Nowy budynek nie jest warunkiem zdolności</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">3 / 13</div></section><section class="slide"><h1 id="mapa-specjalizacji">Mapa specjalizacji</h1>
+<ul>
+<li>Kompetencje i realne role</li>
+<li>Łańcuchy dostaw, serwis i faktyczna dostępność infrastruktury</li>
+<li>Przykład zasobu do kwalifikacji: ESA Phi-Lab Poland potwierdza środowiska robotyki, AI i autonomii, ale nie gwarantuje dostępu każdego pilota — <a href="https://esaphilab.pl/">ESA Phi-Lab Poland</a>, <strong>CLM-1129</strong></li>
+<li>Problemy publiczne z właścicielem i bazą</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">4 / 13</div></section><section class="slide"><h1 id="szkoy-i-uczelnie">Szkoły i uczelnie</h1>
+<ul>
+<li>Matematyka, fizyka, informatyka, robotyka i odpowiedzialne AI</li>
+<li>Technika: mechatronika, elektronika, RF, CNC, kompozyty i serwis</li>
+<li>Studia: systemy, dane, cyber, produkcja i prawo</li>
+<li>Realny projekt i praktyka jako część oceny</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">5 / 13</div></section><section class="slide"><h1 id="hipoteza-przekwalifikowanie-moze-dac-wczesniejszy-efekt">Hipoteza: przekwalifikowanie może dać wcześniejszy efekt</h1>
+<ul>
+<li><strong>REKOMENDACJA:</strong> moduły 3-, 6- i 12-miesięczne</li>
+<li>Automatycy, elektronicy, programiści, konstruktorzy i operatorzy</li>
+<li>Mikropoświadczenie po praktycznym zadaniu</li>
+<li>Mierzyć zatrudnienie i retencję, nie liczbę zapisów</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">6 / 13</div></section><section class="slide"><h1 id="msp-w-ancuchu-dostaw">MŚP w łańcuchu dostaw</h1>
+<ul>
+<li>Jasne interfejsy i wymagania jakości</li>
+<li>Wspólny dostęp do laboratoriów i testów</li>
+<li>Proporcjonalne cyber i bezpieczeństwo informacji</li>
+<li>Szybka płatność, feedback oraz ścieżka do kolejnej partii</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">7 / 13</div></section><section class="slide"><h1 id="zastosowania-lokalne">Zastosowania lokalne</h1>
+<ul>
+<li>Ratownictwo, rolnictwo, energia i środowisko</li>
+<li>Kolej, budownictwo, geodezja i logistyka</li>
+<li>Baseline i pilotaż mierzą czas, koszt, jakość, TCO i ryzyko</li>
+<li>Kontynuacja z budżetu właściciela albo zamknięcie</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">8 / 13</div></section><section class="slide"><h1 id="karta-danych-wojewodztwa">Karta danych województwa</h1>
+<ul>
+<li>Źródło, data, definicja i mianownik każdej liczby</li>
+<li>Kompetencje, płace, firmy, laboratoria i popyt</li>
+<li>Dane niepewne pozostają <code>UNKNOWN</code></li>
+<li>Lokalnych wartości nie kopiuje się między regionami</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">9 / 13</div></section><section class="slide"><h1 id="finansowanie-centrum">Finansowanie centrum</h1>
+<ul>
+<li>Koszt funkcji oddzielony od kosztu budynku i sprzętu</li>
+<li>Instrument krajowy, UE, samorządowy i prywatny ma inny cel</li>
+<li>Jeden identyfikator kosztu zapobiega podwójnemu finansowaniu</li>
+<li>Plan utrzymania po pilotażu jest obowiązkowy</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">10 / 13</div></section><section class="slide"><h1 id="kpi-regionalne">KPI regionalne</h1>
+<ul>
+<li>Kompetencje spełniające praktyczny standard</li>
+<li>Zatrudnienie i retencja po 12/24 miesiącach</li>
+<li>Projekty po teście użytkownika i wdrożeniu</li>
+<li>Wykorzystanie infrastruktury, produktywność i wykonany eksport</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">11 / 13</div></section><section class="slide"><h1 id="ryzyka">Ryzyka</h1>
+<ul>
+<li>Infrastruktura bez popytu</li>
+<li>Patronat jako reklama jednej firmy</li>
+<li>Powielanie zasobów oraz odpływ instruktorów</li>
+<li>Grant bez zakupów po pilotażu</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">12 / 13</div></section><section class="slide"><h1 id="pierwszy-krok-regionu">Pierwszy krok regionu</h1>
+<ul>
+<li>Zbudować mapę problemów, kompetencji, firm i zasobów</li>
+<li>Wybrać jeden–dwa pilotaże z właścicielem i bazą</li>
+<li>Wycenić funkcję centrum i plan utrzymania</li>
+<li>Skalować dopiero po popycie, wykorzystaniu i wyniku</li>
+</ul><div class="deck-disclaimer">Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</div><div class="slide-number">13 / 13</div></section></main></body></html>

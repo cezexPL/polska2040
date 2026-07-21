@@ -1,0 +1,545 @@
+schema_version: 1
+sources:
+  - id: SRC-0901
+    title: Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/1997/483/ogl
+    published_at: "1997-04-02"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: konstytucja
+    language: pl
+    locator: "art. 87, 89, 92–93, 126 i 133"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 93 ogranicza uchwały Rady Ministrów i zarządzenia do sfery wewnętrznej; nie mogą być podstawą decyzji wobec obywateli, osób prawnych ani innych podmiotów."
+
+  - id: SRC-0902
+    title: Ustawa z dnia 6 grudnia 2006 r. o zasadach prowadzenia polityki rozwoju — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2025/198/ogl
+    published_at: "2025-02-05"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 6, 9–15, 17, 21d–21f"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło rozróżnia strategie rozwoju, programy wykonawcze i polityki publiczne oraz określa ich przyjmowanie i konsultowanie."
+
+  - id: SRC-0903
+    title: Ustawa z dnia 8 sierpnia 1996 r. o Radzie Ministrów — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2024/1050/ogl
+    published_at: "2024-06-21"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 10 i 10a"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 10 określa status pełnomocnika Rządu; art. 10a dotyczy pozyskiwania i udostępniania danych do projektowania polityk publicznych w granicach wskazanych w ustawie."
+
+  - id: SRC-0904
+    title: Rządowy proces legislacyjny — uzgodnienia, konsultacje publiczne lub opiniowanie projektu ustawy
+    publisher: Rządowe Centrum Legislacji
+    url: https://rcl.gov.pl/legislacja/rzadowy-proces-legislacyjny/opisy-procedur/projekt-ustawy/uzgodnienia-konsultacje-publiczne-lub-opiniowanie/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny opis procedury rządowej
+    language: pl
+    locator: "cała procedura; konsultacje publiczne, opiniowanie, raport z konsultacji i odstąpienie od konsultacji"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Opis proceduralny RCL nie zastępuje przepisów właściwych dla konkretnego projektu."
+
+  - id: SRC-0905
+    title: Ustawa z dnia 14 kwietnia 2000 r. o umowach międzynarodowych — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2020/127/ogl
+    published_at: "2020-01-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 2–6, 12–18 i 22"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "O kwalifikacji porozumienia jako umowy międzynarodowej decydują jego cechy prawne, nie nazwa dokumentu."
+
+  - id: SRC-0906
+    title: Ustawa z dnia 11 września 2019 r. — Prawo zamówień publicznych — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2026/793/ogl
+    published_at: "2026-05-27"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 99–103, 190–207, 395, 407–410, 417 i 419"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 395 ust. 3 wyłącza partnerstwo innowacyjne w zamówieniach w dziedzinach obronności i bezpieczeństwa. Art. 408 zawiera katalog wymagań bezpieczeństwa dostaw."
+
+  - id: SRC-0907
+    title: Directive 2009/81/EC on the coordination of procedures for the award of certain works contracts, supply contracts and service contracts in the fields of defence and security
+    publisher: European Parliament and Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/dir/2009/81/oj
+    published_at: "2009-07-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: dyrektywa UE
+    language: en
+    locator: "Articles 22–23 and 25–28; recitals 16–20, 43–44 and 46"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dyrektywa ustanawia szczególne ramy informacji niejawnych, bezpieczeństwa dostaw i trybów dla zamówień obronnych i bezpieczeństwa."
+
+  - id: SRC-0908
+    title: Consolidated version of the Treaty on the Functioning of the European Union — Article 346
+    publisher: European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_346/oj
+    published_at: "2016-06-07"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: traktat UE — artykuł
+    language: en
+    locator: "Article 346(1)"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Wyłączenie dotyczące podstawowych interesów bezpieczeństwa nie jest automatyczną podstawą dla całego programu; jego zastosowanie wymaga analizy konkretnego środka."
+
+  - id: SRC-0909
+    title: Ustawa z dnia 5 sierpnia 2010 r. o ochronie informacji niejawnych — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2025/1209/ogl
+    published_at: "2025-08-11"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 4–5, 42–49 i 54–71"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło obejmuje zasadę need-to-know, klasyfikację, bezpieczeństwo teleinformatyczne oraz bezpieczeństwo przemysłowe."
+
+  - id: SRC-0910
+    title: Ustawa z dnia 16 kwietnia 1993 r. o zwalczaniu nieuczciwej konkurencji — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2022/1233/ogl
+    published_at: "2022-05-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 11"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Tajemnica przedsiębiorstwa jest odrębnym reżimem od informacji niejawnych i wymaga m.in. podjęcia rozsądnych działań w celu zachowania poufności."
+
+  - id: SRC-0911
+    title: Ustawa z dnia 6 września 2001 r. o dostępie do informacji publicznej — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2022/902/ogl
+    published_at: "2022-03-23"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 1, 5, 6 i 13–16"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Ograniczenia dostępu wynikają z ustawy i chronionych tajemnic; sama etykieta nadana przez autora dokumentu nie przesądza wyniku wniosku."
+
+  - id: SRC-0912
+    title: Regulation (EU) 2016/679 — General Data Protection Regulation
+    publisher: European Parliament and Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2016/679/oj
+    published_at: "2016-04-27"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie UE
+    language: en
+    locator: "Articles 5–6, 24–25, 28, 30, 32 and 35"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Zakres RODO zależy od rodzaju administratora, celu i przetwarzania; bezpieczeństwo narodowe i niektóre procesy organów ścigania mogą podlegać innym reżimom."
+
+  - id: SRC-0913
+    title: Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2025/24/ogl
+    published_at: "2024-12-06"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 41, 50, 53 i 74–76"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Wyjątki dla legalnego posiadacza programu komputerowego są ograniczone; depozyt kodu nie zastępuje licencji ani przeniesienia praw."
+
+  - id: SRC-0914
+    title: Ustawa z dnia 30 czerwca 2000 r. — Prawo własności przemysłowej — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2023/1170/ogl
+    published_at: "2023-05-11"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 8–12, 20–22 i 63–76"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Umowy projektu i JV powinny rozdzielać prawa do rozwiązań wcześniejszych, wynikowych i rozwinięć oraz określać licencje i terytorium."
+
+  - id: SRC-0915
+    title: Ustawa z dnia 29 listopada 2000 r. o obrocie z zagranicą towarami, technologiami i usługami o znaczeniu strategicznym — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2023/1582/ogl
+    published_at: "2023-07-07"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 1–3, 6–12, 21–24 i 37–40"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Tekst należy czytać łącznie z późniejszą nowelizacją z 2026 r. i aktualnymi rozporządzeniami wykonawczymi."
+
+  - id: SRC-0916
+    title: Ustawa z dnia 13 marca 2026 r. o zmianie ustawy o obrocie z zagranicą towarami, technologiami i usługami o znaczeniu strategicznym
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2026/471/ogl
+    published_at: "2026-03-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa nowelizująca
+    language: pl
+    locator: "art. 1–4; przepisy wejścia w życie"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Większość zmian weszła w życie 22 kwietnia 2026 r.; część przepisów ma późniejszy termin."
+
+  - id: SRC-0917
+    title: Zezwolenia na obrót uzbrojeniem
+    publisher: Ministerstwo Rozwoju i Technologii
+    url: https://www.gov.pl/web/rozwoj-technologia/zezwolenia-na-obrot-uzbrojeniem
+    published_at: "2026-06-23"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalna procedura administracyjna
+    language: pl
+    locator: "wymagania dotyczące WSK, wniosku, oświadczenia końcowego użytkownika, certyfikatu importowego i dokumentów kontraktowych"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strona opisuje procedurę, ale nie zastępuje kwalifikacji konkretnego produktu, technologii, usługi lub transferu niematerialnego."
+
+  - id: SRC-0918
+    title: Regulation (EU) 2021/821 setting up a Union regime for the control of exports, brokering, technical assistance, transit and transfer of dual-use items
+    publisher: European Parliament and Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2021/821/oj
+    published_at: "2021-05-20"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie UE
+    language: en
+    locator: "Articles 2–5, 9–15, 22–27 and Annex I"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Kontrola może obejmować towary, oprogramowanie, technologię, pomoc techniczną i transfery niematerialne; istnieją również mechanizmy catch-all."
+
+  - id: SRC-0919
+    title: Council Common Position 2008/944/CFSP defining common rules governing control of exports of military technology and equipment — consolidated version
+    publisher: Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/compos/2008/944/2025-04-15/eng
+    published_at: "2025-04-15"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: wspólne stanowisko WPZiB — tekst skonsolidowany
+    language: en
+    locator: "Articles 1–9; criteria one to eight"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Licencje eksportowe są oceniane indywidualnie, w tym pod kątem użytkownika końcowego, ryzyka dywersji i sytuacji państwa odbiorcy."
+
+  - id: SRC-0920
+    title: Ustawa z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2022/835/ogl
+    published_at: "2022-04-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa
+    language: pl
+    locator: "art. 1–6, 7–12 i 14–15"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Ustawa tworzy krajową listę sankcyjną i obowiązki niezależne od bezpośrednio stosowanych rozporządzeń sankcyjnych UE."
+
+  - id: SRC-0921
+    title: Overview of sanctions and related resources
+    publisher: European Commission, Directorate-General for Financial Stability, Financial Services and Capital Markets Union
+    url: https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny portal sankcyjny UE
+    language: en
+    locator: "EU Sanctions Map, consolidated financial sanctions list, guidance and legal acts"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Listy i akty zmieniają się; wiążący jest aktualny akt opublikowany w Dzienniku Urzędowym UE."
+
+  - id: SRC-0922
+    title: Ustawa z dnia 3 października 2008 r. o udostępnianiu informacji o środowisku i jego ochronie, udziale społeczeństwa w ochronie środowiska oraz o ocenach oddziaływania na środowisko — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2024/1112/ogl
+    published_at: "2024-06-14"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 39–43 i 46–55"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 47a przewiduje wyłączenie dla dokumentów przygotowywanych wyłącznie na potrzeby obrony narodowej lub obrony cywilnej, z zastrzeżeniem wpływu na obszary Natura 2000."
+
+  - id: SRC-0923
+    title: Oceny oddziaływania na środowisko
+    publisher: Generalna Dyrekcja Ochrony Środowiska
+    url: https://www.gov.pl/web/gdos/oceny-oddzialywania-na-srodowisko
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne objaśnienie procedur środowiskowych
+    language: pl
+    locator: "sekcje dotyczące strategicznej oceny oddziaływania na środowisko i udziału społeczeństwa"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Objaśnienie służy orientacji; wiążący zakres wynika z ustawy i uzgodnień właściwych organów."
+
+  - id: SRC-0924
+    title: Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence — Artificial Intelligence Act
+    publisher: European Parliament and Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+    published_at: "2024-06-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie UE
+    language: en
+    locator: "Article 2(3), Articles 4, 6, 9–15, 26–27, 43, 72–73 and 113; recital 24"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Wyłączenie dotyczy systemów wyłącznie do celów wojskowych, obronnych lub bezpieczeństwa narodowego w granicach art. 2 ust. 3; zastosowania dual-use wymagają osobnego scope memo."
+
+  - id: SRC-0925
+    title: AI Act — regulatory framework for artificial intelligence
+    publisher: European Commission, Directorate-General for Communications Networks, Content and Technology
+    url: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne objaśnienie i harmonogram stosowania AI Act
+    language: en
+    locator: "timeline and implementation sections, state as of 21 July 2026"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Harmonogram jest dynamiczny; zapowiedź polityczna lub porozumienie w sprawie nowelizacji nie jest zmianą prawa, dopóki akt nie zostanie przyjęty i opublikowany."
+
+  - id: SRC-0926
+    title: Summary of NATO's revised Artificial Intelligence strategy
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy
+    published_at: "2024-07-10"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: strategia NATO
+    language: en
+    locator: "paras 5–8 and Principles of Responsible Use"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Zasady NATO są ramą polityczną i assurance, a nie źródłem powszechnie obowiązującego prawa."
+
+  - id: SRC-0927
+    title: Protokoły dodatkowe do Konwencji genewskich z 12 sierpnia 1949 r., sporządzone w Genewie dnia 8 czerwca 1977 r.
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/1992/175/ogl
+    published_at: "1992-03-31"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: umowa międzynarodowa ogłoszona w Dzienniku Ustaw
+    language: pl
+    locator: "Protokół I, art. 36"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło potwierdza ogłoszenie Protokołu dodatkowego I w Polsce."
+
+  - id: SRC-0928
+    title: Protocol Additional to the Geneva Conventions of 12 August 1949 — Article 36, New weapons
+    publisher: International Committee of the Red Cross, IHL Databases
+    url: https://ihl-databases.icrc.org/en/ihl-treaties/api-1977/article-36
+    published_at: "1977-06-08"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: oficjalna baza traktatowa — przepis
+    language: en
+    locator: "Article 36"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 36 wymaga oceny legalności nowej broni, środka lub metody walki na etapie badań, rozwoju, pozyskania lub przyjęcia."
+
+  - id: SRC-0929
+    title: Ustawa z dnia 24 lipca 2015 r. o kontroli niektórych inwestycji — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2026/47/ogl
+    published_at: "2026-01-09"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa — tekst jednolity
+    language: pl
+    locator: "art. 1–3, 11a–12k i 15–16"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Zastosowanie kontroli zależy od podmiotu chronionego, inwestora, progów, rodzaju transakcji i aktualnego stanu przepisów."
+
+  - id: SRC-0930
+    title: Regulation (EU) 2019/452 establishing a framework for the screening of foreign direct investments into the Union
+    publisher: European Parliament and Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2019/452/oj
+    published_at: "2019-03-19"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie UE
+    language: en
+    locator: "Articles 3–9, especially Article 4"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Czynniki bezpieczeństwa obejmują m.in. technologie krytyczne i dual-use, infrastrukturę krytyczną, dane wrażliwe oraz kontrolę inwestora przez rząd państwa trzeciego."
+
+  - id: SRC-0931
+    title: Centralny Rejestr Beneficjentów Rzeczywistych
+    publisher: Ministerstwo Finansów
+    url: https://www.gov.pl/web/finanse/centralny-rejestr-beneficjentow-rzeczywistych
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny rejestr i informacja o beneficjentach rzeczywistych
+    language: pl
+    locator: "zakres rejestru, wyszukiwarka i zasady zgłoszeń"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "CRBR jest jednym z dowodów due diligence, lecz wpis podlega weryfikacji dokumentami korporacyjnymi i innymi źródłami."
+
+  - id: SRC-0932
+    title: Kontrola koncentracji
+    publisher: Urząd Ochrony Konkurencji i Konsumentów
+    url: https://uokik.gov.pl/public/kontrola-koncentracji
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne objaśnienie kontroli koncentracji
+    language: pl
+    locator: "formy koncentracji, progi, wyłączenia i obowiązek zgłoszenia"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Utworzenie wspólnego przedsiębiorcy może stanowić koncentrację; obowiązek zgłoszenia zależy od progów i wyłączeń."
+
+  - id: SRC-0933
+    title: Foreign Subsidies Regulation — About
+    publisher: European Commission, Directorate-General for Competition
+    url: https://competition-policy.ec.europa.eu/foreign-subsidies-regulation/about_en
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne objaśnienie rozporządzenia UE 2022/2560
+    language: en
+    locator: "scope, concentrations, public procurement and ex officio review"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Należy sprawdzać aktualne progi i metodykę sumowania zagranicznych wkładów finansowych dla konkretnej transakcji lub zamówienia."
+
+  - id: SRC-0934
+    title: State aid overview
+    publisher: European Commission, Directorate-General for Competition
+    url: https://competition-policy.ec.europa.eu/state-aid/overview_en
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne objaśnienie reguł pomocy państwa
+    language: en
+    locator: "concept of State aid, notification, exemptions and enforcement"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dotacje, gwarancje, finansowanie lub objęcie udziałów nie są automatycznie niedozwolone, ale wymagają kwalifikacji podstawy i warunków przed zaciągnięciem zobowiązania."

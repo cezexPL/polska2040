@@ -1,0 +1,433 @@
+schema_version: 1
+sources:
+  - id: SRC-1001
+    title: Szkolnictwo wyższe w roku akademickim 2025/2026
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/edukacja/edukacja/szkolnictwo-wyzsze-w-roku-akademickim-20252026%2C8%2C12.html
+    published_at: 2026-06-15
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: informacja sygnalna i tablice statystyczne
+    language: pl
+    locator: "akapit wprowadzający oraz plik PDF, s. 1–2; stan 31 grudnia 2025 r."
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dane wstępne oparte na POL-on; strona udostępnia również tablice XLSX według uczelni, województw i kierunków."
+
+  - id: SRC-1002
+    title: Oświata i wychowanie w roku szkolnym 2024/2025
+    publisher: Główny Urząd Statystyczny i Urząd Statystyczny w Gdańsku
+    url: https://stat.gov.pl/files/gfx/portalinformacyjny/pl/defaultaktualnosci/5488/1/20/1/oswiata_i_wychowanie_w_roku_szkolnym_2024_2025.pdf
+    published_at: 2025-10-28
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: roczna publikacja statystyczna
+    language: pl
+    locator: "s. 17–20 i 32–33 pliku PDF; synteza, nauczyciele oraz uwagi metodyczne"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Ostateczne dane o szkołach, uczniach, absolwentach i etatach nauczycieli; nie rozbija kadry nauczycielskiej na specjalności potrzebne programowi."
+
+  - id: SRC-1003
+    title: Edukacja w roku szkolnym 2025/2026 — wyniki wstępne
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/edukacja/edukacja/edukacja-w-roku-szkolnym-20252026-wyniki-wstepne%2C21%2C4.html
+    published_at: 2026-07-01
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: informacja sygnalna i tablice statystyczne
+    language: pl
+    locator: "akapit wprowadzający oraz pliki PDF/XLSX udostępnione na stronie"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Najświeższy przekrój ogólny jest wstępny; dane szczegółowe z 2024/25 pozostają bazą dla projektu pilotażu."
+
+  - id: SRC-1004
+    title: Obwieszczenie Ministra Edukacji z 22 stycznia 2026 r. w sprawie prognozy zapotrzebowania na pracowników w zawodach szkolnictwa branżowego
+    publisher: Minister Edukacji / Monitor Polski / ELI Sejm
+    url: https://api.sejm.gov.pl/eli/acts/MP/2026/146/text.pdf
+    published_at: 2026-01-22
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: obwieszczenie ministra z prognozą krajową i wojewódzką
+    language: pl
+    locator: "część I–III, w szczególności s. 2–4 oraz wykazy dla 16 województw"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Prognoza dotyczy zawodów szkolnictwa branżowego, a nie pełnego popytu na wszystkie kompetencje programu."
+
+  - id: SRC-1005
+    title: Barometr zawodów 2026 — raport podsumowujący badanie w Polsce
+    publisher: Wojewódzki Urząd Pracy w Krakowie / Publiczne Służby Zatrudnienia
+    url: https://psz.praca.gov.pl/documents/d/wojewodzki-urzad-pracy-w-opolu/polska-raport-2026
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: urzędowa prognoza ekspercka rynku pracy
+    language: pl
+    locator: "s. 26–27 i mapy zawodów deficytowych; metodologia badania w raporcie"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Badanie opiera się na panelach ekspertów lokalnych; jest informacją prognostyczną, nie pomiarem liczby wakatów."
+
+  - id: SRC-1006
+    title: Ogólnopolski system monitorowania Ekonomicznych Losów Absolwentów szkół wyższych
+    publisher: Ministerstwo Nauki i Szkolnictwa Wyższego / OPI PIB
+    url: https://ela.nauka.gov.pl/
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: publiczny system analityczny oparty na POL-on i ZUS
+    language: pl
+    locator: "strona główna: opis źródeł danych i zakres analiz; moduł rynku pracy"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "System dostarcza wyników według uczelni i kierunków; przed użyciem w ewaluacji programu trzeba uzgodnić kohortę, okres i miarę względną."
+
+  - id: SRC-1007
+    title: Uczenie się osób dorosłych 2022
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/files/gfx/portalinformacyjny/pl/defaultaktualnosci/5488/3/4/1/uczenie_sie_doroslych_w_2022_r._dostepnosc.pdf
+    published_at: 2024-06-03
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: reprezentacyjne badanie Adult Education Survey
+    language: pl
+    locator: "s. 62–70, w szczególności s. 62–63; metodologia i uczestnictwo w edukacji pozaformalnej"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Badanie dotyczy 2022 r. i jest prowadzone co 5–6 lat; nie jest bieżącym pomiarem popytu na kursy."
+
+  - id: SRC-1008
+    title: Mikropoświadczenia — pilotaż nowego rozwiązania wspierającego uczenie się przez całe życie
+    publisher: Instytut Badań Edukacyjnych — Państwowy Instytut Badawczy
+    url: https://www.ibe.edu.pl/pl/opis-projektu-mikroposwiadczenia
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: oficjalny opis projektu FERS
+    language: pl
+    locator: "sekcje: Główne działania oraz opis projektowania, wydawania i wiarygodności mikropoświadczeń"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Projekt ma charakter pilotażowy; samo uczestnictwo nie przesądza jeszcze uznawalności konkretnego mikropoświadczenia przez rynek."
+
+  - id: SRC-1009
+    title: Zalecenie Rady z 16 czerwca 2022 r. w sprawie europejskiego podejścia do mikropoświadczeń na potrzeby uczenia się przez całe życie i zatrudnialności
+    publisher: Rada Unii Europejskiej / EUR-Lex
+    url: https://eur-lex.europa.eu/legal-content/pl/TXT/?uri=CELEX%3A32022H0627%2802%29
+    published_at: 2022-06-16
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: zalecenie Rady UE 2022/C 243/02
+    language: pl
+    locator: "załącznik I — elementy standardowe; załącznik II — zasady projektowania i wydawania"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Zalecenie jest wspólną ramą, a nie automatyczną krajową akredytacją każdego kursu."
+
+  - id: SRC-1010
+    title: Ustawa o Zintegrowanym Systemie Kwalifikacji — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://api.sejm.gov.pl/eli/acts/DU/2024/1606/text.html
+    published_at: 2024-10-31
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: tekst jednolity ustawy
+    language: pl
+    locator: "art. 1–5, 12–13 oraz rozdziały o walidacji, certyfikowaniu i zapewnianiu jakości"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Stan prawny należy sprawdzić ponownie przed wdrożeniem; A10 nie rozstrzyga kwalifikacji prawnej projektowanych mikropoświadczeń."
+
+  - id: SRC-1011
+    title: Prawo o szkolnictwie wyższym i nauce — tekst jednolity
+    publisher: Kancelaria Sejmu / ELI
+    url: https://api.sejm.gov.pl/eli/acts/DU/2024/1571/text.pdf
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: tekst jednolity ustawy
+    language: pl
+    locator: "art. 61–62 oraz art. 67 ust. 5–7, s. 24–25 pliku PDF"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Przed decyzją należy sprawdzić późniejsze zmiany; przepis umożliwia studia dualne i określa minimum praktyk na profilu praktycznym."
+
+  - id: SRC-1012
+    title: Branżowe Centra Umiejętności
+    publisher: Instytut Badań Edukacyjnych PIB na zlecenie Ministerstwa Edukacji Narodowej
+    url: https://kwalifikacje.gov.pl/dla-instytucji/branzowe-centra-umiejetnosci/
+    published_at: 2026-07-07
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: oficjalny opis instytucji systemu oświaty
+    language: pl
+    locator: "sekcja opisująca odbiorców, funkcje szkoleniowe, egzaminacyjne i współpracę z pracodawcami"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strona nie jest niezależną ewaluacją skuteczności BCU."
+
+  - id: SRC-1013
+    title: Komunikat FRSE — termin zakończenia przedsięwzięć BCU
+    publisher: Fundacja Rozwoju Systemu Edukacji
+    url: https://www.frse.org.pl/aktualnosci/komunikat-frse-termin-zakonczenia-przedsiewziec-bcu
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: komunikat operatora inwestycji KPO
+    language: pl
+    locator: "akapity o terminie 30 czerwca 2026 r. i realizacji wskaźnika A45G W2"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Potwierdzenie realizacji wskaźnika KPO nie zastępuje ewaluacji wyników edukacyjnych i zatrudnieniowych BCU."
+
+  - id: SRC-1014
+    title: Ustawa z 27 lutego 2026 r. o wojewódzkich zespołach koordynacji do spraw polityki umiejętności
+    publisher: Sejm Rzeczypospolitej Polskiej / ELI
+    url: https://eli.gov.pl/api/acts/DU/2026/451/text/I/D20260451.pdf
+    published_at: 2026-04-02
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: ustawa
+    language: pl
+    locator: "art. 2–5, 13–15 oraz art. 16 pkt 1, s. 1–6 pliku PDF"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Ustawa weszła w życie 1 lipca 2026 r., z wyjątkiem wskazanych przepisów finansowych obowiązujących wcześniej."
+
+  - id: SRC-1015
+    title: Zintegrowana Strategia Umiejętności 2030 — część szczegółowa
+    publisher: Ministerstwo Edukacji Narodowej
+    url: https://www.gov.pl/web/edukacja/czesc-szczegolowa-zsu-2030
+    published_at: 2020-12-28
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: polityka publiczna przyjęta uchwałą Rady Ministrów
+    language: pl
+    locator: "opis ośmiu obszarów oddziaływania i materiały do uchwały nr 195/2020 RM"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strategia stanowi istniejącą ramę polityki umiejętności, której programu A10 nie powinien dublować."
+
+  - id: SRC-1016
+    title: Rozporządzenie Ministra Edukacji z 11 marca 2026 r. w sprawie podstawy programowej dla szkoły podstawowej
+    publisher: Minister Edukacji / Dziennik Ustaw / ELI Sejm
+    url: https://api.sejm.gov.pl/eli/acts/DU/2026/378/text.pdf
+    published_at: 2026-03-11
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: rozporządzenie
+    language: pl
+    locator: "załącznik nr 2 — podstawa programowa szkoły podstawowej, w tym informatyka i efekty uczenia się"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Wdrażanie podstawy jest stopniowe od roku szkolnego 2026/27; plan A10 musi być zgodny z tym cyklem."
+
+  - id: SRC-1017
+    title: Rządowy program Cyfrowy Uczeń na lata 2025–2029
+    publisher: Ministerstwo Edukacji Narodowej
+    url: https://www.gov.pl/web/edukacja/cyfrowy-uczen
+    published_at: 2025-09-18
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: opis programu rządowego i materiały wdrożeniowe
+    language: pl
+    locator: "sekcje o Polskiej Ramie Transformacji Cyfrowej Edukacji, AI, kompetencjach nauczycieli oraz bezpieczeństwie"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Program jest punktem integracji dla warstwy cyfrowej szkół; nie jest sam w sobie programem kompetencji autonomicznych."
+
+  - id: SRC-1018
+    title: Struktura wynagrodzeń według zawodów za październik 2024 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/files/gfx/portalinformacyjny/pl/defaultaktualnosci/5474/5/9/1/struktura_wynagrodzen_wedlug_zawodow_za_pazdziernik_2024_r..pdf
+    published_at: 2025-10-14
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: informacja sygnalna z reprezentacyjnego badania wynagrodzeń
+    language: pl
+    locator: "s. 1–4; tablice 1–2 oraz wyjaśnienia metodologiczne"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dane dotyczą podmiotów o co najmniej 10 pracujących i szerokich grup zawodów; nie są stawką dla konkretnej kompetencji programu."
+
+  - id: SRC-1019
+    title: Rozkład wynagrodzeń w gospodarce narodowej w grudniu 2025 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/rozklad-wynagrodzen-w-gospodarce-narodowej-w-grudniu-2025-r-%2C32%2C24.html
+    published_at: 2026-06-03
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: miesięczna informacja oparta na rejestrach ZUS i MF
+    language: pl
+    locator: "akapit o medianie ogółem oraz przekrojach według sektora, płci, wieku i wielkości podmiotu"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Wartość ogółem jest kontekstem makro, nie benchmarkiem dla inżynierów, techników ani nauczycieli programu."
+
+  - id: SRC-1020
+    title: Number of ICT specialists in the EU continues to grow
+    publisher: Eurostat
+    url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260527-2
+    published_at: 2026-05-27
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: komunikat statystyczny na podstawie EU-LFS
+    language: en
+    locator: "sekcje: liczba i udział ICT specialists w 2025 r.; definicja i udział kobiet"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Wyniki UE pokazują trend i definicję, ale nie zastępują polskiej diagnozy popytu na profile programu."
+
+  - id: SRC-1021
+    title: Labour market demand for ICT specialists in online job advertisements — experimental statistics
+    publisher: Eurostat
+    url: https://ec.europa.eu/eurostat/web/experimental-statistics/labour-market-demand-ict-specialists
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: metodologia i portal statystyk eksperymentalnych
+    language: en
+    locator: "sekcje Why are these statistics needed i How are they produced; zastrzeżenie, że ogłoszenia nie są wakatami"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dane mogą uzupełniać diagnozę regionalną, lecz wymagają kontroli pokrycia portali i deduplikacji."
+
+  - id: SRC-1022
+    title: Dataset — Skills forecast 2026
+    publisher: European Centre for the Development of Vocational Training (Cedefop)
+    url: https://www.cedefop.europa.eu/en/datasets/dataset-skills-forecast
+    published_at: 2026-06-17
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: zestaw projekcji podaży i popytu na umiejętności do 2035 r.
+    language: en
+    locator: "opis wersji 2026, horyzont do 2035 r., metodologia i warunki pobrania danych"
+    checksum: null
+    license: CC BY 4.0
+    archive_path: null
+    status: verified
+    notes: "Prognoza jest scenariuszem modelowym; nie może samodzielnie wyznaczać liczby miejsc w konkretnym kursie lub regionie."
+
+  - id: SRC-1023
+    title: Społeczeństwo informacyjne w Polsce w 2025 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/spoleczenstwo-informacyjne/spoleczenstwo-informacyjne-w-polsce-w-2025-r-%2C1%2C19.html
+    published_at: 2025-12-16
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: roczna publikacja statystyczna i tablice
+    language: pl
+    locator: "publikacja i tablice dotyczące specjalistów ICT, szkoleń, kompetencji i wykorzystania technologii w przedsiębiorstwach"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Jednostką badania przedsiębiorstw są zasadniczo podmioty zatrudniające co najmniej 10 osób; nie obejmuje to pełnej populacji mikrofirm."
+
+  - id: SRC-1024
+    title: Komunikat w sprawie rzetelnego i terminowego wprowadzania danych cudzoziemców do systemu POL-on
+    publisher: Ministerstwo Nauki i Szkolnictwa Wyższego
+    url: https://www.gov.pl/web/nauka/komunikat-ministra-nauki-i-szkolnictwa-wyzszego-w-sprawie-obowiazku-rzetelnego-i-terminowego-wprowadzania-danych-cudzoziemcow-do-systemu-pol-on
+    published_at: 2026-07-02
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: komunikat ministra do uczelni
+    language: pl
+    locator: "akapity o zakresie wykazu cudzoziemców i obowiązku aktualizacji danych od 1 lipca 2025 r."
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Rejestr przyjęć cudzoziemców nie jest rejestrem ich późniejszej retencji zawodowej w Polsce."
+
+  - id: SRC-1025
+    title: NIK o szkolnictwie zawodowym
+    publisher: Najwyższa Izba Kontroli
+    url: https://www.nik.gov.pl/aktualnosci/sprawy-spoleczne/szkolnictwo-zawodowe-2024.html
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: informacja o wynikach kontroli
+    language: pl
+    locator: "ustalenia o monitorowaniu planu, wyposażeniu, współpracy z przedsiębiorcami i szkoleniach branżowych nauczycieli"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Kontrola obejmowała próbę instytucji i okres wcześniejszy niż stan na 21 lipca 2026 r.; wnioski wskazują ryzyka, nie aktualny wynik każdej szkoły."
+
+  - id: SRC-1026
+    title: Konkluzje Rady w sprawie nauczycieli w erze sztucznej inteligencji
+    publisher: Rada Unii Europejskiej / Dziennik Urzędowy UE
+    url: https://eur-lex.europa.eu/eli/C/2026/2826/oj/eng/pdf
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: konkluzje Rady UE
+    language: en
+    locator: "zalecenia dotyczące krytycznego i odpowiedzialnego stosowania AI, DigCompEdu oraz wspólnot praktyk"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Konkluzje wyznaczają kierunek polityki i nie zastępują krajowych wymagań kwalifikacyjnych nauczycieli."
+
+  - id: SRC-1027
+    title: Nabór szkół do projektu ZBADAI
+    publisher: Ministerstwo Edukacji Narodowej
+    url: https://www.gov.pl/web/edukacja/nabor-szkol-do-projektu-zbadai
+    published_at: 2026-05-21
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: komunikat o pilotażu edukacyjnym
+    language: pl
+    locator: "opis pilotażu 100 szkół podstawowych i 100 ponadpodstawowych oraz kursu AI dla nauczycieli"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Przykład istniejącego mechanizmu pilotażowego; nie jest dowodem, że 100 szkół to optymalna skala programu Polska 2040."

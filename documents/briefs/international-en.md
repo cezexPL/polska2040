@@ -51,7 +51,7 @@ Strategic contracts should cover configuration management, interface access, sec
 
 ## Secure data and responsible AI
 
-Poland's national AI policy includes Piast and Gaia AI Factories, PLGrid compute vouchers and regulatory sandboxes, but its own scope does not constitute a complete defence data-and-model stack ([Polish Ministry of Digital Affairs](https://ai.gov.pl/media/2025/11/Polityka-rozwoju-sztucznej-inteligencji-w-Polsce-do-2030-roku-17.11.2025__-1.pdf), **CLM-1217**, **CLM-1218**).
+Poland's published national AI policy refers to Piast and Gaia AI Factories, PLGrid compute vouchers and regulatory sandboxes ([Polish Ministry of Digital Affairs](https://ai.gov.pl/media/2025/11/Polityka-rozwoju-sztucznej-inteligencji-w-Polsce-do-2030-roku-17.11.2025__-1.pdf), **CLM-1217**). **Limited INFERENCE — CLM-1218:** the scope of that public document does not itself document a complete defence data-and-model stack. This is an assessment only of the cited document's public scope; it is not evidence that the Polish Ministry of National Defence or any other authorised body lacks relevant solutions.
 
 The programme should establish a federation of data owners rather than one unrestricted data lake. Minimum controls include purpose and legal basis, controlled environments without free copying, versioned data/code/models, separated test sets, model cards, monitoring, rollback and incident response. NATO's six Principles of Responsible Use — lawfulness; responsibility and accountability; explainability and traceability; reliability; governability; and bias mitigation — should be treated as an admission and monitoring baseline ([NATO](https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy), **CLM-1220**).
 
@@ -59,11 +59,13 @@ The programme should establish a federation of data owners rather than one unres
 
 The bilateral security agreement provides a framework for production-chain integration, choosing production locations in Poland or Ukraine, exploring joint production and protecting IP. It does not create a particular joint venture or select a company ([President of Ukraine](https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-mizh-ukrayinoyu-ta-92009), **CLM-1212**).
 
+An official EU communication of 16 July 2026 states that Ukraine was fully associated with EDF and EDIP and announced an EU–Ukraine Defence Industrial Partnership covering barriers, standards, procurement, IP and industrial cooperation, including JVs ([European External Action Service](https://www.eeas.europa.eu/delegations/ukraine/eu-launches-ukraine-defence-industrial-partnership-drone-deal-and-disburses-eur1-billion-drones_en), **CLM-0809**, **CLM-0817**). This records the announced framework; it does not establish the eligibility, funding or preferential status of any Polish–Ukrainian consortium.
+
 Partnerships should form a portfolio of R&D, testing, licensing, contract production, product-specific JVs, talent programmes and EU projects. Each requires ownership and sanctions checks, IP separation, cybersecurity, export control, end-use assurance, key-person risk, continuity, dispute resolution and exit provisions. Operational learning must be accessed through authorised procedures; this repository must never contain battlefield datasets, vulnerabilities or classified requirements.
 
 ## Talent and civil productivity
 
-Poland should use a network of existing universities, technical schools, institutes and companies rather than build a new specialist university. Early impact will come from reskilling current electronics, automation, software, manufacturing and telecommunications professionals; practical assessment; long placements; and mobility between research, industry and users.
+Poland should use a network of existing universities, technical schools, institutes and companies rather than build a new specialist university. **Working hypothesis to test:** reskilling current electronics, automation, software, manufacturing and telecommunications professionals may produce measurable capacity earlier than creating a new institution. The comparison requires a baseline, costs, completion and employment outcomes, and 12/24-month retention; it is not treated here as an established causal result. Practical assessment, long placements and mobility between research, industry and users remain candidate design features.
 
 Civil value should be demand-led. Candidate areas include energy and infrastructure inspection, logistics, rail, precision agriculture, emergency response, maritime operations, environmental monitoring and construction. A pilot needs a process owner, a baseline, lawful data, a post-pilot buyer and a stop rule. Not every defence product needs a forced civilian business case.
 
@@ -85,9 +87,9 @@ Funding should match risk: grants or small R&D contracts for uncertainty; staged
 - financing scenarios and a public methodology for domestic value added;
 - a decision package for the Council of Ministers and a strategic resilience review for the President/BBN.
 
-## Partnership opportunities
+## Candidate partnership value proposition — not an official offer
 
-Poland can offer a large allied market, industrial capacity, EU access, research infrastructure and a secure base for production and certification. Partners can contribute operational learning, specialised technology, standards, investment, test access and export channels. Cooperation should be product-specific, measurable and reversible, with clear ownership and lifecycle rights.
+Subject to Polish government approval, legal review and security due diligence, a candidate value proposition is that Poland could offer access to a large allied market, industrial capacity, EU frameworks, research infrastructure and a security-assessed location for production and certification. Potential partners could contribute authorised operational learning, specialised technology, standards, investment, test access and compliant export channels. This is not an invitation, commitment, procurement notice or expression of official Polish support. Any cooperation would need to be product-specific, measurable and reversible, with clear ownership and lifecycle rights.
 
 ## Caveats and assumptions
 

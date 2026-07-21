@@ -1,0 +1,513 @@
+schema_version: 1
+sources:
+  - id: SRC-1101
+    title: "20% of EU enterprises use AI technologies"
+    publisher: Eurostat
+    url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251211-2
+    published_at: "2025-12-11"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official statistical news release and dataset reference
+    language: en
+    locator: "headline results; country comparison; dataset isoc_eb_ai"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Covers enterprises with at least 10 employees. The statistic must not be presented as covering microenterprises or public bodies."
+
+  - id: SRC-1102
+    title: 2026 Country Report - Poland
+    publisher: European Commission, Directorate-General for Economic and Financial Affairs
+    url: https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/country-report-poland_en
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: European Semester country report with statistical annexes
+    language: en
+    locator: "Nurturing growth - business environment; Annexes 4 and 18"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The report combines official statistics and Commission analysis. Years differ by indicator; each metric must retain its reference year."
+
+  - id: SRC-1103
+    title: Raport o stanie sektora małych i średnich przedsiębiorstw w Polsce 2025
+    publisher: Polska Agencja Rozwoju Przedsiębiorczości
+    url: https://www.parp.gov.pl/storage/publications/pdf/ROSS_2025_skorygowany_22_07_2025.pdf
+    published_at: "2025-07-22"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official agency statistical report
+    language: pl
+    locator: "Przedsiębiorczość - kluczowe wskaźniki; rozdziały 1, 2, 3, 5 i 6"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Most economic data concern 2023 and ICT data generally concern 2024. The report draws on GUS and Eurostat and should not be described as a 2025 measurement of every indicator."
+
+  - id: SRC-1104
+    title: Działalność innowacyjna przedsiębiorstw w Polsce w latach 2022-2024
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/dzialalnosc-innowacyjna-przedsiebiorstw-w-polsce-w-latach-2022-2024%2C14%2C11.html
+    published_at: "2025-10-30"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official statistical release
+    language: pl
+    locator: "headline results and downloadable tables"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The definition of innovation-active enterprise includes unfinished or abandoned innovation projects; it is not identical to successful market deployment."
+
+  - id: SRC-1105
+    title: Nauka i technika w 2024 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/nauka-i-technika-w-2024-r-%2C1%2C21.html
+    published_at: "2026-03-31"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official annual statistical report
+    language: pl
+    locator: "pp. 84-89, territorial distribution and high-technology trade"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Uses statistical definitions of high and medium-high technology and SITC Rev.4 high-tech products; these are not synonyms for dual-use."
+
+  - id: SRC-1106
+    title: Fundusze Europejskie 2021-2027
+    publisher: Ministerstwo Funduszy i Polityki Regionalnej
+    url: https://www.gov.pl/web/fundusze-regiony/fundusze-ue-2021-27
+    published_at: "2022-04-29"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official cohesion-policy programme overview
+    language: pl
+    locator: "programme list, aggregate allocation and 16 regional programmes"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Programme envelopes are not free cash for Polska 2040. Eligibility, calls, co-financing, state-aid rules and existing commitments must be checked project by project."
+
+  - id: SRC-1107
+    title: Aktualizacja harmonogramu naborów na 2026 r. w programie Fundusze Europejskie dla Nowoczesnej Gospodarki 2021-2027
+    publisher: Portal Funduszy Europejskich / Ministerstwo Funduszy i Polityki Regionalnej
+    url: https://funduszeeuropejskie.gov.pl/aktualnosci/aktualizacja-harmonogramu-naborow-na-2026-r-w-programie-fundusze-europejskie-dla-nowoczesnej-gospodarki/
+    published_at: "2026-07-01"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme-call schedule update
+    language: pl
+    locator: "14 new calls and six dual-use, defence, critical-technology or deep-tech calls"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "A scheduled call and its allocation are not an award, contract or expenditure. Current call documentation governs."
+
+  - id: SRC-1108
+    title: Współfinansowanie działań EDIH
+    publisher: Polska Agencja Rozwoju Przedsiębiorczości
+    url: https://www.parp.gov.pl/harmonogram-naborow/grants/wspolfinansowanie-dzialan-edih-1
+    published_at: "2026-05-26"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official call page
+    language: pl
+    locator: "purpose, eligible applicants, support rate, allocation and dates"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The call closed on 15 July 2026 and was addressed to EDIH coordinators selected by the Commission, not directly to every SME."
+
+  - id: SRC-1109
+    title: European Digital Innovation Hubs
+    publisher: European Commission, Directorate-General for Communications Networks, Content and Technology
+    url: https://digital-strategy.ec.europa.eu/en/policies/edihs
+    published_at: "2025-12-19"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme policy page
+    language: en
+    locator: "functions, regional and European network, digital maturity assessment"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Describes the EU-wide EDIH operating model and 2025 renewal; it does not establish the capacity or performance of a specific Polish hub."
+
+  - id: SRC-1110
+    title: Sectorial AI Testing and Experimentation Facilities under the Digital Europe Programme
+    publisher: European Commission, Directorate-General for Communications Networks, Content and Technology
+    url: https://digital-strategy.ec.europa.eu/en/policies/testing-and-experimentation-facilities
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme policy page
+    language: en
+    locator: "TEF purpose, four sectors, agrifoodTEF nodes and funding model"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "TEFs test mature AI and robotics in realistic environments; access, price and national-node capacity require confirmation for each service."
+
+  - id: SRC-1111
+    title: Interregional Innovation Investments Strand 2a - I3-2026-INV2a
+    publisher: European Innovation Council and SMEs Executive Agency
+    url: https://eismea.ec.europa.eu/funding-opportunities/calls-proposals/interregional-innovation-investments-strand-2a-i3-2026-inv2a_en
+    published_at: "2026-05-13"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official open call page
+    language: en
+    locator: "status, deadline, objectives and target regions"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Open as of the access date with a 12 November 2026 deadline. Applicants must use the Funding and Tenders documents as the controlling terms."
+
+  - id: SRC-1112
+    title: Regionalne inteligentne specjalizacje
+    publisher: Ministerstwo Rozwoju i Technologii / portal Krajowych Inteligentnych Specjalizacji
+    url: https://smart.gov.pl/regionalne-inteligentne-specjalizacje/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official smart-specialisation catalogue
+    language: pl
+    locator: "national explanation and interactive map for 16 voivodeships"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Specialisation labels describe policy priorities, not audited current production capacity or guaranteed eligibility for a specific project."
+
+  - id: SRC-1113
+    title: Regional Innovation Scoreboard 2025
+    publisher: European Commission, Directorate-General for Research and Innovation
+    url: https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/regional-innovation-scoreboard_en
+    published_at: "2025-07-15"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official comparative scoreboard and dataset
+    language: en
+    locator: "methodology, 241 regions, 23 indicators and regional profiles"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Comparative index values are useful for diagnosis but cannot replace asset-level inventories, business cases or current local demand data."
+
+  - id: SRC-1114
+    title: Local Data Bank System description
+    publisher: Główny Urząd Statystyczny
+    url: https://bdl.stat.gov.pl/bdl/pdf_files/User_guide_BDL.pdf
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official data-system user guide
+    language: en
+    locator: "API availability and equivalence with the BDL web application"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "BDL coverage and reference periods vary by variable and territorial level; extraction metadata must be stored with every baseline."
+
+  - id: SRC-1115
+    title: Poland - CAP Strategic Plan
+    publisher: European Commission, Directorate-General for Agriculture and Rural Development
+    url: https://agriculture.ec.europa.eu/cap-my-country/cap-strategic-plans/poland_en
+    published_at: "2026-04-23"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official approved-plan overview and factsheet
+    language: en
+    locator: "overview, territorial and farm context, goals and 2026 factsheet"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The figures are rounded context indicators. They are not a count of technology-ready farms or potential programme beneficiaries."
+
+  - id: SRC-1116
+    title: Programowanie Planu Strategicznego dla Wspólnej Polityki Rolnej 2023-2027
+    publisher: Ministerstwo Rolnictwa i Rozwoju Wsi
+    url: https://www.gov.pl/web/rolnictwo/programowanie-ps-wpr
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official national CAP planning page
+    language: pl
+    locator: "cross-cutting objective and nine specific objectives"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The plan supports knowledge, innovation and digitalisation, but the exact intervention and current eligibility must be checked in the latest plan version and call."
+
+  - id: SRC-1117
+    title: U-Space and PansaUTM
+    publisher: Polska Agencja Żeglugi Powietrznej
+    url: https://www.pansa.pl/en/u-space/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official operational-service page
+    language: en
+    locator: "2024 operator count, 2025 operation dashboard and PansaUTM implementation footprint"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Counts are PANSA and ULC administrative/operational indicators and do not measure business value, autonomy level or safety outcome."
+
+  - id: SRC-1118
+    title: Zatwierdzono kierunki rozwoju Bezzałogowych Statków Powietrznych w PSP
+    publisher: Komenda Główna Państwowej Straży Pożarnej
+    url: https://www.gov.pl/web/kgpsp/zatwierdzono-kierunki-rozwoju-bezzalogowych-statkow-powietrznych-w-psp
+    published_at: "2025-08-29"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official service policy communication and attached direction document
+    language: pl
+    locator: "planned group structure, use cases, equipment and training standards"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Approval of a direction is not proof that every county has an operational group, trained crew, interoperable data link or measured outcome."
+
+  - id: SRC-1119
+    title: Krajowy Plan Odbudowy i Zwiększania Odporności - inwestycje Ministerstwa Infrastruktury
+    publisher: Ministerstwo Infrastruktury
+    url: https://www.gov.pl/web/infrastruktura/krajowy-plan-odbudowy-i-zwiekszania-odpornosci
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official investment and reform portfolio page
+    language: pl
+    locator: "A2.3.1 local UAV competence centres; E2.2.2 transport digitalisation"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Describes investment objectives and calls. Completion, outputs and current residual funding need separate verification."
+
+  - id: SRC-1120
+    title: Krajowy Plan Wdrożenia Technicznej Specyfikacji Interoperacyjności Sterowanie
+    publisher: Ministerstwo Infrastruktury
+    url: https://www.gov.pl/web/infrastruktura/krajowy-plan-wdrozenia-technicznej-specyfikacji-interoperacyjnosci-sterowanie
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official national ERTMS implementation plan
+    language: pl
+    locator: "purpose, legal basis and attached implementation schedule"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "A schedule of ERTMS deployment is a binding planning context for rail pilots, not evidence that autonomous rail operation is authorised."
+
+  - id: SRC-1121
+    title: Strażnik i architekt - Strategia PSE do 2040 r.
+    publisher: Polskie Sieci Elektroenergetyczne S.A.
+    url: https://www.pse.pl/-/straznik-i-architekt-strategia-pse-do-2040-r-
+    published_at: "2025-12-16"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official transmission-system-operator strategy communication
+    language: pl
+    locator: "objectives on observability, controllability, data processing and resilience"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "An operator strategy is a sector anchor and demand signal, but it is not a procurement notice or an open data licence."
+
+  - id: SRC-1122
+    title: Nowa architektura polskiego ciepłownictwa - projekt Strategii Transformacji Ciepłownictwa do 2040 roku
+    publisher: Ministerstwo Energii
+    url: https://www.gov.pl/web/energia/nowa-architektura-polskiego-cieplownictwa-ministerstwo-energii-wyznacza-kierunek-rozwoju-dla-sektora-do-2040-roku
+    published_at: "2026-06-26"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official consultation communication
+    language: pl
+    locator: "consultation status and digitalisation priorities"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "This was a draft under public consultation as of the access date and must not be described as adopted policy."
+
+  - id: SRC-1123
+    title: Gospodarka morska w Polsce w 2025 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/transport-i-lacznosc/transport/gospodarka-morska-w-polsce-w-2025-r-%2C7%2C23.html
+    published_at: "2026-04-28"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official statistical release with tables
+    language: pl
+    locator: "cargo turnover and port-by-port year-on-year changes"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Cargo volume is an activity indicator and should not be converted into a technology market size without a separate model."
+
+  - id: SRC-1124
+    title: Program rozwoju polskich portów morskich do 2030 roku
+    publisher: Ministerstwo Infrastruktury
+    url: https://www.gov.pl/web/infrastruktura/program-rozwoju-polskich-portow-morskich-do-2030-roku
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official national port-development programme
+    language: pl
+    locator: "main objective and 2030 cargo target"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The 150 million tonne figure is a programme target, not an independent forecast or guaranteed result."
+
+  - id: SRC-1125
+    title: Narodowy System Informacji Satelitarnej
+    publisher: Polska Agencja Kosmiczna
+    url: https://polsa.gov.pl/aktywnosci/obserwacja-ziemi/nsis/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official operational-platform description
+    language: pl
+    locator: "system definition, public-administration purpose and civil applications"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The platform description establishes availability and purpose, not quantified adoption or economic impact by sector."
+
+  - id: SRC-1126
+    title: Ustawa z dnia 13 lutego 2026 r. o działalności kosmicznej
+    publisher: Dziennik Ustaw / Elektroniczna Baza Aktów Prawnych ELI
+    url: https://eli.gov.pl/eli/DU/2026/465/ogl/pol
+    published_at: "2026-04-03"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: Polish statute
+    language: pl
+    locator: "Dz.U. 2026 poz. 465; provisions amending the Polish Space Agency Act and defining satellite-data administration"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Legal interpretation and allocation of specific data responsibilities require counsel and the consolidated texts of all amended acts."
+
+  - id: SRC-1127
+    title: Nowe produkty satelitarne POLSA w obszarze leśnictwa
+    publisher: Polska Agencja Kosmiczna
+    url: https://polsa.gov.pl/wydarzenia/nowe-produkty-satelitarne-polsa-w-obszarze-lesnictwa/
+    published_at: "2026-02-03"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official product-release communication
+    language: pl
+    locator: "two national forestry products, Copernicus basis and stated applications"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Product availability is not evidence of user uptake, accuracy for every decision or avoided costs. Validation against ground truth remains use-case specific."
+
+  - id: SRC-1128
+    title: ESA Phi-Lab Poland - Competence Centre for Applied Innovation in Space Robotics and AI for Autonomy
+    publisher: ESA Phi-Lab Poland / Poznan University of Technology
+    url: https://esaphilab.pl/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme and facility page
+    language: en
+    locator: "mission, core competencies, test facilities and applicant scope"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Establishes an actual Polish test and R&D node. It does not prove that every terrestrial pilot fits ESA funding or that capacity is unlimited."
+
+  - id: SRC-1129
+    title: Szukamy partnerów publicznych - projekt Innowacyjne Zamówienia Publiczne
+    publisher: Narodowe Centrum Badań i Rozwoju
+    url: https://www.gov.pl/web/ncbr/szukamy-partnerow-publicznych-rusza-ponowny-nabor-w-projekcie-innowacyjne-zamowienia-publiczne2
+    published_at: "2026-05-29"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official public-partner call communication
+    language: pl
+    locator: "project duration, pre-commercial model and three civil challenges"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The cited challenges concern heating/cooling and biomass. The model can inform other sectors but does not automatically authorise or fund them."
+
+  - id: SRC-1130
+    title: Strategia Cyfryzacji Państwa - kompleksowy plan transformacji cyfrowej Polski
+    publisher: Ministerstwo Cyfryzacji
+    url: https://www.gov.pl/web/cyfryzacja/strategia-cyfryzacji-panstwa--kompleksowy-plan-transformacji-cyfrowej-polski
+    published_at: "2026-06-10"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official adopted-strategy communication
+    language: pl
+    locator: "Cabinet adoption, 2030 and 2035 targets, governance and review cycle"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Targets are policy commitments, not current-state facts. Polska 2040 should reuse the monitoring architecture rather than create conflicting digital targets."
+
+  - id: SRC-1131
+    title: Przewozy ładunków i pasażerów w 2025 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/transport-i-lacznosc/transport/przewozy-ladunkow-i-pasazerow-w-2025-r-%2C11%2C14.html
+    published_at: "2026-06-02"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: official statistical release with tables
+    language: pl
+    locator: "2025 freight and passenger results by mode"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Transport volume is a denominator for sector context; it is not a direct estimate of the addressable market for automation."
+
+  - id: SRC-1132
+    title: Automatyzacja i robotyzacja w MŚP - komunikaty działania FEPW 1.2
+    publisher: Polska Agencja Rozwoju Przedsiębiorczości
+    url: https://www.parp.gov.pl/component/grants/newss/automatyzacja-i-robotyzacja-w-msp
+    published_at: "2026-06-24"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: official programme-results page
+    language: pl
+    locator: "updates to evaluated-project lists and information on exhausted allocation"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Evidence that an instrument and demand existed in Eastern Poland; the page also warns that the prior allocation was exhausted and is not a current open call."

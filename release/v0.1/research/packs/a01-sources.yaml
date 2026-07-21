@@ -1,0 +1,273 @@
+schema_version: 1
+sources:
+  - id: SRC-0101
+    title: Strategia Bezpieczeństwa Narodowego Rzeczypospolitej Polskiej 2020
+    publisher: Biuro Bezpieczeństwa Narodowego
+    url: https://www.bbn.gov.pl/ftp/dokumenty/Strategia_Bezpieczenstwa_Narodowego_RP_2020.pdf
+    published_at: 2020-05-12
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: strategia państwowa
+    language: pl
+    locator: "s. 5–9, 12–19, 22–23, 35–36 pliku PDF; w szczególności pkt 1.1–1.8, 2.7–2.8 i 3.14"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strategia zatwierdzona przez Prezydenta RP 12 maja 2020 r.; numer strony odnosi się do numeracji drukowanej, która może różnić się o jedną stronę od licznika przeglądarki PDF."
+
+  - id: SRC-0102
+    title: Strategia Bezpieczeństwa Narodowego Rzeczypospolitej Polskiej
+    publisher: Kancelaria Prezesa Rady Ministrów
+    url: https://www.gov.pl/web/premier/strategia-bezpieczenstwa-narodowego-rzeczypospolitej-polskiej
+    published_at: 2025-07-25
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: komunikat po posiedzeniu Rady Ministrów
+    language: pl
+    locator: "sekcje: Rada Ministrów przyjęła projekt uchwały; Najważniejsze rozwiązania"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło potwierdza przyjęcie przez Radę Ministrów projektu nowej strategii i opisuje jego priorytety; nie jest dowodem zatwierdzenia strategii przez Prezydenta RP."
+
+  - id: SRC-0103
+    title: Posiedzenie Sejmu nr 55, dzień 3, punkt 14 — informacja rządu o Strategii Bezpieczeństwa Narodowego
+    publisher: Sejm Rzeczypospolitej Polskiej
+    url: https://www.sejm.gov.pl/sejm10.nsf/wypowiedz.xsp?dzien=3&posiedzenie=55&view=3&wyp=2
+    published_at: 2026-04-16
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: stenogram parlamentarny
+    language: pl
+    locator: "wypowiedź podsekretarza stanu Stanisława Wziątka; akapity zaczynające się od: Dotychczas obowiązuje oraz 25 lipca"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Oficjalny stenogram wskazuje, że nadal obowiązywała strategia z 2020 r., a Prezydent w piśmie z 24 października 2025 r. poinformował, że nie może zaakceptować projektu rządowego."
+
+  - id: SRC-0104
+    title: Ustawa z dnia 11 marca 2022 r. o obronie Ojczyzny — tekst ujednolicony
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/api/acts/DU/2022/655/text/U/D20220655Lj.pdf
+    published_at: 2022-03-23
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: tekst ujednolicony ustawy
+    language: pl
+    locator: "art. 24 ust. 1 pkt 1–10, s. 24–25/451 pliku PDF"
+    checksum: "sha256:61dbb22bc7d06a5b6f07710c1d15a79ac82f2c4c9ddb30f953ebbf29eafcd903"
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Tekst ujednolicony wygenerowany przez ELI 7 lipca 2026 r.; stan prawny należy ponownie sprawdzić przed użyciem decyzyjnym."
+
+  - id: SRC-0105
+    title: Wystąpienie Prezydenta RP podczas uroczystości powołania Bartosza Grodeckiego na Szefa BBN
+    publisher: Kancelaria Prezydenta Rzeczypospolitej Polskiej
+    url: https://www.prezydent.pl/aktualnosci/wypowiedzi-prezydenta-rp/wystapienia/wystapienie-prezydenta-rp-podczas-uroczystosci-powolania-bartosza-grodeckiego-na-szefa-bbn%2C120071
+    published_at: 2026-05-08
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: oficjalne wystąpienie Prezydenta RP
+    language: pl
+    locator: "akapit zaczynający się od: Bezpieczeństwo buduje się do wewnątrz"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Prezydent stwierdza, że oczekuje na dokumenty strategiczne, w tym Strategię Bezpieczeństwa Narodowego; źródło wspiera ustalenie stanu procesu po stenogramie sejmowym z kwietnia 2026 r."
+
+  - id: SRC-0106
+    title: Ustawa z dnia 5 grudnia 2024 r. o ochronie ludności i obronie cywilnej — tekst ujednolicony
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/api/acts/DU/2024/1907/text/U/D20241907Lj.pdf
+    published_at: 2024-12-23
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: tekst ujednolicony ustawy
+    language: pl
+    locator: "art. 4 ust. 1, s. 3–5/127; art. 8, s. 7–8/127; art. 156, s. 96–97/127 pliku PDF"
+    checksum: "sha256:674999e917cdec9b6a2d48285773c6bee42fd64b7270cb95d2c2930fefc64927"
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Tekst ujednolicony wygenerowany przez ELI 7 lipca 2026 r.; obejmuje m.in. ciągłość działania administracji, odporność społeczną, rezerwy i infrastrukturę niezbędną do realizacji zadań ochrony ludności."
+
+  - id: SRC-0107
+    title: NATO 2022 Strategic Concept
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/content/dam/nato/webready/documents/publications-and-reports/strategic-concepts/2022/290622-strategic-concept.pdf
+    published_at: 2022-06-29
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: allied strategic concept
+    language: en
+    locator: "paras 1–8, 20–27 and 43, pp. 1–7 and 10"
+    checksum: "sha256:e4b4aa1041bc2549e14b76fc1ff23a17e3e63c01f3739d25b9252461d630798c"
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Podstawowy jawny dokument strategiczny NATO; rozróżnia trzy zadania podstawowe, wskazuje rolę odporności, interoperacyjności i technologii oraz zasady współpracy NATO–UE."
+
+  - id: SRC-0108
+    title: Resilience, civil preparedness and Article 3
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/what-we-do/deterrence-and-defence/resilience-civil-preparedness-and-article-3
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: NATO topic page
+    language: en
+    locator: "sections: Civil preparedness has three core functions; seven baseline requirements for national resilience"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strona opisuje trzy funkcje gotowości cywilnej i siedem bazowych wymagań odporności; data pierwotnej publikacji nie została wskazana na stronie."
+
+  - id: SRC-0109
+    title: The Ankara Summit Declaration
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration
+    published_at: 2026-07-08
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: declaration of NATO heads of state and government
+    language: en
+    locator: "paras 1–5"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Najświeższa na dzień dostępu deklaracja szczytu NATO; potwierdza podejście 360 stopni, znaczenie odporności i bazy przemysłowej oraz zdolności bezzałogowych i AI."
+
+  - id: SRC-0110
+    title: Strategy for Industry-NATO Cooperation
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/strategy-for-industry-nato-cooperation
+    published_at: 2026-07-08
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: allied industrial cooperation strategy
+    language: en
+    locator: "paras 1–8; section Strategic objectives"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dokument osadza współpracę z przemysłem w cyklu życia zdolności i NDPP, uznając politykę przemysłową za prerogatywę narodową oraz podkreślając rolę MŚP i podmiotów nietradycyjnych."
+
+  - id: SRC-0111
+    title: NATO Innovation Scale-Up Package
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/nato-innovation-scale-up-package
+    published_at: 2026-07-08
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: allied innovation policy package
+    language: en
+    locator: "paras 1–10"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Pakiet wskazuje ogólny cel identyfikacji, testowania i wdrażania nowych technologii w terminie do 24 miesięcy oraz ścieżki zwinnych zamówień, współprojektowania i skalowania."
+
+  - id: SRC-0112
+    title: A Strategic Compass for security and defence
+    publisher: Council of the European Union
+    url: https://www.consilium.europa.eu/en/policies/strategic-compass/
+    published_at: 2022-03-22
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official EU policy overview
+    language: en
+    locator: "sections: What is the Strategic Compass?; Act; Secure; Invest; Partner"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Oficjalna strona Rady UE przedstawiająca kierunki Kompasu Strategicznego do 2030 r.; strona podaje datę ostatniego przeglądu 28 sierpnia 2025 r."
+
+  - id: SRC-0113
+    title: White Paper for European Defence — Readiness 2030
+    publisher: European Commission, Directorate-General for Defence Industry and Space
+    url: https://defence-industry-space.ec.europa.eu/eu-defence-industry/white-paper-european-defence-readiness-2030_en
+    published_at: 2025-03-19
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: European Commission white paper overview
+    language: en
+    locator: "sections: European Readiness 2030; Closing the gaps; Supporting European defence industry"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Oficjalne omówienie Białej Księgi; wskazuje priorytetowe luki zdolności, w tym drony i systemy przeciwdronowe we wszystkich domenach, AI, cyber i walkę elektroniczną."
+
+  - id: SRC-0114
+    title: Readiness Roadmap 2030
+    publisher: European Commission, Directorate-General for Defence Industry and Space
+    url: https://defence-industry-space.ec.europa.eu/eu-defence-industry/readiness-roadmap-2030_en
+    published_at: 2025-10-16
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: European defence readiness roadmap overview
+    language: en
+    locator: "sections: Closing Europe's capability gaps; European Readiness Flagships; Industrial dimension; Ukraine"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strona opisuje proponowane kamienie milowe i projekty flagowe; sformułowanie proposed nie jest dowodem realizacji danego kamienia milowego."
+
+  - id: SRC-0115
+    title: EU Preparedness Union
+    publisher: European Commission
+    url: https://commission.europa.eu/topics/preparedness_en
+    published_at: 2025-03-26
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: European Commission preparedness policy overview
+    language: en
+    locator: "sections: Getting ready; three approaches; key actions"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strona przedstawia podejście all-hazards, whole-of-government i whole-of-society oraz działania dotyczące funkcji żywotnych, współpracy cywilno-wojskowej i NATO."
+
+  - id: SRC-0116
+    title: Eleventh progress report on the implementation of the common set of proposals endorsed by EU and NATO Councils
+    publisher: North Atlantic Treaty Organization and European Union
+    url: https://www.nato.int/content/dam/nato/webready/documents/eu-nato-progress-reports/EU-NATO-progress-report-nr11-2026-en.pdf
+    published_at: 2026-06-18
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: joint EU-NATO progress report
+    language: en
+    locator: "pp. 2–8, sections on resilience, capabilities, industry and emerging technologies"
+    checksum: "sha256:a5e0aaac96aa1377fc033fe330b4e73611f8974b5d2b87c1e13736d63dad120f"
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Raport opisuje spójność wymagań odporności NATO i minimalnych wymagań UE, koherencję procesów rozwoju zdolności oraz zasadę jednego zestawu sił."
+
+  - id: SRC-0117
+    title: EDA partners with the European Commission on BraveTech EU
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/news-and-events/news/2026/04/29/eda-partners-with-the-european-commission-on-bravetech-eu
+    published_at: 2026-04-29
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official programme announcement
+    language: en
+    locator: "introductory paragraphs; section About BraveTech EU"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Potwierdza mechanizm łączenia przemysłu UE z doświadczeniem ukraińskim, komponent HEDI Operational Experimentation i budżet programu; nie stanowi rekomendacji konkretnego przedsiębiorstwa."

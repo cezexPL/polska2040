@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Ład instytucjonalny, prawo i zamówienia</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="governance-law"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="ad-instytucjonalny-prawo-i-zamowienia">Ład instytucjonalny, prawo i zamówienia</h1>
+<p><strong>Program:</strong> Polska 2040: Suwerenność technologiczna<br />
+<strong>Status:</strong> niezależny materiał przedmandatowy v0.1 do konsultacji prawnej; nie jest formalnym przedłożeniem<br>
+<strong>Stan wiedzy:</strong> 21 lipca 2026 r.</p>
+<blockquote>
+<p>Dokument nie jest poradą prawną ani projektem aktu normatywnego. Ostateczne kompetencje, podstawa prawna, tryb konsultacji, ocena oddziaływania i treść klauzul wymagają pisemnego potwierdzenia przez właściwe organy oraz prawników specjalizujących się w danym reżimie.</p>
+</blockquote>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<h3 id="odpowiedz">Odpowiedź</h3>
+<p>Program nie powinien zaczynać się od utworzenia nowego ministra, agencji i ustawy omnibusowej. Najpierw należy <strong>wykorzystać istniejącą funkcję koordynacji i nadzoru realizacji przy centrum rządu</strong>, formalnie wskazać ministra właściwego dla dokumentu strategicznego, nadać jednego właściciela każdemu rezultatowi oraz zastosować modułową drabinę instrumentów: strategia → programy wykonawcze → budżet i zamówienia → celowane zmiany prawa.</p>
+<p><strong>Bieżący wynik bramki formalnej: <code>FAIL</code> / materiał wyłącznie konsultacyjny.</strong> Właściwy minister, podstawa procesu oraz miejsce dokumentu w hierarchii strategii pozostają nierozstrzygnięte (<strong>GAP-0011</strong>). Nie wolno usuwać tej luki przez założenie autora; musi ją rozstrzygnąć właściwy organ w opinii prawnej.</p>
+<h3 id="najwazniejsze-rozstrzygniecia">Najważniejsze rozstrzygnięcia</h3>
+<ol>
+<li><strong>Dwie odpowiedzialności, nie jedna wszechwładna funkcja.</strong> Właściwy minister odpowiada formalnie za projekt strategii; funkcja KPRM integruje portfel, dane, kamienie milowe i eskalacje.</li>
+<li><strong>„Biuro Realizacji” jest funkcją, nie automatycznie nowym urzędem.</strong> W pierwszym roku powinno działać w istniejącej administracji z małym sekretariatem i możliwością wzmocnienia dopiero po dowodzie przeciążenia.</li>
+<li><strong>Rada Ministrów zatwierdza cele, ramy i decyzje finansowe.</strong> Nie przenosi na komitet pomocniczy kompetencji ustawowych ministrów i innych organów.</li>
+<li><strong>Prezydent i BBN wspierają ciągłość, zgodność z bezpieczeństwem narodowym i przegląd strategiczny.</strong> Nie tworzy to wspólnej odpowiedzialności wykonawczej z rządem.</li>
+<li><strong>Jedna wielka ustawa nie jest punktem startu.</strong> Działania procesowe, kontraktowe, budżetowe i wykonawcze uruchamia się w istniejących ramach; ustawa jest właściwa tylko dla precyzyjnie wykazanej luki.</li>
+<li><strong>Szybkość powstaje przez etapowanie ryzyka.</strong> Prototyp, test i mała partia mają odrębne odbiory, prawa i opcje; niespełniona bramka kończy etap.</li>
+<li><strong>IP, dane, cyber i ciągłość projektuje się przed partnerstwem.</strong> Późniejszy aneks nie naprawi utraty kontroli nad kodem, interfejsem, konfiguracją lub produkcją.</li>
+<li><strong>Dokument publiczny nie przechowuje danych chronionych.</strong> Aneks ograniczony jest osobnym, autoryzowanym procesem; w repozytorium pozostaje tylko jawny szablon pytań.</li>
+<li><strong>Autor nie zatwierdza własnych twierdzeń ani produktu.</strong> Potrzeba, finansowanie, test i akceptacja muszą mieć rozdzielone role.</li>
+<li><strong>Nowy pełnomocnik jest wariantem warunkowym.</strong> Należy go rozważyć dopiero po udokumentowaniu, że istniejące mechanizmy nie potrafią usunąć blokad.</li>
+</ol>
+<h3 id="kandydaty-decyzji-na-pierwsze-30-dni">Kandydaty decyzji na pierwsze 30 dni</h3>
+<p>Rekordy <strong>DEC-0001</strong>, <strong>DEC-0002</strong> i <strong>DEC-0009</strong> proponują: uruchomić przegląd, zlecić formalną mapę kompetencji i instrumentów, wskazać właściciela dokumentu oraz integratora portfela, przyjąć RACI i uruchomić dwukwartalny test istniejącego mechanizmu. Wszystkie mają status <code>candidate</code>. Dopiero właściwy organ może rozstrzygnąć, czy potrzebne jest wzmocnienie mandatu, nowy pełnomocnik, zmiana organizacyjna lub akt ustawowy.</p>
+<h2 id="spis-tresci">Spis treści</h2>
+<div class="toc">
+<ul>
+<li><a href="#ad-instytucjonalny-prawo-i-zamowienia">Ład instytucjonalny, prawo i zamówienia</a><ul>
+<li><a href="#executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</a><ul>
+<li><a href="#odpowiedz">Odpowiedź</a></li>
+<li><a href="#najwazniejsze-rozstrzygniecia">Najważniejsze rozstrzygnięcia</a></li>
+<li><a href="#kandydaty-decyzji-na-pierwsze-30-dni">Kandydaty decyzji na pierwsze 30 dni</a></li>
+</ul>
+</li>
+<li><a href="#spis-tresci">Spis treści</a></li>
+<li><a href="#1-zasady-ustrojowe-i-projektowe">1. Zasady ustrojowe i projektowe</a><ul>
+<li><a href="#11-legalnosc-przed-nazwa">1.1. Legalność przed nazwą</a></li>
+<li><a href="#12-jeden-rezultat-jeden-rozliczalny-wasciciel">1.2. Jeden rezultat — jeden rozliczalny właściciel</a></li>
+<li><a href="#13-subsydiarnosc-i-proporcjonalnosc">1.3. Subsydiarność i proporcjonalność</a></li>
+<li><a href="#14-odwracalnosc">1.4. Odwracalność</a></li>
+</ul>
+</li>
+<li><a href="#2-warianty-instytucjonalne">2. Warianty instytucjonalne</a><ul>
+<li><a href="#rekomendacja">Rekomendacja</a></li>
+</ul>
+</li>
+<li><a href="#3-proponowany-model-governance">3. Proponowany model governance</a><ul>
+<li><a href="#31-rada-ministrow-i-prezes-rady-ministrow">3.1. Rada Ministrów i Prezes Rady Ministrów</a></li>
+<li><a href="#32-wasciwy-minister">3.2. Właściwy minister</a></li>
+<li><a href="#33-integrator-realizacji-przy-kprm">3.3. Integrator realizacji przy KPRM</a></li>
+<li><a href="#34-ministrowie-sektorowi-i-wasciciele-programow">3.4. Ministrowie sektorowi i właściciele programów</a></li>
+<li><a href="#35-rada-uzytkownikow">3.5. Rada użytkowników</a></li>
+<li><a href="#36-red-team-i-ewaluacja">3.6. Red-team i ewaluacja</a></li>
+<li><a href="#37-prezydent-i-bbn">3.7. Prezydent i BBN</a></li>
+</ul>
+</li>
+<li><a href="#4-funkcjonalny-raci">4. Funkcjonalny RACI</a></li>
+<li><a href="#5-architektura-dokumentow">5. Architektura dokumentów</a><ul>
+<li><a href="#51-dlaczego-wiele-dokumentow">5.1. Dlaczego wiele dokumentów</a></li>
+<li><a href="#52-wersjonowanie">5.2. Wersjonowanie</a></li>
+</ul>
+</li>
+<li><a href="#6-drabina-instrumentow">6. Drabina instrumentów</a><ul>
+<li><a href="#zasada-modularnosci">Zasada modularności</a></li>
+</ul>
+</li>
+<li><a href="#7-proces-przygotowania-strategii">7. Proces przygotowania strategii</a><ul>
+<li><a href="#bramka-l0-mandat">Bramka L0 — mandat</a></li>
+<li><a href="#bramka-l1-diagnoza-i-opcje">Bramka L1 — diagnoza i opcje</a></li>
+<li><a href="#bramka-l2-konsultacje-i-ocena">Bramka L2 — konsultacje i ocena</a></li>
+<li><a href="#bramka-l3-decyzja-rm">Bramka L3 — decyzja RM</a></li>
+<li><a href="#bramka-l4-wykonanie-i-aktualizacja">Bramka L4 — wykonanie i aktualizacja</a></li>
+</ul>
+</li>
+<li><a href="#8-zamowienia-iteracyjne">8. Zamówienia iteracyjne</a><ul>
+<li><a href="#81-siedem-etapow">8.1. Siedem etapów</a></li>
+<li><a href="#82-minimalne-elementy-kontraktu-etapowego">8.2. Minimalne elementy kontraktu etapowego</a></li>
+<li><a href="#83-maa-partia">8.3. Mała partia</a></li>
+</ul>
+</li>
+<li><a href="#9-ip-dokumentacja-i-ciagosc">9. IP, dokumentacja i ciągłość</a><ul>
+<li><a href="#91-macierz-praw">9.1. Macierz praw</a></li>
+<li><a href="#92-depozyt">9.2. Depozyt</a></li>
+<li><a href="#93-produkcja-awaryjna">9.3. Produkcja awaryjna</a></li>
+</ul>
+</li>
+<li><a href="#10-partnerstwa-i-joint-ventures">10. Partnerstwa i joint ventures</a><ul>
+<li><a href="#due-diligence-przed-decyzja">Due diligence przed decyzją</a></li>
+<li><a href="#warunki-stop">Warunki stop</a></li>
+</ul>
+</li>
+<li><a href="#11-dane-ai-cyber-i-informacje-chronione">11. Dane, AI, cyber i informacje chronione</a><ul>
+<li><a href="#111-wasciciel-danych">11.1. Właściciel danych</a></li>
+<li><a href="#112-governance-ai">11.2. Governance AI</a></li>
+<li><a href="#113-cyber">11.3. Cyber</a></li>
+<li><a href="#114-informacje-niejawne-i-wrazliwe">11.4. Informacje niejawne i wrażliwe</a></li>
+</ul>
+</li>
+<li><a href="#12-konflikty-interesow-i-transparentnosc">12. Konflikty interesów i transparentność</a><ul>
+<li><a href="#minimalny-rejestr">Minimalny rejestr</a></li>
+<li><a href="#rozdzielenie-funkcji">Rozdzielenie funkcji</a></li>
+<li><a href="#jawnosc">Jawność</a></li>
+</ul>
+</li>
+<li><a href="#13-pierwsze-100-dni">13. Pierwsze 100 dni</a><ul>
+<li><a href="#d0d30">D0–D30</a></li>
+<li><a href="#d31d60">D31–D60</a></li>
+<li><a href="#d61d100">D61–D100</a></li>
+</ul>
+</li>
+<li><a href="#14-warunki-rozwazenia-nowego-penomocnika-lub-ustawy">14. Warunki rozważenia nowego pełnomocnika lub ustawy</a><ul>
+<li><a href="#nowy-penomocnik">Nowy pełnomocnik</a></li>
+<li><a href="#ustawa">Ustawa</a></li>
+</ul>
+</li>
+<li><a href="#15-zarys-nieoficjalnej-uchway-kierunkowej">15. Zarys nieoficjalnej uchwały kierunkowej</a></li>
+<li><a href="#16-passfail-przed-przedozeniem-radzie-ministrow">16. Pass/fail przed przedłożeniem Radzie Ministrów</a></li>
+<li><a href="#dalsze-pytania">Dalsze pytania</a></li>
+<li><a href="#zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-zasady-ustrojowe-i-projektowe">1. Zasady ustrojowe i projektowe</h2>
+<h3 id="11-legalnosc-przed-nazwa">1.1. Legalność przed nazwą</h3>
+<p>Nazwa „narodowy program”, „strategia państwa”, „pełnomocnik” lub „agencja” nie tworzy kompetencji. Dla każdego działania należy wskazać:</p>
+<ul>
+<li>organ właściwy;</li>
+<li>podstawę i rodzaj instrumentu;</li>
+<li>adresata wewnętrznego lub zewnętrznego;</li>
+<li>źródło finansowania;</li>
+<li>tryb konsultacji i uzgodnień;</li>
+<li>wymagania danych, cyber i bezpieczeństwa informacji;</li>
+<li>sposób kontroli i odwołania;</li>
+<li>termin ponownej oceny.</li>
+</ul>
+<p>Art. 93 Konstytucji określa uchwały Rady Ministrów jako akty wewnętrzne, wiążące jednostki organizacyjnie podległe organowi wydającemu, i wyklucza użycie ich jako podstawy decyzji wobec obywateli, osób prawnych oraz innych podmiotów (<a href="https://eli.gov.pl/eli/DU/1997/483/ogl">Konstytucja RP</a>, <strong>CLM-0901</strong>). Jeżeli działanie tworzy prawa lub obowiązki podmiotów zewnętrznych, nie może zatem opierać się wyłącznie na dokumencie kierownictwa wewnętrznego. Jeżeli działanie mieści się w istniejącej kompetencji i umowie, nowa ustawa może jedynie opóźnić wynik.</p>
+<h3 id="12-jeden-rezultat-jeden-rozliczalny-wasciciel">1.2. Jeden rezultat — jeden rozliczalny właściciel</h3>
+<p>Współpraca międzyresortowa nie oznacza wspólnego <code>A</code> w RACI. Produkt należy rozbić tak, aby każdy etap miał jeden organ zatwierdzający i określoną sekwencję konsultacji. Integrator KPRM odpowiada za obraz portfela i eskalację; nie staje się właścicielem wszystkich danych, zakupów, regulacji i programów.</p>
+<h3 id="13-subsydiarnosc-i-proporcjonalnosc">1.3. Subsydiarność i proporcjonalność</h3>
+<p>Decyzje powinny być podejmowane na najniższym poziomie, który ma kompetencję, dane i budżet. Centrum rządu interweniuje, gdy problem obejmuje kilka resortów, przekracza tolerancję portfela albo wymaga rozstrzygnięcia. Reżim bezpieczeństwa, zakres danych i obowiązki dostawcy są proporcjonalne do ryzyka.</p>
+<h3 id="14-odwracalnosc">1.4. Odwracalność</h3>
+<p>Pierwsze działania powinny być odwracalne: karta portfela, audyt, pilotaż danych, test, wzór kontraktu i mała partia. Trudno odwracalne działania — budowa dużych mocy, nowa instytucja, gwarancje wieloletnie, przekazanie IP — wymagają wyższej bramki i niezależnej opinii.</p>
+<h2 id="2-warianty-instytucjonalne">2. Warianty instytucjonalne</h2>
+<table>
+<thead>
+<tr>
+<th>Wariant</th>
+<th>Konstrukcja</th>
+<th>Zaleta</th>
+<th>Główne ryzyko</th>
+<th>Warunek zastosowania</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 — rozproszenie</td>
+<td>każdy resort działa osobno</td>
+<td>brak kosztu reorganizacji</td>
+<td>brak wspólnego obrazu i odpowiedzialności</td>
+<td>odrzucić jako model docelowy</td>
+</tr>
+<tr>
+<td>1 — koordynacja minimalna</td>
+<td>wspólny priorytet, rejestr i rytm KPRM</td>
+<td>szybki start i wysoka odwracalność</td>
+<td>ograniczony mandat i pojemność</td>
+<td>użyć w pierwszych 30 dniach</td>
+</tr>
+<tr>
+<td>2 — portfel rekomendowany</td>
+<td>właściwy minister + funkcja realizacyjna KPRM + programy resortowe + red-team</td>
+<td>integracja bez nowej megastruktury</td>
+<td>wymaga dyscypliny i rozstrzygnięć</td>
+<td>wariant bazowy</td>
+</tr>
+<tr>
+<td>3 — nowy pełnomocnik</td>
+<td>odrębny pełnomocnik i sekretariat</td>
+<td>silny punkt kontaktu</td>
+<td>dublowanie, pozorna władza, konflikt kompetencji</td>
+<td>po dwóch kwartałach dowodu niewydolności</td>
+</tr>
+<tr>
+<td>4 — nowa agencja/ustawa omnibus</td>
+<td>osobny podmiot, budżet i szeroka regulacja</td>
+<td>trwałość i skupienie zasobów</td>
+<td>długi czas, przechwycenie i zła blokada technologiczna</td>
+<td>tylko po ocenie wariantów i OSR</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rekomendacja">Rekomendacja</h3>
+<p>Uruchomić wariant 2 przez wykorzystanie istniejących funkcji i formalne doprecyzowanie ról. Wariant 3 pozostawić jako opcję. Wariant 4 może dotyczyć wąskiej, wykazanej luki, lecz nie powinien być domyślną architekturą całego programu.</p>
+<h2 id="3-proponowany-model-governance">3. Proponowany model governance</h2>
+<h3 id="31-rada-ministrow-i-prezes-rady-ministrow">3.1. Rada Ministrów i Prezes Rady Ministrów</h3>
+<p>Odpowiadają za mandat, priorytety, ramy finansowe, rozstrzygnięcie konfliktów oraz przyjęcie dokumentów w odpowiednim trybie. Otrzymują krótki pakiet decyzji: problem, opcje, dowody, koszt, ryzyko, zdanie odrębne i skutek braku decyzji.</p>
+<h3 id="32-wasciwy-minister">3.2. Właściwy minister</h3>
+<p>Powinien zostać formalnie wskazany po mapie kompetencji. Odpowiada za projekt strategii, diagnozę, ewaluację ex ante, konsultacje, uzgodnienia, kwalifikację środowiskową, przedłożenie i aktualizację. Horyzontalny charakter programu nie zwalnia z jednoznacznej właściwości.</p>
+<h3 id="33-integrator-realizacji-przy-kprm">3.3. Integrator realizacji przy KPRM</h3>
+<p>Utrzymuje:</p>
+<ul>
+<li>wspólną kartę programu;</li>
+<li>rejestr projektów, kamieni milowych i decyzji;</li>
+<li>rejestr ryzyk, zależności i konfliktów interesów;</li>
+<li>kontrakt metryk i jakości danych;</li>
+<li>przegląd wyjątków oraz eskalacje;</li>
+<li>publiczny i zarządczy dashboard;</li>
+<li>historię decyzji „skaluj–zmień–zamknij”.</li>
+</ul>
+<p>Integrator nie odbiera technicznie systemu, nie klasyfikuje informacji za właściciela, nie zawiera każdego kontraktu i nie ocenia sam jakości własnego dashboardu.</p>
+<h3 id="34-ministrowie-sektorowi-i-wasciciele-programow">3.4. Ministrowie sektorowi i właściciele programów</h3>
+<p>Odpowiadają za rezultaty w swoich kompetencjach: potrzeby, zakupy, dane, edukację, przemysł, finanse, prawo, partnerstwa i zastosowania cywilne. Każdy wyznacza jednego dyrektora rezultatu, nie tylko punkt kontaktowy bez uprawnień.</p>
+<h3 id="35-rada-uzytkownikow">3.5. Rada użytkowników</h3>
+<p>Składa się z przedstawicieli instytucji używających lub utrzymujących rozwiązania. Formułuje problemy, zatwierdza protokoły użyteczności i dostarcza informację zwrotną. Nie wybiera wykonawcy poza właściwą procedurą i nie ujawnia danych chronionych w forum publicznym.</p>
+<h3 id="36-red-team-i-ewaluacja">3.6. Red-team i ewaluacja</h3>
+<p>Funkcja niezależna od autora projektu i beneficjenta finansowania. Ma prawo:</p>
+<ul>
+<li>żądać podstawy twierdzenia;</li>
+<li>sprawdzić kontrfaktyczny wariant;</li>
+<li>kwestionować metrykę i konflikt interesów;</li>
+<li>rekomendować wstrzymanie bramki;</li>
+<li>zapisać zdanie odrębne;</li>
+<li>ponownie otworzyć decyzję po nowym dowodzie.</li>
+</ul>
+<p>Nie ma prawa zastąpić organu politycznego w decyzji ryzyka.</p>
+<h3 id="37-prezydent-i-bbn">3.7. Prezydent i BBN</h3>
+<p>Powinni otrzymywać roczny przegląd odporności, zgodności z bezpieczeństwem narodowym i interoperacyjnością sojuszniczą. Patronat może zwiększać ciągłość ponad kadencjami, ale nie powinien zacierać odpowiedzialności wykonawczej rządu ani procedur nabycia.</p>
+<h2 id="4-funkcjonalny-raci">4. Funkcjonalny RACI</h2>
+<p>Legenda: <code>A</code> — zatwierdza i odpowiada; <code>R</code> — wykonuje; <code>C</code> — konsultowany; <code>I</code> — informowany.</p>
+<table>
+<thead>
+<tr>
+<th>Produkt</th>
+<th>RM/PRM</th>
+<th>właściwy minister</th>
+<th>integrator KPRM</th>
+<th>minister sektorowy</th>
+<th>użytkownik / nabywca</th>
+<th>finanse / prawo / bezpieczeństwo</th>
+<th>red-team</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mandat i granice</td>
+<td>A</td>
+<td>C</td>
+<td>R</td>
+<td>C</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>projekt strategii</td>
+<td>I</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>portfel i dashboard</td>
+<td>I</td>
+<td>C</td>
+<td>A/R</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>problem użytkownika</td>
+<td>I</td>
+<td>C</td>
+<td>I</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>protokół testu</td>
+<td>I</td>
+<td>C</td>
+<td>I</td>
+<td>R</td>
+<td>A/R</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>kontrakt pilotażowy</td>
+<td>I</td>
+<td>I</td>
+<td>I</td>
+<td>C</td>
+<td>A/R</td>
+<td>C</td>
+<td>I</td>
+</tr>
+<tr>
+<td>skala w zatwierdzonym mandacie</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>skala ponad próg portfela</td>
+<td>A</td>
+<td>C</td>
+<td>R</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>ramy fiskalne</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>I</td>
+<td>R/C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>projekt instrumentu prawnego</td>
+<td>I</td>
+<td>A/R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>R/C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>raport roczny</td>
+<td>I</td>
+<td>C</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>zamknięcie projektu</td>
+<td>I/C</td>
+<td>C</td>
+<td>C</td>
+<td>A</td>
+<td>R</td>
+<td>I/C</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<p>Tabela jest kontraktem funkcjonalnym i ma dokładnie jedno <code>A</code> w każdym wierszu. Nie opisuje formalnego uchwalania aktu normatywnego ani konstytucyjnych kompetencji; przed użyciem każda pozycja musi zostać zmapowana do aktualnej właściwości, instrumentu i progu decyzji.</p>
+<h2 id="5-architektura-dokumentow">5. Architektura dokumentów</h2>
+<h3 id="51-dlaczego-wiele-dokumentow">5.1. Dlaczego wiele dokumentów</h3>
+<p>Odbiorcy podejmują inne decyzje. Dokument 40-stronicowy nie zastąpi noty dla Premiera, a prezentacja gospodarcza nie jest podstawą prawną. Rekomendowany pakiet:</p>
+<ol>
+<li><strong>strategia jawna</strong> — problem, cele, filary, warianty, teoria zmiany i KPI;</li>
+<li><strong>plan realizacji</strong> — właściciele, bramki, harmonogram i zależności;</li>
+<li><strong>finansowanie i wpływ</strong> — koszty, instrumenty, scenariusze i analiza fiskalna;</li>
+<li><strong>governance i prawo</strong> — właściwość, RACI, proces i instrumenty;</li>
+<li><strong>programy wykonawcze</strong> — konkretne portfele, finansowanie i rezultaty;</li>
+<li><strong>nota RM</strong> — decyzje, opcje, koszt i pierwsze 100 dni;</li>
+<li><strong>nota Prezydent/BBN</strong> — odporność, ciągłość, NATO i ryzyka strategiczne;</li>
+<li><strong>briefy resortowe</strong> — mandat i zadania każdego portfela;</li>
+<li><strong>księga dowodowa</strong> — źródła, twierdzenia, luki i sprzeczności;</li>
+<li><strong>jawny szablon aneksu ograniczonego</strong> — pytania i reguły przyszłego procesu;</li>
+<li><strong>prezentacje</strong> — osobne dla RM, Prezydenta, gospodarki, regionów i odbiorcy międzynarodowego.</li>
+</ol>
+<p>Rdzeń jest kanoniczny. Briefy i slajdy nie wprowadzają nowych faktów poza rejestrem.</p>
+<h3 id="52-wersjonowanie">5.2. Wersjonowanie</h3>
+<p>Każdy artefakt ma identyfikator, właściciela, status, datę wiedzy, listę decyzji, zależne claimy i historię zmian. Aktualizacja liczby lub definicji powoduje nową wersję; nie przepisuje wcześniejszego wyniku.</p>
+<h2 id="6-drabina-instrumentow">6. Drabina instrumentów</h2>
+<table>
+<thead>
+<tr>
+<th>Instrument</th>
+<th>Właściwe zastosowanie</th>
+<th>Nie powinien służyć do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>strategia/uchwała przyjmująca</td>
+<td>cele, kierunki, system realizacji, ramy finansowe</td>
+<td>tworzenia zewnętrznych obowiązków bez podstawy</td>
+</tr>
+<tr>
+<td>program wykonawczy</td>
+<td>działania, właściciele, finansowanie, monitoring</td>
+<td>zastępowania szczegółowej podstawy prawnej</td>
+</tr>
+<tr>
+<td>program wieloletni/budżet</td>
+<td>limity i zadania w czasie</td>
+<td>gwarantowania rezultatu bez bramek</td>
+</tr>
+<tr>
+<td>ustawa</td>
+<td>kompetencje, prawa, obowiązki, wyjątki i finansowanie wymagające ustawy</td>
+<td>opisywania technologii, która szybko się zmienia</td>
+</tr>
+<tr>
+<td>rozporządzenie</td>
+<td>wykonanie precyzyjnej delegacji</td>
+<td>tworzenia samodzielnej polityki poza delegacją</td>
+</tr>
+<tr>
+<td>akt wewnętrzny</td>
+<td>organizacja pracy administracji i organów pomocniczych</td>
+<td>nakładania obowiązków na firmę, uczelnię lub JST</td>
+</tr>
+<tr>
+<td>umowa/zamówienie</td>
+<td>rezultat, prawa, dane, test, serwis i płatność</td>
+<td>ustanawiania reguły powszechnej</td>
+</tr>
+<tr>
+<td>standard/wytyczna</td>
+<td>spójny sposób działania i oceny</td>
+<td>omijania prawa albo konkurencji</td>
+</tr>
+<tr>
+<td>aneks autoryzowany</td>
+<td>dane i wymagania prawnie chronione</td>
+<td>ukrywania całej polityki publicznej</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zasada-modularnosci">Zasada modularności</h3>
+<p>Zmiana standardu technicznego powinna być możliwa bez zmiany ustawy. Zmiana priorytetu projektu — bez przebudowy całej instytucji. Zmiana praw i obowiązków — wyłącznie w prawidłowym trybie. Moduły łączy wspólny rejestr decyzji i zależności.</p>
+<h2 id="7-proces-przygotowania-strategii">7. Proces przygotowania strategii</h2>
+<h3 id="bramka-l0-mandat">Bramka L0 — mandat</h3>
+<ul>
+<li>formalny właściciel;</li>
+<li>miejsce w systemie dokumentów;</li>
+<li>zakres jawny i chroniony;</li>
+<li>lista interesariuszy;</li>
+<li>plan dowodów, konsultacji i ewaluacji;</li>
+<li>wstępna kwalifikacja skutków środowiskowych;</li>
+<li>zasady konfliktów interesów.</li>
+</ul>
+<h3 id="bramka-l1-diagnoza-i-opcje">Bramka L1 — diagnoza i opcje</h3>
+<ul>
+<li>baza lub <code>UNKNOWN</code>;</li>
+<li>problem i mechanizm;</li>
+<li>status quo, wariant minimalny, rekomendowany i alternatywny;</li>
+<li>koszt, wykonalność, prawo, bezpieczeństwo i ryzyko;</li>
+<li>wstępna teoria zmiany i KPI;</li>
+<li>rejestr sprzeczności.</li>
+</ul>
+<h3 id="bramka-l2-konsultacje-i-ocena">Bramka L2 — konsultacje i ocena</h3>
+<ul>
+<li>konsultacje właściwe dla instrumentu;</li>
+<li>udokumentowane uwagi i odpowiedzi;</li>
+<li>ocena ex ante;</li>
+<li>opinie finansowe, prawne, danych, cyber i bezpieczeństwa;</li>
+<li>rozstrzygnięta ścieżka oceny środowiskowej;</li>
+<li>red-team.</li>
+</ul>
+<h3 id="bramka-l3-decyzja-rm">Bramka L3 — decyzja RM</h3>
+<ul>
+<li>wersja finalna i zestawienie zmian;</li>
+<li>decyzje, koszt i źródła;</li>
+<li>programy wykonawcze;</li>
+<li>dashboard i odpowiedzialność;</li>
+<li>tryb aktualizacji oraz sunset review;</li>
+<li>jawny plan publikacji i osobny obieg chroniony.</li>
+</ul>
+<h3 id="bramka-l4-wykonanie-i-aktualizacja">Bramka L4 — wykonanie i aktualizacja</h3>
+<ul>
+<li>kwartalne decyzje wyjątków;</li>
+<li>roczna ewaluacja;</li>
+<li>projekty zamknięte;</li>
+<li>zmiany definicji i baz;</li>
+<li>aktualizacja strategii lub programów we właściwym trybie.</li>
+</ul>
+<p>Tryb pilny nie może być domyślnym sposobem omijania diagnozy i konsultacji. Jeśli zagrożenie wymaga przyspieszenia konkretnego działania, wyjątek powinien mieć wąski zakres, pisemne uzasadnienie i zastępczą kontrolę jakości.</p>
+<h2 id="8-zamowienia-iteracyjne">8. Zamówienia iteracyjne</h2>
+<h3 id="81-siedem-etapow">8.1. Siedem etapów</h3>
+<ol>
+<li>karta problemu i użytkownika;</li>
+<li>analiza rynku oraz bezpieczeństwa;</li>
+<li>prototyp lub dowód wykonalności;</li>
+<li>test według wcześniej zatwierdzonego protokołu;</li>
+<li>mała partia i dane cyklu życia;</li>
+<li>decyzja skali z opcjami i alternatywami;</li>
+<li>przegląd eksploatacyjny, upgrade lub zamknięcie.</li>
+</ol>
+<p>Właściwy tryb prawny dobiera nabywca z prawnikami dla konkretnego przypadku. Strategia nie tworzy ogólnego „wyjątku innowacyjnego”.</p>
+<p>W zamówieniach w dziedzinach obronności i bezpieczeństwa aktualne PZP wyłącza między innymi przetarg nieograniczony i partnerstwo innowacyjne; jako tryby podstawowe wskazuje przetarg ograniczony oraz negocjacje z ogłoszeniem, a pozostałe wymienione tryby pozostawia dla przesłanek określonych ustawą (<a href="https://eli.gov.pl/eli/DU/2026/793/ogl">Prawo zamówień publicznych</a>, <strong>CLM-0906</strong>, <strong>CLM-0907</strong>). To ograniczenie nie rozstrzyga trybu żadnego przyszłego zakupu — wymusza kwalifikację konkretnego przedmiotu, przesłanek i rynku.</p>
+<h3 id="82-minimalne-elementy-kontraktu-etapowego">8.2. Minimalne elementy kontraktu etapowego</h3>
+<ul>
+<li>rezultat i kryterium odbioru;</li>
+<li>harmonogram i limit kosztu;</li>
+<li>zasady testu i dostęp użytkownika;</li>
+<li>prawa IP, dane i publikacja wyniku;</li>
+<li>cyber, bezpieczeństwo informacji i incydenty;</li>
+<li>interfejsy, konfiguracja i dokumentacja;</li>
+<li>serwis, aktualizacje i cykl życia;</li>
+<li>opcja następnego etapu bez automatycznego zobowiązania;</li>
+<li>warunek poprawy i stop-rule;</li>
+<li>konflikt interesów oraz audyt;</li>
+<li>zakończenie, przekazanie danych i migracja.</li>
+</ul>
+<h3 id="83-maa-partia">8.3. Mała partia</h3>
+<p>Nie jest substytutem konkurencji ani pełnego odbioru. Służy pozyskaniu dowodów niezawodności, powtarzalności, serwisu i użyteczności. Jej wielkość wynika z pytania testowego i ryzyka; nie powinna być arbitralną liczbą wpisaną do strategii.</p>
+<h2 id="9-ip-dokumentacja-i-ciagosc">9. IP, dokumentacja i ciągłość</h2>
+<h3 id="91-macierz-praw">9.1. Macierz praw</h3>
+<p>Przed kontraktem należy rozdzielić:</p>
+<ul>
+<li>IP istniejące przed projektem;</li>
+<li>IP powstające w projekcie;</li>
+<li>ulepszenia każdej strony;</li>
+<li>dane wejściowe, treningowe, testowe i eksploatacyjne;</li>
+<li>kod źródłowy, modele, wagi, konfigurację i dokumentację;</li>
+<li>interfejsy i narzędzia serwisowe;</li>
+<li>prawa do produkcji, naprawy, modyfikacji i eksportu;</li>
+<li>sublicencje i prawa poddostawców.</li>
+</ul>
+<p>Państwo nie zawsze musi być właścicielem. Musi posiadać prawa adekwatne do krytyczności i scenariusza ciągłości.</p>
+<h3 id="92-depozyt">9.2. Depozyt</h3>
+<p>Escrow kodu lub dokumentacji ma wartość tylko, gdy:</p>
+<ul>
+<li>zakres jest kompletny i wersjonowany;</li>
+<li>depozyt jest okresowo testowany;</li>
+<li>występuje jasne zdarzenie uruchamiające;</li>
+<li>państwo ma prawa i kompetencje do użycia;</li>
+<li>zależności oraz narzędzia budowy są dostępne;</li>
+<li>rozwiązanie nie narusza praw trzecich.</li>
+</ul>
+<h3 id="93-produkcja-awaryjna">9.3. Produkcja awaryjna</h3>
+<p>Klauzula powinna określać przesłanki, zakres, wynagrodzenie, dostęp do dokumentacji, kontrolę jakości, prawa poddostawców i zakończenie. Nie może być sloganem ani nieproporcjonalnym wywłaszczeniem. Wymaga analizy prawnej i negocjacji przed kryzysem.</p>
+<h2 id="10-partnerstwa-i-joint-ventures">10. Partnerstwa i joint ventures</h2>
+<h3 id="due-diligence-przed-decyzja">Due diligence przed decyzją</h3>
+<ol>
+<li>właściciele i beneficjenci rzeczywiści;</li>
+<li>sankcje, reputacja, finansowanie i spory;</li>
+<li>prawa do technologii oraz roszczenia osób trzecich;</li>
+<li>bezpieczeństwo informacji, cyber i łańcuch dostaw;</li>
+<li>kontrola eksportu i end-use;</li>
+<li>zgodność z pomocą publiczną i konkurencją;</li>
+<li>wkład stron i metoda wyceny;</li>
+<li>skład organów, veto, informacje i audyt;</li>
+<li>lokalizacja produkcji i podatki;</li>
+<li>kluczowe osoby, ciągłość i wyjście;</li>
+<li>prawo właściwe i rozstrzyganie sporów;</li>
+<li>plan po zmianie sytuacji politycznej.</li>
+</ol>
+<p>Umowa Polska–Ukraina tworzy oficjalne ramy dla łańcuchów, lokalizacji, wspólnej produkcji i ochrony IP, lecz nie ustanawia automatycznie konkretnego JV (<strong>CLM-1212</strong>). Każdy projekt wymaga osobnej decyzji.</p>
+<p>Kontrola transferów dual-use może obejmować nie tylko towary, ale również oprogramowanie, technologię, pośrednictwo i pomoc techniczną; unijne ramy przewidują także mechanizmy <code>catch-all</code> oraz obowiązki ewidencyjne (<a href="https://eur-lex.europa.eu/eli/reg/2021/821/oj">rozporządzenie (UE) 2021/821</a>, <strong>CLM-0917</strong>). Kwalifikacja i wymagane zezwolenia muszą zostać ustalone dla konkretnego transferu, także niematerialnego.</p>
+<p>W zależności od podmiotu chronionego, inwestora, progów, działalności i konstrukcji transakcji polska kontrola niektórych inwestycji może objąć przejęcie, utworzenie JV albo uzyskanie istotnego uczestnictwa lub dominacji (<a href="https://eli.gov.pl/eli/DU/2026/47/ogl">ustawa o kontroli niektórych inwestycji</a>, <strong>CLM-0925</strong>). Sam zamiar utworzenia JV nie przesądza jednak zastosowania reżimu ani wyniku kontroli.</p>
+<h3 id="warunki-stop">Warunki stop</h3>
+<p>Partnerstwo nie przechodzi, gdy nie można ustalić właścicieli, praw do technologii, zgodności eksportowej, bezpiecznego dostępu do danych, akceptowalnego planu ciągłości lub równowagi praw. Presja czasu nie zastępuje due diligence; może jedynie ograniczyć pierwszy, odwracalny etap.</p>
+<h2 id="11-dane-ai-cyber-i-informacje-chronione">11. Dane, AI, cyber i informacje chronione</h2>
+<h3 id="111-wasciciel-danych">11.1. Właściciel danych</h3>
+<p>Każdy zbiór ma właściciela, podstawę, cel, zakres, użytkowników, retencję, warunki usunięcia, logowanie i tryb incydentu. Dostęp do środowiska nie oznacza prawa pobrania ani użycia w innym celu.</p>
+<h3 id="112-governance-ai">11.2. Governance AI</h3>
+<p>Wymagania kontraktowe i dopuszczeniowe powinny odzwierciedlać sześć zasad NATO: legalność, odpowiedzialność i rozliczalność, wyjaśnialność i identyfikowalność, niezawodność, sterowalność oraz ograniczanie stronniczości (<strong>CLM-1220</strong>). Każdy model ma kartę, wersję, wynik testu, zakres użycia, znane ograniczenia, monitoring i osobę uprawnioną do wstrzymania.</p>
+<p>Wyłączenie w AI Act dotyczy systemów wyłącznie w zakresie ich celów wojskowych, obronnych lub bezpieczeństwa narodowego; zastosowanie również cywilne wymaga osobnej oceny zakresu rozporządzenia (<a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">AI Act</a>, <strong>CLM-0921</strong>). Dokument nie przesądza kwalifikacji żadnego przyszłego systemu mieszanego.</p>
+<p>Jeżeli projekt dotyczy nowej broni, środka lub metody walki, art. 36 Protokołu dodatkowego I wymaga prawnego przeglądu podczas badań, rozwoju, pozyskania lub przyjęcia (<a href="https://eli.gov.pl/eli/DU/1992/175/ogl">Protokół dodatkowy I</a>, <strong>CLM-0924</strong>). Zapis tej bramki nie jest oceną legalności konkretnego rozwiązania.</p>
+<h3 id="113-cyber">11.3. Cyber</h3>
+<p>Umowa określa secure SDLC, zależności, aktualizacje, SBOM tam, gdzie właściwe, zgłaszanie incydentów, testy, utrzymanie i bezpieczne zakończenie wsparcia. Wymagania należy różnicować według ryzyka, by nie wykluczyć MŚP przez nieproporcjonalny koszt.</p>
+<h3 id="114-informacje-niejawne-i-wrazliwe">11.4. Informacje niejawne i wrażliwe</h3>
+<p>Klasyfikacja, dostęp i sanitizacja należą do właściciela informacji w prawidłowym systemie. Repozytorium publiczne lub prywatny GitHub nie jest kancelarią tajną. Jawny dokument może przechowywać identyfikator pytania, status, właściciela i wersję agregatu zatwierdzonego do publikacji.</p>
+<p>Ustawa ogranicza dostęp do informacji niejawnych do osób dających rękojmię zachowania tajemnicy i do zakresu niezbędnego do pracy; przewiduje też odrębne wymagania dla systemów teleinformatycznych oraz bezpieczeństwa przemysłowego wykonawców (<a href="https://eli.gov.pl/eli/DU/2025/1209/ogl">ustawa o ochronie informacji niejawnych</a>, <strong>CLM-0910</strong>). Nie oznacza to akredytacji repozytorium ani dopuszczenia w nim danych chronionych.</p>
+<h2 id="12-konflikty-interesow-i-transparentnosc">12. Konflikty interesów i transparentność</h2>
+<h3 id="minimalny-rejestr">Minimalny rejestr</h3>
+<p>Każdy członek ciała doradczego ujawnia zatrudnienie, udziały, honoraria, kontrakty, granty, role rodzinne i inne interesy związane z zakresem. Rejestr opisuje sposób zarządzania konfliktem: ujawnienie, wyłączenie, dodatkowy recenzent albo zakaz udziału.</p>
+<h3 id="rozdzielenie-funkcji">Rozdzielenie funkcji</h3>
+<ul>
+<li>użytkownik definiuje problem;</li>
+<li>nabywca prowadzi właściwy proces;</li>
+<li>tester ocenia wynik;</li>
+<li>finansujący ocenia instrument;</li>
+<li>prawnik i bezpieczeństwo kontrolują zgodność;</li>
+<li>organ uprawniony akceptuje ryzyko;</li>
+<li>dostawca dostarcza produkt i dowody;</li>
+<li>red-team próbuje obalić założenie.</li>
+</ul>
+<p>Jedna organizacja może pełnić kilka ról tylko z jawnym zabezpieczeniem i niezależnym odbiorem.</p>
+<h3 id="jawnosc">Jawność</h3>
+<p>Publikować należy: mandat, definicje KPI, zagregowane wyniki, wydatki możliwe do ujawnienia, konflikty interesów, projekty zamknięte, kryteria wyboru i odpowiedzi na konsultacje. Nie publikuje się danych, których ujawnienie zwiększa ryzyko bezpieczeństwa, narusza prawo, tajemnicę przedsiębiorstwa lub ochronę danych.</p>
+<h2 id="13-pierwsze-100-dni">13. Pierwsze 100 dni</h2>
+<h3 id="d0d30">D0–D30</h3>
+<ul>
+<li>formalna mapa kompetencji i dokumentów;</li>
+<li>wskazanie właściwego ministra i integratora;</li>
+<li>przyjęcie funkcjonalnego RACI;</li>
+<li>audyt istniejących komitetów, departamentów i programów;</li>
+<li>polityka konfliktów interesów i jawne–autoryzowane;</li>
+<li>kwalifikacja procesu strategii, konsultacji i oceny środowiskowej.</li>
+</ul>
+<h3 id="d31d60">D31–D60</h3>
+<ul>
+<li>karta strategii i wpis do właściwego wykazu po potwierdzeniu trybu;</li>
+<li>diagnoza oraz warianty instytucjonalne;</li>
+<li>wzór karty problemu, kontraktu i bramki;</li>
+<li>mapa luk prawnych oraz działań niewymagających ustawy;</li>
+<li>projekt rejestru decyzji i dashboardu;</li>
+<li>pierwsze pre-konsultacje.</li>
+</ul>
+<h3 id="d61d100">D61–D100</h3>
+<ul>
+<li>projekt strategii gotowy do formalnych konsultacji, nie obietnica jej przyjęcia;</li>
+<li>ewaluacja ex ante i ramy finansowe w wersji roboczej;</li>
+<li>rozstrzygnięta ścieżka SOOŚ lub innej wymaganej oceny;</li>
+<li>prototyp dashboardu na rzeczywistych definicjach;</li>
+<li>wybór ograniczonych kontraktów pilotażowych;</li>
+<li>decyzja, czy istniejący mechanizm wymaga korekty mandatu.</li>
+</ul>
+<h2 id="14-warunki-rozwazenia-nowego-penomocnika-lub-ustawy">14. Warunki rozważenia nowego pełnomocnika lub ustawy</h2>
+<h3 id="nowy-penomocnik">Nowy pełnomocnik</h3>
+<p>Rozważyć po dwóch cyklach kwartalnych, jeżeli udokumentowano, że:</p>
+<ul>
+<li>istniejący integrator nie uzyskuje danych lub decyzji;</li>
+<li>spory pozostają mimo eskalacji;</li>
+<li>nie można wskazać właściwego ministra lub powierzyć koordynacji;</li>
+<li>korekta RACI, priorytetu i obsługi nie działa;</li>
+<li>korzyść przewyższa koszt kolejnej warstwy.</li>
+</ul>
+<h3 id="ustawa">Ustawa</h3>
+<p>Rozważyć, gdy:</p>
+<ul>
+<li>istniejący organ nie ma niezbędnej kompetencji;</li>
+<li>potrzebne są prawa lub obowiązki zewnętrzne;</li>
+<li>konieczny jest mechanizm finansowy wymagający ustawy;</li>
+<li>istniejąca procedura uniemożliwia rezultat, a nie tylko jest niewygodna;</li>
+<li>oceniono warianty, skutki, UE, konkurencję, prywatność i bezpieczeństwo;</li>
+<li>techniczne szczegóły pozostają poza ustawą.</li>
+</ul>
+<h2 id="15-zarys-nieoficjalnej-uchway-kierunkowej">15. Zarys nieoficjalnej uchwały kierunkowej</h2>
+<p>Poniższy układ jest materiałem warsztatowym, nie projektem prawnym:</p>
+<ol>
+<li>cel i status programu;</li>
+<li>definicje oraz zakres jawny;</li>
+<li>miejsce w systemie dokumentów;</li>
+<li>wskazanie właściciela dokumentu i funkcji realizacyjnej;</li>
+<li>pakiety robocze i rezultaty;</li>
+<li>zasady danych, dowodów i konfliktów interesów;</li>
+<li>bramki i raportowanie;</li>
+<li>ramy finansowe i dodatkowość;</li>
+<li>zasady konsultacji i ewaluacji;</li>
+<li>oddzielenie obiegu autoryzowanego;</li>
+<li>harmonogram pierwszych 100 dni;</li>
+<li>przegląd po dwóch kwartałach;</li>
+<li>sunset review i możliwość zamknięcia.</li>
+</ol>
+<p>Treść może zostać użyta dopiero po potwierdzeniu właściwego instrumentu, kompetencji i procesu.</p>
+<h2 id="16-passfail-przed-przedozeniem-radzie-ministrow">16. Pass/fail przed przedłożeniem Radzie Ministrów</h2>
+<p>Materiał otrzymuje <code>FAIL</code>, gdy:</p>
+<ul>
+<li>nie wskazuje właściwego ministra lub podstawy procesu;</li>
+<li>ma więcej niż jednego właściciela tego samego rezultatu;</li>
+<li>tworzy obowiązek zewnętrzny wyłącznie aktem wewnętrznym;</li>
+<li>omija wymaganą konsultację, ewaluację lub ocenę środowiskową;</li>
+<li>zawiera budżet bez źródła, roku i dodatkowości;</li>
+<li>nie oddziela danych jawnych i chronionych;</li>
+<li>pozwala autorowi lub dostawcy zatwierdzić własny wynik;</li>
+<li>nie określa praw do IP, danych, serwisu i zakończenia;</li>
+<li>nie ma stop-rule albo raportu projektów zamkniętych;</li>
+<li>opiera pilność na haśle, a nie wąskim wyjątku i kontroli zastępczej.</li>
+</ul>
+<p><code>PASS</code> oznacza gotowość do kolejnej bramki, nie pewność sukcesu. Wydanie v0.1 ma wynik <code>FAIL</code> z powodu <strong>GAP-0011</strong> i dlatego może być udostępniane wyłącznie jako niezależny materiał do konsultacji eksperckich, nie jako formalna strategia albo nota wnoszona pod obrady Rady Ministrów.</p>
+<h2 id="dalsze-pytania">Dalsze pytania</h2>
+<ul>
+<li>Który minister jest formalnie właściwy dla horyzontalnej strategii i w jakim trybie?</li>
+<li>Jak wykorzystać istniejący mechanizm nadzoru realizacji bez dublowania kompetencji?</li>
+<li>Jaki zakres wymaga konsultacji i strategicznej oceny oddziaływania?</li>
+<li>Które bariery są prawne, a które wynikają z praktyki, zasobów i tolerancji ryzyka?</li>
+<li>Gdzie potrzebna jest ustawa, a gdzie wystarczy kontrakt, standard lub program?</li>
+<li>Jakie dane i wskaźniki mogą być publikowane bez zwiększenia ryzyka?</li>
+<li>Jak zorganizować niezależny odbiór, gdy rynek ma niewielu ekspertów?</li>
+<li>Kiedy nowy pełnomocnik przyniesie większą wartość niż koszt koordynacji?</li>
+<li>Jak zabezpieczyć ciągłość JV po zmianie właściciela lub sytuacji politycznej?</li>
+<li>Jak zapewnić MŚP proporcjonalny dostęp przy wysokich wymogach bezpieczeństwa?</li>
+</ul>
+<h2 id="zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</h2>
+<ul>
+<li>Model instytucjonalny wymaga potwierdzenia aktualnego stanu prawnego w dniu przedłożenia.</li>
+<li>Nazwy organów i resortów mogą ulec zmianie; dokument posługuje się przede wszystkim funkcjami.</li>
+<li>Nie przesądzono kwalifikacji strategii w systemie polityki rozwoju ani właściwego ministra.</li>
+<li>Nie przesądzono, czy konkretne zamówienie korzysta z wyjątku, trybu szczególnego lub procedury obronnej.</li>
+<li>Klauzule IP, escrow i produkcji awaryjnej wymagają negocjacji, proporcjonalności i praw trzecich.</li>
+<li>Repozytorium nie jest środowiskiem dla informacji niejawnych ani operacyjnie wrażliwych.</li>
+</ul><div class="metadata">Identyfikator: governance-law · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

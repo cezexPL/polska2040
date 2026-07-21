@@ -8,9 +8,9 @@
 
 # Decyzja, nie manifest
 
-- Uruchomić sześciomiesięczny przegląd i ograniczone pilotaże
-- Wskazać właściwego ministra oraz integratora portfela przy KPRM
-- Przyjąć bramki: uruchom → testuj → skaluj albo zamknij
+- **KANDYDAT DEC-0001:** uruchomić sześciomiesięczny przegląd
+- **KANDYDAT DEC-0002:** wskazać właściwego ministra i integratora portfela przy KPRM
+- **KANDYDAT DEC-0003:** uruchomić ograniczone pilotaże z bramkami stop/go
 - Wrócić do RM z bazą, wariantami finansowymi i red-team
 
 ---
@@ -91,9 +91,9 @@
 # Kadry: popyt przed skalą
 
 - Technicy, produkcja i serwis równie ważne jak konstruktorzy
-- Programy przekwalifikowania dają szybszy efekt niż nowa uczelnia
+- **HIPOTEZA DO PRZETESTOWANIA:** przekwalifikowanie może dać wcześniejszy mierzalny efekt niż nowa uczelnia
 - Istniejące szkoły i uczelnie tworzą sieć
-- Miernik: kompetencja, zatrudnienie i retencja 12/24 miesiące
+- Porównać koszt, kompetencję, zatrudnienie i retencję 12/24 miesiące względem bazy
 
 ---
 
@@ -126,7 +126,7 @@
 
 # Decyzje na dziś
 
-- Zatwierdzić mandat, właścicieli i dwukwartalny test modelu
-- Uruchomić audyt, pilotaż danych oraz kontrakty dowodowe
-- Nie zatwierdzać docelowej kwoty, fabryki ani dostawcy
-- Za 6 miesięcy: skaluj, popraw lub zamknij na podstawie dowodów
+- **KANDYDACI DEC-0001 i DEC-0002:** zatwierdzić mandat, właścicieli i dwukwartalny test modelu
+- **KANDYDACI DEC-0003 i DEC-0004:** uruchomić portfel pilotaży, pilotaż danych i kontrakty dowodowe
+- **KANDYDAT DEC-0008:** zlecić model finansowy; nie zatwierdzać dziś docelowej kwoty, fabryki ani dostawcy
+- **KANDYDAT DEC-0010:** przygotować dashboard; za 6 miesięcy skalować, poprawić albo zamknąć na podstawie dowodów

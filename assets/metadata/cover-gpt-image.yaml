@@ -1,0 +1,21 @@
+schema_version: 1
+asset: assets/generated/cover-gpt-image.png
+kind: synthetic-concept-illustration
+generated_at: 2026-07-21
+generator: OpenAI platform imagegen tool
+requested_workflow: GPT Image per project brief
+exact_model_version_exposed: false
+exact_model_version: UNKNOWN
+dimensions_px:
+  width: 1054
+  height: 1492
+sha256: e6c2ad0c4d9c0149a50339bcc7df8f3246bef320d6025ac4c7b035e9ae8999db
+prompt: assets/prompts/cover-gpt-image.md
+review_status: visually-reviewed
+human_publication_approval: required
+contains_text_or_logos: false
+contains_operational_detail: false
+limitations:
+  - Synthetic image; not evidence and not a map of real locations.
+  - Exact model version was not returned by the platform tool.
+  - The explicitly labelled Higgsfield GPT Image 2 workflow was unavailable because the local CLI was not authenticated.

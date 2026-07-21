@@ -1,6 +1,6 @@
-# Polska 2040: bezpieczeństwo jako motor produktywności
+# Polska 2040: bezpieczeństwo i produktywność
 
-- Od problemu publicznego do produktu, produkcji i eksportu
+- **HIPOTEZA DO PRZETESTOWANIA:** wspólne zdolności mogą tworzyć wartość cywilną
 - Niezależny draft ekspercki v0.1 · 21.07.2026
 
 ---
@@ -42,12 +42,12 @@
 
 ---
 
-# Gdzie powstaje produktywność
+# Hipotezy mechanizmów produktywności
 
-- Automatyzacja, jakość i mniej przestojów
-- Software, sensory i metody produkcji przenoszone między sektorami
-- Skala i specjalizacja dostawców
-- Kompetencje, eksport i wymagający klient
+- Baseline 2025: AI wykorzystywało 8,4% polskich przedsiębiorstw z co najmniej 10 pracującymi wobec 20,0% w UE — [Eurostat](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251211-2), **CLM-1101**
+- Potencjalnie: automatyzacja, jakość i mniej przestojów
+- Do sprawdzenia: transfer software'u, sensorów i metod produkcji oraz skala dostawców
+- Wynik mierzyć przez kompetencje, produktywność i wykonany eksport względem bazy
 
 ---
 
@@ -80,10 +80,10 @@
 
 # Talenty: popyt przed podażą
 
-- Najszybszy efekt: przekwalifikowanie obecnych specjalistów
+- **HIPOTEZA DO PRZETESTOWANIA:** przekwalifikowanie może dać wcześniejszy mierzalny efekt niż tworzenie nowej uczelni
 - Technicy, jakość i serwis są równie krytyczne jak R&D
 - Istniejące uczelnie i szkoły tworzą sieć
-- Miernik: kompetencja, zatrudnienie, retencja i produktywność
+- Porównać koszt, kompetencję, zatrudnienie, retencję i produktywność względem bazy
 
 ---
 
@@ -141,8 +141,9 @@
 
 ---
 
-# Zaproszenie do współpracy
+# Obszary potencjalnej współpracy
 
+- Materiał konsultacyjny — nie stanowi oficjalnej oferty państwa
 - Użytkownicy: problemy i dane bazowe
 - Firmy: modularność, prawa cyklu życia i współfinansowanie ryzyka
 - Nauka: benchmarki, transfer i infrastruktura współdzielona

@@ -1,7 +1,7 @@
 # Plan realizacji 2026–2040
 
 **Program:** Polska 2040: Suwerenność technologiczna  
-**Status:** niezależny projekt wykonawczy v0.1 do konsultacji  
+**Status:** niezależny materiał przedmandatowy v0.1 do konsultacji; D0 nie został ustanowiony<br>
 **Stan wiedzy:** 21 lipca 2026 r.  
 **Zasada:** terminy liczone są od formalnej decyzji o uruchomieniu programu (`D0`), a nie od daty niniejszego dokumentu.
 
@@ -21,12 +21,14 @@ Plan przekształca strategię w portfel dwunastu pakietów roboczych, cztery wsp
 4. **Wdrożenie i zamknięcie są równoprawnymi wynikami.** Portfel raportuje projekty zatrzymane oraz zaoszczędzone zobowiązania.
 5. **Wersja jawna i autoryzowana są rozdzielone.** Repozytorium zawiera pytania, definicje i agregaty; informacje chronione pozostają u właściciela.
 
-### Cztery decyzje w pierwszych 30 dniach
+### Cztery kandydaty decyzji w pierwszych 30 dniach
 
-- zatwierdzić mandat, właściciela politycznego i kierownika Biura Realizacji;
-- przyjąć wspólny kontrakt danych, dowodów, konfliktów interesów i raportowania;
-- wybrać ograniczony portfel problemów do sprawdzenia całej pętli;
-- uruchomić audyt bazowy oraz mapę istniejących programów i zobowiązań.
+- **DEC-0001 / DEC-0002:** rozpatrzyć mandat, formalnego właściciela i funkcję Biura Realizacji;
+- **DEC-0003:** rozpatrzyć wspólny kontrakt danych, dowodów, konfliktów interesów, raportowania i ograniczony portfel problemów;
+- **DEC-0004:** rozpatrzyć pilotaż przestrzeni danych i ewaluacji;
+- **DEC-0005 / DEC-0008:** rozpatrzyć audyt bazowy oraz mapę istniejących programów, zależności i zobowiązań.
+
+Rekordy mają status `candidate`. Warunkiem formalnego uruchomienia jest rozstrzygnięcie właściwości i podstawy procesu (**GAP-0011**).
 
 ### Co ma istnieć po 12 miesiącach
 
@@ -42,6 +44,10 @@ Plan przekształca strategię w portfel dwunastu pakietów roboczych, cztery wsp
 - raport „skaluj–zmień–zamknij” z planem na kolejny rok.
 
 ![Horyzonty realizacji: pierwsze 100 dni, 6 i 12 miesięcy, lata 2027–2030, 2031–2035 i ambicja 2040](assets/generated/roadmap-horizons.svg)
+
+## Spis treści
+
+[TOC]
 
 ## 1. Architektura portfela
 
@@ -61,6 +67,8 @@ Plan przekształca strategię w portfel dwunastu pakietów roboczych, cztery wsp
 | WP10 | Finanse i wpływ | model niski/bazowy/wysoki | finanse i instytucje rozwoju | jaki portfel daje wartość dodatkową? |
 | WP11 | Prawo, etyka i informacja | mapa instrumentów i pakiet zmian | właściwe resorty i organy prawne | co można zrobić procesem, a co wymaga regulacji? |
 | WP12 | Regiony, cywil i eksport | pilotaże popytu i ścieżka replikacji | gospodarka/samorządy/eksport | gdzie istnieje popyt po pilotażu? |
+
+Kolumna „właściciel funkcjonalny” wskazuje domenę odpowiedzialności, nie gotowe przypisanie `A`. Przed D0 każdy pakiet musi otrzymać dokładnie jeden organ `A`, jednego imiennego właściciela służbowego i potwierdzoną podstawę działania; brak któregokolwiek z tych elementów wyłącza pakiet z uruchomienia.
 
 ### 1.2. Cztery wspólne bramki programu
 
@@ -91,7 +99,7 @@ Artefakt bez następnej decyzji nie jest produktem Biura Realizacji. Spotkanie, 
 
 #### Decyzje
 
-1. Nadać programowi status niezależny od strategii bezpieczeństwa do czasu formalnego uzgodnienia jego miejsca w hierarchii dokumentów.
+1. Nie przesądzać miejsca programu w hierarchii dokumentów do czasu formalnej opinii prawnej i uzgodnienia relacji z obowiązującymi strategiami (**GAP-0011**).
 2. Wyznaczyć właściciela politycznego oraz tymczasowego kierownika Biura Realizacji.
 3. Zatwierdzić skład komitetu i zasadę, że członek ujawnia konflikt interesów przed rozpatrzeniem projektu.
 4. Zatwierdzić politykę jawne–autoryzowane oraz zakaz przechowywania informacji niejawnych w tym repozytorium.
@@ -239,7 +247,7 @@ Komitet nie zatwierdza „sukcesu programu” zbiorczo. Każdy projekt otrzymuje
 - **C — utrzymaj jako badanie bez obietnicy wdrożenia;**
 - **D — zamknij i opublikuj lekcję możliwą do ujawnienia.**
 
-Powtórna ścieżka B ma limit czasu i dodatkowego kosztu. Trzecia nieudana iteracja wymaga nowej decyzji G2, nie automatycznego przedłużenia.
+Ścieżka B dopuszcza jedną poprawkę w ramach bieżącej decyzji G2, z limitem czasu i dodatkowego kosztu. Druga próba poprawy wymaga zamknięcia dotychczasowej ścieżki i nowej, jawnie uzasadnionej decyzji G2; nie istnieje automatyczna „trzecia iteracja”.
 
 ## 4. Miesiące 7–12: małe partie i decyzja skali
 
@@ -354,7 +362,7 @@ Legenda: `A` — accountable, zatwierdza wynik; `R` — responsible, wykonuje; `
 |---|---|---|---|---|---|---|---|
 | karta programu | A/R | C | I | I | C | C | C |
 | wybór problemu | C | A | R | C | I | C | C |
-| protokół testu | I | A | R | C | I | C | C |
+| protokół testu | I | C | A | R | I | C | C |
 | dopuszczenie danych | I | A/R | C | I | I | C | C |
 | kontrakt pilotażowy | I | C | C | A/R | C | C | I |
 | decyzja małej partii | C | A | R | R | C | C | C |
@@ -477,7 +485,7 @@ Brak odpowiedzi w obiegu jawnym nie oznacza braku danych w państwie. Biuro Real
 
 ## 14. Definicja ukończenia v0.1 i przejścia do wykonania
 
-Plan v0.1 jest gotowy do formalnej konsultacji, jeżeli:
+Plan v0.1 byłby gotowy do formalnej konsultacji, jeżeli:
 
 - ma właścicieli funkcjonalnych i potwierdzoną ścieżkę prawną;
 - wszystkie ważne fakty mają zweryfikowane źródła i datę;
@@ -488,7 +496,9 @@ Plan v0.1 jest gotowy do formalnej konsultacji, jeżeli:
 - wersja jawna przeszła kontrolę bezpieczeństwa informacji;
 - Rada Ministrów otrzymuje konkretne warianty i decyzje, a nie manifest.
 
-## 15. Następne kroki po przyjęciu planu
+**Bieżący wynik:** warunki nie są spełnione, ponieważ formalny właściciel i ścieżka prawna pozostają `UNKNOWN` (**GAP-0011**). Wydanie służy zatem konsultacji eksperckiej przed mandatem; nie jest harmonogramem wiążącym administrację.
+
+## 15. Kandydackie następne kroki po ewentualnym przyjęciu planu
 
 1. Zatwierdzić D0 i opublikować jawny mandat.
 2. Wyznaczyć osoby odpowiedzialne za WP01–WP12.
@@ -518,5 +528,4 @@ Plan v0.1 jest gotowy do formalnej konsultacji, jeżeli:
 - Terminy są celami zarządczymi liczonymi od D0; nie są zobowiązaniem instytucji przed formalną decyzją.
 - Liczba i zakres pilotaży zależą od danych, bezpieczeństwa, użytkowników, testów i nabywców.
 - Plan nie gwarantuje finansowania ani kwalifikowalności kosztów w SAFE, EDF, EUDIS, STEP lub instrumentach krajowych.
-- Harmonogram po 2030 r. podlega corocznej aktualizacji technologicznej i strategicznej.
-- Informacje chronione nie mogą być kopiowane do repozytorium ani rekonstruowane z agregatów.
+- Plan po 2030 r. podlega corocznej aktualizacji; informacji chronionych nie wolno kopiować do repozytorium ani odtwarzać z agregatów.
