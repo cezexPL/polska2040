@@ -10,5 +10,7 @@ configMapGenerator:
       - styles.css
       - hero.css
       - app.js
+      - documents.json
+      - dokumenty.html
 generatorOptions:
   disableNameSuffixHash: false
