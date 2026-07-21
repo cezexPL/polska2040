@@ -60,6 +60,14 @@ def check_internal_links(errors: list[str]):
                 continue
             clean_target = target.split("#", 1)[0]
             if clean_target:
+                if (
+                    path.parent == ROOT / "reports"
+                    and clean_target.startswith("../dist/")
+                ):
+                    # dist/ is intentionally absent in a clean checkout. These
+                    # generated targets are validated after the build by
+                    # tooling/validate_outputs.py.
+                    continue
                 relative_candidate = (path.parent / clean_target).resolve()
                 root_candidate = (ROOT / clean_target).resolve()
                 if not relative_candidate.exists() and not root_candidate.exists():
