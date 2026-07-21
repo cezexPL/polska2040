@@ -11,7 +11,7 @@ docker run --rm -p 8080:80 polska2040-landing
 
 ## K3s
 
-Manifest korzysta z oficjalnego obrazu nginx i generowanego ConfigMap, dlatego nie wymaga prywatnego registry. Zastosowanie z katalogu `landingpage`:
+Manifest korzysta z oficjalnego obrazu nginx i publicznego repozytorium. Kontener inicjalizacyjny pobiera zatwierdzony stan `main` przy starcie podu, dzięki czemu dokumenty nie muszą być pakowane do ograniczonej rozmiarem ConfigMapy. Nowe wydanie jest publikowane przez kontrolowany rollout po przejściu walidacji. Zastosowanie z katalogu `landingpage`:
 
 ```bash
 kubectl apply -k .

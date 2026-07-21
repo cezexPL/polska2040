@@ -1,66 +1,13 @@
 {
-  "version": 1,
+  "version": "v0.1",
   "updated": "2026-07-21",
+  "status": "Ekspercki draft do konsultacji",
+  "notice": "Pakiet nie jest dokumentem rządowym. Formalne przedłożenie RM wymaga zamknięcia GAP-0011.",
   "documents": [
-    {
-      "id": "strategia",
-      "order": 1,
-      "title": "Strategia „Polska 2040”",
-      "summary": "Pełny rdzeń programu suwerenności technologicznej Polski do 2040 roku.",
-      "category": "Strategia",
-      "status": "preparing",
-      "visibility": "public",
-      "featured": true
-    },
-    {
-      "id": "streszczenie",
-      "order": 2,
-      "title": "Streszczenie wykonawcze",
-      "summary": "Najważniejsze decyzje, cele i konsekwencje programu w krótkiej formie.",
-      "category": "Dokument główny",
-      "status": "preparing",
-      "visibility": "public",
-      "featured": true
-    },
-    {
-      "id": "plan-realizacji",
-      "order": 3,
-      "title": "Plan realizacji 2026–2040",
-      "summary": "Etapy, odpowiedzialności, bramki decyzyjne, KPI i warunki przerwania.",
-      "category": "Wdrożenie",
-      "status": "preparing",
-      "visibility": "public",
-      "featured": true
-    },
-    {
-      "id": "finansowanie",
-      "order": 4,
-      "title": "Finansowanie i wpływ gospodarczy",
-      "summary": "Koszty, warianty finansowania oraz wpływ na PKB, produktywność i budżet.",
-      "category": "Gospodarka",
-      "status": "preparing",
-      "visibility": "public",
-      "featured": false
-    },
-    {
-      "id": "nota-rm",
-      "order": 5,
-      "title": "Nota decyzyjna dla Premiera i RM",
-      "summary": "Jawny pakiet decyzji, zależności i działań wykonawczych dla Rady Ministrów.",
-      "category": "Decyzje",
-      "status": "preparing",
-      "visibility": "public",
-      "featured": false
-    },
-    {
-      "id": "pakiet-bbn",
-      "order": 6,
-      "title": "Pakiet strategiczny dla Prezydenta i BBN",
-      "summary": "Jawna część pakietu bezpieczeństwa narodowego i odporności państwa.",
-      "category": "Bezpieczeństwo",
-      "status": "preparing",
-      "visibility": "public",
-      "featured": false
-    }
+    {"id":"strategy","order":1,"title":"Polska 2040: Suwerenność technologiczna","summary":"Pełna strategia: cele, filary, decyzje i warunki realizacji programu do 2040 roku.","category":"Strategia","status":"reviewed","visibility":"public","featured":true,"html":"/release/v0.1/strategy/index.html","pdf":"/release/v0.1/strategy/strategy.pdf","download":"/release/v0.1/strategy/strategy.docx","downloadLabel":"DOCX","pages":37,"updated":"21.07.2026"},
+    {"id":"implementation-roadmap","order":2,"title":"Plan realizacji 2026–2040","summary":"Etapy, RACI, bramki decyzyjne, KPI, ryzyka oraz warunki skalowania i zatrzymania.","category":"Wdrożenie","status":"reviewed","visibility":"public","featured":true,"html":"/release/v0.1/implementation-roadmap/index.html","pdf":"/release/v0.1/implementation-roadmap/implementation-roadmap.pdf","download":"/release/v0.1/implementation-roadmap/implementation-roadmap.docx","downloadLabel":"DOCX","pages":21,"updated":"21.07.2026"},
+    {"id":"impact-finance","order":3,"title":"Finansowanie i ocena wpływu","summary":"Scenariusze kosztów, źródła finansowania, wpływ gospodarczy i jawne ograniczenia modelu.","category":"Gospodarka","status":"reviewed","visibility":"public","featured":true,"html":"/release/v0.1/impact-finance/index.html","pdf":"/release/v0.1/impact-finance/impact-finance.pdf","download":"/release/v0.1/impact-finance/impact-finance.docx","downloadLabel":"DOCX","pages":22,"updated":"21.07.2026"},
+    {"id":"prime-minister-brief","order":4,"title":"Nota dla Premiera i Rady Ministrów","summary":"Siedmiostronicowy pakiet decyzji, zależności i pierwszych działań dla centrum rządu.","category":"Decyzje","status":"reviewed","visibility":"public","featured":true,"html":"/release/v0.1/prime-minister-brief/index.html","pdf":"/release/v0.1/prime-minister-brief/prime-minister-brief.pdf","download":"/release/v0.1/prime-minister-brief/prime-minister-brief.docx","downloadLabel":"DOCX","pages":7,"updated":"21.07.2026"},
+    {"id":"president-bbn-brief","order":5,"title":"Nota dla Prezydenta i BBN","summary":"Odporność i ciągłość państwa z zachowaniem konstytucyjnego podziału kompetencji.","category":"Bezpieczeństwo","status":"reviewed","visibility":"public","featured":true,"html":"/release/v0.1/president-bbn-brief/index.html","pdf":"/release/v0.1/president-bbn-brief/president-bbn-brief.pdf","download":"/release/v0.1/president-bbn-brief/president-bbn-brief.docx","downloadLabel":"DOCX","pages":8,"updated":"21.07.2026"}
   ]
 }
