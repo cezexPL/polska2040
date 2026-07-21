@@ -3,7 +3,8 @@ name: validate-and-build
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, "agent/**"]
+  workflow_dispatch:
 
 permissions:
   contents: read
