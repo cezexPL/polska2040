@@ -49,6 +49,12 @@ Do uzupełnienia po badaniu A08–A09.
 
 Do uzupełnienia po badaniu A07 i A11.
 
+## Filar VII — suwerenność inteligencji i odporność na szoki energetyczne
+
+Polska musi zachować zdolność uruchamiania, badania, modyfikowania i zabezpieczania modeli AI bez zależności od pojedynczego państwa, dostawcy chmurowego lub API. Jednocześnie program technologiczny musi wytrzymać skoki cen ropy, gazu, transportu i energii wywołane napięciami geopolitycznymi, w tym scenariuszami eskalacji USA–Iran i zakłóceń żeglugi przez Cieśninę Ormuz.
+
+Filar obejmuje narodową ewaluację modeli, chronione moce obliczeniowe, systemy offline i edge, bezpieczeństwo łańcucha dostaw wag i bibliotek, obronę AI przeciw AI oraz scenariusze energetyczne dla budżetu, przemysłu, centrów danych, transportu i transformacji. Szczegółowe rekomendacje zostaną uzupełnione po badaniu A13 z udziałem A01, A05–A08 i niezależnym red-team A12.
+
 ## Model zarządzania i odpowiedzialności
 
 Do uzupełnienia po badaniu A02 i A09.
