@@ -11,6 +11,10 @@
 
 Utworzyć wieloletni system realizacji suwerenności technologicznej oparty na powtarzalnym cyklu: potrzeba → dane → prototyp → test → mała partia → skalowanie lub zamknięcie → produkcja i serwis → eksport i aktualizacja.
 
+Poniższy diagram pokazuje zależność etapów, a nie harmonogram ani wielkość finansowania. Słabym ogniwem jest każdy etap, którego nie można przejść z jasno określonym właścicielem i kryterium decyzji.
+
+![Cykl realizacji: od potrzeby przez dane, prototyp, test, zamówienie, produkcję i eksport do aktualizacji](assets/generated/delivery-cycle.svg)
+
 ## Diagnoza: system ma więcej wąskich gardeł niż edukacja
 
 Treść zostanie uzupełniona zweryfikowanymi ustaleniami dotyczącymi zamówień, danych, poligonów, kapitału, komponentów, produkcji, serwisu, kadr i eksportu.
@@ -78,4 +82,3 @@ KPI zostaną przyjęte dopiero po potwierdzeniu wartości bazowych, mianowników
 ## Zastrzeżenia i założenia
 
 Dokument nie wykorzystuje informacji niejawnych. Brak jawnych danych o zdolnościach wojskowych nie jest interpretowany jako brak zdolności.
-

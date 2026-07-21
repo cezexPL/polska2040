@@ -1,3 +1,354 @@
 schema_version: 1
-claims: []
-
+claims:
+- id: CLM-1201
+  text: Program KAI-Fire Point trwa dokladnie cztery lata.
+  type: FACT
+  status: disputed
+  source_ids:
+  - SRC-1201
+  - SRC-1202
+  locators:
+  - 'SRC-1201: opis programu i karta finansowania wskazuja 4 lata'
+  - 'SRC-1202: formalna karta oferty rekrutacyjnej wskazuje 3 lata i 10 miesiecy'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Zrodla KAI sa wewnetrznie niespojne. Liczby 4 lata oraz 3 lata i 10 miesiecy nie powinny wystepowac wymiennie w precyzyjnym
+    opisie programu.
+- id: CLM-1202
+  text: Oficjalna strona KAI podaje, ze Fire Point pokrywa 100% kosztow nauki przez caly program.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1201
+  locators:
+  - 'SRC-1201: chip 100% oplata nauki i karta Pelna oplata'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Zweryfikowano tresc oficjalnej deklaracji KAI, nie warunki prawne swiadczenia; na stronie nie udostepniono regulaminu
+    ani wzoru umowy.
+- id: CLM-1203
+  text: Oficjalna strona KAI podaje stypendium w wysokosci 800 EUR miesiecznie.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1201
+  locators:
+  - 'SRC-1201: chip i karta korzysci 800 EUR miesiecznie'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Zweryfikowano tresc deklaracji KAI; brak publicznego regulaminu nie pozwala ustalic warunkow utrzymania stypendium.
+- id: CLM-1204
+  text: Oficjalna strona KAI podaje, ze praktyka w Fire Point zaczyna sie od drugiego roku.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1201
+  locators:
+  - 'SRC-1201: chip Praktyka od 2 roku i karta Praktyka'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Zrodlo okresla praktyke jako rzeczywista prace w zespole Fire Point od drugiego roku.
+- id: CLM-1205
+  text: Oferta rekrutacyjna KAI na 2026 r. wskazuje pojemnosc licencyjna 30 dla programu z Fire Point.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1202
+  locators:
+  - 'SRC-1202: karta programu, pole Licencja: 30'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Pojemnosc licencyjna nie jest tozsama z liczba faktycznie przyjetych ani zapisanych studentow.
+- id: CLM-1206
+  text: Program KAI-Fire Point jest elitarnym pilotazem, a nie systemem masowym.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-1202
+  locators:
+  - 'SRC-1202: pojemnosc licencyjna 30'
+  as_of: '2026-07-21'
+  confidence: low
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Liczba 30 wspiera wniosek o malej skali, lecz zrodlo nie okresla programu jako pilotazowego ani elitarnego.
+- id: CLM-1207
+  text: Polska otrzymala juz w ramach SAFE ponad 43,7 mld EUR na lata 2026-2030.
+  type: FACT
+  status: disputed
+  source_ids:
+  - SRC-1203
+  - SRC-1204
+  locators:
+  - 'SRC-1203: Polska otrzyma ponad 43,7 mld EUR w perspektywie 2026-2030'
+  - 'SRC-1204: umowe pozyczki podpisano 8 maja 2026 r.; wartosc 43,7 mld EUR'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Kwota i okres sa potwierdzone, ale czasownik otrzymala sugeruje zakonczona wyplate calej kwoty. Zrodla potwierdzaja
+    podpisana wieloletnia pozyczke i przyszle przekazywanie srodkow, nie wyplate calych 43,7 mld EUR.
+- id: CLM-1208
+  text: Polska podpisala 8 maja 2026 r. umowe pozyczki SAFE o wartosci 43,7 mld EUR i jest najwiekszym beneficjentem instrumentu.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1203
+  - SRC-1204
+  locators:
+  - 'SRC-1203: kwota i pozycja Polski wsrod panstw czlonkowskich'
+  - 'SRC-1204: data podpisania, wartosc i charakter pozyczkowy'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: SAFE jest finansowaniem pozyczkowym gwarantowanym przez budzet UE, nie bezzwrotna dotacja.
+- id: CLM-1209
+  text: Wedlug komunikatu KPRM 89% funduszy SAFE ma trafic do polskiego przemyslu i gospodarki.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1203
+  locators:
+  - 'SRC-1203: akapit otwierajacy i sekcja Sprzet wojskowy powstanie w Polsce'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Jest to deklarowany udzial planowanych funduszy lub zamowien. Zrodlo nie dowodzi jeszcze finalnego udzialu po realizacji
+    programu.
+- id: CLM-1210
+  text: Ekosystem Brave1 obejmuje ponad 2500 firm i ponad 5000 produktow.
+  type: FACT
+  status: disputed
+  source_ids:
+  - SRC-1205
+  locators:
+  - 'SRC-1205: liczniki Total companies in the cluster i Total products'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Oficjalny licznik podaje 2500 firm bez znaku plus oraz 5000+ produktow. Sformulowanie ponad 2500 nie jest literalnie
+    wspierane przez wskazane zrodlo.
+- id: CLM-1211
+  text: Brave1 podaje 2500 firm, ponad 5000 produktow, ponad 500 producentow UAV, ponad 300 producentow EW/SIGINT i ponad
+    200 producentow rozwiazan AI.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1205
+  locators:
+  - 'SRC-1205: sekcja About Brave1 i liczby wedlug kategorii'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Liczby sa aktualnym samoopisem Brave1 i powinny byc oznaczane data odczytu.
+- id: CLM-1212
+  text: Umowa Polska-Ukraina przewiduje wlaczanie firm ukrainskich do lancuchow produkcyjnych, wybor lokalizacji produkcji
+    w Polsce lub Ukrainie, badanie wspolnej produkcji i ochrone wlasnosci intelektualnej.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1206
+  locators:
+  - 'SRC-1206: Defence industry cooperation, punkty 4, 7 i 9'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Tekst mowi o intencjach, rozwazaniu opcji i dzialaniach stron; nie ustanawia konkretnej spolki JV ani kontraktu produkcyjnego.
+- id: CLM-1213
+  text: BraveTech EU ma laczny budzet 100 mln EUR i laczy przemysly obronne UE i Ukrainy z wykorzystaniem doswiadczen z pola
+    walki.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1207
+  locators:
+  - 'SRC-1207: akapity o celu oraz sekcja About BraveTech EU'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: EDA wskazuje 100 mln EUR dla calej inicjatywy i 35 mln EUR dla drugiej fazy realizowanej przez EDA.
+- id: CLM-1214
+  text: Polska jest wymieniona przez EDA jako panstwo uczestniczace w BraveTech EU.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1207
+  locators:
+  - 'SRC-1207: Participating Member States, Poland'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Lista uczestnikow byla aktualna w oficjalnym komunikacie EDA z 29 kwietnia 2026 r.
+- id: CLM-1215
+  text: Polska powinna natychmiast wejsc do BraveTech EU, poniewaz jeszcze w nim nie uczestniczy.
+  type: RECOMMENDATION
+  status: disputed
+  source_ids:
+  - SRC-1207
+  locators:
+  - 'SRC-1207: lista Participating Member States zawiera Polske'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Przeslanka rekomendacji jest nieaktualna. Audyt nie ocenia innych form zwiekszenia zaangazowania Polski.
+- id: CLM-1216
+  text: Ukraina uruchomila w styczniu 2026 r. Brave1 Dataroom z Palantir do trenowania i testowania modeli AI na danych z
+    pola walki.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1208
+  locators:
+  - 'SRC-1208: data publikacji i akapity 1-4'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Zrodlo podaje bezpieczne srodowisko, wybrane zbiory wizualne i termiczne oraz dostep po procedurach bezpieczenstwa.
+- id: CLM-1217
+  text: Polityka AI do 2030 r. przewiduje rozwoj Piast i Gaia AI Factory, vouchery obliczeniowe w PLGrid oraz piaskownice
+    regulacyjne.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1209
+  locators:
+  - 'SRC-1209: strona 29, Glowne kierunki dzialan'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Dokument wymienia wszystkie cztery elementy wprost.
+- id: CLM-1218
+  text: Polityka AI do 2030 r. sama nie tworzy kompletnego, obronnego stosu danych i modeli.
+  type: INFERENCE
+  status: verified
+  source_ids:
+  - SRC-1209
+  locators:
+  - 'SRC-1209: strony 6, 14 i 29 oraz struktura dokumentu'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Dokument buduje ogolny ekosystem AI i odsyla do odrebnej Strategii AI MON do 2039 r.; wlasny zakres nie definiuje
+    obronnej przestrzeni danych, rejestru modeli ani wojskowego rezimu dostepu. Nie dowodzi to, ze takie rozwiazania nie istnieja
+    w dokumentach MON.
+- id: CLM-1219
+  text: Projekt Gaia AI Factory zostal oficjalnie uruchomiony w Krakowie w maju 2026 r. i ma integrowac sie z PLGrid oraz
+    wspolpracowac z Piast i LUMI.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1210
+  locators:
+  - 'SRC-1210: data, akapity o uruchomieniu, PLGrid oraz wspolpracy z Piast i LUMI'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Uruchomiono projekt i prace nad fabryka; komunikat nie stwierdza, ze docelowy superkomputer byl juz w pelni operacyjny.
+- id: CLM-1220
+  text: 'NATO wskazuje szesc zasad odpowiedzialnego uzycia AI w obronnosci: legalnosc, odpowiedzialnosc i rozliczalnosc, wyjasnialnosc
+    i identyfikowalnosc, niezawodnosc, sterowalnosc oraz ograniczanie stronniczosci.'
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1211
+  locators:
+  - 'SRC-1211: Strategic context, punkt 2'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: 'Polskie sformulowania sa wiernym tlumaczeniem NATO PRUs: Lawfulness; Responsibility and Accountability; Explainability
+    and Traceability; Reliability; Governability; Bias Mitigation.'
+- id: CLM-1221
+  text: Program MRiT Wsparcie kompetencji w obszarze innowacji dual-use na lata 2025-2029 ma zakladany budzet 22 mln PLN.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1212
+  locators:
+  - 'SRC-1212: sekcje Okres trwania programu i Budzet'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Zrodlo mowi o zakladanym budzecie programu, nie o wydatkach wykonanych.
+- id: CLM-1222
+  text: European Drone Defence Initiative i Eastern Flank Watch sa projektami flagowymi unijnej Readiness Roadmap 2030.
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1213
+  locators:
+  - 'SRC-1213: wprowadzenie oraz sekcja Launching European Readiness Flagships'
+  as_of: '2026-07-21'
+  confidence: high
+  author: USER-BRIEF
+  reviewer: A12
+  used_in: []
+  sensitivity: public
+  notes: Mapa drogowa wymienia je wsrod czterech projektow flagowych i publikuje osobne kamienie milowe ich uruchamiania i
+    funkcjonalnosci.

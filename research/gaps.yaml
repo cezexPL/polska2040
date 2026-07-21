@@ -1,3 +1,53 @@
 schema_version: 1
-gaps: []
+gaps:
+  - id: GAP-0001
+    question: "Jakie jawne luki zdolności i problemy użytkowników mają priorytet w latach 2027, 2030 i 2035?"
+    impact: "Zmienia kolejność filarów i portfel pilotaży."
+    owner: "właściwi użytkownicy publiczni"
+    status: open
+  - id: GAP-0002
+    question: "Jaki jest obecny medianowy czas od zgłoszenia potrzeby do pilotażu, kontraktu i pierwszej partii?"
+    impact: "Bez wartości bazowej nie da się przyjąć KPI 90 dni i 12 miesięcy."
+    owner: "właściciele procesów zamówień i testów"
+    status: open
+  - id: GAP-0003
+    question: "Jakie są zweryfikowane miesięczne moce produkcyjne, serwisowe i naprawcze według klas produktów?"
+    impact: "Warunkuje plan 30/90/180 dni i koszt rezerw mocy."
+    owner: "portfele obrony i gospodarki"
+    status: open
+  - id: GAP-0004
+    question: "Które komponenty mają pojedynczy kraj, dostawcę lub technologię zastępczą?"
+    impact: "Warunkuje priorytety substytucji i zapasów."
+    owner: "audyt łańcucha dostaw"
+    status: open
+  - id: GAP-0005
+    question: "Jakie istniejące zobowiązania finansowe już pokrywają elementy proponowanego programu?"
+    impact: "Zapobiega podwójnemu liczeniu i zawyżeniu dodatkowych potrzeb."
+    owner: "finanse i właściciele programów"
+    status: open
+  - id: GAP-0006
+    question: "Ilu absolwentów i specjalistów posiada faktyczne kompetencje według standardu zadaniowego?"
+    impact: "Warunkuje skalę sieci edukacyjnej i przekwalifikowania."
+    owner: "edukacja, nauka, przemysł"
+    status: open
+  - id: GAP-0007
+    question: "Jakie są koszty, kadry i obłożenie istniejących laboratoriów oraz poligonów?"
+    impact: "Pozwala uniknąć powielania infrastruktury."
+    owner: "właściciele infrastruktury testowej"
+    status: open
+  - id: GAP-0008
+    question: "Jakie zbiory danych mogą być legalnie i bezpiecznie udostępniane do treningu i ewaluacji?"
+    impact: "Warunkuje architekturę przestrzeni danych i przydatność modeli."
+    owner: "właściciele danych i zespoły prawne"
+    status: open
+  - id: GAP-0009
+    question: "Jakie są aktualne warunki, budżety i terminy instrumentów UE i NATO wskazywanych jako źródła finansowania?"
+    impact: "Zmienia harmonogram i wymagany wkład krajowy."
+    owner: "współpraca UE/NATO i finanse"
+    status: open
+  - id: GAP-0010
+    question: "Które zastosowania cywilne mają potwierdzony popyt, gotowość regulacyjną i przewagę eksportową?"
+    impact: "Warunkuje tezę o wpływie na produktywność i PKB."
+    owner: "gospodarka i regiony"
+    status: open
 

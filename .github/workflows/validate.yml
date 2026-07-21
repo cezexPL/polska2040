@@ -1,0 +1,32 @@
+name: validate-and-build
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Validate evidence and documents
+        run: python tooling/validate.py
+      - name: Build all artifacts
+        run: python tooling/build.py
+      - name: Upload review artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: polska2040-draft
+          path: dist/
+          if-no-files-found: error
+

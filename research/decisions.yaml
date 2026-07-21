@@ -1,3 +1,133 @@
 schema_version: 1
-decisions: []
+decisions:
+  - id: DEC-0001
+    decision: "Uruchomić ponadresortowy strategiczny przegląd suwerenności technologicznej i systemów autonomicznych"
+    addressee: "Prezes Rady Ministrów i Rada Ministrów"
+    owner: "KPRM — do formalnego wskazania"
+    deadline: "pierwsze 30 dni"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["mandat polityczny", "zakres jawny i ograniczony", "właściciele danych"]
+    kpis: ["zatwierdzony mandat", "powołani właściciele strumieni", "harmonogram przeglądu"]
+    risks: ["dublowanie istniejących strategii", "brak dostępu do danych"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Wymaga mapy relacji do obowiązujących strategii i programów."
+  - id: DEC-0002
+    decision: "Powołać przy KPRM właściciela portfela i niewielkie Biuro Realizacji z jasno określoną odpowiedzialnością resortów"
+    addressee: "Prezes Rady Ministrów"
+    owner: "KPRM — do formalnego wskazania"
+    deadline: "pierwsze 60 dni"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["DEC-0001", "analiza kompetencji", "RACI"]
+    kpis: ["zatwierdzony RACI", "miesięczny rytm raportowania", "rejestr eskalacji"]
+    risks: ["warstwa koordynacyjna bez realnego mandatu", "rozmycie odpowiedzialności ministrów"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Model ma wzmacniać, a nie zastępować odpowiedzialność organów."
+  - id: DEC-0003
+    decision: "Uruchomić cykliczny jawny portfel problemów oraz ograniczoną ścieżkę pilotażową z kryteriami stop/go"
+    addressee: "Rada Ministrów i właściwi użytkownicy publiczni"
+    owner: "portfel międzyresortowy — do wskazania"
+    deadline: "pierwsze 100 dni"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["właściciele problemów", "bezpieczna sanitizacja", "ścieżka testów i zamówień"]
+    kpis: ["czas problem–pilotaż", "udział testów użytkownika", "udział projektów zamkniętych zgodnie z kryteriami"]
+    risks: ["ujawnienie wrażliwych potrzeb", "pilotaże bez ścieżki zakupu"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Nie przyjmować celu 90 dni bez pomiaru wartości bazowej."
+  - id: DEC-0004
+    decision: "Uruchomić pilotaż bezpiecznej przestrzeni danych i ewaluacji modeli AI"
+    addressee: "właściwe organy obrony, cyfryzacji i nauki"
+    owner: "do wskazania po analizie kompetencji"
+    deadline: "pierwsze 6 miesięcy"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["klasyfikacja danych", "model dostępu", "środowisko obliczeniowe", "procedura ewaluacji"]
+    kpis: ["liczba zatwierdzonych datasetów", "czas nadania dostępu", "pokrycie testami i ślad audytowy"]
+    risks: ["wyciek danych", "vendor lock-in", "modele bez reprezentatywnej ewaluacji"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Repozytorium zawiera tylko jawny projekt polityki, nie dane operacyjne."
+  - id: DEC-0005
+    decision: "Przeprowadzić niezależny audyt mocy produkcyjnych, serwisu i krytycznych zależności komponentowych"
+    addressee: "Rada Ministrów"
+    owner: "portfele obrony i gospodarki — do wskazania"
+    deadline: "pierwsze 6 miesięcy"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["zakres danych", "ochrona tajemnic przedsiębiorstwa", "metoda porównawcza"]
+    kpis: ["pokrycie klas komponentów", "liczba pojedynczych punktów awarii", "zweryfikowane scenariusze 30/90/180 dni"]
+    risks: ["deklaratywne zamiast zweryfikowanych mocy", "capture dostawców"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Wyniki jawne powinny być agregowane."
+  - id: DEC-0006
+    decision: "Zaprojektować Narodową Sieć Inżynierii Autonomicznej na bazie istniejących szkół, uczelni, instytutów i firm"
+    addressee: "portfele edukacji, nauki i gospodarki"
+    owner: "do wskazania"
+    deadline: "projekt do 6 miesięcy"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["audyt kompetencji", "popyt regionalny", "standardy kwalifikacji", "partnerzy przemysłowi"]
+    kpis: ["retencja absolwentów", "ukończone praktyki", "kompetencje potwierdzone przez użytkownika", "zatrudnienie po programie"]
+    risks: ["kierunki bez popytu", "infrastruktura bez kadry", "odpływ talentów"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Cele 16 centrów i 100 szkół wymagają analizy wykonalności."
+  - id: DEC-0007
+    decision: "Wybrać ograniczone pilotaże polsko-ukraińskie według jawnych kryteriów i pełnego due diligence"
+    addressee: "Rada Ministrów i właściwe instytucje współpracy międzynarodowej"
+    owner: "do wskazania"
+    deadline: "lista kandydatów do 6 miesięcy"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["kryteria partnera", "IP", "kontrola eksportu", "bezpieczeństwo informacji", "plan ciągłości"]
+    kpis: ["czas do testu", "udział projektów z rozstrzygniętym IP", "zdolność produkcji i serwisu"]
+    risks: ["uzależnienie od pojedynczej firmy", "niejasna własność IP", "zmiana sytuacji politycznej"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Żaden podmiot nie jest wskazany z góry."
+  - id: DEC-0008
+    decision: "Zbudować skonsolidowany model finansowy istniejących zobowiązań i nowych opcji bez podwójnego liczenia"
+    addressee: "Minister właściwy do spraw finansów i KPRM"
+    owner: "do wskazania"
+    deadline: "pierwsze 6 miesięcy"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["audyt programów", "definicja dodatkowości", "scenariusze", "koszty alternatywne"]
+    kpis: ["udział kosztów z pełną ścieżką źródłową", "pokrycie zobowiązań", "analizy wrażliwości"]
+    risks: ["podwójne liczenie", "fałszywa precyzja", "nieuwzględnione koszty utrzymania"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Model v0.1 pozostawia brakujące wartości jako UNKNOWN."
+  - id: DEC-0009
+    decision: "Przygotować pakiet zmian procesowych, kontraktowych i prawnych w kolejności od najmniej do najbardziej inwazyjnych"
+    addressee: "KPRM i właściwe resorty"
+    owner: "do wskazania"
+    deadline: "projekt do 6 miesięcy"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["mapa barier", "analiza prawa UE", "konsultacje", "OSR"]
+    kpis: ["czas wdrożenia", "liczba usuniętych barier", "wyniki ewaluacji ex post"]
+    risks: ["nadregulacja", "mylenie bariery prawnej z organizacyjną"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Nie zakładać ustawy, zanim nie zostanie wykazane, że jest konieczna."
+  - id: DEC-0010
+    decision: "Wprowadzić publiczny dashboard realizacji oraz coroczny raport projektów zakończonych i zamkniętych"
+    addressee: "właściciel portfela przy KPRM"
+    owner: "Biuro Realizacji — wariant roboczy"
+    deadline: "pierwsza wersja do 12 miesięcy"
+    cost_range: null
+    legal_basis: null
+    dependencies: ["definicje KPI", "wartości bazowe", "właściciele danych", "zasady sanitizacji"]
+    kpis: ["kompletność raportowania", "terminowość", "liczba decyzji podjętych na podstawie danych"]
+    risks: ["dashboard bez decyzji", "gaming wskaźników", "publikacja danych wrażliwych"]
+    evidence_claim_ids: []
+    status: candidate
+    notes: "Wersja jawna wymaga agregacji i kontroli ujawnienia."
 

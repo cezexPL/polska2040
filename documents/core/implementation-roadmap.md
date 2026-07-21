@@ -17,6 +17,10 @@
 7. Zastosowania cywilne i regiony.
 8. Prawo, etyka i bezpieczeństwo informacji.
 
+Horyzonty poniżej porządkują kolejność pracy. Pierwszy rok służy przede wszystkim uzyskaniu danych i zdolności wykonawczej; decyzje o masowym skalowaniu wymagają dowodów z pilotaży.
+
+![Horyzonty realizacji: pierwsze 100 dni, 6 i 12 miesięcy, lata 2027–2030, 2031–2035 i ambicja 2040](assets/generated/roadmap-horizons.svg)
+
 ## Pierwsze 100 dni
 
 Do uzupełnienia decyzjami i RACI.
@@ -52,4 +56,3 @@ Które działania wymagają ustawy, uchwały RM, zarządzenia, kontraktu lub wy�
 ## Zastrzeżenia i założenia
 
 Harmonogram jest projektem eksperckim i nie przesądza kompetencji organów państwa.
-

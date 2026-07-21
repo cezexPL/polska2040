@@ -1,3 +1,200 @@
 schema_version: 1
-sources: []
-
+sources:
+- id: SRC-1201
+  title: FirePoint
+  publisher: Komisja rekrutacyjna Kijowskiego Instytutu Lotnictwa (KAI)
+  url: https://pk.kai.edu.ua/firepoint/
+  published_at: '2026-06-24'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalna strona programu studiow
+  language: uk
+  locator: 'Sekcja otwierajaca, opis programu oraz karty korzysci: czas trwania, finansowanie, stypendium i praktyka'
+  checksum: sha256:b8e4476f189a1e2c3f965d68b39d264741f05712d17756a86840c1b792e7872f
+  license: null
+  archive_path: null
+  status: verified
+  notes: Oficjalna strona rekrutacyjna; opisuje deklarowane warunki programu, lecz nie zastepuje regulaminu stypendium ani
+    umowy ze studentem.
+- id: SRC-1202
+  title: Konkursni propozytsii bakalavratu 2026
+  publisher: Komisja rekrutacyjna Kijowskiego Instytutu Lotnictwa (KAI)
+  url: https://pk.kai.edu.ua/offers-bachelor/
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny katalog ofert rekrutacyjnych
+  language: uk
+  locator: Karta programu Inzynieria lotniczych autonomicznych systemow robotycznych z Fire Point; pola Licencja i Termin
+  checksum: sha256:1585ba93b0eeeea7bdb18f36c722f790f6f237968f428d56f6e69b86489c20fc
+  license: null
+  archive_path: null
+  status: verified
+  notes: Strona dynamiczna. W dniu dostepu wskazywala pojemnosc licencyjna 30 oraz czas 3 lata i 10 miesiecy.
+- id: SRC-1203
+  title: Nowe zdolnosci Wojska Polskiego dzieki programowi SAFE - lista zadan
+  publisher: Kancelaria Prezesa Rady Ministrow
+  url: https://www.gov.pl/web/premier/nowe-zdolnosci-wojska-polskiego-dzieki-programowi-safe---lista-zadan
+  published_at: '2026-02-27'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: komunikat rzadowy
+  language: pl
+  locator: Akapit otwierajacy oraz sekcja Sprzet wojskowy powstanie w Polsce
+  checksum: sha256:5ca1361d10dcca2b689442f2ab5d4673ba5f65936391337217156a7fda60cda2
+  license: CC BY-SA 4.0 dla tresci tekstowej, zgodnie ze stopka gov.pl
+  archive_path: null
+  status: verified
+  notes: Potwierdza planowana wartosc, okres i deklarowany udzial zamowien kierowanych do polskiej gospodarki; nie jest dowodem
+    faktycznych wyplat ani koncowego wykonania udzialu 89%.
+- id: SRC-1204
+  title: Podpisanie umowy pozyczki z instrumentu SAFE
+  publisher: Ministerstwo Finansow
+  url: https://www.gov.pl/web/finanse/podpisanie-umowy-pozyczki-z-instrumentu-safe
+  published_at: '2026-05-08'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: komunikat o podpisaniu umowy pozyczki
+  language: pl
+  locator: Punkty otwierajace oraz akapity o wartosci i warunkach pozyczki SAFE
+  checksum: sha256:6723143ec53ea49233365fa48b0f9e014d63d0b3582eb20de05aeb8a155d1e91
+  license: CC BY-SA 4.0 dla tresci tekstowej, zgodnie ze stopka gov.pl
+  archive_path: null
+  status: verified
+  notes: Potwierdza podpisanie umowy 8 maja 2026 r. i wartosc 43,7 mld EUR; opisuje SAFE jako pozyczke, a nie dotacje.
+- id: SRC-1205
+  title: Brave1 defence technology cluster
+  publisher: Brave1
+  url: https://www.brave1.gov.ua/en/
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalny licznik ekosystemu
+  language: en
+  locator: 'Sekcja About Brave1: total companies, total products i liczby producentow wedlug kategorii'
+  checksum: sha256:b1a85096c82396475664508a62fd78e5fc10e528b7f7c14044aef73910f23df3
+  license: null
+  archive_path: null
+  status: verified
+  notes: Dane sa samoopisowym, dynamicznym licznikiem Brave1; wymagaja ponownego odczytu przy kazdym wydaniu.
+- id: SRC-1206
+  title: Agreement on Security Cooperation between Ukraine and the Republic of Poland
+  publisher: President of Ukraine
+  url: https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-mizh-ukrayinoyu-ta-92009
+  published_at: '2024-07-08'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny tekst dwustronnej umowy o wspolpracy w dziedzinie bezpieczenstwa
+  language: en
+  locator: Czesc III, Defence industry cooperation, punkty 4, 7 i 9
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Tekst odczytano w oficjalnym serwisie; bezposrednie pobranie zwracalo HTTP 403, dlatego nie zapisano sumy kontrolnej.
+- id: SRC-1207
+  title: EDA partners with the European Commission on BraveTech EU
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/news-and-events/news/2026/04/29/eda-partners-with-the-european-commission-on-bravetech-eu
+  published_at: '2026-04-29'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat EDA
+  language: en
+  locator: Akapity o umowie EDA-KE, sekcja About BraveTech EU oraz lista Participating Member States
+  checksum: sha256:5e33188e772776acfa53acf94d6afd15d6f1cf8382a62344d6ca41f1dd407703
+  license: null
+  archive_path: null
+  status: verified
+  notes: Potwierdza budzet calej inicjatywy, wartosc drugiej fazy oraz uczestnictwo Polski.
+- id: SRC-1208
+  title: Ukraine Launches Brave1 Dataroom with Palantir to Train AI Models Using Battlefield Data
+  publisher: Digital State UA
+  url: https://digitalstate.gov.ua/news/tech/ukraine-launches-brave1-dataroom-with-palantir-to-train-ai-models-using-battlefield-data
+  published_at: '2026-01-20'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat projektu cyfrowego Ukrainy
+  language: en
+  locator: Akapity 1-4 opisu uruchomienia, partnerow, danych i zasad dostepu
+  checksum: sha256:9ca06252b37044a3c27b8527f19f2d2f72aedae91b8812c01d9bc4d59bdf4c7e
+  license: null
+  archive_path: null
+  status: verified
+  notes: Potwierdza uruchomienie i deklarowany zakres; nie stanowi niezaleznej ewaluacji skutecznosci Dataroom.
+- id: SRC-1209
+  title: Polityka rozwoju sztucznej inteligencji w Polsce do 2030 roku
+  publisher: Ministerstwo Cyfryzacji
+  url: https://ai.gov.pl/media/2025/11/Polityka-rozwoju-sztucznej-inteligencji-w-Polsce-do-2030-roku-17.11.2025__-1.pdf
+  published_at: '2025-11-17'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: polityka publiczna
+  language: pl
+  locator: Strony 6, 14 i 29; kierunki dzialan infrastrukturalnych oraz odniesienie do odrebnej strategii MON
+  checksum: sha256:e8624c70e08c3c657436a310272c2cd3c31dbc64f8d0d81da8e2b9464d5f2ced
+  license: null
+  archive_path: null
+  status: verified
+  notes: Dokument potwierdza Piast, Gaia, PLGrid, vouchery obliczeniowe i piaskownice; nie opisuje kompletnego, obronnego
+    stosu danych i modeli.
+- id: SRC-1210
+  title: Gaia AI - fabryka sztucznej inteligencji powstaje w Krakowie
+  publisher: Ministerstwo Cyfryzacji
+  url: https://www.gov.pl/web/cyfryzacja/gaia-ai--fabryka-sztucznej-inteligencji-powstaje-w-krakowie
+  published_at: '2026-05-11'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: komunikat rzadowy
+  language: pl
+  locator: Akapity o uruchomieniu projektu, PLGrid, Piast i LUMI oraz informacje o projekcie
+  checksum: sha256:74fbac158ad58091a2905ce0b08cc9f7056cd9f6cc9943794619d27e6c556a00
+  license: CC BY-SA 4.0 dla tresci tekstowej, zgodnie ze stopka gov.pl
+  archive_path: null
+  status: verified
+  notes: Potwierdza formalne rozpoczecie projektu Gaia, nie pelna gotowosc infrastruktury.
+- id: SRC-1211
+  title: Summary of NATO's revised Artificial Intelligence (AI) strategy
+  publisher: NATO
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy
+  published_at: '2024-07-10'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny tekst NATO
+  language: en
+  locator: Strategic context, punkt 2; zasady odpowiedzialnego wykorzystania AI w obronnosci
+  checksum: sha256:687d80c5c98df5926ad12096bed82be11d299ff624efc9d3a5b2ea991e340c65
+  license: null
+  archive_path: null
+  status: verified
+  notes: Oficjalna lista szesciu NATO Principles of Responsible Use.
+- id: SRC-1212
+  title: Program Ministra na lata 2025-2029 Wsparcie kompetencji w obszarze innowacji dual-use
+  publisher: Ministerstwo Rozwoju i Technologii
+  url: https://www.gov.pl/web/rozwoj-technologia/program-ministra-na-lata-20252029-wsparcie-kompetencji-w-obszarze-innowacji-dual-use
+  published_at: '2025-08-14'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalna karta programu ministra
+  language: pl
+  locator: Sekcje Okres trwania programu i Budzet
+  checksum: sha256:25359d38b63d24803b152607a1719003216da92196698221ca85221fa7ef2091
+  license: CC BY-SA 4.0 dla tresci tekstowej, zgodnie ze stopka gov.pl
+  archive_path: null
+  status: verified
+  notes: Strona byla aktualizowana w marcu 2026 r.; w dniu audytu nadal wskazywala 22 mln PLN.
+- id: SRC-1213
+  title: Readiness Roadmap 2030
+  publisher: European Commission, Directorate-General for Defence Industry and Space
+  url: https://defence-industry-space.ec.europa.eu/eu-defence-industry/readiness-roadmap-2030_en
+  published_at: '2025-10-16'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalna mapa drogowa UE
+  language: en
+  locator: Wprowadzenie oraz sekcja Launching European Readiness Flagships
+  checksum: sha256:ef6e135098bb616a555237cce2813bc48ad8fd3507927e12e3633a9151e80fcf
+  license: null
+  archive_path: null
+  status: verified
+  notes: Potwierdza status obu inicjatyw jako projektow flagowych mapy drogowej i publikuje ich kamienie milowe.

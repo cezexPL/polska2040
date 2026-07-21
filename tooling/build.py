@@ -7,6 +7,7 @@ import shutil
 from datetime import date
 from pathlib import Path
 
+import cairosvg
 import markdown
 import yaml
 from bs4 import BeautifulSoup, NavigableString, Tag
@@ -18,6 +19,8 @@ from pptx.dml.color import RGBColor as PptxRGBColor
 from pptx.enum.text import PP_ALIGN
 from pptx.util import Inches as PptxInches, Pt as PptxPt
 from weasyprint import HTML
+
+from build_model import build_financing_model
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -74,6 +77,37 @@ def read_manifest() -> list[dict]:
 
 def markdown_to_body(text: str) -> str:
     return markdown.markdown(text, extensions=["extra", "tables", "fenced_code", "footnotes", "sane_lists", "toc"])
+
+
+def evidence_markdown() -> str:
+    sections = []
+    configs = [
+        ("Źródła", "research/sources.yaml", "sources", ["id", "title", "publisher", "published_at", "tier", "status"]),
+        ("Twierdzenia", "research/claims.yaml", "claims", ["id", "type", "status", "confidence", "text", "source_ids"]),
+        ("Sprzeczności", "research/contradictions.yaml", "contradictions", ["id", "claim_ids", "status", "summary"]),
+        ("Luki danych", "research/gaps.yaml", "gaps", ["id", "question", "impact", "owner", "status"]),
+        ("Decyzje", "research/decisions.yaml", "decisions", ["id", "decision", "addressee", "owner", "status"]),
+        ("Ryzyka", "research/risks.yaml", "risks", ["id", "risk", "severity", "owner", "status"]),
+    ]
+    for title, relative_path, key, columns in configs:
+        path = ROOT / relative_path
+        data = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else {}
+        records = (data or {}).get(key, [])
+        sections.append(f"\n## {title}\n")
+        if not records:
+            sections.append("Brak rekordów w bieżącym wydaniu.\n")
+            continue
+        sections.append("| " + " | ".join(columns) + " |\n")
+        sections.append("|" + "|".join(["---"] * len(columns)) + "|\n")
+        for record in records:
+            values = []
+            for column in columns:
+                value = record.get(column, "")
+                if isinstance(value, list):
+                    value = ", ".join(str(item) for item in value)
+                values.append(str(value).replace("|", "\\|").replace("\n", " "))
+            sections.append("| " + " | ".join(values) + " |\n")
+    return "".join(sections)
 
 
 def strip_frontmatter(text: str) -> str:
@@ -170,7 +204,13 @@ def html_to_docx(html_text: str, destination: Path, title: str, disclaimer: str)
             if src:
                 path = (ROOT / src).resolve()
                 if path.exists() and ROOT in path.parents:
-                    document.add_picture(str(path), width=Inches(6.2))
+                    picture_path = path
+                    if path.suffix.lower() == ".svg":
+                        converted_dir = ROOT / "build" / "docx-media"
+                        converted_dir.mkdir(parents=True, exist_ok=True)
+                        picture_path = converted_dir / f"{path.stem}.png"
+                        cairosvg.svg2png(url=str(path), write_to=str(picture_path), output_width=1600)
+                    document.add_picture(str(picture_path), width=Inches(6.2))
 
     footer = section.footer.paragraphs[0]
     footer.text = f"Polska 2040 · draft v0.1 · {TODAY}"
@@ -245,6 +285,8 @@ def markdown_to_pptx(artifact: dict, text: str, destination: Path):
 def build_artifact(artifact: dict) -> dict:
     source_path = ROOT / artifact["source"]
     text = source_path.read_text(encoding="utf-8")
+    if artifact["id"] == "evidence-book":
+        text += evidence_markdown()
     is_deck = artifact["kind"] == "deck"
     html_text = deck_html(artifact, text) if is_deck else report_html(artifact, text)
     output_dir = DIST / artifact["id"]
@@ -286,6 +328,7 @@ def main():
         shutil.rmtree(DIST)
     DIST.mkdir(parents=True)
     results = [build_artifact(artifact) for artifact in read_manifest()]
+    build_financing_model(DIST / "models" / "financing-scenarios.xlsx")
     build_catalog(results)
     (DIST / "build-manifest.json").write_text(json.dumps({"generated_at": TODAY, "artifacts": results}, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Built {len(results)} artifacts in {DIST}")
@@ -293,4 +336,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

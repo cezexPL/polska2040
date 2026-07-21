@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+from datetime import date, datetime
 from pathlib import Path
 
 import yaml
@@ -14,9 +15,19 @@ ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_DIR = ROOT / "research" / "schemas"
 
 
+def normalize_scalars(value):
+    if isinstance(value, (date, datetime)):
+        return value.isoformat()
+    if isinstance(value, list):
+        return [normalize_scalars(item) for item in value]
+    if isinstance(value, dict):
+        return {key: normalize_scalars(item) for key, item in value.items()}
+    return value
+
+
 def load_yaml(path: Path):
     with path.open(encoding="utf-8") as handle:
-        return yaml.safe_load(handle)
+        return normalize_scalars(yaml.safe_load(handle))
 
 
 def load_json(path: Path):
@@ -48,8 +59,11 @@ def check_internal_links(errors: list[str]):
             if target.startswith(("http://", "https://", "mailto:", "#")):
                 continue
             clean_target = target.split("#", 1)[0]
-            if clean_target and not (path.parent / clean_target).resolve().exists():
-                errors.append(f"{path.relative_to(ROOT)}: broken link {target}")
+            if clean_target:
+                relative_candidate = (path.parent / clean_target).resolve()
+                root_candidate = (ROOT / clean_target).resolve()
+                if not relative_candidate.exists() and not root_candidate.exists():
+                    errors.append(f"{path.relative_to(ROOT)}: broken link {target}")
 
 
 def check_sensitive_patterns(errors: list[str]):

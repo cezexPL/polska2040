@@ -1,0 +1,50 @@
+schema_version: 1
+contradictions:
+  - id: CTR-1201
+    claim_ids:
+      - CLM-1201
+    source_ids:
+      - SRC-1201
+      - SRC-1202
+    severity: P2
+    status: open
+    issue: "Niespojnosc czasu trwania programu KAI-Fire Point"
+    evidence: "Strona promocyjna KAI podaje 4 lata, natomiast karta oferty rekrutacyjnej 2026 podaje 3 lata i 10 miesiecy."
+    disposition: "Wymaga ujednolicenia przed publikacja; przy dokladnej wartosci formalna karta oferty wspiera 3 lata i 10 miesiecy."
+
+  - id: CTR-1202
+    claim_ids:
+      - CLM-1207
+      - CLM-1208
+    source_ids:
+      - SRC-1203
+      - SRC-1204
+    severity: P1
+    status: open
+    issue: "Przyznane finansowanie SAFE zostalo opisane jak zakonczona wyplata"
+    evidence: "Oficjalne zrodla potwierdzaja podpisanie wieloletniej umowy pozyczki o wartosci 43,7 mld EUR oraz perspektywe 2026-2030; nie potwierdzaja wyplaty calej kwoty."
+    disposition: "Status finansowania musi pozostac rozdzielony na alokacje, umowe, transze i wykonanie."
+
+  - id: CTR-1203
+    claim_ids:
+      - CLM-1210
+      - CLM-1211
+    source_ids:
+      - SRC-1205
+    severity: P2
+    status: open
+    issue: "Liczba firm Brave1 zostala zaokraglona w gore bez wsparcia zrodla"
+    evidence: "Licznik Brave1 wskazuje 2500 firm oraz 5000+ produktow, nie ponad 2500 firm."
+    disposition: "Liczby musza zachowac kwalifikatory uzyte przez zrodlo i date odczytu."
+
+  - id: CTR-1204
+    claim_ids:
+      - CLM-1214
+      - CLM-1215
+    source_ids:
+      - SRC-1207
+    severity: P1
+    status: open
+    issue: "Rekomendacja wejscia Polski do BraveTech EU opiera sie na nieaktualnej przeslance"
+    evidence: "EDA wymienia Polske na liscie Participating Member States w komunikacie z 29 kwietnia 2026 r."
+    disposition: "Twierdzenie o braku uczestnictwa Polski nie moze byc publikowane w aktualnym materiale."

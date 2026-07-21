@@ -1,6 +1,9 @@
 PYTHON ?= .venv/bin/python
 
-.PHONY: validate build clean
+.PHONY: sync validate build clean
+
+sync:
+	$(PYTHON) tooling/sync_research.py
 
 validate:
 	$(PYTHON) tooling/validate.py
@@ -10,4 +13,3 @@ build:
 
 clean:
 	rm -rf dist build
-
