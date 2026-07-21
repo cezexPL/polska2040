@@ -53,6 +53,10 @@ Wersjonowana migawka po pozytywnej bramce powstaje w `release/v0.1/`; sposób je
 - [kontrola wizualna i techniczna](reports/visual-qa-v0.1.md): `PASS`, P0/P1/P2 = 0 dla wszystkich 403 stron PDF oraz formatów Office/HTML;
 - [noty wydania](reports/release-notes-v0.1.md) opisują zakres, ograniczenia i sugerowaną kolejność recenzji.
 
+### Zakres dodany po zamrożeniu v0.1
+
+Aktualny `main` dodał mandat A13 dotyczący suwerenności modeli lokalnych/open-weight i odporności na szoki energetyczne. Zakres ten nie został dopisany pozornie do gotowej strategii: wymaga nowych źródeł, rejestru twierdzeń, scenariuszy, integracji z finansami/roadmapą/briefami oraz kolejnego niezależnego red-team. Dlatego jest bramką wydania v0.2, a `release/v0.1` pozostaje niezmienną, audytowalną migawką. Katalog landing page zachowuje dla niegotowych materiałów status `preparing`; repozytorium nie zostało wdrożone publicznie.
+
 ## Budowa i kontrola
 
 ```bash
