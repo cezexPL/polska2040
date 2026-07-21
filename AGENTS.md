@@ -104,3 +104,22 @@ Autor zapisuje wyłącznie we własnym pakiecie domenowym. Nie edytuje dokumentu
 - Dwa nieudane podejścia do pozyskania źródła powodują wpis `UNKNOWN`, nie zgadywanie.
 - Krytyczna sprzeczność blokuje publikację twierdzenia, ale nie blokuje zapisania jej w księdze dowodowej.
 
+
+## Kontrakt publikacji dokumentów na stronie
+
+Repozytorium jest źródłem prawdy, ale katalog `documents/` nie jest automatycznie publiczny. Dokument może pojawić się na `poland2040.com` wyłącznie po spełnieniu obu warunków:
+
+- `visibility: public`
+- `status: reviewed`
+
+Koordynator publikacji po zakończeniu i niezależnej weryfikacji dokumentu:
+
+1. generuje publiczny HTML oraz PDF z tego samego zatwierdzonego źródła;
+2. usuwa treści operacyjnie wrażliwe i sprawdza kompletność źródeł;
+3. zapisuje artefakty w `landingpage/`;
+4. aktualizuje właściwy wpis w `landingpage/documents.json`, dodając `html`, `pdf`, `updated` i opcjonalnie `version`;
+5. nie zmienia identyfikatora `id` ani kolejności istniejącego kafla;
+6. uruchamia walidację linków i budowę Kustomize;
+7. dopiero po zatwierdzeniu człowieka dopuszcza wdrożenie produkcyjne.
+
+Status `preparing` jest publiczną informacją o trwających pracach, lecz nie udostępnia roboczej treści. Statusy `draft`, `blocked`, `internal` i materiały bez audytu nie mogą otrzymać odnośnika publicznego. Pliki `AGENTS.md`, `GOAL.md`, surowe notatki, rejestry wewnętrzne i aneksy ograniczone nigdy nie są publikowane przez ten mechanizm.
