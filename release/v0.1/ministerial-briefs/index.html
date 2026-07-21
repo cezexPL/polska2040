@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Briefy portfeli ministerialnych</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="ministerial-briefs"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="briefy-portfeli-ministerialnych">Briefy portfeli ministerialnych</h1>
+<p><strong>Program:</strong> Polska 2040: Suwerenność technologiczna<br />
+<strong>Status:</strong> niezależny materiał przedmandatowy v0.1 do konsultacji; nie przypisuje zadań organom<br>
+<strong>Stan wiedzy:</strong> 21 lipca 2026 r.<br />
+<strong>Uwaga:</strong> nazwy portfeli są funkcjonalne; właściwość i aktualne nazwy organów wymagają formalnego potwierdzenia.</p>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<p>Program nie może być „własnością” jednego resortu. Każdy portfel otrzymuje mierzalny rezultat, decyzje pierwszych 100 dni, dane, KPI, zależności oraz warunek zatrzymania. Integrator KPRM utrzymuje wspólny obraz, lecz nie przejmuje kompetencji wykonawczych.</p>
+<p>Wszystkie działania są kandydatami do rozpatrzenia. Odwołują się do wspólnego rejestru <strong>DEC-0001–DEC-0010</strong>, lecz nie stanowią decyzji ministra ani przydziału ustawowej właściwości. Formalny właściciel i podstawa procesu pozostają <code>UNKNOWN</code> (<strong>GAP-0011</strong>).</p>
+<h3 id="wspolny-kontrakt">Wspólny kontrakt</h3>
+<ul>
+<li>dokładnie jeden organ <code>A</code> dla każdego rezultatu;</li>
+<li>użytkownik i wartość bazowa przed projektem;</li>
+<li>płatność i skala po bramkach dowodowych;</li>
+<li>rozdzielenie danych jawnych i chronionych;</li>
+<li>autor/dostawca nie odbiera własnego wyniku;</li>
+<li>obowiązkowy koszt cyklu życia i stop-rule;</li>
+<li>kwartalny raport wyjątków oraz projektów zamkniętych.</li>
+</ul>
+<h2 id="1-portfel-obrony">1. Portfel obrony</h2>
+<h3 id="mandat-i-rezultat">Mandat i rezultat</h3>
+<p>Przełożyć priorytety bezpieczeństwa na mierzalne problemy użytkowników, testy, iteracyjne zamówienia, zdolność produkcji i utrzymania — w zgodzie z planowaniem narodowym i sojuszniczym, bez ujawniania informacji chronionych.</p>
+<h3 id="piec-decyzji">Pięć decyzji</h3>
+<ol>
+<li>Wskazać właścicieli jawnych kategorii problemów i autoryzowanych wymagań.</li>
+<li>Przyjąć wspólną kartę problemu oraz siedem bramek od potrzeby do przeglądu eksploatacyjnego.</li>
+<li>Wyznaczyć jednostki testowe, reguły dostępu i niezależnego odbioru.</li>
+<li>Włączyć cyber, dane, interoperacyjność, serwis i substytucję do decyzji skali.</li>
+<li>Zdefiniować agregaty, które mogą zasilać dashboard publiczny bez zwiększenia ryzyka.</li>
+</ol>
+<h3 id="pierwsze-100-dni">Pierwsze 100 dni</h3>
+<ul>
+<li>katalog problemów na poziomie możliwym do udostępnienia;</li>
+<li>matryca właściciel–użytkownik–nabywca–tester;</li>
+<li>audyt czasu przejścia między bramkami na reprezentatywnej próbie;</li>
+<li>protokoły testów i kryteria małej partii;</li>
+<li>lista istniejących programów wymagających integracji, nie dublowania;</li>
+<li>pytania do aneksu autoryzowanego: luki, wolumeny, zapasy, tempo odtworzenia i scenariusze.</li>
+</ul>
+<h3 id="dane-i-kpi">Dane i KPI</h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definicja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>czas B0→B3</td>
+<td>mediana od zaakceptowanego problemu do testu użytkownika</td>
+</tr>
+<tr>
+<td>udział testów użytkownika</td>
+<td>projekty z zakończonym testem / projekty po prototypie</td>
+</tr>
+<tr>
+<td>decyzje końcowe</td>
+<td>skaluj, popraw, nisza lub zamknij z uzasadnieniem</td>
+</tr>
+<tr>
+<td>gotowość cyklu życia</td>
+<td>systemy z serwisem, konfiguracją, aktualizacją i planem wyjścia</td>
+</tr>
+<tr>
+<td>testowana substytucja</td>
+<td>krytyczne elementy z zaliczoną alternatywą / elementy w zakresie</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zaleznosci-i-ryzyka">Zależności i ryzyka</h3>
+<p>Zależności: finanse, przemysł, cyfryzacja, prawo, sprawy zagraniczne i bezpieczeństwo informacji. Ryzyka: nadmierna tajność, tryb pilny jako norma, test dostawcy zamiast użytkownika, wolumen przed TCO. <strong>Stop-rule:</strong> projekt bez właściciela problemu, legalnego dostępu do danych lub niezależnego testu nie przechodzi do skali.</p>
+<h2 id="2-portfel-finansow-publicznych">2. Portfel finansów publicznych</h2>
+<h3 id="mandat-i-rezultat_1">Mandat i rezultat</h3>
+<p>Zapewnić osiągalność fiskalną, dodatkowość finansowania, kontrolę zobowiązań i kosztu alternatywnego oraz jednolitą metodologię TCO i wpływu gospodarczego.</p>
+<h3 id="piec-decyzji_1">Pięć decyzji</h3>
+<ol>
+<li>Nadać unikalny identyfikator każdemu kosztowi niezależnie od instrumentu.</li>
+<li>Oddzielić zobowiązanie, płatność, pożyczkę, gwarancję, kapitał i grant.</li>
+<li>Przyjąć trzy scenariusze L/B/H oraz wspólny rok cen.</li>
+<li>Zatwierdzić metodologię wartości dodanej w Polsce i kontrfaktycznego wpływu.</li>
+<li>Wymagać kosztu zakończenia, migracji i ekspozycji warunkowej przed skalą.</li>
+</ol>
+<h3 id="pierwsze-100-dni_1">Pierwsze 100 dni</h3>
+<ul>
+<li>mapa istniejących programów, zobowiązań i płatności;</li>
+<li>przypisanie SAFE, EDF, EUDIS, STEP i instrumentów krajowych do etapów, bez zakładania kwalifikowalności;</li>
+<li>koszt działań odwracalnych pierwszego roku;</li>
+<li>rejestr podwójnego finansowania;</li>
+<li>metodologia TCO, dodatkowości i kosztu alternatywnego;</li>
+<li>pierwsza analiza wrażliwości.</li>
+</ul>
+<p>SAFE należy ujmować jako pożyczkę, nie dotację (<strong>CLM-1208</strong>). Deklarowany plan 89% dla polskiej gospodarki wymaga definicji i pomiaru wykonania (<strong>CLM-1209</strong>).</p>
+<h3 id="dane-i-kpi_1">Dane i KPI</h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definicja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>koszt do dowodu</td>
+<td>wydatki do zakończenia testu / projekt</td>
+</tr>
+<tr>
+<td>zobowiązania przyrostowe</td>
+<td>nowe koszty po odjęciu istniejących zobowiązań</td>
+</tr>
+<tr>
+<td>TCO na rezultat</td>
+<td>pełny koszt cyklu / jednostka wyniku</td>
+</tr>
+<tr>
+<td>prywatny udział ryzyka</td>
+<td>kapitał rzeczywiście narażony / kapitał ryzyka</td>
+</tr>
+<tr>
+<td>uniknięte zobowiązania</td>
+<td>niewykonane opcje po negatywnym teście</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zaleznosci-i-ryzyka_1">Zależności i ryzyka</h3>
+<p>Zależności: wszystkie portfele. Ryzyka: liczenie limitu jako płatności, arbitralne mnożniki PKB, pomijanie OPEX i gwarancji, presja „wykorzystania środków”. <strong>Stop-rule:</strong> brak dodatkowości lub nierozwiązane podwójne finansowanie blokuje płatność/skale.</p>
+<h2 id="3-portfel-gospodarki-i-przemysu">3. Portfel gospodarki i przemysłu</h2>
+<h3 id="mandat-i-rezultat_2">Mandat i rezultat</h3>
+<p>Zbudować zweryfikowaną zdolność integracji, produkcji, jakości, serwisu i substytucji najważniejszych warstw bez dążenia do pełnej autarkii.</p>
+<h3 id="piec-decyzji_2">Pięć decyzji</h3>
+<ol>
+<li>Zatwierdzić klasyfikację: kontroluj w kraju, współkontroluj, dywersyfikuj, zaakceptuj zależność.</li>
+<li>Uruchomić audyt mocy, wąskich gardeł, praw, komponentów, energii i kapitału obrotowego.</li>
+<li>Przyjąć kontrakt cyklu życia i kwalifikacji alternatyw.</li>
+<li>Ustalić warunki wsparcia CAPEX: popyt, wykorzystanie, modułowość, jakość i wyjście.</li>
+<li>Opracować ćwiczenia 30/90/180 dni na bezpiecznej, reprezentatywnej próbie.</li>
+</ol>
+<h3 id="pierwsze-100-dni_2">Pierwsze 100 dni</h3>
+<ul>
+<li>mapa dziewięciu warstw przemysłowych i krytyczności;</li>
+<li>próba weryfikacyjna zamiast ankiety deklaratywnej;</li>
+<li>wspólny słownik mocy nominalnej, zweryfikowanej i skalowalnej;</li>
+<li>wzór planu substytucji i zarządzania konfiguracją;</li>
+<li>lista potrzeb wspólnej infrastruktury;</li>
+<li>warunki finansowania zapasów i rezerw mocy.</li>
+</ul>
+<h3 id="dane-i-kpi_2">Dane i KPI</h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definicja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>zweryfikowana moc</td>
+<td>powtarzalna produkcja spełniająca jakość w okresie testu</td>
+</tr>
+<tr>
+<td>czas zwiększenia</td>
+<td>zaliczony scenariusz, nie deklaracja dostawcy</td>
+</tr>
+<tr>
+<td>udział krytycznych zależności</td>
+<td>elementy bez alternatywy / elementy w zakresie</td>
+</tr>
+<tr>
+<td>czas naprawy</td>
+<td>mediana przywrócenia według klasy</td>
+</tr>
+<tr>
+<td>wykorzystanie CAPEX</td>
+<td>zdolność użyta / finansowana</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zaleznosci-i-ryzyka_2">Zależności i ryzyka</h3>
+<p>Zależności: obrona/popyt, finanse, energia, kadry, cyber i eksport. Ryzyka: megafabryka jednego produktu, pozorna lokalizacja, wsparcie mocy bez popytu, przeniesienie IP. <strong>Stop-rule:</strong> CAPEX bez kontraktowego lub wiarygodnego popytu, TCO i planu alternatyw nie przechodzi bramki.</p>
+<h2 id="4-portfel-cyfryzacji-danych-i-cyber">4. Portfel cyfryzacji, danych i cyber</h2>
+<h3 id="mandat-i-rezultat_3">Mandat i rezultat</h3>
+<p>Uruchomić federacyjną bezpieczną przestrzeń danych, governance modeli AI, warstwy obliczeniowe i minimalny standard cyber dla całego cyklu życia.</p>
+<h3 id="piec-decyzji_3">Pięć decyzji</h3>
+<ol>
+<li>Przyjąć zasadę federacji właścicieli zamiast jednego centralnego jeziora danych.</li>
+<li>Zatwierdzić katalog, poziomy dostępu, retencję, środowiska bez kopiowania i pełny audyt.</li>
+<li>Wymagać karty modelu, odseparowanego benchmarku, monitoringu i prawa wstrzymania.</li>
+<li>Rozdzielić compute: jawny, wrażliwy, odseparowany i brzegowy.</li>
+<li>Przyjąć proporcjonalny secure SDLC, zależności, aktualizacje i plan końca wsparcia.</li>
+</ol>
+<h3 id="pierwsze-100-dni_3">Pierwsze 100 dni</h3>
+<ul>
+<li>katalog danych i właścicieli;</li>
+<li>wybór najmniej wrażliwego wystarczającego pilotażu;</li>
+<li>prototyp środowiska analitycznego z logowaniem i wersjonowaniem;</li>
+<li>karta modelu i procedura red-team;</li>
+<li>mapa istniejącej mocy obliczeniowej i warunków dostępu;</li>
+<li>standard incydentu i bezpiecznej degradacji.</li>
+</ul>
+<p>Polityka AI przewiduje Piast, Gaia, vouchery PLGrid i piaskownice (<strong>CLM-1217</strong>). <strong>INFERENCE o ograniczonym zakresie:</strong> ten jawny dokument sam nie definiuje kompletnego obronnego stosu danych/modeli (<strong>CLM-1218</strong>); nie dowodzi to braku rozwiązań MON ani zdolności niejawnych. Gaia jest uruchomionym projektem, nie dowodem pełnej gotowości docelowej infrastruktury (<strong>CLM-1219</strong>).</p>
+<h3 id="dane-i-kpi_3">Dane i KPI</h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definicja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>zbiory z pełną kartą</td>
+<td>właściciel, podstawa, wersja, retencja i dostęp</td>
+</tr>
+<tr>
+<td>modele z governance</td>
+<td>karta, test, ograniczenia, monitoring i owner</td>
+</tr>
+<tr>
+<td>czas nadania/odebrania dostępu</td>
+<td>mediana z pełnym śladem</td>
+</tr>
+<tr>
+<td>odtwarzalność testu</td>
+<td>wersje danych, kodu, modelu i konfiguracji</td>
+</tr>
+<tr>
+<td>czas reakcji na incydent</td>
+<td>według klasy i uzgodnionej definicji</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zaleznosci-i-ryzyka_3">Zależności i ryzyka</h3>
+<p>Zależności: właściciele danych, obrona, prawo, nauka, przemysł. Ryzyka: centralizacja bez podstawy, vendor lock-in chmury/modelu, mieszanie treningu i testu, nieproporcjonalne wymogi dla MŚP. <strong>Stop-rule:</strong> brak legalnej podstawy, właściciela, śladu wersji lub bezpiecznego cofnięcia blokuje dopuszczenie.</p>
+<h2 id="5-portfel-nauki-i-badan">5. Portfel nauki i badań</h2>
+<h3 id="mandat-i-rezultat_4">Mandat i rezultat</h3>
+<p>Połączyć badania, infrastrukturę i transfer technologii z problemami użytkowników oraz wymaganiami produkcji, zachowując przestrzeń dla badań wysokiego ryzyka bez obietnicy wdrożenia.</p>
+<h3 id="piec-decyzji_4">Pięć decyzji</h3>
+<ol>
+<li>Rozdzielić portfel badań eksploracyjnych od kontraktów wdrożeniowych.</li>
+<li>Związać programy aplikacyjne z właścicielem problemu i protokołem testu.</li>
+<li>Przyjąć zasady dostępu do wspólnej infrastruktury oraz pomiar wykorzystania.</li>
+<li>Wprowadzić mobilność nauka–przemysł–użytkownik i uznawanie wdrożeń.</li>
+<li>Ustalić IP, publikację, dane i bezpieczeństwo przed rozpoczęciem projektu.</li>
+</ol>
+<h3 id="pierwsze-100-dni_4">Pierwsze 100 dni</h3>
+<ul>
+<li>mapa laboratoriów, sprzętu, kadr i warunków dostępu;</li>
+<li>przegląd projektów w zakresie: badanie, prototyp, test, wdrożenie albo zamknięcie;</li>
+<li>wspólny wzór umowy konsorcjum i IP;</li>
+<li>katalog problemów badawczych bez preferowania rozwiązania;</li>
+<li>pilotaż mobilności ekspertów;</li>
+<li>metryka transferu i powtórnego wykorzystania wyników.</li>
+</ul>
+<h3 id="dane-i-kpi_4">Dane i KPI</h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definicja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>czas do testu</td>
+<td>od przyjęcia projektu aplikacyjnego do niezależnego testu</td>
+</tr>
+<tr>
+<td>wykorzystanie infrastruktury</td>
+<td>wykorzystana zdolność / dostępna</td>
+</tr>
+<tr>
+<td>transfer</td>
+<td>wyniki użyte w produkcie/procesie z prawami i dowodem</td>
+</tr>
+<tr>
+<td>mobilność</td>
+<td>eksperci wykonujący realny projekt między sektorami</td>
+</tr>
+<tr>
+<td>zamknięcia</td>
+<td>projekty zakończone po negatywnym dowodzie</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zaleznosci-i-ryzyka_4">Zależności i ryzyka</h3>
+<p>Zależności: użytkownicy, przemysł, dane, edukacja i finansowanie. Ryzyka: grant jako cel, nowa infrastruktura obok niewykorzystanej, publikacja wrażliwego wyniku, konflikt IP. <strong>Stop-rule:</strong> projekt wdrożeniowy bez użytkownika i ścieżki testu wraca do portfela badań albo jest zamykany.</p>
+<h2 id="6-portfel-edukacji-i-kadr">6. Portfel edukacji i kadr</h2>
+<h3 id="mandat-i-rezultat_5">Mandat i rezultat</h3>
+<p>Zapewnić kompetencje techniczne, produkcyjne, serwisowe, zakupowe i regulacyjne odpowiadające na zweryfikowany popyt, z pomiarem zatrudnienia i retencji.</p>
+<p>Prawo o szkolnictwie wyższym umożliwia uczelniom współpracę z otoczeniem społeczno-gospodarczym przy programach i praktykach oraz prowadzenie studiów dualnych; dla profilu praktycznego wskazuje co najmniej sześć miesięcy praktyk na studiach pierwszego stopnia i jednolitych magisterskich oraz trzy miesiące na studiach drugiego stopnia, z ustawowym wyjątkiem dla części zawodów regulowanych (<a href="https://api.sejm.gov.pl/eli/acts/DU/2024/1571/text.pdf">Prawo o szkolnictwie wyższym i nauce</a>, <strong>CLM-1013</strong>, <strong>CLM-1014</strong>). Przepisy tworzą dostępne instrumenty, lecz nie uzasadniają automatycznie jednego semestru praktyk w każdym roku.</p>
+<p>Branżowe Centra Umiejętności są już jednostkami systemu oświaty obsługującymi uczniów, nauczycieli, dorosłych i pracodawców oraz realizującymi funkcje szkoleniowe, egzaminacyjne i kooperacyjne (<a href="https://kwalifikacje.gov.pl/dla-instytucji/branzowe-centra-umiejetnosci/">IBE/ZSK</a>, <strong>CLM-1015</strong>). Ich obecność jest podstawą do audytu i ewentualnego wykorzystania, nie dowodem skuteczności ani wystarczającej przepustowości.</p>
+<h3 id="piec-decyzji_5">Pięć decyzji</h3>
+<ol>
+<li>Przyjąć mapę ról i zadań kompetencyjnych zamiast listy nazw kierunków.</li>
+<li>Uruchomić programy 3/6/12-miesięczne dla istniejących specjalistów.</li>
+<li>Przetestować model regionalnych centrów i szkół patronackich przed skalą.</li>
+<li>Wymagać długiej praktyki i realnego projektu w programach aplikacyjnych.</li>
+<li>Mierzyć retencję 12/24 miesiące, wykorzystanie laboratoriów i koszt kompetencji.</li>
+</ol>
+<h3 id="pierwsze-100-dni_5">Pierwsze 100 dni</h3>
+<ul>
+<li>prognoza popytu według ról i regionów;</li>
+<li>audyt nauczycieli, laboratoriów, wynagrodzeń i odpływu;</li>
+<li>standard praktycznego egzaminu/mikropoświadczenia;</li>
+<li>wybór dwóch lub trzech zróżnicowanych pilotaży regionalnych;</li>
+<li>umowy patronackie z konfliktem interesów i jakością;</li>
+<li>ścieżka migracji talentów i uznawania kompetencji.</li>
+</ul>
+<p>Program KAI–Fire Point można traktować jako studium deklarowanego finansowania, stypendium i praktyki (<strong>CLM-1202</strong>, <strong>CLM-1203</strong>, <strong>CLM-1204</strong>). Jego oferta wskazuje pojemność licencyjną 30, nie liczbę studentów (<strong>CLM-1205</strong>), a oficjalne strony różnią się w opisie czasu trwania (<strong>CLM-1223</strong>). Polska nie powinna kopiować modelu bez audytu warunków i wyniku.</p>
+<h3 id="dane-i-kpi_5">Dane i KPI</h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definicja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>kompetencja</td>
+<td>zaliczone praktyczne zadanie według standardu</td>
+</tr>
+<tr>
+<td>zatrudnienie</td>
+<td>praca w docelowej roli, nie dowolne zatrudnienie</td>
+</tr>
+<tr>
+<td>retencja</td>
+<td>osoby w roli po 12/24 miesiącach / absolwenci</td>
+</tr>
+<tr>
+<td>koszt kompetencji</td>
+<td>pełny koszt programu / osoby spełniające standard</td>
+</tr>
+<tr>
+<td>wykorzystanie laboratorium</td>
+<td>czas realnych projektów / dostępność</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zaleznosci-i-ryzyka_5">Zależności i ryzyka</h3>
+<p>Zależności: przemysł, nauka, obrona, cyfryzacja, regiony. Ryzyka: nowa uczelnia bez popytu, militaryzacja powszechnej edukacji, patronat jako reklama firmy, liczba uczestników zamiast kompetencji. <strong>Stop-rule:</strong> program bez zatrudnienia, retencji lub użytkowania kompetencji nie skaluje się.</p>
+<h2 id="7-portfel-spraw-wewnetrznych-ochrony-ludnosci-i-infrastruktury">7. Portfel spraw wewnętrznych, ochrony ludności i infrastruktury</h2>
+<h3 id="mandat-i-rezultat_6">Mandat i rezultat</h3>
+<p>Włączyć potrzeby ochrony ludności, granic, ratownictwa, policji, PSP i infrastruktury krytycznej do wspólnego portfela technologii, z poszanowaniem praw, prywatności i bezpieczeństwa.</p>
+<h3 id="piec-decyzji_6">Pięć decyzji</h3>
+<ol>
+<li>Zidentyfikować problemy cywilne możliwe do jawnego konkursu i testu.</li>
+<li>Ustalić zasady danych, proporcjonalności, nadzoru i retencji.</li>
+<li>Zintegrować wymagania ciągłości, degradacji i interoperacyjności służb.</li>
+<li>Przyjąć wspólne protokoły pilotaży z samorządami i operatorami infrastruktury.</li>
+<li>Włączyć serwis, szkolenie i ćwiczenia do decyzji skali.</li>
+</ol>
+<h3 id="pierwsze-100-dni_6">Pierwsze 100 dni</h3>
+<ul>
+<li>katalog problemów w ratownictwie, inspekcji, logistyce i ochronie infrastruktury;</li>
+<li>ocena praw i ochrony danych;</li>
+<li>wybór pilotaży o mierzalnej bazie i niskim ryzyku;</li>
+<li>protokół współpracy służb, JST i operatorów;</li>
+<li>zasady publicznego raportowania bez ujawnienia podatności;</li>
+<li>plan ćwiczenia ciągłości i awarii.</li>
+</ul>
+<h3 id="dane-i-kpi_6">Dane i KPI</h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definicja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>czas reakcji procesu</td>
+<td>zmiana względem bazy dla konkretnej usługi</td>
+</tr>
+<tr>
+<td>bezpieczeństwo</td>
+<td>incydenty i near-miss według wspólnej definicji</td>
+</tr>
+<tr>
+<td>ciągłość</td>
+<td>zaliczone ćwiczenie degradacji i odtworzenia</td>
+</tr>
+<tr>
+<td>popyt po pilotażu</td>
+<td>finansowanie z budżetu właściciela procesu</td>
+</tr>
+<tr>
+<td>replikacja</td>
+<td>wdrożenie w drugim kontekście z zachowaniem wyniku</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zaleznosci-i-ryzyka_6">Zależności i ryzyka</h3>
+<p>Zależności: cyfryzacja, prawo, regiony, infrastruktura, obrona. Ryzyka: surveillance creep, ujawnienie topologii/podatności, pilotaż bez integracji z procesem służby, vendor lock-in. <strong>Stop-rule:</strong> brak podstawy prawnej, proporcjonalności lub właściciela operacyjnego blokuje pilotaż.</p>
+<h2 id="8-portfel-spraw-zagranicznych-uenato-i-eksportu">8. Portfel spraw zagranicznych, UE/NATO i eksportu</h2>
+<h3 id="mandat-i-rezultat_7">Mandat i rezultat</h3>
+<p>Zwiększyć opcje Polski przez sojusze, partnerstwa technologiczne, instrumenty UE, dyplomację gospodarczą i zgodny eksport, bez uzależnienia od pojedynczego partnera.</p>
+<h3 id="piec-decyzji_7">Pięć decyzji</h3>
+<ol>
+<li>Zmapować polskie cele i właścicieli w NATO, UE i partnerstwach bilateralnych.</li>
+<li>Zbudować portfolio współpracy z Ukrainą: B+R, testy, licencje, produkcja, JV i talenty.</li>
+<li>Przyjąć wspólny due diligence, kontrolę eksportu, IP, cyber i ciągłość.</li>
+<li>Wprowadzić kartę korzyści z każdego programu międzynarodowego.</li>
+<li>Mierzyć wykonany eksport, serwis, inwestycje i wartość w Polsce, nie memoranda.</li>
+</ol>
+<h3 id="pierwsze-100-dni_7">Pierwsze 100 dni</h3>
+<ul>
+<li>mapa inicjatyw oraz ryzyka dublowania;</li>
+<li>polski pipeline BraveTech EU — Polska już jest uczestnikiem (<strong>CLM-1214</strong>);</li>
+<li>kryteria wyboru partnera i konfliktów interesów;</li>
+<li>wzór term sheetu IP/danych/wyjścia;</li>
+<li>proces end-user, sankcji i cyber;</li>
+<li>lista rynków i zastosowań do dalszej analizy bez deklaracji sprzedaży.</li>
+</ul>
+<p>BraveTech EU ma oficjalnie wskazany łączny budżet 100 mln EUR i łączy przemysł UE/Ukrainy z doświadczeniem operacyjnym (<strong>CLM-1213</strong>). Umowa Polska–Ukraina daje ramy współpracy, ale nie tworzy konkretnego JV (<strong>CLM-1212</strong>).</p>
+<h3 id="dane-i-kpi_7">Dane i KPI</h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Definicja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>korzyść programu</td>
+<td>test, kontrakt, inwestycja, IP lub wiedza przypisana do Polski</td>
+</tr>
+<tr>
+<td>czas due diligence</td>
+<td>od kompletnego pakietu do decyzji</td>
+</tr>
+<tr>
+<td>wykonany eksport</td>
+<td>dostawa, przychód i serwis na rynku zgodnym</td>
+</tr>
+<tr>
+<td>produkcja w Polsce</td>
+<td>wartość dodana według wspólnej metodologii</td>
+</tr>
+<tr>
+<td>ciągłość partnerstwa</td>
+<td>przetestowany scenariusz zmiany właściciela/polityki</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zaleznosci-i-ryzyka_7">Zależności i ryzyka</h3>
+<p>Zależności: obrona, gospodarka, finanse, prawo, cyber i służby. Ryzyka: partner preferowany politycznie, przeniesienie IP, sankcje/end-use, zależność od osób kluczowych, memorandum bez realizacji. <strong>Stop-rule:</strong> nieustalony właściciel, prawa, zgodność eksportowa lub ciągłość blokują wejście kapitałowe/produkcyjne.</p>
+<h2 id="9-macierz-zaleznosci-resortowych">9. Macierz zależności resortowych</h2>
+<table>
+<thead>
+<tr>
+<th>Rezultat funkcjonalny</th>
+<th style="text-align: right;">centrum rządu / prawo</th>
+<th style="text-align: right;">obrona</th>
+<th style="text-align: right;">finanse</th>
+<th style="text-align: right;">gospodarka</th>
+<th style="text-align: right;">cyfryzacja</th>
+<th style="text-align: right;">nauka i edukacja</th>
+<th style="text-align: right;">sprawy wewnętrzne</th>
+<th style="text-align: right;">zagraniczne</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>katalog problemów obronnych</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">A/R</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">I</td>
+</tr>
+<tr>
+<td>katalog problemów bezpieczeństwa wewnętrznego</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">A/R</td>
+<td style="text-align: right;">I</td>
+</tr>
+<tr>
+<td>wspólne reguły przestrzeni danych</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">R</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">A</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">R</td>
+<td style="text-align: right;">C</td>
+</tr>
+<tr>
+<td>testy i małe partie obronne</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">A/R</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">I</td>
+</tr>
+<tr>
+<td>testy bezpieczeństwa wewnętrznego</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">A/R</td>
+<td style="text-align: right;">I</td>
+</tr>
+<tr>
+<td>audyt przemysłu i komponentów</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">R</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">A</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">C</td>
+</tr>
+<tr>
+<td>sieć kompetencji i kwalifikacji</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">R</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">A/R</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">I</td>
+</tr>
+<tr>
+<td>portfel partnerstw/JV</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">R</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">R</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">I</td>
+<td style="text-align: right;">A</td>
+</tr>
+<tr>
+<td>skonsolidowane ramy finansowe</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">A/R</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+</tr>
+<tr>
+<td>ścieżka prawna projektu strategii</td>
+<td style="text-align: right;">A/R</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+<td style="text-align: right;">C</td>
+</tr>
+</tbody>
+</table>
+<p>Macierz ma dokładnie jedno <code>A</code> w każdym wierszu i nie zastępuje formalnej właściwości. Role są funkcjonalne; przed użyciem właściwy organ musi potwierdzić nazwę, podstawę, właściciela służbowego i termin. Integrator KPRM utrzymuje wspólny obraz i eskalację, ale nie przejmuje odpowiedzialności sektorowej.</p>
+<h2 id="10-wspolna-bramka-po-100-dniach">10. Wspólna bramka po 100 dniach</h2>
+<p>Każdy portfel przedstawia:</p>
+<ol>
+<li>potwierdzony problem i bazę albo jawne <code>UNKNOWN</code>;</li>
+<li>mapę kompetencji i instrumentów;</li>
+<li>ograniczony pilotaż lub plan pozyskania danych;</li>
+<li>koszty, zobowiązania i ryzyko podwójnego finansowania;</li>
+<li>KPI i właściciela danych;</li>
+<li>konflikty interesów;</li>
+<li>projekty połączone lub zamknięte;</li>
+<li>decyzję potrzebną od RM;</li>
+<li>zdanie red-team;</li>
+<li>plan do sześciu miesięcy.</li>
+</ol>
+<h2 id="dalsze-pytania">Dalsze pytania</h2>
+<ul>
+<li>Które rezultaty wymagają wspólnej sekwencji decyzji, a które jednego resortu?</li>
+<li>Jaką pojemność testową i zakupową ma każdy portfel?</li>
+<li>Które dane mogą być jawne, zagregowane lub wyłącznie autoryzowane?</li>
+<li>Jakie istniejące programy należy połączyć zamiast tworzyć nowe?</li>
+<li>Które KPI mają już wiarygodną bazę i właściciela?</li>
+</ul>
+<h2 id="zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</h2>
+<ul>
+<li>Karty są modelem funkcjonalnym i wymagają potwierdzenia aktualnej struktury administracji.</li>
+<li>Żadna karta nie stanowi upoważnienia do wydatku, zamówienia, publikacji danych ani podpisania partnerstwa.</li>
+<li>Cele liczbowe, wolumeny i budżety pozostają poza briefami do czasu audytu.</li>
+<li>Informacje chronione pozostają u właściwych właścicieli i nie trafiają do repozytorium.</li>
+</ul><div class="metadata">Identyfikator: ministerial-briefs · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

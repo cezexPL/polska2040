@@ -1,0 +1,467 @@
+{
+  "status": "passed",
+  "artifact_count": 17,
+  "catalog": {
+    "links": 51
+  },
+  "artifacts": [
+    {
+      "id": "strategy",
+      "outputs": {
+        "html": {
+          "bytes": 83339,
+          "headings": 85
+        },
+        "pdf": {
+          "bytes": 2748026,
+          "pages": 37,
+          "tagged": true,
+          "minimum_page_text_chars": 509
+        },
+        "docx": {
+          "bytes": 2680031,
+          "paragraphs": 446,
+          "tables": 12,
+          "paragraph_words": 6046,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 2,
+          "images_total": 2
+        }
+      }
+    },
+    {
+      "id": "implementation-roadmap",
+      "outputs": {
+        "html": {
+          "bytes": 48142,
+          "headings": 53
+        },
+        "pdf": {
+          "bytes": 149707,
+          "pages": 21,
+          "tagged": true,
+          "minimum_page_text_chars": 796
+        },
+        "docx": {
+          "bytes": 116439,
+          "paragraphs": 374,
+          "tables": 7,
+          "paragraph_words": 3261,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 1,
+          "images_total": 1
+        }
+      }
+    },
+    {
+      "id": "impact-finance",
+      "outputs": {
+        "html": {
+          "bytes": 48746,
+          "headings": 65
+        },
+        "pdf": {
+          "bytes": 132512,
+          "pages": 22,
+          "tagged": true,
+          "minimum_page_text_chars": 680
+        },
+        "docx": {
+          "bytes": 52471,
+          "paragraphs": 341,
+          "tables": 6,
+          "paragraph_words": 3583,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "governance-law",
+      "outputs": {
+        "html": {
+          "bytes": 45367,
+          "headings": 64
+        },
+        "pdf": {
+          "bytes": 123848,
+          "pages": 20,
+          "tagged": true,
+          "minimum_page_text_chars": 843
+        },
+        "docx": {
+          "bytes": 51545,
+          "paragraphs": 375,
+          "tables": 3,
+          "paragraph_words": 3660,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "evidence-book",
+      "outputs": {
+        "html": {
+          "bytes": 366543,
+          "headings": 16
+        },
+        "pdf": {
+          "bytes": 1159990,
+          "pages": 123,
+          "tagged": true,
+          "minimum_page_text_chars": 640
+        },
+        "docx": {
+          "bytes": 132957,
+          "paragraphs": 47,
+          "tables": 8,
+          "paragraph_words": 322,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "restricted-annex-template",
+      "outputs": {
+        "html": {
+          "bytes": 31059,
+          "headings": 39
+        },
+        "pdf": {
+          "bytes": 90504,
+          "pages": 14,
+          "tagged": true,
+          "minimum_page_text_chars": 771
+        },
+        "docx": {
+          "bytes": 46088,
+          "paragraphs": 240,
+          "tables": 5,
+          "paragraph_words": 2050,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "prime-minister-brief",
+      "outputs": {
+        "html": {
+          "bytes": 18088,
+          "headings": 18
+        },
+        "pdf": {
+          "bytes": 55090,
+          "pages": 7,
+          "tagged": true,
+          "minimum_page_text_chars": 481
+        },
+        "docx": {
+          "bytes": 42723,
+          "paragraphs": 88,
+          "tables": 2,
+          "paragraph_words": 988,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "president-bbn-brief",
+      "outputs": {
+        "html": {
+          "bytes": 19292,
+          "headings": 23
+        },
+        "pdf": {
+          "bytes": 51297,
+          "pages": 8,
+          "tagged": true,
+          "minimum_page_text_chars": 498
+        },
+        "docx": {
+          "bytes": 42857,
+          "paragraphs": 99,
+          "tables": 2,
+          "paragraph_words": 1131,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "ministerial-briefs",
+      "outputs": {
+        "html": {
+          "bytes": 33198,
+          "headings": 55
+        },
+        "pdf": {
+          "bytes": 88116,
+          "pages": 14,
+          "tagged": true,
+          "minimum_page_text_chars": 440
+        },
+        "docx": {
+          "bytes": 46450,
+          "paragraphs": 197,
+          "tables": 9,
+          "paragraph_words": 1884,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "international-brief",
+      "outputs": {
+        "html": {
+          "bytes": 17147,
+          "headings": 15
+        },
+        "pdf": {
+          "bytes": 38782,
+          "pages": 6,
+          "tagged": true,
+          "minimum_page_text_chars": 743
+        },
+        "docx": {
+          "bytes": 41851,
+          "paragraphs": 61,
+          "tables": 0,
+          "paragraph_words": 1384,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "regional-pilot-card",
+      "outputs": {
+        "html": {
+          "bytes": 55420,
+          "headings": 66
+        },
+        "pdf": {
+          "bytes": 224830,
+          "pages": 28,
+          "tagged": true,
+          "minimum_page_text_chars": 587
+        },
+        "docx": {
+          "bytes": 51053,
+          "paragraphs": 216,
+          "tables": 38,
+          "paragraph_words": 1868,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "voivodeship-data-template",
+      "outputs": {
+        "html": {
+          "bytes": 68491,
+          "headings": 76
+        },
+        "pdf": {
+          "bytes": 284008,
+          "pages": 34,
+          "tagged": true,
+          "minimum_page_text_chars": 516
+        },
+        "docx": {
+          "bytes": 52566,
+          "paragraphs": 200,
+          "tables": 53,
+          "paragraph_words": 1842,
+          "page_size_mm": [
+            210.0,
+            297.0
+          ],
+          "images_with_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "cabinet-deck",
+      "outputs": {
+        "html": {
+          "bytes": 14111,
+          "headings": 15
+        },
+        "pdf": {
+          "bytes": 57041,
+          "pages": 15,
+          "tagged": true,
+          "minimum_page_text_chars": 225
+        },
+        "pptx": {
+          "bytes": 222417,
+          "slides": 15,
+          "images_with_semantic_alt": 2,
+          "images_total": 2
+        }
+      }
+    },
+    {
+      "id": "president-deck",
+      "outputs": {
+        "html": {
+          "bytes": 12552,
+          "headings": 12
+        },
+        "pdf": {
+          "bytes": 40667,
+          "pages": 12,
+          "tagged": true,
+          "minimum_page_text_chars": 231
+        },
+        "pptx": {
+          "bytes": 135154,
+          "slides": 12,
+          "images_with_semantic_alt": 1,
+          "images_total": 1
+        }
+      }
+    },
+    {
+      "id": "economic-forum-deck",
+      "outputs": {
+        "html": {
+          "bytes": 15369,
+          "headings": 17
+        },
+        "pdf": {
+          "bytes": 49582,
+          "pages": 17,
+          "tagged": true,
+          "minimum_page_text_chars": 242
+        },
+        "pptx": {
+          "bytes": 142855,
+          "slides": 17,
+          "images_with_semantic_alt": 1,
+          "images_total": 1
+        }
+      }
+    },
+    {
+      "id": "regional-deck",
+      "outputs": {
+        "html": {
+          "bytes": 12462,
+          "headings": 13
+        },
+        "pdf": {
+          "bytes": 33660,
+          "pages": 13,
+          "tagged": true,
+          "minimum_page_text_chars": 224
+        },
+        "pptx": {
+          "bytes": 47259,
+          "slides": 13,
+          "images_with_semantic_alt": 0,
+          "images_total": 0
+        }
+      }
+    },
+    {
+      "id": "international-deck",
+      "outputs": {
+        "html": {
+          "bytes": 12041,
+          "headings": 12
+        },
+        "pdf": {
+          "bytes": 39089,
+          "pages": 12,
+          "tagged": true,
+          "minimum_page_text_chars": 208
+        },
+        "pptx": {
+          "bytes": 125990,
+          "slides": 12,
+          "images_with_semantic_alt": 1,
+          "images_total": 1
+        }
+      }
+    }
+  ],
+  "financing_model": {
+    "bytes": 19829,
+    "sheets": [
+      "README",
+      "Assumptions",
+      "Commitments",
+      "Cost model",
+      "Funding map",
+      "Impact logic",
+      "Sensitivity",
+      "KPI"
+    ],
+    "formulas": 33
+  },
+  "assets": {
+    "metadata": [
+      {
+        "metadata": "assets/metadata/cover-gpt-image.yaml",
+        "asset": "assets/generated/cover-gpt-image.png",
+        "sha256": "e6c2ad0c4d9c0149a50339bcc7df8f3246bef320d6025ac4c7b035e9ae8999db"
+      }
+    ],
+    "svg": [
+      "assets/generated/delivery-cycle-en.svg",
+      "assets/generated/delivery-cycle.svg",
+      "assets/generated/roadmap-horizons.svg"
+    ]
+  },
+  "errors": []
+}

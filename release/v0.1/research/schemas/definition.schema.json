@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DefinitionRecord",
+  "type": "object",
+  "required": ["id", "term", "definition", "scope", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^DEF-[0-9]{4}$"},
+    "term": {"type": "string", "minLength": 3},
+    "definition": {"type": "string", "minLength": 12},
+    "scope": {"type": "string", "minLength": 3},
+    "status": {"enum": ["candidate", "approved", "retired"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

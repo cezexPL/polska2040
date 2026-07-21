@@ -1,0 +1,505 @@
+schema_version: 1
+claims:
+  - id: CLM-0201
+    text: "Regulamin pracy Rady Ministrów zalicza strategie i programy do innych dokumentów rządowych oraz określa dla nich sekwencję obejmującą projekt, uzgodnienia lub konsultacje, komitety i rozpatrzenie przez Radę Ministrów."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0201]
+    locators: ["§ 19 ust. 2", "§ 21"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0202
+    text: "Ustawa o Radzie Ministrów wymaga prowadzenia publicznego Wykazu prac legislacyjnych i programowych, obejmującego między innymi projekty strategii i programów oraz wskazanie organów odpowiedzialnych i planowanego terminu przyjęcia."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0203]
+    locators: ["art. 2 pkt 1, dodający art. 8a ust. 1-5 ustawy o Radzie Ministrów"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0203
+    text: "Zgłoszenie strategii lub programu do wykazu powinno opisywać cele, środki realizacji, skutki i sposób pomiaru, a formalne procedowanie projektu rozpoczyna się po wpisie do właściwego wykazu."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0201, SRC-0211]
+    locators: ["SRC-0201: § 25 ust. 2, § 25a ust. 4-7, § 31", "SRC-0211: sekcja formularzy dla wykazu prac programowych"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0204
+    text: "Koordynator OSR może zażądać oceny skutków także dla nienormatywnego dokumentu rządowego, a zasady konsultacji publicznych mogą być stosowane do takich dokumentów z uwzględnieniem ich przedmiotu i znaczenia."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0201, SRC-0209]
+    locators: ["SRC-0201: § 29 ust. 2-3, § 36 ust. 1-2", "SRC-0209: sekcje 'Ocena wpływu' i 'Konsultacje publiczne'"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0205
+    text: "Prezes Rady Ministrów może żądać od organów administracji informacji, dokumentów i sprawozdań, powierzyć jednemu ministrowi sprawę należącą do właściwości więcej niż jednego organu oraz rozstrzygać spory kompetencyjne między ministrami."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0202]
+    locators: ["art. 5 pkt 2, 6 i 7"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): zakres potwierdzono w art. 5 aktualnego tekstu ustawy o Radzie Ministrów; są to kompetencje Prezesa Rady Ministrów, a nie automatyczne przeniesienie kompetencji ustawowych ministrów."
+
+  - id: CLM-0206
+    text: "Pełnomocnika Rządu ustanawia Rada Ministrów dla spraw, których przekazanie członkom Rady Ministrów nie jest celowe; pełnomocnikiem jest co do zasady sekretarz albo podsekretarz stanu, a zakres i obsługę określa rozporządzenie Rady Ministrów."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0202]
+    locators: ["art. 10 ust. 1-5"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 10 ustawy o Radzie Ministrów potwierdza ustanowienie pełnomocnika rozporządzeniem RM, zasadniczy status sekretarza lub podsekretarza stanu, powołanie przez Premiera oraz określenie zakresu i obsługi."
+
+  - id: CLM-0207
+    text: "Prezes Rady Ministrów może zarządzeniem tworzyć organy pomocnicze, lecz przedstawiciel Prezydenta uczestniczy już z mocy ustawy w posiedzeniach komitetu Rady Ministrów i Rady Ministrów dotyczących bezpieczeństwa i obronności państwa."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0202]
+    locators: ["art. 12 ust. 1-3", "art. 22 ust. 1b"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Udział przedstawiciela Prezydenta nie oznacza przeniesienia konstytucyjnej odpowiedzialności Rady Ministrów ani współzarządzania programem."
+
+  - id: CLM-0208
+    text: "Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu ma obowiązujący mandat do koordynowania i monitorowania realizacji polityki i priorytetowych zadań rządu, współpracy z Zespołem do spraw Programowania Prac Rządu oraz żądania informacji z upoważnienia Prezesa Rady Ministrów."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0204]
+    locators: ["§§ 1-5"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): obowiązujące rozporządzenie Dz.U. 2025 poz. 1047 potwierdza monitoring polityki i priorytetów, współpracę z zespołem programowania prac Rządu oraz pozyskiwanie informacji na podstawie upoważnienia Premiera."
+
+  - id: CLM-0209
+    text: "Istniejący Komitet Rady Ministrów do spraw Nadzoru nad Wdrażaniem Polityki Rządu może ustalać priorytety, cele cząstkowe i terminy, monitorować wykonanie, rekomendować zmiany, eskalować zagrożenia oraz modyfikować zadania zgodnie z ustaleniami Rady Ministrów."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0205, SRC-0206]
+    locators: ["SRC-0205: § 2 pkt 1-8, §§ 3-9", "SRC-0206: § 1, dodający § 2 pkt 1a"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0210
+    text: "Departament Nadzoru nad Wdrażaniem Polityki Rządu w KPRM ma zadania obejmujące koordynację projektów strategicznych, analizę danych, ocenę wdrożenia, opiniowanie planów ministrów oraz obsługę istniejącego komitetu."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0207]
+    locators: ["sekcja zadań Departamentu, pkt 1-5 i 9"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0211
+    text: "Utworzenie od początku odrębnego pełnomocnika, komitetu i biura realizacji dla programu Polska 2040 najpewniej dublowałoby aktualne kompetencje nadzoru i koordynacji KPRM."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0204, SRC-0205, SRC-0206, SRC-0207]
+    locators: ["SRC-0204: §§ 1-5", "SRC-0205: §§ 1-11", "SRC-0206: § 1", "SRC-0207: pkt 1-5 i 9 opisu zadań"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wniosek wymaga sprawdzenia realnej przepustowości i skuteczności obecnej struktury, nie tylko jej formalnego mandatu."
+
+  - id: CLM-0212
+    text: "Inna strategia rozwoju może dotyczyć sektora lub dziedziny, może wykraczać poza horyzont średniookresowej strategii rozwoju kraju, jeśli uzasadnia to specyfika obszaru, oraz jest przyjmowana uchwałą Rady Ministrów po opinii ministra właściwego do spraw rozwoju regionalnego."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0208]
+    locators: ["art. 9 pkt 3", "art. 13 ust. 1-3", "art. 14 ust. 1-6"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): potwierdzono w art. 9, 13 i 14 ustawy o zasadach prowadzenia polityki rozwoju. Dłuższy horyzont wymaga uzasadnienia specyfiką obszaru."
+
+  - id: CLM-0213
+    text: "Projekt innej strategii rozwoju wymaga diagnozy, ewaluacji ex ante i co najmniej 35-dniowych konsultacji, po których sporządza się w ciągu 30 dni sprawozdanie z uzasadnioną odpowiedzią na uwagi."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0208]
+    locators: ["art. 6 ust. 1 i 4-6", "art. 10a ust. 1-2"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 10a i 6 ustawy potwierdzają diagnozę, ewaluację ex ante, minimum 35 dni konsultacji oraz sprawozdanie z uzasadnionym odniesieniem do uwag w 30 dni od zakończenia konsultacji."
+
+  - id: CLM-0214
+    text: "Program rozwoju jest dokumentem operacyjno-wdrożeniowym z planem finansowym, wskaźnikami, systemem realizacji, monitorowaniem i ewaluacją; program ministra wymaga opinii ministra właściwego do spraw rozwoju regionalnego i uchwały Rady Ministrów."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0208]
+    locators: ["art. 15 ust. 1 i 4 pkt 2", "art. 17 ust. 1-1a", "art. 18 pkt 3", "art. 19 ust. 1-2"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): zakres potwierdzono w art. 15, 17 i 19 ustawy; claim opisuje ustawowe minimum programu rozwoju, nie przesądza jego finansowania ani zatwierdzenia."
+
+  - id: CLM-0215
+    text: "Dla publicznego dokumentu parasolowego do 2040 r. najbardziej adekwatnym wariantem jest inna strategia rozwoju z art. 9 pkt 3, z wydzielonym okresem zgodnym z aktualną średniookresową strategią kraju, pod warunkiem potwierdzenia właściwego ministra i zgodności systemowej."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0208, SRC-0212, SRC-0213]
+    locators: ["SRC-0208: art. 9 pkt 3, art. 13-14", "SRC-0212: przebieg projektu SRP2035", "SRC-0213: rekord ID132"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To kwalifikacja rekomendowana do pisemnego potwierdzenia przez MFiPR i RCL, a nie porada prawna."
+
+  - id: CLM-0216
+    text: "Uchwały Rady Ministrów i zarządzenia Prezesa Rady Ministrów mają charakter wewnętrzny i nie mogą same stanowić podstawy obowiązków lub decyzji wobec obywateli, przedsiębiorstw i innych podmiotów niepodległych organizacyjnie."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0214]
+    locators: ["art. 93 ust. 1-3"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0217
+    text: "Pakiet Polska 2040 powinien rozdzielać uchwałę przyjmującą strategię, programy wdrożeniowe i wieloletnie oraz odrębne ustawy lub rozporządzenia tylko tam, gdzie potrzebne są skutki zewnętrzne lub szczególna podstawa prawna."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0208, SRC-0214, SRC-0215]
+    locators: ["SRC-0208: art. 14-19", "SRC-0214: art. 92-93", "SRC-0215: art. 136"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie przesądza, które konkretne instrumenty ustawowe będą potrzebne; to zadanie mapy prawnej A09."
+
+  - id: CLM-0218
+    text: "Rada Ministrów może ustanowić program wieloletni służący realizacji strategii, wskazując wykonawcę, a ustawa budżetowa może określać roczne limity wydatków; sama strategia nie gwarantuje jednak finansowania."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0215]
+    locators: ["art. 136 ust. 1-5"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0219
+    text: "Strategie i programy wyznaczające ramy dla przedsięwzięć mogących znacząco oddziaływać na środowisko wymagają strategicznej oceny oddziaływania na środowisko w przypadkach określonych w art. 46, a wyjątek z art. 47a dotyczy dokumentów przygotowywanych wyłącznie dla celów obrony narodowej lub obrony cywilnej, z zastrzeżeniem Natura 2000."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0208, SRC-0216, SRC-0217]
+    locators: ["SRC-0208: art. 6a", "SRC-0216: art. 46-48", "SRC-0217: sekcje o dokumentach podlegających SOOŚ i wyjątkach"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0220
+    text: "Organ przygotowujący Polskę 2040 powinien rozpocząć kwalifikację SOOŚ i uzgodnienia z właściwymi organami środowiskowymi na początku prac, a nie po zamknięciu projektu strategii."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0216, SRC-0217]
+    locators: ["SRC-0216: art. 46-49, 51, 54-55", "SRC-0217: sekcje 'Etapy strategicznej oceny' i 'Udział społeczeństwa'"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0221
+    text: "Kontrola NIK wcześniejszego systemu monitorowania projektów strategicznych wykazała, że niepełne i wadliwe dane, problemy z mierzalnymi celami i ograniczone użycie systemu osłabiały wiarygodność informacji dla decydentów."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0218]
+    locators: ["sekcje 'System nie został w pełni wdrożony', '(Nie)funkcjonowanie systemu MonAliZa' i 'Wnioski'"]
+    as_of: "2023-05-08"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To ustalenie historyczne; nie opisuje automatycznie stanu narzędzi KPRM w 2026 r."
+
+  - id: CLM-0222
+    text: "Dashboard programu powinien powstać dopiero po zdefiniowaniu kontraktów metryk: właściciela, źródła, definicji, częstotliwości, progów, jakości danych, ścieżki audytu oraz reguły oznaczania braków jako UNKNOWN."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0205, SRC-0207, SRC-0218]
+    locators: ["SRC-0205: § 2 pkt 2-4 i § 7", "SRC-0207: pkt 2-5 opisu zadań", "SRC-0218: ustalenia i wnioski kontroli"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0223
+    text: "Rekomendowany model zarządzania wykorzystuje istniejącego Ministra i Komitet do nadzoru nad realizacją, a odrębnie wyznacza właściwego ministra jako formalnie odpowiedzialnego za przygotowanie strategii i jej przedłożenie Radzie Ministrów."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0201, SRC-0204, SRC-0205, SRC-0208]
+    locators: ["SRC-0201: § 20-21", "SRC-0204: §§ 1-5", "SRC-0205: §§ 1-9", "SRC-0208: art. 14"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wyznaczenie konkretnego właściwego ministra wymaga formalnej analizy działów i zakresów działania."
+
+  - id: CLM-0224
+    text: "Realistycznym wynikiem pierwszych 100 dni jest projekt gotowy do formalnych konsultacji wraz z diagnozą, ewaluacją ex ante, ramami finansowymi, rejestrem dowodów i rozstrzygnięciem ścieżki SOOŚ, a nie obietnica przyjęcia kompletnej strategii przez Radę Ministrów."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0201, SRC-0208, SRC-0216]
+    locators: ["SRC-0201: § 21, § 25a, § 31, § 34-52, § 83-90", "SRC-0208: art. 6, 10a, 13-14", "SRC-0216: art. 46-55"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0225
+    text: "Nie ustalono na podstawie zbadanych źródeł, który minister jest właściwy do opracowania horyzontalnej strategii Polska 2040 obejmującej jednocześnie bezpieczeństwo, przemysł, cyfryzację, naukę i rozwój regionalny."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0202, SRC-0204, SRC-0208]
+    locators: ["SRC-0202: art. 5 i 33", "SRC-0204: §§ 1-5", "SRC-0208: art. 14 ust. 1"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wymagane: pisemna mapa kompetencji KPRM/RCL/MFiPR obejmująca ustawę o działach administracji rządowej i aktualne rozporządzenia atrybucyjne."
+
+  - id: CLM-0226
+    text: "Oficjalne strony sprawdzone 21 lipca 2026 r. przedstawiają Strategię Rozwoju Polski do 2035 r. jako projekt przekazany Radzie Ministrów, lecz nie stanowią wystarczającego dowodu jej aktualnego statusu w dniu przyszłego przedłożenia Polski 2040."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0212, SRC-0213]
+    locators: ["SRC-0212: akapity o SKRM i wersji przekazanej RM", "SRC-0213: rekord ID132 i historia wersji 3.0"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Status należy ponownie potwierdzić w ELI, Monitorze Polskim i wykazie KPRM bezpośrednio przed wpisem Polski 2040 do wykazu."
+
+  - id: CLM-0227
+    text: "Strategia powinna mieć publiczny korpus celów, instrumentów, wskaźników i odpowiedzialności oraz oddzielny, autoryzowany obieg dla wymagań niejawnych i danych wrażliwych; sam status bezpieczeństwa nie uzasadnia ukrycia całego dokumentu dual-use."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0201, SRC-0202, SRC-0208, SRC-0216]
+    locators: ["SRC-0201: § 36 ust. 3, § 52", "SRC-0202: art. 22", "SRC-0208: art. 6", "SRC-0216: art. 47a i 54-55"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Szczegółowy model informacji niejawnych należy do A09 i autoryzowanych właścicieli systemów."
+
+  - id: CLM-0228
+    text: "Tryb odrębny od standardowego procesu dokumentów rządowych może być zastosowany tylko w szczególnie uzasadnionych przypadkach i pozwala Prezesowi Rady Ministrów określić zakres pominiętych etapów."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0201]
+    locators: ["§§ 98-100"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0229
+    text: "Tryb szczególny nie powinien być domyślną ścieżką Polski 2040; tempo należy osiągnąć przez wczesne uzgodnienie problemu, właścicieli, danych i spornych kwestii, zachowując audytowalny proces."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0201, SRC-0209, SRC-0210]
+    locators: ["SRC-0201: § 21, § 34-52, § 98-100", "SRC-0209: sekcje oceny wpływu i konsultacji", "SRC-0210: cel wytycznych"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0230
+    text: "Nie ustalono aktualnej architektury, jakości danych ani zdolności integracyjnych narzędzi informatycznych używanych przez KPRM do monitorowania priorytetów rządu w 2026 r."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0207, SRC-0218]
+    locators: ["SRC-0207: opis zadań bez specyfikacji systemu", "SRC-0218: historyczne ustalenia dotyczące MonAliZa"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wymagany audyt read-only obecnych narzędzi, słowników danych, API, uprawnień i odpowiedzialności przed decyzją o budowie nowego systemu albo integracji istniejącego."
+
+  - id: CLM-0231
+    text: "RACI programu powinien być ustalany osobno dla mandatu, przygotowania strategii, przyjęcia dokumentu, realizacji portfela, programów dziedzinowych, finansowania, danych i niezależnej oceny, z jednym podmiotem Accountable dla każdego rezultatu."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0201, SRC-0204, SRC-0205, SRC-0208]
+    locators: ["SRC-0201: § 20-22, § 83-90", "SRC-0204: §§ 1-5", "SRC-0205: §§ 2-9", "SRC-0208: art. 14, 18-19"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0232
+    text: "Właściciel rezultatu ani dostawca rozwiązania nie powinien samodzielnie zatwierdzać jakości własnych danych lub dowodów; potrzebne są oddzielne funkcje walidacji, red-team i jawny rejestr konfliktów interesów."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0209, SRC-0218]
+    locators: ["SRC-0209: cel oceny wpływu i polityki opartej na dowodach", "SRC-0218: ustalenia o jakości danych i mierzalności celów"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0233
+    text: "Organ wnioskujący musi przygotować raport z konsultacji, rozstrzygnąć uwagi i ponowić uzgodnienia lub konsultacje, jeżeli istotnie zmienia projekt w toku prac."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0201]
+    locators: ["§ 48", "§§ 49-51"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0234
+    text: "Publiczne konsultacje strategii powinny zostać zaplanowane co najmniej na ustawowe 35 dni, z opublikowaniem uzasadnionych odpowiedzi, a pre-konsultacje powinny rozpocząć się wcześniej z grupami dotkniętymi skutkami."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0208, SRC-0209, SRC-0210]
+    locators: ["SRC-0208: art. 6 ust. 4-6", "SRC-0209: sekcja konsultacji publicznych", "SRC-0210: wytyczne konsultacyjne"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0235
+    text: "Przed formalnym przedłożeniem należy sprawdzić, czy RCL zakończyło aktualizację wytycznych oceny wpływu i konsultacji, ponieważ strona RCL wskazuje trwające prace aktualizacyjne."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0210]
+    locators: ["komunikat na stronie RCL o aktualizacji wytycznych"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0236
+    text: "Ze względu na równoczesny zakres przemysłowy, edukacyjny, infrastrukturalny i cywilny programu Polska 2040 nie należy zakładać bez formalnej kwalifikacji, że cały dokument spełnia przesłankę przygotowania wyłącznie dla celów obrony narodowej lub obrony cywilnej."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0216, SRC-0217]
+    locators: ["SRC-0216: art. 46-48", "SRC-0217: sekcje o dokumentach podlegających SOOŚ i wyjątkach"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A02
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To ostrożnościowy wniosek z literalnego kryterium 'wyłącznie'; ostateczna kwalifikacja należy do właściwych organów."

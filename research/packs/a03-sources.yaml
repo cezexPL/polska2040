@@ -1,0 +1,177 @@
+schema_version: 1
+sources:
+  - id: SRC-0301
+    title: Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 27 maja 2026 r. w sprawie ogłoszenia jednolitego tekstu ustawy — Prawo zamówień publicznych
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/api/acts/DU/2026/793/text/O/D20260793.pdf
+    published_at: "2026-06-16"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: tekst jednolity ustawy
+    language: pl
+    locator: "art. 2 ust. 1 pkt 3, art. 11 ust. 1 pkt 3, art. 12 ust. 1, art. 395 ust. 3, art. 410 ust. 1–2, art. 414 ust. 2, art. 417–418, s. 5, 13, 16, 111, 117, 121–122 pliku PDF"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Tekst jednolity uwzględnia stan prawny na 25 maja 2026 r. Przed użyciem w realnym postępowaniu konieczna jest ponowna kontrola późniejszych zmian i progów unijnych. Pakiet A03 nie stanowi opinii prawnej."
+
+  - id: SRC-0302
+    title: Ustawa z dnia 25 lipca 2025 r. o szczególnych zasadach przygotowania i realizacji strategicznych inwestycji w zakresie potrzeb obronności państwa lub kluczowych inwestycji w zakresie potrzeb obronności państwa lub bezpieczeństwa publicznego oraz ustanawiania stref ochronnych terenów zamkniętych
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/api/acts/DU/2025/1080/text/O/D20251080.pdf
+    published_at: "2025-08-07"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa
+    language: pl
+    locator: "art. 2 ust. 5, s. 3 pliku PDF"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 2 ust. 5 ustanawia wąskie wyłączenie PZP dla zamówień Sił Zbrojnych RP dotyczących wskazanych kategorii systemów bezzałogowych i środków ich zwalczania po spełnieniu trzech warunków. ELI wskazuje akt jako obowiązujący i posiadający akt zmieniający."
+
+  - id: SRC-0303
+    title: Ustawa z dnia 29 maja 2026 r. o zmianie niektórych ustaw w związku z uregulowaniem funkcjonowania lotnictwa służb porządku publicznego
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/api/acts/DU/2026/864/text/O/D20260864.pdf
+    published_at: "2026-06-30"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: ustawa zmieniająca
+    language: pl
+    locator: "art. 5 i art. 14, s. 23–24 pliku PDF"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Akt opublikowano 30 czerwca 2026 r. i zgodnie z art. 14 wchodzi w życie po 3 miesiącach, więc na dzień dostępu nie obowiązywał. Jego art. 5 zmienia art. 1 i art. 5 ustawy z 25 lipca 2025 r., a nie art. 2 ust. 5. Stan należy ponownie sprawdzić przed decyzją wykonawczą."
+
+  - id: SRC-0304
+    title: Agencja Uzbrojenia — zadania
+    publisher: Ministerstwo Obrony Narodowej
+    url: https://www.gov.pl/web/obrona-narodowa/agencja-uzbrojenia
+    published_at: "2022-01-03"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalna strona organizacyjna
+    language: pl
+    locator: "sekcja Zadania; wersja strony 7.0 z 20 listopada 2025 r."
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "MON przypisuje Agencji Uzbrojenia m.in. definiowanie wymagań sprzętowych, inicjowanie B+R, procedury pozyskiwania, nadzór jakości, offset i zarządzanie prawami IP powstałymi z B+R."
+
+  - id: SRC-0305
+    title: Testy rozwiązań technicznych w zakresie zwalczania bezzałogowych statków powietrznych
+    publisher: Ministerstwo Obrony Narodowej
+    url: https://www.gov.pl/web/obrona-narodowa/testy-rozwiazan-technicznych-w-zakresie-zwalczania-bezzalogowych-statkow-powietrznych
+    published_at: "2025-11-26"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalne ogłoszenie o naborze do testów
+    language: pl
+    locator: "akapity po tytule i założenia 1–4 wynikające z decyzji nr 123/MON"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Ogłoszenie potwierdza stosowanie decyzji nr 123/MON oraz cztery jawne zasady: oparcie o jednostki organizacyjne, rozproszone testy, uczciwą i transparentną konkurencję oraz uproszczoną weryfikację kontrwywiadowczą."
+
+  - id: SRC-0306
+    title: Testy operacyjne innowacyjnych rozwiązań na potrzeby programu „Tarcza Wschód”
+    publisher: Ministerstwo Obrony Narodowej
+    url: https://www.gov.pl/web/obrona-narodowa/testy-operacyjne-innowacyjnych-rozwiazan-na-potrzeby-programu-tarcza-wschod
+    published_at: "2026-04-22"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalny komunikat o portfelu testów
+    language: pl
+    locator: "akapity: Do tej pory wpłynęło ponad 715 zgłoszeń; Dotychczas przetestowano 36 rozwiązań; Po zakończeniu obecnych testów"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Komunikat daje punktowy obraz lejka na 22 kwietnia 2026 r.; nie publikuje pełnej kohorty, czasu przejścia, kosztów, liczby rekomendacji, kontraktów ani wdrożeń."
+
+  - id: SRC-0307
+    title: Poligon Innowatora
+    publisher: Ministerstwo Obrony Narodowej
+    url: https://www.gov.pl/web/obrona-narodowa/poligon-innowatora
+    published_at: "2026-06-30"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny opis inicjatywy
+    language: pl
+    locator: "sekcja Cele Poligonu Innowatora"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "MON opisuje inicjatywę WITU jako służącą wczesnej weryfikacji, dokumentowaniu testów, zgodności regulacyjnej i szybszemu przejściu od koncepcji do wdrożenia; strona nie publikuje regulaminu konwersji test–kontrakt."
+
+  - id: SRC-0308
+    title: NATO Innovation Scale-Up Package
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/nato-innovation-scale-up-package
+    published_at: "2026-07-08"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny pakiet polityki sojuszniczej
+    language: en
+    locator: "paras 5–11, especially paras 6–7 and footnote 5"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "NATO przywołuje ogólną ambicję znalezienia, przetestowania i przyjęcia nowych produktów technologicznych w 24 miesiące, z zastrzeżeniem zależności od TRL i natury produktu, oraz wymaga łączenia wyzwań i eksperymentów z wcześniej wskazaną ścieżką kontraktową."
+
+  - id: SRC-0309
+    title: DIANA Accelerator Programme
+    publisher: NATO Defence Innovation Accelerator for the North Atlantic
+    url: https://www.diana.nato.int/accelerator-programme.html
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalny opis programu akceleracyjnego
+    language: en
+    locator: "sections Funding & Testing and Mission Track"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strona podaje finansowanie kontraktowe 100 tys. EUR, dostęp do ponad 200 centrów testowych oraz możliwość do 300 tys. EUR w Mission Track. Nie opisuje automatycznego krajowego zamówienia seryjnego po akceleracji."
+
+  - id: SRC-0310
+    title: Hub for EU Defence Innovation (HEDI)
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/what-we-do/research-technology/hedi
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny opis programu innowacji obronnych UE
+    language: en
+    locator: "sections From HEDI to HEDI 2.0; Innovators Forge; Uptake of Innovation"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "HEDI 2.0 opisuje fazowy rozwój, walidację w coraz bardziej realistycznych warunkach, eksperymentowanie operacyjne, informację zwrotną opartą na danych i plany skalowania."
+
+  - id: SRC-0311
+    title: EDA's first operational experimentation campaign for defence innovation takes off
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/news-and-events/news/2025/02/13/eda%27s-first-operational-experimentation-campaign-for-defence-innovation-takes-off
+    published_at: "2025-02-13"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalny komunikat o kampanii OPEX
+    language: en
+    locator: "sections Areas to be tested and EDA's broader role"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "EDA informuje, że kontrakty do udziału w OPEX 2025 przyznano po konkurencyjnym postępowaniu w sześciu kategoriach. Kampania tworzy dowody z eksperymentu, ale komunikat nie stanowi dowodu zakupu seryjnego przez państwa członkowskie."

@@ -1,0 +1,353 @@
+schema_version: 1
+sources:
+  - id: SRC-0401
+    title: Summary of NATO’s Autonomy Implementation Plan
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2022/10/13/summary-of-natos-autonomy-implementation-plan
+    published_at: 2022-10-13
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official NATO policy summary
+    language: en
+    locator: "paras 4–13"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Public summary, not the full implementation plan. Supports interoperability, responsible-use and experimentation principles; it does not disclose capability requirements."
+
+  - id: SRC-0402
+    title: EDA Action Plan on Autonomous Systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/publications-and-data/thematic-policy-reports/eda-action-plan-on-autonomous-systems
+    published_at: 2024-10-16
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official EU defence policy report landing page
+    language: en
+    locator: "publication description and APAS download; detailed action lines are summarised on the APAS policy page"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The publication page confirms the document date, scope and participation of Poland. Detailed public APAS statements are captured in SRC-0403."
+
+  - id: SRC-0403
+    title: APAS — Action Plan on Autonomous Systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/apas
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official policy overview
+    language: en
+    locator: "APAS objectives, action lines and concept; page lines 131–158 in retrieved version"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Official EDA summary of the action plan approved in 2024. It describes land, air, maritime and cross-domain scope, modular open architectures, TEVV, certification and taxonomy."
+
+  - id: SRC-0404
+    title: Taxonomy — Autonomous Systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/taxonomy
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official policy and taxonomy overview
+    language: en
+    locator: "section Why a Common Language Matters; page lines 129–141 in retrieved version"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The page advocates a common taxonomy centred on autonomy as a function and on capabilities, limitations and operating environments. It does not publish a complete controlled vocabulary."
+
+  - id: SRC-0405
+    title: EDA-led project shapes standards for unmanned systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/news-and-events/news/2023/07/12/eda-led-project-shapes-standards-for-unmanned-systems
+    published_at: 2023-07-12
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official project results communication
+    language: en
+    locator: "sections Standardisation of systems, interfaces and Tabletop exercise"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Describes INTERACT recommendations and roadmap. The communication explicitly says a complete standard still required follow-on validation, so it is not treated as a binding standard."
+
+  - id: SRC-0406
+    title: Standardisation — Autonomous Systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/standardisation
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official standardisation policy overview
+    language: en
+    locator: "principle on civilian and military standards; EDSTAR; lifecycle standardisation"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "EDA frames EDSTAR as a reference database and recommends civilian standards where possible and military standards where necessary."
+
+  - id: SRC-0407
+    title: Test, Validation, Verification & Certification — Autonomous Systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/taxonomy/test-validation-verification
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official TEVV and certification policy overview
+    language: en
+    locator: "sections Test, Validation, and Verification; Certification; The DTEB"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The page identifies limits of legacy testing for adaptive and non-deterministic autonomy and the need for stepwise certification. It does not define a universal certification scheme."
+
+  - id: SRC-0408
+    title: ISO/IEC/IEEE 15288:2023 — Systems and software engineering — System life cycle processes
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/81702.html
+    published_at: 2023-05-16
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "abstract and general information"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "Only the official public abstract and metadata were used. The full standard was not accessed, and the memo does not claim conformance."
+
+  - id: SRC-0409
+    title: Implementing a Modular Open Systems Approach in Department of Defense Programs
+    publisher: United States Department of Defense, Office of the Under Secretary of Defense for Research and Engineering
+    url: https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf
+    published_at: 2025-02-27
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official government implementation guidebook
+    language: en
+    locator: "pp. 5–12, 43–45 and 55–61 of the document"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Foreign acquisition benchmark, not Polish or NATO law. Used for the integrated business-and-technical nature of MOSA, interface/data-rights planning, conformance testing and trade-offs."
+
+  - id: SRC-0410
+    title: Land domain — Autonomous Systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/capability-development/land-domain
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official capability-domain overview
+    language: en
+    locator: "Capability Development Priorities and public project list"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Supports recognition of unmanned ground systems and open C2 architectures at policy level. No tactical or performance parameters are used."
+
+  - id: SRC-0411
+    title: Maritime domain — Autonomous Systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/capability-development/maritime-domain
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official capability-domain overview
+    language: en
+    locator: "Capability Development Priorities and Technological challenges"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Supports separate treatment of unmanned surface and underwater systems, while recognising cross-domain integration needs."
+
+  - id: SRC-0412
+    title: Air domain — Autonomous Systems
+    publisher: European Defence Agency
+    url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/capability-development/air-domain
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official capability-domain overview
+    language: en
+    locator: "Capability Development Priorities and regulatory challenges"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Supports inclusion of UAS and C-UAS in the air-domain portfolio. Operationally sensitive examples and parameters are not reproduced."
+
+  - id: SRC-0413
+    title: Resolution MSC.595(111) — International Code of Safety for Maritime Autonomous Surface Ships (MASS Code)
+    publisher: International Maritime Organization
+    url: https://wwwcdn.imo.org/localresources/en/MediaCentre/Documents/MSC%20111-22-Annex%2016%20%28Secretariat%29.pdf
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official non-mandatory international safety code
+    language: en
+    locator: "resolution operative paras 1–6; chapters 6–10 and 15; definitions 4.2, 4.26–4.32 and 4.42–4.43"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Adopted at MSC 111 and invited for application from 1 July 2026. It does not apply to warships under section 2.1.2; the memo uses its function-based, risk-based assurance concepts only as a transferable civil benchmark."
+
+  - id: SRC-0414
+    title: NATO Integrated Air and Missile Defence Policy
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/02/13/nato-integrated-air-and-missile-defence-policy
+    published_at: 2025-02-13
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official NATO policy
+    language: en
+    locator: "paras 14–42 and 53–61"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Supports multi-domain interoperability, resilient C2, layered defence, civil-military coordination and planning for degraded conditions."
+
+  - id: SRC-0415
+    title: Allies and industry test the latest counter-drone technology during NATO exercise
+    publisher: NATO Communications and Information Agency
+    url: https://www.ncia.nato.int/newsroom/news/allies-and-industry-test-the-latest-counterdrone-technology-during-nato-exercise
+    published_at: 2026-05-21
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official exercise report
+    language: en
+    locator: "TIE 26 scope, architecture and evaluation criteria"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Reports a controlled interoperability exercise, not procurement acceptance or operational effectiveness in every setting."
+
+  - id: SRC-0416
+    title: New NATO Innovation Range starts counter-drone technology testing in Latvia
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/news-and-events/articles/news/2026/03/18/new-nato-innovation-range-starts-counter-drone-technology-testing-in-latvia
+    published_at: 2026-03-18
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official test-range programme report
+    language: en
+    locator: "paras describing the five Innovation Ranges and the March 2026 TEVV campaign"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Confirms cross-domain NATO test ranges for uncrewed, cyber, connectivity, underwater and shallow-water technologies."
+
+  - id: SRC-0417
+    title: Plan działania na rzecz ochrony przed dronami i zwalczania dronów
+    publisher: Komisja Europejska
+    url: https://digital-strategy.ec.europa.eu/pl/policies/drone-security
+    published_at: 2026-02-12
+    accessed_at: 2026-07-21
+    tier: A3-official-policy
+    document_type: official EU action plan overview
+    language: pl
+    locator: "sections Przygotowanie, Wykryj, Odpowiedź and Wzmocnienie"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "The page is a machine-translated official Polish rendering and states a last update of 12 February 2026. It links the civil-security and defence-readiness dimensions without merging their legal authorities."
+
+  - id: SRC-0418
+    title: "ISO 22166-1:2021 — Robotics — Modularity for service robots — Part 1: General requirements"
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/72715.html
+    published_at: 2021-02-01
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "abstract and status information"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "The standard is published but marked to be revised. It applies specifically to service robots and explicitly is not a safety standard."
+
+  - id: SRC-0419
+    title: "ISO 22166-201:2024 — Robotics — Modularity for service robots — Part 201: Common information model for modules"
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/82334.html
+    published_at: 2024-02-23
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public abstract
+    language: en
+    locator: "abstract and status information"
+    checksum: null
+    license: proprietary standard; public metadata and abstract
+    archive_path: null
+    status: verified
+    notes: "Applies to service robots. Used only as evidence that common module information models can support interoperability, reusability and composability."
+
+  - id: SRC-0420
+    title: ISO 55001:2024 — Asset management — Asset management system — Requirements
+    publisher: International Organization for Standardization
+    url: https://www.iso.org/standard/83054.html
+    published_at: 2024-07-03
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: international standard metadata and public overview
+    language: en
+    locator: "overview, benefits and general information"
+    checksum: null
+    license: proprietary standard; public metadata and overview
+    archive_path: null
+    status: verified
+    notes: "Used as a general lifecycle asset-management benchmark, not as proof that any Polish defence organisation currently conforms."
+
+  - id: SRC-0421
+    title: Commission Implementing Regulation (EU) 2019/947 on the rules and procedures for the operation of unmanned aircraft
+    publisher: European Union, EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj
+    published_at: 2019-06-11
+    accessed_at: 2026-07-21
+    tier: A1-law
+    document_type: EU implementing regulation with consolidated-version metadata
+    language: en
+    locator: "recitals 1–6; Article 2; current consolidated version indicated as 1 May 2025"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Civil aviation law. It supports a risk-proportionate classification example and the definition of UAS as aircraft plus control and monitoring unit; it is not used as a military-system classification."
+
+  - id: SRC-0422
+    title: Maritime Unmanned Systems Enablers — CMRE Annual Report 2025
+    publisher: NATO Science and Technology Organization Centre for Maritime Research and Experimentation
+    url: https://www.cmre.nato.int/ar25/maritime-unmanned-systems-enablers/
+    published_at: null
+    accessed_at: 2026-07-21
+    tier: A2-primary-data
+    document_type: official annual-report project page
+    language: en
+    locator: "sections Interoperability Standards and Security and Modelling and Simulation"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Reports development and exercise implementation of a new draft version of STANAG 4817. The draft wording is preserved; the source is not treated as a public conformance specification."

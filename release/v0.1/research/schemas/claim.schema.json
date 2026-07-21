@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClaimRecord",
+  "type": "object",
+  "required": ["id", "text", "type", "status", "source_ids", "as_of", "confidence", "author", "reviewer", "used_in", "sensitivity"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^CLM-[0-9]{4}$"},
+    "text": {"type": "string", "minLength": 8},
+    "type": {"enum": ["FACT", "ESTIMATE", "SCENARIO", "INFERENCE", "RECOMMENDATION", "UNKNOWN"]},
+    "status": {"enum": ["unverified", "verified", "disputed", "retired"]},
+    "source_ids": {"type": "array", "items": {"type": "string", "pattern": "^SRC-[0-9]{4}$"}, "uniqueItems": true},
+    "locators": {"type": "array", "items": {"type": "string"}},
+    "as_of": {"type": ["string", "null"], "format": "date"},
+    "confidence": {"enum": ["high", "medium", "low", "not-applicable"]},
+    "author": {"type": "string"},
+    "reviewer": {"type": ["string", "null"]},
+    "used_in": {"type": "array", "items": {"type": "string"}},
+    "sensitivity": {"enum": ["public", "restricted-placeholder"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

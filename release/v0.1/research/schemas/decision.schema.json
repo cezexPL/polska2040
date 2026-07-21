@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DecisionRecord",
+  "type": "object",
+  "required": ["id", "decision", "addressee", "owner", "deadline", "cost_range", "legal_basis", "dependencies", "kpis", "risks", "evidence_claim_ids", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^DEC-[0-9]{4}$"},
+    "decision": {"type": "string", "minLength": 8},
+    "addressee": {"type": "string"},
+    "owner": {"type": "string"},
+    "deadline": {"type": ["string", "null"]},
+    "cost_range": {"type": ["string", "null"]},
+    "legal_basis": {"type": ["string", "null"]},
+    "dependencies": {"type": "array", "items": {"type": "string"}},
+    "kpis": {"type": "array", "items": {"type": "string"}},
+    "risks": {"type": "array", "items": {"type": "string"}},
+    "evidence_claim_ids": {"type": "array", "items": {"type": "string", "pattern": "^CLM-[0-9]{4}$"}},
+    "status": {"enum": ["candidate", "recommended", "rejected", "blocked"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

@@ -20,6 +20,8 @@ W ciągu maksymalnie 24 godzin zbudować audytowalny ekspercki draft v0.1 niezal
 
 ## Nowy obowiązkowy filar przekrojowy — suwerenność inteligencji i odporność energetyczna
 
+> **Stan wersjonowania:** mandat A13/Filar VII został dodany do `main` po zamrożeniu i niezależnym audycie pakietu `release/v0.1`. Nie zmienia on retroaktywnie zawartości ani werdyktu v0.1. Jest twardą bramką następnego cyklu dowodowego i wydania v0.2; do czasu pełnego researchu A13, integracji wielodokumentowej i ponownego red-team nie wolno oznaczać Filaru VII jako `reviewed` ani publikować go jako część strategii.
+
 Zespół ma dodać chronologicznie po dotychczasowych sześciu filarach **Filar VII — Suwerenność inteligencji i odporność na szoki energetyczne**. Filar nie może być dodatkiem opisowym; musi zmienić strategię, plan realizacji, model finansowy, rejestry ryzyk, briefy dla Premiera/RM i Prezydenta/BBN oraz prezentacje.
 
 Zakres minimalny:
@@ -81,4 +83,3 @@ Wymagane warianty: status quo, wariant minimalny, rekomendowany i maksymalny; co
 - Zero nierozwiązanych usterek krytycznych red-team.
 - `make validate` i `make build` kończą się powodzeniem.
 - Draft PR zawiera wynik walidacji, listę luk i artefakty do recenzji.
-

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Nota strategiczna dla Prezydenta i BBN</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="president-bbn-brief"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="nota-strategiczna-dla-prezydenta-i-bbn">Nota strategiczna dla Prezydenta i BBN</h1>
+<p><strong>Sprawa:</strong> odporna, sojusznicza suwerenność technologiczna Polski do 2040 r.<br />
+<strong>Status:</strong> niezależny materiał przedmandatowy v0.1 — nie jest dokumentem państwowym ani wnioskiem urzędowym<br>
+<strong>Stan wiedzy:</strong> 21 lipca 2026 r.<br />
+<strong>Zakres:</strong> strategiczny i jawny; bez ocen niejawnych zdolności</p>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<h3 id="teza">Teza</h3>
+<p>Suwerenność technologiczna nie oznacza produkowania wszystkiego w kraju. Oznacza zdolność państwa do samodzielnej decyzji, utrzymania i odtworzenia krytycznych funkcji mimo zakłóceń — z kontrolą danych, konfiguracji, cyklu życia i alternatyw — przy pełnej interoperacyjności z NATO i wykorzystaniu skali UE.</p>
+<h3 id="rola-prezydenta-i-bbn">Rola Prezydenta i BBN</h3>
+<ol>
+<li>monitorować na poziomie strategicznym zgodność programu z interesem bezpieczeństwa narodowego i dokumentami strategicznymi;</li>
+<li>wspierać ciągłość ponad kadencjami bez chronienia nieskutecznych projektów przed zamknięciem;</li>
+<li>rekomendować właściwym organom coroczny przegląd odporności, interoperacyjności i krytycznych zależności;</li>
+<li>podkreślać rozdzielenie patronatu strategicznego od odpowiedzialności wykonawczej rządu;</li>
+<li>wnosić do właściwych organów o potwierdzenie, że informacje chronione trafiają wyłącznie do autoryzowanego obiegu.</li>
+</ol>
+<p>Punktem prawnym wymagającym zastosowania przez właściwych prawników jest art. 24 ustawy o obronie Ojczyzny, który obejmuje między innymi rekomendacje Prezydenta przed pracami RM nad strategią oraz zatwierdzanie strategii na wniosek Prezesa Rady Ministrów (<a href="https://eli.gov.pl/api/acts/DU/2022/655/text/U/D20220655Lj.pdf">tekst ujednolicony ustawy</a>, <strong>CLM-0104</strong>). Fakt ten nie przesądza kwalifikacji niniejszego projektu jako konkretnej strategii ani nie przenosi na Prezydenta jej wykonania.</p>
+<h3 id="rekomendacja">Rekomendacja</h3>
+<p>Wesprzeć uruchomienie wspólnego strategicznego przeglądu Prezydent–Premier, ale rekomendować model portfela realizowanego przez właściwe organy rządu: potrzeba → dane → test → mała partia → skala lub zamknięcie → produkcja, serwis i aktualizacja. Pierwszy rok ma udowodnić mechanizm, nie ogłaszać pełną samowystarczalność.</p>
+<h2 id="1-znaczenie-dla-bezpieczenstwa-narodowego">1. Znaczenie dla bezpieczeństwa narodowego</h2>
+<h3 id="odpornosc-nie-autarkia">Odporność, nie autarkia</h3>
+<p>Państwo powinno klasyfikować technologie według sposobu kontroli:</p>
+<ul>
+<li><strong>kontrola krajowa</strong> dla elementów, których utrata uniemożliwia działanie lub bezpieczną zmianę;</li>
+<li><strong>współkontrola sojusznicza</strong> dla zdolności budowanych we wspólnym standardzie i łańcuchu;</li>
+<li><strong>dywersyfikacja importu</strong> tam, gdzie krajowa produkcja jest nieproporcjonalna, ale pojedynczy dostawca tworzy ryzyko;</li>
+<li><strong>świadomie zaakceptowana zależność</strong> tam, gdzie koszt redukcji ryzyka przewyższa korzyść.</li>
+</ul>
+<p>Kluczowe pytanie nie brzmi „czy produkt jest polski?”, lecz: czy Polska potrafi go skonfigurować, utrzymać, naprawić, aktualizować, zastąpić i zwiększyć dostępność w wymaganym czasie.</p>
+<h3 id="system-nie-kategoria-sprzetu">System, nie kategoria sprzętu</h3>
+<p>Program obejmuje platformy powietrzne, lądowe, nawodne i podwodne, przeciwdziałanie systemom bezzałogowym, sensory, łączność, nawigację, WRE/SIGINT, cyber, AI, dane, produkcję i logistykę. Żadna pojedyncza technologia nie zastępuje gotowości, dowodzenia, ochrony ludności, obrony powietrznej, logistyki i interoperacyjności.</p>
+<h3 id="dane-jako-zasob-strategiczny">Dane jako zasób strategiczny</h3>
+<p>Ukraina oficjalnie uruchomiła Brave1 Dataroom do treningu i testowania AI na wybranych danych z pola walki, z dostępem po procedurach bezpieczeństwa (<a href="https://digitalstate.gov.ua/news/tech/ukraine-launches-brave1-dataroom-with-palantir-to-train-ai-models-using-battlefield-data">Digital State UA</a>, <strong>CLM-1216</strong>). Wniosek dla Polski dotyczy mechanizmu: kontrolowanego dostępu, wersjonowania, odseparowanego testu, audytu i możliwości wstrzymania — nie kopiowania nazwy, dostawcy lub architektury.</p>
+<h2 id="2-doktryna-odpornej-sojuszniczej-suwerennosci">2. Doktryna odpornej, sojuszniczej suwerenności</h2>
+<p>Każdy program powinien przejść pięć testów:</p>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Pytanie strategiczne</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>efekt</td>
+<td>jaki interes państwa i problem użytkownika realizuje?</td>
+</tr>
+<tr>
+<td>kontrola</td>
+<td>które dane, interfejsy, konfiguracje i prawa są krytyczne?</td>
+</tr>
+<tr>
+<td>ciągłość</td>
+<td>czy zdolność daje się utrzymać i odtworzyć przy zakłóceniu?</td>
+</tr>
+<tr>
+<td>sojuszniczość</td>
+<td>czy rozwiązanie jest interoperacyjne i wzmacnia wspólne działanie?</td>
+</tr>
+<tr>
+<td>odpowiedzialność</td>
+<td>czy użycie jest legalne, audytowalne, bezpieczne i sterowalne?</td>
+</tr>
+</tbody>
+</table>
+<p>NATO wskazuje sześć zasad odpowiedzialnego użycia AI: legalność, odpowiedzialność i rozliczalność, wyjaśnialność i identyfikowalność, niezawodność, sterowalność oraz ograniczanie stronniczości (<a href="https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy">NATO</a>, <strong>CLM-1220</strong>). Zasady te powinny być wymaganiem dopuszczenia i monitoringu, nie wyłącznie deklaracją dostawcy.</p>
+<h2 id="3-nato-ue-i-ukraina">3. NATO, UE i Ukraina</h2>
+<h3 id="nato">NATO</h3>
+<p>Polski program powinien wzmacniać interoperacyjność, utrzymanie i odporność, a nie tworzyć zamknięty ekosystem krajowy. Jawna strategia nie powinna próbować rekonstruować przypisanych Polsce celów zdolnościowych. Ich mapowanie należy do uprawnionych instytucji i właściwego obiegu.</p>
+<h3 id="unia-europejska">Unia Europejska</h3>
+<p>European Drone Defence Initiative i Eastern Flank Watch są wymienione jako projekty flagowe Readiness Roadmap 2030 (<a href="https://defence-industry-space.ec.europa.eu/eu-defence-industry/readiness-roadmap-2030_en">Komisja Europejska</a>, <strong>CLM-1222</strong>). Samo wpisanie inicjatywy do mapy nie jest dowodem realizacji. Polska powinna dla każdego projektu ustalić status, warunki, związek z potrzebą narodową, kompatybilność z NATO i miernik korzyści.</p>
+<h3 id="ukraina">Ukraina</h3>
+<p>Umowa bezpieczeństwa Polska–Ukraina obejmuje ramy dla łańcuchów produkcyjnych, lokalizacji, wspólnej produkcji i ochrony IP, lecz nie tworzy konkretnej spółki ani produktu (<a href="https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-mizh-ukrayinoyu-ta-92009">Prezydent Ukrainy</a>, <strong>CLM-1212</strong>). Partnerstwa powinny tworzyć portfolio, a nie zależność od jednej firmy. Każde wymaga due diligence właścicielskiego, cyber, IP, eksportu, danych i ciągłości po zmianie sytuacji politycznej.</p>
+<p>Polska jest już uczestnikiem BraveTech EU (<strong>CLM-1214</strong>). Priorytetem jest mierzalny polski portfel: rozwiązania przetestowane, kontrakty następcze, inwestycje i produkcja w Polsce, dostęp do doświadczenia oraz ochrona praw.</p>
+<h2 id="4-rekomendowane-decyzje-i-patronat">4. Rekomendowane decyzje i patronat</h2>
+<h3 id="rekomendowane-kierunki-patronatu-i-wnioski-do-wasciwych-organow">Rekomendowane kierunki patronatu i wnioski do właściwych organów</h3>
+<ol>
+<li>Wnieść do właściwych organów o przedstawienie formalnej relacji programu do obowiązujących dokumentów bezpieczeństwa i planowania obronnego.</li>
+<li>Zarekomendować rozważenie doktryny odpornej, sojuszniczej suwerenności jako kryterium przeglądu, nie jako deklaracji autarkii.</li>
+<li>Zaproponować Premierowi wspólny coroczny przegląd strategiczny, obejmujący odporność, interoperacyjność, ciągłość, projekty zamknięte i nowe zależności.</li>
+<li>Poprosić właściwe organy o przygotowanie jawnego szablonu pytań do części autoryzowanej oraz wskazanie formalnego właściciela każdej informacji.</li>
+<li>Zarekomendować właściwemu organowi powołanie niezależnego red-teamu strategicznego z ujawnionymi konfliktami interesów.</li>
+</ol>
+<h3 id="czego-patronat-nie-powinien-robic">Czego patronat nie powinien robić</h3>
+<ul>
+<li>wybierać wykonawcy lub technologii;</li>
+<li>obiecywać finansowania bez decyzji budżetowej;</li>
+<li>tworzyć równoległego łańcucha zakupowego;</li>
+<li>publikować lub przekazywać danych chronionych;</li>
+<li>traktować celu 2040 jako gwarancji trwania każdego projektu;</li>
+<li>sugerować oficjalnego poparcia przed właściwym przyjęciem dokumentu.</li>
+</ul>
+<h2 id="5-coroczny-przeglad-strategiczny">5. Coroczny przegląd strategiczny</h2>
+<p>Pakiet powinien odpowiadać na dziesięć pytań:</p>
+<ol>
+<li>Które problemy użytkowników zostały rozwiązane, a które zamknięte?</li>
+<li>Jak zmienił się czas od problemu do testu i małej partii?</li>
+<li>Które zależności mają przetestowaną alternatywę?</li>
+<li>Czy produkcja, serwis i aktualizacje przeszły ćwiczenie ciągłości?</li>
+<li>Czy systemy i modele spełniają wymogi legalności, śledzenia i sterowalności?</li>
+<li>Czy partnerstwa zwiększyły opcje Polski, czy stworzyły nową zależność?</li>
+<li>Czy program jest interoperacyjny i spójny z aktualnymi ramami NATO/UE?</li>
+<li>Jaki jest koszt cyklu życia i koszt alternatywny?</li>
+<li>Które dane pozostają <code>UNKNOWN</code> i czy zmieniają rekomendację?</li>
+<li>Które działania trzeba zakończyć albo zastąpić?</li>
+</ol>
+<p>Wersja dla Prezydenta/BBN może zawierać część autoryzowaną przygotowaną przez właściwe organy. Wersja jawna publikuje wyłącznie zatwierdzone agregaty.</p>
+<h2 id="6-ryzyka-strategiczne">6. Ryzyka strategiczne</h2>
+<table>
+<thead>
+<tr>
+<th>Ryzyko</th>
+<th>Skutek</th>
+<th>Zabezpieczenie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>autarkia jako cel</td>
+<td>wysoki koszt i utrata interoperacyjności</td>
+<td>selektywna kontrola i sojusznicze alternatywy</td>
+</tr>
+<tr>
+<td>program jednej technologii</td>
+<td>zaniedbanie całego systemu</td>
+<td>wielodomenowy portfel i test efektu</td>
+</tr>
+<tr>
+<td>zależność od jednego partnera</td>
+<td>utrata swobody decyzji</td>
+<td>portfolio, IP, escrow i plan wyjścia</td>
+</tr>
+<tr>
+<td>skala przed dowodem</td>
+<td>trudne do odwrócenia zobowiązania</td>
+<td>małe partie i bramki</td>
+</tr>
+<tr>
+<td>nadmierna tajność</td>
+<td>mała konkurencja i brak kontroli</td>
+<td>najmniejszy konieczny zakres ochrony</td>
+</tr>
+<tr>
+<td>nadmierna jawność</td>
+<td>ujawnienie zdolności lub podatności</td>
+<td>sanitizacja przez właściciela informacji</td>
+</tr>
+<tr>
+<td>niekontrolowane AI</td>
+<td>ryzyko prawne, operacyjne i reputacyjne</td>
+<td>zasady NATO, monitoring i prawo wstrzymania</td>
+</tr>
+<tr>
+<td>przechwycenie przez dostawców</td>
+<td>potrzeby dopasowane do produktu</td>
+<td>rozdzielenie potrzeby, testu i zakupu</td>
+</tr>
+<tr>
+<td>zmiana polityczna</td>
+<td>rozmontowanie programu lub zamrożenie błędów</td>
+<td>coroczny przegląd i mierzalne rezultaty</td>
+</tr>
+<tr>
+<td>narracja zamiast zdolności</td>
+<td>konferencje i granty bez wdrożeń</td>
+<td>raport projektów skalowanych i zamkniętych</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7-pierwsze-100-dni-z-perspektywy-prezydentabbn">7. Pierwsze 100 dni z perspektywy Prezydenta/BBN</h2>
+<ul>
+<li>poprosić rząd o przedstawienie mapy miejsca programu w systemie strategicznym;</li>
+<li>zarekomendować właściwym organom uzgodnienie jawnych kryteriów odporności, ciągłości i interoperacyjności;</li>
+<li>poprosić właściwe organy o potwierdzenie granicy materiału jawnego i autoryzowanego;</li>
+<li>przekazać pytania strategiczne do audytu bazowego właściwym organom;</li>
+<li>uczestniczyć w przeglądzie wariantów, bez wejścia w wybór dostawców;</li>
+<li>wspierać utworzenie przez właściwy organ niezależnego red-teamu i stosowanie deklaracji konfliktów interesów;</li>
+<li>zaproponować format rocznego raportu do uzgodnienia z rządem;</li>
+<li>wnosić, aby pierwszej decyzji skali towarzyszyły wynik testu, TCO, plan serwisu i plan substytucji.</li>
+</ul>
+<h2 id="8-warunki-poparcia-kolejnej-fazy">8. Warunki poparcia kolejnej fazy</h2>
+<p>Prezydent, przy wsparciu BBN, powinien rekomendować kontynuację, jeżeli program:</p>
+<ul>
+<li>ma formalne miejsce i właścicieli;</li>
+<li>dowodzi zdolności przejścia od problemu do testu;</li>
+<li>potrafi zamknąć projekt bez ukrywania wyniku;</li>
+<li>rozdziela dane jawne i chronione;</li>
+<li>wzmacnia interoperacyjność;</li>
+<li>ma kontrolę cyklu życia oraz alternatywy;</li>
+<li>stosuje odpowiedzialne AI i cyber od początku;</li>
+<li>nie preferuje partnera bez due diligence;</li>
+<li>pokazuje koszt, ryzyko i koszt alternatywny;</li>
+<li>utrzymuje niezależną ewaluację.</li>
+</ul>
+<h2 id="dalsze-pytania">Dalsze pytania</h2>
+<ul>
+<li>Jak program zostanie formalnie powiązany z aktualnymi strategiami państwa?</li>
+<li>Które zależności są krytyczne w horyzontach 2027, 2030 i 2035?</li>
+<li>Jakie zdolności do odtworzenia mogą być raportowane w agregacie?</li>
+<li>Jak mierzyć interoperacyjność poza deklaracją zgodności ze standardem?</li>
+<li>Jak zachować ciągłość polityczną, nie zamrażając technologii i dostawców?</li>
+</ul>
+<h2 id="zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</h2>
+<ul>
+<li>Nota nie zawiera oceny zagrożeń, celów zdolnościowych, wolumenów ani zapasów.</li>
+<li>Brak jawnego dowodu nie jest interpretowany jako brak zdolności państwa.</li>
+<li>Bieżący status dokumentów i inicjatyw należy ponownie sprawdzić w dniu przedłożenia.</li>
+<li>Patronat strategiczny nie zastępuje konstytucyjnych i ustawowych kompetencji organów.</li>
+<li>Publikacja lub przekazanie materiału wymaga akceptacji człowieka i kontroli bezpieczeństwa informacji.</li>
+</ul><div class="metadata">Identyfikator: president-bbn-brief · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

@@ -1,0 +1,2935 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Szablon danych wojewódzkich</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="voivodeship-data-template"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="karta-danych-wojewodztwa">Karta danych województwa</h1>
+<table>
+<thead>
+<tr>
+<th>Metadana</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Program</td>
+<td>Polska 2040: Suwerenność technologiczna</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>ROBOCZY szablon jawny do wypełnienia; nie jest oficjalnym profilem województwa ani decyzją inwestycyjną</td>
+</tr>
+<tr>
+<td>Wersja formularza</td>
+<td>v0.1</td>
+</tr>
+<tr>
+<td>Data wersji formularza</td>
+<td>21 lipca 2026 r.</td>
+</tr>
+<tr>
+<td>Województwo</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Identyfikator profilu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Data odcięcia danych</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Właściciel profilu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Opiekun jakości danych</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Lokalnych wartości nie wolno kopiować z innego województwa. Każda liczba wymaga źródła, daty, definicji, jednostki oraz mianownika, jeżeli jest wskaźnikiem względnym. Brak danych pozostaje <strong>UNKNOWN</strong>. Dokument jest przeznaczony wyłącznie do informacji jawnych i zagregowanych.</p>
+</blockquote>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<h3 id="odpowiedz-dla-decydenta">Odpowiedź dla decydenta</h3>
+<table>
+<thead>
+<tr>
+<th>Pytanie wykonawcze</th>
+<th>Odpowiedź</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Najmocniejsza potwierdzona kompetencja regionu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Najważniejsza luka kompetencyjna</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Najlepiej udokumentowana infrastruktura dostępna dla programu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Najważniejszy problem popytowy z właścicielem i baseline</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Rekomendowana rola regionu w sieci krajowej</td>
+<td>UNKNOWN — RECOMMENDATION do zatwierdzenia przez człowieka</td>
+</tr>
+<tr>
+<td>Zasób, który region może udostępnić innym</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Zasób, który powinien pozyskać przez przekazanie międzyregionalne</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Gotowość danych do wyboru pilotażu</td>
+<td>UNKNOWN — PASS / FAIL / UNKNOWN</td>
+</tr>
+<tr>
+<td>Najważniejsza luka danych blokująca decyzję</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Data kolejnego przeglądu</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="co-profil-moze-a-czego-nie-moze-rozstrzygnac">Co profil może, a czego nie może rozstrzygnąć</h3>
+<p>Profil może wykazać, gdzie istnieją udokumentowane kompetencje, zasoby, firmy, popyt i warunki wdrożenia. Nie przesądza lokalizacji inwestycji, przyznania środków ani wyboru dostawcy. Specjalizacja regionalna wynika z dowodów oraz komplementarności z innymi województwami, a nie z deklaracji marketingowej.</p>
+<h3 id="minimalne-warunki-uzycia-w-decyzji">Minimalne warunki użycia w decyzji</h3>
+<ol>
+<li>Zakres geograficzny i okres odniesienia są jednoznaczne.</li>
+<li>Wskaźniki mają definicję, licznik, mianownik, źródło, datę i właściciela.</li>
+<li>Źródła administracyjne, statystyczne i ankietowe nie są mieszane bez wyjaśnienia.</li>
+<li>Dane dotyczące kompetencji opisują umiejętności lub kwalifikacje, nie wyłącznie nazwy kierunków.</li>
+<li>Infrastruktura jest opisana przez dostępność i przepustowość, nie sam fakt posiadania.</li>
+<li>Popyt ma właściciela problemu, baseline i możliwy mechanizm kontynuacji.</li>
+<li>Jakość, prawo, bezpieczeństwo informacji i konflikty interesów mają wynik PASS.</li>
+<li>Profil zatwierdza człowiek odpowiedzialny za dane oraz człowiek odpowiedzialny za decyzję.</li>
+</ol>
+<h2 id="spis-tresci">Spis treści</h2>
+<div class="toc">
+<ul>
+<li><a href="#karta-danych-wojewodztwa">Karta danych województwa</a><ul>
+<li><a href="#executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</a><ul>
+<li><a href="#odpowiedz-dla-decydenta">Odpowiedź dla decydenta</a></li>
+<li><a href="#co-profil-moze-a-czego-nie-moze-rozstrzygnac">Co profil może, a czego nie może rozstrzygnąć</a></li>
+<li><a href="#minimalne-warunki-uzycia-w-decyzji">Minimalne warunki użycia w decyzji</a></li>
+</ul>
+</li>
+<li><a href="#spis-tresci">Spis treści</a></li>
+<li><a href="#1-instrukcja-uzycia">1. Instrukcja użycia</a><ul>
+<li><a href="#11-cel">1.1. Cel</a></li>
+<li><a href="#12-granice-jawnosci">1.2. Granice jawności</a></li>
+<li><a href="#13-klasy-twierdzen">1.3. Klasy twierdzeń</a></li>
+<li><a href="#14-regua-odciecia">1.4. Reguła odcięcia</a></li>
+</ul>
+</li>
+<li><a href="#2-metadane-profilu">2. Metadane profilu</a><ul>
+<li><a href="#21-historia-wersji">2.1. Historia wersji</a></li>
+<li><a href="#22-zakres-geograficzny">2.2. Zakres geograficzny</a></li>
+<li><a href="#23-okresy-odniesienia">2.3. Okresy odniesienia</a></li>
+</ul>
+</li>
+<li><a href="#3-governance-danych">3. Governance danych</a><ul>
+<li><a href="#31-odpowiedzialnosc">3.1. Odpowiedzialność</a></li>
+<li><a href="#32-rejestr-dostepu-i-ograniczen">3.2. Rejestr dostępu i ograniczeń</a></li>
+<li><a href="#33-konflikty-interesow">3.3. Konflikty interesów</a></li>
+</ul>
+</li>
+<li><a href="#4-rejestr-zrode">4. Rejestr źródeł</a><ul>
+<li><a href="#41-zroda-pierwotne">4.1. Źródła pierwotne</a></li>
+<li><a href="#42-zroda-ankietowe-i-deklaratywne">4.2. Źródła ankietowe i deklaratywne</a></li>
+<li><a href="#43-zroda-komercyjne-lub-partnerskie">4.3. Źródła komercyjne lub partnerskie</a></li>
+<li><a href="#44-slad-transformacji">4.4. Ślad transformacji</a></li>
+</ul>
+</li>
+<li><a href="#5-bramki-prawne-bezpieczenstwa-i-jakosci">5. Bramki prawne, bezpieczeństwa i jakości</a><ul>
+<li><a href="#51-ocena-jakosci-zbioru">5.1. Ocena jakości zbioru</a></li>
+<li><a href="#52-test-zgodnosci-miedzy-zrodami">5.2. Test zgodności między źródłami</a></li>
+</ul>
+</li>
+<li><a href="#6-sownik-danych">6. Słownik danych</a><ul>
+<li><a href="#61-obowiazkowy-rekord-definicji">6.1. Obowiązkowy rekord definicji</a></li>
+<li><a href="#62-zbiorczy-sownik">6.2. Zbiorczy słownik</a></li>
+<li><a href="#63-rejestr-wartosci">6.3. Rejestr wartości</a></li>
+</ul>
+</li>
+<li><a href="#7-kompetencje-i-kadry">7. Kompetencje i kadry</a><ul>
+<li><a href="#71-taksonomia-kompetencji">7.1. Taksonomia kompetencji</a></li>
+<li><a href="#72-edukacja-formalna">7.2. Edukacja formalna</a></li>
+<li><a href="#73-ksztacenie-ustawiczne-i-przekwalifikowanie">7.3. Kształcenie ustawiczne i przekwalifikowanie</a></li>
+<li><a href="#74-popyt-na-kompetencje">7.4. Popyt na kompetencje</a></li>
+<li><a href="#75-retencja-i-mobilnosc">7.5. Retencja i mobilność</a></li>
+<li><a href="#76-instruktorzy-i-zdolnosc-szkoleniowa">7.6. Instruktorzy i zdolność szkoleniowa</a></li>
+</ul>
+</li>
+<li><a href="#8-infrastruktura-dostepna-dla-programu">8. Infrastruktura dostępna dla programu</a><ul>
+<li><a href="#81-zasada-opisu">8.1. Zasada opisu</a></li>
+<li><a href="#82-rejestr-infrastruktury">8.2. Rejestr infrastruktury</a></li>
+<li><a href="#83-wykorzystanie-i-dostepnosc">8.3. Wykorzystanie i dostępność</a></li>
+<li><a href="#84-luki-infrastrukturalne">8.4. Luki infrastrukturalne</a></li>
+</ul>
+</li>
+<li><a href="#9-przemys-msp-i-zdolnosci-usugowe">9. Przemysł, MŚP i zdolności usługowe</a><ul>
+<li><a href="#91-populacja-podmiotow">9.1. Populacja podmiotów</a></li>
+<li><a href="#92-rekord-zdolnosci-podmiotu">9.2. Rekord zdolności podmiotu</a></li>
+<li><a href="#93-warstwy-ancucha-wartosci">9.3. Warstwy łańcucha wartości</a></li>
+</ul>
+</li>
+<li><a href="#10-popyt-publiczny-i-gospodarczy">10. Popyt publiczny i gospodarczy</a><ul>
+<li><a href="#101-katalog-problemow">10.1. Katalog problemów</a></li>
+<li><a href="#102-popyt-wedug-dziedzin">10.2. Popyt według dziedzin</a></li>
+<li><a href="#103-mechanizm-kontynuacji">10.3. Mechanizm kontynuacji</a></li>
+</ul>
+</li>
+<li><a href="#11-kandydaci-na-pilotaze">11. Kandydaci na pilotaże</a><ul>
+<li><a href="#111-kryteria-preselekcji">11.1. Kryteria preselekcji</a></li>
+</ul>
+</li>
+<li><a href="#12-finanse-i-zroda-wsparcia">12. Finanse i źródła wsparcia</a><ul>
+<li><a href="#121-zasada-dodatkowosci">12.1. Zasada dodatkowości</a></li>
+<li><a href="#122-koszt-funkcji-regionalnej">12.2. Koszt funkcji regionalnej</a></li>
+</ul>
+</li>
+<li><a href="#13-przekazania-miedzyregionalne">13. Przekazania międzyregionalne</a><ul>
+<li><a href="#131-zasoby-oferowane">13.1. Zasoby oferowane</a></li>
+<li><a href="#132-zasoby-potrzebne">13.2. Zasoby potrzebne</a></li>
+<li><a href="#133-karta-przekazania">13.3. Karta przekazania</a></li>
+<li><a href="#134-macierz-niepowielania">13.4. Macierz niepowielania</a></li>
+</ul>
+</li>
+<li><a href="#14-kpi-profilu-regionalnego">14. KPI profilu regionalnego</a><ul>
+<li><a href="#141-wskazniki-ochronne">14.1. Wskaźniki ochronne</a></li>
+</ul>
+</li>
+<li><a href="#15-luki-danych-i-plan-pozyskania">15. Luki danych i plan pozyskania</a><ul>
+<li><a href="#151-priorytet-pozyskania">15.1. Priorytet pozyskania</a></li>
+</ul>
+</li>
+<li><a href="#16-ocena-roli-regionu">16. Ocena roli regionu</a><ul>
+<li><a href="#161-hipoteza-specjalizacji">16.1. Hipoteza specjalizacji</a></li>
+<li><a href="#162-scoring-roli">16.2. Scoring roli</a></li>
+</ul>
+</li>
+<li><a href="#17-kontrola-publikacji-i-gotowosc-do-decyzji">17. Kontrola publikacji i gotowość do decyzji</a><ul>
+<li><a href="#171-lista-qa">17.1. Lista QA</a></li>
+<li><a href="#172-wynik-gotowosci">17.2. Wynik gotowości</a></li>
+<li><a href="#173-akceptacje-czowieka">17.3. Akceptacje człowieka</a></li>
+</ul>
+</li>
+<li><a href="#18-zaaczniki-robocze">18. Załączniki robocze</a><ul>
+<li><a href="#181-minimalny-wiersz-importu-danych">18.1. Minimalny wiersz importu danych</a></li>
+<li><a href="#182-pytania-do-warsztatu-regionalnego">18.2. Pytania do warsztatu regionalnego</a></li>
+<li><a href="#183-rejestr-decyzji">18.3. Rejestr decyzji</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-instrukcja-uzycia">1. Instrukcja użycia</h2>
+<h3 id="11-cel">1.1. Cel</h3>
+<p>Szablon tworzy porównywalny, audytowalny profil województwa dla czterech decyzji:</p>
+<ol>
+<li>jakie funkcje regionalne warto rozwijać;</li>
+<li>jakie pilotaże mają realnego użytkownika i bazę;</li>
+<li>które zasoby współdzielić zamiast powielać;</li>
+<li>jakie dane należy pozyskać przed decyzją o finansowaniu.</li>
+</ol>
+<h3 id="12-granice-jawnosci">1.2. Granice jawności</h3>
+<p>W profilu nie umieszcza się:</p>
+<ul>
+<li>informacji niejawnych ani danych umożliwiających ich odtworzenie;</li>
+<li>podatności, dokładnych konfiguracji lub chronionych lokalizacji infrastruktury;</li>
+<li>danych osobowych i tajemnic przedsiębiorstwa bez podstawy oraz agregacji;</li>
+<li>niepotwierdzonych zdolności konkretnych firm;</li>
+<li>danych o wolumenach lub zapasach uznanych przez właściciela za wrażliwe.</li>
+</ul>
+<p>Jeżeli odpowiedź wymaga danych chronionych, w profilu zapisuje się wyłącznie pytanie, właściciela informacji, wymagany agregat oraz status dostępu.</p>
+<h3 id="13-klasy-twierdzen">1.3. Klasy twierdzeń</h3>
+<table>
+<thead>
+<tr>
+<th>Klasa</th>
+<th>Znaczenie</th>
+<th>Wymóg</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FACT</td>
+<td>wartość ze sprawdzalnego źródła</td>
+<td>źródło, data, definicja, zakres</td>
+</tr>
+<tr>
+<td>ESTIMATE</td>
+<td>oszacowanie</td>
+<td>metoda, założenia, przedział, autor</td>
+</tr>
+<tr>
+<td>SCENARIO</td>
+<td>warunkowy wariant</td>
+<td>warunek, horyzont, czułość</td>
+</tr>
+<tr>
+<td>INFERENCE</td>
+<td>wniosek z danych</td>
+<td>przesłanki i ograniczenia</td>
+</tr>
+<tr>
+<td>RECOMMENDATION</td>
+<td>propozycja</td>
+<td>adresat i decyzja człowieka</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>brak wystarczających danych</td>
+<td>plan pozyskania lub jawne pozostawienie luki</td>
+</tr>
+</tbody>
+</table>
+<h3 id="14-regua-odciecia">1.4. Reguła odcięcia</h3>
+<p>Wartości z różnych okresów mogą być porównywane tylko po zapisaniu różnicy okresów i ocenie jej wpływu. Data odcięcia profilu: <strong>UNKNOWN</strong>. Dane późniejsze od tej daty trafiają do kolejnej wersji.</p>
+<h2 id="2-metadane-profilu">2. Metadane profilu</h2>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>profile_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>województwo</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>kod TERYT</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wersja</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>status</td>
+<td>UNKNOWN: przygotowanie / przegląd / zatwierdzony / archiwalny</td>
+</tr>
+<tr>
+<td>data odcięcia</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>okres główny</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel profilu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel danych</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>opiekun jakości</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>koordynator regionalny</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>recenzent spoza zespołu autora</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>podstawa opracowania</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>zakres jawności</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>następny przegląd</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="21-historia-wersji">2.1. Historia wersji</h3>
+<table>
+<thead>
+<tr>
+<th>Wersja</th>
+<th>Data</th>
+<th>Autor</th>
+<th>Zakres zmiany</th>
+<th>Zmienione dataset_id</th>
+<th>Recenzent</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22-zakres-geograficzny">2.2. Zakres geograficzny</h3>
+<table>
+<thead>
+<tr>
+<th>Poziom</th>
+<th>Jednostki włączone</th>
+<th>Jednostki wyłączone</th>
+<th>Powód</th>
+<th>Źródło granic</th>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>województwo</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>podregion / NUTS</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>powiat</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>obszar funkcjonalny</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="23-okresy-odniesienia">2.3. Okresy odniesienia</h3>
+<table>
+<thead>
+<tr>
+<th>use_id</th>
+<th>Zastosowanie</th>
+<th>Okres od–do</th>
+<th>Data odcięcia</th>
+<th>Uzasadnienie</th>
+<th>Ograniczenie porównania</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>baseline</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>trend</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>prognoza / scenariusz</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-governance-danych">3. Governance danych</h2>
+<h3 id="31-odpowiedzialnosc">3.1. Odpowiedzialność</h3>
+<table>
+<thead>
+<tr>
+<th>Produkt / decyzja</th>
+<th>A — dokładnie jeden właściciel</th>
+<th>R</th>
+<th>C</th>
+<th>I</th>
+<th>Termin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>zakres profilu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>słownik danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>jakość i kompletność</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>legalność i jawność</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>publikacja / udostępnienie</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>rekomendacja specjalizacji</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>przekazanie międzyregionalne</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-rejestr-dostepu-i-ograniczen">3.2. Rejestr dostępu i ograniczeń</h3>
+<table>
+<thead>
+<tr>
+<th>dataset_id</th>
+<th>Właściciel</th>
+<th>Podstawa dostępu</th>
+<th>Odbiorcy</th>
+<th>Ograniczenie użycia</th>
+<th>Retencja</th>
+<th>Forma publikacji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-konflikty-interesow">3.3. Konflikty interesów</h3>
+<table>
+<thead>
+<tr>
+<th>Osoba / podmiot</th>
+<th>Rola</th>
+<th>Ujawniony interes</th>
+<th>Wpływ na dane / ocenę</th>
+<th>Środek zaradczy</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-rejestr-zrode">4. Rejestr źródeł</h2>
+<h3 id="41-zroda-pierwotne">4.1. Źródła pierwotne</h3>
+<table>
+<thead>
+<tr>
+<th>source_id</th>
+<th>Tytuł / dataset</th>
+<th>Wydawca</th>
+<th>Typ</th>
+<th>Zakres geograficzny</th>
+<th>Okres danych</th>
+<th>Data publikacji</th>
+<th>Data ekstrakcji</th>
+<th>URL / sygnatura</th>
+<th>Licencja / warunki</th>
+<th>Właściciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-zroda-ankietowe-i-deklaratywne">4.2. Źródła ankietowe i deklaratywne</h3>
+<table>
+<thead>
+<tr>
+<th>source_id</th>
+<th>Populacja</th>
+<th>Próba n</th>
+<th>Metoda doboru</th>
+<th>Okres zbierania</th>
+<th>Stopa odpowiedzi i mianownik</th>
+<th>Kwestionariusz</th>
+<th>Ograniczenia</th>
+<th>Właściciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="43-zroda-komercyjne-lub-partnerskie">4.3. Źródła komercyjne lub partnerskie</h3>
+<table>
+<thead>
+<tr>
+<th>source_id</th>
+<th>Dostawca</th>
+<th>Zakres</th>
+<th>Umowa / prawo użycia</th>
+<th>Metoda</th>
+<th>Możliwość audytu</th>
+<th>Konflikt interesów</th>
+<th>Data ważności</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="44-slad-transformacji">4.4. Ślad transformacji</h3>
+<table>
+<thead>
+<tr>
+<th>transform_id</th>
+<th>Dane wejściowe</th>
+<th>Operacja</th>
+<th>Reguły włączeń / wyłączeń</th>
+<th>Dane wyjściowe</th>
+<th>Kod / wersja</th>
+<th>Wykonał</th>
+<th>Sprawdził</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-bramki-prawne-bezpieczenstwa-i-jakosci">5. Bramki prawne, bezpieczeństwa i jakości</h2>
+<blockquote>
+<p>Profil nie może uzyskać statusu „gotowy do decyzji”, jeżeli którakolwiek bramka ma wynik FAIL lub UNKNOWN. UNKNOWN oznacza brak rozstrzygnięcia, nie zgodę.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Gate</th>
+<th>Pytanie</th>
+<th>Wynik PASS / FAIL / UNKNOWN</th>
+<th>Dowód</th>
+<th>Właściciel</th>
+<th>Data</th>
+<th>Ważne do</th>
+<th>Działanie przy FAIL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D-LAW</td>
+<td>Czy istnieje podstawa pozyskania, łączenia i użycia danych?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>D-PRIV</td>
+<td>Czy dane osobowe są wyłączone, zagregowane albo przetwarzane legalnie?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>D-INFO</td>
+<td>Czy jawność i ryzyko ujawnienia zostały ocenione?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>D-SEC</td>
+<td>Czy przechowywanie, dostęp, logi i przekazanie są zabezpieczone?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>D-SOURCE</td>
+<td>Czy pochodzenie wszystkich wartości jest odtwarzalne?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>HOLD</td>
+</tr>
+<tr>
+<td>D-DENOM</td>
+<td>Czy wskaźniki względne mają mianowniki i zgodne populacje?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>HOLD</td>
+</tr>
+<tr>
+<td>D-TIME</td>
+<td>Czy okresy i daty odcięcia są porównywalne?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>HOLD</td>
+</tr>
+<tr>
+<td>D-QUALITY</td>
+<td>Czy kompletność, aktualność i błędy zostały ocenione?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>HOLD</td>
+</tr>
+<tr>
+<td>D-CONFLICT</td>
+<td>Czy konflikty interesów są ujawnione i ograniczone?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>HOLD</td>
+</tr>
+<tr>
+<td>D-RELEASE</td>
+<td>Czy człowiek zatwierdził użycie i publikację profilu?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+</tbody>
+</table>
+<h3 id="51-ocena-jakosci-zbioru">5.1. Ocena jakości zbioru</h3>
+<table>
+<thead>
+<tr>
+<th>dataset_id</th>
+<th>Kompletność</th>
+<th>Aktualność</th>
+<th>Spójność</th>
+<th>Unikalność</th>
+<th>Trafność</th>
+<th>Pokrycie populacji</th>
+<th>Błąd / niepewność</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="52-test-zgodnosci-miedzy-zrodami">5.2. Test zgodności między źródłami</h3>
+<table>
+<thead>
+<tr>
+<th>metric_id</th>
+<th>Źródło A</th>
+<th>Wartość / okres A</th>
+<th>Źródło B</th>
+<th>Wartość / okres B</th>
+<th>Różnica</th>
+<th>Wyjaśnienie</th>
+<th>Decyzja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-sownik-danych">6. Słownik danych</h2>
+<h3 id="61-obowiazkowy-rekord-definicji">6.1. Obowiązkowy rekord definicji</h3>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>metric_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>nazwa publiczna</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>pytanie decyzyjne</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>definicja</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>typ FACT / ESTIMATE / SCENARIO</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>jednostka obserwacji</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>populacja</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>licznik</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>mianownik</td>
+<td>UNKNOWN albo n/d dla liczby bezwzględnej</td>
+</tr>
+<tr>
+<td>jednostka miary</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>okres od–do</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>data odcięcia</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>źródło główne</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>źródło kontrolne</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>reguły włączenia</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>reguły wyłączenia</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>obsługa braków</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>transformacja</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>częstotliwość aktualizacji</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>poziom jakości</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>ograniczenia interpretacji</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="62-zbiorczy-sownik">6.2. Zbiorczy słownik</h3>
+<table>
+<thead>
+<tr>
+<th>metric_id</th>
+<th>Nazwa</th>
+<th>Definicja skrócona</th>
+<th>Licznik</th>
+<th>Mianownik</th>
+<th>Jednostka</th>
+<th>Okres</th>
+<th>Źródło</th>
+<th>Data ekstrakcji</th>
+<th>Właściciel</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="63-rejestr-wartosci">6.3. Rejestr wartości</h3>
+<table>
+<thead>
+<tr>
+<th>metric_id</th>
+<th style="text-align: right;">Wartość</th>
+<th>Jednostka</th>
+<th style="text-align: right;">Licznik</th>
+<th style="text-align: right;">Mianownik</th>
+<th>Okres od–do</th>
+<th>Geografia</th>
+<th>source_id</th>
+<th>Data ekstrakcji</th>
+<th>Status</th>
+<th>Uwagi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>W kolumnie „Wartość” nie wpisuje się zera, gdy wartość jest nieznana. Zero jest wartością faktyczną i wymaga dowodu; brak danych zapisuje się jako UNKNOWN.</p>
+</blockquote>
+<h2 id="7-kompetencje-i-kadry">7. Kompetencje i kadry</h2>
+<h3 id="71-taksonomia-kompetencji">7.1. Taksonomia kompetencji</h3>
+<table>
+<thead>
+<tr>
+<th>skill_id</th>
+<th>Kompetencja</th>
+<th>Poziom praktyczny</th>
+<th>Sposób potwierdzenia</th>
+<th style="text-align: right;">Liczba osób</th>
+<th style="text-align: right;">Mianownik</th>
+<th>Okres</th>
+<th>Źródło</th>
+<th>Ograniczenie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>automatyka i sterowanie</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>elektronika i systemy wbudowane</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>RF i przetwarzanie sygnałów</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>mechanika / materiały / kompozyty</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>oprogramowanie czasu rzeczywistego</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>AI, dane i ewaluacja</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>cyberbezpieczeństwo</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>produkcja, CNC i kontrola jakości</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>serwis i utrzymanie</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>prawo, zakupy i kontrola eksportu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="72-edukacja-formalna">7.2. Edukacja formalna</h3>
+<table>
+<thead>
+<tr>
+<th>provider_id</th>
+<th>Instytucja</th>
+<th>Program / kwalifikacja</th>
+<th>Poziom</th>
+<th style="text-align: right;">Absolwenci</th>
+<th style="text-align: right;">Mianownik kohorty</th>
+<th>Rok</th>
+<th>Kompetencje potwierdzone</th>
+<th>Praktyka</th>
+<th>Źródło</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="73-ksztacenie-ustawiczne-i-przekwalifikowanie">7.3. Kształcenie ustawiczne i przekwalifikowanie</h3>
+<table>
+<thead>
+<tr>
+<th>program_id</th>
+<th>Operator</th>
+<th>Grupa wejściowa</th>
+<th>Kompetencja wyjściowa</th>
+<th style="text-align: right;">Uczestnicy</th>
+<th style="text-align: right;">Ukończenia</th>
+<th style="text-align: right;">Mianownik rozpoczęć</th>
+<th style="text-align: right;">Zatrudnienie po okresie</th>
+<th style="text-align: right;">Mianownik dostępny do obserwacji</th>
+<th>Źródło / data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="74-popyt-na-kompetencje">7.4. Popyt na kompetencje</h3>
+<table>
+<thead>
+<tr>
+<th>skill_id</th>
+<th>Role poszukiwane</th>
+<th style="text-align: right;">Liczba wakatów / zapotrzebowanie</th>
+<th style="text-align: right;">Mianownik firm / jednostek</th>
+<th>Okres</th>
+<th>Metoda</th>
+<th>Źródło</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="75-retencja-i-mobilnosc">7.5. Retencja i mobilność</h3>
+<table>
+<thead>
+<tr>
+<th>Metryka</th>
+<th>Definicja</th>
+<th>Licznik</th>
+<th>Mianownik</th>
+<th>Okres obserwacji</th>
+<th>Wartość</th>
+<th>Źródło</th>
+<th>Ograniczenie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>retencja absolwentów</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>odpływ do innych regionów</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>napływ specjalistów</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wakaty nieobsadzone</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>relacja wynagrodzeń</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="76-instruktorzy-i-zdolnosc-szkoleniowa">7.6. Instruktorzy i zdolność szkoleniowa</h3>
+<table>
+<thead>
+<tr>
+<th>Podmiot</th>
+<th style="text-align: right;">Instruktorzy aktywni</th>
+<th style="text-align: right;">Mianownik wymagany</th>
+<th style="text-align: right;">Godziny dostępne / okres</th>
+<th>Obciążenie</th>
+<th>Źródło</th>
+<th>Luka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="8-infrastruktura-dostepna-dla-programu">8. Infrastruktura dostępna dla programu</h2>
+<h3 id="81-zasada-opisu">8.1. Zasada opisu</h3>
+<p>Sam fakt posiadania laboratorium, centrum danych, poligonu cywilnego, warsztatu lub hali nie dowodzi zdolności. Rekord wymaga przepustowości, dostępności dla użytkowników zewnętrznych, kosztu, ograniczeń, standardu jakości i czasu rezerwacji.</p>
+<h3 id="82-rejestr-infrastruktury">8.2. Rejestr infrastruktury</h3>
+<table>
+<thead>
+<tr>
+<th>asset_id</th>
+<th>Typ zasobu</th>
+<th>Operator</th>
+<th>Funkcja</th>
+<th style="text-align: right;">Dostępna przepustowość</th>
+<th>Jednostka / mianownik</th>
+<th>Okres dostępności</th>
+<th>Czas rezerwacji</th>
+<th>Koszt</th>
+<th>Standard / akredytacja</th>
+<th>Ograniczenia</th>
+<th>Źródło</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>laboratorium</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>warsztat / produkcja pilotażowa</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>centrum obliczeniowe</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>środowisko testowe</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>infrastruktura danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>centrum szkoleniowe</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="83-wykorzystanie-i-dostepnosc">8.3. Wykorzystanie i dostępność</h3>
+<table>
+<thead>
+<tr>
+<th>asset_id</th>
+<th>Okres</th>
+<th style="text-align: right;">Godziny / jednostki dostępne</th>
+<th style="text-align: right;">Godziny / jednostki wykorzystane</th>
+<th style="text-align: right;">Mianownik</th>
+<th style="text-align: right;">Wskaźnik wykorzystania</th>
+<th>Źródło</th>
+<th>Jakość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="84-luki-infrastrukturalne">8.4. Luki infrastrukturalne</h3>
+<table>
+<thead>
+<tr>
+<th>Luka</th>
+<th>Problem, który blokuje</th>
+<th>Czy zasób istnieje w innym regionie</th>
+<th>Koszt współdzielenia</th>
+<th>Koszt budowy lokalnej</th>
+<th>Dowód</th>
+<th>Rekomendacja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="9-przemys-msp-i-zdolnosci-usugowe">9. Przemysł, MŚP i zdolności usługowe</h2>
+<h3 id="91-populacja-podmiotow">9.1. Populacja podmiotów</h3>
+<table>
+<thead>
+<tr>
+<th>Miara</th>
+<th>Definicja podmiotu aktywnego</th>
+<th style="text-align: right;">Licznik</th>
+<th style="text-align: right;">Mianownik</th>
+<th>Okres</th>
+<th>Źródło</th>
+<th>Ograniczenie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>firmy w zakresie programu</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>MŚP</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>eksporterzy</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>podmioty prowadzące B+R</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>podmioty serwisowe</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="92-rekord-zdolnosci-podmiotu">9.2. Rekord zdolności podmiotu</h3>
+<table>
+<thead>
+<tr>
+<th>org_id</th>
+<th>Funkcja w łańcuchu</th>
+<th>Zdolność deklarowana</th>
+<th>Zdolność potwierdzona</th>
+<th>Dowód i data</th>
+<th>Standardy</th>
+<th>Dostępność</th>
+<th>Ograniczenie jawności</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Deklaracja firmy pozostaje deklaracją. Nie zmienia się jej na FACT o zdolności produkcyjnej bez aktualnego, niezależnie sprawdzalnego dowodu.</p>
+</blockquote>
+<h3 id="93-warstwy-ancucha-wartosci">9.3. Warstwy łańcucha wartości</h3>
+<table>
+<thead>
+<tr>
+<th>Warstwa</th>
+<th style="text-align: right;">Liczba aktywnych podmiotów</th>
+<th style="text-align: right;">Mianownik katalogu</th>
+<th>Główna kompetencja</th>
+<th>Główna zależność</th>
+<th>Alternatywa regionalna / krajowa</th>
+<th>Źródło</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>projektowanie i inżynieria</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>elektronika / RF / sensory</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>mechanika / materiały</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>software / AI / cyber</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>integracja</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>test i certyfikacja</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>produkcja seryjna</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>serwis / naprawa / utylizacja</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="10-popyt-publiczny-i-gospodarczy">10. Popyt publiczny i gospodarczy</h2>
+<h3 id="101-katalog-problemow">10.1. Katalog problemów</h3>
+<table>
+<thead>
+<tr>
+<th>problem_id</th>
+<th>Problem</th>
+<th>Właściciel</th>
+<th>Użytkownik</th>
+<th>Baseline</th>
+<th>Licznik</th>
+<th>Mianownik</th>
+<th>Okres</th>
+<th>Źródło</th>
+<th>Koszt obecnego procesu</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="102-popyt-wedug-dziedzin">10.2. Popyt według dziedzin</h3>
+<table>
+<thead>
+<tr>
+<th>Dziedzina</th>
+<th>Problem o najwyższym priorytecie</th>
+<th>Właściciel</th>
+<th>Populacja / mianownik</th>
+<th>Dowód popytu</th>
+<th>Możliwa miara rezultatu</th>
+<th>Gotowość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ratownictwo i odporność cywilna</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>energia i infrastruktura</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>transport i logistyka</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>rolnictwo i gospodarka żywnościowa</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>środowisko i gospodarka wodna</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>przemysł i utrzymanie ruchu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>budownictwo i geodezja</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>gospodarka morska / śródlądowa</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="103-mechanizm-kontynuacji">10.3. Mechanizm kontynuacji</h3>
+<table>
+<thead>
+<tr>
+<th>problem_id</th>
+<th>Potencjalny nabywca / właściciel usługi</th>
+<th>Tryb po pilotażu</th>
+<th>Budżet po pilotażu</th>
+<th>Horyzont</th>
+<th>Warunek zakupu</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="11-kandydaci-na-pilotaze">11. Kandydaci na pilotaże</h2>
+<table>
+<thead>
+<tr>
+<th>candidate_id</th>
+<th>Problem</th>
+<th>Użytkownik</th>
+<th>Baseline gotowy</th>
+<th>Bramki prawne / bezpieczeństwa</th>
+<th>Zasoby regionu</th>
+<th>Zasoby spoza regionu</th>
+<th>Koszt ESTIMATE</th>
+<th>Główny KPI</th>
+<th>Rekomendacja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="111-kryteria-preselekcji">11.1. Kryteria preselekcji</h3>
+<table>
+<thead>
+<tr>
+<th>Kryterium</th>
+<th style="text-align: right;">Waga %</th>
+<th style="text-align: right;">Ocena 0–5</th>
+<th style="text-align: right;">Wynik ważony</th>
+<th>Dowód</th>
+<th>Recenzent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>znaczenie problemu</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>potwierdzony użytkownik</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>baseline i mierzalność</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>gotowość danych</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>infrastruktura dostępna</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>kompetencje dostępne</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wykonalność i odwracalność</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>komplementarność z siecią krajową</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td><strong>SUMA</strong></td>
+<td style="text-align: right;"><strong>100</strong></td>
+<td style="text-align: right;">n/d</td>
+<td style="text-align: right;"><strong>UNKNOWN / 100</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Próg:</strong> UNKNOWN — zatwierdzić przed oceną kandydatów.
+<strong>Wynik bramek bezwzględnych:</strong> UNKNOWN.
+<strong>Wynik preselekcji:</strong> UNKNOWN.</p>
+<h2 id="12-finanse-i-zroda-wsparcia">12. Finanse i źródła wsparcia</h2>
+<table>
+<thead>
+<tr>
+<th>funding_id</th>
+<th>Instrument</th>
+<th>Właściciel</th>
+<th>Okres</th>
+<th style="text-align: right;">Dostępna kwota</th>
+<th>Waluta / rok cen</th>
+<th>Przeznaczenie</th>
+<th style="text-align: right;">Wkład własny</th>
+<th>Kwalifikowalność</th>
+<th>Źródło / data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="121-zasada-dodatkowosci">12.1. Zasada dodatkowości</h3>
+<table>
+<thead>
+<tr>
+<th>Projekt / koszt</th>
+<th>Źródło 1</th>
+<th>Źródło 2</th>
+<th>Zakres każdego źródła</th>
+<th>Kontrola podwójnego finansowania</th>
+<th>Właściciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="122-koszt-funkcji-regionalnej">12.2. Koszt funkcji regionalnej</h3>
+<table>
+<thead>
+<tr>
+<th>Kategoria</th>
+<th style="text-align: right;">Koszt roczny</th>
+<th>Waluta / rok cen</th>
+<th>Źródło / metoda</th>
+<th>Płatnik</th>
+<th>Trwałość po pilotażu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>broker problemów i partnerstw</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>opiekun danych i ewaluacji</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dostęp do infrastruktury</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>szkolenia i instruktorzy</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>zgodność, cyber i audyt</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>komunikacja i upowszechnienie</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="13-przekazania-miedzyregionalne">13. Przekazania międzyregionalne</h2>
+<h3 id="131-zasoby-oferowane">13.1. Zasoby oferowane</h3>
+<table>
+<thead>
+<tr>
+<th>handoff_id</th>
+<th>Zasób / kompetencja</th>
+<th>Region dostarczający</th>
+<th>Region odbierający</th>
+<th>Produkt przekazania</th>
+<th>Jednostka / wolumen</th>
+<th>Okres</th>
+<th>Standard</th>
+<th>SLA</th>
+<th>Koszt</th>
+<th>Właściciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="132-zasoby-potrzebne">13.2. Zasoby potrzebne</h3>
+<table>
+<thead>
+<tr>
+<th>handoff_id</th>
+<th>Luka regionu</th>
+<th>Zasób potrzebny</th>
+<th>Preferowana forma dostępu</th>
+<th>Potencjalny region / węzeł</th>
+<th>Termin</th>
+<th>Zależność</th>
+<th>Właściciel</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="133-karta-przekazania">13.3. Karta przekazania</h3>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>handoff_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>problem i odbiorca</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>zasób / usługa</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>interfejs i standard</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel po stronie dostawcy</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel po stronie odbiorcy</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dane wejściowe i wyjściowe</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>prawo dostępu i użycia</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>miara jakości</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>licznik / mianownik</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>termin / SLA</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>koszt i płatnik</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>plan awaryjny</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>warunek zakończenia</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>podpisy stron</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="134-macierz-niepowielania">13.4. Macierz niepowielania</h3>
+<table>
+<thead>
+<tr>
+<th>Potrzeba</th>
+<th>Zasób lokalny istnieje</th>
+<th>Zasób dostępny w sieci</th>
+<th>Czas dostępu</th>
+<th>Koszt współdzielenia</th>
+<th>Koszt powielenia</th>
+<th>Uzasadnienie decyzji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="14-kpi-profilu-regionalnego">14. KPI profilu regionalnego</h2>
+<table>
+<thead>
+<tr>
+<th>metric_id</th>
+<th>Nazwa</th>
+<th>Definicja</th>
+<th>Licznik</th>
+<th>Mianownik</th>
+<th>Baseline i data</th>
+<th>Cel SCENARIO i data</th>
+<th>Źródło</th>
+<th>Właściciel</th>
+<th>Częstotliwość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>REG-KPI-01</td>
+<td>kompletność krytycznych danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>REG-KPI-02</td>
+<td>kompetencje potwierdzone praktycznie</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>REG-KPI-03</td>
+<td>retencja po 12 / 24 miesiącach</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>REG-KPI-04</td>
+<td>wykorzystanie współdzielonej infrastruktury</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>REG-KPI-05</td>
+<td>problemy z właścicielem i baseline</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>REG-KPI-06</td>
+<td>pilotaże zakończone decyzją</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>REG-KPI-07</td>
+<td>przekazania międzyregionalne w SLA</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>REG-KPI-08</td>
+<td>prywatny / użytkowy popyt po pilotażu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="141-wskazniki-ochronne">14.1. Wskaźniki ochronne</h3>
+<table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Definicja</th>
+<th>Próg ostrzegawczy</th>
+<th>Próg STOP</th>
+<th>Okres</th>
+<th>Źródło</th>
+<th>Właściciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>naruszenia danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>infrastruktura bez wykorzystania</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>koncentracja na jednym dostawcy</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>odpływ instruktorów / kadr</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>nieutrzymane koszty stałe</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="15-luki-danych-i-plan-pozyskania">15. Luki danych i plan pozyskania</h2>
+<table>
+<thead>
+<tr>
+<th>gap_id</th>
+<th>Brakująca dana</th>
+<th>Decyzja, którą blokuje</th>
+<th>Potrzebna definicja / agregat</th>
+<th>Źródło docelowe</th>
+<th>Właściciel</th>
+<th>Próba 1 / wynik</th>
+<th>Próba 2 / wynik</th>
+<th>Termin</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<p>Po dwóch nieudanych próbach pozyskania wiarygodnego źródła pole pozostaje <strong>UNKNOWN</strong>. Zespół zapisuje wpływ luki na decyzję i nie zastępuje jej wartością z innego województwa.</p>
+<h3 id="151-priorytet-pozyskania">15.1. Priorytet pozyskania</h3>
+<table>
+<thead>
+<tr>
+<th>gap_id</th>
+<th style="text-align: right;">Wpływ na decyzję 1–5</th>
+<th style="text-align: right;">Pilność 1–5</th>
+<th style="text-align: right;">Koszt pozyskania</th>
+<th>Ryzyko prawne</th>
+<th style="text-align: right;">Priorytet</th>
+<th>Zatwierdził</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="16-ocena-roli-regionu">16. Ocena roli regionu</h2>
+<h3 id="161-hipoteza-specjalizacji">16.1. Hipoteza specjalizacji</h3>
+<p><strong>RECOMMENDATION:</strong> UNKNOWN
+<strong>Potwierdzone przesłanki:</strong> UNKNOWN
+<strong>Przesłanki przeciw:</strong> UNKNOWN
+<strong>Brakujące dowody:</strong> UNKNOWN
+<strong>Komplementarność z innymi regionami:</strong> UNKNOWN
+<strong>Warunek zmiany rekomendacji:</strong> UNKNOWN</p>
+<h3 id="162-scoring-roli">16.2. Scoring roli</h3>
+<table>
+<thead>
+<tr>
+<th>Kryterium</th>
+<th style="text-align: right;">Waga %</th>
+<th style="text-align: right;">Ocena 0–5</th>
+<th style="text-align: right;">Wynik ważony</th>
+<th>Dowód</th>
+<th>Ograniczenie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gęstość potwierdzonych kompetencji</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dostępność infrastruktury</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>popyt z właścicielem</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dojrzałość przemysłowa / usługowa</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>zdolność kształcenia i retencji</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dostępność danych i ewaluacji</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>współdziałanie międzyregionalne</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>trwałość finansowania funkcji</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td><strong>SUMA</strong></td>
+<td style="text-align: right;"><strong>100</strong></td>
+<td style="text-align: right;">n/d</td>
+<td style="text-align: right;"><strong>UNKNOWN / 100</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Próg przyjęty przed oceną:</strong> UNKNOWN
+<strong>Wynik:</strong> UNKNOWN
+<strong>Wniosek:</strong> UNKNOWN</p>
+<h2 id="17-kontrola-publikacji-i-gotowosc-do-decyzji">17. Kontrola publikacji i gotowość do decyzji</h2>
+<h3 id="171-lista-qa">17.1. Lista QA</h3>
+<table>
+<thead>
+<tr>
+<th>Kontrola</th>
+<th>PASS / FAIL / UNKNOWN</th>
+<th>Dowód / raport</th>
+<th>Sprawdził</th>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wszystkie wartości mają source_id</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wszystkie wartości mają datę lub okres</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wskaźniki względne mają mianownik</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>definicje są spójne między tabelami</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>zera odróżniono od braków danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>estymacje mają metodę i przedział</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>konflikty źródeł są opisane</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>brak danych z innego regionu podszywających się pod lokalne</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>jawność i agregację zatwierdzono</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>niezależny recenzent odtworzył próbę wartości</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>każdy rezultat w RACI ma dokładnie jedno uzupełnione <code>A</code></td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="172-wynik-gotowosci">17.2. Wynik gotowości</h3>
+<p>Zaznaczyć dokładnie jedną opcję:</p>
+<ul>
+<li>[ ] <strong>PASS — gotowy do użycia w preselekcji pilotaży</strong>, z ograniczeniami opisanymi poniżej.</li>
+<li>[ ] <strong>PASS WARUNKOWY — użyć wyłącznie do wskazanych pytań</strong>, bez wnioskowania poza zakresem.</li>
+<li>[ ] <strong>HOLD — nie używać do wyboru</strong>, dopóki wskazane luki nie zostaną zamknięte.</li>
+<li>[ ] <strong>FAIL — profil wymaga ponownego opracowania</strong>.</li>
+</ul>
+<p><strong>Zakres dozwolonego użycia:</strong> UNKNOWN
+<strong>Zakres zabronionego użycia:</strong> UNKNOWN
+<strong>Najważniejsze ograniczenia:</strong> UNKNOWN
+<strong>Data utraty aktualności:</strong> UNKNOWN
+<strong>Następny przegląd:</strong> UNKNOWN</p>
+<h3 id="173-akceptacje-czowieka">17.3. Akceptacje człowieka</h3>
+<table>
+<thead>
+<tr>
+<th>Rola</th>
+<th>Imię i nazwisko / organ</th>
+<th>Wynik</th>
+<th>Podpis / kwalifikowana akceptacja</th>
+<th>Data</th>
+<th>Zastrzeżenia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>właściciel profilu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>opiekun jakości</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>prawnik / ochrona danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>bezpieczeństwo informacji</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>niezależny recenzent</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>osoba / organ dopuszczający użycie</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Akceptacje są czynnością HUMAN-ONLY. Nie mogą zostać wypełnione, wygenerowane ani uznane za udzielone przez system automatyczny.</p>
+</blockquote>
+<h2 id="18-zaaczniki-robocze">18. Załączniki robocze</h2>
+<h3 id="181-minimalny-wiersz-importu-danych">18.1. Minimalny wiersz importu danych</h3>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>profile_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dataset_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>metric_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>geography_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>period_start</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>period_end</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>cutoff_date</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>numerator</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>denominator</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>value</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>unit</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>source_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>extraction_date</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>transformation_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>quality_status</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>owner</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>note</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="182-pytania-do-warsztatu-regionalnego">18.2. Pytania do warsztatu regionalnego</h3>
+<ol>
+<li>Które problemy mają właściciela gotowego przyjąć wynik i finansować kontynuację?</li>
+<li>Jakie kompetencje można potwierdzić zadaniem praktycznym, a nie nazwą kierunku?</li>
+<li>Która infrastruktura jest faktycznie dostępna dla MŚP i jednostek spoza operatora?</li>
+<li>Jakie zasoby region powinien udostępniać innym, a jakich nie powinien powielać?</li>
+<li>Które liczby są deklaracją interesariusza, a które niezależnym pomiarem?</li>
+<li>Jakie luki danych najbardziej zmieniają ranking pilotaży?</li>
+<li>Kto poniesie koszt utrzymania funkcji po zakończeniu finansowania pilotażowego?</li>
+<li>Po jakim wyniku region zakończy projekt zamiast utrzymywać infrastrukturę bez popytu?</li>
+</ol>
+<h3 id="183-rejestr-decyzji">18.3. Rejestr decyzji</h3>
+<table>
+<thead>
+<tr>
+<th>decision_id</th>
+<th>Pytanie</th>
+<th>Opcje</th>
+<th>Rekomendacja</th>
+<th>Dowód</th>
+<th>Właściciel decyzji</th>
+<th>Termin</th>
+<th>Decyzja człowieka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table><div class="metadata">Identyfikator: voivodeship-data-template · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

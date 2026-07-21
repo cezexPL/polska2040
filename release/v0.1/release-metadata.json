@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "status": "independent expert draft for review",
+  "evidence_cutoff": "2026-07-21",
+  "artifact_count": 17,
+  "file_count_excluding_checksums": 170,
+  "qa_status": "passed",
+  "canonical_sources": "documents and research (snapshot); live workspace ../../documents and ../../research",
+  "publication_requires_human_approval": true,
+  "formal_government_submission_ready": false,
+  "formal_blocker": "GAP-0011: owner, legal process and strategy hierarchy require competent-authority determination"
+}

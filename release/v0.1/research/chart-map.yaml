@@ -1,0 +1,22 @@
+schema_version: 1
+charts:
+  - id: VIS-001
+    section: "Strategia — model realizacji"
+    analytical_question: "Jakie zależne etapy tworzą pełny system wdrożenia?"
+    takeaway: "Edukacja i prototypowanie przynoszą efekt dopiero po połączeniu z danymi, testem, zamówieniem, produkcją i aktualizacją."
+    family: "process-flow"
+    renderer: "deterministic SVG"
+    data_sufficiency: "diagram pojęciowy; brak twierdzeń ilościowych"
+    palette_policy: "single-root preferred: navy, blue, red accent, neutrals"
+    output: "assets/generated/delivery-cycle.svg"
+    qa_surface: "strategy HTML/PDF and decision decks"
+  - id: VIS-002
+    section: "Plan realizacji — horyzonty"
+    analytical_question: "Jak rozdzielić decyzje natychmiastowe, roczne i wieloletnie?"
+    takeaway: "Pierwszy rok buduje zdolność wykonawczą; skalowanie następuje dopiero po danych z pilotaży."
+    family: "timeline"
+    renderer: "deterministic SVG"
+    data_sufficiency: "horyzonty polityki, nie wykres danych"
+    palette_policy: "single-root preferred"
+    output: "assets/generated/roadmap-horizons.svg"
+    qa_surface: "roadmap HTML/PDF and cabinet deck"

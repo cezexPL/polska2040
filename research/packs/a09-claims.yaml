@@ -1,0 +1,659 @@
+schema_version: 1
+claims:
+  - id: CLM-0901
+    text: "Uchwały Rady Ministrów mają charakter wewnętrzny, wiążą jednostki organizacyjnie podległe organowi wydającemu i nie mogą stanowić podstawy decyzji wobec obywateli, osób prawnych ani innych podmiotów."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0901]
+    locators: ["SRC-0901: art. 93"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 93 Konstytucji potwierdza wewnętrzny charakter uchwał RM, związanie jednostek organizacyjnie podległych oraz zakaz użycia ich jako podstawy decyzji wobec obywateli, osób prawnych i innych podmiotów."
+
+  - id: CLM-0902
+    text: "Ustawa o zasadach prowadzenia polityki rozwoju rozróżnia strategie rozwoju, programy będące dokumentami wykonawczymi oraz polityki publiczne, określa role właściwych ministrów i Rady Ministrów oraz przewiduje konsultacje projektów wskazanych dokumentów."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0902]
+    locators: ["SRC-0902: art. 6, 9–15 i 21d–21f"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Wybór między strategią rozwoju a polityką publiczną wymaga sprawdzenia zakresu, horyzontu, zgodności z obowiązującymi strategiami i trybu oceny środowiskowej."
+
+  - id: CLM-0903
+    text: "Program w rozumieniu ustawy o zasadach prowadzenia polityki rozwoju jest dokumentem wykonawczym realizującym strategię rozwoju i powinien zawierać między innymi system realizacji oraz plan finansowy."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0902]
+    locators: ["SRC-0902: art. 15 i 17"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0904
+    text: "Pełnomocnika Rządu do określonych spraw ustanawia Rada Ministrów w drodze rozporządzenia, funkcję tę co do zasady może pełnić sekretarz stanu albo podsekretarz stanu, a Prezesa Rady Ministrów ustawa wskazuje jako organ powołujący i odwołujący pełnomocnika."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0903]
+    locators: ["SRC-0903: art. 10"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 10 ustawy o Radzie Ministrów potwierdza ustanowienie pełnomocnika rozporządzeniem RM, zasadniczo rangę sekretarza lub podsekretarza stanu oraz powołanie i odwołanie przez Prezesa RM. Nazwa polityczna nie zmienia ustawowego statusu."
+
+  - id: CLM-0905
+    text: "O tym, czy porozumienie z innym państwem jest umową międzynarodową, decydują jego treść, strony i podleganie prawu międzynarodowemu, a nie użycie nazwy memorandum, deklaracja lub umowa ramowa."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0901, SRC-0905]
+    locators: ["SRC-0901: art. 89 i 133", "SRC-0905: art. 2–6 i 12–18"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Jeżeli instrument tworzy zobowiązania podlegające prawu międzynarodowemu, trzeba przejść właściwą ścieżkę związania państwa i publikacji."
+
+  - id: CLM-0906
+    text: "W zamówieniach w dziedzinach obronności i bezpieczeństwa polskie Prawo zamówień publicznych wyłącza zastosowanie przetargu nieograniczonego, partnerstwa innowacyjnego, dynamicznego systemu zakupów i konkursu."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0906]
+    locators: ["SRC-0906: art. 395 ust. 3"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 395 ust. 3 aktualnego PZP wyłącza w zamówieniach obronnych i bezpieczeństwa przetarg nieograniczony, partnerstwo innowacyjne, dynamiczny system zakupów oraz konkurs."
+
+  - id: CLM-0907
+    text: "Dla zamówień w dziedzinach obronności i bezpieczeństwa ustawa przewiduje jako podstawowe tryby przetarg ograniczony oraz negocjacje z ogłoszeniem, a dialog konkurencyjny, negocjacje bez ogłoszenia i zamówienie z wolnej ręki są dostępne w warunkach określonych ustawą."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0906, SRC-0907]
+    locators: ["SRC-0906: art. 410", "SRC-0907: Articles 25–28"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 410 PZP potwierdza przetarg ograniczony i negocjacje z ogłoszeniem jako tryby podstawowe oraz pozostałe wskazane tryby wyłącznie po spełnieniu przesłanek ustawowych. Nie weryfikowano kwalifikacji żadnego konkretnego zamówienia."
+
+  - id: CLM-0908
+    text: "W zamówieniu obronnym lub bezpieczeństwa zamawiający może stawiać wymagania dotyczące ochrony informacji oraz bezpieczeństwa dostaw, w tym zmian w łańcuchu dostaw, zwiększenia dostaw w sytuacji kryzysowej, utrzymania i modernizacji oraz określonych środków do wytwarzania części, gdy wykonawca nie może ich dalej zapewnić."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0906, SRC-0907]
+    locators: ["SRC-0906: art. 407–408", "SRC-0907: Articles 22–23"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Katalog nie daje automatycznie państwu własności kodu, dokumentacji ani patentów; prawa muszą zostać precyzyjnie określone i proporcjonalnie wycenione."
+
+  - id: CLM-0909
+    text: "Art. 346 TFUE pozwala państwu członkowskiemu podejmować środki, które uważa za niezbędne dla ochrony podstawowych interesów bezpieczeństwa związanych z produkcją lub handlem bronią, amunicją i materiałami wojennymi, przy czym środki nie mogą pogarszać warunków konkurencji na rynku wewnętrznym w odniesieniu do produktów nieprzeznaczonych do celów ściśle wojskowych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0908]
+    locators: ["SRC-0908: Article 346(1)(b)"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Zastosowanie odstępstwa należy uzasadniać dla konkretnej potrzeby i zakresu; memo nie kwalifikuje całego programu pod art. 346 TFUE."
+
+  - id: CLM-0910
+    text: "Dostęp do informacji niejawnych jest ograniczony do osób dających rękojmię zachowania tajemnicy i tylko w zakresie niezbędnym do wykonywania pracy, a systemy teleinformatyczne oraz przedsiębiorcy realizujący umowy z informacjami niejawnymi podlegają odrębnym wymaganiom akredytacji i bezpieczeństwa przemysłowego."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0909]
+    locators: ["SRC-0909: art. 4–5, 48 i 54–71"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): aktualny tekst ustawy o ochronie informacji niejawnych potwierdza rękojmię i zasadę need-to-know, akredytację bezpieczeństwa teleinformatycznego oraz odrębne wymogi bezpieczeństwa przemysłowego. Weryfikacja nie oznacza akredytacji tego repozytorium."
+
+  - id: CLM-0911
+    text: "Tajemnica przedsiębiorstwa obejmuje informacje posiadające wartość gospodarczą, które nie są powszechnie znane ani łatwo dostępne dla osób zwykle zajmujących się takim rodzajem informacji, jeżeli uprawniony podjął przy zachowaniu należytej staranności działania w celu utrzymania ich poufności."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0910]
+    locators: ["SRC-0910: art. 11 ust. 2"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Tajemnica przedsiębiorstwa nie jest kategorią informacji niejawnej i wymaga własnego reżimu umownego i organizacyjnego."
+
+  - id: CLM-0912
+    text: "Prawo do informacji publicznej może być ograniczone ze względu na ochronę informacji niejawnych, innych ustawowo chronionych tajemnic, prywatności oraz tajemnicy przedsiębiorcy, ale kwalifikacja ograniczenia wymaga podstawy prawnej i nie wynika wyłącznie z oznaczenia dokumentu jako poufnego."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0911]
+    locators: ["SRC-0911: art. 5"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Projekt powinien rozdzielać wersję jawną od prawnie chronionych załączników i prowadzić rejestr podstaw odmowy lub anonimizacji."
+
+  - id: CLM-0913
+    text: "Dla przetwarzania danych osobowych objętego RODO trzeba wskazać zgodny z prawem cel i podstawę, stosować minimalizację, ochronę danych w fazie projektowania i odpowiednie zabezpieczenia, a przy prawdopodobnym wysokim ryzyku przeprowadzić ocenę skutków dla ochrony danych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0912]
+    locators: ["SRC-0912: Articles 5–6, 25, 32 and 35"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Nie każdy zbiór obronny podlega RODO; reżim należy ustalić dla każdego zbioru, administratora, celu i kategorii osób."
+
+  - id: CLM-0914
+    text: "Prawa wyłączne do programu komputerowego obejmują między innymi zwielokrotnianie, modyfikację i rozpowszechnianie, a ustawowe uprawnienia legalnego posiadacza do kopii zapasowej, obserwacji, testowania lub dekompilacji mają ograniczony zakres i warunki."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0913]
+    locators: ["SRC-0913: art. 74–76"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 74–76 ustawy o prawie autorskim potwierdzają zakres praw wyłącznych oraz warunkowe, ograniczone wyjątki legalnego posiadacza (m.in. kopia zapasowa, obserwacja/testowanie i dekompilacja). Claim nie tworzy praw do naprawy ani produkcji awaryjnej bez właściwej umowy lub licencji."
+
+  - id: CLM-0915
+    text: "Depozyt kodu źródłowego lub dokumentacji nie przenosi sam w sobie autorskich praw majątkowych ani nie tworzy licencji do modyfikacji, produkcji, sublicencjonowania lub udostępnienia podmiotowi zastępczemu."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0913, SRC-0914]
+    locators: ["SRC-0913: art. 41, 53 i 74–76", "SRC-0914: przepisy o prawach i licencjach do wynalazków"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Umowa depozytowa musi działać łącznie z licencją, zdarzeniami wydania, aktualizacją depozytu, prawami do narzędzi i obowiązkiem przekazania środowiska odtwarzalnego."
+
+  - id: CLM-0916
+    text: "Obrót z zagranicą uzbrojeniem i towarami o znaczeniu strategicznym podlega zezwoleniom i wymaganiom właściwym dla danej kategorii, a aktualna procedura MRiT przewiduje między innymi dokumenty dotyczące użytkownika końcowego, kontraktu oraz — dla określonych operacji — certyfikowany wewnętrzny system kontroli."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0915, SRC-0916, SRC-0917]
+    locators: ["SRC-0915: art. 6–12 i 21–24", "SRC-0916: art. 1–4", "SRC-0917: wymagania wniosku i WSK"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Zakres nowelizacji z 2026 r. oraz później wchodzących przepisów trzeba ponownie sprawdzić przed transakcją."
+
+  - id: CLM-0917
+    text: "Unijny reżim kontroli produktów podwójnego zastosowania obejmuje nie tylko towary, lecz także oprogramowanie, technologię, pośrednictwo i pomoc techniczną, przewiduje mechanizmy catch-all oraz wymogi dokumentacyjne i ewidencyjne."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0918]
+    locators: ["SRC-0918: Articles 2–5, 8–15 and 27"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): aktualny tekst rozporządzenia (UE) 2021/821 obejmuje produkty, oprogramowanie i technologię oraz eksport, pośrednictwo, pomoc techniczną, tranzyt i transfer; przewiduje też mechanizmy catch-all i obowiązki ewidencyjne. Kwalifikacja konkretnego transferu pozostaje konieczna."
+
+  - id: CLM-0918
+    text: "Wspólne stanowisko 2008/944/WPZiB wymaga indywidualnej oceny wniosków eksportowych dotyczących technologii i sprzętu wojskowego według wspólnych kryteriów, obejmujących między innymi zobowiązania międzynarodowe, prawa człowieka, bezpieczeństwo regionalne, użytkownika końcowego i ryzyko dywersji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0919]
+    locators: ["SRC-0919: Articles 1–2, criteria one to eight"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Strategia eksportowa nie może obiecywać licencji dla określonego rynku przed decyzją właściwego organu."
+
+  - id: CLM-0919
+    text: "Program i jego kontrahenci muszą uwzględniać równolegle bezpośrednio stosowane sankcje UE oraz krajową listę sankcyjną, a ponieważ akty i listy ulegają zmianom, jednorazowa kontrola przy onboardingu nie zapewnia zgodności przez cały cykl transakcji."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0920, SRC-0921]
+    locators: ["SRC-0920: art. 1–6 i 14–15", "SRC-0921: legal acts, EU Sanctions Map and consolidated list"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Kontrola musi objąć także beneficjenta rzeczywistego oraz własność i kontrolę, a nie tylko dopasowanie nazwy podmiotu."
+
+  - id: CLM-0920
+    text: "Strategiczna ocena oddziaływania na środowisko może być wymagana dla strategii, polityki lub programu wyznaczającego ramy dla przedsięwzięć mogących znacząco oddziaływać na środowisko; wyłączenie obronne dotyczy dokumentów przygotowywanych wyłącznie dla obrony narodowej lub obrony cywilnej i nie usuwa zastrzeżenia dotyczącego obszarów Natura 2000."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0922, SRC-0923]
+    locators: ["SRC-0922: art. 46–48 i 55", "SRC-0923: strategiczna ocena oddziaływania na środowisko"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 46–48 aktualnego tekstu ustawy (Dz.U. 2026 poz. 670) potwierdzają możliwy obowiązek SOOŚ oraz wąskie wyłączenie dokumentów przygotowanych wyłącznie dla obrony narodowej lub cywilnej, z zastrzeżeniem Natura 2000. SRC-0922 wskazuje wcześniejszy tekst i wymaga aktualizacji rejestru."
+
+  - id: CLM-0921
+    text: "AI Act nie stosuje się do systemów AI wyłącznie w zakresie, w jakim są wprowadzane do obrotu, oddawane do użytku lub używane wyłącznie do celów wojskowych, obronnych lub bezpieczeństwa narodowego; system używany również do celów cywilnych wymaga odrębnej oceny zakresu rozporządzenia."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0924]
+    locators: ["SRC-0924: Article 2(3) and recital 24"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 2 ust. 3 oraz motyw 24 AI Act potwierdzają wyłączenie tylko w zakresie wyłącznych celów wojskowych, obronnych lub bezpieczeństwa narodowego oraz konieczność odrębnej oceny zastosowań mieszanych."
+
+  - id: CLM-0922
+    text: "AI Act przewiduje zasadnicze rozpoczęcie stosowania większości przepisów 2 sierpnia 2026 r., z wyjątkami i terminami szczególnymi; na 21 lipca 2026 r. harmonogram trzeba monitorować ze względu na trwające działania wdrożeniowe i możliwe nowelizacje."
+    type: FACT
+    status: disputed
+    source_ids: [SRC-0924, SRC-0925]
+    locators: ["SRC-0924: Article 113", "SRC-0925: implementation timeline as of 2026-07-21"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): DISPUTED jako opis aktualnego harmonogramu. Bazowy art. 113 nadal wskazuje 2 sierpnia 2026 r. dla większości przepisów, lecz AI Omnibus został formalnie przyjęty przez Radę 29 czerwca i podpisany 8 lipca; 21 lipca oczekiwał na publikację w Dz.U. UE. Ustala m.in. 2 grudnia 2027 r. dla samodzielnych systemów wysokiego ryzyka i 2 sierpnia 2028 r. dla systemów w produktach. Claim i dotychczasowa notatka są nieaktualne."
+
+  - id: CLM-0923
+    text: "Zmieniona strategia AI NATO wskazuje sześć zasad odpowiedzialnego użycia AI: zgodność z prawem, odpowiedzialność, wyjaśnialność i identyfikowalność, niezawodność, sterowalność oraz ograniczanie stronniczości."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0926]
+    locators: ["SRC-0926: Principles of Responsible Use"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Zasady NATO powinny być wymaganiem assurance i kontraktowym, ale nie zastępują AI Act, ochrony danych ani międzynarodowego prawa humanitarnego."
+
+  - id: CLM-0924
+    text: "Art. 36 Protokołu dodatkowego I wymaga, aby podczas badań, rozwoju, pozyskania lub przyjęcia nowej broni, środka albo metody walki ustalić, czy jej użycie byłoby w pewnych lub wszystkich okolicznościach zakazane przez Protokół albo inną normę prawa międzynarodowego wiążącą państwo."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0927, SRC-0928]
+    locators: ["SRC-0927: Protokół I, art. 36", "SRC-0928: Article 36"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): brzmienie art. 36 Protokołu dodatkowego I i materiał ICRC wspierają obowiązek prawnego przeglądu nowej broni, środka lub metody walki podczas badania, rozwoju, nabycia albo przyjęcia. Nie zweryfikowano legalności żadnego konkretnego systemu."
+
+  - id: CLM-0925
+    text: "Polska kontrola niektórych inwestycji może mieć zastosowanie do przejęcia, utworzenia JV lub uzyskania istotnego uczestnictwa lub dominacji, zależnie od statusu podmiotu chronionego, inwestora, progów, zakresu działalności i konstrukcji transakcji."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0929]
+    locators: ["SRC-0929: art. 1–3 i 11a–12k"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): aktualny tekst ustawy o kontroli niektórych inwestycji wspiera warunkowy zakres claimu, w tym przejęcie, utworzenie JV oraz uzyskanie istotnego uczestnictwa lub dominacji. Zastosowanie zależy od podmiotu chronionego, inwestora, progów, działalności i konstrukcji transakcji; stan należy ponownie sprawdzić przed podpisaniem."
+
+  - id: CLM-0926
+    text: "Unijne ramy screeningu inwestycji zagranicznych wskazują jako czynniki bezpieczeństwa między innymi infrastrukturę krytyczną, technologie krytyczne i produkty dual-use, dostęp do informacji wrażliwych, pluralizm mediów oraz kontrolę inwestora przez rząd państwa trzeciego."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0930]
+    locators: ["SRC-0930: Article 4"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: A12
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): wskazane czynniki znajdują oparcie w art. 4 dotychczasowego rozporządzenia 2019/452 i pozostają co do istoty w zaktualizowanych ramach. Nowe rozporządzenie podpisano 17 czerwca i opublikowano 26 czerwca 2026 r.; zacznie być stosowane po okresie przejściowym. Finalna strategia musi wskazać nowy akt i daty przejścia, a nie tylko SRC-0930."
+
+  - id: CLM-0927
+    text: "Utworzenie wspólnego przedsiębiorcy może podlegać kontroli koncentracji, a finansowanie i transakcje programu mogą wymagać odrębnej oceny pod kątem pomocy państwa oraz unijnego rozporządzenia o subsydiach zagranicznych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0932, SRC-0933, SRC-0934]
+    locators: ["SRC-0932: formy koncentracji i progi", "SRC-0933: concentrations and public procurement", "SRC-0934: concept, notification and exemptions"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Każdy instrument finansowy i transakcja wymagają osobnej kwalifikacji; samo publiczne znaczenie projektu nie tworzy zwolnienia."
+
+  - id: CLM-0928
+    text: "Program powinien używać stosu instrumentów: jawnego dokumentu strategicznego, programu wykonawczego z finansami i miernikami, właściwych aktów normatywnych dla obowiązków zewnętrznych, kontraktów dla dostaw i praw oraz chronionych instrukcji lub aneksów dla danych wrażliwych."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0901, SRC-0902, SRC-0904]
+    locators: ["SRC-0901: art. 87, 92–93", "SRC-0902: art. 6, 14–17 i 21d–21f", "SRC-0904: konsultacje i raport"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Jeden wielki dokument nie może jednocześnie pełnić funkcji politycznej, prawnej, budżetowej, kontraktowej, niejawnej i komunikacyjnej."
+
+  - id: CLM-0929
+    text: "Przed zatwierdzeniem strategii KPRM i RCL powinny sporządzić macierz kompetencji i podstaw prawnych, która dla każdego działania wskaże właściciela, instrument, finansowanie, konsultacje, reżim informacji, kontrolę sądową lub administracyjną oraz wymagane zmiany prawa."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0901, SRC-0902, SRC-0903, SRC-0904]
+    locators: ["SRC-0901: art. 7, 87 i 93", "SRC-0902: art. 6 i 14–17", "SRC-0903: art. 10", "SRC-0904: proces legislacyjny"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Bramka: brak wskazanej podstawy i organu zatrzymuje zobowiązanie, nie cały etap analityczny."
+
+  - id: CLM-0930
+    text: "Należy przygotować co najmniej trzy wzorce ścieżki pozyskania: dla zamówienia obronnego lub bezpieczeństwa, dla cywilnego produktu dual-use oraz dla prac badawczo-rozwojowych, a wybór ścieżki dokumentować kartą kwalifikacji przed kontaktem rynkowym i wydatkiem."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0906, SRC-0907, SRC-0908]
+    locators: ["SRC-0906: art. 190–207 i 395–419", "SRC-0907: scope and procedures", "SRC-0908: Article 346"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Bramka: nierozstrzygnięta kwalifikacja, brak uzasadnienia trybu lub brak analizy konkurencji blokują wszczęcie postępowania."
+
+  - id: CLM-0931
+    text: "Repozytorium i data room programu powinny mieć rozdzielone strefy jawne, kontrolowane i — wyłącznie w akredytowanym środowisku — niejawne, z macierzą podstaw prawnych, właścicieli danych, celu, dostępu, retencji, audytu i zasad udostępniania dla każdego zbioru."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0909, SRC-0910, SRC-0911, SRC-0912]
+    locators: ["SRC-0909: art. 4–5, 48 i 54–71", "SRC-0910: art. 11", "SRC-0911: art. 5", "SRC-0912: Articles 5, 25, 32 and 35"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Stop-rule: do publicznego repozytorium nie trafiają informacje niejawne, operacyjne, dane osobowe bez potrzeby ani tajemnica przedsiębiorstwa bez podstawy i zabezpieczeń."
+
+  - id: CLM-0932
+    text: "Każdy krytyczny kontrakt powinien zawierać macierz background IP, foreground IP i ulepszeń oraz osobno określać prawa do interfejsów, danych technicznych, kompilacji, testów, naprawy, modyfikacji, sublicencji, transferu do wykonawcy zastępczego i produkcji awaryjnej."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0906, SRC-0913, SRC-0914]
+    locators: ["SRC-0906: art. 202 i 408", "SRC-0913: art. 41, 53 i 74–76", "SRC-0914: prawa do wynalazków i licencje"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Prawa państwa powinny być stopniowane według krytyczności i odpłatnie wycenione; background IP nie powinno być automatycznie przejmowane."
+
+  - id: CLM-0933
+    text: "Depozyt kodu i dokumentacji powinien być wymagany tylko dla elementów krytycznych i obejmować cykliczne aktualizacje, test odtworzenia, narzędzia i zależności, zdarzenia wydania, licencję uruchamianą po zdarzeniu oraz bezpiecznego depozytariusza."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0913, SRC-0914]
+    locators: ["SRC-0913: art. 41, 53 i 74–76", "SRC-0914: prawa i licencje"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Bramka: nieweryfikowalny lub nieaktualizowany depozyt nie może być zaliczany jako zabezpieczenie ciągłości."
+
+  - id: CLM-0934
+    text: "Kontrola eksportu powinna być bramką projektową od pierwszego transferu danych: karta produktu i technologii ma obejmować klasyfikację, jurysdykcję, kraj docelowy, użytkownika i użycie końcowe, transfer niematerialny, pomoc techniczną, reeksport, sankcje i wymagane zezwolenia."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0915, SRC-0916, SRC-0917, SRC-0918, SRC-0919, SRC-0920, SRC-0921]
+    locators: ["SRC-0917: wymagania wniosku", "SRC-0918: Articles 2–5 and 27", "SRC-0919: criteria one to eight", "SRC-0920 and SRC-0921: sanctions regimes"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Stop-rule: brak kwalifikacji, end-use lub wymaganego zezwolenia blokuje transfer, a nie jest zastępowany klauzulą w umowie."
+
+  - id: CLM-0935
+    text: "Screening sankcyjny należy wykonywać przy onboardingu, przed wyborem i podpisaniem umowy, przed płatnością i transferem technologii, okresowo oraz po zmianie właściciela, kontroli, zarządu, jurysdykcji lub list sankcyjnych."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0920, SRC-0921, SRC-0931]
+    locators: ["SRC-0920: krajowa lista i środki", "SRC-0921: dynamiczne akty i listy UE", "SRC-0931: beneficjent rzeczywisty"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Negatywny wynik lub nierozwiązana własność i kontrola blokują transakcję do decyzji właściwego compliance/legal."
+
+  - id: CLM-0936
+    text: "Program powinien ustanowić jednolite Responsible Autonomy Assurance obejmujące ocenę zakresu AI Act, przypisaną odpowiedzialność człowieka, pochodzenie i jakość danych, testowanie, identyfikowalność, sterowalność, nadzór zmian, incydenty, niezależny red-team oraz przegląd prawny bez względu na to, czy dane wdrożenie korzysta z wyłączenia obronnego."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0924, SRC-0925, SRC-0926]
+    locators: ["SRC-0924: Articles 2, 9–15, 26–27, 72–73", "SRC-0925: timeline", "SRC-0926: Principles of Responsible Use"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Warstwa etyczna i polityczna ma podnosić assurance; nie może być użyta do zastąpienia obowiązującego prawa."
+
+  - id: CLM-0937
+    text: "Dla nowej broni, środka lub metody walki MON powinien uruchamiać niezależny przegląd prawny zgodny z art. 36 na odpowiednio wczesnym etapie i ponawiać go po istotnej zmianie funkcji, środowiska użycia, poziomu autonomii lub ograniczeń."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0927, SRC-0928]
+    locators: ["SRC-0927 and SRC-0928: Article 36"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Stop-rule: brak przeglądu tam, gdzie jest wymagany, blokuje przyjęcie lub użycie; zakres i wynik nie powinny być publikowane, jeżeli są chronione."
+
+  - id: CLM-0938
+    text: "Właściciel strategii powinien rozpocząć screening strategicznej oceny oddziaływania na środowisko równolegle z wyborem instrumentu i nie zakładać wyłączenia obronnego dla dokumentu obejmującego cywilne zastosowania, przemysł, energię, regiony, poligony i infrastrukturę danych."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0902, SRC-0922, SRC-0923]
+    locators: ["SRC-0902: art. 6", "SRC-0922: art. 46–55", "SRC-0923: SOOŚ"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Stop-rule: brak formalnego rozstrzygnięcia właściwego organu blokuje przyjęcie dokumentu, gdy SOOŚ jest wymagana."
+
+  - id: CLM-0939
+    text: "Każde JV i partnerstwo międzynarodowe powinno przejść jedną bramkę transakcyjną obejmującą UBO i kontrolę, sankcje, FDI, koncentrację, FSR, pomoc państwa, bezpieczeństwo informacji, IP, eksport, end-use, cyberbezpieczeństwo, ciągłość i konflikty interesów."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0915, SRC-0918, SRC-0920, SRC-0921, SRC-0929, SRC-0930, SRC-0931, SRC-0932, SRC-0933, SRC-0934]
+    locators: ["SRC-0929: investment control", "SRC-0930: Article 4", "SRC-0931: CRBR", "SRC-0932: concentration", "SRC-0933: FSR", "SRC-0934: State aid"]
+    as_of: null
+    confidence: not-applicable
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Stop-rule: nierozwiązany beneficjent, sankcja, wymóg zgłoszenia, brak zgody na transfer lub spór o IP blokuje podpisanie albo closing."
+
+  - id: CLM-0940
+    text: "Nie ustalono jeszcze, czy dokument główny powinien być strategią rozwoju, polityką publiczną, dokumentem strategicznym innego rodzaju czy pakietem dokumentów; rozstrzygnięcie zależy od zakresu ustawowych działań, horyzontu, powiązania z istniejącymi strategiami i wyników konsultacji z RCL oraz ministrem właściwym do spraw rozwoju regionalnego."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0901, SRC-0902, SRC-0904]
+    locators: ["SRC-0902: art. 9–15 i 21d–21f"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Pytanie do RCL i MFiPR przed uruchomieniem formalnego trybu."
+
+  - id: CLM-0941
+    text: "Nie ustalono podstaw prawnych, administratorów, kategorii danych, okresów retencji ani reżimu informacji dla planowanej bezpiecznej przestrzeni danych, ponieważ nie istnieje zatwierdzony katalog zbiorów i celów przetwarzania."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0903, SRC-0909, SRC-0910, SRC-0911, SRC-0912]
+    locators: ["SRC-0903: art. 10a", "SRC-0909: reżim informacji niejawnych", "SRC-0912: Articles 5–6 and 35"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Wymagany data inventory i dataset-by-dataset legal basis memo."
+
+  - id: CLM-0942
+    text: "Nie ustalono, które planowane systemy i zastosowania będą objęte AI Act, wyłączone jako wyłącznie wojskowe, obronne lub bezpieczeństwa narodowego albo objęte innymi sektorowymi reżimami, ponieważ brak rejestru zastosowań, ról i ścieżek wprowadzania do obrotu."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0924, SRC-0925]
+    locators: ["SRC-0924: Article 2(3) and recital 24"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Wymagana karta scope dla każdego use case, dostawcy, deployera i modelu dystrybucji."
+
+  - id: CLM-0943
+    text: "Nie ustalono klasyfikacji eksportowej produktów, oprogramowania, modeli, technologii ani usług programu ani krajów i użytkowników docelowych, więc nie można potwierdzić dostępności zezwoleń ani zbudować wiarygodnej prognozy eksportu."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0915, SRC-0916, SRC-0917, SRC-0918, SRC-0919]
+    locators: ["SRC-0918: Articles 2–5 and Annex I", "SRC-0919: criteria one to eight"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Każda prognoza rynku pozostaje scenariuszem do czasu kwalifikacji i decyzji licencyjnej."
+
+  - id: CLM-0944
+    text: "Nie ustalono, czy i w jakim zakresie strategia będzie wymagała strategicznej oceny oddziaływania na środowisko, ponieważ brak ostatecznego zakresu dokumentu, listy ramowanych przedsięwzięć oraz stanowiska właściwych organów."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0922, SRC-0923]
+    locators: ["SRC-0922: art. 46–48"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Wymagany screening przed ustaleniem kalendarza przyjęcia."
+
+  - id: CLM-0945
+    text: "Nie ustalono, które planowane JV, dotacje, gwarancje, inwestycje kapitałowe i zamówienia będą podlegały kontroli inwestycji, koncentracji, FSR lub regułom pomocy państwa, ponieważ nie ma term sheetów, stron, progów, źródeł finansowania ani struktury kontroli."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0929, SRC-0930, SRC-0932, SRC-0933, SRC-0934]
+    locators: ["SRC-0929: zakres kontroli", "SRC-0932: progi i formy koncentracji", "SRC-0933: scope", "SRC-0934: qualification"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Wymagany transaction-specific memo przed podpisaniem listu intencyjnego tworzącego zobowiązania."
+
+  - id: CLM-0946
+    text: "Nie ustalono, czy obecne ustawy wystarczą do wdrożenia wszystkich elementów programu, zwłaszcza obowiązkowego raportowania zdolności prywatnych, szczególnych praw produkcji awaryjnej, wspólnej przestrzeni danych, finansowania wieloletniego i nowych kompetencji koordynatora."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0901, SRC-0902, SRC-0903, SRC-0906, SRC-0909]
+    locators: ["SRC-0901: art. 7, 87, 92–93", "SRC-0902: instrumenty polityki rozwoju", "SRC-0903: art. 10", "SRC-0906: kontraktowe wymagania", "SRC-0909: dostęp i ochrona"]
+    as_of: "2026-07-21"
+    confidence: low
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "RCL powinno sporządzić gap analysis: obecna podstawa, luka, wariant nieustawowy, wariant ustawowy, koszty i kontrola praw."
+
+  - id: CLM-0947
+    text: "Scenariusz minimalny opiera program na dobrowolnej koordynacji i istniejących kontraktach, scenariusz bazowy dodaje program wykonawczy, finansowanie i standardowe klauzule, a scenariusz pełny przewiduje ustawę tylko dla zidentyfikowanych obowiązków lub uprawnień, których nie da się legalnie osiągnąć istniejącymi instrumentami."
+    type: SCENARIO
+    status: unverified
+    source_ids: [SRC-0901, SRC-0902, SRC-0903, SRC-0906]
+    locators: ["SRC-0901: art. 87, 92–93", "SRC-0902: strategie i programy", "SRC-0903: pełnomocnik", "SRC-0906: instrumenty kontraktowe"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A09
+    reviewer: null
+    used_in: [research/packs/a09-law-ethics-memo.md]
+    sensitivity: public
+    notes: "Scenariusze są do porównania po wykonaniu macierzy kompetencji; nie przesądzają potrzeby specustawy."

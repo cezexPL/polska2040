@@ -1,94 +1,150 @@
-# Polska 2040: bezpieczeństwo jako motor produktywności
+# Polska 2040: bezpieczeństwo i produktywność
 
-- Od zamówienia publicznego do platformy wzrostu
+- **HIPOTEZA DO PRZETESTOWANIA:** wspólne zdolności mogą tworzyć wartość cywilną
+- Niezależny draft ekspercki v0.1 · 21.07.2026
 
 ---
 
-# Polska szansa
+# Propozycja strategiczna
 
-- Skala rynku, przemysł, kadry oraz dostęp do UE i NATO
+- Nie osobny „sektor dronowy”, lecz platforma zdolności technologicznych
+- Wspólny cykl dla obronności i zastosowań cywilnych
+- Szybkie uczenie przed dużym CAPEX
+- Wartość w Polsce mierzona cyklem życia, nie etykietą
+
+---
+
+# Okno finansowania nie wystarczy
+
+- SAFE: pożyczka 43,7 mld EUR — **CLM-1208**
+- Plan 89% dla polskiej gospodarki wymaga metody i pomiaru — **CLM-1209**
+- Kapitał bez problemów, testów i popytu może utrwalić fragmentację
+- Najpierw architektura wykonania, potem skala
 
 ---
 
 # Wąskie gardło to wdrożenie
 
-- Sama edukacja nie tworzy rynku ani produktów
+- Grant nie jest produktem
+- Prototyp nie jest powtarzalną produkcją
+- Montaż nie jest pełną suwerennością
+- Memorandum eksportowe nie jest przychodem
 
 ---
 
 # Jeden cykl gospodarczy
 
-- Problem → produkt → produkcja → serwis → eksport → aktualizacja
+- Użytkownik i baza → prototyp → test → mała partia
+- Produkcja → serwis → eksport → aktualizacja
+- Każdy etap redukuje inną niepewność
+
+![Cykl od problemu do aktualizacji](assets/generated/delivery-cycle.svg)
 
 ---
 
-# Dual-use naprawdę
+# Hipotezy mechanizmów produktywności
 
-- Moduły i kompetencje pracujące w obronności i gospodarce cywilnej
+- Baseline 2025: AI wykorzystywało 8,4% polskich przedsiębiorstw z co najmniej 10 pracującymi wobec 20,0% w UE — [Eurostat](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251211-2), **CLM-1101**
+- Potencjalnie: automatyzacja, jakość i mniej przestojów
+- Do sprawdzenia: transfer software'u, sensorów i metod produkcji oraz skala dostawców
+- Wynik mierzyć przez kompetencje, produktywność i wykonany eksport względem bazy
 
 ---
 
-# Rolnictwo i środowisko
+# Przemysł: sieć, nie megafabryka
 
-- Precyzja, monitoring, automatyzacja i odporność
+- Integratorzy, elektronika/RF, energia, sensory, mechanika, software i serwis
+- Kontroluj / współkontroluj / dywersyfikuj / zaakceptuj zależność
+- Modułowe moce i kwalifikowane alternatywy
+- CAPEX tylko z popytem, jakością i planem wykorzystania
+
+---
+
+# Finansowanie dopasowane do ryzyka
+
+- Badanie: grant lub mały kontrakt
+- Test i mała partia: zamówienie etapowe z opcją
+- Skala: kontrakt, kredyt, gwarancja lub kapitał
+- Eksport: zgodność, ubezpieczenie i serwis
+
+---
+
+# Ukraina i europejska skala
+
+- Umowa daje ramy łańcuchów, lokalizacji, produkcji i IP — **CLM-1212**
+- BraveTech EU ma łączny budżet 100 mln EUR — **CLM-1213**
+- Polska już uczestniczy — mierzyć korzyści, nie samo członkostwo — **CLM-1214**
+- Portfolio partnerstw zamiast jednej preferowanej marki
+
+---
+
+# Talenty: popyt przed podażą
+
+- **HIPOTEZA DO PRZETESTOWANIA:** przekwalifikowanie może dać wcześniejszy mierzalny efekt niż tworzenie nowej uczelni
+- Technicy, jakość i serwis są równie krytyczne jak R&D
+- Istniejące uczelnie i szkoły tworzą sieć
+- Porównać koszt, kompetencję, zatrudnienie, retencję i produktywność względem bazy
 
 ---
 
 # Energia i infrastruktura
 
-- Inspekcja, predykcja awarii i ochrona sieci
+- Inspekcja, diagnostyka i predykcja awarii
+- Robotyka w środowiskach ryzyka
+- Dane i cyfrowe bliźniaki z właściwym governance
+- Pilotaż kończy się popytem właściciela albo zamknięciem
 
 ---
 
-# Logistyka i przemysł
+# Rolnictwo, środowisko i budownictwo
 
-- Autonomiczny transport, magazyny, diagnostyka i serwis
-
----
-
-# Morze i kosmos
-
-- Gospodarka morska, obserwacja Ziemi i infrastruktura danych
+- Precyzyjne pomiary i ograniczanie strat
+- Automatyzacja procesów powtarzalnych
+- Monitoring środowiska i stanu inwestycji
+- Wynik względem bazy, nie liczba wdrożonych urządzeń
 
 ---
 
-# Regiony jako sieć
+# Logistyka, kolej i gospodarka morska
 
-- Centra kompetencji połączone ze specjalizacjami przemysłowymi
-
----
-
-# Finansowanie etapowe
-
-- Inny kapitał dla badań, pilotażu, produkcji i eksportu
+- Magazyny, diagnostyka, inspekcja i wsparcie operacji
+- Systemy lądowe, nawodne i podwodne na poziomie cywilnym
+- Interfejsy i dane umożliwiają wielu dostawców
+- Bezpieczeństwo, odpowiedzialność i serwis od projektu
 
 ---
 
-# Mierzyć wartość w Polsce
+# Regiony jako wyspecjalizowana sieć
 
-- Produktywność, eksport, IP, dostawcy i retencja talentów
+- Nie kopiować identycznych laboratoriów w każdym województwie
+- Łączyć szkołę, uczelnię, MŚP, użytkownika i infrastrukturę
+- Pilotaż dwóch–trzech modeli przed decyzją skali
+- Warunek: popyt, wykorzystanie i retencja kadr
 
 ---
 
-# Partnerstwo z Ukrainą
+# Jak mierzyć wartość w Polsce
 
-- Szybkość uczenia połączona z europejską skalą i bezpieczeństwem
+- Wartość dodana, IP, kompetencje, serwis i aktualizacje
+- Produktywność względem kontrfaktycznego wariantu
+- Wykonany eksport i marża, nie liczba memorandum
+- Prywatny udział ryzyka i brak podwójnego finansowania
 
 ---
 
 # Czego nie robić
 
-- Megafabryka bez portfela produktów; granty bez użytkownika; cele bez bazy
+- Duży CAPEX bez popytu i pełnego TCO
+- Kierunki studiów bez kompetencyjnej bazy i zatrudnienia
+- Lokalizacja liczona miejscem faktury
+- Mnożnik PKB bez metody, źródeł i analizy wrażliwości
 
 ---
 
-# Pierwsze 100 dni
+# Obszary potencjalnej współpracy
 
-- Audyt, problemy, dane, pilotaże i właściciele
-
----
-
-# Zaproszenie do współpracy
-
-- Wspólne standardy, dane, testy, kapitał i eksport
-
+- Materiał konsultacyjny — nie stanowi oficjalnej oferty państwa
+- Użytkownicy: problemy i dane bazowe
+- Firmy: modularność, prawa cyklu życia i współfinansowanie ryzyka
+- Nauka: benchmarki, transfer i infrastruktura współdzielona
+- Państwo: wiarygodny popyt, testy, standardy i decyzje po dowodach

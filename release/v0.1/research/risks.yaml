@@ -1,0 +1,52 @@
+schema_version: 1
+risks:
+  - id: RSK-0001
+    risk: "Program zostaje przechwycony przez kilku dostawców definiujących potrzeby, kryteria i ocenę własnych produktów."
+    severity: critical
+    owner: "governance i audyt"
+    status: open
+  - id: RSK-0002
+    risk: "Powstają granty, kierunki i laboratoria bez użytkownika, zamówienia i rynku."
+    severity: high
+    owner: "Biuro Realizacji"
+    status: open
+  - id: RSK-0003
+    risk: "Deklarowana lokalizacja maskuje krytyczną zależność od jednego zagranicznego komponentu."
+    severity: critical
+    owner: "przemysł i bezpieczeństwo łańcucha dostaw"
+    status: open
+  - id: RSK-0004
+    risk: "Mechanizm koordynacyjny przy KPRM nie ma mandatu, danych ani możliwości eskalacji."
+    severity: high
+    owner: "KPRM"
+    status: open
+  - id: RSK-0005
+    risk: "Cele ilościowe zostają przyjęte bez wartości bazowej i prowadzą do gry wskaźnikami."
+    severity: high
+    owner: "ewaluacja"
+    status: open
+  - id: RSK-0006
+    risk: "Przestrzeń danych tworzy nowe ryzyko wycieku, nieuprawnionego użycia lub vendor lock-in."
+    severity: critical
+    owner: "właściciele danych i cyber"
+    status: open
+  - id: RSK-0007
+    risk: "Partnerstwo międzynarodowe ma niejasne IP, kontrolę eksportu lub plan ciągłości."
+    severity: critical
+    owner: "prawo i współpraca międzynarodowa"
+    status: open
+  - id: RSK-0008
+    risk: "Wydatki są podwójnie liczone względem istniejących programów krajowych i europejskich."
+    severity: high
+    owner: "finanse"
+    status: open
+  - id: RSK-0009
+    risk: "Publiczna narracja sugeruje oficjalne poparcie lub ujawnia informacje wrażliwe."
+    severity: critical
+    owner: "redakcja i bezpieczeństwo informacji"
+    status: open
+  - id: RSK-0010
+    risk: "Program traci ciągłość po zmianie rządu, ponieważ nie ma mierzalnych wyników i szerokiej legitymizacji."
+    severity: high
+    owner: "kierownictwo strategiczne"
+    status: open

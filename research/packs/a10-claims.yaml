@@ -1,0 +1,617 @@
+schema_version: 1
+claims:
+  - id: CLM-1001
+    text: "Na 31 grudnia 2025 r. w Polsce działało 345 uczelni, studiowało 1 322,8 tys. osób, a w roku akademickim 2024/2025 studia ukończyło 306,6 tys. osób."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1001]
+    locators: ["akapit wprowadzający oraz PDF, s. 1–2"]
+    as_of: 2025-12-31
+    confidence: high
+    author: A10
+    reviewer: A12
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): komunikat GUS z 15 czerwca 2026 r. potwierdza 345 uczelni, 1 322,8 tys. studentów na 31 grudnia 2025 r. oraz 306,6 tys. absolwentów 2024/2025; opracowanie statystyczne obejmuje 328 uczelni sprawozdających."
+
+  - id: CLM-1002
+    text: "W roku szkolnym 2024/2025 działało 6 945 szkół ponadpodstawowych dla młodzieży; wśród nich 1 697 branżowych szkół I stopnia z 212,4 tys. uczniów, 252 branżowe szkoły II stopnia oraz 1 848 techników z 687,7 tys. uczniów."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1002]
+    locators: ["synteza i tablice dotyczące szkół ponadpodstawowych"]
+    as_of: null
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "To baza całego systemu, a nie liczba placówek gotowych do realizacji programu autonomii."
+
+  - id: CLM-1003
+    text: "W roku szkolnym 2024/2025 liczba pełnych etatów nauczycieli we wszystkich typach szkół wynosiła 511,0 tys."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1002]
+    locators: ["s. 17–20; część dotycząca nauczycieli"]
+    as_of: null
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Agregat nie pokazuje dostępności nauczycieli elektroniki, automatyki, robotyki, programowania ani praktycznej nauki zawodu."
+
+  - id: CLM-1004
+    text: "W 2024 r. do obu części egzaminu zawodowego przystąpiło 379,5 tys. zdających, a świadectwo potwierdzające kwalifikację uzyskało 78,7% z nich."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1002]
+    locators: ["część dotycząca egzaminów zawodowych"]
+    as_of: 2024-12-31
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Wskaźnik zagregowany nie mierzy gotowości do konkretnych ról w programie."
+
+  - id: CLM-1005
+    text: "Prognoza Ministra Edukacji na 2026 r. wskazuje 34 zawody szkolnictwa branżowego o szczególnym znaczeniu dla rozwoju państwa, w tym zawody związane z automatyką, robotyką, mechatroniką, elektrotechniką, mechaniką i spawalnictwem."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1004]
+    locators: ["część II, wykaz krajowy"]
+    as_of: 2026-01-22
+    confidence: high
+    author: A10
+    reviewer: A12
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): część II obwieszczenia M.P. 2026 poz. 146 zawiera 34 pozycje, w tym automatyków, technika robotyka, mechatroników, elektryków, mechaników i technika spawalnictwa. Nie jest to pełna taksonomia kompetencji programu."
+
+  - id: CLM-1006
+    text: "Prognoza Ministra Edukacji zawiera wykaz krajowy i wykazy dla 16 województw oraz wpływa na mechanizmy finansowania kształcenia w zawodach szkolnictwa branżowego."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1004]
+    locators: ["części I–III i wykazy wojewódzkie"]
+    as_of: 2026-01-22
+    confidence: high
+    author: A10
+    reviewer: A12
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): obwieszczenie zawiera część krajową i część III dla rynków wojewódzkich oraz wprost wiąże wykazy z podziałem potrzeb oświatowych i dofinansowaniem kształcenia młodocianych."
+
+  - id: CLM-1007
+    text: "W Barometrze zawodów 2026 niedostateczna liczba kandydatów była najczęściej wskazywaną przyczyną deficytu dla nauczycieli przedmiotów zawodowych (65% ocen deficytu) i nauczycieli praktycznej nauki zawodu (59%)."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1005]
+    locators: ["s. 26–27; przyczyny deficytu"]
+    as_of: 2026-01-01
+    confidence: medium
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Barometr jest urzędową prognozą ekspercką; odsetki nie są liczbą nieobsadzonych etatów ani estymacją luki kadrowej w osobach."
+
+  - id: CLM-1008
+    text: "System ELA łączy dane POL-on i ZUS, umożliwiając porównywanie ekonomicznych losów absolwentów według uczelni, kierunku i kohorty."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1006]
+    locators: ["opis systemu i źródeł danych na stronie głównej"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "ELA nie zastępuje badania kompetencji, retencji w branży ani pełnych losów osób pracujących poza zakresem rejestrów."
+
+  - id: CLM-1009
+    text: "W badaniu GUS dotyczącym 2022 r. 19,8% osób w wieku 18–69 lat, około 4,9 mln osób, deklarowało udział w edukacji pozaformalnej w ciągu poprzednich 12 miesięcy."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1007]
+    locators: ["s. 62–63"]
+    as_of: 2022-12-31
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Dane są historycznym punktem odniesienia, a nie aktualnym popytem na kursy 3-, 6- lub 12-miesięczne."
+
+  - id: CLM-1010
+    text: "IBE prowadzi pilotaż projektowania, wydawania i zapewniania wiarygodności mikropoświadczeń, początkowo obejmujący m.in. kompetencje cyfrowe; rezultat pilotażu nie oznacza automatycznego uznania każdego kursu."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1008]
+    locators: ["opis projektu i główne działania"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-1011
+    text: "Zalecenie Rady UE z 2022 r. określa wspólną definicję, standardowe elementy opisu i zasady jakości mikropoświadczeń, lecz nie stanowi automatycznej akredytacji krajowej."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1009]
+    locators: ["załączniki I–II"]
+    as_of: 2022-06-16
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-1012
+    text: "Zintegrowany System Kwalifikacji zapewnia ustawową ramę opisu kwalifikacji, walidacji, certyfikowania, zapewniania jakości oraz etapowego gromadzenia osiągnięć."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1010]
+    locators: ["art. 1–5, 12–13 i rozdziały o walidacji oraz certyfikowaniu"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Klasyfikację prawną konkretnego produktu edukacyjnego powinien potwierdzić A09 lub właściwy legislator."
+
+  - id: CLM-1013
+    text: "Prawo o szkolnictwie wyższym pozwala uczelniom współpracować z otoczeniem społeczno-gospodarczym przy programach i praktykach oraz prowadzić studia dualne."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1011]
+    locators: ["art. 61–62"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: A12
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 61–62 aktualnego tekstu Prawa o szkolnictwie wyższym i nauce potwierdzają współpracę przy programie i praktykach oraz studia dualne prowadzone z pracodawcą."
+
+  - id: CLM-1014
+    text: "Dla profilu praktycznego ustawa określa co najmniej sześć miesięcy praktyk na studiach pierwszego stopnia i jednolitych magisterskich oraz trzy miesiące na studiach drugiego stopnia."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1011]
+    locators: ["art. 67 ust. 5–7"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: A12
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 67 ust. 5 potwierdza minima sześciu i trzech miesięcy, z ustawowym wyjątkiem dla programów przygotowujących do zawodów z art. 68 ust. 1. Nie uzasadnia jednego semestru praktyk w każdym roku."
+
+  - id: CLM-1015
+    text: "Branżowe Centra Umiejętności są jednostkami systemu oświaty obsługującymi uczniów, nauczycieli, dorosłych i pracodawców oraz realizującymi funkcje szkoleniowe, egzaminacyjne i kooperacyjne."
+    type: FACT
+    status: verified
+    source_ids: [SRC-1012]
+    locators: ["opis funkcji i grup odbiorców"]
+    as_of: 2026-07-07
+    confidence: high
+    author: A10
+    reviewer: A12
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): aktualna strona IBE/ZSK potwierdza status jednostki systemu oświaty, kształcenie, szkolenie, egzaminowanie, grupy użytkowników i współpracę z pracodawcami. Nie jest to ewaluacja efektów BCU."
+
+  - id: CLM-1016
+    text: "Operator inwestycji BCU potwierdził realizację wskaźnika KPO A45G W2 i graniczny termin wydatków 30 czerwca 2026 r.; nie jest to dowód efektu zatrudnieniowego ani jakości kształcenia."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1013]
+    locators: ["komunikat o wskaźniku i terminie przedsięwzięć"]
+    as_of: 2026-06-30
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-1017
+    text: "Od 1 lipca 2026 r. wojewódzkie zespoły koordynacji mają ustawowe zadania doradcze, monitorujące i ewaluacyjne w polityce umiejętności oraz skład obejmujący m.in. pracodawców, uczelnie i szkoły zawodowe."
+    type: FACT
+    status: disputed
+    source_ids: [SRC-1014]
+    locators: ["art. 2–5, 13–15 i przepisy wejścia w życie"]
+    as_of: 2026-07-01
+    confidence: high
+    author: A10
+    reviewer: A12
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "A12 (2026-07-21): zadania i data są poprawne, lecz art. 5 rozróżnia skład obligatoryjny (m.in. pracodawcy i uczelnie) od fakultatywnego; kandydaci szkół zawodowych mogą, ale nie muszą wejść do WZK. Claim wymaga korekty."
+
+  - id: CLM-1018
+    text: "Zintegrowana Strategia Umiejętności 2030 jest istniejącą, przyjętą przez Radę Ministrów ramą krajowej polityki umiejętności."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1015]
+    locators: ["opis dokumentu i uchwały nr 195/2020 RM"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-1019
+    text: "Nowa podstawa programowa szkoły podstawowej jest wdrażana stopniowo od roku szkolnego 2026/2027, dlatego dodatkowe treści programu powinny zostać osadzone w tym cyklu zamiast tworzyć równoległy obowiązkowy przedmiot."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-1016, SRC-1017]
+    locators: ["harmonogram wdrażania podstawy", "elementy programu Cyfrowy Uczeń"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Wniosek organizacyjny A10; nie jest literalnym nakazem aktu prawnego."
+
+  - id: CLM-1020
+    text: "W październiku 2024 r. mediana wynagrodzenia brutto w szerokiej grupie zawodowej „Specjaliści” wynosiła 9 466,17 zł, a w grupie „Technicy i inny średni personel” 7 811,76 zł."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1018]
+    locators: ["tablice 1–2"]
+    as_of: 2024-10-31
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Badanie obejmuje podmioty o co najmniej 10 pracujących i szerokie grupy zawodowe; nie wycenia kompetencji programu."
+
+  - id: CLM-1021
+    text: "W grudniu 2025 r. mediana miesięcznego wynagrodzenia brutto w gospodarce narodowej wynosiła 7 907,20 zł."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1019]
+    locators: ["akapit wprowadzający"]
+    as_of: 2025-12-31
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "To kontekst makroekonomiczny, nie próg retencji dla specjalistów."
+
+  - id: CLM-1022
+    text: "W 2025 r. w UE pracowało 10,45 mln specjalistów ICT, czyli 5,0% ogółu zatrudnionych, a kobiety stanowiły 19,5% tej grupy."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1020]
+    locators: ["komunikat Eurostatu z 27 maja 2026 r."]
+    as_of: 2025-12-31
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Danych UE nie wolno przedstawiać jako polskiej diagnozy zatrudnienia."
+
+  - id: CLM-1023
+    text: "Eksperymentalne dane Eurostatu z internetowych ogłoszeń o pracę mierzą ogłoszenia, nie liczbę wakatów, i wymagają kontroli pokrycia portali oraz deduplikacji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1021]
+    locators: ["Why are these statistics needed; How are they produced"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-1024
+    text: "Prognoza Cedefop 2026 przedstawia modelowe projekcje podaży i popytu na umiejętności do 2035 r., a nie wiążące zamówienie na liczbę miejsc edukacyjnych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1022]
+    locators: ["opis zbioru i metodologia"]
+    as_of: 2026-06-17
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-1025
+    text: "Na 31 grudnia 2025 r. na polskich uczelniach studiowało 101 587 cudzoziemców spośród 1 322 841 studentów ogółem."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1001]
+    locators: ["tablice GUS według obywatelstwa i statusu studenta"]
+    as_of: 2025-12-31
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Stan zasobu studentów zagranicznych nie mierzy pozostania w Polsce po studiach ani pracy w wybranej branży."
+
+  - id: CLM-1026
+    text: "Od 1 lipca 2025 r. uczelnie mają obowiązek aktualizować dane cudzoziemców przyjmowanych na studia w POL-on, ale rejestr przyjęć nie jest rejestrem późniejszej retencji zawodowej w Polsce."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-1024]
+    locators: ["zakres wykazu cudzoziemców i obowiązek aktualizacji"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-1027
+    text: "Publiczne dane nie określają obecnie liczby specjalistów potrzebnych programowi w latach 2027, 2030 i 2035 według kompetencji, województwa oraz poziomu doświadczenia."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1004, SRC-1005, SRC-1021, SRC-1022]
+    locators: ["ograniczenia zakresu prognoz i źródeł popytu"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Wymagane są jawne agregaty zamówień kompetencyjnych od użytkowników i pracodawców oraz odrębny, autoryzowany obieg dla informacji niejawnych."
+
+  - id: CLM-1028
+    text: "Publiczne źródła nie dostarczają aktualnej mapy nauczycieli, instruktorów i laboratoriów według specjalności, dostępnego czasu, jakości wyposażenia i województwa."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1002, SRC-1005, SRC-1025]
+    locators: ["agregaty nauczycieli; przyczyny deficytów; ustalenia kontroli NIK"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Bez audytu nie można potwierdzić gotowości 16 centrów ani 100 szkół."
+
+  - id: CLM-1029
+    text: "Nie jest znana retencja uczestników potencjalnego programu w Polsce i w docelowych rolach po 12, 24 i 36 miesiącach, w tym osobno dla cudzoziemców."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1006, SRC-1024]
+    locators: ["zakres ELA; zakres wykazu cudzoziemców POL-on"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Wartość bazowa powstanie dopiero po zdefiniowaniu kohorty i legalnej integracji danych."
+
+  - id: CLM-1030
+    text: "Nie są znane porównywalne koszty jednostkowe ukończenia i uzyskania kompetencji dla ścieżek 3-, 6- i 12-miesięcznych ani koszt gotowości scenariusza 16 centrów i 100 szkół."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-1008, SRC-1012, SRC-1027]
+    locators: ["opisy pilotaży i instytucji bez porównywalnej kalkulacji programu A10"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Koszt należy liczyć na uczestnika przyjętego, kończącego i wykazującego kompetencję, nie tylko na utworzone miejsce."
+
+  - id: CLM-1031
+    text: "Utworzenie nowej uczelni nie ma obecnie podstawy dowodowej, ponieważ nie przeprowadzono audytu wykorzystania istniejących 345 uczelni, szkół, BCU, kadry i laboratoriów ani porównania kosztu alternatywnego."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-1001, SRC-1002, SRC-1012, SRC-1025]
+    locators: ["skala istniejącego systemu i luki audytowe"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Wniosek może zostać ponownie oceniony po audycie pojemności i jakości."
+
+  - id: CLM-1032
+    text: "Program powinien działać jako kontraktowa sieć istniejących szkół, uczelni, BCU, pracodawców i wojewódzkich zespołów koordynacji, z jedną taksonomią kompetencji i wspólną ewaluacją."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1012, SRC-1014, SRC-1015]
+    locators: ["funkcje BCU; zadania WZK; obszary ZSU 2030"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Struktura nie powinna tworzyć nowej warstwy budynków ani dublować ZSU 2030."
+
+  - id: CLM-1033
+    text: "Na etapie szkoły podstawowej program powinien wzmacniać matematykę, nauki przyrodnicze, informatykę, podstawy elektroniki i robotyki, krytyczne korzystanie z AI, cyberbezpieczeństwo, etykę oraz pracę projektową, bez militaryzacji treści."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1016, SRC-1017, SRC-1026]
+    locators: ["podstawa programowa; Cyfrowy Uczeń; odpowiedzialne stosowanie AI"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Zajęcia nie powinny obejmować konstruowania uzbrojenia ani taktyki użycia."
+
+  - id: CLM-1034
+    text: "Technika i szkoły branżowe powinny wykorzystywać istniejące zawody i kwalifikacje jako bazę, dodając moduły z mechatroniki, elektroniki, systemów wbudowanych, łączności, materiałów, produkcji, diagnostyki, bezpieczeństwa i integracji systemów."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1004, SRC-1002, SRC-1010]
+    locators: ["zawody priorytetowe; egzamin zawodowy; ramy kwalifikacji"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Każdy moduł wymaga zwalidowanych efektów uczenia się i bezpiecznego zakresu cywilnego lub dual-use."
+
+  - id: CLM-1035
+    text: "Na uczelniach należy uruchomić wspólny rdzeń efektów uczenia się i praktyczne lub dualne ścieżki na 8–12 istniejących uczelniach dopiero po konkursie jakościowym i audycie zasobów, zamiast automatycznie tworzyć nowy kierunek lub uczelnię."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1001, SRC-1011]
+    locators: ["skala uczelni; art. 61–62 i 67"]
+    as_of: 2026-07-21
+    confidence: medium
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Zakres 8–12 uczelni jest scenariuszem do konkursu i wyceny, nie ustalonym celem."
+
+  - id: CLM-1036
+    text: "Ścieżki przekwalifikowania 3-, 6- i 12-miesięczne powinny różnić się wymaganiami wejścia, głębokością kompetencji i zadaniem końcowym, a finansowanie powinno zależeć od ukończenia oraz niezależnej walidacji efektów."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1007, SRC-1008, SRC-1009, SRC-1010]
+    locators: ["uczenie się dorosłych; projektowanie i jakość mikropoświadczeń; walidacja ZSK"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-1037
+    text: "Każde mikropoświadczenie programu powinno zawierać wydawcę, efekty uczenia się, nakład pracy, poziom, sposób oceny, kryteria zaliczenia, mechanizm zapewniania jakości, datę i możliwość weryfikacji."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1008, SRC-1009, SRC-1010]
+    locators: ["standardowe elementy, jakość, walidacja i certyfikowanie"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "O uznawalności nie może przesądzać samo logo programu."
+
+  - id: CLM-1038
+    text: "Model kadrowy powinien łączyć nauczycieli i wykładowców z instruktorami przemysłowymi, szkoleniem prowadzących i wspólnotami praktyki, przy ujawnianiu konfliktów interesów oraz zakazie uzależniania programu od jednego dostawcy."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1005, SRC-1025, SRC-1026]
+    locators: ["deficyty nauczycieli; szkolenia branżowe; wspólnoty praktyki"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Instruktor branżowy nie powinien samodzielnie definiować potrzeby, dostarczać szkolenia i oceniać własnego produktu."
+
+  - id: CLM-1039
+    text: "Ewaluacja retencji powinna mierzyć po 12, 24 i 36 miesiącach pracę w Polsce i zgodność roli z kompetencją, z wykorzystaniem miar względnych ELA/ZUS oraz badania uzupełniającego, a nie samej liczby zapisanych."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1006, SRC-1018, SRC-1019, SRC-1024]
+    locators: ["źródła ELA; ograniczenia benchmarków wynagrodzeń; zakres POL-on"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Projekt wskaźnika i podstawa prawna integracji danych wymagają uzgodnienia z A07 i A09."
+
+  - id: CLM-1040
+    text: "Polityka pozyskania i retencji cudzoziemców powinna łączyć uznawanie kwalifikacji, język branżowy, wsparcie relokacji rodziny, staże i jasną ścieżkę zatrudnienia, bez obniżania standardów bezpieczeństwa informacji."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1001, SRC-1024]
+    locators: ["dane o studentach cudzoziemcach; zakres rejestru POL-on"]
+    as_of: 2026-07-21
+    confidence: medium
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Ścieżki pobytowe, dostęp do informacji i uznawanie kwalifikacji wymagają oceny A09; pochodzenie nie może zastępować indywidualnej oceny ryzyka."
+
+  - id: CLM-1041
+    text: "Popyt na kompetencje należy aktualizować co pół roku poprzez triangulację prognozy MEN, Barometru zawodów, ELA, danych GUS, ostrożnie użytych ogłoszeń internetowych oraz podpisanych deklaracji zapotrzebowania pracodawców i użytkowników."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1004, SRC-1005, SRC-1006, SRC-1021, SRC-1022, SRC-1023]
+    locators: ["zakres i ograniczenia poszczególnych źródeł"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Deklaracje pracodawców powinny zawierać wolumen, kompetencję, region, termin i gotowość do praktyk lub współfinansowania."
+
+  - id: CLM-1042
+    text: "Program powinien rozpocząć się od 18-miesięcznego pilotażu w trzech zróżnicowanych województwach, wybranych według jawnych kryteriów popytu, zasobów, dostępności i gotowości partnerów, przed decyzją o skali krajowej."
+    type: SCENARIO
+    status: unverified
+    source_ids: [SRC-1004, SRC-1012, SRC-1014, SRC-1027]
+    locators: ["zróżnicowanie wojewódzkie; funkcje BCU i WZK; przykład pilotażu szkół"]
+    as_of: 2026-07-21
+    confidence: medium
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Trzy regiony i 18 miesięcy są hipotezą projektową do zatwierdzenia po audycie, nie faktem ani zobowiązaniem."
+
+  - id: CLM-1043
+    text: "Skala 16 regionalnych węzłów, około 100 szkół patronackich, 5 000 nowych absolwentów i 15 000 przekwalifikowanych osób rocznie jest scenariuszem wymagającym wyceny, baz popytu i przepustowości oraz bramek jakości."
+    type: SCENARIO
+    status: unverified
+    source_ids: [SRC-1001, SRC-1002, SRC-1014, SRC-1027]
+    locators: ["skala systemu; ustawowa warstwa regionalna; porównawczy mechanizm pilotażu"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Żadna z liczb nie jest zatwierdzonym celem ani dowiedzionym optimum."
+
+  - id: CLM-1044
+    text: "Rozszerzenie pilotażu powinno zostać wstrzymane, jeżeli po dwóch kohortach brak niezależnego dowodu osiągnięcia kompetencji, praktyk u realnych użytkowników, akceptowalnego kosztu jednostkowego lub wiarygodnego popytu na absolwentów."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-1006, SRC-1008, SRC-1010, SRC-1025]
+    locators: ["monitoring losów; walidacja; ryzyka realizacji szkolnictwa zawodowego"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A10
+    reviewer: null
+    used_in: [research/packs/a10-education-memo.md]
+    sensitivity: public
+    notes: "Progi liczbowe muszą zostać ustalone po bazowym pomiarze i wycenie."

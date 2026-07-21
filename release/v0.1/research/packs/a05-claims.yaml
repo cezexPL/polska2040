@@ -1,0 +1,687 @@
+schema_version: 1
+claims:
+  - id: CLM-0501
+    text: NATO utrzymuje sześć zasad odpowiedzialnego użycia AI — legalność, odpowiedzialność, wyjaśnialność i identyfikowalność, niezawodność, sterowalność oraz ograniczanie stronniczości — jako ramę obowiązującą w całym cyklu życia zdolności AI.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0501]
+    locators: ["SRC-0501: paras 5–11"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): zrewidowana strategia AI NATO potwierdza sześć PRUs i ich zastosowanie w cyklu życia. W materiale oficjalnym należy zachować terminy angielskie przy pierwszym użyciu."
+
+  - id: CLM-0502
+    text: Zrewidowana strategia NATO uznaje dostęp do jakościowych, gotowych do użycia przez AI danych za warunek odpowiedzialnego rozwoju i wykorzystania AI.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0501]
+    locators: ["SRC-0501: data and technology enablers"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0503
+    text: NATO wskazuje potrzebę sojuszniczego środowiska testowania, ewaluacji, weryfikacji i walidacji AI, wspierającego standardy, szablony ocen, procesy przeglądu oraz interoperacyjność.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0501]
+    locators: ["SRC-0501: testing, evaluation, verification and validation outcome"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): NATO opisuje sojuszniczy krajobraz TEV&V, standardy, szablony, procesy przeglądu i interoperacyjność. Źródło nie ujawnia kryteriów konkretnej zdolności."
+
+  - id: CLM-0504
+    text: Alliance Digital Strategy NATO łączy bezpieczne współdzielenie w federacyjnych przestrzeniach danych ze standaryzowanym etykietowaniem danych, metadanymi, kontrolą dostępu i federacyjnym zarządzaniem tożsamością, a także wskazuje AI inference na brzegu sieci jako element transformacji.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0503]
+    locators: ["SRC-0503: sections 10–12 and 25"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): Alliance Digital Strategy 2026 potwierdza standaryzowane etykiety, metadane, kontrolę dostępu, federacyjne ICAM i data spaces oraz inference na brzegu. To kierunek interoperacyjności, nie gotowa architektura krajowa."
+
+  - id: CLM-0505
+    text: NATO Data Quality Framework wymienia dokładność, kompletność, spójność, unikalność, terminowość i ważność jako wymiary jakości oraz wymaga iteracyjnego zarządzania jakością, metadanych jakościowych i powiązania z cyklem API i MLOps.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0504]
+    locators: ["SRC-0504: paras 9–13 and implementation principles"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wymiary należy stosować do konkretnego celu; wysoka jakość nie jest jedną uniwersalną liczbą."
+
+  - id: CLM-0506
+    text: Publiczna strategia AI MON z 2024 r. wskazywała jako potrzeby resortu zweryfikowane dane wysokiej jakości, infrastrukturę, kompetencje, dostosowanie prawa i procesów oraz odejście od silosów organizacyjnych.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0505]
+    locators: ["SRC-0505: attached PDF pp. 3–10 and 17–32"]
+    as_of: 2024-10-11
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To udokumentowana diagnoza na moment publikacji, a nie dowód aktualnego stanu wdrożenia w lipcu 2026 r."
+
+  - id: CLM-0507
+    text: Przyjęta w czerwcu 2026 r. strategia informatyzacji państwa przewiduje między innymi publiczny rejestr zastosowań AI w administracji, rozwój ośrodka badań nad bezpieczeństwem AI w NASK, standardy bezpieczeństwa i danych, integrację zasobów PLGrid oraz przejrzyste zasady dostępu do mocy obliczeniowej.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0506]
+    locators: ["SRC-0506: strategy pp. 145–161, goals 4.2.1–4.2.3"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Uchwała tworzy podstawę polityczną dla wdrażania; nie dowodzi, że wszystkie wymienione produkty już działają."
+
+  - id: CLM-0508
+    text: Oficjalny komunikat o Gaia AI Factory deklaruje budowę zasobu przekraczającego 1000 GPU oraz integrację z PLGrid, ale nie potwierdza akredytacji środowiska do przetwarzania chronionych danych obronnych.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0508]
+    locators: ["SRC-0508: Gaia AI Factory and project information"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): komunikat MC z 11 maja 2026 r. deklaruje ponad 1000 akceleratorów GPU i integrację z PLGrid. Nie zawiera publicznego dowodu akredytacji, SLA ani dopuszczenia danych obronnych; brak dowodu nie przesądza braku zdolności."
+
+  - id: CLM-0509
+    text: Oficjalny profil PIAST-AI Factory zapowiada usługi od 2026 r., obejmujące zasoby HPC i chmurowe, przygotowanie danych oraz mechanizmy bezpiecznej i chroniącej prywatność integracji, lecz nie potwierdza dopuszczenia do danych niejawnych lub chronionych operacyjnie.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0509]
+    locators: ["SRC-0509: Services Available from 2026; Services provided"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Opis usługi nie zastępuje audytu zdolności, SLA, łańcucha dostaw ani decyzji właściwego organu bezpieczeństwa."
+
+  - id: CLM-0510
+    text: Strategia Cyberbezpieczeństwa Rzeczypospolitej Polskiej przyjęta uchwałą nr 92 Rady Ministrów została ogłoszona 23 marca 2026 r. i weszła w życie 24 marca 2026 r.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0510]
+    locators: ["SRC-0510: ELI metadata and resolution text"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0511
+    text: Nowelizacja ustawy o krajowym systemie cyberbezpieczeństwa z 23 stycznia 2026 r. została ogłoszona 2 marca 2026 r. i weszła w życie 3 kwietnia 2026 r.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0511]
+    locators: ["SRC-0511: ELI metadata and act text"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Przypisanie konkretnego podmiotu programu do obowiązków ustawy wymaga odrębnej analizy A09."
+
+  - id: CLM-0512
+    text: Sejm publikuje tekst ustawy o systemach sztucznej inteligencji ustalony 3 lipca 2026 r. po rozpatrzeniu poprawek Senatu.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0512]
+    locators: ["SRC-0512: title, text and parliamentary status"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Twierdzenie dotyczy etapu parlamentarnego, nie wejścia ustawy w życie."
+
+  - id: CLM-0513
+    text: AI Act UE wyłącza systemy używane wyłącznie do celów wojskowych, obronnych lub bezpieczeństwa narodowego, natomiast użycia mieszane i zastosowania niewyłączone wymagają odrębnej kwalifikacji prawnej.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0513]
+    locators: ["SRC-0513: Article 2 and recital 24"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 2 ust. 3 i motyw 24 AI Act potwierdzają wyłączenie wyłącznie w określonym zakresie oraz objęcie użyć mieszanych lub niewyłączonych. Każde wdrożenie dual-use wymaga odrębnej kwalifikacji."
+
+  - id: CLM-0514
+    text: AI Act ustanawia dla cywilnych systemów wysokiego ryzyka obowiązki dotyczące zarządzania ryzykiem, danych, logów, dokumentacji, nadzoru człowieka, dokładności, odporności, cyberbezpieczeństwa, systemu zarządzania jakością i monitorowania po wdrożeniu.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0513]
+    locators: ["SRC-0513: Articles 9–17 and 72"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Elementy te są użytecznym benchmarkiem assurance także poza zakresem rozporządzenia, lecz nie stają się przez to automatycznie obowiązkiem obronnym."
+
+  - id: CLM-0515
+    text: Data Governance Act przewiduje cywilny wzorzec bezpiecznego środowiska przetwarzania, ale jego rozdział dotyczący ponownego wykorzystywania danych sektora publicznego nie obejmuje danych chronionych z powodów bezpieczeństwa publicznego, obrony lub bezpieczeństwa narodowego.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0514]
+    locators: ["SRC-0514: Article 3(2)(d) and secure processing environment provisions"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "DGA jest wzorcem architektonicznym dla części cywilnej, nie podstawą prawną udostępniania danych obronnych."
+
+  - id: CLM-0516
+    text: Data Act ustanawia mechanizmy zmiany dostawcy usług przetwarzania danych, przenoszenia danych i aktywów cyfrowych oraz wymagania interoperacyjności, z pozostawieniem zastosowania przepisów sektorowych i ograniczeń bezpieczeństwa.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0515]
+    locators: ["SRC-0515: Articles 30, 33–36 and 44"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wymogi prawne i terminy stosowania trzeba sprawdzić dla konkretnej usługi i umowy."
+
+  - id: CLM-0517
+    text: Cyber Resilience Act wymaga podejścia do cyberbezpieczeństwa produktu w całym okresie wsparcia, w tym zarządzania podatnościami komponentów, aktualizacji bezpieczeństwa oraz dokumentowania zależności, dla produktów mieszczących się w jego zakresie.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0516]
+    locators: ["SRC-0516: Articles 13–14; Annex I Parts I–II; Annex VII"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zakres, wyjątki i okresy przejściowe wymagają analizy per produkt; memorandum używa CRA również jako benchmarku cyklu życia."
+
+  - id: CLM-0518
+    text: Data Spaces Blueprint v2 rozdziela wspólną płaszczyznę sterowania, obejmującą między innymi tożsamość, zaufanie i polityki użycia, od domenowych płaszczyzn danych oraz opisuje zestaw modułów governance, interoperacyjności i obserwowalności.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0517]
+    locators: ["SRC-0517: Building Block Overview; Control Plane vs. Data Plane"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Blueprint jest architekturą referencyjną programu UE, a nie dopuszczeniem do zastosowań obronnych."
+
+  - id: CLM-0519
+    text: NIST AI RMF 1.0 organizuje zarządzanie ryzykiem AI w funkcjach GOVERN, MAP, MEASURE i MANAGE i pozostaje dobrowolnym benchmarkiem, przy czym NIST prowadzi jego aktualizację.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0518]
+    locators: ["SRC-0518: AI RMF 1.0, Playbook and revision notice"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Program nie powinien zamrażać profilu zgodności na wersji 1.0 bez kontroli zmian."
+
+  - id: CLM-0520
+    text: NIST SSDF 1.1 grupuje praktyki bezpiecznego wytwarzania oprogramowania jako przygotowanie organizacji, ochronę oprogramowania, wytwarzanie dobrze zabezpieczonego oprogramowania oraz reagowanie na podatności.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0520]
+    locators: ["SRC-0520: practice groups PO, PS, PW and RV"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "SSDF jest wspólnym słownikiem praktyk, nie certyfikatem produktu."
+
+  - id: CLM-0521
+    text: Architektura zero trust NIST nie przyznaje zaufania wyłącznie na podstawie lokalizacji sieciowej lub własności zasobu i wymaga jawnego uwierzytelnienia oraz autoryzacji dostępu do zasobów.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0521]
+    locators: ["SRC-0521: abstract and tenets"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zero trust nie oznacza jednego produktu ani rezygnacji z segmentacji i zabezpieczeń fizycznych."
+
+  - id: CLM-0522
+    text: NIST definiuje cele cyberodporności systemowej jako przewidywanie, wytrzymywanie, odzyskiwanie i adaptowanie się do niekorzystnych warunków, stresów, ataków lub kompromitacji.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0522]
+    locators: ["SRC-0522: abstract and cyber resiliency goals"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "W memorandum wykorzystano tylko poziom zasad inżynierii odporności, bez technik ofensywnych."
+
+  - id: CLM-0523
+    text: Publiczne abstrakty ISO/IEC 42001, 23894, 5259-3, 5259-5, 25059 i 42005 obejmują odpowiednio system zarządzania AI, zarządzanie ryzykiem, zarządzanie i governance jakości danych, model jakości systemu AI oraz ocenę wpływu AI.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0526, SRC-0527, SRC-0528, SRC-0529, SRC-0530, SRC-0531]
+    locators: ["SRC-0526–SRC-0531: public abstracts, scope and status"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie badano pełnych płatnych treści norm i nie deklaruje się zgodności żadnego polskiego podmiotu."
+
+  - id: CLM-0524
+    text: ISO/IEC 5962:2021 publikuje SPDX 2.2.1 jako format informacji o składzie oprogramowania, lecz edycja jest oznaczona do rewizji.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0532]
+    locators: ["SRC-0532: public abstract and revision status"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zamówienia powinny wymagać formatów maszynowo czytelnych z kontrolowaną wersją, a nie zamrażać konkretną starzejącą się edycję."
+
+  - id: CLM-0525
+    text: ENISA ocenia, że standaryzacja cyberbezpieczeństwa AI ma nadal luki i powinna obejmować cały cykl życia, a nie tylko bezpieczeństwo wdrożonego modelu.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0524, SRC-0525]
+    locators: ["SRC-0524: executive summary and conclusions", "SRC-0525: executive overview"]
+    as_of: 2026-07-21
+    confidence: medium
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Raporty ENISA są wsadem do profilu bezpieczeństwa, nie gotowym schematem certyfikacji."
+
+  - id: CLM-0526
+    text: Nie ustalono w jawnym obiegu, czy dokument Polityka rozwoju sztucznej inteligencji w Polsce do 2030 roku opublikowany przez Ministerstwo Cyfryzacji w listopadzie 2025 r. został formalnie przyjęty przez Radę Ministrów do 21 lipca 2026 r.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0507]
+    locators: ["SRC-0507: publication page and ministry status communication"]
+    as_of: 2026-07-21
+    confidence: medium
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Po co najmniej dwóch próbach wyszukania aktu przyjmującego w gov.pl i ELI nie znaleziono publikacji; A09 powinien potwierdzić status w KPRM/MC."
+
+  - id: CLM-0527
+    text: Nie ustalono, czy parlamentarny tekst ustawy o systemach sztucznej inteligencji z 3 lipca 2026 r. został podpisany i ogłoszony przed 21 lipca 2026 r.; dlatego memorandum nie traktuje go jako prawa obowiązującego.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0512]
+    locators: ["SRC-0512: parliamentary status; separate ELI promulgation search"]
+    as_of: 2026-07-21
+    confidence: medium
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "A09 powinien ponownie sprawdzić ELI przed publikacją pakietu."
+
+  - id: CLM-0528
+    text: Publiczne informacje o Gaia AI Factory i PIAST-AI Factory nie pozwalają potwierdzić akredytacji, bieżącej dostępności, SLA ani dopuszczenia do przetwarzania chronionych danych obronnych.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0508, SRC-0509]
+    locators: ["SRC-0508: project description", "SRC-0509: service profile"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Brak publicznego dowodu nie oznacza braku zdolności; wymaga kontrolowanego due diligence."
+
+  - id: CLM-0529
+    text: W źródłach jawnych nie znaleziono aktualnej krajowej linii bazowej obejmującej inwentarz obronnych systemów AI, katalog właścicieli danych, jakość zbiorów, przepustowość ścieżek danych, pojemność środowisk obliczeniowych, zaległości ewaluacyjne i czasy reakcji na incydenty.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0505, SRC-0506]
+    locators: ["SRC-0505: public 2024 diagnosis", "SRC-0506: adopted 2026 targets"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Źródła pokazują potrzeby i cele, nie kompletny stan bazowy. Linia bazowa może istnieć w obiegu chronionym i powinna być pozyskana bez kopiowania treści do repozytorium."
+
+  - id: CLM-0530
+    text: Federacyjna przestrzeń danych powinna pozostawiać dane u odpowiedzialnego stewarda, gdy jest to możliwe, oraz przenosić zatwierdzone obliczenie do danych zamiast domyślnie kopiować wrażliwy zbiór do centralnego jeziora danych.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0503, SRC-0514, SRC-0517, SRC-0521]
+    locators: ["SRC-0503: federated data spaces and access controls", "SRC-0514: secure processing environment", "SRC-0517: control/data plane", "SRC-0521: zero-trust tenets"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Każdy przepływ nadal wymaga podstawy prawnej, klasyfikacji, właściciela ryzyka i reguł eksportu wyniku."
+
+  - id: CLM-0531
+    text: Architektura państwa powinna oddzielać wspólną płaszczyznę polityk i zaufania od wielu domenowych płaszczyzn danych, aby zapewnić wspólne reguły bez wymuszania jednego fizycznego repozytorium lub jednego dostawcy technologii.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0503, SRC-0515, SRC-0517]
+    locators: ["SRC-0503: federated ICAM and data spaces", "SRC-0515: portability and interoperability", "SRC-0517: control/data plane pattern"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wspólność dotyczy kontraktu i dowodów, nie centralizacji odpowiedzialności."
+
+  - id: CLM-0532
+    text: Każdy produkt danych używany do trenowania, ewaluacji lub działania systemu AI powinien mieć właściciela, dozwolony cel, podstawę i ograniczenia użycia, klasę wrażliwości, pochodzenie, wersję, profil jakości, retencję oraz regułę eksportu lub udostępnienia wyniku.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0504, SRC-0513, SRC-0528, SRC-0529]
+    locators: ["SRC-0504: quality metadata", "SRC-0513: Articles 10–12", "SRC-0528–SRC-0529: public scope"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Karta nie może ujawniać treści wrażliwej; dla danych chronionych może istnieć tylko indeks i owner w obiegu właściwym."
+
+  - id: CLM-0533
+    text: Decyzja dostępu powinna łączyć federacyjną tożsamość człowieka lub obciążenia, atrybuty roli i celu, stan urządzenia lub środowiska, klasę danych, ograniczenie czasowe oraz zasadę minimalnych uprawnień, a jej wynik powinien być rejestrowany.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0503, SRC-0517, SRC-0521]
+    locators: ["SRC-0503: federated ICAM", "SRC-0517: identity, trust and policy building blocks", "SRC-0521: resource authorization"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Atrybuty i reguły muszą być ustalone przez właściciela danych i właściwy organ bezpieczeństwa."
+
+  - id: CLM-0534
+    text: Nie należy ustanawiać jednego okresu retencji dla wszystkich danych i logów AI; retencja powinna wynikać z celu, podstawy prawnej, wartości dowodowej, klasy wrażliwości, cyklu życia modelu, wymagań archiwalnych i ryzyka, z kontrolowaną regułą legal hold oraz bezpiecznego usunięcia.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0513, SRC-0521, SRC-0522]
+    locators: ["SRC-0513: logging, documentation and monitoring", "SRC-0521: resource protection", "SRC-0522: recovery and adaptation"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Konkretne okresy ustala A09 z właścicielem danych; memo nie tworzy uniwersalnego harmonogramu."
+
+  - id: CLM-0535
+    text: Katalog mocy obliczeniowej powinien rozróżniać co najmniej środowiska publiczne, kontrolowane dual-use, chronione enklawy oraz odseparowane środowiska wymagające osobnej autoryzacji, a dla każdego poziomu definiować dopuszczalne dane, tożsamość, egress, logowanie, łańcuch dostaw, ciągłość i usunięcie nośników.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0503, SRC-0508, SRC-0509, SRC-0521, SRC-0522]
+    locators: ["SRC-0503: federated controls and edge", "SRC-0508–SRC-0509: public compute projects", "SRC-0521–SRC-0522: zero trust and resilience"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Najwyższy poziom jest wyłącznie restricted-placeholder; kwalifikacja niejawna pozostaje w autoryzowanym obiegu."
+
+  - id: CLM-0536
+    text: Gaia i PIAST mogą być kandydatami do części krajowej puli obliczeniowej dopiero po sprawdzeniu dostępności, SLA, lokalizacji i przepływów danych, łańcucha dostaw, izolacji, kontroli administracyjnej, audytu i zdolności odtworzenia; opis projektu nie jest akredytacją.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0508, SRC-0509, SRC-0521, SRC-0522]
+    locators: ["SRC-0508–SRC-0509: project descriptions", "SRC-0521–SRC-0522: assurance principles"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Do czasu zamknięcia bramki dane chronione nie powinny trafiać do tych środowisk na podstawie samego komunikatu publicznego."
+
+  - id: CLM-0537
+    text: Pakiet edge AI powinien wersjonować i wiązać kryptograficznie model, runtime, konfigurację, schemat wejść, zależności i politykę, określać budżet zasobów, lokalną telemetrię, rollback oraz dozwolone zachowanie po degradacji.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0503, SRC-0516, SRC-0520, SRC-0522]
+    locators: ["SRC-0503: edge inference", "SRC-0516: lifecycle security", "SRC-0520: SSDF", "SRC-0522: resilience goals"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Twierdzenie dotyczy pakietu assurance, nie parametrów konkretnej platformy."
+
+  - id: CLM-0538
+    text: Governance systemu AI wymaga rozdzielenia co najmniej właściciela celu i ryzyka użycia, właściciela modelu, stewarda danych, właściciela cyberbezpieczeństwa, niezależnej funkcji TEVV oraz organu akceptującego ryzyko.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0501, SRC-0513, SRC-0518, SRC-0526, SRC-0527, SRC-0531]
+    locators: ["SRC-0501: responsibility and accountability", "SRC-0513: risk and quality management", "SRC-0518: GOVERN/MAP/MEASURE/MANAGE", "SRC-0526–SRC-0531: management and impact standards"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Jedna osoba może pełnić kilka ról tylko przy zachowaniu niezależnego przeglądu dla systemów krytycznych."
+
+  - id: CLM-0539
+    text: Cykl dopuszczenia AI powinien mieć bramki celu i prawa, danych, oceny offline, integracji i symulacji, ograniczonego pilotażu, wdrożenia oraz ciągłego monitorowania i wycofania, z dowodami niezależnymi od deklaracji dostawcy.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0501, SRC-0513, SRC-0518, SRC-0530, SRC-0531]
+    locators: ["SRC-0501: TEV&V", "SRC-0513: lifecycle obligations", "SRC-0518: risk-management functions", "SRC-0530–SRC-0531: quality and impact scope"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Progi ilościowe ustala owner ryzyka dla konkretnego zastosowania; nie mogą być kopiowane między domenami."
+
+  - id: CLM-0540
+    text: Ewaluacja systemu AI powinna mierzyć przydatność dla konkretnego celu, błędy i kalibrację, odpowiednie grupy lub warunki, odporność i testy stresowe, niepewność i dane spoza rozkładu, dryf, cyberbezpieczeństwo, opóźnienie i zużycie zasobów, human factors, degradację oraz możliwość rollbacku.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0501, SRC-0504, SRC-0513, SRC-0518, SRC-0519, SRC-0530]
+    locators: ["SRC-0501: PRUs and TEV&V", "SRC-0504: data quality", "SRC-0513: Articles 9–15 and 72", "SRC-0518–SRC-0519: measurement profiles", "SRC-0530: AI quality model scope"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie każdy miernik ma zastosowanie do każdego systemu; plan testów ma uzasadnić wybór i progi."
+
+  - id: CLM-0541
+    text: Istotna zmiana modelu, danych, runtime, sprzętu, sensora, interfejsu, celu, zatwierdzonych warunków, profilu zagrożeń lub zabezpieczeń oraz materialny dryf, spadek wyniku lub incydent powinny uruchamiać analizę wpływu i adekwatną ponowną ewaluację.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0504, SRC-0513, SRC-0516, SRC-0518, SRC-0520]
+    locators: ["SRC-0504: iterative quality and MLOps", "SRC-0513: lifecycle and post-market monitoring", "SRC-0516: product changes", "SRC-0518: MANAGE", "SRC-0520: SSDF"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Ponowna ewaluacja może być zakresowa; nie każda zmiana wymaga pełnego powtórzenia wszystkich testów."
+
+  - id: CLM-0542
+    text: Minimalny secure SDLC dla AI powinien obejmować model zagrożeń, kontrolowane repozytoria i buildy, przypięte zależności i ich pochodzenie, SBOM oraz manifest modelu i danych, podpisane artefakty, obsługę podatności, aktualizację i rollback, a także odtwarzalność proporcjonalną do krytyczności.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0516, SRC-0520, SRC-0523, SRC-0524, SRC-0532]
+    locators: ["SRC-0516: lifecycle and component obligations", "SRC-0520: SSDF practice groups", "SRC-0523: SBOM minimum-elements metadata", "SRC-0524: lifecycle standardisation", "SRC-0532: SPDX format"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "SBOM nie obejmuje semantyki modelu i danych, dlatego potrzebne są odrębne, powiązane manifesty."
+
+  - id: CLM-0543
+    text: Bezpieczna degradacja powinna definiować funkcje niezbędne, kryteria przejścia, ograniczone tryby, nadzór lub przekazanie człowiekowi tam, gdzie jest wykonalne, rejestrację, odzyskanie i test, zamiast zakładać, że uniwersalnym zabezpieczeniem jest zawsze ręczne sterowanie.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0501, SRC-0513, SRC-0522]
+    locators: ["SRC-0501: governability and reliability", "SRC-0513: human oversight and robustness", "SRC-0522: anticipate, withstand, recover and adapt"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Tryb degradacji musi być właściwy dla systemu; memo nie podaje instrukcji działania konkretnej platformy."
+
+  - id: CLM-0544
+    text: Ścieżka audytowa powinna być odporna na manipulację i zsynchronizowana czasowo oraz wiązać tożsamości, decyzje polityk dostępu, wersje danych, modelu, runtime i konfiguracji, wyniki bramek, zdarzenia eksploatacyjne i eksport danych, z kontrolą dostępu do samych logów.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0501, SRC-0503, SRC-0513, SRC-0517, SRC-0521]
+    locators: ["SRC-0501: traceability", "SRC-0503: metadata and access", "SRC-0513: logging and documentation", "SRC-0517: observability", "SRC-0521: authorization"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Centralny rejestr może przechowywać wyłącznie metadane i odsyłacze, jeśli treść logu jest wrażliwa."
+
+  - id: CLM-0545
+    text: Rada Ministrów powinna zlecić 100-dniową linię bazową oraz projekt architektury federacyjnej przestrzeni danych i compute tiers, z KPRM jako sponsorem oraz Ministerstwem Cyfryzacji i MON jako współwłaścicielami wykonawczymi.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0503, SRC-0504, SRC-0505, SRC-0506, SRC-0517]
+    locators: ["SRC-0503–SRC-0504: NATO federation and data quality", "SRC-0505: 2024 MON diagnosis", "SRC-0506: adopted state targets", "SRC-0517: reference architecture"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Owner: KPRM sponsor, MC+MON co-owners. Rezultat: zatwierdzona linia bazowa, słownik danych i architektura v0.9. Bramka: komplet ownerów, zakres prawny i mapa środowisk; stop: kopiowanie danych chronionych do repozytorium roboczego lub brak ownera ryzyka. Ryzyko: inwentaryzacja pozorna i spór kompetencyjny."
+
+  - id: CLM-0546
+    text: Państwo powinno uruchomić dwa lub trzy jawne lub kontrolowane, niewrażliwe pilotaże federacji danych do 31 marca 2027 r., zanim dopuści architekturę do szerszego lub bardziej wrażliwego użycia.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0503, SRC-0514, SRC-0515, SRC-0517, SRC-0521]
+    locators: ["SRC-0503: federation", "SRC-0514–SRC-0515: secure processing and portability", "SRC-0517: blueprint", "SRC-0521: zero trust"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Owner: MC jako owner platformy, MON/MSWiA i właściciele danych jako ownerzy domen. Rezultat: sprawdzony control plane, dwa data plane, audyt egress i mierniki jakości. Bramka: test odmowy dostępu, odtworzenie logu i zmiana dostawcy komponentu; stop: niejasna podstawa prawna, niemożliwy audyt lub niekontrolowany eksport. Ryzyko: pilotaż staje się nieformalnym systemem produkcyjnym."
+
+  - id: CLM-0547
+    text: MON wspólnie z NASK i niezależnymi ośrodkami powinien ustanowić do 31 marca 2027 r. wspólny profil AI assurance i federację TEVV, oddzielając twórcę od ostatecznego akceptującego ryzyko.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0501, SRC-0513, SRC-0518, SRC-0526, SRC-0527, SRC-0530, SRC-0531]
+    locators: ["SRC-0501: NATO TEV&V", "SRC-0513: lifecycle assurance", "SRC-0518: AI RMF", "SRC-0526–SRC-0531: management, risk, quality and impact standards"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Owner: MON dla profilu obronnego, NASK dla metod publicznych/cywilnych, niezależny reviewer wyznaczony per system. Rezultat: role, G0–G6, format evidence pack, trigger zmian i rejestr wyjątków. Bramka: niezależna replikacja wybranego testu; stop: laboratorium lub dostawca sam zatwierdza własny system bez kontroli. Ryzyko: nadmierna biurokracja albo pozorna niezależność."
+
+  - id: CLM-0548
+    text: Od 1 stycznia 2027 r. nowe pilotaże AI finansowane przez państwo powinny stosować minimalny secure SDLC, maszynowo czytelny SBOM oraz powiązane manifesty modelu, danych i środowiska wykonawczego jako warunek odbioru.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0516, SRC-0520, SRC-0523, SRC-0524, SRC-0532]
+    locators: ["SRC-0516: product lifecycle", "SRC-0520: SSDF", "SRC-0523: SBOM guidance metadata", "SRC-0524: AI lifecycle", "SRC-0532: SPDX"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Owner: centralni nabywcy publiczni i AU, profil techniczny MC/MON. Rezultat: identyfikowalna wersja i plan patch/rollback dla każdego pilotażu. Bramka: odtworzenie builda lub równoważny dowód, skan zależności i próba rollbacku; stop: nieznane krytyczne komponenty lub brak ownera wsparcia. Ryzyko: wykluczenie MŚP, dlatego potrzebne są narzędzia referencyjne i proporcjonalność."
+
+  - id: CLM-0549
+    text: Ministerstwo Cyfryzacji, MNiSW i MON powinny do 30 czerwca 2027 r. opublikować jawny katalog compute tiers i usług edge assurance, wykorzystując Gaia, PIAST i PLGrid tylko w tych klasach, dla których przejdą odpowiednią ocenę.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0503, SRC-0506, SRC-0508, SRC-0509, SRC-0521, SRC-0522]
+    locators: ["SRC-0503: edge and federation", "SRC-0506: PLGrid and transparent compute access", "SRC-0508–SRC-0509: AI factories", "SRC-0521–SRC-0522: zero trust and resilience"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A05
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Owner: MC dla katalogu, MNiSW/operatorzy dla podaży, MON dla wymagań obronnych. Rezultat: profile C0–C3, SLA, dowody izolacji, egress, ciągłości i edge packaging. Bramka: audyt per tier i ćwiczenie odtworzenia; stop: kierowanie danych chronionych do środowiska wyłącznie na podstawie komunikatu projektowego. Ryzyko: duplikacja inwestycji, niedostępność mocy i vendor lock-in."

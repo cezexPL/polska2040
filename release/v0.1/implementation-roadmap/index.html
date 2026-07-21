@@ -1,0 +1,1036 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Plan realizacji 2026–2040</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="implementation-roadmap"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="plan-realizacji-20262040">Plan realizacji 2026–2040</h1>
+<p><strong>Program:</strong> Polska 2040: Suwerenność technologiczna<br />
+<strong>Status:</strong> niezależny materiał przedmandatowy v0.1 do konsultacji; D0 nie został ustanowiony<br>
+<strong>Stan wiedzy:</strong> 21 lipca 2026 r.<br />
+<strong>Zasada:</strong> terminy liczone są od formalnej decyzji o uruchomieniu programu (<code>D0</code>), a nie od daty niniejszego dokumentu.</p>
+<blockquote>
+<p>Plan opisuje jawny mechanizm realizacji. Nie zawiera niejawnych luk zdolnościowych, wolumenów, zapasów, lokalizacji, parametrów operacyjnych ani list podatności. Szczegółowe odpowiedzi na pytania chronione powstają wyłącznie w autoryzowanym środowisku.</p>
+</blockquote>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<h3 id="rezultat">Rezultat</h3>
+<p>Plan przekształca strategię w portfel dwunastu pakietów roboczych, cztery wspólne bramki i pięć horyzontów. W pierwszym roku państwo nie próbuje zbudować całego docelowego ekosystemu. Buduje <strong>zdolność wykonawczą</strong>: odpowiedzialność, wartości bazowe, bezpieczne dane, porównywalne testy, małe kontrakty, audyt produkcji, popyt kompetencyjny i mechanizm zamykania nieskutecznych inicjatyw.</p>
+<h3 id="piec-zasad-wykonania">Pięć zasad wykonania</h3>
+<ol>
+<li><strong>Jedna tablica portfela.</strong> Każde działanie ma właściciela, produkt, termin, zależność, KPI, koszt, ryzyko i następną decyzję.</li>
+<li><strong>Małe zobowiązanie przed dużym.</strong> Pilotaż i mała partia kupują dowód przed decyzją skali.</li>
+<li><strong>Brak danych jest wynikiem audytu.</strong> <code>UNKNOWN</code> uruchamia plan pozyskania, nie wypełnianie luki liczbą modelową.</li>
+<li><strong>Wdrożenie i zamknięcie są równoprawnymi wynikami.</strong> Portfel raportuje projekty zatrzymane oraz zaoszczędzone zobowiązania.</li>
+<li><strong>Wersja jawna i autoryzowana są rozdzielone.</strong> Repozytorium zawiera pytania, definicje i agregaty; informacje chronione pozostają u właściciela.</li>
+</ol>
+<h3 id="cztery-kandydaty-decyzji-w-pierwszych-30-dniach">Cztery kandydaty decyzji w pierwszych 30 dniach</h3>
+<ul>
+<li><strong>DEC-0001 / DEC-0002:</strong> rozpatrzyć mandat, formalnego właściciela i funkcję Biura Realizacji;</li>
+<li><strong>DEC-0003:</strong> rozpatrzyć wspólny kontrakt danych, dowodów, konfliktów interesów, raportowania i ograniczony portfel problemów;</li>
+<li><strong>DEC-0004:</strong> rozpatrzyć pilotaż przestrzeni danych i ewaluacji;</li>
+<li><strong>DEC-0005 / DEC-0008:</strong> rozpatrzyć audyt bazowy oraz mapę istniejących programów, zależności i zobowiązań.</li>
+</ul>
+<p>Rekordy mają status <code>candidate</code>. Warunkiem formalnego uruchomienia jest rozstrzygnięcie właściwości i podstawy procesu (<strong>GAP-0011</strong>).</p>
+<h3 id="co-ma-istniec-po-12-miesiacach">Co ma istnieć po 12 miesiącach</h3>
+<ul>
+<li>działający rejestr problemów, decyzji, ryzyk, kosztów i rezultatów;</li>
+<li>pierwsze projekty, które przeszły test użytkownika, oraz projekty jawnie zamknięte;</li>
+<li>przetestowany prototyp bezpiecznej przestrzeni danych i model governance AI;</li>
+<li>mapa przemysłu oraz ćwiczenia zdolności zwiększenia produkcji na reprezentatywnej próbie;</li>
+<li>trzy scenariusze finansowe bez podwójnego liczenia finansowania;</li>
+<li>portfolio partnerstw z Ukrainą/UE po due diligence;</li>
+<li>pilotaże przekwalifikowania i regionalnych centrów z bazą kosztową;</li>
+<li>pakiet zmian procesowych, kontraktowych i prawnych;</li>
+<li>dashboard dla Rady Ministrów oraz osobna wersja publiczna;</li>
+<li>raport „skaluj–zmień–zamknij” z planem na kolejny rok.</li>
+</ul>
+<p><img alt="Horyzonty realizacji: pierwsze 100 dni, 6 i 12 miesięcy, lata 2027–2030, 2031–2035 i ambicja 2040" src="../assets/generated/roadmap-horizons.svg" /></p>
+<h2 id="spis-tresci">Spis treści</h2>
+<div class="toc">
+<ul>
+<li><a href="#plan-realizacji-20262040">Plan realizacji 2026–2040</a><ul>
+<li><a href="#executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</a><ul>
+<li><a href="#rezultat">Rezultat</a></li>
+<li><a href="#piec-zasad-wykonania">Pięć zasad wykonania</a></li>
+<li><a href="#cztery-kandydaty-decyzji-w-pierwszych-30-dniach">Cztery kandydaty decyzji w pierwszych 30 dniach</a></li>
+<li><a href="#co-ma-istniec-po-12-miesiacach">Co ma istnieć po 12 miesiącach</a></li>
+</ul>
+</li>
+<li><a href="#spis-tresci">Spis treści</a></li>
+<li><a href="#1-architektura-portfela">1. Architektura portfela</a><ul>
+<li><a href="#11-pakiety-robocze">1.1. Pakiety robocze</a></li>
+<li><a href="#12-cztery-wspolne-bramki-programu">1.2. Cztery wspólne bramki programu</a></li>
+<li><a href="#13-hierarchia-produktow">1.3. Hierarchia produktów</a></li>
+</ul>
+</li>
+<li><a href="#2-pierwsze-100-dni">2. Pierwsze 100 dni</a><ul>
+<li><a href="#faza-a-d0d10-uruchomienie">Faza A: D0–D10 — uruchomienie</a><ul>
+<li><a href="#decyzje">Decyzje</a></li>
+<li><a href="#produkty">Produkty</a></li>
+<li><a href="#warunek-przejscia">Warunek przejścia</a></li>
+</ul>
+</li>
+<li><a href="#faza-b-d11d30-mandat-problemy-i-zakres-audytu">Faza B: D11–D30 — mandat, problemy i zakres audytu</a><ul>
+<li><a href="#wp01-governance">WP01: governance</a></li>
+<li><a href="#wp02-katalog-problemow">WP02: katalog problemów</a></li>
+<li><a href="#wp06wp08wp10-zakres-baz">WP06/WP08/WP10: zakres baz</a></li>
+<li><a href="#warunek-przejscia_1">Warunek przejścia</a></li>
+</ul>
+</li>
+<li><a href="#faza-c-d31d60-baza-i-projekt-pilotazy">Faza C: D31–D60 — baza i projekt pilotaży</a><ul>
+<li><a href="#audyt">Audyt</a></li>
+<li><a href="#projekt-testow">Projekt testów</a></li>
+<li><a href="#bezpieczna-przestrzen-danych">Bezpieczna przestrzeń danych</a></li>
+<li><a href="#warunek-przejscia_2">Warunek przejścia</a></li>
+</ul>
+</li>
+<li><a href="#faza-d-d61d100-pierwsze-dowody-i-decyzja-g1">Faza D: D61–D100 — pierwsze dowody i decyzja G1</a><ul>
+<li><a href="#dziaania">Działania</a></li>
+<li><a href="#pakiet-g1-dla-premierarm">Pakiet G1 dla Premiera/RM</a></li>
+<li><a href="#definicja-ukonczenia-100-dni">Definicja ukończenia 100 dni</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#3-miesiace-46-dowod-mechanizmu">3. Miesiące 4–6: dowód mechanizmu</a><ul>
+<li><a href="#cel">Cel</a></li>
+<li><a href="#produkty_1">Produkty</a></li>
+<li><a href="#bramka-g2">Bramka G2</a></li>
+</ul>
+</li>
+<li><a href="#4-miesiace-712-mae-partie-i-decyzja-skali">4. Miesiące 7–12: małe partie i decyzja skali</a><ul>
+<li><a href="#41-maa-partia-jako-instrument-uczenia">4.1. Mała partia jako instrument uczenia</a></li>
+<li><a href="#42-decyzja-g3">4.2. Decyzja G3</a></li>
+<li><a href="#43-produkty-konca-roku">4.3. Produkty końca roku</a></li>
+</ul>
+</li>
+<li><a href="#5-horyzont-20272030">5. Horyzont 2027–2030</a><ul>
+<li><a href="#cel_1">Cel</a></li>
+<li><a href="#linie-dziaania">Linie działania</a></li>
+<li><a href="#decyzje-konca-2030-r">Decyzje końca 2030 r.</a></li>
+</ul>
+</li>
+<li><a href="#6-horyzont-20312035">6. Horyzont 2031–2035</a><ul>
+<li><a href="#cel_2">Cel</a></li>
+<li><a href="#priorytety">Priorytety</a></li>
+<li><a href="#bramka-2035">Bramka 2035</a></li>
+</ul>
+</li>
+<li><a href="#7-horyzont-20362040">7. Horyzont 2036–2040</a></li>
+<li><a href="#8-raci-i-odpowiedzialnosc">8. RACI i odpowiedzialność</a></li>
+<li><a href="#9-rytm-zarzadczy">9. Rytm zarządczy</a><ul>
+<li><a href="#tygodniowo">Tygodniowo</a></li>
+<li><a href="#miesiecznie">Miesięcznie</a></li>
+<li><a href="#kwartalnie">Kwartalnie</a></li>
+<li><a href="#rocznie">Rocznie</a></li>
+</ul>
+</li>
+<li><a href="#10-dashboard-i-sownik-kpi">10. Dashboard i słownik KPI</a><ul>
+<li><a href="#reguy-miernika">Reguły miernika</a></li>
+<li><a href="#dashboard-publiczny">Dashboard publiczny</a></li>
+</ul>
+</li>
+<li><a href="#11-zarzadzanie-zaleznosciami">11. Zarządzanie zależnościami</a><ul>
+<li><a href="#zaleznosci-krytyczne">Zależności krytyczne</a></li>
+<li><a href="#regua-eskalacji">Reguła eskalacji</a></li>
+</ul>
+</li>
+<li><a href="#12-rejestr-ryzyk-wykonawczych">12. Rejestr ryzyk wykonawczych</a></li>
+<li><a href="#13-dane-wymagane-do-zamrozenia-harmonogramu-i-budzetu">13. Dane wymagane do zamrożenia harmonogramu i budżetu</a><ul>
+<li><a href="#jawne-lub-mozliwe-do-publikacji-w-agregacie">Jawne lub możliwe do publikacji w agregacie</a></li>
+<li><a href="#do-obiegu-autoryzowanego">Do obiegu autoryzowanego</a></li>
+</ul>
+</li>
+<li><a href="#14-definicja-ukonczenia-v01-i-przejscia-do-wykonania">14. Definicja ukończenia v0.1 i przejścia do wykonania</a></li>
+<li><a href="#15-kandydackie-nastepne-kroki-po-ewentualnym-przyjeciu-planu">15. Kandydackie następne kroki po ewentualnym przyjęciu planu</a></li>
+<li><a href="#dalsze-pytania">Dalsze pytania</a></li>
+<li><a href="#zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-architektura-portfela">1. Architektura portfela</h2>
+<h3 id="11-pakiety-robocze">1.1. Pakiety robocze</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Pakiet</th>
+<th>Produkt pierwszego roku</th>
+<th>Właściciel funkcjonalny</th>
+<th>Główna decyzja</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WP01</td>
+<td>Mandat i Biuro Realizacji</td>
+<td>karta programu, RACI, rejestr portfela</td>
+<td>KPRM</td>
+<td>czy program ma mandat i zdolność eskalacji?</td>
+</tr>
+<tr>
+<td>WP02</td>
+<td>Problemy i użytkownicy</td>
+<td>katalog problemów i protokoły B0</td>
+<td>właściwi użytkownicy publiczni</td>
+<td>które problemy wchodzą do pilotażu?</td>
+</tr>
+<tr>
+<td>WP03</td>
+<td>Testy i małe zamówienia</td>
+<td>standard bramek B1–B4 i pierwsze kontrakty</td>
+<td>nabywcy i jednostki testowe</td>
+<td>co skaluje się, poprawia lub zamyka?</td>
+</tr>
+<tr>
+<td>WP04</td>
+<td>Dane, AI i obliczenia</td>
+<td>pilotaż bezpiecznej przestrzeni danych</td>
+<td>właściciele danych i cyfryzacja/obrona</td>
+<td>jakie dane/model można dopuścić?</td>
+</tr>
+<tr>
+<td>WP05</td>
+<td>Cyber i software</td>
+<td>minimalny standard cyklu życia</td>
+<td>właściciel systemu i cyber</td>
+<td>czy ryzyko jest akceptowalne?</td>
+</tr>
+<tr>
+<td>WP06</td>
+<td>Przemysł i komponenty</td>
+<td>audyt zależności i plan 30/90/180 dni</td>
+<td>gospodarka/obrona</td>
+<td>które warstwy kontrolować, dywersyfikować lub zaakceptować?</td>
+</tr>
+<tr>
+<td>WP07</td>
+<td>Serwis i logistyka</td>
+<td>model naprawy, aktualizacji i zapasów</td>
+<td>właściciele systemów</td>
+<td>czy cykl życia jest utrzymywalny?</td>
+</tr>
+<tr>
+<td>WP08</td>
+<td>Kadry i edukacja</td>
+<td>mapa popytu i pilotaże kompetencji</td>
+<td>edukacja/nauka/przemysł</td>
+<td>które programy skalować po wyniku?</td>
+</tr>
+<tr>
+<td>WP09</td>
+<td>Ukraina, UE i NATO</td>
+<td>mapa instrumentów i portfel partnerstw</td>
+<td>sprawy zagraniczne/obrona/gospodarka</td>
+<td>które współprace przechodzą due diligence?</td>
+</tr>
+<tr>
+<td>WP10</td>
+<td>Finanse i wpływ</td>
+<td>model niski/bazowy/wysoki</td>
+<td>finanse i instytucje rozwoju</td>
+<td>jaki portfel daje wartość dodatkową?</td>
+</tr>
+<tr>
+<td>WP11</td>
+<td>Prawo, etyka i informacja</td>
+<td>mapa instrumentów i pakiet zmian</td>
+<td>właściwe resorty i organy prawne</td>
+<td>co można zrobić procesem, a co wymaga regulacji?</td>
+</tr>
+<tr>
+<td>WP12</td>
+<td>Regiony, cywil i eksport</td>
+<td>pilotaże popytu i ścieżka replikacji</td>
+<td>gospodarka/samorządy/eksport</td>
+<td>gdzie istnieje popyt po pilotażu?</td>
+</tr>
+</tbody>
+</table>
+<p>Kolumna „właściciel funkcjonalny” wskazuje domenę odpowiedzialności, nie gotowe przypisanie <code>A</code>. Przed D0 każdy pakiet musi otrzymać dokładnie jeden organ <code>A</code>, jednego imiennego właściciela służbowego i potwierdzoną podstawę działania; brak któregokolwiek z tych elementów wyłącza pakiet z uruchomienia.</p>
+<h3 id="12-cztery-wspolne-bramki-programu">1.2. Cztery wspólne bramki programu</h3>
+<table>
+<thead>
+<tr>
+<th>Bramka</th>
+<th>Kiedy</th>
+<th>Pytanie</th>
+<th>Minimalny dowód</th>
+<th>Możliwe decyzje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G0 — mandat</td>
+<td>D0–D30</td>
+<td>czy właściciele i zakres są prawidłowe?</td>
+<td>karta programu, RACI, ryzyka prawne</td>
+<td>uruchom, ogranicz, przeprojektuj</td>
+</tr>
+<tr>
+<td>G1 — baza</td>
+<td>do D100</td>
+<td>czy znamy stan wystarczająco, by wybrać pilotaże?</td>
+<td>audyt, źródła, luki, koszt dowodu</td>
+<td>uruchom pilotaże, pozyskaj dane, zamknij hipotezę</td>
+</tr>
+<tr>
+<td>G2 — dowód</td>
+<td>do 6 miesięcy</td>
+<td>czy mechanizm i projekt działają w małej skali?</td>
+<td>test użytkownika, bezpieczeństwo, koszt</td>
+<td>mała partia, poprawa, zamknięcie</td>
+</tr>
+<tr>
+<td>G3 — skala</td>
+<td>do 12 miesięcy i corocznie</td>
+<td>czy istnieje uzasadnienie pełnego zobowiązania?</td>
+<td>wyniki, moce, serwis, finansowanie, prawo</td>
+<td>skaluj, utrzymaj niszę, odłóż, zamknij</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-hierarchia-produktow">1.3. Hierarchia produktów</h3>
+<p>Każdy pakiet dostarcza w tej kolejności:</p>
+<ol>
+<li><strong>pytanie decyzyjne;</strong></li>
+<li><strong>wartość bazową lub jawne <code>UNKNOWN</code>;</strong></li>
+<li><strong>opcje wraz z kosztem i ryzykiem;</strong></li>
+<li><strong>ograniczony test najtańszej istotnej niepewności;</strong></li>
+<li><strong>wynik i rekomendację;</strong></li>
+<li><strong>decyzję uprawnionego organu;</strong></li>
+<li><strong>monitoring oraz datę ponownego otwarcia.</strong></li>
+</ol>
+<p>Artefakt bez następnej decyzji nie jest produktem Biura Realizacji. Spotkanie, konferencja, memorandum lub laboratorium mogą być działaniem, ale nie są samodzielnym rezultatem.</p>
+<h2 id="2-pierwsze-100-dni">2. Pierwsze 100 dni</h2>
+<h3 id="faza-a-d0d10-uruchomienie">Faza A: D0–D10 — uruchomienie</h3>
+<h4 id="decyzje">Decyzje</h4>
+<ol>
+<li>Nie przesądzać miejsca programu w hierarchii dokumentów do czasu formalnej opinii prawnej i uzgodnienia relacji z obowiązującymi strategiami (<strong>GAP-0011</strong>).</li>
+<li>Wyznaczyć właściciela politycznego oraz tymczasowego kierownika Biura Realizacji.</li>
+<li>Zatwierdzić skład komitetu i zasadę, że członek ujawnia konflikt interesów przed rozpatrzeniem projektu.</li>
+<li>Zatwierdzić politykę jawne–autoryzowane oraz zakaz przechowywania informacji niejawnych w tym repozytorium.</li>
+<li>Ustalić wspólny dzień bazowy i format danych dla zobowiązań, projektów i KPI.</li>
+</ol>
+<h4 id="produkty">Produkty</h4>
+<ul>
+<li>karta programu na 2–3 strony;</li>
+<li>lista organów i osób odpowiedzialnych funkcjonalnie;</li>
+<li>rejestr decyzji otwartych;</li>
+<li>reguły eskalacji i protokół zdania odrębnego;</li>
+<li>lista źródeł i systemów, z których można legalnie pozyskać dane;</li>
+<li>plan pierwszej bramki G0.</li>
+</ul>
+<h4 id="warunek-przejscia">Warunek przejścia</h4>
+<p>Każdy WP ma odpowiedzialnego właściciela i jednoznaczny produkt D30. Brak właściciela oznacza wyłączenie działania z harmonogramu, a nie przypisanie go ogólnie „administracji”.</p>
+<h3 id="faza-b-d11d30-mandat-problemy-i-zakres-audytu">Faza B: D11–D30 — mandat, problemy i zakres audytu</h3>
+<h4 id="wp01-governance">WP01: governance</h4>
+<ul>
+<li>uzgodnić RACI i rytm tygodniowy/miesięczny;</li>
+<li>utworzyć wspólny rejestr kosztów, decyzji, ryzyk, zależności i zmian zakresu;</li>
+<li>wskazać niezależną funkcję red-team i ewaluacji;</li>
+<li>przygotować wariant instrumentu prawnego bez przesądzania go przez zespół analityczny.</li>
+</ul>
+<h4 id="wp02-katalog-problemow">WP02: katalog problemów</h4>
+<p>Użytkownicy zgłaszają problemy według karty:</p>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Wymaganie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>właściciel</td>
+<td>osoba/organ mogący zatwierdzić wynik</td>
+</tr>
+<tr>
+<td>użytkownik</td>
+<td>grupa, która wykona test i udzieli informacji zwrotnej</td>
+</tr>
+<tr>
+<td>skutek</td>
+<td>mierzalna zmiana czasu, jakości, odporności, ryzyka lub kosztu</td>
+</tr>
+<tr>
+<td>baza</td>
+<td>wartość lub <code>UNKNOWN</code> z planem pozyskania</td>
+</tr>
+<tr>
+<td>granica jawna</td>
+<td>opis możliwy do publikacji bez zwiększenia ryzyka</td>
+</tr>
+<tr>
+<td>dane</td>
+<td>właściciel, podstawa, dostęp, retencja</td>
+</tr>
+<tr>
+<td>alternatywa</td>
+<td>obecny proces lub rozwiązanie referencyjne</td>
+</tr>
+<tr>
+<td>stop-rule</td>
+<td>warunek niewchodzenia do prototypu</td>
+</tr>
+</tbody>
+</table>
+<p><strong>REKOMENDACJA:</strong> wybrać mały, zróżnicowany portfel problemów, który testuje proces w kilku domenach i poziomach wrażliwości. Liczba projektów ma wynikać z pojemności testów i nabywców, a nie z celu komunikacyjnego.</p>
+<h4 id="wp06wp08wp10-zakres-baz">WP06/WP08/WP10: zakres baz</h4>
+<ul>
+<li>przemysł: zdolność, wąskie gardła, komponenty, prawa, serwis, energia, kapitał obrotowy;</li>
+<li>kadry: role i kompetencje, dostępni prowadzący, laboratoria, wynagrodzenia, retencja;</li>
+<li>finanse: istniejące zobowiązania, źródła, dodatkowość, koszt obsługi, ryzyko podwójnego finansowania;</li>
+<li>dane: zbiory, właściciele, klasy dostępu, środowiska i luki jakościowe;</li>
+<li>prawo: działania dostępne procesowo, kontraktowo, wykonawczo i ustawowo.</li>
+</ul>
+<h4 id="warunek-przejscia_1">Warunek przejścia</h4>
+<p>Komitet G0 zatwierdza zakres audytu, listę problemów kandydujących i metodę priorytetyzacji. Dostawcy nie głosują nad wyborem własnych rozwiązań.</p>
+<h3 id="faza-c-d31d60-baza-i-projekt-pilotazy">Faza C: D31–D60 — baza i projekt pilotaży</h3>
+<h4 id="audyt">Audyt</h4>
+<p>Audyt nie może ograniczyć się do ankiety deklaratywnej. W reprezentatywnej próbie obejmuje dokumenty, rozmowy, demonstrację procesu, weryfikację praw i test zdolności. Wyniki dzielą się na:</p>
+<ul>
+<li>potwierdzone;</li>
+<li>częściowo potwierdzone;</li>
+<li>deklarowane bez dowodu;</li>
+<li>sprzeczne;</li>
+<li>nieznane;</li>
+<li>chronione, wymagające osobnego obiegu.</li>
+</ul>
+<h4 id="projekt-testow">Projekt testów</h4>
+<p>Każdy pilotaż otrzymuje:</p>
+<ul>
+<li>hipotezę i kryterium powodzenia;</li>
+<li>rozwiązanie referencyjne;</li>
+<li>protokół testu zatwierdzony przed wynikiem;</li>
+<li>rolę użytkownika, testera, nabywcy i bezpieczeństwa;</li>
+<li>limit czasu i kosztu;</li>
+<li>zasady IP, danych i publikacji wyniku;</li>
+<li>warunek małej partii i warunek zamknięcia;</li>
+<li>plan incydentu i bezpiecznego wstrzymania.</li>
+</ul>
+<h4 id="bezpieczna-przestrzen-danych">Bezpieczna przestrzeń danych</h4>
+<p>Pilotaż obejmuje jedną lub kilka klas danych o najniższym wystarczającym poziomie wrażliwości. Jego celem jest sprawdzenie governance: katalog, uprawnienia, logowanie, wersjonowanie, środowisko bez kopiowania, zestaw testowy, karta modelu i usuwanie dostępu. Nie jest celem zgromadzenie maksymalnej liczby danych.</p>
+<h4 id="warunek-przejscia_2">Warunek przejścia</h4>
+<p>Co najmniej jeden pełny scenariusz został przeprowadzony „na sucho”: od zgłoszenia do decyzji B1, z analizą prawną, danych, bezpieczeństwa, kosztu i wykonawców. Każda nierozwiązana kwestia ma właściciela i termin.</p>
+<h3 id="faza-d-d61d100-pierwsze-dowody-i-decyzja-g1">Faza D: D61–D100 — pierwsze dowody i decyzja G1</h3>
+<h4 id="dziaania">Działania</h4>
+<ul>
+<li>rozpocząć ograniczone testy lub kontrakty dowodowe;</li>
+<li>wykonać pierwszy przegląd cyber i danych;</li>
+<li>przeprowadzić ćwiczenie łańcucha dostaw dla wybranej, niewrażliwej klasy komponentu;</li>
+<li>wycenić pilotaże kadrowe i regionalne;</li>
+<li>przygotować mapę instrumentów UE i krajowych, w tym SAFE jako finansowania pożyczkowego (<strong>CLM-1208</strong>);</li>
+<li>wybrać polskie działania w BraveTech EU, uwzględniając fakt bieżącego uczestnictwa Polski (<strong>CLM-1214</strong>);</li>
+<li>opublikować pierwszy jawny raport z lukami i sprzecznościami.</li>
+</ul>
+<h4 id="pakiet-g1-dla-premierarm">Pakiet G1 dla Premiera/RM</h4>
+<ol>
+<li>stan bazowy i jakość danych;</li>
+<li>lista problemów z rankingiem oraz zdaniami odrębnymi;</li>
+<li>koszt i ryzyko pilotaży;</li>
+<li>warianty organizacyjne i prawne;</li>
+<li>mapa istniejącego finansowania;</li>
+<li>lista zależności krytycznych wymagających autoryzowanej analizy;</li>
+<li>rekomendacje: uruchom, opóźnij, połącz, zamknij;</li>
+<li>plan D101–M6.</li>
+</ol>
+<h4 id="definicja-ukonczenia-100-dni">Definicja ukończenia 100 dni</h4>
+<p>Pierwsze 100 dni są ukończone, gdy Rada Ministrów może podjąć decyzję G1 na podstawie rejestru dowodów, a nie prezentacji programu. Samo powołanie pełnomocnika, komitetu lub konkursu nie spełnia warunku.</p>
+<h2 id="3-miesiace-46-dowod-mechanizmu">3. Miesiące 4–6: dowód mechanizmu</h2>
+<h3 id="cel">Cel</h3>
+<p>Udowodnić, że wspólny cykl działa w praktyce: problem jest poprawnie zdefiniowany, dane dostępne legalnie, test porównywalny, użytkownik zaangażowany, a nabywca potrafi zawrzeć ograniczony kontrakt i zatrzymać projekt.</p>
+<h3 id="produkty_1">Produkty</h3>
+<table>
+<thead>
+<tr>
+<th>Obszar</th>
+<th>Produkt M6</th>
+<th>Kryterium akceptacji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portfel</td>
+<td>wersja 1.0 listy projektów i zależności</td>
+<td>każdy projekt ma następną decyzję i koszt</td>
+</tr>
+<tr>
+<td>Testy</td>
+<td>co najmniej kilka różnych typów testu procesu</td>
+<td>protokół ustalony przed wynikiem</td>
+</tr>
+<tr>
+<td>Zamówienia</td>
+<td>wzory kontraktów etapowych i opcje skali</td>
+<td>jasne IP, dane, bezpieczeństwo i stop-rule</td>
+</tr>
+<tr>
+<td>Dane/AI</td>
+<td>działający pilotaż środowiska kontrolowanego</td>
+<td>pełny ślad dostępu, wersji i ewaluacji</td>
+</tr>
+<tr>
+<td>Przemysł</td>
+<td>mapa warstw i pierwsze zweryfikowane zależności</td>
+<td>oddzielenie deklaracji od dowodu</td>
+</tr>
+<tr>
+<td>Kadry</td>
+<td>profile ról i programy krótkie</td>
+<td>praktyczne kryterium kompetencji</td>
+</tr>
+<tr>
+<td>Partnerstwa</td>
+<td>pipeline due diligence</td>
+<td>brak preferowanego partnera bez porównania</td>
+</tr>
+<tr>
+<td>Finanse</td>
+<td>model kategorii i zobowiązań</td>
+<td>brak podwójnego liczenia znanych kosztów</td>
+</tr>
+<tr>
+<td>Prawo</td>
+<td>mapa działań i instrumentów</td>
+<td>każde działanie ma właściwy organ i recenzję prawną</td>
+</tr>
+<tr>
+<td>Publiczne</td>
+<td>raport M6</td>
+<td>pokazuje także projekty zatrzymane i luki</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bramka-g2">Bramka G2</h3>
+<p>Komitet nie zatwierdza „sukcesu programu” zbiorczo. Każdy projekt otrzymuje osobną decyzję:</p>
+<ul>
+<li><strong>A — przejdź do małej partii;</strong></li>
+<li><strong>B — popraw jeden raz w określonym zakresie;</strong></li>
+<li><strong>C — utrzymaj jako badanie bez obietnicy wdrożenia;</strong></li>
+<li><strong>D — zamknij i opublikuj lekcję możliwą do ujawnienia.</strong></li>
+</ul>
+<p>Ścieżka B dopuszcza jedną poprawkę w ramach bieżącej decyzji G2, z limitem czasu i dodatkowego kosztu. Druga próba poprawy wymaga zamknięcia dotychczasowej ścieżki i nowej, jawnie uzasadnionej decyzji G2; nie istnieje automatyczna „trzecia iteracja”.</p>
+<h2 id="4-miesiace-712-mae-partie-i-decyzja-skali">4. Miesiące 7–12: małe partie i decyzja skali</h2>
+<h3 id="41-maa-partia-jako-instrument-uczenia">4.1. Mała partia jako instrument uczenia</h3>
+<p>Mała partia nie służy obchodzeniu wymagań. Jej produktem są dane o:</p>
+<ul>
+<li>niezawodności i odchyleniach między egzemplarzami;</li>
+<li>zachowaniu w realnym procesie użytkownika;</li>
+<li>czasie i koszcie serwisu;</li>
+<li>aktualizacjach, konfiguracji i cyber;</li>
+<li>dostępności komponentów;</li>
+<li>szkoleniu, dokumentacji i bezpieczeństwie;</li>
+<li>rzeczywistym koszcie cyklu życia;</li>
+<li>zdolności producenta do powtarzalnej jakości.</li>
+</ul>
+<p>Wielkość partii wynika z mocy statystycznej, liczby środowisk testowych i ryzyka — nie z domyślnego przedziału. Parametry wrażliwe pozostają poza dokumentem jawnym.</p>
+<h3 id="42-decyzja-g3">4.2. Decyzja G3</h3>
+<p>Przed skalą właściciel przedstawia:</p>
+<ol>
+<li>wynik użytkownika względem bazy;</li>
+<li>jakość i ograniczenia dowodu;</li>
+<li>koszt zakupu i cyklu życia;</li>
+<li>bezpieczeństwo, legalność i interoperacyjność;</li>
+<li>zdolność produkcji, serwisu i aktualizacji;</li>
+<li>krytyczne zależności oraz alternatywy;</li>
+<li>prawa do danych, IP, interfejsów, naprawy i wyjścia;</li>
+<li>plan finansowania bez podwójnego liczenia;</li>
+<li>scenariusz zakończenia lub migracji;</li>
+<li>niezależne stanowisko red-team.</li>
+</ol>
+<h3 id="43-produkty-konca-roku">4.3. Produkty końca roku</h3>
+<ul>
+<li>publiczna strategia v1.0 po konsultacji;</li>
+<li>autoryzowany zestaw odpowiedzi do aneksu poza repozytorium;</li>
+<li>lista programów skalowanych i zamkniętych;</li>
+<li>pierwsze umowy partnerstwa po due diligence;</li>
+<li>plan infrastruktury i komponentów oparty na dowodach;</li>
+<li>decyzje o pilotażu regionalnych centrów i programów kadrowych;</li>
+<li>budżet wieloletni lub scenariusze do decyzji budżetowej;</li>
+<li>propozycje zmian prawnych wraz z oceną skutków;</li>
+<li>dashboard publiczny i zarządczy;</li>
+<li>raport roczny do wspólnego przeglądu Prezydenta i Premiera.</li>
+</ul>
+<h2 id="5-horyzont-20272030">5. Horyzont 2027–2030</h2>
+<h3 id="cel_1">Cel</h3>
+<p>Przekształcić potwierdzone pilotaże w zdolności powtarzalne i włączyć je do krajowych oraz sojuszniczych procesów bez utraty zdolności aktualizacji.</p>
+<h3 id="linie-dziaania">Linie działania</h3>
+<ol>
+<li><strong>Skala produktów:</strong> wieloletnie umowy z opcjami, konkurencyjnymi ulepszeniami i miernikami cyklu życia.</li>
+<li><strong>Komponenty:</strong> inwestycje tylko w warstwy, gdzie audyt wykazał krytyczność, wykonalność i popyt.</li>
+<li><strong>Dane/AI:</strong> rozszerzenie federacji danych, wspólnych benchmarków i rejestru modeli; ćwiczenia wycofania modelu.</li>
+<li><strong>Produkcja:</strong> regularne ćwiczenia 30/90/180 dni, weryfikacja dostawców alternatywnych i kapitału obrotowego.</li>
+<li><strong>Kadry:</strong> skalowanie programów o potwierdzonym zatrudnieniu i retencji; zamykanie modnych, lecz nieskutecznych kierunków.</li>
+<li><strong>Partnerstwa:</strong> wspólne programy i eksport zgodny z prawem; udział w inicjatywach UE/NATO z miernikiem korzyści dla Polski.</li>
+<li><strong>Regiony:</strong> replikacja pilotaży, które mają popyt po finansowaniu publicznym i wykazaną produktywność.</li>
+<li><strong>Ewaluacja:</strong> porównanie z bazą 2026 i ponowna selekcja całego portfela co roku.</li>
+</ol>
+<p>Mapa Readiness Roadmap 2030 wymienia European Drone Defence Initiative i Eastern Flank Watch jako projekty flagowe (<strong>CLM-1222</strong>). Harmonogram polski powinien mapować ich aktualne kamienie milowe i warunki, ale nie traktować samej obecności inicjatywy w dokumencie UE jako dowodu realizacji.</p>
+<h3 id="decyzje-konca-2030-r">Decyzje końca 2030 r.</h3>
+<ul>
+<li>które klasy systemów mają trwałą zdolność krajowej integracji i serwisu;</li>
+<li>które zależności zostały zdywersyfikowane lub świadomie zaakceptowane;</li>
+<li>które moce przemysłowe wymagają dalszych gwarancji popytu;</li>
+<li>które programy kadrowe mają mierzalny wpływ;</li>
+<li>które partnerstwa dostarczyły produkt, eksport lub wiedzę;</li>
+<li>które mechanizmy programu przechodzą do rutynowej administracji, a które należy zamknąć.</li>
+</ul>
+<h2 id="6-horyzont-20312035">6. Horyzont 2031–2035</h2>
+<h3 id="cel_2">Cel</h3>
+<p>Utrwalić zdolność zastępowania, modernizacji i odtwarzania, jednocześnie wymieniając technologie, które utraciły znaczenie.</p>
+<h3 id="priorytety">Priorytety</h3>
+<ul>
+<li>migracja od pierwszej generacji produktów do otwartych lub kontrolowanych architektur kolejnych generacji;</li>
+<li>testy ciągłości przy braku wybranego dostawcy, usługi chmurowej, danych lub komponentu;</li>
+<li>ponowna klasyfikacja elementów krytycznych według aktualnego ryzyka;</li>
+<li>konsolidacja infrastruktury niewykorzystanej i zamknięcie nadmiarowych programów;</li>
+<li>rozwój eksportu, serwisu i aktualizacji jako źródła trwałej wartości;</li>
+<li>ocena wpływu programu na produktywność, finanse publiczne, rynek pracy i bezpieczeństwo;</li>
+<li>nowy przegląd horyzontu 2040 oparty na scenariuszach, nie ekstrapolacji technologii z 2026 r.</li>
+</ul>
+<h3 id="bramka-2035">Bramka 2035</h3>
+<p>Program nie powinien być automatycznie przedłużony do 2040 r. Przegląd odpowiada, czy jego funkcje stały się trwałą zdolnością istniejących instytucji, czy nadal potrzebny jest ponadresortowy portfel. Możliwe decyzje: integracja z rutynowym systemem, zmniejszenie Biura Realizacji, nowy zakres albo zakończenie programu.</p>
+<h2 id="7-horyzont-20362040">7. Horyzont 2036–2040</h2>
+<p>Horyzont 2040 jest ambicją adaptacyjną, nie obietnicą utrzymania projektów. Właściwym wynikiem może być:</p>
+<ul>
+<li>pełne włączenie mechanizmów do procesów państwa;</li>
+<li>utrzymanie małej funkcji portfolio dla technologii przełomowych;</li>
+<li>zastąpienie części infrastruktury nowym modelem;</li>
+<li>zakończenie programów, które nie tworzą już wartości;</li>
+<li>nowa strategia wykraczająca poza obecne kategorie autonomii i AI.</li>
+</ul>
+<h2 id="8-raci-i-odpowiedzialnosc">8. RACI i odpowiedzialność</h2>
+<p>Poniższa macierz jest propozycją funkcjonalną. Nazwy jednostek i kompetencje wymagają potwierdzenia w aktualnym stanie prawnym.</p>
+<p>Legenda: <code>A</code> — accountable, zatwierdza wynik; <code>R</code> — responsible, wykonuje; <code>C</code> — consulted; <code>I</code> — informed.</p>
+<table>
+<thead>
+<tr>
+<th>Decyzja/produkt</th>
+<th>KPRM/Biuro</th>
+<th>właściwy resort</th>
+<th>użytkownik</th>
+<th>nabywca</th>
+<th>finanse</th>
+<th>prawo/bezpieczeństwo</th>
+<th>red-team</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>karta programu</td>
+<td>A/R</td>
+<td>C</td>
+<td>I</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>wybór problemu</td>
+<td>C</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>protokół testu</td>
+<td>I</td>
+<td>C</td>
+<td>A</td>
+<td>R</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>dopuszczenie danych</td>
+<td>I</td>
+<td>A/R</td>
+<td>C</td>
+<td>I</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>kontrakt pilotażowy</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+<td>A/R</td>
+<td>C</td>
+<td>C</td>
+<td>I</td>
+</tr>
+<tr>
+<td>decyzja małej partii</td>
+<td>C</td>
+<td>A</td>
+<td>R</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>decyzja skali</td>
+<td>C</td>
+<td>A</td>
+<td>C</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>budżet portfela</td>
+<td>C</td>
+<td>R</td>
+<td>I</td>
+<td>C</td>
+<td>A</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>raport publiczny</td>
+<td>A/R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>zamknięcie projektu</td>
+<td>C</td>
+<td>A</td>
+<td>C</td>
+<td>R</td>
+<td>I</td>
+<td>C</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<p>Zasada: w jednym wierszu istnieje dokładnie jedno <code>A</code>. Jeżeli dwa organy mają kompetencje, produkt należy rozbić albo określić formalną sekwencję decyzji.</p>
+<h2 id="9-rytm-zarzadczy">9. Rytm zarządczy</h2>
+<h3 id="tygodniowo">Tygodniowo</h3>
+<ul>
+<li>30-minutowy przegląd wyjątków, nie prezentacji statusowych;</li>
+<li>aktualizacja decyzji zaległych, blokad, ryzyk i kosztów;</li>
+<li>eskalacja wyłącznie problemów wymagających innego organu.</li>
+</ul>
+<h3 id="miesiecznie">Miesięcznie</h3>
+<ul>
+<li>przegląd portfela przez właściciela politycznego;</li>
+<li>decyzje „kontynuuj–zmień–zamknij” dla projektów poza tolerancją;</li>
+<li>analiza kosztu, harmonogramu, jakości dowodu i zdolności użytkownika;</li>
+<li>publikacja ograniczonego dashboardu agregatów.</li>
+</ul>
+<h3 id="kwartalnie">Kwartalnie</h3>
+<ul>
+<li>komitet sterujący G0/G1/G2/G3;</li>
+<li>red-team założeń i konfliktów interesów;</li>
+<li>przegląd zmian prawa, finansowania i instrumentów UE/NATO;</li>
+<li>przegląd danych o rynku pracy i produkcji;</li>
+<li>aktualizacja rejestru luk i ryzyk.</li>
+</ul>
+<h3 id="rocznie">Rocznie</h3>
+<ul>
+<li>raport dla Rady Ministrów;</li>
+<li>strategiczny przegląd z Prezydentem/BBN w granicach kompetencji;</li>
+<li>publiczna księga wyników i projektów zamkniętych;</li>
+<li>ponowna walidacja źródeł, baz i targetów;</li>
+<li>decyzja o budżecie i portfelu kolejnego roku.</li>
+</ul>
+<h2 id="10-dashboard-i-sownik-kpi">10. Dashboard i słownik KPI</h2>
+<h3 id="reguy-miernika">Reguły miernika</h3>
+<p>Każdy KPI ma identyfikator, definicję, licznik, mianownik, jednostkę, bazę, cel, tolerancję, właściciela danych, częstotliwość, datę ważności i koszt pomiaru. Zmiana definicji tworzy nową wersję; nie przepisuje historii.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>KPI</th>
+<th>Definicja</th>
+<th>Antywzorzec</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KPI-01</td>
+<td>czas do B1</td>
+<td>mediana dni kalendarzowych od zaakceptowanego B0</td>
+<td>liczenie od dowolnej późniejszej daty</td>
+</tr>
+<tr>
+<td>KPI-02</td>
+<td>czas B1→B3</td>
+<td>mediana do zakończonego testu użytkownika</td>
+<td>uznanie demonstracji dostawcy za test</td>
+</tr>
+<tr>
+<td>KPI-03</td>
+<td>konwersja do małej partii</td>
+<td>B4 / projekty zakończone w B3</td>
+<td>maksymalizacja wskaźnika bez zamykania słabych projektów</td>
+</tr>
+<tr>
+<td>KPI-04</td>
+<td>dyscyplina zamknięć</td>
+<td>projekty zamknięte z powodem / wszystkie decyzje końcowe</td>
+<td>traktowanie zera zamknięć jako sukcesu</td>
+</tr>
+<tr>
+<td>KPI-05</td>
+<td>koszt dowodu</td>
+<td>koszt do B3 / potencjalna wartość zobowiązania</td>
+<td>brak wartości potencjalnego zobowiązania</td>
+</tr>
+<tr>
+<td>KPI-06</td>
+<td>testowana substytucja</td>
+<td>krytyczne elementy z zaliczoną zmianą / elementy w zakresie</td>
+<td>deklaracja alternatywy bez testu</td>
+</tr>
+<tr>
+<td>KPI-07</td>
+<td>czas serwisu</td>
+<td>mediana przywrócenia według klasy</td>
+<td>mieszanie klas i usuwanie trudnych przypadków</td>
+</tr>
+<tr>
+<td>KPI-08</td>
+<td>kontrola konfiguracji</td>
+<td>systemy z pełnym śladem wersji / systemy w zakresie</td>
+<td>audyt tylko dokumentacji zakupowej</td>
+</tr>
+<tr>
+<td>KPI-09</td>
+<td>odpowiedzialne AI</td>
+<td>modele z kartą, testem i monitoringiem / modele w zakresie</td>
+<td>deklaracja zgodności bez dowodów</td>
+</tr>
+<tr>
+<td>KPI-10</td>
+<td>retencja kadr</td>
+<td>osoby w docelowej roli po 12/24 miesiącach / absolwenci</td>
+<td>liczba uczestników szkolenia</td>
+</tr>
+<tr>
+<td>KPI-11</td>
+<td>popyt po pilotażu</td>
+<td>pilotaże kontynuowane z budżetu właściciela / zakończone</td>
+<td>kontynuacja wyłącznie kolejną dotacją</td>
+</tr>
+<tr>
+<td>KPI-12</td>
+<td>wykonany eksport</td>
+<td>przychód, dostawy i serwis na rynkach zgodnych</td>
+<td>liczba memorandum i konferencji</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dashboard-publiczny">Dashboard publiczny</h3>
+<p>Publikuje definicje, zagregowane czasy, liczby projektów według bramki, udział zamknięć, wykorzystanie infrastruktury, programy kompetencyjne i zatwierdzone informacje finansowe. Nie publikuje szczegółowych luk, wolumenów, podatności, zapasów, lokalizacji ani wyników umożliwiających odtworzenie metody przeciwdziałania.</p>
+<h2 id="11-zarzadzanie-zaleznosciami">11. Zarządzanie zależnościami</h2>
+<h3 id="zaleznosci-krytyczne">Zależności krytyczne</h3>
+<ul>
+<li>WP03 nie skaluje bez WP02, WP05, WP06, WP07 i WP11;</li>
+<li>WP04 nie uruchamia danych bez właściciela, podstawy prawnej i cyber;</li>
+<li>WP06 nie uzasadnia fabryki bez popytu z WP02/WP03 i finansowania WP10;</li>
+<li>WP08 nie skaluje kierunków bez popytu kompetencyjnego z WP03/WP06;</li>
+<li>WP09 nie podpisuje partnerstwa bez WP05/WP11 i praw do cyklu życia;</li>
+<li>WP12 nie ogłasza wpływu gospodarczego bez metodologii WP10.</li>
+</ul>
+<h3 id="regua-eskalacji">Reguła eskalacji</h3>
+<p>Blokada jest eskalowana, gdy właściciel nie może jej usunąć w swoich kompetencjach, wpływa na bramkę albo przekracza tolerancję czasu/kosztu/ryzyka. Eskalacja zawiera trzy elementy: decyzję potrzebną, warianty oraz skutek braku decyzji. Nie zawiera wielostronicowego raportu bez rekomendacji.</p>
+<h2 id="12-rejestr-ryzyk-wykonawczych">12. Rejestr ryzyk wykonawczych</h2>
+<table>
+<thead>
+<tr>
+<th>Ryzyko</th>
+<th>Wczesny sygnał</th>
+<th>Odpowiedź</th>
+<th>Stop-rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>program staje się grantem</td>
+<td>rośnie liczba naborów bez testów użytkownika</td>
+<td>powiązać wypłatę z bramkami</td>
+<td>brak użytkownika kończy projekt</td>
+</tr>
+<tr>
+<td>konflikt kompetencji</td>
+<td>dwa <code>A</code> w RACI, decyzje wracają</td>
+<td>rozbić produkt i eskalować</td>
+<td>brak właściciela wyłącza działanie</td>
+</tr>
+<tr>
+<td>przeskalowanie</td>
+<td>duże CAPEX przed bazą i popytem</td>
+<td>modułowy pilotaż i opcje</td>
+<td>brak dowodu popytu zatrzymuje inwestycję</td>
+</tr>
+<tr>
+<td>tajność blokuje rynek</td>
+<td>problem nie ma jawnej części</td>
+<td>abstrakcja i kontrolowany pokój danych</td>
+<td>brak legalnego dostępu zatrzymuje test</td>
+</tr>
+<tr>
+<td>jawność zwiększa ryzyko</td>
+<td>dashboard ujawnia szczegóły</td>
+<td>sanitizacja i właściciel informacji</td>
+<td>negatywna ocena bezpieczeństwa blokuje publikację</td>
+</tr>
+<tr>
+<td>vendor lock-in</td>
+<td>brak praw i alternatyw</td>
+<td>interfejsy, escrow, test migracji</td>
+<td>nieakceptowalny koszt wyjścia blokuje skalę</td>
+</tr>
+<tr>
+<td>pozorna lokalizacja</td>
+<td>montaż bez praw/komponentów/serwisu</td>
+<td>rachunek wartości i zależności</td>
+<td>brak kontroli cyklu życia zmienia klasyfikację</td>
+</tr>
+<tr>
+<td>drenaż kadr</td>
+<td>wysoka rekrutacja, niska retencja</td>
+<td>projekty, płace, mobilność i ścieżka kariery</td>
+<td>program bez zatrudnienia nie skaluje się</td>
+</tr>
+<tr>
+<td>podwójne finansowanie</td>
+<td>ten sam koszt w wielu wnioskach</td>
+<td>unikalny identyfikator kosztu</td>
+<td>nierozwiązana kolizja blokuje płatność</td>
+</tr>
+<tr>
+<td>brak aktualizacji</td>
+<td>produkt przechodzi test, ale nie ma maintenance</td>
+<td>koszt cyklu życia i SLA</td>
+<td>brak planu utrzymania blokuje B5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="13-dane-wymagane-do-zamrozenia-harmonogramu-i-budzetu">13. Dane wymagane do zamrożenia harmonogramu i budżetu</h2>
+<h3 id="jawne-lub-mozliwe-do-publikacji-w-agregacie">Jawne lub możliwe do publikacji w agregacie</h3>
+<ul>
+<li>liczba i czas projektów według bramek;</li>
+<li>wykorzystanie laboratoriów i środowisk testowych;</li>
+<li>dostępne programy finansowania i zobowiązania;</li>
+<li>kompetencje, wynagrodzenia, liczba prowadzących i retencja;</li>
+<li>import/eksport według bezpiecznej klasyfikacji;</li>
+<li>koszty pilotaży regionalnych i popyt po pilotażu;</li>
+<li>udział MŚP i czas płatności;</li>
+<li>wyniki kontroli konfliktów interesów.</li>
+</ul>
+<h3 id="do-obiegu-autoryzowanego">Do obiegu autoryzowanego</h3>
+<ul>
+<li>luki zdolnościowe i scenariusze;</li>
+<li>wymagane wolumeny, zapasy i tempo odtworzenia;</li>
+<li>szczegółowe moce, lokalizacje i pojedyncze punkty awarii;</li>
+<li>dane operacyjne i biblioteki testowe;</li>
+<li>wyniki ujawniające podatność lub metodę przeciwdziałania;</li>
+<li>informacje kontrwywiadowcze i szczegóły due diligence.</li>
+</ul>
+<p>Brak odpowiedzi w obiegu jawnym nie oznacza braku danych w państwie. Biuro Realizacji rejestruje tylko status: dostępne, niedostępne, chronione, sprzeczne albo wymagające decyzji.</p>
+<h2 id="14-definicja-ukonczenia-v01-i-przejscia-do-wykonania">14. Definicja ukończenia v0.1 i przejścia do wykonania</h2>
+<p>Plan v0.1 byłby gotowy do formalnej konsultacji, jeżeli:</p>
+<ul>
+<li>ma właścicieli funkcjonalnych i potwierdzoną ścieżkę prawną;</li>
+<li>wszystkie ważne fakty mają zweryfikowane źródła i datę;</li>
+<li>cele liczbowe mają bazy albo są oznaczone jako scenariusz;</li>
+<li>koszt zawiera zobowiązania istniejące i koszt alternatywny;</li>
+<li>każdy WP ma produkt, bramkę i regułę zamknięcia;</li>
+<li>red-team nie wskazuje nierozwiązanego P0/P1;</li>
+<li>wersja jawna przeszła kontrolę bezpieczeństwa informacji;</li>
+<li>Rada Ministrów otrzymuje konkretne warianty i decyzje, a nie manifest.</li>
+</ul>
+<p><strong>Bieżący wynik:</strong> warunki nie są spełnione, ponieważ formalny właściciel i ścieżka prawna pozostają <code>UNKNOWN</code> (<strong>GAP-0011</strong>). Wydanie służy zatem konsultacji eksperckiej przed mandatem; nie jest harmonogramem wiążącym administrację.</p>
+<h2 id="15-kandydackie-nastepne-kroki-po-ewentualnym-przyjeciu-planu">15. Kandydackie następne kroki po ewentualnym przyjęciu planu</h2>
+<ol>
+<li>Zatwierdzić D0 i opublikować jawny mandat.</li>
+<li>Wyznaczyć osoby odpowiedzialne za WP01–WP12.</li>
+<li>Przeprowadzić G0 w ciągu pierwszych 30 dni.</li>
+<li>Zamrozić schemat danych i rozpocząć audyt bazowy.</li>
+<li>Wybrać problemy według wartości i wykonalności testu.</li>
+<li>Uruchomić pilotaże danych, testów i kontraktów etapowych.</li>
+<li>Zakończyć G1 do D100 z publicznym raportem luk.</li>
+<li>Przeprowadzić G2 po sześciu miesiącach.</li>
+<li>Przedstawić G3 i plan roku drugiego do 12 miesięcy.</li>
+<li>Powtarzać pętlę corocznie, zmniejszając część centralną, gdy proces staje się rutynowy.</li>
+</ol>
+<h2 id="dalsze-pytania">Dalsze pytania</h2>
+<ul>
+<li>Jaka jest realna pojemność jednostek testowych i zakupowych w pierwszym roku?</li>
+<li>Które wartości bazowe można opublikować bez tworzenia ryzyka?</li>
+<li>Jakie istniejące programy można połączyć, a które muszą pozostać odrębne prawnie?</li>
+<li>Kto ponosi koszt nieudanego, lecz prawidłowo przeprowadzonego eksperymentu?</li>
+<li>Jak zapewnić konkurencję, gdy test wymaga danych ograniczonych?</li>
+<li>Jak często należy ponownie kwalifikować alternatywny komponent i dostawcę?</li>
+<li>Jak mierzyć korzyść z instrumentów UE bez przypisywania całej wartości finansowania do nowego programu?</li>
+<li>Kiedy Biuro Realizacji powinno zostać zmniejszone lub rozwiązane?</li>
+</ul>
+<h2 id="zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</h2>
+<ul>
+<li>RACI jest modelem funkcjonalnym i wymaga weryfikacji kompetencji przez właściwe organy.</li>
+<li>Terminy są celami zarządczymi liczonymi od D0; nie są zobowiązaniem instytucji przed formalną decyzją.</li>
+<li>Liczba i zakres pilotaży zależą od danych, bezpieczeństwa, użytkowników, testów i nabywców.</li>
+<li>Plan nie gwarantuje finansowania ani kwalifikowalności kosztów w SAFE, EDF, EUDIS, STEP lub instrumentach krajowych.</li>
+<li>Plan po 2030 r. podlega corocznej aktualizacji; informacji chronionych nie wolno kopiować do repozytorium ani odtwarzać z agregatów.</li>
+</ul><div class="metadata">Identyfikator: implementation-roadmap · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

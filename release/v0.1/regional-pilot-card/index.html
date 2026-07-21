@@ -1,0 +1,2284 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Karta kwalifikacji i realizacji pilotażu regionalnego</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="regional-pilot-card"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="karta-regionalnego-pilotazu">Karta regionalnego pilotażu</h1>
+<table>
+<thead>
+<tr>
+<th>Metadana</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Program</td>
+<td>Polska 2040: Suwerenność technologiczna</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>ROBOCZY szablon jawny do wypełnienia; nie stanowi decyzji o finansowaniu ani realizacji</td>
+</tr>
+<tr>
+<td>Wersja formularza</td>
+<td>v0.1</td>
+</tr>
+<tr>
+<td>Data wersji formularza</td>
+<td>21 lipca 2026 r.</td>
+</tr>
+<tr>
+<td>Identyfikator pilotażu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Województwo / obszar realizacji</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Stan wiedzy karty na dzień</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Właściciel biznesowy problemu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Właściciel decyzji stop/go</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Wszystkie pola wymagające danych pozostają oznaczone jako <strong>UNKNOWN</strong>, dopóki nie zostaną uzupełnione na podstawie wskazanego źródła, definicji, daty i — dla wskaźników względnych — mianownika. Formularz jest przeznaczony wyłącznie do informacji jawnych. Danych chronionych, informacji niejawnych, podatności infrastruktury ani parametrów operacyjnych nie wolno umieszczać w tym pliku.</p>
+</blockquote>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<h3 id="odpowiedz-dla-decydenta">Odpowiedź dla decydenta</h3>
+<table>
+<thead>
+<tr>
+<th>Pytanie wykonawcze</th>
+<th>Odpowiedź</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Problem publiczny</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Proponowany pilotaż</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Odbiorca wyniku</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Decyzja wymagana</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Rekomendacja zespołu oceniającego</td>
+<td>UNKNOWN — do wyboru przez człowieka: GO / GO WARUNKOWE / HOLD / STOP</td>
+</tr>
+<tr>
+<td>Najważniejszy dowód popytu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Wartość bazowa głównego rezultatu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Docelowa zmiana i termin</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Łączny koszt pilotażu, waluta i rok cen</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Źródło finansowania</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Najważniejsze ryzyko</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>Niespełniona bramka</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="co-decyzja-uruchamia">Co decyzja uruchamia</h3>
+<p>Po zatwierdzeniu karta ma ustanowić jeden mierzalny eksperyment publiczny, a nie trwałe zobowiązanie inwestycyjne. Decyzja <strong>GO</strong> upoważnia wyłącznie do zakresu, budżetu, danych i czasu wskazanych w tej karcie. Zwiększenie skali, trwały CAPEX, zamówienie seryjne, publiczne ogłoszenie wyniku lub przetwarzanie danych chronionych wymaga odrębnej podstawy i akceptacji.</p>
+<h3 id="warunki-bezwzgledne">Warunki bezwzględne</h3>
+<ol>
+<li>Co najmniej jeden rzeczywisty właściciel problemu potwierdza potrzebę i bazę porównania.</li>
+<li>Bramki prawna, bezpieczeństwa, danych i finansowania mają wynik <strong>PASS</strong>.</li>
+<li>Koszt, rezultat i ryzyko mają przypisanego jednego właściciela odpowiedzialnego.</li>
+<li>Metryki mają definicję, licznik, mianownik, okres, źródło i metodę pomiaru.</li>
+<li>Istnieją kryteria zakończenia oraz plan powrotu do stanu bezpiecznego.</li>
+<li>Decyzję podejmuje wskazany człowiek lub uprawniony organ; formularz nie podejmuje jej automatycznie.</li>
+</ol>
+<h2 id="spis-tresci">Spis treści</h2>
+<div class="toc">
+<ul>
+<li><a href="#karta-regionalnego-pilotazu">Karta regionalnego pilotażu</a><ul>
+<li><a href="#executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</a><ul>
+<li><a href="#odpowiedz-dla-decydenta">Odpowiedź dla decydenta</a></li>
+<li><a href="#co-decyzja-uruchamia">Co decyzja uruchamia</a></li>
+<li><a href="#warunki-bezwzgledne">Warunki bezwzględne</a></li>
+</ul>
+</li>
+<li><a href="#spis-tresci">Spis treści</a></li>
+<li><a href="#1-instrukcja-uzycia-i-granice">1. Instrukcja użycia i granice</a><ul>
+<li><a href="#11-przeznaczenie">1.1. Przeznaczenie</a></li>
+<li><a href="#12-czego-karta-nie-zastepuje">1.2. Czego karta nie zastępuje</a></li>
+<li><a href="#13-statusy-pol">1.3. Statusy pól</a></li>
+</ul>
+</li>
+<li><a href="#2-metryka-i-tozsamosc-pilotazu">2. Metryka i tożsamość pilotażu</a><ul>
+<li><a href="#21-historia-wersji">2.1. Historia wersji</a></li>
+</ul>
+</li>
+<li><a href="#3-problem-uzytkownik-i-dowod-popytu">3. Problem, użytkownik i dowód popytu</a><ul>
+<li><a href="#31-jednozdaniowa-definicja-problemu">3.1. Jednozdaniowa definicja problemu</a></li>
+<li><a href="#32-uzytkownicy-i-beneficjenci">3.2. Użytkownicy i beneficjenci</a></li>
+<li><a href="#33-dowody-istnienia-problemu">3.3. Dowody istnienia problemu</a></li>
+<li><a href="#34-skala-obecnego-problemu">3.4. Skala obecnego problemu</a></li>
+<li><a href="#35-hipoteza-zmiany">3.5. Hipoteza zmiany</a></li>
+</ul>
+</li>
+<li><a href="#4-zakres-i-warianty">4. Zakres i warianty</a><ul>
+<li><a href="#41-zakres-waczony">4.1. Zakres włączony</a></li>
+<li><a href="#42-zakres-wyaczony">4.2. Zakres wyłączony</a></li>
+<li><a href="#43-ograniczenia">4.3. Ograniczenia</a></li>
+<li><a href="#44-porownanie-wariantow">4.4. Porównanie wariantów</a></li>
+</ul>
+</li>
+<li><a href="#5-bramki-bezwzgledne-passfail">5. Bramki bezwzględne PASS/FAIL</a><ul>
+<li><a href="#51-zbiorcza-karta-bramek">5.1. Zbiorcza karta bramek</a></li>
+<li><a href="#52-karta-szczegoowa-kazdej-bramki">5.2. Karta szczegółowa każdej bramki</a></li>
+</ul>
+</li>
+<li><a href="#6-wasciciele-governance-i-odpowiedzialnosc">6. Właściciele, governance i odpowiedzialność</a><ul>
+<li><a href="#61-zasada-jednego-wasciciela">6.1. Zasada jednego właściciela</a></li>
+<li><a href="#62-raci">6.2. RACI</a></li>
+<li><a href="#63-konflikty-interesow">6.3. Konflikty interesów</a></li>
+</ul>
+</li>
+<li><a href="#7-plan-wykonania-i-bramki-etapowe">7. Plan wykonania i bramki etapowe</a><ul>
+<li><a href="#71-kamienie-milowe">7.1. Kamienie milowe</a></li>
+<li><a href="#72-zaleznosci">7.2. Zależności</a></li>
+</ul>
+</li>
+<li><a href="#8-baseline-kpi-i-plan-ewaluacji">8. Baseline, KPI i plan ewaluacji</a><ul>
+<li><a href="#81-regua-pomiaru">8.1. Reguła pomiaru</a></li>
+<li><a href="#82-rejestr-metryk">8.2. Rejestr metryk</a></li>
+<li><a href="#83-plan-porownania">8.3. Plan porównania</a></li>
+<li><a href="#84-guardraile">8.4. Guardraile</a></li>
+</ul>
+</li>
+<li><a href="#9-dane-i-bezpieczenstwo-informacji">9. Dane i bezpieczeństwo informacji</a><ul>
+<li><a href="#91-katalog-klas-danych">9.1. Katalog klas danych</a></li>
+<li><a href="#92-minimalizacja-i-przepyw">9.2. Minimalizacja i przepływ</a></li>
+<li><a href="#93-wymagania-dostawcy-i-rozwiazania">9.3. Wymagania dostawcy i rozwiązania</a></li>
+</ul>
+</li>
+<li><a href="#10-budzet-finansowanie-i-koszt-cakowity">10. Budżet, finansowanie i koszt całkowity</a><ul>
+<li><a href="#101-parametry-wspolne">10.1. Parametry wspólne</a></li>
+<li><a href="#102-koszty-pilotazu">10.2. Koszty pilotażu</a></li>
+<li><a href="#103-zroda-finansowania-i-dodatkowosc">10.3. Źródła finansowania i dodatkowość</a></li>
+<li><a href="#104-koszt-po-pilotazu">10.4. Koszt po pilotażu</a></li>
+</ul>
+</li>
+<li><a href="#11-scoring-porownawczy">11. Scoring porównawczy</a><ul>
+<li><a href="#111-skala-punktowa">11.1. Skala punktowa</a></li>
+<li><a href="#112-macierz">11.2. Macierz</a></li>
+</ul>
+</li>
+<li><a href="#12-ryzyka-zaleznosci-i-scenariusze-zakonczenia">12. Ryzyka, zależności i scenariusze zakończenia</a><ul>
+<li><a href="#121-rejestr-ryzyk">12.1. Rejestr ryzyk</a></li>
+<li><a href="#122-przesanki-natychmiastowego-stop">12.2. Przesłanki natychmiastowego STOP</a></li>
+<li><a href="#123-plan-wyjscia-i-odtworzenia">12.3. Plan wyjścia i odtworzenia</a></li>
+</ul>
+</li>
+<li><a href="#13-wspopraca-i-przekazanie-miedzyregionalne">13. Współpraca i przekazanie międzyregionalne</a></li>
+<li><a href="#14-zroda-i-slad-dowodowy">14. Źródła i ślad dowodowy</a><ul>
+<li><a href="#141-luki-dowodowe">14.1. Luki dowodowe</a></li>
+</ul>
+</li>
+<li><a href="#15-decyzja-stopgo">15. Decyzja stop/go</a><ul>
+<li><a href="#151-pakiet-przed-decyzja">15.1. Pakiet przed decyzją</a></li>
+<li><a href="#152-wybor-czowieka">15.2. Wybór człowieka</a></li>
+<li><a href="#153-akceptacje-i-podpisy">15.3. Akceptacje i podpisy</a></li>
+</ul>
+</li>
+<li><a href="#16-raport-po-pilotazu">16. Raport po pilotażu</a><ul>
+<li><a href="#161-wyniki-wzgledem-baseline">16.1. Wyniki względem baseline</a></li>
+<li><a href="#162-rezultat-i-dodatkowosc">16.2. Rezultat i dodatkowość</a></li>
+<li><a href="#163-decyzja-po-ewaluacji">16.3. Decyzja po ewaluacji</a></li>
+<li><a href="#164-dziaania-nastepcze-i-slad-decyzji">16.4. Działania następcze i ślad decyzji</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-instrukcja-uzycia-i-granice">1. Instrukcja użycia i granice</h2>
+<h3 id="11-przeznaczenie">1.1. Przeznaczenie</h3>
+<p>Karta służy do porównywalnego wyboru, uruchomienia, monitorowania i zamknięcia regionalnego pilotażu technologii podwójnego zastosowania lub zastosowania cywilnego. Ma wymusić odpowiedź na pięć pytań:</p>
+<ol>
+<li>Jaki zweryfikowany problem rozwiązuje pilotaż?</li>
+<li>Co dokładnie zmierzymy względem jakiej wartości bazowej?</li>
+<li>Kto odpowiada za rezultat, dane, budżet i ryzyko?</li>
+<li>Jakie warunki muszą być spełnione przed rozpoczęciem?</li>
+<li>Po jakich wynikach skalujemy, poprawiamy albo zamykamy projekt?</li>
+</ol>
+<h3 id="12-czego-karta-nie-zastepuje">1.2. Czego karta nie zastępuje</h3>
+<p>Karta nie zastępuje:</p>
+<ul>
+<li>analizy prawnej i formalnej decyzji właściwego organu;</li>
+<li>postępowania zakupowego, pomocy publicznej ani oceny konkurencji;</li>
+<li>oceny skutków dla ochrony danych i bezpieczeństwa informacji;</li>
+<li>pozwoleń, certyfikacji, uzgodnień środowiskowych i branżowych;</li>
+<li>dokumentacji technicznej, BHP, planu reagowania na incydenty;</li>
+<li>odrębnego, autoryzowanego obiegu dla informacji chronionych lub niejawnych.</li>
+</ul>
+<h3 id="13-statusy-pol">1.3. Statusy pól</h3>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Znaczenie</th>
+<th>Dopuszczalne użycie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>brak wystarczającego, aktualnego dowodu</td>
+<td>pytanie otwarte; nie wolno zastępować estymacją bez oznaczenia</td>
+</tr>
+<tr>
+<td>FACT</td>
+<td>wartość pochodzi z możliwego do audytu źródła</td>
+<td>decyzja z podaniem źródła, daty i definicji</td>
+</tr>
+<tr>
+<td>ESTIMATE</td>
+<td>oszacowanie z jawną metodą i przedziałem</td>
+<td>analiza wariantowa, nie fakt</td>
+</tr>
+<tr>
+<td>SCENARIO</td>
+<td>warunkowy wariant przyszłości</td>
+<td>porównanie opcji</td>
+</tr>
+<tr>
+<td>INFERENCE</td>
+<td>wniosek wyprowadzony z faktów</td>
+<td>wymaga wskazania przesłanek i ograniczeń</td>
+</tr>
+<tr>
+<td>RECOMMENDATION</td>
+<td>propozycja działania</td>
+<td>wymaga decyzji człowieka</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-metryka-i-tozsamosc-pilotazu">2. Metryka i tożsamość pilotażu</h2>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pilot_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>pełna nazwa</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>nazwa skrócona</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wersja karty</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>status cyklu życia</td>
+<td>UNKNOWN: pomysł / kwalifikacja / przygotowanie / realizacja / ocena / zamknięty</td>
+</tr>
+<tr>
+<td>województwo</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>gmina / powiat / obszar funkcjonalny</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>klasa zastosowania</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>sektor publiczny / gospodarczy</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel problemu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>sponsor instytucjonalny</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>kierownik pilotażu</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel decyzji stop/go</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>partnerzy</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>okres realizacji od–do</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>data aktualności karty</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>następny przegląd</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>jawność dokumentu potwierdził</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="21-historia-wersji">2.1. Historia wersji</h3>
+<table>
+<thead>
+<tr>
+<th>Wersja</th>
+<th>Data</th>
+<th>Autor zmiany</th>
+<th>Zakres zmiany</th>
+<th>Weryfikator niezależny</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-problem-uzytkownik-i-dowod-popytu">3. Problem, użytkownik i dowód popytu</h2>
+<h3 id="31-jednozdaniowa-definicja-problemu">3.1. Jednozdaniowa definicja problemu</h3>
+<p><strong>FACT / UNKNOWN:</strong> UNKNOWN</p>
+<h3 id="32-uzytkownicy-i-beneficjenci">3.2. Użytkownicy i beneficjenci</h3>
+<table>
+<thead>
+<tr>
+<th>Grupa</th>
+<th>Rola w pilotażu</th>
+<th>Potrzeba</th>
+<th>Liczebność / mianownik</th>
+<th>Źródło i data</th>
+<th>Potwierdzenie przedstawiciela</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>użytkownik bezpośredni</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>beneficjent końcowy</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>podmiot utrzymujący</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>podmiot zakupowy</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-dowody-istnienia-problemu">3.3. Dowody istnienia problemu</h3>
+<table>
+<thead>
+<tr>
+<th>evidence_id</th>
+<th>Twierdzenie</th>
+<th>Typ dowodu</th>
+<th>Źródło / URL / sygnatura</th>
+<th>Data publikacji</th>
+<th>Data dostępu</th>
+<th>Zakres i ograniczenia</th>
+<th>Status weryfikacji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="34-skala-obecnego-problemu">3.4. Skala obecnego problemu</h3>
+<table>
+<thead>
+<tr>
+<th>Miara</th>
+<th>Definicja</th>
+<th>Licznik</th>
+<th>Mianownik</th>
+<th>Okres</th>
+<th>Wartość bazowa</th>
+<th>Jednostka</th>
+<th>Źródło</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>główna miara problemu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>koszt obecnego procesu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>czas obecnego procesu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>jakość / skuteczność</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="35-hipoteza-zmiany">3.5. Hipoteza zmiany</h3>
+<p><strong>SCENARIO / INFERENCE:</strong> Jeżeli UNKNOWN, to w grupie UNKNOWN i okresie UNKNOWN oczekujemy zmiany UNKNOWN względem wartości bazowej UNKNOWN, ponieważ UNKNOWN.</p>
+<p><strong>Dowody wspierające hipotezę:</strong> UNKNOWN
+<strong>Argumenty przeciw:</strong> UNKNOWN
+<strong>Co obali hipotezę:</strong> UNKNOWN</p>
+<h2 id="4-zakres-i-warianty">4. Zakres i warianty</h2>
+<h3 id="41-zakres-waczony">4.1. Zakres włączony</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Produkt / rezultat</th>
+<th>Odpowiedzialny</th>
+<th>Termin</th>
+<th>Kryterium odbioru</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-zakres-wyaczony">4.2. Zakres wyłączony</h3>
+<table>
+<thead>
+<tr>
+<th>Element wyłączony</th>
+<th>Powód</th>
+<th>Ryzyko błędnej interpretacji</th>
+<th>Właściciel komunikacji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="43-ograniczenia">4.3. Ograniczenia</h3>
+<ul>
+<li>ograniczenie prawne: UNKNOWN;</li>
+<li>ograniczenie danych: UNKNOWN;</li>
+<li>ograniczenie infrastruktury: UNKNOWN;</li>
+<li>ograniczenie kadrowe: UNKNOWN;</li>
+<li>ograniczenie czasowe: UNKNOWN;</li>
+<li>ograniczenie finansowe: UNKNOWN;</li>
+<li>ograniczenie interoperacyjności: UNKNOWN.</li>
+</ul>
+<h3 id="44-porownanie-wariantow">4.4. Porównanie wariantów</h3>
+<table>
+<thead>
+<tr>
+<th>Wariant</th>
+<th>Opis</th>
+<th>Korzyść oczekiwana</th>
+<th>Koszt całkowity</th>
+<th>Czas</th>
+<th>Ryzyko</th>
+<th>Odwracalność</th>
+<th>Dowód</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 — brak zmiany</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>1 — usprawnienie procesu bez nowej technologii</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>2 — pilotaż technologiczny</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>3 — współdzielenie zasobu z innym regionem</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Wariant rekomendowany przez zespół:</strong> UNKNOWN
+<strong>Uzasadnienie i zastrzeżenia:</strong> UNKNOWN</p>
+<h2 id="5-bramki-bezwzgledne-passfail">5. Bramki bezwzględne PASS/FAIL</h2>
+<blockquote>
+<p>Wynik <strong>FAIL</strong> w dowolnej bramce zatrzymuje uruchomienie. Wynik <strong>UNKNOWN</strong> nie jest równoważny PASS. Nie ma wyjątku pozwalającego ominąć bramkę: możliwe są wyłącznie usunięcie przyczyny, dostarczenie brakującego dowodu i ponowna ocena przez właściwy organ. Brak kompetencji lub podstawy prawnej, nielegalne przetwarzanie, niedopuszczalne ryzyko bezpieczeństwa albo próba wniesienia informacji chronionej do jawnego formularza zawsze oznaczają <strong>STOP</strong>.</p>
+</blockquote>
+<h3 id="51-zbiorcza-karta-bramek">5.1. Zbiorcza karta bramek</h3>
+<table>
+<thead>
+<tr>
+<th>Gate</th>
+<th>Obszar</th>
+<th>Pytanie kontrolne</th>
+<th>Wynik PASS / FAIL / UNKNOWN</th>
+<th>Dowód / sygnatura</th>
+<th>Właściciel kontroli</th>
+<th>Data ważności</th>
+<th>Działanie przy FAIL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G-LAW</td>
+<td>prawo</td>
+<td>Czy wskazano właściwy tryb, kompetencję, podstawę i wymagane zgody?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>G-SEC</td>
+<td>bezpieczeństwo</td>
+<td>Czy zakres ma zaakceptowaną ocenę zagrożeń, BHP i plan incydentowy?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>G-INFO</td>
+<td>informacje i cyber</td>
+<td>Czy klasy danych, dostęp, retencja, logowanie i dostawcy są zatwierdzeni?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>G-PRIV</td>
+<td>prywatność</td>
+<td>Czy ustalono podstawę przetwarzania i potrzebę oceny skutków?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>G-ETH</td>
+<td>etyka i AI</td>
+<td>Czy wpływ na ludzi, nadzór, odwołanie i ograniczenia automatyzacji są określone?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>G-PROC</td>
+<td>zakup i konkurencja</td>
+<td>Czy pilotaż nie przesądza wyniku przyszłego postępowania ani preferowanego dostawcy?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>G-FIN</td>
+<td>finanse</td>
+<td>Czy finansowanie, kwalifikowalność, VAT, pomoc publiczna i brak podwójnego finansowania są potwierdzone?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>G-ENV</td>
+<td>środowisko i pozwolenia</td>
+<td>Czy wymagane oceny i pozwolenia są zidentyfikowane i uzyskane?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+<tr>
+<td>G-DATA</td>
+<td>pomiar</td>
+<td>Czy baseline, mianowniki i plan pomiaru są gotowe przed startem?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>HOLD</td>
+</tr>
+<tr>
+<td>G-EXIT</td>
+<td>wyjście</td>
+<td>Czy można bezpiecznie zakończyć pilotaż i przywrócić usługę?</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>STOP</td>
+</tr>
+</tbody>
+</table>
+<h3 id="52-karta-szczegoowa-kazdej-bramki">5.2. Karta szczegółowa każdej bramki</h3>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gate_id</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>zakres kontroli</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wymaganie</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>podstawa prawna / standard / polityka</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dowód spełnienia</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dowód przeciwny / wyjątek</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>ryzyko resztkowe</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel ryzyka</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wynik</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>osoba zatwierdzająca</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>data i termin ważności</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>warunek ponownego otwarcia</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-wasciciele-governance-i-odpowiedzialnosc">6. Właściciele, governance i odpowiedzialność</h2>
+<h3 id="61-zasada-jednego-wasciciela">6.1. Zasada jednego właściciela</h3>
+<p>Każdy rezultat i każda decyzja ma dokładnie jedną rolę <strong>A — accountable</strong>. Wiele ról może wykonywać pracę jako <strong>R — responsible</strong>, konsultować jako <strong>C</strong> lub otrzymywać informację jako <strong>I</strong>. Brak jednej roli A oznacza <strong>HOLD</strong>.</p>
+<h3 id="62-raci">6.2. RACI</h3>
+<table>
+<thead>
+<tr>
+<th>Rezultat / decyzja</th>
+<th>A — jeden właściciel</th>
+<th>R — wykonawcy</th>
+<th>C — konsultowani</th>
+<th>I — informowani</th>
+<th>Termin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>zatwierdzenie problemu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wynik bramki prawnej</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wynik bramki bezpieczeństwa</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>baseline i definicje KPI</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>budżet i kwalifikowalność</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>przetwarzanie danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>odbiór wyniku testu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>decyzja stop/go</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>komunikacja publiczna</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="63-konflikty-interesow">6.3. Konflikty interesów</h3>
+<table>
+<thead>
+<tr>
+<th>Osoba / podmiot</th>
+<th>Rola</th>
+<th>Interes ujawniony</th>
+<th>Środek zaradczy</th>
+<th>Ocenił</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7-plan-wykonania-i-bramki-etapowe">7. Plan wykonania i bramki etapowe</h2>
+<table>
+<thead>
+<tr>
+<th>Etap</th>
+<th>Cel</th>
+<th>Produkt</th>
+<th>Start</th>
+<th>Koniec</th>
+<th>Koszt limit</th>
+<th>Gate wyjścia</th>
+<th>Właściciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E0 — kwalifikacja</td>
+<td>potwierdzić problem i kompetencję</td>
+<td>karta problemu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>G0</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>E1 — przygotowanie</td>
+<td>zamknąć prawo, dane, baseline i plan</td>
+<td>plan gotowości</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>G1</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>E2 — konfiguracja</td>
+<td>przygotować ograniczone środowisko</td>
+<td>protokół odbioru</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>G2</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>E3 — test</td>
+<td>zebrać porównywalny wynik</td>
+<td>raport testu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>G3</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>E4 — ocena</td>
+<td>niezależnie ocenić rezultat i TCO</td>
+<td>raport oceny</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>G4</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>E5 — decyzja</td>
+<td>stop, poprawa lub skala</td>
+<td>podpisana decyzja</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>G5</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="71-kamienie-milowe">7.1. Kamienie milowe</h3>
+<table>
+<thead>
+<tr>
+<th>milestone_id</th>
+<th>Produkt</th>
+<th>Kryterium ukończenia</th>
+<th>Dowód</th>
+<th>Termin</th>
+<th>Właściciel</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="72-zaleznosci">7.2. Zależności</h3>
+<table>
+<thead>
+<tr>
+<th>Zależność</th>
+<th>Podmiot dostarczający</th>
+<th>Data potrzebna</th>
+<th>Skutek opóźnienia</th>
+<th>Plan alternatywny</th>
+<th>Właściciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="8-baseline-kpi-i-plan-ewaluacji">8. Baseline, KPI i plan ewaluacji</h2>
+<h3 id="81-regua-pomiaru">8.1. Reguła pomiaru</h3>
+<p>Każda metryka musi zawierać:</p>
+<ul>
+<li>jednoznaczną nazwę i definicję;</li>
+<li>jednostkę obserwacji i populację;</li>
+<li>licznik oraz mianownik albo jawne stwierdzenie, że metryka jest liczbą bezwzględną;</li>
+<li>okres i datę odcięcia;</li>
+<li>źródło pierwotne oraz właściciela danych;</li>
+<li>reguły włączeń, wyłączeń i braków;</li>
+<li>wartość bazową przed uruchomieniem;</li>
+<li>cel oznaczony jako SCENARIO do czasu akceptacji;</li>
+<li>częstotliwość i metodę pomiaru;</li>
+<li>osobę potwierdzającą jakość.</li>
+</ul>
+<h3 id="82-rejestr-metryk">8.2. Rejestr metryk</h3>
+<table>
+<thead>
+<tr>
+<th>metric_id</th>
+<th>Nazwa</th>
+<th>Typ</th>
+<th>Definicja</th>
+<th>Licznik</th>
+<th>Mianownik</th>
+<th>Populacja</th>
+<th>Okres bazowy</th>
+<th>Baseline</th>
+<th>Cel / próg</th>
+<th>Jednostka</th>
+<th>Źródło</th>
+<th>Częstotliwość</th>
+<th>Właściciel</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KPI-01</td>
+<td>główny rezultat</td>
+<td>outcome</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>KPI-02</td>
+<td>jakość usługi</td>
+<td>outcome</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>KPI-03</td>
+<td>czas procesu</td>
+<td>outcome</td>
+<td>UNKNOWN</td>
+<td>n/d lub UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td></td>
+</tr>
+<tr>
+<td>KPI-04</td>
+<td>pełny koszt na jednostkę</td>
+<td>efficiency</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>KPI-05</td>
+<td>bezpieczeństwo / incydenty</td>
+<td>guardrail</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>KPI-06</td>
+<td>dostępność rozwiązania</td>
+<td>guardrail</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="83-plan-porownania">8.3. Plan porównania</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pytanie ewaluacyjne</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>jednostka analizy</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>grupa objęta pilotażem</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>grupa / okres porównawczy</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>metoda doboru</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>minimalny okres obserwacji</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>czynniki zakłócające</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>test wrażliwości</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>zasada obsługi braków danych</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>osoba dokonująca niezależnego przeglądu</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="84-guardraile">8.4. Guardraile</h3>
+<table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Próg ostrzegawczy</th>
+<th>Próg STOP</th>
+<th>Czas reakcji</th>
+<th>Właściciel</th>
+<th>Źródło pomiaru</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bezpieczeństwo ludzi</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>ciągłość usługi</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>prywatność / dane</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>koszt</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>nierówne traktowanie</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wpływ środowiskowy</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="9-dane-i-bezpieczenstwo-informacji">9. Dane i bezpieczeństwo informacji</h2>
+<h3 id="91-katalog-klas-danych">9.1. Katalog klas danych</h3>
+<table>
+<thead>
+<tr>
+<th>data_id</th>
+<th>Klasa danych</th>
+<th>Cel użycia</th>
+<th>Źródło</th>
+<th>Podstawa</th>
+<th>Jawność</th>
+<th>Dane osobowe</th>
+<th>Retencja</th>
+<th>Dostęp</th>
+<th>Właściciel</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="92-minimalizacja-i-przepyw">9.2. Minimalizacja i przepływ</h3>
+<table>
+<thead>
+<tr>
+<th>Krok</th>
+<th>Dane wejściowe</th>
+<th>Operacja</th>
+<th>Dane wyjściowe</th>
+<th>System</th>
+<th>Odbiorca</th>
+<th>Logowanie</th>
+<th>Ryzyko</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="93-wymagania-dostawcy-i-rozwiazania">9.3. Wymagania dostawcy i rozwiązania</h3>
+<ul>
+<li>zarządzanie tożsamością i uprawnieniami: UNKNOWN;</li>
+<li>rejestrowanie działań i audyt: UNKNOWN;</li>
+<li>lokalizacja i podwykonawcy: UNKNOWN;</li>
+<li>SBOM / ewidencja komponentów: UNKNOWN;</li>
+<li>zarządzanie podatnościami i aktualizacjami: UNKNOWN;</li>
+<li>kopie, odtworzenie i ciągłość: UNKNOWN;</li>
+<li>zwrot, migracja i bezpieczne usunięcie danych: UNKNOWN;</li>
+<li>zgłoszenie incydentu i czasy reakcji: UNKNOWN.</li>
+</ul>
+<h2 id="10-budzet-finansowanie-i-koszt-cakowity">10. Budżet, finansowanie i koszt całkowity</h2>
+<h3 id="101-parametry-wspolne">10.1. Parametry wspólne</h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>waluta</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>rok cen</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wartości brutto / netto</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>VAT kwalifikowalny</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>stopa / metoda indeksacji</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>horyzont TCO</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>rezerwa ryzyka i metoda</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>status pomocy publicznej</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>źródła finansowania</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="102-koszty-pilotazu">10.2. Koszty pilotażu</h3>
+<table>
+<thead>
+<tr>
+<th>cost_id</th>
+<th>Kategoria</th>
+<th>Ilość</th>
+<th>Jednostka</th>
+<th>Koszt jednostkowy</th>
+<th>Koszt całkowity</th>
+<th>Źródło ceny</th>
+<th>Typ FACT / ESTIMATE</th>
+<th>Płatnik</th>
+<th>Rok</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>przygotowanie i analiza</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>sprzęt / licencje</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>integracja</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>test i ewaluacja</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>kadry i szkolenia</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>cyber i zgodność</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>utrzymanie i wyjście</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>rezerwa</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="103-zroda-finansowania-i-dodatkowosc">10.3. Źródła finansowania i dodatkowość</h3>
+<table>
+<thead>
+<tr>
+<th>Instrument</th>
+<th>Kwota</th>
+<th>Waluta / rok cen</th>
+<th>Przeznaczenie</th>
+<th>Kwalifikowalność potwierdzona</th>
+<th>Podwójne finansowanie wykluczone</th>
+<th>Właściciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="104-koszt-po-pilotazu">10.4. Koszt po pilotażu</h3>
+<table>
+<thead>
+<tr>
+<th>Element TCO</th>
+<th>Rok 1</th>
+<th>Rok 2</th>
+<th>Rok 3</th>
+<th>Właściciel kosztu</th>
+<th>Źródło / metoda</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>operacje</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>personel</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>serwis i części</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dane i obliczenia</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>zgodność i audyt</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wycofanie / migracja</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="11-scoring-porownawczy">11. Scoring porównawczy</h2>
+<h3 id="111-skala-punktowa">11.1. Skala punktowa</h3>
+<table>
+<thead>
+<tr>
+<th>Ocena</th>
+<th>Opis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>brak dowodu albo bramka bezwzględna niespełniona</td>
+</tr>
+<tr>
+<td>1</td>
+<td>dowód bardzo słaby; istotne luki bez planu zamknięcia</td>
+</tr>
+<tr>
+<td>2</td>
+<td>częściowa gotowość; luki i zależności wysokiego ryzyka</td>
+</tr>
+<tr>
+<td>3</td>
+<td>gotowość wystarczająca do ograniczonego pilotażu pod warunkami</td>
+</tr>
+<tr>
+<td>4</td>
+<td>mocny dowód, wykonalny plan i kontrolowane ryzyko</td>
+</tr>
+<tr>
+<td>5</td>
+<td>dowód niezależnie potwierdzony, gotowość wysoka i jasna ścieżka decyzji</td>
+</tr>
+</tbody>
+</table>
+<h3 id="112-macierz">11.2. Macierz</h3>
+<table>
+<thead>
+<tr>
+<th>Kryterium</th>
+<th style="text-align: right;">Waga %</th>
+<th style="text-align: right;">Ocena 0–5</th>
+<th style="text-align: right;">Wynik ważony</th>
+<th>Dowód</th>
+<th>Recenzent</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>znaczenie problemu publicznego</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>potwierdzony popyt użytkownika</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>mierzalność i jakość baseline</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wykonalność prawna i zakupowa</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>bezpieczeństwo i kontrola danych</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>gotowość organizacyjna i kadrowa</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>koszt, TCO i źródło finansowania</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>interoperacyjność / możliwość przeniesienia</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>odwracalność i plan wyjścia</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>potencjał uczenia i skalowania</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td style="text-align: right;">UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td><strong>SUMA</strong></td>
+<td style="text-align: right;"><strong>100</strong></td>
+<td style="text-align: right;">n/d</td>
+<td style="text-align: right;"><strong>UNKNOWN / 100</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Formuła:</strong> suma iloczynów wagi i oceny, przeskalowana do 100 punktów.
+<strong>Próg kwalifikacji:</strong> UNKNOWN — ustala i zatwierdza komitet przed oceną wniosków.
+<strong>Wynik bramek bezwzględnych:</strong> UNKNOWN
+<strong>Wynik końcowy:</strong> UNKNOWN</p>
+<blockquote>
+<p>Scoring wspiera porównanie, ale nie uchyla wyniku FAIL i nie zastępuje decyzji człowieka. Wagi oraz próg muszą zostać zamrożone przed oceną, aby nie dopasowywać ich do konkretnego projektu.</p>
+</blockquote>
+<h2 id="12-ryzyka-zaleznosci-i-scenariusze-zakonczenia">12. Ryzyka, zależności i scenariusze zakończenia</h2>
+<h3 id="121-rejestr-ryzyk">12.1. Rejestr ryzyk</h3>
+<table>
+<thead>
+<tr>
+<th>risk_id</th>
+<th>Ryzyko</th>
+<th>Przyczyna</th>
+<th>Skutek</th>
+<th>Prawdopodobieństwo</th>
+<th>Wpływ</th>
+<th>Właściciel</th>
+<th>Kontrola</th>
+<th>Sygnał</th>
+<th>Ryzyko resztkowe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="122-przesanki-natychmiastowego-stop">12.2. Przesłanki natychmiastowego STOP</h3>
+<ul>
+<li>naruszenie bezpieczeństwa ludzi lub brak możliwości kontrolowanego działania;</li>
+<li>brak wymaganej podstawy prawnej, zgody lub kompetencji;</li>
+<li>incydent danych wymagający wstrzymania;</li>
+<li>próba wprowadzenia informacji chronionych do jawnego obiegu;</li>
+<li>przekroczenie zaakceptowanego limitu kosztu bez zgody;</li>
+<li>brak wiarygodnego pomiaru głównego rezultatu;</li>
+<li>konflikt interesów, którego nie można skutecznie ograniczyć;</li>
+<li>ryzyko nieodwracalnego uzależnienia od dostawcy niezaakceptowane przez właściciela.</li>
+</ul>
+<h3 id="123-plan-wyjscia-i-odtworzenia">12.3. Plan wyjścia i odtworzenia</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Stan bezpieczny po zakończeniu</th>
+<th>Działanie</th>
+<th>Termin</th>
+<th>Koszt</th>
+<th>Właściciel</th>
+<th>Dowód odbioru</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usługa</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>dane</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>sprzęt</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>licencje i dostęp</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>personel / wiedza</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="13-wspopraca-i-przekazanie-miedzyregionalne">13. Współpraca i przekazanie międzyregionalne</h2>
+<table>
+<thead>
+<tr>
+<th>Element do współdzielenia</th>
+<th>Region dostarczający</th>
+<th>Region odbierający</th>
+<th>Standard / interfejs</th>
+<th>SLA / termin</th>
+<th>Koszt</th>
+<th>Właściciel</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Uzasadnienie, dlaczego zasób nie powinien być powielany lokalnie:</strong> UNKNOWN
+<strong>Warunek interoperacyjności:</strong> UNKNOWN
+<strong>Plan przekazania wiedzy:</strong> UNKNOWN</p>
+<h2 id="14-zroda-i-slad-dowodowy">14. Źródła i ślad dowodowy</h2>
+<table>
+<thead>
+<tr>
+<th>source_id</th>
+<th>Tytuł</th>
+<th>Wydawca / właściciel</th>
+<th>Typ</th>
+<th>Data publikacji</th>
+<th>Data dostępu / ekstrakcji</th>
+<th>URL / sygnatura</th>
+<th>Zakres użycia</th>
+<th>Ograniczenia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="141-luki-dowodowe">14.1. Luki dowodowe</h3>
+<table>
+<thead>
+<tr>
+<th>gap_id</th>
+<th>Pytanie</th>
+<th>Dlaczego zmienia decyzję</th>
+<th>Właściciel pozyskania</th>
+<th>Źródło docelowe</th>
+<th>Termin</th>
+<th>Po dwóch nieudanych próbach</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>pozostawić UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h2 id="15-decyzja-stopgo">15. Decyzja stop/go</h2>
+<h3 id="151-pakiet-przed-decyzja">15.1. Pakiet przed decyzją</h3>
+<table>
+<thead>
+<tr>
+<th>Warunek</th>
+<th>PASS / FAIL / UNKNOWN</th>
+<th>Dowód</th>
+<th>Potwierdził</th>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>właściciel problemu potwierdził potrzebę</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>wszystkie bramki bezwzględne mają PASS</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>baseline został zamrożony przed startem</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>budżet i źródło finansowania zatwierdzone</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>plan pomiaru i niezależny recenzent gotowi</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>plan incydentowy i wyjścia zaakceptowany</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>konflikty interesów ujawnione i ograniczone</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="152-wybor-czowieka">15.2. Wybór człowieka</h3>
+<p>Zaznaczyć dokładnie jedną opcję:</p>
+<ul>
+<li>[ ] <strong>GO</strong> — uruchomić wyłącznie zatwierdzony zakres.</li>
+<li>[ ] <strong>GO WARUNKOWE</strong> — uruchomić po spełnieniu warunków zapisanych poniżej.</li>
+<li>[ ] <strong>HOLD</strong> — nie uruchamiać do czasu zamknięcia wskazanych luk.</li>
+<li>[ ] <strong>STOP</strong> — zakończyć przygotowanie i zarchiwizować uzasadnienie.</li>
+</ul>
+<p><strong>Warunki / uzasadnienie:</strong> UNKNOWN
+<strong>Budżet objęty decyzją:</strong> UNKNOWN
+<strong>Okres objęty decyzją:</strong> UNKNOWN
+<strong>Zakres objęty decyzją:</strong> UNKNOWN
+<strong>Data kolejnej bramki:</strong> UNKNOWN</p>
+<h3 id="153-akceptacje-i-podpisy">15.3. Akceptacje i podpisy</h3>
+<table>
+<thead>
+<tr>
+<th>Rola</th>
+<th>Imię i nazwisko / organ</th>
+<th>Decyzja</th>
+<th>Podpis / kwalifikowana akceptacja</th>
+<th>Data</th>
+<th>Zastrzeżenia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>właściciel problemu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel budżetu</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>prawnik / legislator</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>bezpieczeństwo / cyber</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel danych</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>niezależny recenzent</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>właściciel decyzji stop/go</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Podpisów i akceptacji nie wolno generować automatycznie. Ich obecność w szablonie nie oznacza udzielonej zgody.</p>
+</blockquote>
+<h2 id="16-raport-po-pilotazu">16. Raport po pilotażu</h2>
+<h3 id="161-wyniki-wzgledem-baseline">16.1. Wyniki względem baseline</h3>
+<table>
+<thead>
+<tr>
+<th>metric_id</th>
+<th>Baseline i okres</th>
+<th>Wynik i okres</th>
+<th>Zmiana bezwzględna</th>
+<th>Zmiana względna i mianownik</th>
+<th>Cel</th>
+<th>Jakość danych</th>
+<th>Wniosek</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="162-rezultat-i-dodatkowosc">16.2. Rezultat i dodatkowość</h3>
+<p><strong>FACT:</strong> UNKNOWN
+<strong>INFERENCE:</strong> UNKNOWN
+<strong>Czy wynik można przypisać pilotażowi:</strong> UNKNOWN
+<strong>Alternatywne wyjaśnienia:</strong> UNKNOWN
+<strong>Koszt rzeczywisty, waluta i rok cen:</strong> UNKNOWN
+<strong>TCO zaktualizowany:</strong> UNKNOWN
+<strong>Incydenty i odchylenia:</strong> UNKNOWN
+<strong>Wiedza możliwa do przeniesienia:</strong> UNKNOWN</p>
+<h3 id="163-decyzja-po-ewaluacji">16.3. Decyzja po ewaluacji</h3>
+<ul>
+<li>[ ] skalować po odrębnej decyzji i analizie;</li>
+<li>[ ] wykonać jedną ograniczoną korektę i ponowić bramkę;</li>
+<li>[ ] przekazać rozwiązanie do innego regionu / właściciela;</li>
+<li>[ ] zakończyć bez skalowania;</li>
+<li>[ ] wstrzymać z powodu niewystarczających danych.</li>
+</ul>
+<p><strong>Uzasadnienie:</strong> UNKNOWN
+<strong>Osoba / organ decydujący:</strong> UNKNOWN
+<strong>Data:</strong> UNKNOWN
+<strong>Warunki publikacji wyniku:</strong> UNKNOWN</p>
+<h3 id="164-dziaania-nastepcze-i-slad-decyzji">16.4. Działania następcze i ślad decyzji</h3>
+<table>
+<thead>
+<tr>
+<th>Działanie / odwołanie do dowodu</th>
+<th>Właściciel</th>
+<th>Termin</th>
+<th>Warunek zamknięcia</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+<td>UNKNOWN</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notatki recenzenta:</strong></p>
+<p>........................................................................................................................</p>
+<p>........................................................................................................................</p>
+<p>........................................................................................................................</p><div class="metadata">Identyfikator: regional-pilot-card · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

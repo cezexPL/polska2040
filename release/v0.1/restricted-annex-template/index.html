@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Jawny szablon aneksu ograniczonego</title><style>
+:root { --navy:#0b1f33; --blue:#194f7a; --red:#c7333e; --gold:#c7a24a; --paper:#ffffff; --ink:#17202a; --muted:#5d6873; --line:#d9e0e6; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:#eef2f5; font-family:"DejaVu Sans",Arial,sans-serif; line-height:1.55; }
+main { width:min(980px, calc(100% - 32px)); margin:24px auto; background:var(--paper); padding:64px 72px; box-shadow:0 8px 30px rgba(11,31,51,.12); }
+.draft-banner { background:#fff4d7; border-left:5px solid var(--gold); padding:12px 16px; margin-bottom:36px; font-size:.88rem; }
+h1,h2,h3 { color:var(--navy); line-height:1.2; page-break-after:avoid; }
+h1 { font-size:2.25rem; border-bottom:4px solid var(--red); padding-bottom:16px; }
+h2 { margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:8px; }
+h3 { color:var(--blue); }
+p,li { orphans:3; widows:3; }
+a { color:var(--blue); text-decoration-thickness:1px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.88rem; }
+th { background:var(--navy); color:#fff; text-align:left; }
+th,td { border:1px solid var(--line); padding:8px 10px; vertical-align:top; }
+th,td { overflow-wrap:anywhere; word-break:break-word; hyphens:auto; }
+tr:nth-child(even) td { background:#f7f9fb; }
+tr { break-inside:avoid; }
+.governance-law table,.implementation-roadmap table,.ministerial-briefs table { table-layout:fixed; font-size:.72rem; }
+.governance-law th,.governance-law td,.implementation-roadmap th,.implementation-roadmap td,.ministerial-briefs th,.ministerial-briefs td { padding:5px 6px; }
+.evidence-book .registry-table { table-layout:fixed; font-size:.70rem; }
+.evidence-book .registry-table th,.evidence-book .registry-table td { padding:5px 6px; overflow-wrap:anywhere; word-break:break-word; }
+.evidence-book .registry-sources th:nth-child(1),.evidence-book .registry-sources td:nth-child(1) { width:8%; }
+.evidence-book .registry-sources th:nth-child(2),.evidence-book .registry-sources td:nth-child(2) { width:24%; }
+.evidence-book .registry-sources th:nth-child(3),.evidence-book .registry-sources td:nth-child(3) { width:14%; }
+.evidence-book .registry-sources th:nth-child(4),.evidence-book .registry-sources td:nth-child(4) { width:9%; }
+.evidence-book .registry-sources th:nth-child(5),.evidence-book .registry-sources td:nth-child(5) { width:9%; }
+.evidence-book .registry-sources th:nth-child(6),.evidence-book .registry-sources td:nth-child(6) { width:10%; }
+.evidence-book .registry-sources th:nth-child(7),.evidence-book .registry-sources td:nth-child(7) { width:9%; }
+.evidence-book .registry-sources th:nth-child(8),.evidence-book .registry-sources td:nth-child(8) { width:17%; }
+.evidence-book .source-url { display:block; margin-top:3px; color:#5d6873; font-size:.58rem; line-height:1.2; }
+.evidence-book .registry-claims th:nth-child(1),.evidence-book .registry-claims td:nth-child(1) { width:11%; }
+.evidence-book .registry-claims th:nth-child(2),.evidence-book .registry-claims td:nth-child(2) { width:9%; }
+.evidence-book .registry-claims th:nth-child(3),.evidence-book .registry-claims td:nth-child(3) { width:10%; }
+.evidence-book .registry-claims th:nth-child(4),.evidence-book .registry-claims td:nth-child(4) { width:10%; }
+.evidence-book .registry-claims th:nth-child(5),.evidence-book .registry-claims td:nth-child(5) { width:46%; }
+.evidence-book .registry-claims th:nth-child(6),.evidence-book .registry-claims td:nth-child(6) { width:14%; }
+.strategy .cover-visual { display:block; width:100%; height:88mm; object-fit:cover; object-position:center 63%; margin:7mm auto 0; break-after:page; }
+blockquote { margin:20px 0; padding:10px 18px; border-left:4px solid var(--blue); color:var(--muted); background:#f4f8fb; }
+img { max-width:100%; height:auto; }
+code { background:#f2f4f6; padding:.1em .3em; }
+.metadata { margin-top:6px; color:var(--muted); font-size:.72rem; line-height:1.15; padding-top:0; break-inside:auto; }
+@media(max-width:700px){ main{width:100%;margin:0;padding:32px 20px;box-shadow:none;} h1{font-size:1.8rem;} table{display:block;overflow-x:auto;} }
+@page { size:A4; margin:20mm 17mm 20mm 17mm; @bottom-center { content:"Polska 2040 — draft v0.1  •  " counter(page) " / " counter(pages); color:#5d6873; font-size:8pt; } }
+@media print { body{background:#fff;} main{width:auto;margin:0;padding:0;box-shadow:none;} a{color:inherit;} }
+</style></head>
+<body><main class="restricted-annex-template"><div class="draft-banner"><strong>Niezależny jawnoźródłowy projekt analityczny — bez materiałów niejawnych — nie jest dokumentem rządowym.</strong><br>Stan wiedzy / evidence cut-off: 2026-07-21</div><h1 id="jawny-szablon-aneksu-ograniczonego">Jawny szablon aneksu ograniczonego</h1>
+<p><strong>Status:</strong> wyłącznie jawna specyfikacja procesu — bez informacji niejawnych<br />
+<strong>Program:</strong> Polska 2040: Suwerenność technologiczna<br />
+<strong>Stan wersji:</strong> v0.1, 21 lipca 2026 r.</p>
+<blockquote>
+<p>Ten plik nie jest aneksem niejawnym i nie może nim zostać przez dopisanie treści chronionej. Wskazuje jedynie pytania, klasy danych, role, metadane, bramki i zasady sanitizacji. Właściwy aneks powstaje wyłącznie w autoryzowanym środowisku wskazanym przez właścicieli informacji.</p>
+</blockquote>
+<h2 id="executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</h2>
+<h3 id="cel">Cel</h3>
+<p>Szablon pozwala połączyć jawną strategię z odpowiedziami, których nie można bezpiecznie przechowywać w repozytorium. Każde pytanie ma właściciela decyzji, właściciela informacji, minimalny potrzebny zakres, podstawę dostępu, termin ważności i formę agregatu możliwego do zwrotu do dokumentu jawnego.</p>
+<h3 id="zasady-bez-wyjatkow">Zasady bez wyjątków</h3>
+<ol>
+<li>Repozytorium prywatne lub publiczne nie jest systemem dla informacji niejawnych.</li>
+<li>Klauzulę i zasady dostępu nadaje uprawniony właściciel informacji, nie autor strategii.</li>
+<li>Zbieramy najmniejszy zakres potrzebny do konkretnej decyzji.</li>
+<li>Brak dostępu zapisuje się jako status, nie próbuje rekonstruować z pośrednich danych.</li>
+<li>Do warstwy jawnej wraca wyłącznie zatwierdzony agregat, przedział lub jakościowy wniosek.</li>
+<li>Każde wyniesienie lub udostępnienie artefaktu poza środowisko przechodzi kontrolę ujawnienia i zatwierdzenie właściciela.</li>
+<li>Dane źródłowe, notatki robocze i wyniki pośrednie pozostają w środowisku autoryzowanym.</li>
+<li>Naruszenie procesu zatrzymuje analizę i uruchamia właściwą procedurę incydentu.</li>
+</ol>
+<h3 id="oczekiwany-produkt">Oczekiwany produkt</h3>
+<p>Warstwa jawna otrzymuje odpowiedzi typu:</p>
+<ul>
+<li>„ryzyko przekracza przyjętą tolerancję — decyzja wymagana”;</li>
+<li>„istnieje przetestowana alternatywa dla większości elementów w klasie”;</li>
+<li>„wartość bazowa została ustalona, lecz może być publikowana tylko jako indeks”;</li>
+<li>„brak danych wystarczających do decyzji skali”;</li>
+<li>„wniosek może być ujawniony po agregacji według zatwierdzonej metody”.</li>
+</ul>
+<p>Nie otrzymuje surowych wolumenów, lokalizacji, bibliotek, parametrów, podatności ani informacji o pojedynczych podmiotach, jeżeli właściciel ich nie dopuści.</p>
+<h2 id="spis-tresci">Spis treści</h2>
+<div class="toc">
+<ul>
+<li><a href="#jawny-szablon-aneksu-ograniczonego">Jawny szablon aneksu ograniczonego</a><ul>
+<li><a href="#executive-summary-streszczenie-wykonawcze">Executive Summary / Streszczenie wykonawcze</a><ul>
+<li><a href="#cel">Cel</a></li>
+<li><a href="#zasady-bez-wyjatkow">Zasady bez wyjątków</a></li>
+<li><a href="#oczekiwany-produkt">Oczekiwany produkt</a></li>
+</ul>
+</li>
+<li><a href="#spis-tresci">Spis treści</a></li>
+<li><a href="#1-rozdzielenie-srodowisk">1. Rozdzielenie środowisk</a></li>
+<li><a href="#2-karta-zapytania-do-aneksu">2. Karta zapytania do aneksu</a><ul>
+<li><a href="#wzor">Wzór</a></li>
+</ul>
+</li>
+<li><a href="#3-katalog-pytan-strategicznych">3. Katalog pytań strategicznych</a><ul>
+<li><a href="#31-luki-i-scenariusze">3.1. Luki i scenariusze</a></li>
+<li><a href="#32-popyt-wolumeny-i-tempo-odtworzenia">3.2. Popyt, wolumeny i tempo odtworzenia</a></li>
+<li><a href="#33-przemys-i-ancuchy-dostaw">3.3. Przemysł i łańcuchy dostaw</a></li>
+<li><a href="#34-serwis-logistyka-i-konfiguracja">3.4. Serwis, logistyka i konfiguracja</a></li>
+<li><a href="#35-dane-i-ai">3.5. Dane i AI</a></li>
+<li><a href="#36-cyber-i-software-supply-chain">3.6. Cyber i software supply chain</a></li>
+<li><a href="#37-kadry-i-mobilizacja-kompetencji">3.7. Kadry i mobilizacja kompetencji</a></li>
+<li><a href="#38-finanse-i-zobowiazania">3.8. Finanse i zobowiązania</a></li>
+<li><a href="#39-partnerstwa-ip-i-bezpieczenstwo-wascicielskie">3.9. Partnerstwa, IP i bezpieczeństwo właścicielskie</a></li>
+<li><a href="#310-prawo-etyka-i-odpowiedzialnosc">3.10. Prawo, etyka i odpowiedzialność</a></li>
+</ul>
+</li>
+<li><a href="#4-role-i-separacja-obowiazkow">4. Role i separacja obowiązków</a></li>
+<li><a href="#5-workflow-analizy-autoryzowanej">5. Workflow analizy autoryzowanej</a><ul>
+<li><a href="#krok-1-przyjecie-pytania">Krok 1 — przyjęcie pytania</a></li>
+<li><a href="#krok-2-udostepnienie">Krok 2 — udostępnienie</a></li>
+<li><a href="#krok-3-analiza">Krok 3 — analiza</a></li>
+<li><a href="#krok-4-recenzja">Krok 4 — recenzja</a></li>
+<li><a href="#krok-5-sanitizacja">Krok 5 — sanitizacja</a></li>
+<li><a href="#krok-6-kontrolowane-wyniesienie-lub-udostepnienie">Krok 6 — kontrolowane wyniesienie lub udostępnienie</a></li>
+<li><a href="#krok-7-zamkniecie">Krok 7 — zamknięcie</a></li>
+</ul>
+</li>
+<li><a href="#6-matryca-form-odpowiedzi">6. Matryca form odpowiedzi</a></li>
+<li><a href="#7-kontrola-ujawnienia">7. Kontrola ujawnienia</a><ul>
+<li><a href="#checklista-przed-wyniesieniem-lub-udostepnieniem-artefaktu">Checklista przed wyniesieniem lub udostępnieniem artefaktu</a></li>
+<li><a href="#test-inferencji">Test inferencji</a></li>
+</ul>
+</li>
+<li><a href="#8-rejestr-wyjsc-do-warstwy-jawnej">8. Rejestr wyjść do warstwy jawnej</a></li>
+<li><a href="#9-incydenty-i-zatrzymanie-pracy">9. Incydenty i zatrzymanie pracy</a></li>
+<li><a href="#10-bramka-passfail">10. Bramka pass/fail</a></li>
+<li><a href="#11-minimalny-pakiet-dla-decydenta">11. Minimalny pakiet dla decydenta</a></li>
+<li><a href="#dalsze-pytania">Dalsze pytania</a></li>
+<li><a href="#zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-rozdzielenie-srodowisk">1. Rozdzielenie środowisk</h2>
+<table>
+<thead>
+<tr>
+<th>Warstwa</th>
+<th>Zawartość</th>
+<th>Przykładowy produkt</th>
+<th>Miejsce</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>jawna</td>
+<td>cele, definicje, pytania, źródła publiczne, agregaty</td>
+<td>strategia, dashboard publiczny</td>
+<td>repozytorium i publikacja po akceptacji</td>
+</tr>
+<tr>
+<td>wewnętrzna wrażliwa</td>
+<td>dane prawnie chronione, tajemnica przedsiębiorstwa, dane osobowe</td>
+<td>analiza ograniczona i notatka do decyzji</td>
+<td>zatwierdzony system instytucji</td>
+</tr>
+<tr>
+<td>niejawna</td>
+<td>informacje z nadaną klauzulą</td>
+<td>aneks i analiza dla uprawnionych</td>
+<td>właściwy system/kancelaria</td>
+</tr>
+<tr>
+<td>wynik sanitizowany</td>
+<td>zatwierdzony agregat lub wniosek</td>
+<td>claim do strategii jawnej</td>
+<td>repozytorium po bramce ujawnienia</td>
+</tr>
+</tbody>
+</table>
+<p>Warstwy nie różnią się wyłącznie uprawnieniem użytkownika. Mogą wymagać innych systemów, urządzeń, pomieszczeń, procedur, retencji, logowania i sposobu komunikacji.</p>
+<h2 id="2-karta-zapytania-do-aneksu">2. Karta zapytania do aneksu</h2>
+<p>Każde pytanie otrzymuje rekord:</p>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Wymaganie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>query_id</code></td>
+<td>stabilny identyfikator, np. AQ-001</td>
+</tr>
+<tr>
+<td>decyzja</td>
+<td>konkretna decyzja, którą informacja zmienia</td>
+</tr>
+<tr>
+<td>właściciel decyzji</td>
+<td>organ/osoba <code>A</code> w RACI</td>
+</tr>
+<tr>
+<td>pytanie</td>
+<td>jedna sprawdzalna jednostka</td>
+</tr>
+<tr>
+<td>minimalny zakres</td>
+<td>najmniejsza szczegółowość wystarczająca</td>
+</tr>
+<tr>
+<td>horyzont</td>
+<td>rok/okres i data aktualności</td>
+</tr>
+<tr>
+<td>właściciel informacji</td>
+<td>podmiot mogący dopuścić dostęp/ujawnienie</td>
+</tr>
+<tr>
+<td>podstawa</td>
+<td>podstawa przetwarzania i udostępnienia</td>
+</tr>
+<tr>
+<td>środowisko</td>
+<td>autoryzowany system i tryb pracy</td>
+</tr>
+<tr>
+<td>odbiorcy</td>
+<td>role z potrzebą wiedzy</td>
+</tr>
+<tr>
+<td>klasy danych</td>
+<td>kategorie potrzebnych danych</td>
+</tr>
+<tr>
+<td>metoda</td>
+<td>sposób analizy i kontroli jakości</td>
+</tr>
+<tr>
+<td>produkt</td>
+<td>forma odpowiedzi do decydenta</td>
+</tr>
+<tr>
+<td>agregat jawny</td>
+<td>minimalny bezpieczny wynik, jeżeli możliwy</td>
+</tr>
+<tr>
+<td>termin</td>
+<td>data odpowiedzi i data utraty aktualności</td>
+</tr>
+<tr>
+<td>status</td>
+<td>otwarte, w toku, odpowiedziane, brak dostępu, zamknięte</td>
+</tr>
+<tr>
+<td>zatwierdzenie</td>
+<td>osoba/organ dopuszczający produkt oraz jego wyniesienie lub udostępnienie</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wzor">Wzór</h3>
+<pre><code class="language-text">query_id: AQ-...
+decyzja: ...
+właściciel_decyzji: ...
+pytanie: ...
+minimalny_zakres: ...
+horyzont: ...
+właściciel_informacji: ...
+podstawa: ...
+środowisko: ...
+odbiorcy_role: ...
+klasy_danych: ...
+metoda: ...
+produkt_autoryzowany: ...
+proponowany_agregat_jawny: ...
+ważne_do: ...
+status: ...
+zatwierdził: ...
+</code></pre>
+<h2 id="3-katalog-pytan-strategicznych">3. Katalog pytań strategicznych</h2>
+<p>Poniższe pytania są kategoriami. Właściciel informacji może je rozbić, ograniczyć lub odrzucić.</p>
+<h3 id="31-luki-i-scenariusze">3.1. Luki i scenariusze</h3>
+<ul>
+<li>Które efekty zdolnościowe są krytyczne w horyzontach 2027, 2030 i 2035?</li>
+<li>Które luki mogą być częściowo adresowane technologiami autonomicznymi, a które wymagają innych instrumentów?</li>
+<li>Jaki poziom degradacji jest akceptowalny i kto akceptuje ryzyko?</li>
+<li>Jakie założenia scenariusza najbardziej zmieniają priorytet?</li>
+<li>Które odpowiedzi mogą zostać opublikowane jako ranking, indeks lub przedział?</li>
+</ul>
+<p><strong>Zabronione w warstwie jawnej bez zatwierdzenia:</strong> szczegółowe wymagania, parametry misji, rozmieszczenie, podatności i konfiguracje.</p>
+<h3 id="32-popyt-wolumeny-i-tempo-odtworzenia">3.2. Popyt, wolumeny i tempo odtworzenia</h3>
+<ul>
+<li>Jaki popyt wynika z zatwierdzonych planów, a jaki jest jedynie scenariuszem?</li>
+<li>Jakie tempo strat, zużycia, naprawy i odtworzenia przyjęto w analizie?</li>
+<li>Które wolumeny powinny być stałym zapasem, zdolnością produkcyjną lub opcją kontraktową?</li>
+<li>Jaki jest horyzont 30/90/180 dni dla klas, nie pojedynczych zakładów?</li>
+<li>Czy jawny raport może użyć indeksu gotowości bez odtwarzalności wartości źródłowej?</li>
+</ul>
+<h3 id="33-przemys-i-ancuchy-dostaw">3.3. Przemysł i łańcuchy dostaw</h3>
+<ul>
+<li>Jaka jest zweryfikowana, powtarzalna zdolność, a jaka deklaracja nominalna?</li>
+<li>Które maszyny, materiały, komponenty, software, licencje i kompetencje są wąskim gardłem?</li>
+<li>Które elementy mają przetestowaną alternatywę i czas kwalifikacji?</li>
+<li>Jaki jest plan przy braku dostawcy, energii, transportu lub personelu?</li>
+<li>Jakie prawa do dokumentacji, serwisu i produkcji są faktycznie wykonalne?</li>
+</ul>
+<p><strong>Zabronione w warstwie jawnej bez zatwierdzenia:</strong> dokładne moce pojedynczych zakładów, zapasy, topologia, lokalizacje, chronieni dostawcy i pojedyncze punkty awarii.</p>
+<h3 id="34-serwis-logistyka-i-konfiguracja">3.4. Serwis, logistyka i konfiguracja</h3>
+<ul>
+<li>Jaki jest rzeczywisty czas naprawy i udział napraw możliwych na kolejnych poziomach?</li>
+<li>Czy istnieje pełna historia konfiguracji sprzętu, software i modeli?</li>
+<li>Jakie części, narzędzia i uprawnienia są potrzebne do utrzymania?</li>
+<li>Czy przetestowano aktualizację, wycofanie i migrację do alternatywy?</li>
+<li>Które agregaty niezawodności można opublikować bez ujawnienia słabości?</li>
+</ul>
+<h3 id="35-dane-i-ai">3.5. Dane i AI</h3>
+<ul>
+<li>Kto jest właścicielem każdego zbioru i jaka jest podstawa użycia?</li>
+<li>Czy dane są reprezentatywne, kompletne i wersjonowane?</li>
+<li>Który zbiór jest treningowy, walidacyjny i odseparowany testowy?</li>
+<li>Jakie ograniczenia modelu i warunki bezpiecznej degradacji potwierdzono?</li>
+<li>Kto ma prawo dopuścić, monitorować, ograniczyć i wycofać model?</li>
+<li>Jaki wynik benchmarku może zostać ujawniony w agregacie?</li>
+</ul>
+<p><strong>Zabronione w warstwie jawnej bez zatwierdzenia:</strong> surowe dane operacyjne, etykiety ujawniające metody, biblioteki sygnałów, szczegółowe wyniki odporności i konfiguracje.</p>
+<h3 id="36-cyber-i-software-supply-chain">3.6. Cyber i software supply chain</h3>
+<ul>
+<li>Czy artefakty, zależności i aktualizacje mają pełny ślad pochodzenia?</li>
+<li>Jak monitorowane są podatności, incydenty i koniec wsparcia?</li>
+<li>Czy testowano utratę usługi, aktualizacji lub dostępu dostawcy?</li>
+<li>Jakie prawa i kompetencje pozwalają bezpiecznie utrzymać system?</li>
+<li>Jak zagregować dojrzałość bez ujawnienia konkretnej podatności?</li>
+</ul>
+<p><strong>Zabronione:</strong> publikacja nieusuniętych podatności, exploitów, szczegółów konfiguracji ochrony, kluczy i danych uwierzytelniających.</p>
+<h3 id="37-kadry-i-mobilizacja-kompetencji">3.7. Kadry i mobilizacja kompetencji</h3>
+<ul>
+<li>Które role są ograniczeniem krytycznym i ile czasu wymaga ich przygotowanie?</li>
+<li>Jaka jest retencja, dostępność instruktorów i wpływ mobilności?</li>
+<li>Które kompetencje mają pojedyncze osoby lub zespoły?</li>
+<li>Jak zabezpieczyć ciągłość po odejściu personelu kluczowego?</li>
+<li>Jakie dane można publikować bez identyfikacji osoby lub małej jednostki?</li>
+</ul>
+<h3 id="38-finanse-i-zobowiazania">3.8. Finanse i zobowiązania</h3>
+<ul>
+<li>Jakie koszty i zobowiązania już istnieją w programach w zakresie?</li>
+<li>Które źródła finansowania pokrywają ten sam koszt?</li>
+<li>Jaka jest ekspozycja warunkowa, koszt obsługi i pełny TCO?</li>
+<li>Jakie przyjęto założenia kursowe, cenowe, harmonogramowe i dotyczące wykorzystania?</li>
+<li>Które wartości można opublikować jako zakres lub udział bez ryzyka?</li>
+</ul>
+<h3 id="39-partnerstwa-ip-i-bezpieczenstwo-wascicielskie">3.9. Partnerstwa, IP i bezpieczeństwo właścicielskie</h3>
+<ul>
+<li>Kto kontroluje partnera i jakie są prawa osób trzecich?</li>
+<li>Jakie sankcje, ograniczenia eksportowe i obowiązki end-use mają zastosowanie?</li>
+<li>Gdzie powstaje IP i kto ma prawa do ulepszeń, danych, kodu i produkcji?</li>
+<li>Co dzieje się po zmianie właściciela, jurysdykcji lub sytuacji politycznej?</li>
+<li>Jakie elementy due diligence mogą być opisane jako status bez ujawnienia źródła?</li>
+</ul>
+<h3 id="310-prawo-etyka-i-odpowiedzialnosc">3.10. Prawo, etyka i odpowiedzialność</h3>
+<ul>
+<li>Kto podejmuje i dokumentuje decyzję o dopuszczeniu oraz ryzyku?</li>
+<li>Jakie prawo, procedura i nadzór mają zastosowanie?</li>
+<li>Czy istnieje możliwość ludzkiego nadzoru, interwencji i bezpiecznego wycofania?</li>
+<li>Jak rejestrowane są decyzje, dane i wersje dla audytu?</li>
+<li>Czy jawny wniosek może potwierdzić zgodność bez ujawnienia szczegółów?</li>
+</ul>
+<h2 id="4-role-i-separacja-obowiazkow">4. Role i separacja obowiązków</h2>
+<table>
+<thead>
+<tr>
+<th>Rola</th>
+<th>Odpowiedzialność</th>
+<th>Nie może samodzielnie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>właściciel decyzji</td>
+<td>określa pytanie i akceptuje ryzyko</td>
+<td>zmieniać klauzuli informacji innego właściciela</td>
+</tr>
+<tr>
+<td>właściciel informacji</td>
+<td>klasyfikuje, udostępnia, ogranicza i zatwierdza wyniesienie artefaktu</td>
+<td>zatwierdzać merytorycznego wyniku za decydenta</td>
+</tr>
+<tr>
+<td>kierownik środowiska</td>
+<td>dostęp, logi, konfiguracja i incydenty</td>
+<td>rozszerzać celu przetwarzania</td>
+</tr>
+<tr>
+<td>analityk</td>
+<td>wykonuje minimalną analizę i zapisuje ograniczenia</td>
+<td>kopiować dane poza środowisko</td>
+</tr>
+<tr>
+<td>recenzent</td>
+<td>odtwarza metodę i kwestionuje wniosek</td>
+<td>być jedynym autorem tego samego wyniku</td>
+</tr>
+<tr>
+<td>bezpieczeństwo/ochrona danych</td>
+<td>kontrola zgodności i ryzyka</td>
+<td>zastępować decyzję polityczną</td>
+</tr>
+<tr>
+<td>sanitizator</td>
+<td>przygotowuje wersję możliwą do ujawnienia</td>
+<td>sam zatwierdzać publikacji</td>
+</tr>
+<tr>
+<td>zatwierdzający udostępnienie</td>
+<td>dopuszcza konkretny artefakt poza środowisko</td>
+<td>udzielać zgody blankietowej na przyszłe wersje</td>
+</tr>
+<tr>
+<td>audyt</td>
+<td>sprawdza ślad i przestrzeganie reguł</td>
+<td>zmieniać danych źródłowych</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-workflow-analizy-autoryzowanej">5. Workflow analizy autoryzowanej</h2>
+<h3 id="krok-1-przyjecie-pytania">Krok 1 — przyjęcie pytania</h3>
+<ul>
+<li>sprawdzenie decyzji, proporcjonalności i minimalnego zakresu;</li>
+<li>potwierdzenie właścicieli;</li>
+<li>określenie środowiska i odbiorców;</li>
+<li>odrzucenie pytań „na wszelki wypadek”.</li>
+</ul>
+<h3 id="krok-2-udostepnienie">Krok 2 — udostępnienie</h3>
+<ul>
+<li>przyznanie imiennego, czasowego dostępu;</li>
+<li>obowiązkowe szkolenie i akceptacja zasad;</li>
+<li>rejestr plików, zbiorów i wersji;</li>
+<li>zakaz użycia prywatnych urządzeń, chmur i narzędzi niezatwierdzonych.</li>
+</ul>
+<h3 id="krok-3-analiza">Krok 3 — analiza</h3>
+<ul>
+<li>kod/metoda pozostają w środowisku;</li>
+<li>wynik ma dane wejściowe, założenia, ograniczenia i recenzenta;</li>
+<li>sprzeczności nie są usuwane;</li>
+<li>każdy wykres przechowuje tabelę źródłową i transformację.</li>
+</ul>
+<h3 id="krok-4-recenzja">Krok 4 — recenzja</h3>
+<ul>
+<li>odtworzenie obliczenia na zatwierdzonej próbce;</li>
+<li>kontrola dostępu i celu;</li>
+<li>red-team wniosku oraz ryzyka agregacji;</li>
+<li>decyzja: przyjąć, poprawić, ograniczyć albo odrzucić.</li>
+</ul>
+<h3 id="krok-5-sanitizacja">Krok 5 — sanitizacja</h3>
+<ul>
+<li>usuwa identyfikatory, dokładność, małe komórki i kombinacje pozwalające odtworzyć źródło;</li>
+<li>porównuje z innymi publicznymi danymi pod kątem inferencji;</li>
+<li>wybiera najniższą szczegółowość wystarczającą do decyzji jawnej;</li>
+<li>zapisuje, co usunięto i dlaczego w środowisku autoryzowanym.</li>
+</ul>
+<h3 id="krok-6-kontrolowane-wyniesienie-lub-udostepnienie">Krok 6 — kontrolowane wyniesienie lub udostępnienie</h3>
+<ul>
+<li>właściciel informacji zatwierdza konkretną wersję i kanał;</li>
+<li>plik otrzymuje checksumę, datę i okres ważności;</li>
+<li>wyniesienie lub udostępnienie jest logowane;</li>
+<li>w repozytorium powstaje nowy claim z publicznym źródłem/zgodą i recenzentem.</li>
+</ul>
+<h3 id="krok-7-zamkniecie">Krok 7 — zamknięcie</h3>
+<ul>
+<li>odebranie dostępu;</li>
+<li>retencja/usunięcie zgodnie z regułą;</li>
+<li>zapis lekcji i incydentów;</li>
+<li>termin ponownej weryfikacji.</li>
+</ul>
+<h2 id="6-matryca-form-odpowiedzi">6. Matryca form odpowiedzi</h2>
+<table>
+<thead>
+<tr>
+<th>Forma</th>
+<th>Kiedy użyć</th>
+<th>Przykład bez treści wrażliwej</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>odpowiedź binarna</td>
+<td>decyzja wymaga tylko spełnienia warunku</td>
+<td>spełniono / nie spełniono</td>
+</tr>
+<tr>
+<td>status RAG</td>
+<td>monitorowanie wielu obszarów</td>
+<td>zielony / bursztynowy / czerwony z definicją</td>
+</tr>
+<tr>
+<td>indeks</td>
+<td>dokładna wartość jest zbyt wrażliwa</td>
+<td>baza 2026 = 100, zmiana trendu</td>
+</tr>
+<tr>
+<td>przedział</td>
+<td>dokładność nie jest potrzebna</td>
+<td>niski / średni / wysoki zakres</td>
+</tr>
+<tr>
+<td>percentyl</td>
+<td>porównanie bez jednostki źródłowej</td>
+<td>wynik powyżej ustalonego progu</td>
+</tr>
+<tr>
+<td>ranking</td>
+<td>priorytet bez ujawnienia wielkości</td>
+<td>grupa A/B/C z kryteriami</td>
+</tr>
+<tr>
+<td>jakościowy wniosek</td>
+<td>monetyzacja/kwantyfikacja byłaby myląca</td>
+<td>ryzyko nieakceptowalne bez alternatywy</td>
+</tr>
+<tr>
+<td>brak odpowiedzi</td>
+<td>nawet agregat tworzy szkodę</td>
+<td>status: dostęp tylko autoryzowany</td>
+</tr>
+</tbody>
+</table>
+<p>Status RAG bez definicji i progu jest niedopuszczalny. Przedział nie może być tak wąski, by ujawniał wartość, ani tak szeroki, by nie zmieniał decyzji.</p>
+<h2 id="7-kontrola-ujawnienia">7. Kontrola ujawnienia</h2>
+<h3 id="checklista-przed-wyniesieniem-lub-udostepnieniem-artefaktu">Checklista przed wyniesieniem lub udostępnieniem artefaktu</h3>
+<ul>
+<li>Czy odbiorca i decyzja nadal są aktualne?</li>
+<li>Czy wynik zawiera najmniejszy potrzebny zakres?</li>
+<li>Czy można połączyć go z publicznym źródłem i odtworzyć informację chronioną?</li>
+<li>Czy małe komórki, skrajne wartości lub metadane identyfikują podmiot?</li>
+<li>Czy czas, lokalizacja albo szczegół techniczny ujawniają podatność?</li>
+<li>Czy wykres ma osie, komentarze lub nazwę pliku zdradzające więcej niż treść?</li>
+<li>Czy usunięto komentarze, warstwy, historię zmian i metadane dokumentu?</li>
+<li>Czy udostępnienie nie narusza praw osoby trzeciej, danych osobowych lub tajemnicy przedsiębiorstwa?</li>
+<li>Czy właściciel informacji zatwierdził tę konkretną wersję?</li>
+<li>Czy ustawiono datę ponownego sprawdzenia lub wycofania?</li>
+</ul>
+<h3 id="test-inferencji">Test inferencji</h3>
+<p>Sanitizator porównuje proponowany agregat z innymi danymi publicznymi i wcześniej opublikowanymi agregatami. Bezpieczne osobno liczby mogą ujawnić wartość po odjęciu. W takim przypadku zmienia się grupowanie, okres, miarę albo nie publikuje wyniku.</p>
+<h2 id="8-rejestr-wyjsc-do-warstwy-jawnej">8. Rejestr wyjść do warstwy jawnej</h2>
+<table>
+<thead>
+<tr>
+<th>Pole</th>
+<th>Opis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>release_id</code></td>
+<td>identyfikator kontrolowanego wydania artefaktu</td>
+</tr>
+<tr>
+<td><code>query_id</code></td>
+<td>pytanie źródłowe</td>
+</tr>
+<tr>
+<td><code>public_claim</code></td>
+<td>dokładne dopuszczone brzmienie</td>
+</tr>
+<tr>
+<td><code>form</code></td>
+<td>indeks/przedział/status/wniosek</td>
+</tr>
+<tr>
+<td><code>as_of</code></td>
+<td>data stanu wiedzy</td>
+</tr>
+<tr>
+<td><code>valid_until</code></td>
+<td>data ponownego sprawdzenia</td>
+</tr>
+<tr>
+<td><code>owner</code></td>
+<td>właściciel informacji</td>
+</tr>
+<tr>
+<td><code>approved_by</code></td>
+<td>osoba/organ zatwierdzający</td>
+</tr>
+<tr>
+<td><code>checksum</code></td>
+<td>suma konkretnego artefaktu</td>
+</tr>
+<tr>
+<td><code>restrictions</code></td>
+<td>dozwolone użycie i kanał</td>
+</tr>
+<tr>
+<td><code>withdrawal</code></td>
+<td>sposób wycofania po zmianie stanu</td>
+</tr>
+</tbody>
+</table>
+<p>Repozytorium przechowuje wyłącznie dopuszczony <code>public_claim</code> i jawne metadane zaakceptowane do publikacji, nie ukryte źródło ani uzasadnienie klasyfikacji.</p>
+<h2 id="9-incydenty-i-zatrzymanie-pracy">9. Incydenty i zatrzymanie pracy</h2>
+<p>Incydent obejmuje m.in. dostęp bez potrzeby wiedzy, skopiowanie do niewłaściwego systemu, użycie niezatwierdzonego narzędzia, próbę rekonstrukcji, utratę urządzenia, ujawnienie w komentarzu/metadanych lub wysłanie niezatwierdzonej wersji.</p>
+<p>Minimalna odpowiedź:</p>
+<ol>
+<li>zatrzymać dalsze kopiowanie i analizę;</li>
+<li>nie usuwać śladów poza poleceniem właściwej procedury;</li>
+<li>powiadomić właściciela informacji i bezpieczeństwo;</li>
+<li>odebrać lub ograniczyć dostęp;</li>
+<li>ustalić zakres oraz odbiorców;</li>
+<li>uruchomić właściwe obowiązki prawne i organizacyjne;</li>
+<li>wycofać publiczny artefakt, jeżeli konieczne;</li>
+<li>zapisać działania naprawcze i warunek wznowienia.</li>
+</ol>
+<p>Repozytorium nie powinno przechowywać szczegółów incydentu, jeżeli nie zostały dopuszczone. Może zawierać status „materiał wycofany” i publiczne wyjaśnienie zatwierdzone przez właściciela.</p>
+<h2 id="10-bramka-passfail">10. Bramka pass/fail</h2>
+<p>Zapytanie otrzymuje <code>FAIL</code>, jeżeli:</p>
+<ul>
+<li>nie ma decyzji ani właściciela;</li>
+<li>zakres jest szerszy niż potrzebny;</li>
+<li>nie wskazano podstawy, środowiska lub odbiorców;</li>
+<li>analityk jest jedynym recenzentem;</li>
+<li>nie istnieje metoda kontroli ujawnienia;</li>
+<li>proponowany agregat pozwala odtworzyć dane źródłowe;</li>
+<li>produkt ma trafić do repozytorium przed zatwierdzeniem;</li>
+<li>data lub wersja danych jest nieznana;</li>
+<li>użycie narzędzia nie zostało zatwierdzone;</li>
+<li>nie ma procedury odebrania dostępu i retencji.</li>
+</ul>
+<p><code>PASS</code> oznacza zgodę na konkretny etap i zakres, nie blankietowy dostęp do kolejnych danych.</p>
+<h2 id="11-minimalny-pakiet-dla-decydenta">11. Minimalny pakiet dla decydenta</h2>
+<p>Decydent powinien otrzymać:</p>
+<ol>
+<li>pytanie i znaczenie dla decyzji;</li>
+<li>odpowiedź oraz poziom pewności;</li>
+<li>datę, zakres i ograniczenia;</li>
+<li>scenariusz przeciwny lub zdanie red-team;</li>
+<li>konsekwencje wariantów;</li>
+<li>ryzyko, którego nie udało się zmierzyć;</li>
+<li>rekomendację i właściciela;</li>
+<li>termin ponownego sprawdzenia;</li>
+<li>jawny agregat, jeśli został dopuszczony;</li>
+<li>informację, czego nie wolno dalej udostępniać.</li>
+</ol>
+<h2 id="dalsze-pytania">Dalsze pytania</h2>
+<ul>
+<li>Które instytucje są właścicielami poszczególnych klas odpowiedzi?</li>
+<li>Jakie autoryzowane środowiska i narzędzia są dostępne dla wspólnej analizy?</li>
+<li>Jak testować ryzyko inferencji między kolejnymi raportami publicznymi?</li>
+<li>Kto zatwierdza indeksy i przedziały dla dashboardu?</li>
+<li>Jak szybko wycofać claim po zmianie stanu lub wykryciu ryzyka?</li>
+</ul>
+<h2 id="zastrzezenia-i-zaozenia">Zastrzeżenia i założenia</h2>
+<ul>
+<li>Szablon nie zastępuje ustawy o ochronie informacji niejawnych, kancelarii tajnej, polityk instytucji, RODO, tajemnicy przedsiębiorstwa ani innych obowiązków.</li>
+<li>Kategorie w dokumencie nie nadają klauzuli ani uprawnienia.</li>
+<li>Właściciel może odmówić odpowiedzi lub ograniczyć jej formę.</li>
+<li>Informacji chronionej nie wolno umieszczać w komentarzu, issue, PR, mailu, komunikatorze ani narzędziu AI bez właściwego dopuszczenia.</li>
+<li>Brak jawnej odpowiedzi nie jest dowodem braku zdolności, danych lub działania państwa.</li>
+</ul><div class="metadata">Identyfikator: restricted-annex-template · status: reviewed · wygenerowano: 2026-07-21</div></main></body></html>

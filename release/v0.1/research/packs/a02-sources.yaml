@@ -1,0 +1,289 @@
+schema_version: 1
+sources:
+  - id: SRC-0201
+    title: "Obwieszczenie Prezesa Rady Ministrów z dnia 20 kwietnia 2026 r. w sprawie ogłoszenia jednolitego tekstu uchwały Rady Ministrów - Regulamin pracy Rady Ministrów"
+    publisher: "Prezes Rady Ministrów / ELI"
+    url: "https://eli.gov.pl/eli/MP/2026/404/ogl"
+    published_at: "2026-04-21"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "tekst jednolity uchwały Rady Ministrów"
+    language: pl
+    locator: "§§ 19-25a, 27-31, 34-40, 48-52, 83, 85, 90, 98-100, 152-156"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Status ELI: obowiązujący. Podstawowe źródło dla kolejności prac, wykazu, konsultacji, OSR i trybu szczególnego."
+
+  - id: SRC-0202
+    title: "Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 11 czerwca 2025 r. w sprawie ogłoszenia jednolitego tekstu ustawy o Radzie Ministrów"
+    publisher: "Marszałek Sejmu / ELI"
+    url: "https://eli.gov.pl/eli/DU/2025/780/ogl"
+    published_at: "2025-06-17"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "tekst jednolity ustawy"
+    language: pl
+    locator: "art. 5, 7, 10, 10a, 12, 22 ust. 1b, 26, 29, 33"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Czytane łącznie z nowelizacją ujętą jako SRC-0203; strona ELI wskazuje akt zmieniający."
+
+  - id: SRC-0203
+    title: "Ustawa z dnia 9 stycznia 2026 r. o zmianie niektórych ustaw związanych z funkcjonowaniem administracji rządowej"
+    publisher: "Sejm Rzeczypospolitej Polskiej / ELI"
+    url: "https://eli.gov.pl/eli/DU/2026/160/ogl"
+    published_at: "2026-02-12"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "ustawa zmieniająca"
+    language: pl
+    locator: "art. 2 pkt 1, wprowadzający art. 8a i 8b ustawy o Radzie Ministrów"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Wprowadza ustawową podstawę Wykazu prac legislacyjnych i programowych Rady Ministrów."
+
+  - id: SRC-0204
+    title: "Rozporządzenie Prezesa Rady Ministrów z dnia 31 lipca 2025 r. w sprawie szczegółowego zakresu działania Ministra do spraw Nadzoru nad Wdrażaniem Polityki Rządu"
+    publisher: "Prezes Rady Ministrów / ELI"
+    url: "https://eli.gov.pl/eli/DU/2025/1047/ogl"
+    published_at: "2025-07-31"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "rozporządzenie Prezesa Rady Ministrów"
+    language: pl
+    locator: "§§ 1-5"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Status ELI: obowiązujący."
+
+  - id: SRC-0205
+    title: "Zarządzenie nr 46 Prezesa Rady Ministrów z dnia 29 sierpnia 2025 r. w sprawie Komitetu Rady Ministrów do spraw Nadzoru nad Wdrażaniem Polityki Rządu"
+    publisher: "Prezes Rady Ministrów / ELI"
+    url: "https://eli.gov.pl/eli/MP/2025/869/ogl"
+    published_at: "2025-08-29"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "zarządzenie Prezesa Rady Ministrów"
+    language: pl
+    locator: "§§ 1-11"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Status ELI: obowiązujący. Czytane z nowelizacją SRC-0206."
+
+  - id: SRC-0206
+    title: "Zarządzenie nr 35 Prezesa Rady Ministrów z dnia 25 maja 2026 r. zmieniające zarządzenie w sprawie Komitetu Rady Ministrów do spraw Nadzoru nad Wdrażaniem Polityki Rządu"
+    publisher: "Prezes Rady Ministrów / ELI"
+    url: "https://eli.gov.pl/eli/MP/2026/530/ogl"
+    published_at: "2026-05-26"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "zarządzenie zmieniające Prezesa Rady Ministrów"
+    language: pl
+    locator: "§ 1, dodający § 2 pkt 1a do zarządzenia nr 46"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Rozszerza zadania Komitetu o modyfikowanie treści zadań w celu ich dostosowania do ustaleń i polityki Rady Ministrów."
+
+  - id: SRC-0207
+    title: "Departament Nadzoru nad Wdrażaniem Polityki Rządu"
+    publisher: "Kancelaria Prezesa Rady Ministrów"
+    url: "https://www.gov.pl/web/premier/departament-nadzoru-nad-wdrazaniem-polityki-rzadu"
+    published_at: "2025-08-27"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: "oficjalny opis komórki organizacyjnej"
+    language: pl
+    locator: "sekcja 'Departament ... realizuje zadania w zakresie', pkt 1-9; historia wersji 8.0 z 24.03.2026"
+    checksum: null
+    license: "CC BY-SA 4.0"
+    archive_path: null
+    status: verified
+    notes: "Pierwsza publikacja 27.08.2025; treść zaktualizowana 24.03.2026."
+
+  - id: SRC-0208
+    title: "Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 5 lutego 2025 r. w sprawie ogłoszenia jednolitego tekstu ustawy o zasadach prowadzenia polityki rozwoju"
+    publisher: "Marszałek Sejmu / ELI"
+    url: "https://eli.gov.pl/eli/DU/2025/198/ogl"
+    published_at: "2025-02-14"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "tekst jednolity ustawy"
+    language: pl
+    locator: "art. 6-6b, 9-10a, 13-15, 17-19a, 21d-21f"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Czytane w wersji uwzględniającej nowelizację Dz.U. 2025 poz. 1846; nowelizacja nie zmieniła przywołanych reguł strategii i programów."
+
+  - id: SRC-0209
+    title: "Ocena wpływu w rządowym procesie legislacyjnym"
+    publisher: "Kancelaria Prezesa Rady Ministrów"
+    url: "https://www.gov.pl/web/premier/ocena-wplywu-w-rzadowym-procesie-legislacyjnym"
+    published_at: "2020-11-13"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: "oficjalne wyjaśnienie procesu oceny wpływu"
+    language: pl
+    locator: "sekcje: 'Ocena wpływu', 'Ocena skutków regulacji', 'OSR ex post', 'Konsultacje publiczne'"
+    checksum: null
+    license: "CC BY-SA 4.0"
+    archive_path: null
+    status: verified
+    notes: "Pierwsza publikacja 13.11.2020; wersja strony zaktualizowana 09.08.2024."
+
+  - id: SRC-0210
+    title: "Wytyczne do przeprowadzania oceny wpływu oraz konsultacji publicznych w ramach rządowego procesu legislacyjnego"
+    publisher: "Rządowe Centrum Legislacji"
+    url: "https://rcl.gov.pl/legislacja/wytyczne-do-przeprowadzania-oceny-wplywu-oraz-konsultacji-publicznych-w-ramach-rzadowego-procesu-legislacyjnego/"
+    published_at: "2015-05-05"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: "wytyczne rządowe"
+    language: pl
+    locator: "opis celu wytycznych; informacja o przyjęciu przez Radę Ministrów 05.05.2015; komunikat o aktualizacji"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "RCL informuje, że wytyczne są aktualizowane; przed formalnym użyciem należy sprawdzić wersję obowiązującą w dacie przedłożenia."
+
+  - id: SRC-0211
+    title: "Formularz zgłoszenia do Wykazu prac Rady Ministrów"
+    publisher: "Kancelaria Prezesa Rady Ministrów"
+    url: "https://www.gov.pl/web/premier/formularz-zgloszenia-do-wykazu-prac-rady-ministrow"
+    published_at: "2020-11-13"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: "formularz i instrukcja urzędowa"
+    language: pl
+    locator: "sekcja dotycząca wykazu prac programowych oraz formularzy strategii i programów"
+    checksum: null
+    license: "CC BY-SA 4.0"
+    archive_path: null
+    status: verified
+    notes: "Pierwsza publikacja 13.11.2020; wersja strony zaktualizowana 29.11.2023."
+
+  - id: SRC-0212
+    title: "Strategia Rozwoju Polski do 2035 r."
+    publisher: "Ministerstwo Funduszy i Polityki Regionalnej"
+    url: "https://www.gov.pl/web/fundusze-regiony/strategia-rozwoju-polski-do-2035-r-"
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: "strona oficjalna projektu strategii"
+    language: pl
+    locator: "opis przebiegu prac i materiały: konsultacje 10.09-31.10.2025, rekomendacja SKRM 05.03.2026, wersja skierowana na RM 10.04.2026, aktualizacja materiałów 02.07.2026"
+    checksum: null
+    license: "CC BY-SA 4.0"
+    archive_path: null
+    status: verified
+    notes: "Źródło potwierdza etap projektu, nie przyjęcie strategii przez RM. Status trzeba sprawdzić ponownie w dniu formalnego przedłożenia programu Polska 2040."
+
+  - id: SRC-0213
+    title: "Projekt uchwały Rady Ministrów w sprawie przyjęcia projektu 'Strategii Rozwoju Polski do 2035 r.'"
+    publisher: "Kancelaria Prezesa Rady Ministrów"
+    url: "https://www.gov.pl/web/premier/projekt-uchwaly-rady-ministrow-w-sprawie-przyjecia-projektu-strategii-rozwoju-polski-do-2035-r"
+    published_at: "2025-06-30"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: "rekord Wykazu prac legislacyjnych i programowych Rady Ministrów"
+    language: pl
+    locator: "ID132; historia wersji 3.0 z 01.07.2026; organ odpowiedzialny MFiPR; planowany termin II kwartał 2026"
+    checksum: null
+    license: "CC BY-SA 4.0"
+    archive_path: null
+    status: verified
+    notes: "Rekord wciąż opisany jako projekt w dniu dostępu; brak twierdzenia, że strategia nie mogła zostać przyjęta inną drogą po ostatniej aktualizacji."
+
+  - id: SRC-0214
+    title: "Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r."
+    publisher: "Zgromadzenie Narodowe / ELI"
+    url: "https://eli.gov.pl/eli/DU/1997/483/ogl"
+    published_at: "1997-07-16"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "Konstytucja"
+    language: pl
+    locator: "art. 92-93"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Podstawa rozróżnienia rozporządzeń od uchwał i zarządzeń o charakterze wewnętrznym."
+
+  - id: SRC-0215
+    title: "Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 26 września 2025 r. w sprawie ogłoszenia jednolitego tekstu ustawy o finansach publicznych"
+    publisher: "Marszałek Sejmu / ELI"
+    url: "https://eli.gov.pl/eli/DU/2025/1483/ogl"
+    published_at: "2025-10-28"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "tekst jednolity ustawy"
+    language: pl
+    locator: "art. 136"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 136 sprawdzony także wobec wykazanych w ELI nowelizacji po tekście jednolitym; nowelizacje Dz.U. 2026 poz. 426 i 635 nie zmieniły tego artykułu."
+
+  - id: SRC-0216
+    title: "Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 15 maja 2026 r. w sprawie ogłoszenia jednolitego tekstu ustawy o udostępnianiu informacji o środowisku i jego ochronie, udziale społeczeństwa w ochronie środowiska oraz o ocenach oddziaływania na środowisko"
+    publisher: "Marszałek Sejmu / ELI"
+    url: "https://eli.gov.pl/eli/DU/2026/670/ogl"
+    published_at: "2026-05-22"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: "tekst jednolity ustawy"
+    language: pl
+    locator: "art. 46-49, 51, 54-55"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Status ELI: obowiązujący. Art. 47a zawiera wyjątek dla dokumentów przygotowywanych wyłącznie dla celów obrony narodowej lub obrony cywilnej, z zastrzeżeniem Natura 2000."
+
+  - id: SRC-0217
+    title: "Strategiczna OOŚ"
+    publisher: "Generalna Dyrekcja Ochrony Środowiska"
+    url: "https://www.gov.pl/web/gdos/strategiczna-oos"
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: "oficjalny przewodnik proceduralny"
+    language: pl
+    locator: "sekcje: dokumenty podlegające SOOŚ, etapy, udział społeczeństwa, warunki przyjęcia dokumentu"
+    checksum: null
+    license: "CC BY-SA 4.0"
+    archive_path: null
+    status: verified
+    notes: "Przewodnik należy czytać z aktualnym tekstem ustawy ujętym jako SRC-0216."
+
+  - id: SRC-0218
+    title: "System monitorowania projektów strategicznych nie został w pełni wdrożony"
+    publisher: "Najwyższa Izba Kontroli"
+    url: "https://www.nik.gov.pl/aktualnosci/rozwoj-i-gospodarka/system-monitorowania-projektow-strategicznych.html"
+    published_at: "2023-05-08"
+    accessed_at: "2026-07-21"
+    tier: B2-independent-analysis
+    document_type: "informacja o wynikach kontroli"
+    language: pl
+    locator: "sekcje: 'System nie został w pełni wdrożony', '(Nie)funkcjonowanie systemu MonAliZa', 'Wnioski'"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło historyczne i wspierające; nie przesądza o stanie systemów KPRM w 2026 r."

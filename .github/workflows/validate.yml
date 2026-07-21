@@ -1,0 +1,53 @@
+name: validate-and-build
+
+on:
+  pull_request:
+  push:
+    branches: [main, "agent/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Synchronize completed research packs
+        run: python tooling/sync_research.py
+      - name: Validate evidence and documents
+        run: python tooling/validate.py
+      - name: Audit claims, citations and artifact completeness
+        run: |
+          python tooling/index_claim_usage.py
+          python tooling/audit_content.py
+      - name: Verify generated registries are committed
+        run: |
+          git diff --exit-code -- \
+            research/sources.yaml \
+            research/claims.yaml \
+            research/contradictions.yaml \
+            research/claim-usage.yaml
+      - name: Build all artifacts
+        run: python tooling/build.py
+      - name: Validate rendered outputs
+        run: python tooling/validate_outputs.py
+      - name: Generate human-readable validation report
+        run: |
+          python tooling/generate_validation_report.py
+          git diff --exit-code -- reports/validation-report-v0.1.md
+      - name: Upload review artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: polska2040-draft
+          path: |
+            dist/
+            reports/validation-report-v0.1.md
+          if-no-files-found: error

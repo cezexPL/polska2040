@@ -1,0 +1,561 @@
+schema_version: 1
+claims:
+  - id: CLM-0801
+    text: "Umowa o współpracy w dziedzinie bezpieczeństwa z 8 lipca 2024 r. przewiduje poszukiwanie polsko-ukraińskich partnerstw przemysłowych, wybór lokalizacji produkcji w Polsce lub Ukrainie, wspólną produkcję, ochronę transferowanych technologii i IP oraz współpracę w kontroli międzynarodowych transferów uzbrojenia."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0801]
+    locators: ["SRC-0801: Defence industry cooperation, pkt 1-11"]
+    as_of: "2024-07-08"
+    confidence: high
+    author: A08
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): oficjalny tekst umowy bezpieczeństwa z 8 lipca 2024 r. potwierdza lokalizację produkcji w Polsce lub Ukrainie, wspólną produkcję, ochronę technologii i IP oraz kontrolę transferów. Są to ramy polityczne, nie kontrakt produktowy."
+
+  - id: CLM-0802
+    text: "Polska i Ukraina podpisały 5 lutego 2026 r. list intencyjny dotyczący wspólnej produkcji amunicji i sprzętu wojskowego oraz rozwoju technologii obronnych, co potwierdzają oficjalne komunikaty obu stron."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0802, SRC-0803]
+    locators: ["SRC-0802: akapity 94-102", "SRC-0803: akapity 209-210"]
+    as_of: "2026-02-05"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Pełny tekst listu, jego charakter prawny, finansowanie i lista projektów nie zostały opublikowane w przywołanych źródłach."
+
+  - id: CLM-0803
+    text: "PAIH zorganizowała 12 lutego 2026 r. w Kijowie spotkanie poświęcone wdrażaniu współpracy w systemach bezzałogowych i lokalizacji produkcji w Polsce, ale komunikat nie potwierdza zawarcia kontraktu ani utworzenia JV."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0824]
+    locators: ["SRC-0824: cały komunikat"]
+    as_of: "2026-02-12"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zainteresowanie i matchmaking nie są dowodem zdolności produkcyjnej, due diligence ani bankowalności projektu."
+
+  - id: CLM-0804
+    text: "BraveTech EU ma według EDA łączny budżet 100 mln EUR, a umowa z 29 kwietnia 2026 r. przekazuje EDA 35 mln EUR na drugi etap obejmujący testowanie i ocenę rozwiązań europejskich i ukraińskich."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0804, SRC-0805]
+    locators: ["SRC-0804: opis Contribution Agreement i faz", "SRC-0805: About BraveTech EU"]
+    as_of: "2026-04-29"
+    confidence: high
+    author: A08
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): komunikaty KE i EDA z 29 kwietnia 2026 r. potwierdzają 100 mln EUR łącznie oraz 35 mln EUR dla etapu EDA obejmującego testowanie i ocenę. Żadna z kwot nie jest automatyczną polską alokacją."
+
+  - id: CLM-0805
+    text: "BraveTech EU łączy selekcję innowacji z testowaniem w warunkach zbliżonych do operacyjnych i jest właściwym kanałem do walidacji oraz kojarzenia partnerów, lecz sam udział nie zastępuje krajowego zamówienia ani decyzji o skalowaniu."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0804, SRC-0805]
+    locators: ["SRC-0804: dwufazowy model", "SRC-0805: Seed and Scale Up"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wniosek wynika z rozdzielenia mechanizmu innowacyjnego od polskiego procesu zakupowego."
+
+  - id: CLM-0806
+    text: "SAFE uznaje Ukrainę za uprawnionego partnera wspólnego zamówienia oraz obejmuje wykonawców i podwykonawców ustanowionych w UE, EOG-EFTA lub Ukrainie, przy zachowaniu warunków kontroli właścicielskiej, pochodzenia komponentów i swobody projektowej."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0806]
+    locators: ["SRC-0806: art. 2 pkt 3 i art. 16 ust. 3-12"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 4 i 16 SAFE potwierdzają udział Ukrainy oraz zasady siedziby, kontroli, pochodzenia i infrastruktury. Swoboda decyzji projektowej z art. 16 ust. 11 dotyczy produktów kategorii drugiej, nie każdego zakupu SAFE."
+
+  - id: CLM-0807
+    text: "W zamówieniach SAFE koszt komponentów pochodzących spoza UE, państw EOG-EFTA i Ukrainy nie może co do zasady przekroczyć 35% szacowanego kosztu komponentów produktu końcowego."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0806]
+    locators: ["SRC-0806: art. 16 ust. 10 i motyw 19"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 16 ust. 10 SAFE ustanawia limit 35% szacowanego kosztu komponentów spoza UE, EOG-EFTA i Ukrainy. Reguła nie jest miarą polskiej wartości dodanej i wymaga audytowalnego pochodzenia komponentów."
+
+  - id: CLM-0808
+    text: "SAFE nie tworzy automatycznej kwalifikowalności ani finansowania dla dowolnego polsko-ukraińskiego projektu; decydują zatwierdzony plan, kwalifikowany przedmiot, tryb wspólnego zamówienia i warunki wykonawców oraz łańcucha dostaw."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0806]
+    locators: ["SRC-0806: art. 1, 7 i 16"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Należy unikać księgowania SAFE jako nieograniczonego grantu."
+
+  - id: CLM-0809
+    text: "Oficjalny komunikat UE z 16 lipca 2026 r. stwierdza, że Ukraina została w pełni stowarzyszona z EDF i EDIP, co otwiera wspólne konsorcja ukraińskich i unijnych firm w projektach B+R, przy zachowaniu zasad konkretnych programów i naborów."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0814, SRC-0807]
+    locators: ["SRC-0814: akapity 162-166", "SRC-0807: art. 9, 20 i 23"]
+    as_of: "2026-07-16"
+    confidence: high
+    author: A08
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): zweryfikowano zakres oficjalnego komunikatu UE z 16 lipca 2026 r. Claim dotyczy treści ogłoszenia; kwalifikowalność konkretnego konsorcjum nadal zależy od aktu stowarzyszeniowego, programu prac i naboru."
+
+  - id: CLM-0810
+    text: "Pierwszy nabór kaskadowy EDF w projekcie MaJoR był otwarty dla MŚP i startupów z UE, Norwegii i Ukrainy oraz oferował do 60 tys. EUR i sześciomiesięczne wsparcie, ale został zamknięty 25 marca 2026 r."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0808]
+    locators: ["SRC-0808: akapity 104-117"]
+    as_of: "2026-03-25"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To przykład ścieżki FSTP, nie obecnie dostępna pula i nie wzorzec finansowy każdego kolejnego naboru."
+
+  - id: CLM-0811
+    text: "Nabór EUDIS Defence Business Accelerator ogłoszony w kwietniu 2026 r. przewidywał 20 miejsc i voucher 120 tys. EUR zależny od postępu, lecz termin aplikacji upłynął 30 maja 2026 r."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0809]
+    locators: ["SRC-0809: akapity 103-110"]
+    as_of: "2026-05-30"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Program akceleracyjny nie jest zamówieniem ani automatycznym finansowaniem produkcji."
+
+  - id: CLM-0812
+    text: "STEP nie jest osobnym funduszem: łączy środki 11 istniejących programów, a kwalifikowalność, selekcja i przyznanie wsparcia nadal wynikają z zasad programu i konkretnego naboru."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0810]
+    locators: ["SRC-0810: Is STEP a new funding programme i What are the eligibility rules"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Pieczęć STEP ani zgodność tematyczna nie są decyzją finansową."
+
+  - id: CLM-0813
+    text: "UNITE - Brave NATO jest wspólnym programem NATO-Ukraina dla zespołów firm sojuszniczych i ukraińskich; oficjalna strona NATO podaje do 10 mln EUR w pierwszej rundzie i gotowość do dalszego skalowania do 50 mln EUR, a nie gwarantowany budżet dla Polski."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0811]
+    locators: ["SRC-0811: UNITE - Brave NATO, akapity 1171-1174"]
+    as_of: "2026-07-09"
+    confidence: high
+    author: A08
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): oficjalna strona NATO potwierdza zespoły sojuszniczo-ukraińskie, do 10 mln EUR w pierwszej rundzie oraz gotowość skalowania do 50 mln EUR w 2026 r. Druga wartość jest intencją warunkową, nie gwarancją finansowania."
+
+  - id: CLM-0814
+    text: "DIANA jest organem NATO, natomiast NATO Innovation Fund jest odrębnym prywatnym funduszem nastawionym na zysk i nie ma obowiązku inwestować w firmy wybrane przez DIANA."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0813]
+    locators: ["SRC-0813: cały dokument"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Akceleracja, walidacja i kapitał muszą być modelowane jako osobne ścieżki."
+
+  - id: CLM-0815
+    text: "Pakiet NATO z 8 lipca 2026 r. wzywa do łączenia eksperymentów z wcześniej określonymi ścieżkami kontraktowania, partnerstw co-design, co-development, co-production i co-sustainment oraz ochrony kluczowych technologii i IP."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0812]
+    locators: ["SRC-0812: pkt 6-10"]
+    as_of: "2026-07-08"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To kierunek sojuszniczy, nie bezpośrednia podstawa udzielenia polskiego zamówienia."
+
+  - id: CLM-0816
+    text: "NATO uruchomiło w lipcu 2026 r. pilotaż NATO Engine jako sieć producentów i dostępnych mocy wytwórczych oraz zapowiedziało zaproszenie Ukrainy do udziału."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0812]
+    locators: ["SRC-0812: pkt 16-21"]
+    as_of: "2026-07-08"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Pilotaż nie potwierdza udziału konkretnego polskiego zakładu ani kontraktu; ustalenia B2B pozostają odpowiedzialnością firm, w tym licencje eksportowe."
+
+  - id: CLM-0817
+    text: "UE i Ukraina ogłosiły 16 lipca 2026 r. Defence Industrial Partnership obejmujące usuwanie barier, zbliżanie standardów, zamówienia, ochronę IP i współpracę przemysłową, w tym JV."
+    type: FACT
+    status: verified
+    source_ids: [SRC-0814]
+    locators: ["SRC-0814: akapity 139-153"]
+    as_of: "2026-07-16"
+    confidence: high
+    author: A08
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): komunikat EEAS z 16 lipca 2026 r. potwierdza partnerstwo obejmujące bariery, standardy, zamówienia, IP i JV. Jest to ogłoszona rama współpracy, nie przyznanie pierwszeństwa ani finansowania polskiemu projektowi."
+
+  - id: CLM-0818
+    text: "EU Defence Readiness Roadmap 2030 proponuje monitorować bezpośrednie inwestycje UE w ukraińską bazę przemysłową, liczbę JV UE-Ukraina i udział pożyczek SAFE angażujących Ukrainę."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0815]
+    locators: ["SRC-0815: Ukraine as a key part of Europe's readiness effort, indicators"]
+    as_of: "2025-10-16"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Są to proponowane wskaźniki UE; Polska potrzebuje dodatkowych mierników wartości i kontroli pozostającej w kraju."
+
+  - id: CLM-0819
+    text: "Program prac EDIP na lata 2026-2027 ma 1,5 mld EUR w skali UE, w tym instrumenty dotyczące współpracy z Ukrainą, wspólnych zamówień, mocy produkcyjnych i BraveTech EU; nie stanowi polskiej alokacji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0825]
+    locators: ["SRC-0825: investment priorities and allocation of funds"]
+    as_of: "2026-03-30"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Każda pozycja w polskim modelu wymaga identyfikatora naboru i decyzji o przyznaniu środków."
+
+  - id: CLM-0820
+    text: "Polski system kontroli obrotu strategicznego obejmuje nie tylko fizyczny wywóz, ale także oprogramowanie, technologię, pośrednictwo i pomoc techniczną, dlatego transfer know-how w projekcie JV może wymagać klasyfikacji i zezwolenia."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0817, SRC-0818, SRC-0820]
+    locators: ["SRC-0817: pkt 97-108", "SRC-0818: art. 3-10", "SRC-0820: pełna nowelizacja"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Ostateczna klasyfikacja zależy od towaru, technologii, odbiorcy, zastosowania i bieżących wykazów."
+
+  - id: CLM-0821
+    text: "Przedsiębiorca ubiegający się w Polsce o indywidualne lub globalne zezwolenie na obrót uzbrojeniem albo korzystający z krajowego zezwolenia generalnego musi utworzyć i stosować certyfikowany wewnętrzny system kontroli i zarządzania."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0816, SRC-0820]
+    locators: ["SRC-0816: WSK", "SRC-0820: zmiany w ustawie i przepisy wykonawcze"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Dojrzałość compliance powinna być kryterium wejścia partnera, a nie zadaniem wykonywanym po podpisaniu umowy."
+
+  - id: CLM-0822
+    text: "Eksport uzbrojenia podlega ocenie indywidualnej zgodnie ze wspólnymi kryteriami UE, a interesy ekonomiczne i przemysłowe nie mogą uchylać stosowania tych kryteriów."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0817, SRC-0819]
+    locators: ["SRC-0817: ramy prawne i role organów", "SRC-0819: art. 1-10, w szczególności art. 10"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Strategia eksportowa musi mieć scenariusze odmowy, ograniczeń końcowego użycia i zmiany państwa przeznaczenia."
+
+  - id: CLM-0823
+    text: "Transakcja kapitałowa lub zmiana kontroli w sektorze obronnym może podlegać polskiej kontroli niektórych inwestycji, więc struktura JV i późniejsze rundy finansowania wymagają screeningu przed zamknięciem."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0821, SRC-0822]
+    locators: ["SRC-0821: tekst jednolity ustawy", "SRC-0822: scope, notification and procedure"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Czy zgłoszenie jest wymagane, zależy od stron, kontroli, działalności, progów i aktualnego prawa; rozstrzyga doradca prawny i właściwy organ."
+
+  - id: CLM-0824
+    text: "CRBR jest podstawowym oficjalnym źródłem danych o beneficjentach rzeczywistych polskich podmiotów, ale sam wpis nie wystarcza do pełnego due diligence właścicielskiego i kontrwywiadowczego."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0823]
+    locators: ["SRC-0823: rejestr i informacje o systemie"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Należy niezależnie badać kontrolę faktyczną, finansowanie, osoby powiązane, sankcje, spory i zmiany historyczne."
+
+  - id: CLM-0825
+    text: "Portfel współpracy powinien używać różnych modeli - B+R, płatnej pomocy technicznej, licencji, produkcji kontraktowej, co-development, JV i inwestycji kapitałowej - zamiast zakładać, że JV jest domyślnie najlepsze dla każdego projektu."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0801, SRC-0812, SRC-0814]
+    locators: ["SRC-0801: Defence industry cooperation", "SRC-0812: pkt 7", "SRC-0814: partnership and Drone Deal"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Model należy dobierać do dojrzałości rozwiązania, ryzyka IP, potrzeb kapitałowych, jurysdykcji produkcji i ścieżki zakupu."
+
+  - id: CLM-0826
+    text: "Polska powinna prowadzić jeden rządowy rejestr polsko-ukraińskich zobowiązań, projektów, właścicieli decyzji, finansowania i bramek, ponieważ publiczne ramy z 2024 i 2026 r. nie ujawniają kompletnego portfela wykonawczego."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0801, SRC-0802, SRC-0803, SRC-0824]
+    locators: ["SRC-0801: Final provisions", "SRC-0802: współpraca w dziedzinie bezpieczeństwa", "SRC-0824: cały komunikat"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Część operacyjna rejestru może wymagać chronionego obiegu; publiczny dashboard powinien zawierać tylko zagregowane, bezpieczne dane."
+
+  - id: CLM-0827
+    text: "Mechanizmy BraveTech EU, EDF, EDIP, EUDIS, UNITE i DIANA należy traktować jako odrębne ścieżki selekcji, testowania, konsorcjów, akceleracji lub finansowania, a nie jako substytut polskiego popytu i kontraktu."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0804, SRC-0805, SRC-0808, SRC-0809, SRC-0811, SRC-0813, SRC-0825]
+    locators: ["SRC-0804: dwie fazy", "SRC-0808: FSTP", "SRC-0809: accelerator", "SRC-0811: UNITE", "SRC-0813: rozdzielenie DIANA/NIF"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Każdy projekt potrzebuje osobnej mapy: potrzeba użytkownika, test, nabywca, finansowanie, licencje i skalowanie."
+
+  - id: CLM-0828
+    text: "Wartość dla Polski należy mierzyć udziałem krajowej wartości dodanej, kontrolą nad kluczowym IP i interfejsami, liczbą kwalifikowanych alternatywnych dostawców, zdolnością serwisową, eksportem po uzyskaniu zezwoleń i utrzymaniem talentów, a nie samą rejestracją spółki w Polsce."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0801, SRC-0806, SRC-0812, SRC-0815]
+    locators: ["SRC-0806: pochodzenie i ograniczenia projektowe", "SRC-0812: IP i sovereign adoption", "SRC-0815: indicators"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wskaźniki wymagają audytowalnej definicji i wartości bazowych przed ustawieniem celów."
+
+  - id: CLM-0829
+    text: "Due diligence partnera powinno być odnawiane przy wejściu, przed dostępem do danych lub IP, przed finansowaniem, przed produkcją seryjną oraz po zmianie właściciela albo źródła kapitału."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0806, SRC-0807, SRC-0818, SRC-0821, SRC-0822, SRC-0823]
+    locators: ["SRC-0806: art. 16", "SRC-0807: art. 9 i 23", "SRC-0821: ustawa o kontroli inwestycji"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Jednorazowy check nie wykryje późniejszej zmiany kontroli, sankcji, zadłużenia ani podwykonawców."
+
+  - id: CLM-0830
+    text: "KPRM powinien ustanowić wspólne Biuro Portfela Partnerstwa Polska-Ukraina z pojedynczym właścicielem wyniku, ale bez kompetencji do omijania MON, MRiT, MSZ, służb, UOKiK ani organów kontroli eksportu."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0801, SRC-0802, SRC-0814]
+    locators: ["SRC-0801: wdrażanie i upoważnione organy", "SRC-0814: wspólne ramy UE-Ukraina"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Biuro ma koordynować portfel i bramki, nie wydawać zezwoleń ani wybierać dostawcy poza prawem zamówień."
+
+  - id: CLM-0831
+    text: "Rząd powinien przyjąć jeden minimalny standard due diligence obejmujący właścicieli i finansowanie, sankcje i PEP, cyber i supply chain, IP i dane, kontrolę eksportu i końcowego użytkownika, spory, zdolność produkcyjną oraz ciągłość działania."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0806, SRC-0807, SRC-0816, SRC-0817, SRC-0818, SRC-0819, SRC-0821, SRC-0823]
+    locators: ["SRC-0806: warunki kontroli", "SRC-0816: WSK", "SRC-0819: kryteria eksportu", "SRC-0821: kontrola inwestycji"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Standard ma być proporcjonalny do ryzyka i stopnia dostępu; wynik powinien zawierać warunki, termin ważności i właściciela ryzyka."
+
+  - id: CLM-0832
+    text: "Umowy powinny rozdzielać background IP, foreground IP, dane testowe i operacyjne, pola użycia, terytoria i eksport, sublicencje, prawa do zmian, escrow, step-in, zmianę kontroli, podwykonawców, cyberincydenty i plan wyjścia."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0801, SRC-0806, SRC-0807, SRC-0814]
+    locators: ["SRC-0801: pkt 9", "SRC-0806: art. 16 ust. 10-12", "SRC-0807: art. 23", "SRC-0814: procurement and IP alignment"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Szczegółowe klauzule muszą przygotować prawnicy dla konkretnej technologii i jurysdykcji; memorandum nie jest wzorem umowy."
+
+  - id: CLM-0833
+    text: "Pierwszy portfel powinien ograniczyć się do obszarów wysokiej wartości defensywnej i dual-use na poziomie polityki: ochrona przed systemami bezzałogowymi, odporna łączność i nawigacja, świadomość widma, robotyka logistyczna i ratownicza, ochrona infrastruktury morskiej oraz diagnostyka i serwis."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0801, SRC-0811, SRC-0814, SRC-0815]
+    locators: ["SRC-0801: defence industry, cyber and maritime cooperation", "SRC-0811: innovation roadmap", "SRC-0815: Ukraine and flagship readiness areas"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wybór produktu, parametrów i priorytetów wymaga jawnej i niejawnej analizy potrzeb; brak instrukcji konstrukcji lub użycia."
+
+  - id: CLM-0834
+    text: "Dla każdego projektu należy utrzymywać żywą kartę kwalifikowalności SAFE, EDF, EDIP, EUDIS, STEP, BraveTech i NATO z terminem naboru, kosztami kwalifikowalnymi, wkładem własnym, statusem decyzji oraz zakazem podwójnego finansowania."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0804, SRC-0806, SRC-0808, SRC-0809, SRC-0810, SRC-0811, SRC-0825]
+    locators: ["SRC-0810: programme-specific eligibility", "SRC-0825: calls from 31 March 2026"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Pozycja finansowa w modelu pozostaje potencjalna do chwili otrzymania wiążącej decyzji lub umowy."
+
+  - id: CLM-0835
+    text: "MRiT i MSZ powinny utworzyć wspólną komórkę pre-screeningu klasyfikacji, licencji, końcowego użytkownika, sankcji i IP dla portfela, bez gwarancji pozytywnej decyzji i bez skracania ustawowych kontroli."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0816, SRC-0817, SRC-0818, SRC-0819, SRC-0820]
+    locators: ["SRC-0817: role organów", "SRC-0818: licencje i pomoc techniczna", "SRC-0820: nowelizacja 2026"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Celem jest wczesne wykrycie przeszkód, nie obietnica zezwolenia."
+
+  - id: CLM-0836
+    text: "Nie jest publicznie znany pełny tekst, charakter prawny, budżet, harmonogram, podział IP ani katalog projektów listu intencyjnego Polska-Ukraina z 5 lutego 2026 r."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0802, SRC-0803]
+    locators: ["SRC-0802: komunikat bez załącznika", "SRC-0803: komunikat bez załącznika"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Pozyskać od KPRM/MON/MRiT oficjalny tekst albo zatwierdzone streszczenie dla zespołu realizacyjnego."
+
+  - id: CLM-0837
+    text: "Nie jest publicznie znany kompletny rejestr aktywnych polsko-ukraińskich projektów obronnych, ich rzeczywistych beneficjentów, zdolności produkcyjnych, zobowiązań finansowych i wyników testów."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0801, SRC-0802, SRC-0803, SRC-0824]
+    locators: ["oficjalne komunikaty nie zawierają pełnego portfela"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wymaga międzyresortowego audytu i bezpiecznej części rejestru."
+
+  - id: CLM-0838
+    text: "Bez badania konkretnego partnera nie można potwierdzić jego beneficjentów rzeczywistych, źródeł kapitału, zadłużenia, praw do IP, sankcji, cyberdojrzałości ani realnej zdolności zwiększenia produkcji."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0821, SRC-0822, SRC-0823]
+    locators: ["partner-specific verification required"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nazwy firm nie są rekomendacją i nie powinny pojawić się na krótkiej liście bez porównania i due diligence."
+
+  - id: CLM-0839
+    text: "Nie wiadomo, jakie kategorie danych operacyjnych Ukraina może legalnie i bezpiecznie udostępnić polskim podmiotom, na jakiej podstawie, w jakiej lokalizacji i z jakimi prawami do modeli oraz wyników."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0801, SRC-0804, SRC-0814]
+    locators: ["publiczne źródła opisują współpracę, ale nie konkretne klasyfikacje i prawa dostępu"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: restricted-placeholder
+    notes: "Do aneksu autoryzowanego: klasy danych, właściciel, podstawa prawna, środowisko przetwarzania i audyt dostępu; bez kopiowania materiału operacyjnego do repozytorium."
+
+  - id: CLM-0840
+    text: "Nie jest znana kwota środków SAFE, EDF, EDIP, EUDIS, STEP, BraveTech lub NATO, która zostanie faktycznie przyznana konkretnym polsko-ukraińskim projektom programu Polska 2040."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0804, SRC-0805, SRC-0806, SRC-0808, SRC-0809, SRC-0810, SRC-0811, SRC-0825]
+    locators: ["programmes and calls do not establish project awards"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A08
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "W modelu finansowym pozostawić UNKNOWN lub prawdopodobieństwo scenariuszowe do czasu wiążącej decyzji."

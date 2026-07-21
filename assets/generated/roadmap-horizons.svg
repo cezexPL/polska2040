@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Horyzonty realizacji strategii Polska 2040</title>
+  <desc id="desc">Oś czasu obejmuje pierwsze 100 dni, 6 miesięcy, 12 miesięcy, lata 2027–2030, lata 2031–2035 i ambicję do 2040 roku.</desc>
+  <rect width="1600" height="620" fill="#f7f9fb"/>
+  <text x="80" y="82" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="700" fill="#0b1f33">Najpierw zdolność wykonawcza, potem skala</text>
+  <text x="80" y="126" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#5d6873">Horyzonty wyznaczają kolejność decyzji, nie przesądzają budżetu</text>
+  <line x1="120" y1="300" x2="1480" y2="300" stroke="#0b1f33" stroke-width="8"/>
+  <g font-family="DejaVu Sans, sans-serif">
+    <g transform="translate(160 300)"><circle r="22" fill="#c7333e"/><line y1="-22" y2="-82" stroke="#c7333e" stroke-width="4"/><text x="0" y="-106" text-anchor="middle" font-size="21" font-weight="700" fill="#0b1f33">100 dni</text><text x="0" y="52" text-anchor="middle" font-size="16" fill="#5d6873">mandat · audyt</text><text x="0" y="76" text-anchor="middle" font-size="16" fill="#5d6873">problemy · pilotaże</text></g>
+    <g transform="translate(400 300)"><circle r="22" fill="#194f7a"/><line y1="22" y2="82" stroke="#194f7a" stroke-width="4"/><text x="0" y="122" text-anchor="middle" font-size="21" font-weight="700" fill="#0b1f33">6 miesięcy</text><text x="0" y="-66" text-anchor="middle" font-size="16" fill="#5d6873">strategie funkcjonalne</text><text x="0" y="-42" text-anchor="middle" font-size="16" fill="#5d6873">dane · prawo · finanse</text></g>
+    <g transform="translate(640 300)"><circle r="22" fill="#286a98"/><line y1="-22" y2="-82" stroke="#286a98" stroke-width="4"/><text x="0" y="-106" text-anchor="middle" font-size="21" font-weight="700" fill="#0b1f33">12 miesięcy</text><text x="0" y="52" text-anchor="middle" font-size="16" fill="#5d6873">pierwsze kontrakty</text><text x="0" y="76" text-anchor="middle" font-size="16" fill="#5d6873">sieć kadr · testy</text></g>
+    <g transform="translate(910 300)"><circle r="22" fill="#387da7"/><line y1="22" y2="82" stroke="#387da7" stroke-width="4"/><text x="0" y="122" text-anchor="middle" font-size="21" font-weight="700" fill="#0b1f33">2027–2030</text><text x="0" y="-66" text-anchor="middle" font-size="16" fill="#5d6873">skalowanie dowiedzionych</text><text x="0" y="-42" text-anchor="middle" font-size="16" fill="#5d6873">produktów i komponentów</text></g>
+    <g transform="translate(1190 300)"><circle r="22" fill="#c7a24a"/><line y1="-22" y2="-82" stroke="#c7a24a" stroke-width="4"/><text x="0" y="-106" text-anchor="middle" font-size="21" font-weight="700" fill="#0b1f33">2031–2035</text><text x="0" y="52" text-anchor="middle" font-size="16" fill="#5d6873">odporność dostaw</text><text x="0" y="76" text-anchor="middle" font-size="16" fill="#5d6873">eksport · aktualizacja</text></g>
+    <g transform="translate(1430 300)"><circle r="30" fill="#0b1f33"/><text x="0" y="8" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">2040</text><text x="0" y="70" text-anchor="middle" font-size="16" fill="#5d6873">przegląd ambicji</text></g>
+  </g>
+  <rect x="80" y="510" width="1440" height="58" rx="12" fill="#fff4d7" stroke="#c7a24a"/>
+  <text x="800" y="546" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#473a1a">Bramka: brak dowodu z pilotażu oznacza poprawę albo zamknięcie — nie automatyczne skalowanie</text>
+</svg>
+

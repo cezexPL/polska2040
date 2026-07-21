@@ -1,0 +1,421 @@
+schema_version: 1
+claims:
+  - id: CLM-0301
+    text: Prawo zamówień publicznych stosuje się do zamówień w dziedzinach obronności i bezpieczeństwa udzielanych przez zamawiających publicznych i sektorowych, gdy wartość jest równa progom unijnym lub je przekracza, z zastrzeżeniem ustawowych wyłączeń.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0301]
+    locators: ["SRC-0301: art. 2 ust. 1 pkt 3"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Treść sprawdzona przez autora w źródle A1; zgodnie z kontraktem agentowym wymaga niezależnej recenzji przed oznaczeniem verified."
+
+  - id: CLM-0302
+    text: Wyłączenie usług badawczych lub rozwojowych spod PZP nie jest automatyczne; art. 11 ust. 1 pkt 3 wiąże zastosowanie ustawy z określonymi kodami CPV oraz łącznym spełnieniem warunków wyłącznej korzyści zamawiającego i pełnego finansowania przez zamawiającego.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0301]
+    locators: ["SRC-0301: art. 11 ust. 1 pkt 3"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 11 ust. 1 pkt 3 aktualnego PZP potwierdza wskazane kody CPV i dwa łączne warunki. Weryfikacja nie kwalifikuje żadnej konkretnej umowy B+R."
+
+  - id: CLM-0303
+    text: Wyłączenie PZP ze względu na informacje niejawne, szczególne środki bezpieczeństwa lub istotny interes bezpieczeństwa państwa działa tylko w zakresie, w jakim ochrony tego interesu nie można zapewnić w inny sposób, w szczególności przy użyciu działu VI PZP.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0301]
+    locators: ["SRC-0301: art. 12 ust. 1 pkt 1"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Przepis nie wspiera blankietowego wyłączenia wszystkich zakupów programu. Wymaga niezależnej recenzji prawnej."
+
+  - id: CLM-0304
+    text: W zamówieniach w dziedzinach obronności i bezpieczeństwa PZP wyłącza stosowanie przepisów właściwych dla przetargu nieograniczonego, partnerstwa innowacyjnego, dynamicznego systemu zakupów i konkursu.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0301]
+    locators: ["SRC-0301: art. 395 ust. 3"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Fakt ogranicza możliwość mechanicznego przeniesienia cywilnego modelu partnerstwa innowacyjnego do zamówienia obronnego."
+
+  - id: CLM-0305
+    text: PZP przewiduje dla zamówień obronnych przetarg ograniczony i negocjacje z ogłoszeniem, a w określonych przypadkach dialog konkurencyjny, negocjacje bez ogłoszenia lub zamówienie z wolnej ręki; kryteria mogą obejmować poza ceną lub kosztem m.in. bezpieczeństwo dostaw, interoperacyjność i właściwości operacyjne.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0301]
+    locators: ["SRC-0301: art. 410 ust. 1–2 i art. 417 ust. 1"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 410 i 417 PZP potwierdzają katalog trybów oraz kryteria bezpieczeństwa dostaw, interoperacyjności i właściwości operacyjnych. Tryby inne niż podstawowe pozostają warunkowe."
+
+  - id: CLM-0306
+    text: Jedną z przesłanek negocjacji bez ogłoszenia w zamówieniach obronnych są produkty wytwarzane jedynie do celów prac badawczych i rozwojowych, ale przepis wyłącza z tej przesłanki produkcję seryjną służącą osiągnięciu zysku lub pokryciu kosztów badań lub rozwoju.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0301]
+    locators: ["SRC-0301: art. 414 ust. 2 pkt 1"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Wspiera rozdzielenie umowy na eksperyment od zgodnej z prawem ścieżki zakupu seryjnego; nie jest poradą dla konkretnego postępowania."
+
+  - id: CLM-0307
+    text: Art. 2 ust. 5 ustawy z 25 lipca 2025 r. wyłącza PZP dla zamówień Sił Zbrojnych RP dotyczących wskazanych systemów bezzałogowych i środków ich zwalczania, jeżeli rozwiązanie przetestowano w Siłach Zbrojnych RP, otrzymało pozytywną rekomendację z testów i Minister Obrony Narodowej zgodził się na zakup.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0302, SRC-0303]
+    locators: ["SRC-0302: art. 2 ust. 5", "SRC-0303: art. 5 nie zmienia art. 2 ust. 5"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): art. 2 ust. 5 ustawy z 25 lipca 2025 r. potwierdza wszystkie trzy warunki. Kontrola zmian do 21 lipca 2026 r. nie wykazała uchylenia przepisu; należy sprawdzić go ponownie przed zakupem."
+
+  - id: CLM-0308
+    text: Publiczne ogłoszenie MON o testach na podstawie decyzji nr 123/MON wskazuje cztery zasady procesu — oparcie o jednostki organizacyjne Sił Zbrojnych, rozproszone testowanie, uczciwą, transparentną i konkurencyjną procedurę oraz uproszczoną weryfikację kontrwywiadowczą dostawców.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0305]
+    locators: ["SRC-0305: założenia 1–4"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Fakt dotyczy jawnego opisu procedury, a nie oceny jakości każdego przeprowadzonego testu."
+
+  - id: CLM-0309
+    text: MON przypisuje Agencji Uzbrojenia role obejmujące definiowanie wymagań sprzętowych dla potrzeb operacyjnych, inicjowanie prac B+R, prowadzenie procedur pozyskiwania, nadzór jakości oraz zarządzanie prawami własności intelektualnej powstałymi z B+R.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0304]
+    locators: ["SRC-0304: sekcja Zadania"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Opis z oficjalnej strony MON; nie przesądza szczegółowego podziału odpowiedzialności w każdym trybie specjalnym."
+
+  - id: CLM-0310
+    text: Według komunikatu MON z 22 kwietnia 2026 r. do programu innowacji dla Tarczy Wschód wpłynęło ponad 715 zgłoszeń, przetestowano 36 rozwiązań, a po testach zapowiedziano raport i rekomendacje dotyczące możliwości wdrożenia.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0306]
+    locators: ["SRC-0306: akapity o 715 zgłoszeniach, 36 testach i raporcie dla MON"]
+    as_of: "2026-04-22"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Liczby są migawką kohorty na datę publikacji i nie powinny być łączone z późniejszymi kohortami bez uzgodnienia definicji."
+
+  - id: CLM-0311
+    text: Jawny komunikat o Tarczy Wschód nie podaje kompletnej liczby rekomendacji pozytywnych, podpisanych umów, pierwszych dostaw, skalowań, zamknięć projektów ani median czasu przejścia między etapami.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0306]
+    locators: ["SRC-0306: cały komunikat; brak pełnego szeregu kohortowego"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Brak danych w jednym komunikacie nie dowodzi, że państwo ich nie posiada; oznacza wyłącznie brak publicznej podstawy do policzenia konwersji."
+
+  - id: CLM-0312
+    text: Poligon Innowatora ma według MON przyspieszać identyfikację, testowanie i wdrażanie, dokumentować testy oraz wspierać zgodność regulacyjną, lecz publiczna strona inicjatywy nie przedstawia kompletnej, mierzalnej ścieżki test–kontrakt–skalowanie.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0307]
+    locators: ["SRC-0307: cele inicjatywy i brak opisu konwersji kontraktowej"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Wniosek dotyczy stanu jawnej dokumentacji, nie niejawnych lub wewnętrznych procedur MON."
+
+  - id: CLM-0313
+    text: NATO wskazuje ogólną ambicję znajdowania, testowania i przyjmowania nowych produktów technologicznych w terminie 24 miesięcy, przy czym samo źródło zastrzega, że czas zależy od poziomu gotowości technologicznej i charakteru produktu.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0308]
+    locators: ["SRC-0308: para 6 i przypis 5"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): oficjalny dokument NATO z 8 lipca 2026 r. podaje 24 miesiące jako ogólną ambicję i wprost zastrzega zależność od TRL oraz natury produktu; nie jest to gwarantowane SLA."
+
+  - id: CLM-0314
+    text: NATO zaleca łączenie wyzwań innowacyjnych i eksperymentów operacyjnych z wcześniej zidentyfikowanymi ścieżkami kontraktowania, które umożliwią szybkie pozyskanie przetestowanych rozwiązań, gdy spełniają istotne wymagania.
+    type: FACT
+    status: verified
+    source_ids: [SRC-0308]
+    locators: ["SRC-0308: para 7 pkt 3"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A12
+    used_in: []
+    sensitivity: public
+    notes: "A12 (2026-07-21): NATO zaleca powiązanie wyzwań i OPEX z uprzednio zidentyfikowanymi ścieżkami kontraktowania dla szybkiego nabycia rozwiązań, gdy spełniają wymagania. Jest to kierunek polityki, nie polska podstawa zakupowa."
+
+  - id: CLM-0315
+    text: DIANA opisuje finansowanie akceleracji i testów oraz dostęp do ponad 200 centrów testowych, ale publiczny opis programu nie obiecuje automatycznego zamówienia seryjnego przez państwo po ukończeniu programu.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0309]
+    locators: ["SRC-0309: Funding & Testing; Mission Track; brak gwarancji zakupu"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Wniosek zapobiega myleniu akceleracji i TEVV z krajowym kontraktem."
+
+  - id: CLM-0316
+    text: HEDI 2.0 i kampania OPEX EDA łączą wyzwania, fazowy rozwój, testy z użytkownikiem, porównywalne dowody i informację zwrotną; uczestników OPEX 2025 wybrano po konkurencyjnym postępowaniu, ale eksperyment nie jest sam w sobie dowodem późniejszego zakupu seryjnego.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0310, SRC-0311]
+    locators: ["SRC-0310: Innovators Forge i Uptake of Innovation", "SRC-0311: Areas to be tested"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Źródła wspierają wzorzec eksperymentowania, nie twierdzenie o automatycznej adopcji przez państwa członkowskie."
+
+  - id: CLM-0317
+    text: Polska posiada już publicznie widoczne elementy szybkiej adopcji — właściciela pozyskiwania, wyspecjalizowane testy, Poligon Innowatora i portfel innowacji — lecz z jawnych źródeł nie da się wykazać jednego kohortowego systemu łączącego wszystkie elementy z kontraktem, pierwszą partią, skalowaniem i zamknięciem.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0304, SRC-0305, SRC-0306, SRC-0307]
+    locators: ["SRC-0304–SRC-0307: zestawienie ról i opisów inicjatyw"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Nie wyklucza istnienia wewnętrznego lub niejawnego systemu. Uzasadnia audyt stanu faktycznego przed projektowaniem nowych struktur."
+
+  - id: CLM-0318
+    text: Publiczne źródła użyte w pakiecie A03 nie pozwalają ustalić krajowej mediany czasu od zaakceptowania problemu użytkownika do umowy pilotażowej ani od prototypu do pierwszej partii.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0304, SRC-0305, SRC-0306, SRC-0307]
+    locators: ["SRC-0304–SRC-0307: brak pełnych znaczników czasu dla kohort"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Cele czasowe strategii muszą być początkowo scenariuszem i zostać skalibrowane po audycie kohort 2025–2026."
+
+  - id: CLM-0319
+    text: Należy zbudować wspólny system operacyjny wokół istniejących instytucji, zamiast powoływać nową agencję zakupową; Biuro Realizacji w KPRM powinno mierzyć przepływ i eskalować zatory, ale nie wybierać dostawców.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0304, SRC-0306, SRC-0307]
+    locators: ["SRC-0304: zakres AU", "SRC-0306–SRC-0307: istniejące testy i inicjatywy"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: Premier/KPRM i MON. Rezultat: karta operacyjna oraz RACI. Bramka: brak dublowania kompetencji ustawowych. Stop-rule: projekt wstrzymany, jeśli tworzy równoległą selekcję dostawców. Ryzyko: dodatkowa biurokracja."
+
+  - id: CLM-0320
+    text: Każdy projekt powinien przechodzić przez jawnie zdefiniowane bramki — karta problemu, rozeznanie i kwalifikacja, prototyp, test, ograniczona partia ucząca, skalowanie albo zamknięcie oraz przegląd cyklu życia.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0308, SRC-0310, SRC-0311]
+    locators: ["SRC-0308: paras 6–7", "SRC-0310: phase-based development and OPEX"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: MON — użytkownik sponsorujący i Agencja Uzbrojenia. Rezultat: decyzja go/iterate/stop na każdej bramce. Stop-rule: brak właściciela problemu, podstawy bezpieczeństwa, danych testowych lub legalnej ścieżki pozyskania. Ryzyko: pozorna zwinność bez odpowiedzialności."
+
+  - id: CLM-0321
+    text: Przed finansowaniem prototypu lub eksperymentu należy wskazać hipotezę legalnej ścieżki kontraktowej, właściciela budżetu i warunki przejścia do następnego etapu; test bez takiej ścieżki powinien być jawnie oznaczony jako badanie bez obietnicy zakupu.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0301, SRC-0308]
+    locators: ["SRC-0301: ograniczenia trybów i R&D", "SRC-0308: para 7 pkt 3"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: Agencja Uzbrojenia wraz z prawnikiem zamówieniowym i właścicielem budżetu. Rezultat: karta ścieżki zakupu. Bramka: podpis trzech właścicieli. Stop-rule: brak zgodnej podstawy lub finansowania. Ryzyko: przedwczesne zobowiązanie wobec dostawcy."
+
+  - id: CLM-0322
+    text: Wielkość małej partii powinna wynikać z planu uczenia — liczby niezależnych użytkowników, scenariuszy, cykli serwisowych i danych potrzebnych do decyzji — a nie z jednego uniwersalnego przedziału sztuk dla wszystkich klas rozwiązań.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0308, SRC-0310]
+    locators: ["SRC-0308: zależność tempa od TRL i natury produktu", "SRC-0310: fazowy model i walidacja"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: użytkownik sponsorujący z niezależnym kierownikiem testu i Agencją Uzbrojenia. Rezultat: uzasadnienie próby i limit kosztu. Bramka: wystarczalność danych do decyzji. Stop-rule: brak celu uczenia lub nieproporcjonalny koszt. Ryzyko: zbyt mała próba albo ukryty zakup seryjny."
+
+  - id: CLM-0323
+    text: Cel 90 dni od zaakceptowanej karty problemu do umowy pilotażowej oraz 12 miesięcy od gotowego do testu prototypu do pierwszej partii może być użyty jako scenariusz dla projektów o odpowiedniej dojrzałości, ale nie jako bezwarunkowe SLA całego portfela.
+    type: SCENARIO
+    status: unverified
+    source_ids: [SRC-0308]
+    locators: ["SRC-0308: sojusznicza ambicja 24 miesięcy i zastrzeżenie zależności od TRL"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: Komitet Sterujący. Rezultat: cele P50/P90 według toru dojrzałości. Bramka: bazowa analiza kohort 2025–2026. Stop-rule: rewizja celu, gdy wymusza obchodzenie prawa, bezpieczeństwa lub jakości dowodu. Ryzyko: optymalizacja pod szybkość kosztem efektu."
+
+  - id: CLM-0324
+    text: Należy prowadzić jeden rejestr kohortowy z datami bramek, właścicielem problemu, podstawą prawną, ścieżką finansowania, wynikiem testu, decyzją zakupową, dostawą, skalowaniem lub zamknięciem oraz powodami odrzucenia.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0306, SRC-0308]
+    locators: ["SRC-0306: niepełny publiczny lejek", "SRC-0308: monitoring adopcji i sygnału popytu"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: Biuro Realizacji KPRM; administrator danych: MON. Rezultat: rejestr chroniony i zagregowany dashboard publiczny. Bramka: przegląd klasyfikacji i ochrony tajemnicy przedsiębiorstwa. Stop-rule: brak publikacji pól wrażliwych. Ryzyko: wyciek informacji i błędne porównania kohort."
+
+  - id: CLM-0325
+    text: Warunki stop powinny być określone przed wydaniem środków i obejmować co najmniej naruszenie bezpieczeństwa, niewiarygodność danych, brak postępu względem kamienia milowego, przekroczenie limitu kosztu, brak ścieżki pozyskania oraz utratę istotności problemu użytkownika.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0308, SRC-0310]
+    locators: ["SRC-0308: de-risking and adoption pathways", "SRC-0310: phase-based development and data-driven feedback"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: właściciel bramki wskazany w karcie projektu. Rezultat: decyzja stop/iterate/go z uzasadnieniem. Bramka: niezależne potwierdzenie danych. Ryzyko: zamykanie projektów obiecujących z powodu źle zdefiniowanego testu."
+
+  - id: CLM-0326
+    text: MON powinien przyjąć playbook wyboru ścieżki prawnej, który rozdzieli zakup na podstawie PZP, prace B+R, test bez obietnicy zakupu oraz wąskie wyłączenie z art. 2 ust. 5 ustawy z 25 lipca 2025 r.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0301, SRC-0302]
+    locators: ["SRC-0301: art. 11, 12, 395, 410, 414", "SRC-0302: art. 2 ust. 5"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: MON, Agencja Uzbrojenia, UZP i RCL. Rezultat: zatwierdzona macierz kwalifikacyjna i wzory dokumentów. Bramka: opinia prawna dla każdej ścieżki. Stop-rule: brak analogii rozszerzającej wyjątek. Ryzyko: niezgodne z prawem lub niekonkurencyjne zamówienie."
+
+  - id: CLM-0327
+    text: Ocena testu i decyzja o zakupie powinny wymagać rozdzielenia ról, ujawnienia konfliktów interesów, wspólnej karty wyników dla porównywalnych rozwiązań oraz niezależnego podpisu użytkownika, kierownika testu i funkcji bezpieczeństwa.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0305, SRC-0311]
+    locators: ["SRC-0305: transparentna i konkurencyjna procedura", "SRC-0311: konkurencyjny wybór i porównawcze testy"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: MON/IWBSU lub właściwy użytkownik testujący. Rezultat: audytowalny raport. Bramka: komplet podpisów i deklaracji COI. Stop-rule: recusal albo powtórzenie oceny przy konflikcie. Ryzyko: wydłużenie procedury i pozorna niezależność."
+
+  - id: CLM-0328
+    text: Wyłączenia PZP z art. 2 ust. 5 ustawy z 25 lipca 2025 r. nie można na podstawie jego brzmienia uogólnić na wszystkie systemy autonomiczne, AI, cyber, sensory ani technologie podwójnego zastosowania programu Polska 2040.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0302]
+    locators: ["SRC-0302: zamknięty opis kategorii w art. 2 ust. 5"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Wymaga potwierdzenia przez A09; rekomendowana interpretacja ostrożnościowa zakazuje rozszerzania wyjątku przez analogię."
+
+  - id: CLM-0329
+    text: Nowy szybki cykl powinien zachować odpowiedzialność Agencji Uzbrojenia za wymagania, pozyskanie, jakość i IP, a testującemu użytkownikowi dać odpowiedzialność za problem, scenariusz oceny i przydatność, bez łączenia wszystkich ról w jednym podmiocie.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0304, SRC-0305]
+    locators: ["SRC-0304: zakres AU", "SRC-0305: rola jednostek i IWBSU w testach"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: public
+    notes: "Owner: Minister Obrony Narodowej. Rezultat: RACI i bramki podpisowe. Stop-rule: zakaz samodzielnego definiowania potrzeby, testowania i zatwierdzania zakupu przez dostawcę lub jedną komórkę. Ryzyko: spory kompetencyjne."
+
+  - id: CLM-0330
+    text: Jawny pakiet nie może ustalić szczegółowych progów efektu operacyjnego, scenariuszy zagrożeń, lokalizacji, podatności, częstotliwości, wielkości potrzeb ani warunków użycia; dane te wymagają autoryzowanego obiegu i odrębnej kwalifikacji bezpieczeństwa.
+    type: UNKNOWN
+    status: unverified
+    source_ids: []
+    locators: ["placeholder do autoryzowanego aneksu: wymagania i wyniki niejawne"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A03
+    reviewer: A03
+    used_in: []
+    sensitivity: restricted-placeholder
+    notes: "W repozytorium zapisuje się tylko identyfikator pytania, właściciela dostępu i wpływ na decyzję; nie zapisuje się samej informacji wrażliwej."
