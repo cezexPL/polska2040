@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "updated": "2026-07-21",
+  "documents": [
+    {
+      "id": "strategia",
+      "order": 1,
+      "title": "Strategia „Polska 2040”",
+      "summary": "Pełny rdzeń programu suwerenności technologicznej Polski do 2040 roku.",
+      "category": "Strategia",
+      "status": "preparing",
+      "visibility": "public",
+      "featured": true
+    },
+    {
+      "id": "streszczenie",
+      "order": 2,
+      "title": "Streszczenie wykonawcze",
+      "summary": "Najważniejsze decyzje, cele i konsekwencje programu w krótkiej formie.",
+      "category": "Dokument główny",
+      "status": "preparing",
+      "visibility": "public",
+      "featured": true
+    },
+    {
+      "id": "plan-realizacji",
+      "order": 3,
+      "title": "Plan realizacji 2026–2040",
+      "summary": "Etapy, odpowiedzialności, bramki decyzyjne, KPI i warunki przerwania.",
+      "category": "Wdrożenie",
+      "status": "preparing",
+      "visibility": "public",
+      "featured": true
+    },
+    {
+      "id": "finansowanie",
+      "order": 4,
+      "title": "Finansowanie i wpływ gospodarczy",
+      "summary": "Koszty, warianty finansowania oraz wpływ na PKB, produktywność i budżet.",
+      "category": "Gospodarka",
+      "status": "preparing",
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "id": "nota-rm",
+      "order": 5,
+      "title": "Nota decyzyjna dla Premiera i RM",
+      "summary": "Jawny pakiet decyzji, zależności i działań wykonawczych dla Rady Ministrów.",
+      "category": "Decyzje",
+      "status": "preparing",
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "id": "pakiet-bbn",
+      "order": 6,
+      "title": "Pakiet strategiczny dla Prezydenta i BBN",
+      "summary": "Jawna część pakietu bezpieczeństwa narodowego i odporności państwa.",
+      "category": "Bezpieczeństwo",
+      "status": "preparing",
+      "visibility": "public",
+      "featured": false
+    }
+  ]
+}
