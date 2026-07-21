@@ -1,0 +1,10 @@
+beautifulsoup4==4.12.2
+jsonschema==4.26.0
+Markdown==3.5.1
+pandas==2.3.3
+PyYAML==6.0.1
+python-docx==1.1.0
+python-pptx==1.0.2
+requests==2.32.3
+WeasyPrint==68.1
+

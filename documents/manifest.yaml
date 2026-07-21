@@ -1,0 +1,138 @@
+schema_version: 1
+artifacts:
+  - id: strategy
+    title: "Polska 2040: Suwerenność technologiczna"
+    source: documents/core/strategy.md
+    kind: report
+    audience: leadership
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "35–45 stron"
+  - id: implementation-roadmap
+    title: "Plan realizacji 2026–2040"
+    source: documents/core/implementation-roadmap.md
+    kind: report
+    audience: government-delivery
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "20–30 stron"
+  - id: impact-finance
+    title: "Finansowanie i ocena wpływu"
+    source: documents/core/impact-finance.md
+    kind: report
+    audience: finance-and-economy
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "15–25 stron"
+  - id: governance-law
+    title: "Ład instytucjonalny, prawo i zamówienia"
+    source: documents/core/governance-law.md
+    kind: report
+    audience: government-and-legal
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "10–15 stron"
+  - id: evidence-book
+    title: "Księga dowodowa"
+    source: documents/core/evidence-book.md
+    kind: catalog
+    audience: reviewers
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "50–100 stron"
+  - id: restricted-annex-template
+    title: "Jawny szablon aneksu ograniczonego"
+    source: documents/annexes/restricted-template.md
+    kind: annex
+    audience: authorized-future-process
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "8–12 stron"
+  - id: prime-minister-brief
+    title: "Nota decyzyjna dla Premiera i Rady Ministrów"
+    source: documents/briefs/prime-minister.md
+    kind: brief
+    audience: prime-minister-and-cabinet
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "4–6 stron"
+  - id: president-bbn-brief
+    title: "Nota strategiczna dla Prezydenta i BBN"
+    source: documents/briefs/president-bbn.md
+    kind: brief
+    audience: president-and-bbn
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "4–6 stron"
+  - id: ministerial-briefs
+    title: "Briefy portfeli ministerialnych"
+    source: documents/briefs/ministerial-briefs.md
+    kind: brief
+    audience: ministries
+    language: pl
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "8 × 2 strony"
+  - id: international-brief
+    title: "Poland 2040: Technology Sovereignty — Executive Brief"
+    source: documents/briefs/international-en.md
+    kind: brief
+    audience: international
+    language: en
+    outputs: [html, pdf, docx]
+    status: skeleton
+    target_length: "4 pages"
+  - id: cabinet-deck
+    title: "Polska 2040 — decyzje Rady Ministrów"
+    source: documents/decks/cabinet.md
+    kind: deck
+    audience: cabinet
+    language: pl
+    outputs: [html, pdf, pptx]
+    status: skeleton
+    target_length: "15 slajdów"
+  - id: president-deck
+    title: "Polska 2040 — odporność i ciągłość państwa"
+    source: documents/decks/president.md
+    kind: deck
+    audience: president-and-bbn
+    language: pl
+    outputs: [html, pdf, pptx]
+    status: skeleton
+    target_length: "12 slajdów"
+  - id: economic-forum-deck
+    title: "Polska 2040 — bezpieczeństwo jako motor produktywności"
+    source: documents/decks/economic-forum.md
+    kind: deck
+    audience: economic-forum
+    language: pl
+    outputs: [html, pdf, pptx]
+    status: skeleton
+    target_length: "16–18 slajdów"
+  - id: regional-deck
+    title: "Polska 2040 — szansa dla regionów"
+    source: documents/decks/regional.md
+    kind: deck
+    audience: local-and-regional
+    language: pl
+    outputs: [html, pdf, pptx]
+    status: skeleton
+    target_length: "12–14 slajdów"
+  - id: international-deck
+    title: "Poland 2040 — Technology Sovereignty"
+    source: documents/decks/international-en.md
+    kind: deck
+    audience: international
+    language: en
+    outputs: [html, pdf, pptx]
+    status: skeleton
+    target_length: "12 slides"
+

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceRecord",
+  "type": "object",
+  "required": ["id", "title", "publisher", "url", "published_at", "accessed_at", "tier", "document_type", "language", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^SRC-[0-9]{4}$"},
+    "title": {"type": "string", "minLength": 3},
+    "publisher": {"type": "string", "minLength": 2},
+    "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+    "published_at": {"type": ["string", "null"], "format": "date"},
+    "accessed_at": {"type": "string", "format": "date"},
+    "tier": {"enum": ["A1-law", "A2-primary-data", "A3-official-policy", "B1-peer-reviewed", "B2-independent-analysis", "C1-industry", "C2-media-lead"]},
+    "document_type": {"type": "string"},
+    "language": {"enum": ["pl", "en", "uk", "other"]},
+    "locator": {"type": ["string", "null"]},
+    "checksum": {"type": ["string", "null"]},
+    "license": {"type": ["string", "null"]},
+    "archive_path": {"type": ["string", "null"]},
+    "status": {"enum": ["verified", "metadata-only", "inaccessible", "superseded"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
+

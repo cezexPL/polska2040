@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ArtifactManifest",
+  "type": "object",
+  "required": ["id", "title", "source", "kind", "audience", "language", "outputs", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "title": {"type": "string", "minLength": 3},
+    "source": {"type": "string", "pattern": "^documents/"},
+    "kind": {"enum": ["report", "brief", "deck", "annex", "catalog"]},
+    "audience": {"type": "string"},
+    "language": {"enum": ["pl", "en"]},
+    "outputs": {"type": "array", "items": {"enum": ["html", "pdf", "docx", "pptx"]}, "minItems": 1, "uniqueItems": true},
+    "status": {"enum": ["skeleton", "draft", "reviewed", "release-candidate"]},
+    "target_length": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
+
