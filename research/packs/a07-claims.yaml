@@ -1,0 +1,673 @@
+schema_version: 1
+claims:
+  - id: CLM-0701
+    text: Rada ECOFIN zatwierdziła polski plan SAFE, a pomoc dla Polski ma formę pożyczki Unii do maksymalnej wysokości 43,73 mld EUR; nie jest to grant ani dochód budżetu państwa.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0701, SRC-0702]
+    locators: ["SRC-0701: sekcja Finansowanie obronności", "SRC-0702: art. 5-10"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Fakt wymaga niezależnej recenzji. Maksymalna kwota nie jest równoznaczna z wypłatą całości ani z możliwością finansowania nowych zadań poza zatwierdzonym planem."
+
+  - id: CLM-0702
+    text: SAFE ma ogólnounijny limit 150 mld EUR pożyczek; umowa może trwać do 45 lat, a prefinansowanie może wynieść 15% pożyczki.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0702]
+    locators: ["SRC-0702: art. 6 i art. 10 ust. 2; motyw i przepisy o prefinansowaniu"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Szczegółowe warunki finansowe Polski wynikają z decyzji wykonawczej, umowy pożyczki i operacyjnych ustaleń, których pełnej treści pakiet nie posiada."
+
+  - id: CLM-0703
+    text: W modelu programu SAFE powinien być wykazywany jako finansowanie dłużne z harmonogramem wypłat, odsetek i spłaty, a nie jako pomniejszenie ekonomicznego kosztu projektu.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0701, SRC-0702, SRC-0716]
+    locators: ["SRC-0702: art. 5 i art. 10", "SRC-0716: prognoza długu i kosztów obsługi"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Pożyczka może poprawiać warunki i profil płynności względem alternatywy, ale nie usuwa kosztu głównego ani ryzyka zadłużenia."
+
+  - id: CLM-0704
+    text: Program prac Europejskiego Funduszu Obronnego na 2026 r. przeznacza 1 mld EUR na 31 tematów współpracy badawczo-rozwojowej w skali UE.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0703]
+    locators: ["SRC-0703: pierwsze trzy akapity komunikatu"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Pula jest konkursowa i ogólnounijna; nie jest alokacją dla Polski."
+
+  - id: CLM-0705
+    text: Około jednej czwartej programu prac EDF 2026 przypisano wdrażaniu EUDIS, przy czym komunikat wskazuje osobne działania dla technologii przełomowych, MŚP, akceleracji, dopasowania inwestorów i kapitału.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0703, SRC-0704]
+    locators: ["SRC-0703: akapity 107-117", "SRC-0704: s. 6-7"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Poszczególne działania mają odmienne zasady, intensywność wsparcia i odbiorców."
+
+  - id: CLM-0706
+    text: STEP nie jest nowym funduszem; łączy istniejące programy, a kwalifikowalność projektu nadal wynika z zasad danego programu i konkretnego naboru.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0705]
+    locators: ["SRC-0705: pytania Is STEP a new funding programme oraz What are the eligibility rules"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Etykieta STEP lub pieczęć nie stanowi automatycznej decyzji finansowej."
+
+  - id: CLM-0707
+    text: Oficjalne wyjaśnienia STEP kierują wsparcie na rozwój i wytwarzanie technologii po wykazaniu wykonalności, a nie na samo wdrożenie istniejącego rozwiązania.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0705]
+    locators: ["SRC-0705: Which technology development phases/stages does STEP support"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Dokumentacja każdego naboru może wprowadzać dalsze zawężenia."
+
+  - id: CLM-0708
+    text: NCBR wskazał w marcu 2026 r. dwie Ścieżki SMART z budżetami po 350 mln zł, które dopuszczały projekty dual-use, lecz wymagały rzeczywistego zastosowania cywilnego i spełnienia reguł naboru.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0706]
+    locators: ["SRC-0706: akapity 119-124"]
+    as_of: "2026-03-26"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Kwoty są budżetami całych naborów, a nie środkami zarezerwowanymi dla programu."
+
+  - id: CLM-0709
+    text: W lutym 2026 r. Komitet Monitorujący FENG zaakceptował dodanie technologii obronnych i nowych możliwości dual-use, ale komunikat przewidywał dalsze uzgodnienia rządowe i z Komisją oraz dopiero przyszłe nabory.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0707]
+    locators: ["SRC-0707: akapity 107-119"]
+    as_of: "2026-02-04"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Przed użyciem należy sprawdzić stan po 4 lutego 2026 r. i dokumentację opublikowanego naboru."
+
+  - id: CLM-0710
+    text: Nabór PARP STEP dla innowacyjnych technologii cyfrowych zakończył przyjmowanie wniosków 16 lipca 2026 r.; jego karta nie stanowi dowodu, że cały program autonomii lub technologia wyłącznie wojskowa spełnia kryteria.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0708]
+    locators: ["SRC-0708: sekcja Terminy zgłoszeń i Szczegółowy opis"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "PARP należy traktować jako operatora konkretnych naborów, nie jako nieograniczoną rezerwę programu."
+
+  - id: CLM-0711
+    text: IDA Bootcamp 2026 PFR oferował walidację, pracę z użytkownikiem i kontakty z przemysłem oraz inwestorami, lecz komunikat nie ustanawiał automatycznego grantu, inwestycji ani zamówienia.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0709]
+    locators: ["SRC-0709: opis programu i korzyści uczestników"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "W modelu jest to instrument akceleracji i przygotowania projektu, nie źródło finansowania CAPEX."
+
+  - id: CLM-0712
+    text: Pożyczka BGK z FBiO dla przedsiębiorców ma pulę 2,5 mld zł, może sięgać 100% kosztów kwalifikowalnych netto i obejmuje produkcję sprzętu wojskowego lub dual-use, lecz wyłącza m.in. koszty rozliczone w innych programach UE albo objęte innym wsparciem krajowym.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0710]
+    locators: ["SRC-0710: Wysokość wsparcia, zakres, wyłączenia i Pula środków"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Włączenie do planu wymaga weryfikacji listy technologii, doświadczenia przedsiębiorcy, pomocy publicznej, DNSH i dokumentacji naboru."
+
+  - id: CLM-0713
+    text: Około 23 mld zł jest łączną wartością całego FBiO finansowanego z KPO dla wielu typów inwestycji przedsiębiorstw i samorządów, a nie kwotą dostępną wyłącznie dla autonomii, AI lub dual-use.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0711]
+    locators: ["SRC-0711: akapity 61-63"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie wolno sumować tej wartości z podpulą 2,5 mld zł jako dwóch niezależnych źródeł."
+
+  - id: CLM-0714
+    text: BGK ogłosił 16 lipca 2026 r. plan instrumentu FENG z pulą 400 mln zł, kredytem i premią do maksymalnie 70% wydatków kwalifikowalnych dla MŚP rozwijających produkcję dual-use, z naborem zaplanowanym od 29 października 2026 r.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0712]
+    locators: ["SRC-0712: akapity o budżecie, mechanizmie, intensywności i terminach"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Na dzień oceny był to instrument zapowiedziany; maksymalna intensywność nie oznacza stawki dla każdego projektu."
+
+  - id: CLM-0715
+    text: Future Tech Poland zaangażował 85 mln EUR w trzy fundusze VC/growth inwestujące m.in. w technologie obronne, cyber i dual-use; jest to mechanizm fund-of-funds, a nie bezpośrednia dotacja dla spółki lub programu rządowego.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0713]
+    locators: ["SRC-0713: akapity 387-400"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Kapitał oznacza selekcję komercyjną, warunki inwestycyjne i rozwodnienie udziałów; nie powinien być księgowany jak grant."
+
+  - id: CLM-0716
+    text: Plan Grupy EBI na 2026 r. zakłada 4,5 mld EUR finansowania bezpieczeństwa i obronności w całej UE przez różne produkty, ale nie przyznaje Polsce odrębnej alokacji ani automatycznej kwalifikowalności.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0714]
+    locators: ["SRC-0714: s. 17-18"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "W modelu EBI jest potencjalnym źródłem długu, gwarancji, venture debt lub finansowania pośredniego po pre-screeningu."
+
+  - id: CLM-0717
+    text: EIF Defence Equity Facility inwestuje w fundusze VC, private equity i private credit, dlatego spółki uzyskują finansowanie pośrednio i na warunkach zarządzających funduszami.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0715]
+    locators: ["SRC-0715: How to apply i Signed funds to date"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Instrument nie powinien być wpisywany do finansowania projektu bez term sheet lub wiążącej decyzji funduszu."
+
+  - id: CLM-0718
+    text: Strategia długu MF z 30 września 2025 r. prognozowała wzrost długu EDP z 59,8% PKB w 2025 r. do 65,4% w 2026 r. i 75,3% w 2029 r. oraz wzrost kosztów obsługi długu Skarbu Państwa do 2,6-2,7% PKB w 2029 r.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0716]
+    locators: ["SRC-0716: punkty 148-153"]
+    as_of: "2025-09-30"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Są to prognozy, nie wartości wykonania. Należy odświeżyć je najnowszą strategią długu i budżetem przed decyzją."
+
+  - id: CLM-0719
+    text: Eurostat podał, że deficyt sektora instytucji rządowych i samorządowych Polski w 2025 r. wyniósł 7,3% PKB według pierwszej notyfikacji EDP 2026.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0717]
+    locators: ["SRC-0717: akapit o najwyższych deficytach i metodologia ESA 2010"]
+    as_of: "2025-12-31"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Dane mogą podlegać rewizjom w kolejnych notyfikacjach."
+
+  - id: CLM-0720
+    text: Komisja Europejska w raporcie krajowym 2026 prognozowała dla Polski deficyt 6,5% PKB w 2026 r. i 6,3% w 2027 r. oraz dług 68,3% PKB w 2027 r.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0718]
+    locators: ["SRC-0718: sekcja o finansach publicznych i wykres 1.1"]
+    as_of: "2026-06-03"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To prognoza Komisji, nie wykonanie; powinna być użyta jako scenariusz zewnętrzny i porównana z MF."
+
+  - id: CLM-0721
+    text: MF rozróżnia kasowe i memoriałowe ujmowanie zakupów obronnych oraz stwierdza, że klauzula obronna SRW nie tworzy automatycznie dodatkowej przestrzeni wydatkowej na obronność.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0724]
+    locators: ["SRC-0724: pkt 1-2, zwłaszcza akapity 146-155"]
+    as_of: "2026-04-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Model musi mieć równolegle rachunek kasowy, memoriałowy ESA i ujęcie długu/finansowania."
+
+  - id: CLM-0722
+    text: Prawo finansowe UE zakazuje finansowania tych samych kosztów dwa razy, a RRF/KPO dopuszcza łączenie instrumentów tylko wtedy, gdy nie pokrywają tego samego kosztu.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0722, SRC-0723]
+    locators: ["SRC-0722: art. 194 ust. 1-3", "SRC-0723: art. 9"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Szczegółowe reguły kumulacji, pomocy publicznej i intensywności wynikają dodatkowo z aktów bazowych i dokumentacji naborów."
+
+  - id: CLM-0723
+    text: Tablice podaży i wykorzystania GUS publikują produkcję, import, zużycie pośrednie, eksport i wartość dodaną według PKD/PKWiU, więc mogą być punktem wyjścia do modelu importochłonności i krajowej wartości dodanej.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0719]
+    locators: ["SRC-0719: opis zakresu oraz tablice XLSX"]
+    as_of: "2026-03-31"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Rok bazowy 2022 i agregacja sektorowa wymagają aktualizacji współczynników danymi firm i analizą wrażliwości."
+
+  - id: CLM-0724
+    text: GUS oszacował nakłady krajowe brutto na B+R w 2024 r. na 51,5 mld zł i intensywność B+R na 1,41% PKB, ale są to dane dla całej gospodarki, a nie baza finansowa programu autonomii.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0720]
+    locators: ["SRC-0720: informacja sygnalna, s. 1 i tablice"]
+    as_of: "2024-12-31"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Porównanie programu do GERD może służyć wyłącznie do kontroli skali, nie do wyznaczenia budżetu."
+
+  - id: CLM-0725
+    text: Comext jest referencyjną bazą Eurostatu dla szczegółowego handlu towarami i udostępnia miesięcznie aktualizowane dane, lecz mapowanie produktów dual-use do kodów CN wymaga osobnej wersjonowanej klasyfikacji.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0721]
+    locators: ["SRC-0721: About Comext oraz Files available outside the API"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Kody handlowe nie identyfikują automatycznie zastosowania końcowego, odbiorcy ani udziału krajowej IP."
+
+  - id: CLM-0726
+    text: Mapa instrumentów SAFE, EDF, EUDIS, STEP, PFR, BGK, NCBR, PARP, EBI i EFI pokazuje możliwe źródła, lecz nie jest jeszcze planem finansowania bez projektu, naboru, kosztu kwalifikowanego i decyzji instytucji.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0701, SRC-0703, SRC-0705, SRC-0706, SRC-0708, SRC-0709, SRC-0710, SRC-0713, SRC-0714, SRC-0715]
+    locators: ["warunki i zastrzeżenia każdego źródła"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Włączenie do modelu bazowego wymaga co najmniej udokumentowanej kwalifikowalności; wpływ gotówkowy dopiero po wiążącej decyzji."
+
+  - id: CLM-0727
+    text: Rada Ministrów nie powinna zatwierdzać jednej kwoty programu przed zbudowaniem kosztorysu portfela, harmonogramu TCO, rachunku fiskalnego i rejestru finansowania na poziomie kosztu.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0716, SRC-0717, SRC-0718, SRC-0721, SRC-0722, SRC-0723, SRC-0724]
+    locators: ["ograniczenia fiskalne i zasady niedublowania finansowania"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Można zatwierdzić ograniczony budżet przygotowawczy i pilotażowy z limitem, kamieniami milowymi oraz klauzulą wygaśnięcia."
+
+  - id: CLM-0728
+    text: TCO każdego pakietu powinien obejmować zakup lub B+R, integrację, testy i certyfikację, dane i obliczenia, szkolenie, utrzymanie, części, aktualizacje, energię i obiekty, finansowanie, rezerwę ryzyka oraz wycofanie, pomniejszone o wiarygodną wartość rezydualną.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Każda pozycja ma rok cenowy, walutę, podstawę, właściciela i rozkład L/B/H; brak danych pozostaje UNKNOWN."
+
+  - id: CLM-0729
+    text: Grant zmniejsza koszt finansowany krajowo tylko w zakresie kwalifikowanych i faktycznie przyznanych kosztów, natomiast pożyczka, gwarancja i kapitał zmieniają strukturę finansowania, ale nie powinny być odejmowane od TCO jak bezzwrotny przychód.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0701, SRC-0702, SRC-0710, SRC-0713, SRC-0714, SRC-0715]
+    locators: ["forma prawna i ekonomiczna instrumentów"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Model powinien oddzielać koszt zasobu, transfer publiczny, finansowanie i przepływy właścicielskie."
+
+  - id: CLM-0730
+    text: Scenariusze niski, bazowy i wysoki powinny różnić się zakresem portfela, tempem skali i ryzykiem, a nie trzema arbitralnymi kwotami bez kosztorysów oddolnych.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Kwoty wynikowe powstają dopiero po wypełnieniu jednostek, cen, wolumenów, czasu i prawdopodobieństw."
+
+  - id: CLM-0731
+    text: Scenariusz niski może obejmować audyt, biuro realizacji, rejestr finansowania, ograniczone kohorty pilotażowe i wykorzystanie istniejącej infrastruktury bez rozpoczynania dużych inwestycji produkcyjnych.
+    type: SCENARIO
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To wariant konstrukcyjny do wyceny, nie zatwierdzony zakres ani budżet."
+
+  - id: CLM-0732
+    text: Scenariusz bazowy może dodać po zweryfikowaniu popytu małe partie, bezpieczną przestrzeń danych, wspólne testy, kształcenie ustawiczne i selektywne inwestycje komponentowe z co najmniej dwiema ścieżkami dostaw.
+    type: SCENARIO
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Każdy moduł przechodzi oddzielną bramkę TCO, bezpieczeństwa, dodatkowości i finansowania."
+
+  - id: CLM-0733
+    text: Scenariusz wysoki może obejmować skalowanie produkcji, rezerwy 30/90/180 dni i duże inwestycje przemysłowe wyłącznie po dowodzie popytu, testach operacyjnych, stress-teście fiskalnym i potwierdzeniu utrzymania.
+    type: SCENARIO
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Brak pozytywnej bramki skali utrzymuje projekt w scenariuszu niższym albo go zamyka."
+
+  - id: CLM-0734
+    text: "Dodatkowość należy mierzyć względem kontrfaktycznego wariantu bez wsparcia: czy finansowanie zmieniło skalę, termin, ryzyko, udział prywatny lub wynik, a nie jedynie zastąpiło środki, które i tak były dostępne."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Ocena ex ante, mid-term i ex post powinna rozdzielać dodatkowość finansową, behawioralną, wynikową i systemową."
+
+  - id: CLM-0735
+    text: Krajowej wartości dodanej nie należy utożsamiać z wartością kontraktu ani udziałem polskiego wykonawcy; powinna być liczona jako krajowe wynagrodzenia, nadwyżka operacyjna i podatki netto w łańcuchu po odjęciu importowanych nakładów i przepływów zagranicznych.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0719]
+    locators: ["SRC-0719: definicje podaży, importu, zużycia pośredniego i wartości dodanej"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wymagane są dane firmowe o BOM, imporcie, marżach, płacach, amortyzacji, IP i podwykonawcach, agregowane z ochroną tajemnicy przedsiębiorstwa."
+
+  - id: CLM-0736
+    text: Wpływ na produktywność powinien być raportowany jako zmiana realnej wartości dodanej na godzinę lub ekwiwalent pełnego czasu pracy względem dobranej grupy porównawczej, a nie jako wzrost obrotu beneficjenta.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Preferowany jest panel przedsiębiorstw z pre-trendem i metodą difference-in-differences lub dopasowaniem, o ile jakość danych pozwala."
+
+  - id: CLM-0737
+    text: Efekt rynku pracy powinien rozróżniać zatrudnienie brutto, netto, bezpośrednie, pośrednie, indukowane, czasowe i stałe oraz wykazywać job-years/FTE, wynagrodzenia, wakaty i wypieranie pracowników z innych sektorów.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Bez danych kohortowych nie należy stosować jednego mnożnika miejsc pracy."
+
+  - id: CLM-0738
+    text: Eksport należy mierzyć na poziomie kohorty produktów i przedsiębiorstw, łącząc deklaracje beneficjentów z danymi celnymi/Comext oraz wykluczając reeksport, transfery wewnątrzgrupowe i sprzedaż niezwiązaną z programem.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0721]
+    locators: ["SRC-0721: zakres danych Comext i częstotliwość aktualizacji"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Kontrola eksportu i poufność wymagają bezpiecznego połączenia danych oraz publikowania wyłącznie agregatów."
+
+  - id: CLM-0739
+    text: Spillovers należy mierzyć oddzielnie jako cywilną sprzedaż technologii, dyfuzję do dostawców, nowe standardy i interfejsy, patenty lub know-how, mobilność kadr i prywatne inwestycje następcze, bez automatycznego przypisywania całego wyniku programowi.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wymagana triangulacja danych administracyjnych, przedsiębiorstw, patentów, kadr i nabywców."
+
+  - id: CLM-0740
+    text: Koszt alternatywny powinien porównywać portfel z co najmniej trzema wariantami - brak interwencji, zakup gotowego rozwiązania i alternatywna inwestycja publiczna - przy tej samej bazie cenowej, horyzoncie i stopie dyskontowej.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Korzyści bezpieczeństwa mogą być jakościowe lub scenariuszowe, ale muszą być pokazane obok kosztu fiskalnego, a nie ukryte w mnożniku PKB."
+
+  - id: CLM-0741
+    text: Analiza wrażliwości powinna co najmniej zmieniać wolumen, opóźnienie, inflację kosztów, kurs EUR/PLN, koszt kapitału, awaryjność i utrzymanie, udział importu, skuteczność pozyskania grantów oraz skalę eksportu, bez przypisywania rozkładów prawdopodobieństwa bez danych.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "W pierwszej wersji wystarczą przedziały L/B/H i jednokierunkowe testy; Monte Carlo dopiero po kalibracji rozkładów."
+
+  - id: CLM-0742
+    text: "Finansowanie powinno być transzowane według bramek: potrzeba i sponsor, wykonalność i bezpieczeństwo, dowód testowy, mała partia, gotowość do skali oraz przegląd utrzymania; brak dowodu uruchamia stop lub ograniczenie zakresu."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Każda bramka ma limit skumulowanego kosztu utopionego i niezależnego właściciela decyzji."
+
+  - id: CLM-0743
+    text: Łączny koszt programu Polska 2040, roczny profil wydatków i wymagany wkład krajowy są obecnie UNKNOWN, ponieważ brak zweryfikowanego portfela, wolumenów, harmonogramów i TCO pakietów.
+    type: UNKNOWN
+    status: unverified
+    source_ids: []
+    locators: []
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Plan pozyskania: właściciele pakietów składają w 30 dni karty kosztowe z rokiem cenowym, jednostką, wolumenem, harmonogramem, niepewnością i stop-rule; MF konsoliduje."
+
+  - id: CLM-0744
+    text: Dokładny koszt i profil spłaty polskiej pożyczki SAFE oraz część zatwierdzonego planu, którą można powiązać z Polska 2040, są obecnie UNKNOWN w tym pakiecie.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0701, SRC-0702]
+    locators: ["brak pełnej umowy pożyczki, operacyjnych ustaleń i mapowania projektów w dostępnym materiale"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Plan pozyskania: MF/BGK/MON udostępniają zespołowi uprawnionemu harmonogram wypłat, formułę kosztu, spłaty, ryzyka kursowego oraz identyfikatory projektów; repo jawne otrzymuje agregaty."
+
+  - id: CLM-0745
+    text: Bazowa krajowa wartość dodana, importochłonność i zdolność substytucji kluczowych warstw przemysłowych są obecnie UNKNOWN.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0719]
+    locators: ["GUS daje współczynniki sektorowe, ale brak mapy firm, BOM i pochodzenia komponentów programu"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Plan pozyskania: poufny formularz beneficjenta i wykonawcy, połączenie z rachunkami GUS, danymi handlowymi i audytem dostaw; publikacja agregatów z progiem poufności."
+
+  - id: CLM-0746
+    text: Przyrost produktywności, zatrudnienia netto, eksportu i spillovers przypisywalny programowi jest obecnie UNKNOWN i nie może być zastąpiony mnożnikiem z innego kraju lub z analizy całego EDF.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0704]
+    locators: ["SRC-0704: zastrzeżenia dotyczące wczesnego etapu i ograniczeń modelowania"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Plan pozyskania: zamrozić baseline przed pierwszą płatnością, zbudować grupę porównawczą, identyfikatory firm i produktów oraz coroczną ewaluację niezależną."
+
+  - id: CLM-0747
+    text: Rząd powinien wdrożyć jeden rejestr źródeł finansowania i kwalifikowanych kosztów obejmujący SAFE, fundusze UE, KPO, budżet, fundusze celowe, pożyczki, gwarancje i kapitał, z kontrolą kumulacji przed każdą płatnością.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0710, SRC-0722, SRC-0723]
+    locators: ["wyłączenia FBiO, art. 194 Financial Regulation, art. 9 RRF"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Minimalny klucz: projekt, pakiet pracy, kategoria kosztu, faktura/rezultat, instrument, intensywność, pomoc publiczna, kwota, status i recenzent."
+
+  - id: CLM-0748
+    text: Prezydent i BBN powinni otrzymywać coroczne niezależne zapewnienie o trwałości finansowej programu, koncentracji zobowiązań, ryzyku dostaw i zgodności celów gospodarczych z bezpieczeństwem, bez udziału w selekcji dostawców.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0716, SRC-0717, SRC-0718]
+    locators: ["publiczne ograniczenia fiskalne i prognozy długu"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A07
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zakres kompetencyjny i obieg materiału wymagają recenzji A02/A09; raport jawny zawiera tylko agregaty."

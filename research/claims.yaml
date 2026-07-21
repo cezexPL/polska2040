@@ -1,5 +1,5173 @@
 schema_version: 1
 claims:
+- id: CLM-0101
+  text: Strategia Bezpieczeństwa Narodowego z 2020 r. pozostaje formalnie obowiązującą strategią państwa według oficjalnych
+    źródeł dostępnych 21 lipca 2026 r.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0103
+  - SRC-0105
+  locators:
+  - 'SRC-0101: strona tytułowa i postanowienie Prezydenta z 12 maja 2020 r.'
+  - 'SRC-0103: wypowiedź zaczynająca się od Dotychczas obowiązuje'
+  - 'SRC-0105: akapit zaczynający się od Bezpieczeństwo buduje się do wewnątrz'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Stan procesu jest zmienny; przed publikacją należy ponowić sprawdzenie w KPRM i BBN.
+- id: CLM-0102
+  text: Rada Ministrów przyjęła 25 lipca 2025 r. projekt nowej Strategii Bezpieczeństwa Narodowego, którego priorytety obejmowały
+    m.in. NATO i UE, odporność, cyberprzestrzeń, przemysł obronny oraz ograniczenie zależności dostaw.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0102
+  locators:
+  - 'SRC-0102: sekcje Rada Ministrów przyjęła projekt uchwały i Najważniejsze rozwiązania'
+  as_of: '2025-07-25'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Przyjęcie projektu przez Radę Ministrów nie jest równoznaczne z zatwierdzeniem strategii przez Prezydenta RP.
+- id: CLM-0103
+  text: Według oficjalnego stenogramu Sejmu Prezydent RP poinformował 24 października 2025 r., że nie może zaakceptować rządowego
+    projektu strategii; w wystąpieniu z 8 maja 2026 r. nadal wskazywał na oczekiwanie na Strategię Bezpieczeństwa Narodowego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0103
+  - SRC-0105
+  locators:
+  - 'SRC-0103: wypowiedź podsekretarza stanu Stanisława Wziątka o piśmie z 24 października 2025 r.'
+  - 'SRC-0105: akapit zaczynający się od Bezpieczeństwo buduje się do wewnątrz'
+  as_of: '2026-05-08'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0104
+  text: Art. 24 ustawy o obronie Ojczyzny przypisuje Prezydentowi RP m.in. wydawanie rekomendacji przed pracami Rady Ministrów
+    nad strategią, zatwierdzanie strategii na wniosek Prezesa Rady Ministrów oraz zatwierdzanie planów krajowych ćwiczeń systemu
+    obronnego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0104
+  locators:
+  - 'SRC-0104: art. 24 ust. 1 pkt 1–10, s. 24–25/451'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Ocena znaczenia prawnego wymaga niezależnej weryfikacji A09/RCL; claim odtwarza jawny tekst ustawy.
+- id: CLM-0105
+  text: Program Polska Autonomia 2040 nie może zastąpić Strategii Bezpieczeństwa Narodowego; może być jej portfelem wykonawczym,
+    programem rozwoju zdolności albo wkładem analitycznym do kolejnej strategii.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0103
+  - SRC-0104
+  locators:
+  - 'SRC-0101: s. 36, wdrażanie strategii i przeglądy strategiczne'
+  - 'SRC-0104: art. 24 ust. 1 pkt 1–3'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Ostateczna kwalifikacja instrumentu wymaga opinii prawnej A09.
+- id: CLM-0106
+  text: Strategia Bezpieczeństwa Narodowego z 2020 r. przewiduje zintegrowany system zarządzania bezpieczeństwem narodowym,
+    mechanizm koordynacji ponadresortowej, hierarchię dokumentów strategicznych oraz powiązanie planowania obronnego i obrony
+    cywilnej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0101
+  locators:
+  - 'SRC-0101: pkt 1.1–1.8, s. 12–13'
+  as_of: '2020-05-12'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0107
+  text: Strategia Bezpieczeństwa Narodowego z 2020 r. ujmuje odporność państwa przez ciągłość kierowania, energię, przemieszczanie
+    ludności, żywność i wodę, zdarzenia masowe, łączność, transport oraz ciągłość infrastruktury krytycznej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0101
+  locators:
+  - 'SRC-0101: pkt 2.7–2.8, s. 14–15'
+  as_of: '2020-05-12'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0108
+  text: Strategia Bezpieczeństwa Narodowego z 2020 r. rozpoznaje znaczenie systemów autonomicznych, sztucznej inteligencji,
+    technologii cyfrowych, krajowego potencjału naukowego i przemysłowego oraz rozwiązań odpornych na zagrożenia cybernetyczne.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0101
+  locators:
+  - 'SRC-0101: s. 5–9, pkt 3.14 na s. 18 oraz s. 19 i 35'
+  as_of: '2020-05-12'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0109
+  text: Strategia Bezpieczeństwa Narodowego z 2020 r. osadza polską obronę w odstraszaniu i obronie NATO, zdolnościach państwa-gospodarza,
+    interoperacyjności, mobilności wojskowej oraz komplementarnej współpracy NATO–UE.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0101
+  locators:
+  - 'SRC-0101: s. 22–23'
+  as_of: '2020-05-12'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0110
+  text: Ustawa o ochronie ludności i obronie cywilnej obejmuje ciągłość działania administracji, szkolenia i ćwiczenia, odporność
+    społeczną, ocenę ryzyka, rezerwy, utrzymanie niezbędnych łańcuchów dostaw oraz infrastrukturę usług podstawowych.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0106
+  locators:
+  - 'SRC-0106: art. 4 ust. 1, art. 8 i art. 156'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zakres obowiązków konkretnych organów wymaga mapy prawnej A09.
+- id: CLM-0111
+  text: Koncepcja Strategiczna NATO z 2022 r. ustanawia odstraszanie i obronę, zapobieganie kryzysom i zarządzanie nimi oraz
+    bezpieczeństwo kooperacyjne jako trzy zadania podstawowe, a odporność i przewagę technologiczną traktuje jako elementy
+    realizacji tych zadań.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0107
+  locators:
+  - 'SRC-0107: paras 1–8, pp. 1–4'
+  as_of: '2022-06-29'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0112
+  text: Koncepcja Strategiczna NATO z 2022 r. określa Federację Rosyjską jako najpoważniejsze i bezpośrednie zagrożenie dla
+    bezpieczeństwa sojuszników oraz pokoju i stabilności obszaru euroatlantyckiego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0107
+  locators:
+  - 'SRC-0107: para 8, p. 4'
+  as_of: '2022-06-29'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0113
+  text: Jawna doktryna NATO opisuje odstraszanie jako system obejmujący domeny lądową, morską, powietrzną, cybernetyczną i
+    kosmiczną, odpowiednią gotowość, interoperacyjność, logistykę i zdolność podtrzymania działań, a nie jako pojedynczą kategorię
+    technologii.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0107
+  locators:
+  - 'SRC-0107: paras 20–22, p. 6'
+  as_of: '2022-06-29'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0114
+  text: NATO wymaga interoperacyjności i odpowiedzialnego wykorzystania nowych technologii, a odporność sojuszniczą opiera
+    na zobowiązaniach narodowych wynikających z art. 3 Traktatu Północnoatlantyckiego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0107
+  - SRC-0108
+  locators:
+  - 'SRC-0107: paras 24–27, p. 7'
+  - 'SRC-0108: introduction and section on national and collective responsibility'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0115
+  text: NATO definiuje trzy funkcje gotowości cywilnej — ciągłość rządu, ciągłość usług podstawowych i cywilne wsparcie operacji
+    wojskowych — oraz siedem bazowych wymagań odporności narodowej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0108
+  locators:
+  - 'SRC-0108: sections Civil preparedness has three core functions and seven baseline requirements'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Siedem obszarów obejmuje kierowanie państwem, energię, przemieszczanie ludności, żywność i wodę, zdrowie, łączność
+    oraz transport.
+- id: CLM-0116
+  text: Deklaracja szczytu NATO w Ankarze z 8 lipca 2026 r. łączy wiarygodne odstraszanie z odpornością, rozbudową produkcji
+    i innowacji przemysłu obronnego oraz zdolnościami bezzałogowymi i AI.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0109
+  locators:
+  - 'SRC-0109: paras 1–5'
+  as_of: '2026-07-08'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0117
+  text: Strategia współpracy NATO z przemysłem z 2026 r. obejmuje pełny cykl życia zdolności i cele NDPP, pozostawia politykę
+    przemysłową w gestii państw oraz podkreśla rolę MŚP, podmiotów nietradycyjnych, interoperacyjności, skali i podtrzymania
+    produkcji.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0110
+  locators:
+  - 'SRC-0110: paras 1–8 and section Strategic objectives'
+  as_of: '2026-07-08'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0118
+  text: Pakiet skalowania innowacji NATO z 2026 r. ustanawia ogólny cel identyfikacji, testowania i przyjęcia nowych technologii
+    w terminie do 24 miesięcy oraz promuje zwinne zamówienia, współprojektowanie, współprodukcję, ochronę IP i wiarygodne
+    sygnały popytowe.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0111
+  locators:
+  - 'SRC-0111: paras 1–10'
+  as_of: '2026-07-08'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Cel 24 miesięcy jest opisany jako ogólny i nie oznacza gwarancji wdrożenia każdego projektu.
+- id: CLM-0119
+  text: Proponowane dla Polski terminy 60–120 dni do prototypu i 12 miesięcy do pierwszej partii są ambicją krajową, a nie
+    wymogiem NATO; powinny być oceniane względem ryzyka, poziomu gotowości i jawnego celu NATO do 24 miesięcy dla ogólnej
+    ścieżki adopcji.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0111
+  locators:
+  - 'SRC-0111: paras 2–7'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie należy używać celu NATO jako usprawiedliwienia opóźnień ani krajowych terminów jako substytutu bezpieczeństwa
+    i interoperacyjności.
+- id: CLM-0120
+  text: Kompas Strategiczny UE organizuje działania bezpieczeństwa i obrony wokół filarów Act, Secure, Invest i Partner oraz
+    łączy odporność z rozwojem bardziej zintegrowanej i konkurencyjnej europejskiej bazy technologiczno-przemysłowej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0112
+  locators:
+  - 'SRC-0112: sections What is the Strategic Compass?, Act, Secure, Invest and Partner'
+  as_of: '2025-08-28'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0121
+  text: Biała Księga UE Readiness 2030 wskazuje jako priorytety m.in. obronę powietrzną i przeciwrakietową, zdolności strategiczne,
+    mobilność, cyber, AI, walkę elektroniczną oraz drony i systemy przeciwdronowe w domenie powietrznej, lądowej, nawodnej
+    i podwodnej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0113
+  locators:
+  - 'SRC-0113: sections Closing the gaps and Supporting European defence industry'
+  as_of: '2025-03-19'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Dokument traktuje poziom UE jako wsparcie państw członkowskich w agregowaniu popytu, skali i gotowości, nie jako
+    zamiennik ich odpowiedzialności obronnej.
+- id: CLM-0122
+  text: Mapa drogowa UE Readiness 2030 proponuje projekty flagowe, w tym European Drone Defence Initiative i Eastern Flank
+    Watch, oraz deklaruje ich komplementarność z planami regionalnymi NATO; proponowany kamień milowy nie jest dowodem jego
+    realizacji.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0114
+  locators:
+  - 'SRC-0114: sections European Readiness Flagships, Industrial dimension and Ukraine'
+  as_of: '2025-10-16'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Przed przypisaniem programu polskiemu harmonogramowi należy sprawdzić bieżący status, zasady udziału i finansowania.
+- id: CLM-0123
+  text: Strategia Unii Gotowości UE opiera się na podejściu wszystkich zagrożeń, całego rządu i całego społeczeństwa oraz
+    przewiduje ochronę funkcji żywotnych, współpracę publiczno-prywatną, cywilno-wojskową i z NATO.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0115
+  locators:
+  - 'SRC-0115: sections Getting ready, three approaches and key actions'
+  as_of: '2025-05-23'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0124
+  text: Jedenasty raport UE–NATO z 2026 r. wskazuje prace nad spójnością bazowych wymagań odporności NATO i minimalnych wymagań
+    przygotowania UE, w tym ochroną ludności, wsparciem cywilnym sił zbrojnych, infrastrukturą krytyczną i ćwiczeniami.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0116
+  locators:
+  - 'SRC-0116: pp. 2–3, section on resilience'
+  as_of: '2026-06-18'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0125
+  text: Wspólny raport UE–NATO uznaje potrzebę koherencji procesów rozwoju zdolności, zasadę jednego zestawu sił oraz fakt,
+    że decyzje o zdolnościach pozostają przedmiotem suwerennych decyzji politycznych państw.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0116
+  locators:
+  - 'SRC-0116: pp. 4–6, section on capabilities'
+  as_of: '2026-06-18'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0126
+  text: BraveTech EU jest oficjalnym mechanizmem łączenia przemysłu UE z ukraińskim doświadczeniem oraz eksperymentowaniem
+    technologii z użytkownikami.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0117
+  locators:
+  - 'SRC-0117: introductory paragraphs and section About BraveTech EU'
+  as_of: '2026-04-29'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Źródło opisuje mechanizm programu, jego uczestników i budżet; nie zawiera porównawczej oceny konkretnych przedsiębiorstw.
+- id: CLM-0127
+  text: Polska powinna zdefiniować suwerenność technologiczną jako selektywną, sojuszniczą zdolność do podejmowania decyzji,
+    utrzymania, naprawy, aktualizacji, zastępowania dostawców i skalowania krytycznych zdolności, a nie jako autarkię.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0107
+  - SRC-0110
+  - SRC-0116
+  locators:
+  - 'SRC-0101: s. 18–23'
+  - 'SRC-0107: paras 20–27 and 43'
+  - 'SRC-0110: paras 3–8'
+  - 'SRC-0116: pp. 4–8'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Definicja wymaga uzgodnienia politycznego i przełożenia na mierzalne kryteria kontroli oraz ciągłości.
+- id: CLM-0128
+  text: Polska Autonomia 2040 powinna być zarządzana jako międzyresortowy portfel wykonawczy podporządkowany strategii państwa,
+    z oddzielną warstwą jawną i autoryzowanym obiegiem informacji wrażliwych.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0104
+  - SRC-0106
+  - SRC-0107
+  locators:
+  - 'SRC-0101: pkt 1.1–1.8 i s. 36'
+  - 'SRC-0104: art. 24'
+  - 'SRC-0107: paras 24–27'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Repozytorium publiczne nie jest właściwym miejscem dla niejawnego aneksu; może zawierać wyłącznie jego strukturę,
+    pytania i reguły przekazania.
+- id: CLM-0129
+  text: 'Każda inicjatywa portfela powinna mieć jawny łańcuch: interes bezpieczeństwa, problem użytkownika, efekt zdolnościowy,
+    właściciel, zależności NATO i UE, miernik, termin przeglądu oraz bramkę skaluj–zmień–zamknij.'
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0110
+  - SRC-0111
+  - SRC-0116
+  locators:
+  - 'SRC-0101: pkt 1.1–1.8 i s. 36'
+  - 'SRC-0110: Strategic objectives'
+  - 'SRC-0111: paras 3–10'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Bramka zamknięcia ogranicza finansowanie projektów bez dowodu użyteczności, lecz musi dopuszczać kontrolowane eksperymenty.
+- id: CLM-0130
+  text: Każdy strategiczny projekt technologiczny powinien przejść bramkę resilience-by-design obejmującą wpływ na ciągłość
+    kierowania, usługi podstawowe, wsparcie wojskowe, infrastrukturę krytyczną, alternatywy dostaw, odtworzenie i testy kryzysowe.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0106
+  - SRC-0108
+  - SRC-0115
+  locators:
+  - 'SRC-0101: pkt 2.7–2.8'
+  - 'SRC-0106: art. 4 i art. 8'
+  - 'SRC-0108: three core functions and seven baseline requirements'
+  - 'SRC-0115: key actions'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Kryteria szczegółowe muszą być kalibrowane do kategorii projektu i nie mogą ujawniać podatności.
+- id: CLM-0131
+  text: Rząd powinien utrzymywać jedną macierz koherencji pokazującą dla każdej zdolności powiązania z interesem narodowym,
+    celami NATO i inicjatywami UE, bez tworzenia fikcyjnej hierarchii między NATO i UE.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0107
+  - SRC-0112
+  - SRC-0116
+  locators:
+  - 'SRC-0107: para 43'
+  - 'SRC-0112: section Partner'
+  - 'SRC-0116: pp. 2–8'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Część zawierająca cele zdolnościowe NATO może wymagać niejawnego lub ograniczonego obiegu.
+- id: CLM-0132
+  text: Publiczny dashboard powinien raportować zagregowane terminy, dojrzałość, dywersyfikację i wyniki testów, natomiast
+    szczegółowe luki, wolumeny, zapasy, podatności i zależności operacyjne powinny pozostać w obiegu autoryzowanym.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0106
+  - SRC-0108
+  locators:
+  - 'SRC-0101: pkt 1.1–1.8 i 2.7–2.8'
+  - 'SRC-0106: art. 4 i art. 8'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Klasyfikacja konkretnych danych należy do uprawnionych organów; rekomendacja nie przesądza klauzuli.
+- id: CLM-0133
+  text: Model zarządzania powinien respektować ustawowe role Prezydenta i Rady Ministrów oraz ustanowić wspólny coroczny przegląd
+    strategiczny, bez mieszania patronatu politycznego z odpowiedzialnością wykonawczą i budżetową.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0104
+  locators:
+  - 'SRC-0101: pkt 1.1–1.8 i s. 36'
+  - 'SRC-0104: art. 24 ust. 1'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Szczegółowa podstawa prawna, sekretariat i odpowiedzialność wymagają uzgodnienia A02 i A09.
+- id: CLM-0134
+  text: Pełny tekst projektu Strategii Bezpieczeństwa Narodowego przyjętego przez Radę Ministrów w 2025 r., komplet uwag Prezydenta
+    i ostateczna ścieżka ich rozstrzygnięcia nie zostały ustalone w wykorzystanych jawnych źródłach.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0102
+  - SRC-0103
+  - SRC-0105
+  locators:
+  - 'SRC-0102: publiczne streszczenie, bez pełnego tekstu w materiale źródłowym'
+  - 'SRC-0103: opis pisma Prezydenta, bez jego pełnej treści'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Należy pozyskać formalne potwierdzenie i dokumenty z KPRM oraz BBN przed wersją decyzyjną.
+- id: CLM-0135
+  text: Niejawne cele zdolnościowe NATO przypisane Polsce, ich krajowe plany wykonania oraz szczegółowa ocena luk odporności
+    nie są dostępne w wykorzystanym materiale publicznym i nie powinny być rekonstruowane przez zgadywanie.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0107
+  - SRC-0108
+  - SRC-0110
+  - SRC-0116
+  locators:
+  - 'SRC-0110: odniesienia do NDPP bez publikacji celów przypisanych poszczególnym państwom'
+  - 'SRC-0116: jawny opis koherencji procesów bez krajowych luk i wolumenów'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: restricted-placeholder
+  notes: W repozytorium wolno zapisać pytania, właściciela i wymagany poziom dostępu, ale nie treść danych pozyskanych w obiegu
+    niejawnym.
+- id: CLM-0136
+  text: Jeżeli program zostanie zorganizowany jako nowy silos grantowy bez właścicieli efektów, zamówień, testów i bramek
+    zamknięcia, prawdopodobnym scenariuszem jest wzrost liczby projektów i laboratoriów bez proporcjonalnego wzrostu gotowych
+    zdolności.
+  type: SCENARIO
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0110
+  - SRC-0111
+  locators:
+  - 'SRC-0101: pkt 1.1–1.8'
+  - 'SRC-0110: lifecycle and Strategic objectives'
+  - 'SRC-0111: contracting, adoption and scale-up pathways'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To scenariusz ryzyka, nie ustalenie o istniejącym programie; wymaga porównania z audytem obecnych instrumentów.
+- id: CLM-0137
+  text: 'Program powinien mieć powiązane horyzonty: decyzje pierwszych 100 dni, zdolności i zgodność sojuszniczą do 2030 r.
+    oraz transformację przemysłowo-technologiczną do 2040 r., aktualizowane corocznie.'
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0112
+  - SRC-0113
+  - SRC-0114
+  locators:
+  - 'SRC-0101: s. 36'
+  - 'SRC-0112: common vision to 2030'
+  - 'SRC-0113: Readiness 2030'
+  - 'SRC-0114: proposed milestones to 2030'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Horyzont 2040 nie może odraczać decyzji, które mają mierzalny termin w latach 2026–2030.
+- id: CLM-0138
+  text: Miarą suwerenności technologicznej nie powinien być sam udział krajowej wartości dodanej; potrzebny jest zestaw miar
+    obejmujący kontrolę konfiguracji, prawo i zdolność naprawy, alternatywnych dostawców, czas odtworzenia, interoperacyjność
+    i dostępność w kryzysie.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0101
+  - SRC-0107
+  - SRC-0110
+  - SRC-0116
+  locators:
+  - 'SRC-0101: s. 18–23'
+  - 'SRC-0107: paras 20–27'
+  - 'SRC-0110: Strategic objectives'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Progi i wagi tych mierników wymagają uzgodnienia z A06, A07 i użytkownikami końcowymi.
+- id: CLM-0139
+  text: Informacja o udziale w BraveTech EU nie jest wystarczającą podstawą preferowania konkretnej firmy; wybór partnera
+    wymaga porównania alternatyw i odrębnego due diligence.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0117
+  locators:
+  - 'SRC-0117: opis mechanizmu i uczestników programu, bez rankingu albo due diligence konkretnych firm'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zakres due diligence powinny określić A08 i A09.
+- id: CLM-0140
+  text: Proponowany kamień milowy albo projekt flagowy UE nie powinien być raportowany jako zrealizowany, dopóki jego aktualny
+    status, finansowanie i wykonanie nie zostaną potwierdzone w źródłach pierwotnych.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0114
+  locators:
+  - 'SRC-0114: sformułowania proposed milestones i proposed flagships'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A01
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To reguła ostrożności dowodowej, nie ocena stopnia realizacji któregokolwiek projektu.
+- id: CLM-0201
+  text: Regulamin pracy Rady Ministrów zalicza strategie i programy do innych dokumentów rządowych oraz określa dla nich sekwencję
+    obejmującą projekt, uzgodnienia lub konsultacje, komitety i rozpatrzenie przez Radę Ministrów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0201
+  locators:
+  - § 19 ust. 2
+  - § 21
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0202
+  text: Ustawa o Radzie Ministrów wymaga prowadzenia publicznego Wykazu prac legislacyjnych i programowych, obejmującego między
+    innymi projekty strategii i programów oraz wskazanie organów odpowiedzialnych i planowanego terminu przyjęcia.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0203
+  locators:
+  - art. 2 pkt 1, dodający art. 8a ust. 1-5 ustawy o Radzie Ministrów
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0203
+  text: Zgłoszenie strategii lub programu do wykazu powinno opisywać cele, środki realizacji, skutki i sposób pomiaru, a formalne
+    procedowanie projektu rozpoczyna się po wpisie do właściwego wykazu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0201
+  - SRC-0211
+  locators:
+  - 'SRC-0201: § 25 ust. 2, § 25a ust. 4-7, § 31'
+  - 'SRC-0211: sekcja formularzy dla wykazu prac programowych'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0204
+  text: Koordynator OSR może zażądać oceny skutków także dla nienormatywnego dokumentu rządowego, a zasady konsultacji publicznych
+    mogą być stosowane do takich dokumentów z uwzględnieniem ich przedmiotu i znaczenia.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0201
+  - SRC-0209
+  locators:
+  - 'SRC-0201: § 29 ust. 2-3, § 36 ust. 1-2'
+  - 'SRC-0209: sekcje ''Ocena wpływu'' i ''Konsultacje publiczne'''
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0205
+  text: Prezes Rady Ministrów może żądać od organów administracji informacji, dokumentów i sprawozdań, powierzyć jednemu ministrowi
+    sprawę należącą do właściwości więcej niż jednego organu oraz rozstrzygać spory kompetencyjne między ministrami.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0202
+  locators:
+  - art. 5 pkt 2, 6 i 7
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0206
+  text: Pełnomocnika Rządu ustanawia Rada Ministrów dla spraw, których przekazanie członkom Rady Ministrów nie jest celowe;
+    pełnomocnikiem jest co do zasady sekretarz albo podsekretarz stanu, a zakres i obsługę określa rozporządzenie Rady Ministrów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0202
+  locators:
+  - art. 10 ust. 1-5
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0207
+  text: Prezes Rady Ministrów może zarządzeniem tworzyć organy pomocnicze, lecz przedstawiciel Prezydenta uczestniczy już
+    z mocy ustawy w posiedzeniach komitetu Rady Ministrów i Rady Ministrów dotyczących bezpieczeństwa i obronności państwa.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0202
+  locators:
+  - art. 12 ust. 1-3
+  - art. 22 ust. 1b
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Udział przedstawiciela Prezydenta nie oznacza przeniesienia konstytucyjnej odpowiedzialności Rady Ministrów ani współzarządzania
+    programem.
+- id: CLM-0208
+  text: Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu ma obowiązujący mandat do koordynowania i monitorowania realizacji
+    polityki i priorytetowych zadań rządu, współpracy z Zespołem do spraw Programowania Prac Rządu oraz żądania informacji
+    z upoważnienia Prezesa Rady Ministrów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0204
+  locators:
+  - §§ 1-5
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0209
+  text: Istniejący Komitet Rady Ministrów do spraw Nadzoru nad Wdrażaniem Polityki Rządu może ustalać priorytety, cele cząstkowe
+    i terminy, monitorować wykonanie, rekomendować zmiany, eskalować zagrożenia oraz modyfikować zadania zgodnie z ustaleniami
+    Rady Ministrów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0205
+  - SRC-0206
+  locators:
+  - 'SRC-0205: § 2 pkt 1-8, §§ 3-9'
+  - 'SRC-0206: § 1, dodający § 2 pkt 1a'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0210
+  text: Departament Nadzoru nad Wdrażaniem Polityki Rządu w KPRM ma zadania obejmujące koordynację projektów strategicznych,
+    analizę danych, ocenę wdrożenia, opiniowanie planów ministrów oraz obsługę istniejącego komitetu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0207
+  locators:
+  - sekcja zadań Departamentu, pkt 1-5 i 9
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0211
+  text: Utworzenie od początku odrębnego pełnomocnika, komitetu i biura realizacji dla programu Polska 2040 najpewniej dublowałoby
+    aktualne kompetencje nadzoru i koordynacji KPRM.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0204
+  - SRC-0205
+  - SRC-0206
+  - SRC-0207
+  locators:
+  - 'SRC-0204: §§ 1-5'
+  - 'SRC-0205: §§ 1-11'
+  - 'SRC-0206: § 1'
+  - 'SRC-0207: pkt 1-5 i 9 opisu zadań'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wniosek wymaga sprawdzenia realnej przepustowości i skuteczności obecnej struktury, nie tylko jej formalnego mandatu.
+- id: CLM-0212
+  text: Inna strategia rozwoju może dotyczyć sektora lub dziedziny, może wykraczać poza horyzont średniookresowej strategii
+    rozwoju kraju, jeśli uzasadnia to specyfika obszaru, oraz jest przyjmowana uchwałą Rady Ministrów po opinii ministra właściwego
+    do spraw rozwoju regionalnego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0208
+  locators:
+  - art. 9 pkt 3
+  - art. 13 ust. 1-3
+  - art. 14 ust. 1-6
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0213
+  text: Projekt innej strategii rozwoju wymaga diagnozy, ewaluacji ex ante i co najmniej 35-dniowych konsultacji, po których
+    sporządza się w ciągu 30 dni sprawozdanie z uzasadnioną odpowiedzią na uwagi.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0208
+  locators:
+  - art. 6 ust. 1 i 4-6
+  - art. 10a ust. 1-2
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0214
+  text: Program rozwoju jest dokumentem operacyjno-wdrożeniowym z planem finansowym, wskaźnikami, systemem realizacji, monitorowaniem
+    i ewaluacją; program ministra wymaga opinii ministra właściwego do spraw rozwoju regionalnego i uchwały Rady Ministrów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0208
+  locators:
+  - art. 15 ust. 1 i 4 pkt 2
+  - art. 17 ust. 1-1a
+  - art. 18 pkt 3
+  - art. 19 ust. 1-2
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0215
+  text: Dla publicznego dokumentu parasolowego do 2040 r. najbardziej adekwatnym wariantem jest inna strategia rozwoju z art.
+    9 pkt 3, z wydzielonym okresem zgodnym z aktualną średniookresową strategią kraju, pod warunkiem potwierdzenia właściwego
+    ministra i zgodności systemowej.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0208
+  - SRC-0212
+  - SRC-0213
+  locators:
+  - 'SRC-0208: art. 9 pkt 3, art. 13-14'
+  - 'SRC-0212: przebieg projektu SRP2035'
+  - 'SRC-0213: rekord ID132'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To kwalifikacja rekomendowana do pisemnego potwierdzenia przez MFiPR i RCL, a nie porada prawna.
+- id: CLM-0216
+  text: Uchwały Rady Ministrów i zarządzenia Prezesa Rady Ministrów mają charakter wewnętrzny i nie mogą same stanowić podstawy
+    obowiązków lub decyzji wobec obywateli, przedsiębiorstw i innych podmiotów niepodległych organizacyjnie.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0214
+  locators:
+  - art. 93 ust. 1-3
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0217
+  text: Pakiet Polska 2040 powinien rozdzielać uchwałę przyjmującą strategię, programy wdrożeniowe i wieloletnie oraz odrębne
+    ustawy lub rozporządzenia tylko tam, gdzie potrzebne są skutki zewnętrzne lub szczególna podstawa prawna.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0208
+  - SRC-0214
+  - SRC-0215
+  locators:
+  - 'SRC-0208: art. 14-19'
+  - 'SRC-0214: art. 92-93'
+  - 'SRC-0215: art. 136'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie przesądza, które konkretne instrumenty ustawowe będą potrzebne; to zadanie mapy prawnej A09.
+- id: CLM-0218
+  text: Rada Ministrów może ustanowić program wieloletni służący realizacji strategii, wskazując wykonawcę, a ustawa budżetowa
+    może określać roczne limity wydatków; sama strategia nie gwarantuje jednak finansowania.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0215
+  locators:
+  - art. 136 ust. 1-5
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0219
+  text: Strategie i programy wyznaczające ramy dla przedsięwzięć mogących znacząco oddziaływać na środowisko wymagają strategicznej
+    oceny oddziaływania na środowisko w przypadkach określonych w art. 46, a wyjątek z art. 47a dotyczy dokumentów przygotowywanych
+    wyłącznie dla celów obrony narodowej lub obrony cywilnej, z zastrzeżeniem Natura 2000.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0208
+  - SRC-0216
+  - SRC-0217
+  locators:
+  - 'SRC-0208: art. 6a'
+  - 'SRC-0216: art. 46-48'
+  - 'SRC-0217: sekcje o dokumentach podlegających SOOŚ i wyjątkach'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0220
+  text: Organ przygotowujący Polskę 2040 powinien rozpocząć kwalifikację SOOŚ i uzgodnienia z właściwymi organami środowiskowymi
+    na początku prac, a nie po zamknięciu projektu strategii.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0216
+  - SRC-0217
+  locators:
+  - 'SRC-0216: art. 46-49, 51, 54-55'
+  - 'SRC-0217: sekcje ''Etapy strategicznej oceny'' i ''Udział społeczeństwa'''
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0221
+  text: Kontrola NIK wcześniejszego systemu monitorowania projektów strategicznych wykazała, że niepełne i wadliwe dane, problemy
+    z mierzalnymi celami i ograniczone użycie systemu osłabiały wiarygodność informacji dla decydentów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0218
+  locators:
+  - sekcje 'System nie został w pełni wdrożony', '(Nie)funkcjonowanie systemu MonAliZa' i 'Wnioski'
+  as_of: '2023-05-08'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To ustalenie historyczne; nie opisuje automatycznie stanu narzędzi KPRM w 2026 r.
+- id: CLM-0222
+  text: 'Dashboard programu powinien powstać dopiero po zdefiniowaniu kontraktów metryk: właściciela, źródła, definicji, częstotliwości,
+    progów, jakości danych, ścieżki audytu oraz reguły oznaczania braków jako UNKNOWN.'
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0205
+  - SRC-0207
+  - SRC-0218
+  locators:
+  - 'SRC-0205: § 2 pkt 2-4 i § 7'
+  - 'SRC-0207: pkt 2-5 opisu zadań'
+  - 'SRC-0218: ustalenia i wnioski kontroli'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0223
+  text: Rekomendowany model zarządzania wykorzystuje istniejącego Ministra i Komitet do nadzoru nad realizacją, a odrębnie
+    wyznacza właściwego ministra jako formalnie odpowiedzialnego za przygotowanie strategii i jej przedłożenie Radzie Ministrów.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0201
+  - SRC-0204
+  - SRC-0205
+  - SRC-0208
+  locators:
+  - 'SRC-0201: § 20-21'
+  - 'SRC-0204: §§ 1-5'
+  - 'SRC-0205: §§ 1-9'
+  - 'SRC-0208: art. 14'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wyznaczenie konkretnego właściwego ministra wymaga formalnej analizy działów i zakresów działania.
+- id: CLM-0224
+  text: Realistycznym wynikiem pierwszych 100 dni jest projekt gotowy do formalnych konsultacji wraz z diagnozą, ewaluacją
+    ex ante, ramami finansowymi, rejestrem dowodów i rozstrzygnięciem ścieżki SOOŚ, a nie obietnica przyjęcia kompletnej strategii
+    przez Radę Ministrów.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0201
+  - SRC-0208
+  - SRC-0216
+  locators:
+  - 'SRC-0201: § 21, § 25a, § 31, § 34-52, § 83-90'
+  - 'SRC-0208: art. 6, 10a, 13-14'
+  - 'SRC-0216: art. 46-55'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0225
+  text: Nie ustalono na podstawie zbadanych źródeł, który minister jest właściwy do opracowania horyzontalnej strategii Polska
+    2040 obejmującej jednocześnie bezpieczeństwo, przemysł, cyfryzację, naukę i rozwój regionalny.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0202
+  - SRC-0204
+  - SRC-0208
+  locators:
+  - 'SRC-0202: art. 5 i 33'
+  - 'SRC-0204: §§ 1-5'
+  - 'SRC-0208: art. 14 ust. 1'
+  as_of: '2026-07-21'
+  confidence: low
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Wymagane: pisemna mapa kompetencji KPRM/RCL/MFiPR obejmująca ustawę o działach administracji rządowej i aktualne
+    rozporządzenia atrybucyjne.'
+- id: CLM-0226
+  text: Oficjalne strony sprawdzone 21 lipca 2026 r. przedstawiają Strategię Rozwoju Polski do 2035 r. jako projekt przekazany
+    Radzie Ministrów, lecz nie stanowią wystarczającego dowodu jej aktualnego statusu w dniu przyszłego przedłożenia Polski
+    2040.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0212
+  - SRC-0213
+  locators:
+  - 'SRC-0212: akapity o SKRM i wersji przekazanej RM'
+  - 'SRC-0213: rekord ID132 i historia wersji 3.0'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Status należy ponownie potwierdzić w ELI, Monitorze Polskim i wykazie KPRM bezpośrednio przed wpisem Polski 2040
+    do wykazu.
+- id: CLM-0227
+  text: Strategia powinna mieć publiczny korpus celów, instrumentów, wskaźników i odpowiedzialności oraz oddzielny, autoryzowany
+    obieg dla wymagań niejawnych i danych wrażliwych; sam status bezpieczeństwa nie uzasadnia ukrycia całego dokumentu dual-use.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0201
+  - SRC-0202
+  - SRC-0208
+  - SRC-0216
+  locators:
+  - 'SRC-0201: § 36 ust. 3, § 52'
+  - 'SRC-0202: art. 22'
+  - 'SRC-0208: art. 6'
+  - 'SRC-0216: art. 47a i 54-55'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Szczegółowy model informacji niejawnych należy do A09 i autoryzowanych właścicieli systemów.
+- id: CLM-0228
+  text: Tryb odrębny od standardowego procesu dokumentów rządowych może być zastosowany tylko w szczególnie uzasadnionych
+    przypadkach i pozwala Prezesowi Rady Ministrów określić zakres pominiętych etapów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0201
+  locators:
+  - §§ 98-100
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0229
+  text: Tryb szczególny nie powinien być domyślną ścieżką Polski 2040; tempo należy osiągnąć przez wczesne uzgodnienie problemu,
+    właścicieli, danych i spornych kwestii, zachowując audytowalny proces.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0201
+  - SRC-0209
+  - SRC-0210
+  locators:
+  - 'SRC-0201: § 21, § 34-52, § 98-100'
+  - 'SRC-0209: sekcje oceny wpływu i konsultacji'
+  - 'SRC-0210: cel wytycznych'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0230
+  text: Nie ustalono aktualnej architektury, jakości danych ani zdolności integracyjnych narzędzi informatycznych używanych
+    przez KPRM do monitorowania priorytetów rządu w 2026 r.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0207
+  - SRC-0218
+  locators:
+  - 'SRC-0207: opis zadań bez specyfikacji systemu'
+  - 'SRC-0218: historyczne ustalenia dotyczące MonAliZa'
+  as_of: '2026-07-21'
+  confidence: low
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wymagany audyt read-only obecnych narzędzi, słowników danych, API, uprawnień i odpowiedzialności przed decyzją o
+    budowie nowego systemu albo integracji istniejącego.
+- id: CLM-0231
+  text: RACI programu powinien być ustalany osobno dla mandatu, przygotowania strategii, przyjęcia dokumentu, realizacji portfela,
+    programów dziedzinowych, finansowania, danych i niezależnej oceny, z jednym podmiotem Accountable dla każdego rezultatu.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0201
+  - SRC-0204
+  - SRC-0205
+  - SRC-0208
+  locators:
+  - 'SRC-0201: § 20-22, § 83-90'
+  - 'SRC-0204: §§ 1-5'
+  - 'SRC-0205: §§ 2-9'
+  - 'SRC-0208: art. 14, 18-19'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0232
+  text: Właściciel rezultatu ani dostawca rozwiązania nie powinien samodzielnie zatwierdzać jakości własnych danych lub dowodów;
+    potrzebne są oddzielne funkcje walidacji, red-team i jawny rejestr konfliktów interesów.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0209
+  - SRC-0218
+  locators:
+  - 'SRC-0209: cel oceny wpływu i polityki opartej na dowodach'
+  - 'SRC-0218: ustalenia o jakości danych i mierzalności celów'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0233
+  text: Organ wnioskujący musi przygotować raport z konsultacji, rozstrzygnąć uwagi i ponowić uzgodnienia lub konsultacje,
+    jeżeli istotnie zmienia projekt w toku prac.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0201
+  locators:
+  - § 48
+  - §§ 49-51
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0234
+  text: Publiczne konsultacje strategii powinny zostać zaplanowane co najmniej na ustawowe 35 dni, z opublikowaniem uzasadnionych
+    odpowiedzi, a pre-konsultacje powinny rozpocząć się wcześniej z grupami dotkniętymi skutkami.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0208
+  - SRC-0209
+  - SRC-0210
+  locators:
+  - 'SRC-0208: art. 6 ust. 4-6'
+  - 'SRC-0209: sekcja konsultacji publicznych'
+  - 'SRC-0210: wytyczne konsultacyjne'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0235
+  text: Przed formalnym przedłożeniem należy sprawdzić, czy RCL zakończyło aktualizację wytycznych oceny wpływu i konsultacji,
+    ponieważ strona RCL wskazuje trwające prace aktualizacyjne.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0210
+  locators:
+  - komunikat na stronie RCL o aktualizacji wytycznych
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0236
+  text: Ze względu na równoczesny zakres przemysłowy, edukacyjny, infrastrukturalny i cywilny programu Polska 2040 nie należy
+    zakładać bez formalnej kwalifikacji, że cały dokument spełnia przesłankę przygotowania wyłącznie dla celów obrony narodowej
+    lub obrony cywilnej.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0216
+  - SRC-0217
+  locators:
+  - 'SRC-0216: art. 46-48'
+  - 'SRC-0217: sekcje o dokumentach podlegających SOOŚ i wyjątkach'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A02
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To ostrożnościowy wniosek z literalnego kryterium 'wyłącznie'; ostateczna kwalifikacja należy do właściwych organów.
+- id: CLM-0301
+  text: Prawo zamówień publicznych stosuje się do zamówień w dziedzinach obronności i bezpieczeństwa udzielanych przez zamawiających
+    publicznych i sektorowych, gdy wartość jest równa progom unijnym lub je przekracza, z zastrzeżeniem ustawowych wyłączeń.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0301
+  locators:
+  - 'SRC-0301: art. 2 ust. 1 pkt 3'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Treść sprawdzona przez autora w źródle A1; zgodnie z kontraktem agentowym wymaga niezależnej recenzji przed oznaczeniem
+    verified.
+- id: CLM-0302
+  text: Wyłączenie usług badawczych lub rozwojowych spod PZP nie jest automatyczne; art. 11 ust. 1 pkt 3 wiąże zastosowanie
+    ustawy z określonymi kodami CPV oraz łącznym spełnieniem warunków wyłącznej korzyści zamawiającego i pełnego finansowania
+    przez zamawiającego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0301
+  locators:
+  - 'SRC-0301: art. 11 ust. 1 pkt 3'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Wniosek opisuje konstrukcję przepisu, nie przesądza kwalifikacji konkretnej umowy. Wymagana recenzja A09 lub radcy
+    prawnego.
+- id: CLM-0303
+  text: Wyłączenie PZP ze względu na informacje niejawne, szczególne środki bezpieczeństwa lub istotny interes bezpieczeństwa
+    państwa działa tylko w zakresie, w jakim ochrony tego interesu nie można zapewnić w inny sposób, w szczególności przy
+    użyciu działu VI PZP.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0301
+  locators:
+  - 'SRC-0301: art. 12 ust. 1 pkt 1'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Przepis nie wspiera blankietowego wyłączenia wszystkich zakupów programu. Wymaga niezależnej recenzji prawnej.
+- id: CLM-0304
+  text: W zamówieniach w dziedzinach obronności i bezpieczeństwa PZP wyłącza stosowanie przepisów właściwych dla przetargu
+    nieograniczonego, partnerstwa innowacyjnego, dynamicznego systemu zakupów i konkursu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0301
+  locators:
+  - 'SRC-0301: art. 395 ust. 3'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Fakt ogranicza możliwość mechanicznego przeniesienia cywilnego modelu partnerstwa innowacyjnego do zamówienia obronnego.
+- id: CLM-0305
+  text: PZP przewiduje dla zamówień obronnych przetarg ograniczony i negocjacje z ogłoszeniem, a w określonych przypadkach
+    dialog konkurencyjny, negocjacje bez ogłoszenia lub zamówienie z wolnej ręki; kryteria mogą obejmować poza ceną lub kosztem
+    m.in. bezpieczeństwo dostaw, interoperacyjność i właściwości operacyjne.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0301
+  locators:
+  - 'SRC-0301: art. 410 ust. 1–2 i art. 417 ust. 1'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Treść przepisów nie oznacza, że każdy tryb jest dostępny w każdej sytuacji; wybór wymaga dokumentowanej podstawy
+    prawnej.
+- id: CLM-0306
+  text: Jedną z przesłanek negocjacji bez ogłoszenia w zamówieniach obronnych są produkty wytwarzane jedynie do celów prac
+    badawczych i rozwojowych, ale przepis wyłącza z tej przesłanki produkcję seryjną służącą osiągnięciu zysku lub pokryciu
+    kosztów badań lub rozwoju.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0301
+  locators:
+  - 'SRC-0301: art. 414 ust. 2 pkt 1'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Wspiera rozdzielenie umowy na eksperyment od zgodnej z prawem ścieżki zakupu seryjnego; nie jest poradą dla konkretnego
+    postępowania.
+- id: CLM-0307
+  text: Art. 2 ust. 5 ustawy z 25 lipca 2025 r. wyłącza PZP dla zamówień Sił Zbrojnych RP dotyczących wskazanych systemów
+    bezzałogowych i środków ich zwalczania, jeżeli rozwiązanie przetestowano w Siłach Zbrojnych RP, otrzymało pozytywną rekomendację
+    z testów i Minister Obrony Narodowej zgodził się na zakup.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0302
+  - SRC-0303
+  locators:
+  - 'SRC-0302: art. 2 ust. 5'
+  - 'SRC-0303: art. 5 nie zmienia art. 2 ust. 5'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: To wyłączenie jest przedmiotowe i warunkowe; stan prawny trzeba sprawdzić ponownie tuż przed zastosowaniem.
+- id: CLM-0308
+  text: Publiczne ogłoszenie MON o testach na podstawie decyzji nr 123/MON wskazuje cztery zasady procesu — oparcie o jednostki
+    organizacyjne Sił Zbrojnych, rozproszone testowanie, uczciwą, transparentną i konkurencyjną procedurę oraz uproszczoną
+    weryfikację kontrwywiadowczą dostawców.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0305
+  locators:
+  - 'SRC-0305: założenia 1–4'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Fakt dotyczy jawnego opisu procedury, a nie oceny jakości każdego przeprowadzonego testu.
+- id: CLM-0309
+  text: MON przypisuje Agencji Uzbrojenia role obejmujące definiowanie wymagań sprzętowych dla potrzeb operacyjnych, inicjowanie
+    prac B+R, prowadzenie procedur pozyskiwania, nadzór jakości oraz zarządzanie prawami własności intelektualnej powstałymi
+    z B+R.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0304
+  locators:
+  - 'SRC-0304: sekcja Zadania'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Opis z oficjalnej strony MON; nie przesądza szczegółowego podziału odpowiedzialności w każdym trybie specjalnym.
+- id: CLM-0310
+  text: Według komunikatu MON z 22 kwietnia 2026 r. do programu innowacji dla Tarczy Wschód wpłynęło ponad 715 zgłoszeń, przetestowano
+    36 rozwiązań, a po testach zapowiedziano raport i rekomendacje dotyczące możliwości wdrożenia.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0306
+  locators:
+  - 'SRC-0306: akapity o 715 zgłoszeniach, 36 testach i raporcie dla MON'
+  as_of: '2026-04-22'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Liczby są migawką kohorty na datę publikacji i nie powinny być łączone z późniejszymi kohortami bez uzgodnienia definicji.
+- id: CLM-0311
+  text: Jawny komunikat o Tarczy Wschód nie podaje kompletnej liczby rekomendacji pozytywnych, podpisanych umów, pierwszych
+    dostaw, skalowań, zamknięć projektów ani median czasu przejścia między etapami.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0306
+  locators:
+  - 'SRC-0306: cały komunikat; brak pełnego szeregu kohortowego'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Brak danych w jednym komunikacie nie dowodzi, że państwo ich nie posiada; oznacza wyłącznie brak publicznej podstawy
+    do policzenia konwersji.
+- id: CLM-0312
+  text: Poligon Innowatora ma według MON przyspieszać identyfikację, testowanie i wdrażanie, dokumentować testy oraz wspierać
+    zgodność regulacyjną, lecz publiczna strona inicjatywy nie przedstawia kompletnej, mierzalnej ścieżki test–kontrakt–skalowanie.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0307
+  locators:
+  - 'SRC-0307: cele inicjatywy i brak opisu konwersji kontraktowej'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Wniosek dotyczy stanu jawnej dokumentacji, nie niejawnych lub wewnętrznych procedur MON.
+- id: CLM-0313
+  text: NATO wskazuje ogólną ambicję znajdowania, testowania i przyjmowania nowych produktów technologicznych w terminie 24
+    miesięcy, przy czym samo źródło zastrzega, że czas zależy od poziomu gotowości technologicznej i charakteru produktu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0308
+  locators:
+  - 'SRC-0308: para 6 i przypis 5'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 24 miesiące to ambicja sojusznicza, nie ustawowy termin ani uniwersalne SLA dla każdego projektu.
+- id: CLM-0314
+  text: NATO zaleca łączenie wyzwań innowacyjnych i eksperymentów operacyjnych z wcześniej zidentyfikowanymi ścieżkami kontraktowania,
+    które umożliwią szybkie pozyskanie przetestowanych rozwiązań, gdy spełniają istotne wymagania.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0308
+  locators:
+  - 'SRC-0308: para 7 pkt 3'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: To najbardziej bezpośredni aktualny wzorzec dla zasady, że ścieżka kontraktowa powinna być znana przed rozpoczęciem
+    testu.
+- id: CLM-0315
+  text: DIANA opisuje finansowanie akceleracji i testów oraz dostęp do ponad 200 centrów testowych, ale publiczny opis programu
+    nie obiecuje automatycznego zamówienia seryjnego przez państwo po ukończeniu programu.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0309
+  locators:
+  - 'SRC-0309: Funding & Testing; Mission Track; brak gwarancji zakupu'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Wniosek zapobiega myleniu akceleracji i TEVV z krajowym kontraktem.
+- id: CLM-0316
+  text: HEDI 2.0 i kampania OPEX EDA łączą wyzwania, fazowy rozwój, testy z użytkownikiem, porównywalne dowody i informację
+    zwrotną; uczestników OPEX 2025 wybrano po konkurencyjnym postępowaniu, ale eksperyment nie jest sam w sobie dowodem późniejszego
+    zakupu seryjnego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0310
+  - SRC-0311
+  locators:
+  - 'SRC-0310: Innovators Forge i Uptake of Innovation'
+  - 'SRC-0311: Areas to be tested'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Źródła wspierają wzorzec eksperymentowania, nie twierdzenie o automatycznej adopcji przez państwa członkowskie.
+- id: CLM-0317
+  text: Polska posiada już publicznie widoczne elementy szybkiej adopcji — właściciela pozyskiwania, wyspecjalizowane testy,
+    Poligon Innowatora i portfel innowacji — lecz z jawnych źródeł nie da się wykazać jednego kohortowego systemu łączącego
+    wszystkie elementy z kontraktem, pierwszą partią, skalowaniem i zamknięciem.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0304
+  - SRC-0305
+  - SRC-0306
+  - SRC-0307
+  locators:
+  - 'SRC-0304–SRC-0307: zestawienie ról i opisów inicjatyw'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Nie wyklucza istnienia wewnętrznego lub niejawnego systemu. Uzasadnia audyt stanu faktycznego przed projektowaniem
+    nowych struktur.
+- id: CLM-0318
+  text: Publiczne źródła użyte w pakiecie A03 nie pozwalają ustalić krajowej mediany czasu od zaakceptowania problemu użytkownika
+    do umowy pilotażowej ani od prototypu do pierwszej partii.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0304
+  - SRC-0305
+  - SRC-0306
+  - SRC-0307
+  locators:
+  - 'SRC-0304–SRC-0307: brak pełnych znaczników czasu dla kohort'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Cele czasowe strategii muszą być początkowo scenariuszem i zostać skalibrowane po audycie kohort 2025–2026.
+- id: CLM-0319
+  text: Należy zbudować wspólny system operacyjny wokół istniejących instytucji, zamiast powoływać nową agencję zakupową;
+    Biuro Realizacji w KPRM powinno mierzyć przepływ i eskalować zatory, ale nie wybierać dostawców.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0304
+  - SRC-0306
+  - SRC-0307
+  locators:
+  - 'SRC-0304: zakres AU'
+  - 'SRC-0306–SRC-0307: istniejące testy i inicjatywy'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: Premier/KPRM i MON. Rezultat: karta operacyjna oraz RACI. Bramka: brak dublowania kompetencji ustawowych.
+    Stop-rule: projekt wstrzymany, jeśli tworzy równoległą selekcję dostawców. Ryzyko: dodatkowa biurokracja.'
+- id: CLM-0320
+  text: Każdy projekt powinien przechodzić przez jawnie zdefiniowane bramki — karta problemu, rozeznanie i kwalifikacja, prototyp,
+    test, ograniczona partia ucząca, skalowanie albo zamknięcie oraz przegląd cyklu życia.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0308
+  - SRC-0310
+  - SRC-0311
+  locators:
+  - 'SRC-0308: paras 6–7'
+  - 'SRC-0310: phase-based development and OPEX'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: MON — użytkownik sponsorujący i Agencja Uzbrojenia. Rezultat: decyzja go/iterate/stop na każdej bramce. Stop-rule:
+    brak właściciela problemu, podstawy bezpieczeństwa, danych testowych lub legalnej ścieżki pozyskania. Ryzyko: pozorna
+    zwinność bez odpowiedzialności.'
+- id: CLM-0321
+  text: Przed finansowaniem prototypu lub eksperymentu należy wskazać hipotezę legalnej ścieżki kontraktowej, właściciela
+    budżetu i warunki przejścia do następnego etapu; test bez takiej ścieżki powinien być jawnie oznaczony jako badanie bez
+    obietnicy zakupu.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0301
+  - SRC-0308
+  locators:
+  - 'SRC-0301: ograniczenia trybów i R&D'
+  - 'SRC-0308: para 7 pkt 3'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: Agencja Uzbrojenia wraz z prawnikiem zamówieniowym i właścicielem budżetu. Rezultat: karta ścieżki zakupu.
+    Bramka: podpis trzech właścicieli. Stop-rule: brak zgodnej podstawy lub finansowania. Ryzyko: przedwczesne zobowiązanie
+    wobec dostawcy.'
+- id: CLM-0322
+  text: Wielkość małej partii powinna wynikać z planu uczenia — liczby niezależnych użytkowników, scenariuszy, cykli serwisowych
+    i danych potrzebnych do decyzji — a nie z jednego uniwersalnego przedziału sztuk dla wszystkich klas rozwiązań.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0308
+  - SRC-0310
+  locators:
+  - 'SRC-0308: zależność tempa od TRL i natury produktu'
+  - 'SRC-0310: fazowy model i walidacja'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: użytkownik sponsorujący z niezależnym kierownikiem testu i Agencją Uzbrojenia. Rezultat: uzasadnienie próby
+    i limit kosztu. Bramka: wystarczalność danych do decyzji. Stop-rule: brak celu uczenia lub nieproporcjonalny koszt. Ryzyko:
+    zbyt mała próba albo ukryty zakup seryjny.'
+- id: CLM-0323
+  text: Cel 90 dni od zaakceptowanej karty problemu do umowy pilotażowej oraz 12 miesięcy od gotowego do testu prototypu do
+    pierwszej partii może być użyty jako scenariusz dla projektów o odpowiedniej dojrzałości, ale nie jako bezwarunkowe SLA
+    całego portfela.
+  type: SCENARIO
+  status: unverified
+  source_ids:
+  - SRC-0308
+  locators:
+  - 'SRC-0308: sojusznicza ambicja 24 miesięcy i zastrzeżenie zależności od TRL'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: Komitet Sterujący. Rezultat: cele P50/P90 według toru dojrzałości. Bramka: bazowa analiza kohort 2025–2026.
+    Stop-rule: rewizja celu, gdy wymusza obchodzenie prawa, bezpieczeństwa lub jakości dowodu. Ryzyko: optymalizacja pod szybkość
+    kosztem efektu.'
+- id: CLM-0324
+  text: Należy prowadzić jeden rejestr kohortowy z datami bramek, właścicielem problemu, podstawą prawną, ścieżką finansowania,
+    wynikiem testu, decyzją zakupową, dostawą, skalowaniem lub zamknięciem oraz powodami odrzucenia.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0306
+  - SRC-0308
+  locators:
+  - 'SRC-0306: niepełny publiczny lejek'
+  - 'SRC-0308: monitoring adopcji i sygnału popytu'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: Biuro Realizacji KPRM; administrator danych: MON. Rezultat: rejestr chroniony i zagregowany dashboard publiczny.
+    Bramka: przegląd klasyfikacji i ochrony tajemnicy przedsiębiorstwa. Stop-rule: brak publikacji pól wrażliwych. Ryzyko:
+    wyciek informacji i błędne porównania kohort.'
+- id: CLM-0325
+  text: Warunki stop powinny być określone przed wydaniem środków i obejmować co najmniej naruszenie bezpieczeństwa, niewiarygodność
+    danych, brak postępu względem kamienia milowego, przekroczenie limitu kosztu, brak ścieżki pozyskania oraz utratę istotności
+    problemu użytkownika.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0308
+  - SRC-0310
+  locators:
+  - 'SRC-0308: de-risking and adoption pathways'
+  - 'SRC-0310: phase-based development and data-driven feedback'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: właściciel bramki wskazany w karcie projektu. Rezultat: decyzja stop/iterate/go z uzasadnieniem. Bramka:
+    niezależne potwierdzenie danych. Ryzyko: zamykanie projektów obiecujących z powodu źle zdefiniowanego testu.'
+- id: CLM-0326
+  text: MON powinien przyjąć playbook wyboru ścieżki prawnej, który rozdzieli zakup na podstawie PZP, prace B+R, test bez
+    obietnicy zakupu oraz wąskie wyłączenie z art. 2 ust. 5 ustawy z 25 lipca 2025 r.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0301
+  - SRC-0302
+  locators:
+  - 'SRC-0301: art. 11, 12, 395, 410, 414'
+  - 'SRC-0302: art. 2 ust. 5'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: MON, Agencja Uzbrojenia, UZP i RCL. Rezultat: zatwierdzona macierz kwalifikacyjna i wzory dokumentów. Bramka:
+    opinia prawna dla każdej ścieżki. Stop-rule: brak analogii rozszerzającej wyjątek. Ryzyko: niezgodne z prawem lub niekonkurencyjne
+    zamówienie.'
+- id: CLM-0327
+  text: Ocena testu i decyzja o zakupie powinny wymagać rozdzielenia ról, ujawnienia konfliktów interesów, wspólnej karty
+    wyników dla porównywalnych rozwiązań oraz niezależnego podpisu użytkownika, kierownika testu i funkcji bezpieczeństwa.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0305
+  - SRC-0311
+  locators:
+  - 'SRC-0305: transparentna i konkurencyjna procedura'
+  - 'SRC-0311: konkurencyjny wybór i porównawcze testy'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: MON/IWBSU lub właściwy użytkownik testujący. Rezultat: audytowalny raport. Bramka: komplet podpisów i deklaracji
+    COI. Stop-rule: recusal albo powtórzenie oceny przy konflikcie. Ryzyko: wydłużenie procedury i pozorna niezależność.'
+- id: CLM-0328
+  text: Wyłączenia PZP z art. 2 ust. 5 ustawy z 25 lipca 2025 r. nie można na podstawie jego brzmienia uogólnić na wszystkie
+    systemy autonomiczne, AI, cyber, sensory ani technologie podwójnego zastosowania programu Polska 2040.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0302
+  locators:
+  - 'SRC-0302: zamknięty opis kategorii w art. 2 ust. 5'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: Wymaga potwierdzenia przez A09; rekomendowana interpretacja ostrożnościowa zakazuje rozszerzania wyjątku przez analogię.
+- id: CLM-0329
+  text: Nowy szybki cykl powinien zachować odpowiedzialność Agencji Uzbrojenia za wymagania, pozyskanie, jakość i IP, a testującemu
+    użytkownikowi dać odpowiedzialność za problem, scenariusz oceny i przydatność, bez łączenia wszystkich ról w jednym podmiocie.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0304
+  - SRC-0305
+  locators:
+  - 'SRC-0304: zakres AU'
+  - 'SRC-0305: rola jednostek i IWBSU w testach'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: Minister Obrony Narodowej. Rezultat: RACI i bramki podpisowe. Stop-rule: zakaz samodzielnego definiowania
+    potrzeby, testowania i zatwierdzania zakupu przez dostawcę lub jedną komórkę. Ryzyko: spory kompetencyjne.'
+- id: CLM-0330
+  text: Jawny pakiet nie może ustalić szczegółowych progów efektu operacyjnego, scenariuszy zagrożeń, lokalizacji, podatności,
+    częstotliwości, wielkości potrzeb ani warunków użycia; dane te wymagają autoryzowanego obiegu i odrębnej kwalifikacji
+    bezpieczeństwa.
+  type: UNKNOWN
+  status: unverified
+  source_ids: []
+  locators:
+  - 'placeholder do autoryzowanego aneksu: wymagania i wyniki niejawne'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A03
+  reviewer: A03
+  used_in: []
+  sensitivity: restricted-placeholder
+  notes: W repozytorium zapisuje się tylko identyfikator pytania, właściciela dostępu i wpływ na decyzję; nie zapisuje się
+    samej informacji wrażliwej.
+- id: CLM-0401
+  text: NATO wskazuje jako pożądane rezultaty wspólne rozumienie systemów autonomicznych, interoperacyjne systemy systemów,
+    zarządzanie różnymi poziomami autonomii, odpowiednie standardy i doktrynę oraz regularne eksperymentowanie operacyjne.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0401
+  locators:
+  - 'SRC-0401: paras 4–5'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Fakt dotyczy jawnego podsumowania planu NATO, nie niejawnych wymagań zdolnościowych.
+- id: CLM-0402
+  text: NATO uznaje dane i AI za kluczowe czynniki autonomii, a wobec systemów autonomicznych wspomaganych AI stosuje zasady
+    odpowiedzialnego użycia obejmujące legalność, odpowiedzialność, identyfikowalność, niezawodność, sterowalność i ograniczanie
+    stronniczości.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0401
+  locators:
+  - 'SRC-0401: paras 6–9'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Polskie tłumaczenie nazw zasad jest robocze; dokument główny powinien zachować oficjalne angielskie odpowiedniki
+    przy pierwszym użyciu.
+- id: CLM-0403
+  text: EDA ujmuje systemy autonomiczne w domenach lądowej, powietrznej, morskiej i międzydomenowej oraz obejmuje planem zarówno
+    pojedyncze systemy, systemy współpracujące, jak i współdziałanie człowiek–maszyna.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0402
+  - SRC-0403
+  locators:
+  - 'SRC-0402: publication description'
+  - 'SRC-0403: APAS objectives and concept'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie jest to lista zamknięta typów platform ani polska klasyfikacja prawna.
+- id: CLM-0404
+  text: EDA rekomenduje taksonomię opartą na „autonomii jako funkcji”, ponieważ jedna platforma może mieć różny stopień autonomii
+    dla różnych funkcji i etapów działania.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0404
+  locators:
+  - 'SRC-0404: Taxonomy and Why a Common Language Matters'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Źródło podaje zasadę taksonomiczną, ale nie kompletną skalę.
+- id: CLM-0405
+  text: Polska taksonomia nie powinna nadawać całemu systemowi jednego liniowego „poziomu autonomii”; powinna opisywać odrębnie
+    każdą istotną funkcję, rolę człowieka, warunki użycia, ograniczenia i zachowanie po degradacji.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0401
+  - SRC-0404
+  - SRC-0413
+  locators:
+  - 'SRC-0404: autonomy as a function'
+  - 'SRC-0413: chapters 8–10 and definitions of ODD, fallback and modes'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Rekomendacja porządkuje wymagania, testy i odpowiedzialność; nie ustanawia normy technicznej.
+- id: CLM-0406
+  text: Jawne materiały EDA rozróżniają bezzałogowe systemy powietrzne, lądowe, nawodne i podwodne, ale równocześnie podkreślają
+    potrzebę ich integracji w działaniach międzydomenowych.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0403
+  - SRC-0410
+  - SRC-0411
+  - SRC-0412
+  locators:
+  - 'SRC-0403: scope'
+  - 'SRC-0410–SRC-0412: capability-domain overviews'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: W memorandum domena morska została rozbita na nawodną i podwodną ze względu na odmienne środowisko, łączność, serwis
+    i certyfikację.
+- id: CLM-0407
+  text: System autonomiczny należy traktować jako zestaw współpracujących elementów — platformy, sensorów lub innych modułów
+    zadaniowych, obliczeń, oprogramowania, danych, łączności, stanowiska nadzoru, operatorów i zaplecza utrzymania — a nie
+    wyłącznie jako pojazd.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0403
+  - SRC-0413
+  - SRC-0421
+  locators:
+  - 'SRC-0403: enabling technologies'
+  - 'SRC-0413: system, ROC, connectivity and MASS function definitions'
+  - 'SRC-0421: UAS definition'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To definicja robocza na potrzeby polityki i architektury portfela, nie definicja ustawowa.
+- id: CLM-0408
+  text: APAS wskazuje modularne i otwarte architektury jako środek poprawy interoperacyjności, efektywności kosztowej i zgodności
+    z wyposażeniem starszej generacji.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0403
+  locators:
+  - 'SRC-0403: APAS action lines'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Źródło nie przesądza, które konkretne interfejsy mają być otwarte w Polsce.
+- id: CLM-0409
+  text: Projekt INTERACT EDA wykazał potrzebę standaryzacji systemów i interfejsów tak, aby zasoby i stacje kierowania różnych
+    dostawców oraz domen mogły być zestawiane w elastyczne konfiguracje; w 2023 r. był to jednak nadal materiał do dalszej
+    walidacji standardu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0405
+  locators:
+  - 'SRC-0405: paras 127–140'
+  as_of: '2023-07-12'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie należy przedstawiać INTERACT jako obowiązującego standardu europejskiego.
+- id: CLM-0410
+  text: EDA zaleca wykorzystywać standardy cywilne tak szeroko, jak to możliwe, i standardy wojskowe tam, gdzie to konieczne,
+    oraz uwzględniać standaryzację od B+R przez zakupy po cały cykl życia.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0406
+  locators:
+  - 'SRC-0406: standardisation principle and lifecycle paragraph'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zasada nie oznacza automatycznego zastosowania normy cywilnej do zastosowania wojskowego bez analizy luk.
+- id: CLM-0411
+  text: ISO 22166-1:2021 dotyczy otwartego projektowania modułowego i integracji modułów robotów usługowych, ale nie jest
+    normą bezpieczeństwa i jest oznaczona do rewizji.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0418
+  locators:
+  - 'SRC-0418: abstract and status'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie wolno używać tej normy jako samodzielnej podstawy dopuszczenia systemu wojskowego.
+- id: CLM-0412
+  text: ISO 22166-201:2024 określa wspólny model informacji o modułach robotów usługowych w celu wspierania interoperacyjności,
+    ponownego użycia i kompozycyjności.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0419
+  locators:
+  - 'SRC-0419: abstract'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zakres normy jest cywilny i ograniczony do robotów usługowych; stanowi wzorzec modelu informacji, nie gotowy polski
+    profil obronny.
+- id: CLM-0413
+  text: Oficjalny przewodnik MOSA Departamentu Obrony USA ujmuje otwartą architekturę jako zintegrowaną strategię biznesową
+    i techniczną, łączącą modułowy projekt, wyznaczone interfejsy, standardy konsensusowe, prawa do danych oraz weryfikację
+    zgodności.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0409
+  locators:
+  - 'SRC-0409: pp. 5–12 and 43–45'
+  as_of: '2025-02-27'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To wzorzec zagraniczny, a nie źródło prawa polskiego.
+- id: CLM-0414
+  text: Sam zapis „otwarta architektura” w wymaganiach nie daje wymienności; potrzebne są kontrolowane specyfikacje interfejsów,
+    odpowiednie prawa do dokumentacji i oprogramowania, zarządzanie konfiguracją oraz test zgodności na reprezentatywnych
+    zamiennikach.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0405
+  - SRC-0409
+  locators:
+  - 'SRC-0405: standardisation of interfaces'
+  - 'SRC-0409: MOSA pillars, data rights and conformance criteria'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wymienność powinna być wykazana testem, a nie deklaracją dostawcy.
+- id: CLM-0415
+  text: Pełna jawność każdego interfejsu nie jest warunkiem modularności; interfejs może być chroniony, o ile państwo ma kontrolowany
+    dostęp, wystarczające prawa, zdolność niezależnego testu oraz możliwość bezpiecznej konkurencji lub substytucji.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0409
+  locators:
+  - 'SRC-0409: pp. 43–45 on interface data rights and proprietary elements'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zakres praw i dostępu wymaga oceny A09 oraz negocjacji kontraktowej; bezpieczeństwo informacji może ograniczać publikację.
+- id: CLM-0416
+  text: ISO/IEC/IEEE 15288:2023 obejmuje cykl życia systemu od koncepcji przez rozwój, produkcję, użytkowanie i wsparcie po
+    wycofanie, w tym systemy systemów oraz relacje nabywca–dostawca.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0408
+  locators:
+  - 'SRC-0408: abstract'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Fakt opiera się na publicznym abstrakcie; nie stwierdza zgodności któregokolwiek programu z normą.
+- id: CLM-0417
+  text: ISO 55001:2024 ujmuje zarządzanie aktywami jako równoważenie wyników, ryzyka i wydatków w całym cyklu życia.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0420
+  locators:
+  - 'SRC-0420: Why is ISO 55001 important and Benefits'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Ogólny wzorzec zarządzania aktywami, nie szczegółowa norma utrzymania systemów obronnych.
+- id: CLM-0418
+  text: Każdy program powinien utrzymywać wersjonowany pakiet dowodowy obejmujący konfigurację sprzętu, oprogramowania i modeli,
+    interfejsy, dokumentację obsługową, wyniki testów, znane ograniczenia, status części oraz plan bezpiecznego wycofania.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0408
+  - SRC-0409
+  - SRC-0413
+  - SRC-0420
+  locators:
+  - 'SRC-0408: lifecycle scope'
+  - 'SRC-0409: documentation, T&E and configuration management'
+  - 'SRC-0413: approval, records and maintenance'
+  - 'SRC-0420: asset lifecycle'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Dokładny zakres pakietu zależy od krytyczności systemu i reżimu informacji.
+- id: CLM-0419
+  text: EDA ocenia, że tradycyjne podejścia V&V oparte na skończonej liczbie przypadków testowych są niewystarczające dla
+    bardziej autonomicznych, adaptacyjnych i niedeterministycznych systemów oraz wymagają nowych procesów, narzędzi i infrastruktury
+    testowej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0407
+  locators:
+  - 'SRC-0407: Test, Validation, and Verification'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie oznacza to rezygnacji z testów deterministycznych; oznacza uzupełnienie ich dowodami scenariuszowymi, monitoringiem
+    i ponowną oceną zmian.
+- id: CLM-0420
+  text: MASS Code IMO stosuje podejście funkcjonalne i oparte na ryzyku, wymagając opisu koncepcji użycia, domeny projektowej,
+    granic operacyjnych, stanów awaryjnych, trybów działania i nadzoru człowieka oraz ponownej oceny po istotnych zmianach.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0413
+  locators:
+  - 'SRC-0413: chapters 6–10; definitions 4.26–4.32'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Kodeks nie dotyczy okrętów wojennych; używany jest wyłącznie jako aktualny cywilny wzorzec assurance dla funkcji
+    autonomicznych.
+- id: CLM-0421
+  text: Dla każdej funkcji autonomicznej należy zdefiniować zatwierdzony zakres warunków działania, rolę człowieka, zachowanie
+    przy degradacji, stan bezpieczny lub awaryjny, wymagane logi oraz próg ponownej oceny po zmianie.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0404
+  - SRC-0407
+  - SRC-0413
+  locators:
+  - 'SRC-0404: autonomy as a function'
+  - 'SRC-0407: stepwise certification'
+  - 'SRC-0413: ODD, fallback, records and changed assumptions'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nazwy i kryteria muszą zostać dostosowane do domeny oraz prawa.
+- id: CLM-0422
+  text: NATO uruchomiło równoległe poligony innowacji obejmujące między innymi UAS/C-UAS, cyber, łączność, środowisko podwodne
+    i płytkie wody, aby prowadzić iteracyjne TEVV w różnych domenach.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0416
+  locators:
+  - 'SRC-0416: paras 816–825'
+  as_of: '2026-03-18'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Komunikat potwierdza istnienie i zakres pilotaży, nie publikuje kompletnych kryteriów oceny.
+- id: CLM-0423
+  text: Polska powinna zbudować federację laboratoriów, symulatorów i poligonów z jednym katalogiem usług i wspólnym formatem
+    dowodów, a nie jeden uniwersalny poligon dla wszystkich domen.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0407
+  - SRC-0416
+  locators:
+  - 'SRC-0407: DTEB and networks of excellence'
+  - 'SRC-0416: domain-specific Innovation Ranges'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Federacja ogranicza duplikację, ale wymaga wspólnych definicji, kalibracji i niezależności oceny.
+- id: CLM-0424
+  text: Polityka NATO IAMD traktuje C-UAS jako element spójnej, skoordynowanej i elastycznej architektury, szczególnie w C2,
+    oraz opiera obronę na interoperacyjności, warstwowości, redundancji, odporności i koordynacji cywilno-wojskowej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0414
+  locators:
+  - 'SRC-0414: paras 16–22, 31–42 and 53–54'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Fakt na poziomie polityki; memorandum nie rozwija parametrów ani taktyki zwalczania.
+- id: CLM-0425
+  text: TIE 26 NCIA testował współpracę wielu sensorów, aplikacji C2 i środków reagowania oraz oceniał między innymi integrację
+    sensor–C2 i zdolność wymiany danych w wielowarstwowej architekturze C-UAS.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0415
+  locators:
+  - 'SRC-0415: TIE 26 scope, architecture and evaluation criteria'
+  as_of: '2026-05-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Udział w ćwiczeniu i interoperacyjność techniczna nie są równoznaczne z zakupem, certyfikacją ani skutecznością w
+    każdym scenariuszu.
+- id: CLM-0426
+  text: Plan UE z lutego 2026 r. łączy cywilne bezpieczeństwo wewnętrzne z gotowością obronną przez wspólne testy, obraz sytuacyjny,
+    koordynację reakcji i współpracę przemysłową, lecz pozostawia państwom członkowskim zasadniczą odpowiedzialność za środki
+    reagowania.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0417
+  locators:
+  - 'SRC-0417: lines 67–103 in retrieved page'
+  as_of: '2026-02-12'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Źródło nie rozstrzyga polskiego podziału kompetencji ani prawnej dopuszczalności konkretnych środków.
+- id: CLM-0427
+  text: Krajowa architektura C-UAS powinna integrować wykrywanie, fuzję i identyfikację, wsparcie decyzji, zgodne z prawem
+    usługi reagowania oraz ocenę skutku, ale techniczna integracja nie może zacierać rozdziału uprawnień MON, MSWiA, służb,
+    zarządzających infrastrukturą i organów lotniczych.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0414
+  - SRC-0415
+  - SRC-0417
+  locators:
+  - 'SRC-0414: functional areas and civil-military coordination'
+  - 'SRC-0415: multi-layered C-UAS architecture'
+  - 'SRC-0417: civil-security scope and state responsibility'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Mapa uprawnień wymaga odrębnej weryfikacji prawnej A09; rekomendacja nie wskazuje sposobów neutralizacji.
+- id: CLM-0428
+  text: Suwerenność technologiczna nie wymaga krajowej produkcji każdego elementu; wymaga kontroli architektury, konfiguracji
+    i krytycznych interfejsów, praw do utrzymania i aktualizacji, dostępu do dowodów testowych oraz realnej możliwości zmiany
+    dostawcy lub odtworzenia zdolności.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0403
+  - SRC-0406
+  - SRC-0409
+  locators:
+  - 'SRC-0403: modular open architectures'
+  - 'SRC-0406: standards and lifecycle'
+  - 'SRC-0409: modularity, data rights, sustainment and vendor-independence trade-offs'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To robocza definicja na potrzeby strategii Polska 2040, nie definicja prawna.
+- id: CLM-0429
+  text: Oficjalny przewodnik MOSA ostrzega, że większa modularność może zwiększać koszt, cenę lub kompromisy wydajnościowe,
+    dlatego stopień otwartości powinien wynikać z analizy koszt–korzyść i krytyczności, a nie z zasady „wszystko otwarte”.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0409
+  locators:
+  - 'SRC-0409: pp. 43–45, spectrum of modularity and costs-benefits'
+  as_of: '2025-02-27'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Źródło jest amerykańskim benchmarkiem; wniosek o analizie kompromisów jest przenośny, ale metody oceny należy zlokalizować.
+- id: CLM-0430
+  text: 'Polska powinna stosować „otwartość tam, gdzie daje opcję strategiczną”: najwyższe wymagania dla interfejsów i modułów
+    o dużym wpływie, niskiej zastępowalności, długim czasie odtworzenia albo wysokim ryzyku blokady dostawcy.'
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0409
+  locators:
+  - 'SRC-0409: modularity trade space, key interfaces and vendor-lock assessment'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Kryteria wymagają wspólnej kalibracji z A06, A07 i A09.
+- id: CLM-0431
+  text: Publiczne źródła użyte przez A04 nie pozwalają ustalić, jaki odsetek polskich systemów ma kontrolowane specyfikacje
+    interfejsów, kompletną bazę konfiguracji, wykazaną wymienność dostawców i gotowy pakiet utrzymaniowy.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0403
+  - SRC-0405
+  - SRC-0406
+  - SRC-0409
+  locators:
+  - 'SRC-0403, SRC-0405, SRC-0406 and SRC-0409: external frameworks only; no Polish portfolio baseline'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Brak w jawnych źródłach nie oznacza braku danych w państwie; wymaga kontrolowanego audytu programów i umów.
+- id: CLM-0432
+  text: CMRE informuje, że nowa wersja projektu STANAG 4817 dotyczącego C2 bezzałogowych systemów wielodomenowych była wdrażana
+    i sprawdzana w ćwiczeniach NATO w 2025 r.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0422
+  locators:
+  - 'SRC-0422: Interoperability Standards and Security, lines 43–50 in retrieved page'
+  as_of: '2025-12-31'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Źródło nazywa wersję projektem; nie należy deklarować zgodności produktu bez dostępu do obowiązującej wersji standardu
+    i testu zgodności.
+- id: CLM-0433
+  text: Unijne przepisy dla cywilnych UAS definiują system jako statek powietrzny wraz z jednostką sterowania i monitorowania
+    oraz różnicują wymagania według ryzyka operacji w kategoriach otwartej, szczególnej i certyfikowanej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0421
+  locators:
+  - 'SRC-0421: recitals 1–6 and Article 2'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Jest to przykład z prawa cywilnego; nie przenosi się automatycznie na systemy wojskowe.
+- id: CLM-0434
+  text: Taksonomia państwowa powinna oddzielać klasę platformy od klasy ryzyka i reżimu dopuszczenia, ponieważ podobna platforma
+    może wykonywać funkcje o różnej krytyczności i w odmiennym środowisku prawnym.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0404
+  - SRC-0413
+  - SRC-0421
+  locators:
+  - 'SRC-0404: capabilities, limitations and environment'
+  - 'SRC-0413: function-level and risk-based framework'
+  - 'SRC-0421: risk-proportionate civil categories'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wniosek porządkuje politykę, ale ostateczne klasy ryzyka wymagają regulatorów domenowych.
+- id: CLM-0435
+  text: Referencyjna architektura programu powinna obejmować co najmniej warstwy misji i odpowiedzialności, człowieka i stanowiska
+    nadzoru, danych i modeli, oprogramowania autonomii, obliczeń, łączności i C2, sensorów lub innych modułów zadaniowych,
+    platformy i energii oraz utrzymania i TEVV.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0403
+  - SRC-0409
+  - SRC-0413
+  locators:
+  - 'SRC-0403: enabling technologies and AS abilities'
+  - 'SRC-0409: modular design and interfaces'
+  - 'SRC-0413: system design, software, ROC, connectivity, maintenance and validation'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Lista jest logicznym modelem polityki, nie projektem konkretnego systemu.
+- id: CLM-0436
+  text: Przed skalowaniem system powinien wykazać nie tylko funkcję zadaniową, ale też zgodność interfejsów, zachowanie w
+    zatwierdzonych warunkach degradacji, możliwość odtworzenia konfiguracji, obsługiwalność, aktualizację z powrotem do bezpiecznej
+    wersji i udokumentowane koszty cyklu życia.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0407
+  - SRC-0408
+  - SRC-0409
+  - SRC-0413
+  - SRC-0420
+  locators:
+  - 'SRC-0407: TEVV and stepwise certification'
+  - 'SRC-0408: full lifecycle'
+  - 'SRC-0409: conformance and sustainment'
+  - 'SRC-0413: fallback, records and maintenance'
+  - 'SRC-0420: performance-risk-expenditure balance'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A04
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Progi ilościowe pozostają do ustalenia po audycie bazowym.
+- id: CLM-0501
+  text: NATO utrzymuje sześć zasad odpowiedzialnego użycia AI — legalność, odpowiedzialność, wyjaśnialność i identyfikowalność,
+    niezawodność, sterowalność oraz ograniczanie stronniczości — jako ramę obowiązującą w całym cyklu życia zdolności AI.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0501
+  locators:
+  - 'SRC-0501: paras 5–11'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Polskie nazwy są tłumaczeniem roboczym; w materiale oficjalnym przy pierwszym użyciu należy zachować terminy angielskie.
+- id: CLM-0502
+  text: Zrewidowana strategia NATO uznaje dostęp do jakościowych, gotowych do użycia przez AI danych za warunek odpowiedzialnego
+    rozwoju i wykorzystania AI.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0501
+  locators:
+  - 'SRC-0501: data and technology enablers'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0503
+  text: NATO wskazuje potrzebę sojuszniczego środowiska testowania, ewaluacji, weryfikacji i walidacji AI, wspierającego standardy,
+    szablony ocen, procesy przeglądu oraz interoperacyjność.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0501
+  locators:
+  - 'SRC-0501: testing, evaluation, verification and validation outcome'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Publiczne podsumowanie nie zawiera wymagań niejawnych ani kryteriów konkretnej zdolności.
+- id: CLM-0504
+  text: Alliance Digital Strategy NATO łączy bezpieczne współdzielenie w federacyjnych przestrzeniach danych ze standaryzowanym
+    etykietowaniem danych, metadanymi, kontrolą dostępu i federacyjnym zarządzaniem tożsamością, a także wskazuje AI inference
+    na brzegu sieci jako element transformacji.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0503
+  locators:
+  - 'SRC-0503: sections 10–12 and 25'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Strategia NATO wyznacza kierunek interoperacyjności; nie jest gotową polską architekturą wykonawczą.
+- id: CLM-0505
+  text: NATO Data Quality Framework wymienia dokładność, kompletność, spójność, unikalność, terminowość i ważność jako wymiary
+    jakości oraz wymaga iteracyjnego zarządzania jakością, metadanych jakościowych i powiązania z cyklem API i MLOps.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0504
+  locators:
+  - 'SRC-0504: paras 9–13 and implementation principles'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wymiary należy stosować do konkretnego celu; wysoka jakość nie jest jedną uniwersalną liczbą.
+- id: CLM-0506
+  text: Publiczna strategia AI MON z 2024 r. wskazywała jako potrzeby resortu zweryfikowane dane wysokiej jakości, infrastrukturę,
+    kompetencje, dostosowanie prawa i procesów oraz odejście od silosów organizacyjnych.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0505
+  locators:
+  - 'SRC-0505: attached PDF pp. 3–10 and 17–32'
+  as_of: '2024-10-11'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To udokumentowana diagnoza na moment publikacji, a nie dowód aktualnego stanu wdrożenia w lipcu 2026 r.
+- id: CLM-0507
+  text: Przyjęta w czerwcu 2026 r. strategia informatyzacji państwa przewiduje między innymi publiczny rejestr zastosowań
+    AI w administracji, rozwój ośrodka badań nad bezpieczeństwem AI w NASK, standardy bezpieczeństwa i danych, integrację
+    zasobów PLGrid oraz przejrzyste zasady dostępu do mocy obliczeniowej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0506
+  locators:
+  - 'SRC-0506: strategy pp. 145–161, goals 4.2.1–4.2.3'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Uchwała tworzy podstawę polityczną dla wdrażania; nie dowodzi, że wszystkie wymienione produkty już działają.
+- id: CLM-0508
+  text: Oficjalny komunikat o Gaia AI Factory deklaruje budowę zasobu przekraczającego 1000 GPU oraz integrację z PLGrid,
+    ale nie potwierdza akredytacji środowiska do przetwarzania chronionych danych obronnych.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0508
+  locators:
+  - 'SRC-0508: Gaia AI Factory and project information'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Parametry są deklaracją projektu, nie wynikiem odbioru technicznego ani audytu bezpieczeństwa.
+- id: CLM-0509
+  text: Oficjalny profil PIAST-AI Factory zapowiada usługi od 2026 r., obejmujące zasoby HPC i chmurowe, przygotowanie danych
+    oraz mechanizmy bezpiecznej i chroniącej prywatność integracji, lecz nie potwierdza dopuszczenia do danych niejawnych
+    lub chronionych operacyjnie.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0509
+  locators:
+  - 'SRC-0509: Services Available from 2026; Services provided'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Opis usługi nie zastępuje audytu zdolności, SLA, łańcucha dostaw ani decyzji właściwego organu bezpieczeństwa.
+- id: CLM-0510
+  text: Strategia Cyberbezpieczeństwa Rzeczypospolitej Polskiej przyjęta uchwałą nr 92 Rady Ministrów została ogłoszona 23
+    marca 2026 r. i weszła w życie 24 marca 2026 r.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0510
+  locators:
+  - 'SRC-0510: ELI metadata and resolution text'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: null
+- id: CLM-0511
+  text: Nowelizacja ustawy o krajowym systemie cyberbezpieczeństwa z 23 stycznia 2026 r. została ogłoszona 2 marca 2026 r.
+    i weszła w życie 3 kwietnia 2026 r.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0511
+  locators:
+  - 'SRC-0511: ELI metadata and act text'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Przypisanie konkretnego podmiotu programu do obowiązków ustawy wymaga odrębnej analizy A09.
+- id: CLM-0512
+  text: Sejm publikuje tekst ustawy o systemach sztucznej inteligencji ustalony 3 lipca 2026 r. po rozpatrzeniu poprawek Senatu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0512
+  locators:
+  - 'SRC-0512: title, text and parliamentary status'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Twierdzenie dotyczy etapu parlamentarnego, nie wejścia ustawy w życie.
+- id: CLM-0513
+  text: AI Act UE wyłącza systemy używane wyłącznie do celów wojskowych, obronnych lub bezpieczeństwa narodowego, natomiast
+    użycia mieszane i zastosowania niewyłączone wymagają odrębnej kwalifikacji prawnej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0513
+  locators:
+  - 'SRC-0513: Article 2 and recital 24'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wyłączenie obronne nie powinno być rozszerzane na cywilne użycie dual-use bez analizy celu i podmiotu.
+- id: CLM-0514
+  text: AI Act ustanawia dla cywilnych systemów wysokiego ryzyka obowiązki dotyczące zarządzania ryzykiem, danych, logów,
+    dokumentacji, nadzoru człowieka, dokładności, odporności, cyberbezpieczeństwa, systemu zarządzania jakością i monitorowania
+    po wdrożeniu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0513
+  locators:
+  - 'SRC-0513: Articles 9–17 and 72'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Elementy te są użytecznym benchmarkiem assurance także poza zakresem rozporządzenia, lecz nie stają się przez to
+    automatycznie obowiązkiem obronnym.
+- id: CLM-0515
+  text: Data Governance Act przewiduje cywilny wzorzec bezpiecznego środowiska przetwarzania, ale jego rozdział dotyczący
+    ponownego wykorzystywania danych sektora publicznego nie obejmuje danych chronionych z powodów bezpieczeństwa publicznego,
+    obrony lub bezpieczeństwa narodowego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0514
+  locators:
+  - 'SRC-0514: Article 3(2)(d) and secure processing environment provisions'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: DGA jest wzorcem architektonicznym dla części cywilnej, nie podstawą prawną udostępniania danych obronnych.
+- id: CLM-0516
+  text: Data Act ustanawia mechanizmy zmiany dostawcy usług przetwarzania danych, przenoszenia danych i aktywów cyfrowych
+    oraz wymagania interoperacyjności, z pozostawieniem zastosowania przepisów sektorowych i ograniczeń bezpieczeństwa.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0515
+  locators:
+  - 'SRC-0515: Articles 30, 33–36 and 44'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wymogi prawne i terminy stosowania trzeba sprawdzić dla konkretnej usługi i umowy.
+- id: CLM-0517
+  text: Cyber Resilience Act wymaga podejścia do cyberbezpieczeństwa produktu w całym okresie wsparcia, w tym zarządzania
+    podatnościami komponentów, aktualizacji bezpieczeństwa oraz dokumentowania zależności, dla produktów mieszczących się
+    w jego zakresie.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0516
+  locators:
+  - 'SRC-0516: Articles 13–14; Annex I Parts I–II; Annex VII'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zakres, wyjątki i okresy przejściowe wymagają analizy per produkt; memorandum używa CRA również jako benchmarku cyklu
+    życia.
+- id: CLM-0518
+  text: Data Spaces Blueprint v2 rozdziela wspólną płaszczyznę sterowania, obejmującą między innymi tożsamość, zaufanie i
+    polityki użycia, od domenowych płaszczyzn danych oraz opisuje zestaw modułów governance, interoperacyjności i obserwowalności.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0517
+  locators:
+  - 'SRC-0517: Building Block Overview; Control Plane vs. Data Plane'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Blueprint jest architekturą referencyjną programu UE, a nie dopuszczeniem do zastosowań obronnych.
+- id: CLM-0519
+  text: NIST AI RMF 1.0 organizuje zarządzanie ryzykiem AI w funkcjach GOVERN, MAP, MEASURE i MANAGE i pozostaje dobrowolnym
+    benchmarkiem, przy czym NIST prowadzi jego aktualizację.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0518
+  locators:
+  - 'SRC-0518: AI RMF 1.0, Playbook and revision notice'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Program nie powinien zamrażać profilu zgodności na wersji 1.0 bez kontroli zmian.
+- id: CLM-0520
+  text: NIST SSDF 1.1 grupuje praktyki bezpiecznego wytwarzania oprogramowania jako przygotowanie organizacji, ochronę oprogramowania,
+    wytwarzanie dobrze zabezpieczonego oprogramowania oraz reagowanie na podatności.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0520
+  locators:
+  - 'SRC-0520: practice groups PO, PS, PW and RV'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: SSDF jest wspólnym słownikiem praktyk, nie certyfikatem produktu.
+- id: CLM-0521
+  text: Architektura zero trust NIST nie przyznaje zaufania wyłącznie na podstawie lokalizacji sieciowej lub własności zasobu
+    i wymaga jawnego uwierzytelnienia oraz autoryzacji dostępu do zasobów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0521
+  locators:
+  - 'SRC-0521: abstract and tenets'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zero trust nie oznacza jednego produktu ani rezygnacji z segmentacji i zabezpieczeń fizycznych.
+- id: CLM-0522
+  text: NIST definiuje cele cyberodporności systemowej jako przewidywanie, wytrzymywanie, odzyskiwanie i adaptowanie się do
+    niekorzystnych warunków, stresów, ataków lub kompromitacji.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0522
+  locators:
+  - 'SRC-0522: abstract and cyber resiliency goals'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: W memorandum wykorzystano tylko poziom zasad inżynierii odporności, bez technik ofensywnych.
+- id: CLM-0523
+  text: Publiczne abstrakty ISO/IEC 42001, 23894, 5259-3, 5259-5, 25059 i 42005 obejmują odpowiednio system zarządzania AI,
+    zarządzanie ryzykiem, zarządzanie i governance jakości danych, model jakości systemu AI oraz ocenę wpływu AI.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0526
+  - SRC-0527
+  - SRC-0528
+  - SRC-0529
+  - SRC-0530
+  - SRC-0531
+  locators:
+  - 'SRC-0526–SRC-0531: public abstracts, scope and status'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie badano pełnych płatnych treści norm i nie deklaruje się zgodności żadnego polskiego podmiotu.
+- id: CLM-0524
+  text: ISO/IEC 5962:2021 publikuje SPDX 2.2.1 jako format informacji o składzie oprogramowania, lecz edycja jest oznaczona
+    do rewizji.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0532
+  locators:
+  - 'SRC-0532: public abstract and revision status'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zamówienia powinny wymagać formatów maszynowo czytelnych z kontrolowaną wersją, a nie zamrażać konkretną starzejącą
+    się edycję.
+- id: CLM-0525
+  text: ENISA ocenia, że standaryzacja cyberbezpieczeństwa AI ma nadal luki i powinna obejmować cały cykl życia, a nie tylko
+    bezpieczeństwo wdrożonego modelu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0524
+  - SRC-0525
+  locators:
+  - 'SRC-0524: executive summary and conclusions'
+  - 'SRC-0525: executive overview'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Raporty ENISA są wsadem do profilu bezpieczeństwa, nie gotowym schematem certyfikacji.
+- id: CLM-0526
+  text: Nie ustalono w jawnym obiegu, czy dokument Polityka rozwoju sztucznej inteligencji w Polsce do 2030 roku opublikowany
+    przez Ministerstwo Cyfryzacji w listopadzie 2025 r. został formalnie przyjęty przez Radę Ministrów do 21 lipca 2026 r.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0507
+  locators:
+  - 'SRC-0507: publication page and ministry status communication'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Po co najmniej dwóch próbach wyszukania aktu przyjmującego w gov.pl i ELI nie znaleziono publikacji; A09 powinien
+    potwierdzić status w KPRM/MC.
+- id: CLM-0527
+  text: Nie ustalono, czy parlamentarny tekst ustawy o systemach sztucznej inteligencji z 3 lipca 2026 r. został podpisany
+    i ogłoszony przed 21 lipca 2026 r.; dlatego memorandum nie traktuje go jako prawa obowiązującego.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0512
+  locators:
+  - 'SRC-0512: parliamentary status; separate ELI promulgation search'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: A09 powinien ponownie sprawdzić ELI przed publikacją pakietu.
+- id: CLM-0528
+  text: Publiczne informacje o Gaia AI Factory i PIAST-AI Factory nie pozwalają potwierdzić akredytacji, bieżącej dostępności,
+    SLA ani dopuszczenia do przetwarzania chronionych danych obronnych.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0508
+  - SRC-0509
+  locators:
+  - 'SRC-0508: project description'
+  - 'SRC-0509: service profile'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Brak publicznego dowodu nie oznacza braku zdolności; wymaga kontrolowanego due diligence.
+- id: CLM-0529
+  text: W źródłach jawnych nie znaleziono aktualnej krajowej linii bazowej obejmującej inwentarz obronnych systemów AI, katalog
+    właścicieli danych, jakość zbiorów, przepustowość ścieżek danych, pojemność środowisk obliczeniowych, zaległości ewaluacyjne
+    i czasy reakcji na incydenty.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0505
+  - SRC-0506
+  locators:
+  - 'SRC-0505: public 2024 diagnosis'
+  - 'SRC-0506: adopted 2026 targets'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Źródła pokazują potrzeby i cele, nie kompletny stan bazowy. Linia bazowa może istnieć w obiegu chronionym i powinna
+    być pozyskana bez kopiowania treści do repozytorium.
+- id: CLM-0530
+  text: Federacyjna przestrzeń danych powinna pozostawiać dane u odpowiedzialnego stewarda, gdy jest to możliwe, oraz przenosić
+    zatwierdzone obliczenie do danych zamiast domyślnie kopiować wrażliwy zbiór do centralnego jeziora danych.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0503
+  - SRC-0514
+  - SRC-0517
+  - SRC-0521
+  locators:
+  - 'SRC-0503: federated data spaces and access controls'
+  - 'SRC-0514: secure processing environment'
+  - 'SRC-0517: control/data plane'
+  - 'SRC-0521: zero-trust tenets'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Każdy przepływ nadal wymaga podstawy prawnej, klasyfikacji, właściciela ryzyka i reguł eksportu wyniku.
+- id: CLM-0531
+  text: Architektura państwa powinna oddzielać wspólną płaszczyznę polityk i zaufania od wielu domenowych płaszczyzn danych,
+    aby zapewnić wspólne reguły bez wymuszania jednego fizycznego repozytorium lub jednego dostawcy technologii.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0503
+  - SRC-0515
+  - SRC-0517
+  locators:
+  - 'SRC-0503: federated ICAM and data spaces'
+  - 'SRC-0515: portability and interoperability'
+  - 'SRC-0517: control/data plane pattern'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wspólność dotyczy kontraktu i dowodów, nie centralizacji odpowiedzialności.
+- id: CLM-0532
+  text: Każdy produkt danych używany do trenowania, ewaluacji lub działania systemu AI powinien mieć właściciela, dozwolony
+    cel, podstawę i ograniczenia użycia, klasę wrażliwości, pochodzenie, wersję, profil jakości, retencję oraz regułę eksportu
+    lub udostępnienia wyniku.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0504
+  - SRC-0513
+  - SRC-0528
+  - SRC-0529
+  locators:
+  - 'SRC-0504: quality metadata'
+  - 'SRC-0513: Articles 10–12'
+  - 'SRC-0528–SRC-0529: public scope'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Karta nie może ujawniać treści wrażliwej; dla danych chronionych może istnieć tylko indeks i owner w obiegu właściwym.
+- id: CLM-0533
+  text: Decyzja dostępu powinna łączyć federacyjną tożsamość człowieka lub obciążenia, atrybuty roli i celu, stan urządzenia
+    lub środowiska, klasę danych, ograniczenie czasowe oraz zasadę minimalnych uprawnień, a jej wynik powinien być rejestrowany.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0503
+  - SRC-0517
+  - SRC-0521
+  locators:
+  - 'SRC-0503: federated ICAM'
+  - 'SRC-0517: identity, trust and policy building blocks'
+  - 'SRC-0521: resource authorization'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Atrybuty i reguły muszą być ustalone przez właściciela danych i właściwy organ bezpieczeństwa.
+- id: CLM-0534
+  text: Nie należy ustanawiać jednego okresu retencji dla wszystkich danych i logów AI; retencja powinna wynikać z celu, podstawy
+    prawnej, wartości dowodowej, klasy wrażliwości, cyklu życia modelu, wymagań archiwalnych i ryzyka, z kontrolowaną regułą
+    legal hold oraz bezpiecznego usunięcia.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0513
+  - SRC-0521
+  - SRC-0522
+  locators:
+  - 'SRC-0513: logging, documentation and monitoring'
+  - 'SRC-0521: resource protection'
+  - 'SRC-0522: recovery and adaptation'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Konkretne okresy ustala A09 z właścicielem danych; memo nie tworzy uniwersalnego harmonogramu.
+- id: CLM-0535
+  text: Katalog mocy obliczeniowej powinien rozróżniać co najmniej środowiska publiczne, kontrolowane dual-use, chronione
+    enklawy oraz odseparowane środowiska wymagające osobnej autoryzacji, a dla każdego poziomu definiować dopuszczalne dane,
+    tożsamość, egress, logowanie, łańcuch dostaw, ciągłość i usunięcie nośników.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0503
+  - SRC-0508
+  - SRC-0509
+  - SRC-0521
+  - SRC-0522
+  locators:
+  - 'SRC-0503: federated controls and edge'
+  - 'SRC-0508–SRC-0509: public compute projects'
+  - 'SRC-0521–SRC-0522: zero trust and resilience'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Najwyższy poziom jest wyłącznie restricted-placeholder; kwalifikacja niejawna pozostaje w autoryzowanym obiegu.
+- id: CLM-0536
+  text: Gaia i PIAST mogą być kandydatami do części krajowej puli obliczeniowej dopiero po sprawdzeniu dostępności, SLA, lokalizacji
+    i przepływów danych, łańcucha dostaw, izolacji, kontroli administracyjnej, audytu i zdolności odtworzenia; opis projektu
+    nie jest akredytacją.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0508
+  - SRC-0509
+  - SRC-0521
+  - SRC-0522
+  locators:
+  - 'SRC-0508–SRC-0509: project descriptions'
+  - 'SRC-0521–SRC-0522: assurance principles'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Do czasu zamknięcia bramki dane chronione nie powinny trafiać do tych środowisk na podstawie samego komunikatu publicznego.
+- id: CLM-0537
+  text: Pakiet edge AI powinien wersjonować i wiązać kryptograficznie model, runtime, konfigurację, schemat wejść, zależności
+    i politykę, określać budżet zasobów, lokalną telemetrię, rollback oraz dozwolone zachowanie po degradacji.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0503
+  - SRC-0516
+  - SRC-0520
+  - SRC-0522
+  locators:
+  - 'SRC-0503: edge inference'
+  - 'SRC-0516: lifecycle security'
+  - 'SRC-0520: SSDF'
+  - 'SRC-0522: resilience goals'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Twierdzenie dotyczy pakietu assurance, nie parametrów konkretnej platformy.
+- id: CLM-0538
+  text: Governance systemu AI wymaga rozdzielenia co najmniej właściciela celu i ryzyka użycia, właściciela modelu, stewarda
+    danych, właściciela cyberbezpieczeństwa, niezależnej funkcji TEVV oraz organu akceptującego ryzyko.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0501
+  - SRC-0513
+  - SRC-0518
+  - SRC-0526
+  - SRC-0527
+  - SRC-0531
+  locators:
+  - 'SRC-0501: responsibility and accountability'
+  - 'SRC-0513: risk and quality management'
+  - 'SRC-0518: GOVERN/MAP/MEASURE/MANAGE'
+  - 'SRC-0526–SRC-0531: management and impact standards'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Jedna osoba może pełnić kilka ról tylko przy zachowaniu niezależnego przeglądu dla systemów krytycznych.
+- id: CLM-0539
+  text: Cykl dopuszczenia AI powinien mieć bramki celu i prawa, danych, oceny offline, integracji i symulacji, ograniczonego
+    pilotażu, wdrożenia oraz ciągłego monitorowania i wycofania, z dowodami niezależnymi od deklaracji dostawcy.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0501
+  - SRC-0513
+  - SRC-0518
+  - SRC-0530
+  - SRC-0531
+  locators:
+  - 'SRC-0501: TEV&V'
+  - 'SRC-0513: lifecycle obligations'
+  - 'SRC-0518: risk-management functions'
+  - 'SRC-0530–SRC-0531: quality and impact scope'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Progi ilościowe ustala owner ryzyka dla konkretnego zastosowania; nie mogą być kopiowane między domenami.
+- id: CLM-0540
+  text: Ewaluacja systemu AI powinna mierzyć przydatność dla konkretnego celu, błędy i kalibrację, odpowiednie grupy lub warunki,
+    odporność i testy stresowe, niepewność i dane spoza rozkładu, dryf, cyberbezpieczeństwo, opóźnienie i zużycie zasobów,
+    human factors, degradację oraz możliwość rollbacku.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0501
+  - SRC-0504
+  - SRC-0513
+  - SRC-0518
+  - SRC-0519
+  - SRC-0530
+  locators:
+  - 'SRC-0501: PRUs and TEV&V'
+  - 'SRC-0504: data quality'
+  - 'SRC-0513: Articles 9–15 and 72'
+  - 'SRC-0518–SRC-0519: measurement profiles'
+  - 'SRC-0530: AI quality model scope'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie każdy miernik ma zastosowanie do każdego systemu; plan testów ma uzasadnić wybór i progi.
+- id: CLM-0541
+  text: Istotna zmiana modelu, danych, runtime, sprzętu, sensora, interfejsu, celu, zatwierdzonych warunków, profilu zagrożeń
+    lub zabezpieczeń oraz materialny dryf, spadek wyniku lub incydent powinny uruchamiać analizę wpływu i adekwatną ponowną
+    ewaluację.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0504
+  - SRC-0513
+  - SRC-0516
+  - SRC-0518
+  - SRC-0520
+  locators:
+  - 'SRC-0504: iterative quality and MLOps'
+  - 'SRC-0513: lifecycle and post-market monitoring'
+  - 'SRC-0516: product changes'
+  - 'SRC-0518: MANAGE'
+  - 'SRC-0520: SSDF'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Ponowna ewaluacja może być zakresowa; nie każda zmiana wymaga pełnego powtórzenia wszystkich testów.
+- id: CLM-0542
+  text: Minimalny secure SDLC dla AI powinien obejmować model zagrożeń, kontrolowane repozytoria i buildy, przypięte zależności
+    i ich pochodzenie, SBOM oraz manifest modelu i danych, podpisane artefakty, obsługę podatności, aktualizację i rollback,
+    a także odtwarzalność proporcjonalną do krytyczności.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0516
+  - SRC-0520
+  - SRC-0523
+  - SRC-0524
+  - SRC-0532
+  locators:
+  - 'SRC-0516: lifecycle and component obligations'
+  - 'SRC-0520: SSDF practice groups'
+  - 'SRC-0523: SBOM minimum-elements metadata'
+  - 'SRC-0524: lifecycle standardisation'
+  - 'SRC-0532: SPDX format'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: SBOM nie obejmuje semantyki modelu i danych, dlatego potrzebne są odrębne, powiązane manifesty.
+- id: CLM-0543
+  text: Bezpieczna degradacja powinna definiować funkcje niezbędne, kryteria przejścia, ograniczone tryby, nadzór lub przekazanie
+    człowiekowi tam, gdzie jest wykonalne, rejestrację, odzyskanie i test, zamiast zakładać, że uniwersalnym zabezpieczeniem
+    jest zawsze ręczne sterowanie.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0501
+  - SRC-0513
+  - SRC-0522
+  locators:
+  - 'SRC-0501: governability and reliability'
+  - 'SRC-0513: human oversight and robustness'
+  - 'SRC-0522: anticipate, withstand, recover and adapt'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Tryb degradacji musi być właściwy dla systemu; memo nie podaje instrukcji działania konkretnej platformy.
+- id: CLM-0544
+  text: Ścieżka audytowa powinna być odporna na manipulację i zsynchronizowana czasowo oraz wiązać tożsamości, decyzje polityk
+    dostępu, wersje danych, modelu, runtime i konfiguracji, wyniki bramek, zdarzenia eksploatacyjne i eksport danych, z kontrolą
+    dostępu do samych logów.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0501
+  - SRC-0503
+  - SRC-0513
+  - SRC-0517
+  - SRC-0521
+  locators:
+  - 'SRC-0501: traceability'
+  - 'SRC-0503: metadata and access'
+  - 'SRC-0513: logging and documentation'
+  - 'SRC-0517: observability'
+  - 'SRC-0521: authorization'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Centralny rejestr może przechowywać wyłącznie metadane i odsyłacze, jeśli treść logu jest wrażliwa.
+- id: CLM-0545
+  text: Rada Ministrów powinna zlecić 100-dniową linię bazową oraz projekt architektury federacyjnej przestrzeni danych i
+    compute tiers, z KPRM jako sponsorem oraz Ministerstwem Cyfryzacji i MON jako współwłaścicielami wykonawczymi.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0503
+  - SRC-0504
+  - SRC-0505
+  - SRC-0506
+  - SRC-0517
+  locators:
+  - 'SRC-0503–SRC-0504: NATO federation and data quality'
+  - 'SRC-0505: 2024 MON diagnosis'
+  - 'SRC-0506: adopted state targets'
+  - 'SRC-0517: reference architecture'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: KPRM sponsor, MC+MON co-owners. Rezultat: zatwierdzona linia bazowa, słownik danych i architektura v0.9.
+    Bramka: komplet ownerów, zakres prawny i mapa środowisk; stop: kopiowanie danych chronionych do repozytorium roboczego
+    lub brak ownera ryzyka. Ryzyko: inwentaryzacja pozorna i spór kompetencyjny.'
+- id: CLM-0546
+  text: Państwo powinno uruchomić dwa lub trzy jawne lub kontrolowane, niewrażliwe pilotaże federacji danych do 31 marca 2027
+    r., zanim dopuści architekturę do szerszego lub bardziej wrażliwego użycia.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0503
+  - SRC-0514
+  - SRC-0515
+  - SRC-0517
+  - SRC-0521
+  locators:
+  - 'SRC-0503: federation'
+  - 'SRC-0514–SRC-0515: secure processing and portability'
+  - 'SRC-0517: blueprint'
+  - 'SRC-0521: zero trust'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: MC jako owner platformy, MON/MSWiA i właściciele danych jako ownerzy domen. Rezultat: sprawdzony control
+    plane, dwa data plane, audyt egress i mierniki jakości. Bramka: test odmowy dostępu, odtworzenie logu i zmiana dostawcy
+    komponentu; stop: niejasna podstawa prawna, niemożliwy audyt lub niekontrolowany eksport. Ryzyko: pilotaż staje się nieformalnym
+    systemem produkcyjnym.'
+- id: CLM-0547
+  text: MON wspólnie z NASK i niezależnymi ośrodkami powinien ustanowić do 31 marca 2027 r. wspólny profil AI assurance i
+    federację TEVV, oddzielając twórcę od ostatecznego akceptującego ryzyko.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0501
+  - SRC-0513
+  - SRC-0518
+  - SRC-0526
+  - SRC-0527
+  - SRC-0530
+  - SRC-0531
+  locators:
+  - 'SRC-0501: NATO TEV&V'
+  - 'SRC-0513: lifecycle assurance'
+  - 'SRC-0518: AI RMF'
+  - 'SRC-0526–SRC-0531: management, risk, quality and impact standards'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: MON dla profilu obronnego, NASK dla metod publicznych/cywilnych, niezależny reviewer wyznaczony per system.
+    Rezultat: role, G0–G6, format evidence pack, trigger zmian i rejestr wyjątków. Bramka: niezależna replikacja wybranego
+    testu; stop: laboratorium lub dostawca sam zatwierdza własny system bez kontroli. Ryzyko: nadmierna biurokracja albo pozorna
+    niezależność.'
+- id: CLM-0548
+  text: Od 1 stycznia 2027 r. nowe pilotaże AI finansowane przez państwo powinny stosować minimalny secure SDLC, maszynowo
+    czytelny SBOM oraz powiązane manifesty modelu, danych i środowiska wykonawczego jako warunek odbioru.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0516
+  - SRC-0520
+  - SRC-0523
+  - SRC-0524
+  - SRC-0532
+  locators:
+  - 'SRC-0516: product lifecycle'
+  - 'SRC-0520: SSDF'
+  - 'SRC-0523: SBOM guidance metadata'
+  - 'SRC-0524: AI lifecycle'
+  - 'SRC-0532: SPDX'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: centralni nabywcy publiczni i AU, profil techniczny MC/MON. Rezultat: identyfikowalna wersja i plan patch/rollback
+    dla każdego pilotażu. Bramka: odtworzenie builda lub równoważny dowód, skan zależności i próba rollbacku; stop: nieznane
+    krytyczne komponenty lub brak ownera wsparcia. Ryzyko: wykluczenie MŚP, dlatego potrzebne są narzędzia referencyjne i
+    proporcjonalność.'
+- id: CLM-0549
+  text: Ministerstwo Cyfryzacji, MNiSW i MON powinny do 30 czerwca 2027 r. opublikować jawny katalog compute tiers i usług
+    edge assurance, wykorzystując Gaia, PIAST i PLGrid tylko w tych klasach, dla których przejdą odpowiednią ocenę.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0503
+  - SRC-0506
+  - SRC-0508
+  - SRC-0509
+  - SRC-0521
+  - SRC-0522
+  locators:
+  - 'SRC-0503: edge and federation'
+  - 'SRC-0506: PLGrid and transparent compute access'
+  - 'SRC-0508–SRC-0509: AI factories'
+  - 'SRC-0521–SRC-0522: zero trust and resilience'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A05
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Owner: MC dla katalogu, MNiSW/operatorzy dla podaży, MON dla wymagań obronnych. Rezultat: profile C0–C3, SLA, dowody
+    izolacji, egress, ciągłości i edge packaging. Bramka: audyt per tier i ćwiczenie odtworzenia; stop: kierowanie danych
+    chronionych do środowiska wyłącznie na podstawie komunikatu projektowego. Ryzyko: duplikacja inwestycji, niedostępność
+    mocy i vendor lock-in.'
+- id: CLM-0601
+  text: NATO zapowiedziało publikowanie zagregowanego sygnału popytu wynikającego z NDPP oraz informowanie przemysłu o wieloletnich
+    i wielonarodowych możliwościach agregacji zamówień, aby wspierać długoterminowe inwestycje i planowanie.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0602
+  locators:
+  - 'SRC-0601: para 9, demand signal'
+  - 'SRC-0602: paras 9–12'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Twierdzenie dotyczy polityki NATO, a nie istnienia kompletnego polskiego sygnału popytu.
+- id: CLM-0602
+  text: Strategia NATO z 8 lipca 2026 r. traktuje modularność, otwarte architektury, standardy w kontraktach i interoperacyjność
+    jako wymagania realizowane w całym cyklu życia systemu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0611
+  locators:
+  - 'SRC-0601: paras 10–12'
+  - 'SRC-0611: Best Practice Standards and intended users'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Otwartość architektury nie oznacza publikacji wrażliwych interfejsów; zakres ujawnienia wymaga reżimu bezpieczeństwa.
+- id: CLM-0603
+  text: NATO w 2026 r. zapowiedziało ćwiczenia stołowe skalowania produkcji, działania na rzecz redundancji i dywersyfikacji
+    łańcuchów oraz ocenę modeli ciągłej produkcji i rezerw strategicznych.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0601
+  locators:
+  - 'SRC-0601: para 13, bullets on TTX, redundancy, diversification and always-on production'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Dokument nie ustala jednego uniwersalnego poziomu zapasów ani liczby dostawców.
+- id: CLM-0604
+  text: Zaktualizowany plan produkcji obronnej NATO wymaga lepszej widoczności zdolności w pokoju, kryzysie i konflikcie,
+    uwzględnienia opcji surge oraz ćwiczeń stołowych, przy ochronie poufności handlowej i bezpieczeństwa narodowego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0602
+  locators:
+  - 'SRC-0602: paras 13–18'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: null
+- id: CLM-0605
+  text: MON prowadzi proces lokowania u przedsiębiorców zadań związanych z dostawami sprzętu, środków bojowych, zestawów remontowych
+    i naprawami, a materiały o potrzebach przekazywane przedsiębiorcom w tym procesie mają klauzulę informacji niejawnych.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0603
+  - SRC-0604
+  locators:
+  - 'SRC-0603: akapity 1–14'
+  - 'SRC-0604: § 2–8 i załącznik 11'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Memo nie odtwarza ani nie domniemywa treści niejawnych potrzeb.
+- id: CLM-0606
+  text: Rozporządzenie dotyczące Planu zabezpieczenia potrzeb Sił Zbrojnych przewiduje identyfikację możliwości produkcyjno-usługowych
+    przedsiębiorców i kooperantów oraz osobne planowanie dostaw, zestawów remontowych i napraw.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0604
+  locators:
+  - 'SRC-0604: załączniki 4–5 i 11'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Istnienie formatu planistycznego nie dowodzi aktualności ani kompletności danych dla proponowanego programu.
+- id: CLM-0607
+  text: Według karty priorytetu P6, w 2025 r. podpisano umowy inwestycyjne dotyczące 12 wniosków oraz dwa aneksy o łącznej
+    wartości 6 928 881 300 zł do przekazania w 2025 r. i latach następnych, natomiast szczegółowy wykaz scenariuszy i źródeł
+    finansowania inwestycji PGZ jest objęty tajemnicą przedsiębiorstwa.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0605
+  locators:
+  - 'SRC-0605: Stan realizacji na 31.03.2026 i działania I kwartału'
+  as_of: '2026-03-31'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Kwota wsparcia nie jest miarą ukończonej przepustowości ani wartości dodanej pozostającej w Polsce.
+- id: CLM-0608
+  text: W lutym 2026 r. administracja nadal pracowała nad definicją i metodyką pomiaru udziału komponentu krajowego w kluczowych
+    inwestycjach spółek Skarbu Państwa.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0606
+  locators:
+  - 'SRC-0606: sekcja local content P12'
+  as_of: '2026-02-11'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Nie należy traktować nieuzgodnionego wskaźnika local content jako istniejącej oficjalnej miary.
+- id: CLM-0609
+  text: Agencja Uzbrojenia pełni rolę koordynatora systemu zapewnienia jakości sprzętu wojskowego i polskiej instytucji narodowej
+    ds. zapewnienia jakości w systemie opartym m.in. na STANAG 4107 i publikacjach AQAP.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0607
+  - SRC-0608
+  locators:
+  - 'SRC-0607: opis Agencji Uzbrojenia'
+  - 'SRC-0608: opis zadań Szefostwa Zapewnienia Jakości'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: null
+- id: CLM-0610
+  text: System oceny zgodności OiB ma potwierdzać, że wyroby przeznaczone na potrzeby obronności i bezpieczeństwa państwa
+    spełniają wymagania zawarte w specyfikacjach technicznych.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0609
+  locators:
+  - 'SRC-0609: opis celu systemu OiB'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Nie przesądza to, jaki tryb oceny ma zastosowanie do konkretnego wyrobu.
+- id: CLM-0611
+  text: Art. 23 dyrektywy 2009/81/WE pozwala zamawiającemu formułować wymagania bezpieczeństwa dostaw dotyczące organizacji
+    łańcucha, zmian w łańcuchu, dodatkowych potrzeb w kryzysie, utrzymania i modernizacji oraz przekazania środków potrzebnych
+    do produkcji części, gdy dostawca nie może ich dalej zapewniać.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0610
+  locators:
+  - 'SRC-0610: Article 23(c)–(h)'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Zastosowanie do konkretnego postępowania wymaga kwalifikacji prawnej A09; dyrektywa nie tworzy automatycznie obowiązku
+    użycia każdego elementu katalogu.
+- id: CLM-0612
+  text: EDSTAR jest bazą uzgodnionych standardów referencyjnych dla programów obronnych, używanych przez zamawiających i przemysł
+    przy wymaganiach i kontraktach w całym cyklu życia.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0611
+  locators:
+  - 'SRC-0611: homepage, Best Practice Standards and intended users'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Dobór konkretnych standardów musi wynikać z danego programu i oceny A04/A05/A09.
+- id: CLM-0613
+  text: NSPA opisuje zarządzanie cyklem życia jako zakres od pozyskania przez logistykę i wsparcie floty po wycofanie, demilitaryzację,
+    demontaż i utylizację.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0612
+  locators:
+  - 'SRC-0612: Life Cycle Management and capability spectrum'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: null
+- id: CLM-0614
+  text: Critical Raw Materials Act ustanawia na 2030 r. unijne benchmarki co najmniej 10% wydobycia, 40% przetwarzania, 25%
+    recyklingu oraz nie więcej niż 65% rocznej konsumpcji każdego strategicznego surowca z jednego państwa trzeciego, a także
+    przewiduje monitoring, stress-testy i koordynację zapasów.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0613
+  locators:
+  - 'SRC-0613: Setting benchmarks by 2030; Supply risk preparedness and mitigation'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Benchmarki są unijne i nie są docelowym udziałem krajowym dla każdego polskiego produktu.
+- id: CLM-0615
+  text: Według Eurostatu w 2025 r. 46,8% masy importowanych do UE pierwiastków ziem rzadkich pochodziło z Chin, 25,9% z Rosji
+    i 23,1% z Malezji.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0614
+  locators:
+  - 'SRC-0614: lines 155–167; dataset ds-045409'
+  as_of: '2025-12-31'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Udziały dotyczą masy importu UE. Nie są miarą zależności Polski ani konkretnego systemu.
+- id: CLM-0616
+  text: W 2024 r. Chiny i USA odpowiadały odpowiednio za 30% i 23% wartości importu produktów high-tech spoza UE, a elektronika
+    i telekomunikacja stanowiły 36% takiego importu; są to agregaty UE, nie dane dla Polski ani obronności.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0615
+  locators:
+  - 'SRC-0615: lines 155–174; dataset DS-018995'
+  as_of: '2024-12-31'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Ostatnie zdanie jest ograniczeniem zakresu statystyki, nie estymacją ekspozycji krajowej.
+- id: CLM-0617
+  text: Przyjęty EDIP obejmuje granty 1,5 mld euro na lata 2025–2027, wsparcie wspólnych zakupów i zwiększania zdolności produkcyjnych
+    oraz zasadę, że w kwalifikowanych produktach koszt komponentów spoza UE i państw stowarzyszonych nie powinien przekraczać
+    35%.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0616
+  locators:
+  - 'SRC-0616: lines 127–144'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Reguła programu nie mierzy praw do projektu, konfiguracji, serwisu, aktualizacji ani realnej zastępowalności.
+- id: CLM-0618
+  text: Cyber Resilience Act nie ma zastosowania do produktów rozwijanych lub modyfikowanych wyłącznie dla bezpieczeństwa
+    narodowego lub obronności ani do produktów zaprojektowanych do przetwarzania informacji niejawnych.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0617
+  locators:
+  - 'SRC-0617: Article 2(7)–(8)'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Produkty dual-use wprowadzane na rynek mogą pozostawać w zakresie CRA; kwalifikacja konkretnego produktu wymaga analizy
+    prawnej.
+- id: CLM-0619
+  text: Dla produktów cyfrowych objętych zakresem CRA prawo wymaga m.in. obsługi podatności w okresie wsparcia, dokumentacji
+    technicznej oraz utrzymywania zestawienia komponentów oprogramowania; te mechanizmy mogą stanowić punkt odniesienia kontraktowego,
+    ale nie zastępują odrębnych wymagań obronnych.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0617
+  locators:
+  - 'SRC-0617: Articles 5, 13–14; Annex I Part II; Annex VII'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Pierwsza część wynika z prawa; druga jest wnioskiem projektowym i wymaga recenzji A05/A09.
+- id: CLM-0620
+  text: Polska polityka półprzewodnikowa 2025+ wskazuje projektowanie, komponenty, back-end, materiały, infrastrukturę i współpracę
+    europejską jako obszary rozwoju, ale jej cele inwestycyjne są ambicją polityki, a nie dowodem istniejącej mocy.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0618
+  locators:
+  - 'SRC-0618: linie 132–159'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Dokument podaje cel 2–3 dużych inwestycji i poziom wsparcia, nie uruchomioną przepustowość.
+- id: CLM-0621
+  text: Na dzień 21 lipca 2026 r. trwa drugi etap konkursu na polskie centrum kompetencji półprzewodnikowych, a termin złożenia
+    wniosku został przedłużony do 31 sierpnia 2026 r.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0619
+  locators:
+  - 'SRC-0619: cel centrum i przedłużenie naboru'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Trwający konkurs nie dowodzi operacyjności centrum.
+- id: CLM-0622
+  text: Unijny Chips Act ustanawia monitorowanie łańcucha półprzewodników, mechanizm ostrzegania i kryzysowe narzędzia, a
+    w listopadzie 2025 r. Komisja i wszystkie państwa członkowskie przeprowadziły ćwiczenie reakcji na fikcyjne zakłócenie
+    podaży.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0620
+  - SRC-0621
+  locators:
+  - 'SRC-0620: Articles 19–27'
+  - 'SRC-0621: opis ćwiczenia z 24.11.2025'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: null
+- id: CLM-0623
+  text: W kwietniu 2026 r. brytyjski MOD przeprowadził z pięcioma firmami ćwiczenie łańcucha dostaw dla utrzymanego wzrostu
+    popytu, aby wykryć ograniczenia i zweryfikować działania państwa oraz przemysłu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0622
+  locators:
+  - 'SRC-0622: lines 89–104'
+  as_of: '2026-04-29'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: To benchmark procesu ćwiczeniowego sojusznika, nie wynik dla Polski.
+- id: CLM-0624
+  text: Publicznie dostępne dane GUS o przemyśle są zagregowane i nie pozwalają wyznaczyć kwalifikowanej przepustowości, czasu
+    zwiększenia produkcji ani zależności dostaw obronnych.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0623
+  - SRC-0603
+  - SRC-0605
+  locators:
+  - 'SRC-0623: wybrane działy przemysłu'
+  - 'SRC-0603: dane potrzeb chronione'
+  - 'SRC-0605: szczegóły inwestycji chronione tajemnicą przedsiębiorstwa'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Wniosek dotyczy jawnych źródeł; właściwe dane mogą istnieć w obiegu chronionym.
+- id: CLM-0625
+  text: Udział wartości wytworzonej w kraju lub reguła pochodzenia komponentów nie są wystarczającą miarą suwerenności technologicznej,
+    jeżeli państwo nie kontroluje konfiguracji, interfejsów, aktualizacji, serwisu i planu substytucji.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0606
+  - SRC-0610
+  - SRC-0616
+  locators:
+  - 'SRC-0606: prace nad metodyką local content'
+  - 'SRC-0610: Article 23'
+  - 'SRC-0616: 35% component-cost rule'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Wniosek wymaga wspólnego uzgodnienia definicji z A04, A05, A07 i A09.
+- id: CLM-0626
+  text: Polska powinna klasyfikować elementy łańcucha według krytyczności, czasu substytucji, kontroli projektu i konfiguracji,
+    koncentracji dostaw, ryzyka wpływu wrogiego oraz wymagań jakościowych, zamiast przyjmować pełną autarkię jako cel.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0602
+  - SRC-0613
+  - SRC-0614
+  - SRC-0615
+  locators:
+  - 'SRC-0601: para 13'
+  - 'SRC-0602: paras 16–18'
+  - 'SRC-0613: diversification and stress testing'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: KPRM/MON/MRiT; wynik: zatwierdzona macierz K1–K4; stop-rule: brak finansowania suwerenności bez klasyfikacji
+    i dowodu krytyczności.'
+- id: CLM-0627
+  text: Należy zbudować chroniony rejestr bazowy łańcucha dostaw i zdolności, z jawnie publikowanymi wyłącznie agregatami,
+    wersjonowanymi definicjami i niezależną weryfikacją danych dostawców.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0602
+  - SRC-0603
+  - SRC-0604
+  - SRC-0620
+  locators:
+  - 'SRC-0602: paras 13–15'
+  - 'SRC-0603: proces weryfikacji danych przedsiębiorców'
+  - 'SRC-0620: Articles 19–21'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: MON/AU z KPRM; wynik: baseline v1; stop-rule: brak uprawnień, klasyfikacji lub podstawy do pozyskania danych
+    blokuje wpis, nie powoduje zgadywania.'
+- id: CLM-0628
+  text: Dla elementów krytycznych należy wymagać dwóch kwalifikowanych źródeł albo jednego źródła z testowanym pakietem kompensacyjnym
+    obejmującym substytut, prawa i dokumentację, rezerwę, step-in lub umowę z wiarygodnym partnerem sojuszniczym.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0602
+  - SRC-0610
+  locators:
+  - 'SRC-0601: para 13, redundancy and diversification'
+  - 'SRC-0602: paras 16–18'
+  - 'SRC-0610: Article 23(c)–(h)'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: AU i właściciel zdolności; wynik: plan substytucji; stop-rule: brak wykonalnego zabezpieczenia dla K1/K2
+    blokuje skalowanie, chyba że organ uprawniony jawnie akceptuje ryzyko w chronionym obiegu.'
+- id: CLM-0629
+  text: Kontrakt na system strategiczny powinien od początku obejmować serwis, części, konfigurację, aktualizacje, obsolescencję,
+    bezpieczeństwo dostaw, prawa do interfejsów i dokumentacji, zmianę dostawcy oraz wycofanie i utylizację.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0610
+  - SRC-0612
+  - SRC-0617
+  locators:
+  - 'SRC-0601: lifecycle and co-sustainment'
+  - 'SRC-0610: Article 23'
+  - 'SRC-0612: cradle-to-grave'
+  - 'SRC-0617: support and vulnerability handling as a civil benchmark'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: AU; wynik: klauzule modelowe po recenzji A09; stop-rule: brak praw lub wsparcia adekwatnego do klasy krytyczności
+    blokuje G5/skala.'
+- id: CLM-0630
+  text: Każdy nowy dostawca powinien przejść proporcjonalną ścieżkę jakości obejmującą kwalifikację procesu, pierwszą partię,
+    identyfikowalność konfiguracji, kontrolę zmian, nadzór poddostawców i ponowną kwalifikację po zmianie krytycznej części.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0608
+  - SRC-0609
+  - SRC-0611
+  locators:
+  - 'SRC-0608: STANAG 4107/AQAP'
+  - 'SRC-0609: conformity to technical specifications'
+  - 'SRC-0611: standards in lifecycle contracts'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: AU/Szefostwo Zapewnienia Jakości; wynik: wspólne bramki Q0–Q6; stop-rule: brak audytowalnej konfiguracji
+    lub krytyczna niezgodność blokuje dostawę.'
+- id: CLM-0631
+  text: Program powinien utworzyć rozproszoną sieć serwisową opartą na wspólnych danych technicznych, narzędziach testowych,
+    szkoleniu, częściach i telemetrii jakości, bez publikowania wrażliwych lokalizacji i stanów zapasów.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0603
+  - SRC-0610
+  - SRC-0612
+  locators:
+  - 'SRC-0603: planowanie zestawów remontowych i napraw'
+  - 'SRC-0610: Article 23(f)–(h)'
+  - 'SRC-0612: integrated logistics and supply chain support'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: MON/AU i właściwi użytkownicy; wynik: model utrzymania; stop-rule: produkt bez wykonalnego serwisu i danych
+    nie przechodzi do skali.'
+- id: CLM-0632
+  text: Scenariusz ćwiczeniowy 30/90/180 dni powinien mierzyć kolejno wykorzystanie istniejącej zdolności, kwalifikację alternatyw
+    i zmian organizacyjnych oraz uruchomienie dodatkowych komórek lub kooperacji, a wynik musi być potwierdzony próbą fizyczną
+    albo oznaczony jako symulacja.
+  type: SCENARIO
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0602
+  - SRC-0621
+  - SRC-0622
+  locators:
+  - 'SRC-0601: para 13 TTX'
+  - 'SRC-0602: para 15'
+  - 'SRC-0621: semiconductor exercise'
+  - 'SRC-0622: sustained-demand wargame'
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: MON/AU/KPRM z przemysłem; rezultat: krzywa odzyskania i lista decyzji; stop-rule: brak fizycznej walidacji
+    oznacza status SIMULATION, nie READY.'
+- id: CLM-0633
+  text: Publiczny CAPEX powinien być uruchamiany etapami dopiero po wykazaniu ważnego popytu, krytycznego wąskiego gardła,
+    gotowości lokalizacyjnej i kadrowej, wykonalnego systemu jakości, pełnego OPEX oraz przewagi nad bezpiecznym zakupem lub
+    współpracą sojuszniczą.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0602
+  - SRC-0605
+  - SRC-0618
+  locators:
+  - 'SRC-0601: demand signal and scalable facilities'
+  - 'SRC-0602: paras 9, 22 and 25'
+  - 'SRC-0605: investment programme'
+  - 'SRC-0618: infrastructure and investment policy'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: MF/MAP/MRiT/MON; wynik: karta CAPEX G0–G4; stop-rule: brak kotwicy popytu, licencji, danych kosztowych
+    lub przewagi odpornościowej zatrzymuje następną transzę.'
+- id: CLM-0634
+  text: Zamiast jednej megafabryki program powinien finansować portfel modułowych zdolności integracji, komponentów, testów,
+    napraw i elastycznej produkcji, możliwych do wykorzystania przez wielu dostawców i rynki dual-use.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0602
+  - SRC-0616
+  locators:
+  - 'SRC-0601: NATO Engine and scalable flexible facilities'
+  - 'SRC-0602: sustainability and scalability'
+  - 'SRC-0616: industrial reinforcement and access for SMEs'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: MRiT/MAP/PFR/MON; wynik: portfel inwestycji; stop-rule: obiekt zależny od jednego produktu bez popytu bazowego
+    lub planu konwersji nie otrzymuje skali.'
+- id: CLM-0635
+  text: W półprzewodnikach Polska powinna wybierać węzły łańcucha takie jak projektowanie, materiały, fotonika, elektronika
+    mocy, back-end, integracja i test dopiero po porównaniu przewagi krajowej, popytu i kosztu alternatyw, a nie deklarować
+    budowę kompletnej najnowocześniejszej fabryki procesorów jako cel obronny.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0618
+  - SRC-0619
+  - SRC-0620
+  locators:
+  - 'SRC-0618: filary, specjalizacje i back-end'
+  - 'SRC-0619: centrum kompetencji'
+  - 'SRC-0620: monitoring całego łańcucha UE'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: MC/MRiT/MON; wynik: mapa inwestycji; stop-rule: brak niezależnego business case i powiązania z europejskim
+    ekosystemem blokuje CAPEX.'
+- id: CLM-0636
+  text: Rzeczywista miesięczna kwalifikowana zdolność polskich przedsiębiorstw dla warstw systemów autonomicznych, C-UAS,
+    sensorów, łączności, napędów, zasilania, elektroniki i serwisu nie jest możliwa do ustalenia z jawnych źródeł użytych
+    w pakiecie.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0603
+  - SRC-0605
+  - SRC-0623
+  locators:
+  - 'SRC-0603: obieg chroniony'
+  - 'SRC-0605: dane inwestycyjne i tajemnica przedsiębiorstwa'
+  - 'SRC-0623: statystyki zagregowane'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Wymagane: chroniony audyt AU/MON z walidacją na miejscu i próbą produkcyjną.'
+- id: CLM-0637
+  text: Polska ekspozycja na pojedyncze państwa i dostawców dla krytycznych komponentów niższych rzędów nie jest znana z jawnych
+    danych i nie może być wyprowadzona z udziałów importu całej UE.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0614
+  - SRC-0615
+  locators:
+  - 'SRC-0614: zakres UE'
+  - 'SRC-0615: zakres UE i agregat high-tech'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Wymagane: BOM/HBOM/SBOM i mapa tier-n z jurysdykcją, właścicielem, lead time i alternatywą.'
+- id: CLM-0638
+  text: Krzywe zwiększenia produkcji po 30, 90 i 180 dniach dla strategicznych klas produktów pozostają nieznane do czasu
+    ćwiczeń i fizycznej walidacji, nawet jeżeli przedsiębiorca deklaruje moce.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0602
+  - SRC-0603
+  - SRC-0622
+  locators:
+  - 'SRC-0602: potrzeba baseline i TTX'
+  - 'SRC-0603: weryfikacja danych przedsiębiorcy'
+  - 'SRC-0622: rola ćwiczeń'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: Deklaracja zdolności bez walidacji otrzymuje status CLAIMED, nie VERIFIED.
+- id: CLM-0639
+  text: Jawne źródła nie dostarczają kompletnego zestawu wskaźników dostępności, czasu naprawy, pierwszej skutecznej naprawy,
+    zużycia części i obsolescencji dla całego portfela systemów objętych programem.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0603
+  - SRC-0612
+  locators:
+  - 'SRC-0603: planowanie napraw bez wyników'
+  - 'SRC-0612: zakres lifecycle jako benchmark'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Wymagane: ujednolicone, chronione dane logistyczne z definicjami i mianownikami.'
+- id: CLM-0640
+  text: Nie jest publicznie dostępne pełne powiązanie projektów CAPEX z ważnym popytem, kamieniami milowymi, kosztami operacyjnymi,
+    efektem przepustowości, planem jakości i warunkami zwrotu lub zatrzymania wsparcia.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0605
+  - SRC-0606
+  locators:
+  - 'SRC-0605: agregaty inwestycyjne i poufny wykaz scenariuszy'
+  - 'SRC-0606: prace nad metodyką komponentu krajowego'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Wymagane: chroniony crosswalk CAPEX–popyt–wydajność–ryzyko z publicznym agregatem.'
+- id: CLM-0641
+  text: Dashboard dla premiera powinien raportować warstwami popyt, zweryfikowaną zdolność normalną i surge, koncentrację
+    dostaw, pokrycie substytucją, jakość, serwis, wykonanie CAPEX oraz decyzje stop, bez ujawniania lokalizacji, wolumenów
+    zapasów i podatności.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0602
+  - SRC-0603
+  - SRC-0620
+  locators:
+  - 'SRC-0601: demand and production'
+  - 'SRC-0602: baseline and confidentiality'
+  - 'SRC-0603: protected needs'
+  - 'SRC-0620: monitoring model'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: KPRM/MON; wynik: dashboard miesięczny; stop-rule: niespójna definicja lub nieweryfikowalne dane są publikowane
+    jako UNKNOWN, nie jako zero.'
+- id: CLM-0642
+  text: Każda transza pomocy przemysłowej powinna mieć warunki zawieszenia, odzyskania lub przeprojektowania, gdy zanika popyt,
+    nie osiągnięto kamienia jakościowego, odmówiono weryfikacji danych, pogorszono bezpieczeństwo dostaw albo bezpieczna alternatywa
+    sojusznicza daje wyraźnie lepszy efekt całego cyklu życia.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0601
+  - SRC-0602
+  - SRC-0605
+  - SRC-0610
+  locators:
+  - 'SRC-0601: demand, lifecycle and sustainment'
+  - 'SRC-0602: capacity and financing'
+  - 'SRC-0605: staged investments'
+  - 'SRC-0610: security-of-supply commitments'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A06
+  reviewer: null
+  used_in:
+  - research/packs/a06-industry-memo.md
+  sensitivity: public
+  notes: 'Adresat: MF/MAP/MRiT/MON; wynik: standard umowy inwestycyjnej; stop-rule jest treścią rekomendacji i wymaga oceny
+    legalności A09.'
+- id: CLM-0701
+  text: Rada ECOFIN zatwierdziła polski plan SAFE, a pomoc dla Polski ma formę pożyczki Unii do maksymalnej wysokości 43,73
+    mld EUR; nie jest to grant ani dochód budżetu państwa.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0701
+  - SRC-0702
+  locators:
+  - 'SRC-0701: sekcja Finansowanie obronności'
+  - 'SRC-0702: art. 5-10'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Fakt wymaga niezależnej recenzji. Maksymalna kwota nie jest równoznaczna z wypłatą całości ani z możliwością finansowania
+    nowych zadań poza zatwierdzonym planem.
+- id: CLM-0702
+  text: SAFE ma ogólnounijny limit 150 mld EUR pożyczek; umowa może trwać do 45 lat, a prefinansowanie może wynieść 15% pożyczki.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0702
+  locators:
+  - 'SRC-0702: art. 6 i art. 10 ust. 2; motyw i przepisy o prefinansowaniu'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Szczegółowe warunki finansowe Polski wynikają z decyzji wykonawczej, umowy pożyczki i operacyjnych ustaleń, których
+    pełnej treści pakiet nie posiada.
+- id: CLM-0703
+  text: W modelu programu SAFE powinien być wykazywany jako finansowanie dłużne z harmonogramem wypłat, odsetek i spłaty,
+    a nie jako pomniejszenie ekonomicznego kosztu projektu.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0701
+  - SRC-0702
+  - SRC-0716
+  locators:
+  - 'SRC-0702: art. 5 i art. 10'
+  - 'SRC-0716: prognoza długu i kosztów obsługi'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Pożyczka może poprawiać warunki i profil płynności względem alternatywy, ale nie usuwa kosztu głównego ani ryzyka
+    zadłużenia.
+- id: CLM-0704
+  text: Program prac Europejskiego Funduszu Obronnego na 2026 r. przeznacza 1 mld EUR na 31 tematów współpracy badawczo-rozwojowej
+    w skali UE.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0703
+  locators:
+  - 'SRC-0703: pierwsze trzy akapity komunikatu'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Pula jest konkursowa i ogólnounijna; nie jest alokacją dla Polski.
+- id: CLM-0705
+  text: Około jednej czwartej programu prac EDF 2026 przypisano wdrażaniu EUDIS, przy czym komunikat wskazuje osobne działania
+    dla technologii przełomowych, MŚP, akceleracji, dopasowania inwestorów i kapitału.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0703
+  - SRC-0704
+  locators:
+  - 'SRC-0703: akapity 107-117'
+  - 'SRC-0704: s. 6-7'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Poszczególne działania mają odmienne zasady, intensywność wsparcia i odbiorców.
+- id: CLM-0706
+  text: STEP nie jest nowym funduszem; łączy istniejące programy, a kwalifikowalność projektu nadal wynika z zasad danego
+    programu i konkretnego naboru.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0705
+  locators:
+  - 'SRC-0705: pytania Is STEP a new funding programme oraz What are the eligibility rules'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Etykieta STEP lub pieczęć nie stanowi automatycznej decyzji finansowej.
+- id: CLM-0707
+  text: Oficjalne wyjaśnienia STEP kierują wsparcie na rozwój i wytwarzanie technologii po wykazaniu wykonalności, a nie na
+    samo wdrożenie istniejącego rozwiązania.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0705
+  locators:
+  - 'SRC-0705: Which technology development phases/stages does STEP support'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Dokumentacja każdego naboru może wprowadzać dalsze zawężenia.
+- id: CLM-0708
+  text: NCBR wskazał w marcu 2026 r. dwie Ścieżki SMART z budżetami po 350 mln zł, które dopuszczały projekty dual-use, lecz
+    wymagały rzeczywistego zastosowania cywilnego i spełnienia reguł naboru.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0706
+  locators:
+  - 'SRC-0706: akapity 119-124'
+  as_of: '2026-03-26'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Kwoty są budżetami całych naborów, a nie środkami zarezerwowanymi dla programu.
+- id: CLM-0709
+  text: W lutym 2026 r. Komitet Monitorujący FENG zaakceptował dodanie technologii obronnych i nowych możliwości dual-use,
+    ale komunikat przewidywał dalsze uzgodnienia rządowe i z Komisją oraz dopiero przyszłe nabory.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0707
+  locators:
+  - 'SRC-0707: akapity 107-119'
+  as_of: '2026-02-04'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Przed użyciem należy sprawdzić stan po 4 lutego 2026 r. i dokumentację opublikowanego naboru.
+- id: CLM-0710
+  text: Nabór PARP STEP dla innowacyjnych technologii cyfrowych zakończył przyjmowanie wniosków 16 lipca 2026 r.; jego karta
+    nie stanowi dowodu, że cały program autonomii lub technologia wyłącznie wojskowa spełnia kryteria.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0708
+  locators:
+  - 'SRC-0708: sekcja Terminy zgłoszeń i Szczegółowy opis'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: PARP należy traktować jako operatora konkretnych naborów, nie jako nieograniczoną rezerwę programu.
+- id: CLM-0711
+  text: IDA Bootcamp 2026 PFR oferował walidację, pracę z użytkownikiem i kontakty z przemysłem oraz inwestorami, lecz komunikat
+    nie ustanawiał automatycznego grantu, inwestycji ani zamówienia.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0709
+  locators:
+  - 'SRC-0709: opis programu i korzyści uczestników'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: W modelu jest to instrument akceleracji i przygotowania projektu, nie źródło finansowania CAPEX.
+- id: CLM-0712
+  text: Pożyczka BGK z FBiO dla przedsiębiorców ma pulę 2,5 mld zł, może sięgać 100% kosztów kwalifikowalnych netto i obejmuje
+    produkcję sprzętu wojskowego lub dual-use, lecz wyłącza m.in. koszty rozliczone w innych programach UE albo objęte innym
+    wsparciem krajowym.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0710
+  locators:
+  - 'SRC-0710: Wysokość wsparcia, zakres, wyłączenia i Pula środków'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Włączenie do planu wymaga weryfikacji listy technologii, doświadczenia przedsiębiorcy, pomocy publicznej, DNSH i
+    dokumentacji naboru.
+- id: CLM-0713
+  text: Około 23 mld zł jest łączną wartością całego FBiO finansowanego z KPO dla wielu typów inwestycji przedsiębiorstw i
+    samorządów, a nie kwotą dostępną wyłącznie dla autonomii, AI lub dual-use.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0711
+  locators:
+  - 'SRC-0711: akapity 61-63'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Nie wolno sumować tej wartości z podpulą 2,5 mld zł jako dwóch niezależnych źródeł.
+- id: CLM-0714
+  text: BGK ogłosił 16 lipca 2026 r. plan instrumentu FENG z pulą 400 mln zł, kredytem i premią do maksymalnie 70% wydatków
+    kwalifikowalnych dla MŚP rozwijających produkcję dual-use, z naborem zaplanowanym od 29 października 2026 r.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0712
+  locators:
+  - 'SRC-0712: akapity o budżecie, mechanizmie, intensywności i terminach'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Na dzień oceny był to instrument zapowiedziany; maksymalna intensywność nie oznacza stawki dla każdego projektu.
+- id: CLM-0715
+  text: Future Tech Poland zaangażował 85 mln EUR w trzy fundusze VC/growth inwestujące m.in. w technologie obronne, cyber
+    i dual-use; jest to mechanizm fund-of-funds, a nie bezpośrednia dotacja dla spółki lub programu rządowego.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0713
+  locators:
+  - 'SRC-0713: akapity 387-400'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Kapitał oznacza selekcję komercyjną, warunki inwestycyjne i rozwodnienie udziałów; nie powinien być księgowany jak
+    grant.
+- id: CLM-0716
+  text: Plan Grupy EBI na 2026 r. zakłada 4,5 mld EUR finansowania bezpieczeństwa i obronności w całej UE przez różne produkty,
+    ale nie przyznaje Polsce odrębnej alokacji ani automatycznej kwalifikowalności.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0714
+  locators:
+  - 'SRC-0714: s. 17-18'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: W modelu EBI jest potencjalnym źródłem długu, gwarancji, venture debt lub finansowania pośredniego po pre-screeningu.
+- id: CLM-0717
+  text: EIF Defence Equity Facility inwestuje w fundusze VC, private equity i private credit, dlatego spółki uzyskują finansowanie
+    pośrednio i na warunkach zarządzających funduszami.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0715
+  locators:
+  - 'SRC-0715: How to apply i Signed funds to date'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Instrument nie powinien być wpisywany do finansowania projektu bez term sheet lub wiążącej decyzji funduszu.
+- id: CLM-0718
+  text: Strategia długu MF z 30 września 2025 r. prognozowała wzrost długu EDP z 59,8% PKB w 2025 r. do 65,4% w 2026 r. i
+    75,3% w 2029 r. oraz wzrost kosztów obsługi długu Skarbu Państwa do 2,6-2,7% PKB w 2029 r.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0716
+  locators:
+  - 'SRC-0716: punkty 148-153'
+  as_of: '2025-09-30'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Są to prognozy, nie wartości wykonania. Należy odświeżyć je najnowszą strategią długu i budżetem przed decyzją.
+- id: CLM-0719
+  text: Eurostat podał, że deficyt sektora instytucji rządowych i samorządowych Polski w 2025 r. wyniósł 7,3% PKB według pierwszej
+    notyfikacji EDP 2026.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0717
+  locators:
+  - 'SRC-0717: akapit o najwyższych deficytach i metodologia ESA 2010'
+  as_of: '2025-12-31'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Dane mogą podlegać rewizjom w kolejnych notyfikacjach.
+- id: CLM-0720
+  text: Komisja Europejska w raporcie krajowym 2026 prognozowała dla Polski deficyt 6,5% PKB w 2026 r. i 6,3% w 2027 r. oraz
+    dług 68,3% PKB w 2027 r.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0718
+  locators:
+  - 'SRC-0718: sekcja o finansach publicznych i wykres 1.1'
+  as_of: '2026-06-03'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To prognoza Komisji, nie wykonanie; powinna być użyta jako scenariusz zewnętrzny i porównana z MF.
+- id: CLM-0721
+  text: MF rozróżnia kasowe i memoriałowe ujmowanie zakupów obronnych oraz stwierdza, że klauzula obronna SRW nie tworzy automatycznie
+    dodatkowej przestrzeni wydatkowej na obronność.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0724
+  locators:
+  - 'SRC-0724: pkt 1-2, zwłaszcza akapity 146-155'
+  as_of: '2026-04-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Model musi mieć równolegle rachunek kasowy, memoriałowy ESA i ujęcie długu/finansowania.
+- id: CLM-0722
+  text: Prawo finansowe UE zakazuje finansowania tych samych kosztów dwa razy, a RRF/KPO dopuszcza łączenie instrumentów tylko
+    wtedy, gdy nie pokrywają tego samego kosztu.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0722
+  - SRC-0723
+  locators:
+  - 'SRC-0722: art. 194 ust. 1-3'
+  - 'SRC-0723: art. 9'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Szczegółowe reguły kumulacji, pomocy publicznej i intensywności wynikają dodatkowo z aktów bazowych i dokumentacji
+    naborów.
+- id: CLM-0723
+  text: Tablice podaży i wykorzystania GUS publikują produkcję, import, zużycie pośrednie, eksport i wartość dodaną według
+    PKD/PKWiU, więc mogą być punktem wyjścia do modelu importochłonności i krajowej wartości dodanej.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0719
+  locators:
+  - 'SRC-0719: opis zakresu oraz tablice XLSX'
+  as_of: '2026-03-31'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Rok bazowy 2022 i agregacja sektorowa wymagają aktualizacji współczynników danymi firm i analizą wrażliwości.
+- id: CLM-0724
+  text: GUS oszacował nakłady krajowe brutto na B+R w 2024 r. na 51,5 mld zł i intensywność B+R na 1,41% PKB, ale są to dane
+    dla całej gospodarki, a nie baza finansowa programu autonomii.
+  type: FACT
+  status: unverified
+  source_ids:
+  - SRC-0720
+  locators:
+  - 'SRC-0720: informacja sygnalna, s. 1 i tablice'
+  as_of: '2024-12-31'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Porównanie programu do GERD może służyć wyłącznie do kontroli skali, nie do wyznaczenia budżetu.
+- id: CLM-0725
+  text: Comext jest referencyjną bazą Eurostatu dla szczegółowego handlu towarami i udostępnia miesięcznie aktualizowane dane,
+    lecz mapowanie produktów dual-use do kodów CN wymaga osobnej wersjonowanej klasyfikacji.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0721
+  locators:
+  - 'SRC-0721: About Comext oraz Files available outside the API'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Kody handlowe nie identyfikują automatycznie zastosowania końcowego, odbiorcy ani udziału krajowej IP.
+- id: CLM-0726
+  text: Mapa instrumentów SAFE, EDF, EUDIS, STEP, PFR, BGK, NCBR, PARP, EBI i EFI pokazuje możliwe źródła, lecz nie jest jeszcze
+    planem finansowania bez projektu, naboru, kosztu kwalifikowanego i decyzji instytucji.
+  type: INFERENCE
+  status: unverified
+  source_ids:
+  - SRC-0701
+  - SRC-0703
+  - SRC-0705
+  - SRC-0706
+  - SRC-0708
+  - SRC-0709
+  - SRC-0710
+  - SRC-0713
+  - SRC-0714
+  - SRC-0715
+  locators:
+  - warunki i zastrzeżenia każdego źródła
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Włączenie do modelu bazowego wymaga co najmniej udokumentowanej kwalifikowalności; wpływ gotówkowy dopiero po wiążącej
+    decyzji.
+- id: CLM-0727
+  text: Rada Ministrów nie powinna zatwierdzać jednej kwoty programu przed zbudowaniem kosztorysu portfela, harmonogramu TCO,
+    rachunku fiskalnego i rejestru finansowania na poziomie kosztu.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0716
+  - SRC-0717
+  - SRC-0718
+  - SRC-0721
+  - SRC-0722
+  - SRC-0723
+  - SRC-0724
+  locators:
+  - ograniczenia fiskalne i zasady niedublowania finansowania
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Można zatwierdzić ograniczony budżet przygotowawczy i pilotażowy z limitem, kamieniami milowymi oraz klauzulą wygaśnięcia.
+- id: CLM-0728
+  text: TCO każdego pakietu powinien obejmować zakup lub B+R, integrację, testy i certyfikację, dane i obliczenia, szkolenie,
+    utrzymanie, części, aktualizacje, energię i obiekty, finansowanie, rezerwę ryzyka oraz wycofanie, pomniejszone o wiarygodną
+    wartość rezydualną.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Każda pozycja ma rok cenowy, walutę, podstawę, właściciela i rozkład L/B/H; brak danych pozostaje UNKNOWN.
+- id: CLM-0729
+  text: Grant zmniejsza koszt finansowany krajowo tylko w zakresie kwalifikowanych i faktycznie przyznanych kosztów, natomiast
+    pożyczka, gwarancja i kapitał zmieniają strukturę finansowania, ale nie powinny być odejmowane od TCO jak bezzwrotny przychód.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0701
+  - SRC-0702
+  - SRC-0710
+  - SRC-0713
+  - SRC-0714
+  - SRC-0715
+  locators:
+  - forma prawna i ekonomiczna instrumentów
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Model powinien oddzielać koszt zasobu, transfer publiczny, finansowanie i przepływy właścicielskie.
+- id: CLM-0730
+  text: Scenariusze niski, bazowy i wysoki powinny różnić się zakresem portfela, tempem skali i ryzykiem, a nie trzema arbitralnymi
+    kwotami bez kosztorysów oddolnych.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Kwoty wynikowe powstają dopiero po wypełnieniu jednostek, cen, wolumenów, czasu i prawdopodobieństw.
+- id: CLM-0731
+  text: Scenariusz niski może obejmować audyt, biuro realizacji, rejestr finansowania, ograniczone kohorty pilotażowe i wykorzystanie
+    istniejącej infrastruktury bez rozpoczynania dużych inwestycji produkcyjnych.
+  type: SCENARIO
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: To wariant konstrukcyjny do wyceny, nie zatwierdzony zakres ani budżet.
+- id: CLM-0732
+  text: Scenariusz bazowy może dodać po zweryfikowaniu popytu małe partie, bezpieczną przestrzeń danych, wspólne testy, kształcenie
+    ustawiczne i selektywne inwestycje komponentowe z co najmniej dwiema ścieżkami dostaw.
+  type: SCENARIO
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Każdy moduł przechodzi oddzielną bramkę TCO, bezpieczeństwa, dodatkowości i finansowania.
+- id: CLM-0733
+  text: Scenariusz wysoki może obejmować skalowanie produkcji, rezerwy 30/90/180 dni i duże inwestycje przemysłowe wyłącznie
+    po dowodzie popytu, testach operacyjnych, stress-teście fiskalnym i potwierdzeniu utrzymania.
+  type: SCENARIO
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Brak pozytywnej bramki skali utrzymuje projekt w scenariuszu niższym albo go zamyka.
+- id: CLM-0734
+  text: 'Dodatkowość należy mierzyć względem kontrfaktycznego wariantu bez wsparcia: czy finansowanie zmieniło skalę, termin,
+    ryzyko, udział prywatny lub wynik, a nie jedynie zastąpiło środki, które i tak były dostępne.'
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Ocena ex ante, mid-term i ex post powinna rozdzielać dodatkowość finansową, behawioralną, wynikową i systemową.
+- id: CLM-0735
+  text: Krajowej wartości dodanej nie należy utożsamiać z wartością kontraktu ani udziałem polskiego wykonawcy; powinna być
+    liczona jako krajowe wynagrodzenia, nadwyżka operacyjna i podatki netto w łańcuchu po odjęciu importowanych nakładów i
+    przepływów zagranicznych.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0719
+  locators:
+  - 'SRC-0719: definicje podaży, importu, zużycia pośredniego i wartości dodanej'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wymagane są dane firmowe o BOM, imporcie, marżach, płacach, amortyzacji, IP i podwykonawcach, agregowane z ochroną
+    tajemnicy przedsiębiorstwa.
+- id: CLM-0736
+  text: Wpływ na produktywność powinien być raportowany jako zmiana realnej wartości dodanej na godzinę lub ekwiwalent pełnego
+    czasu pracy względem dobranej grupy porównawczej, a nie jako wzrost obrotu beneficjenta.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Preferowany jest panel przedsiębiorstw z pre-trendem i metodą difference-in-differences lub dopasowaniem, o ile jakość
+    danych pozwala.
+- id: CLM-0737
+  text: Efekt rynku pracy powinien rozróżniać zatrudnienie brutto, netto, bezpośrednie, pośrednie, indukowane, czasowe i stałe
+    oraz wykazywać job-years/FTE, wynagrodzenia, wakaty i wypieranie pracowników z innych sektorów.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Bez danych kohortowych nie należy stosować jednego mnożnika miejsc pracy.
+- id: CLM-0738
+  text: Eksport należy mierzyć na poziomie kohorty produktów i przedsiębiorstw, łącząc deklaracje beneficjentów z danymi celnymi/Comext
+    oraz wykluczając reeksport, transfery wewnątrzgrupowe i sprzedaż niezwiązaną z programem.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0721
+  locators:
+  - 'SRC-0721: zakres danych Comext i częstotliwość aktualizacji'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Kontrola eksportu i poufność wymagają bezpiecznego połączenia danych oraz publikowania wyłącznie agregatów.
+- id: CLM-0739
+  text: Spillovers należy mierzyć oddzielnie jako cywilną sprzedaż technologii, dyfuzję do dostawców, nowe standardy i interfejsy,
+    patenty lub know-how, mobilność kadr i prywatne inwestycje następcze, bez automatycznego przypisywania całego wyniku programowi.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Wymagana triangulacja danych administracyjnych, przedsiębiorstw, patentów, kadr i nabywców.
+- id: CLM-0740
+  text: Koszt alternatywny powinien porównywać portfel z co najmniej trzema wariantami - brak interwencji, zakup gotowego
+    rozwiązania i alternatywna inwestycja publiczna - przy tej samej bazie cenowej, horyzoncie i stopie dyskontowej.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Korzyści bezpieczeństwa mogą być jakościowe lub scenariuszowe, ale muszą być pokazane obok kosztu fiskalnego, a nie
+    ukryte w mnożniku PKB.
+- id: CLM-0741
+  text: Analiza wrażliwości powinna co najmniej zmieniać wolumen, opóźnienie, inflację kosztów, kurs EUR/PLN, koszt kapitału,
+    awaryjność i utrzymanie, udział importu, skuteczność pozyskania grantów oraz skalę eksportu, bez przypisywania rozkładów
+    prawdopodobieństwa bez danych.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: W pierwszej wersji wystarczą przedziały L/B/H i jednokierunkowe testy; Monte Carlo dopiero po kalibracji rozkładów.
+- id: CLM-0742
+  text: 'Finansowanie powinno być transzowane według bramek: potrzeba i sponsor, wykonalność i bezpieczeństwo, dowód testowy,
+    mała partia, gotowość do skali oraz przegląd utrzymania; brak dowodu uruchamia stop lub ograniczenie zakresu.'
+  type: RECOMMENDATION
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Każda bramka ma limit skumulowanego kosztu utopionego i niezależnego właściciela decyzji.
+- id: CLM-0743
+  text: Łączny koszt programu Polska 2040, roczny profil wydatków i wymagany wkład krajowy są obecnie UNKNOWN, ponieważ brak
+    zweryfikowanego portfela, wolumenów, harmonogramów i TCO pakietów.
+  type: UNKNOWN
+  status: unverified
+  source_ids: []
+  locators: []
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Plan pozyskania: właściciele pakietów składają w 30 dni karty kosztowe z rokiem cenowym, jednostką, wolumenem, harmonogramem,
+    niepewnością i stop-rule; MF konsoliduje.'
+- id: CLM-0744
+  text: Dokładny koszt i profil spłaty polskiej pożyczki SAFE oraz część zatwierdzonego planu, którą można powiązać z Polska
+    2040, są obecnie UNKNOWN w tym pakiecie.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0701
+  - SRC-0702
+  locators:
+  - brak pełnej umowy pożyczki, operacyjnych ustaleń i mapowania projektów w dostępnym materiale
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Plan pozyskania: MF/BGK/MON udostępniają zespołowi uprawnionemu harmonogram wypłat, formułę kosztu, spłaty, ryzyka
+    kursowego oraz identyfikatory projektów; repo jawne otrzymuje agregaty.'
+- id: CLM-0745
+  text: Bazowa krajowa wartość dodana, importochłonność i zdolność substytucji kluczowych warstw przemysłowych są obecnie
+    UNKNOWN.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0719
+  locators:
+  - GUS daje współczynniki sektorowe, ale brak mapy firm, BOM i pochodzenia komponentów programu
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Plan pozyskania: poufny formularz beneficjenta i wykonawcy, połączenie z rachunkami GUS, danymi handlowymi i audytem
+    dostaw; publikacja agregatów z progiem poufności.'
+- id: CLM-0746
+  text: Przyrost produktywności, zatrudnienia netto, eksportu i spillovers przypisywalny programowi jest obecnie UNKNOWN i
+    nie może być zastąpiony mnożnikiem z innego kraju lub z analizy całego EDF.
+  type: UNKNOWN
+  status: unverified
+  source_ids:
+  - SRC-0704
+  locators:
+  - 'SRC-0704: zastrzeżenia dotyczące wczesnego etapu i ograniczeń modelowania'
+  as_of: '2026-07-21'
+  confidence: not-applicable
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Plan pozyskania: zamrozić baseline przed pierwszą płatnością, zbudować grupę porównawczą, identyfikatory firm i
+    produktów oraz coroczną ewaluację niezależną.'
+- id: CLM-0747
+  text: Rząd powinien wdrożyć jeden rejestr źródeł finansowania i kwalifikowanych kosztów obejmujący SAFE, fundusze UE, KPO,
+    budżet, fundusze celowe, pożyczki, gwarancje i kapitał, z kontrolą kumulacji przed każdą płatnością.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0710
+  - SRC-0722
+  - SRC-0723
+  locators:
+  - wyłączenia FBiO, art. 194 Financial Regulation, art. 9 RRF
+  as_of: '2026-07-21'
+  confidence: high
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: 'Minimalny klucz: projekt, pakiet pracy, kategoria kosztu, faktura/rezultat, instrument, intensywność, pomoc publiczna,
+    kwota, status i recenzent.'
+- id: CLM-0748
+  text: Prezydent i BBN powinni otrzymywać coroczne niezależne zapewnienie o trwałości finansowej programu, koncentracji zobowiązań,
+    ryzyku dostaw i zgodności celów gospodarczych z bezpieczeństwem, bez udziału w selekcji dostawców.
+  type: RECOMMENDATION
+  status: unverified
+  source_ids:
+  - SRC-0716
+  - SRC-0717
+  - SRC-0718
+  locators:
+  - publiczne ograniczenia fiskalne i prognozy długu
+  as_of: '2026-07-21'
+  confidence: medium
+  author: A07
+  reviewer: null
+  used_in: []
+  sensitivity: public
+  notes: Zakres kompetencyjny i obieg materiału wymagają recenzji A02/A09; raport jawny zawiera tylko agregaty.
 - id: CLM-1201
   text: Program KAI-Fire Point trwa dokladnie cztery lata.
   type: FACT
@@ -352,3 +5520,24 @@ claims:
   sensitivity: public
   notes: Mapa drogowa wymienia je wsrod czterech projektow flagowych i publikuje osobne kamienie milowe ich uruchamiania i
     funkcjonalnosci.
+- id: CLM-1223
+  text: 'Dwie oficjalne strony KAI podaja rozny czas programu Fire Point: strona promocyjna cztery lata, a oferta rekrutacyjna
+    2026 trzy lata i dziesiec miesiecy.'
+  type: FACT
+  status: verified
+  source_ids:
+  - SRC-1201
+  - SRC-1202
+  locators:
+  - 'SRC-1201: sekcja Program, wiersz Nauka trwa 4 lata'
+  - 'SRC-1202: karta programu Fire Point, pola Licencja 30 i Termin 3r. 10m.'
+  as_of: '2026-07-21'
+  confidence: high
+  author: A12
+  reviewer: ROOT
+  used_in:
+  - strategy
+  - ministerial-briefs
+  sensitivity: public
+  notes: ROOT ponownie otworzyl obie strony 21 lipca 2026 r. i potwierdzil rozbieznosc; nie rozstrzyga ona faktycznego czasu
+    indywidualnego toku studiow.

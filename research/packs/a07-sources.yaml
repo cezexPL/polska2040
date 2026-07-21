@@ -1,0 +1,385 @@
+schema_version: 1
+sources:
+  - id: SRC-0701
+    title: Posiedzenie Rady do Spraw Gospodarczych i Finansowych
+    publisher: Ministerstwo Finansów
+    url: https://www.gov.pl/web/finanse/posiedzenie-rady-ds-gospodarczych-i-finansowych
+    published_at: "2026-02-18"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny komunikat o decyzji ECOFIN dotyczącej polskiego planu SAFE
+    language: pl
+    locator: "sekcja Finansowanie obronności; akapity o decyzji wykonawczej, maksymalnej kwocie pożyczki i zakresie planu"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "MF podaje maksymalną kwotę pożyczki 43,73 mld EUR i prawie 140 projektów. Źródło nie publikuje pełnej umowy pożyczki, harmonogramu wypłat, oprocentowania ani przypisania kosztów do programu Polska 2040."
+
+  - id: SRC-0702
+    title: Council Regulation (EU) 2025/1106 establishing the Security Action for Europe (SAFE) through the Reinforcement of the European Defence Industry Instrument
+    publisher: Official Journal of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R1106
+    published_at: "2025-05-28"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie Rady Unii Europejskiej
+    language: en
+    locator: "art. 5-10, w szczególności art. 6, art. 7 ust. 1-3 i art. 10 ust. 2-3"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "SAFE jest pomocą w formie pożyczek; limit całego instrumentu wynosi 150 mld EUR, maksymalny okres umowy pożyczki 45 lat, a prefinansowanie może wynieść 15%."
+
+  - id: SRC-0703
+    title: Commission continues to strengthen European collaborative defence research and development with additional EUR 1 billion
+    publisher: European Commission, Directorate-General for Defence Industry and Space
+    url: https://defence-industry-space.ec.europa.eu/commission-continues-strengthen-european-collaborative-defence-research-and-development-additional-2025-12-17_en
+    published_at: "2025-12-17"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny komunikat i streszczenie programu prac EDF 2026
+    language: en
+    locator: "akapity o budżecie 1 mld EUR, 31 tematach, części EUDIS, wsparciu MŚP i usługach akceleracyjnych"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Komunikat opisuje pulę ogólnounijną i instrumenty konkursowe; nie ustanawia alokacji dla Polski ani kwalifikowalności programu Polska 2040."
+
+  - id: SRC-0704
+    title: Interim evaluation of the European Defence Fund
+    publisher: European Commission
+    url: https://defence-industry-space.ec.europa.eu/document/download/50cb88a0-7a4b-4f41-9649-f6272ca987ca_en?filename=COM_2025_299_1_EN_ACT.pdf
+    published_at: "2025-06-17"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: sprawozdanie Komisji COM(2025) 299 final
+    language: en
+    locator: "s. 6-8: budżet i instrumenty EUDIS; s. 7-8: ograniczenia i wyniki modelowania społeczno-gospodarczego"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Komisja wskazuje budżet EUDIS 1,5 mld EUR do 2027 r. oraz zastrzega wczesny etap wdrażania EDF i ograniczenia analizy makroekonomicznej. Wyników dla UE nie należy przenosić na Polskę bez odrębnego modelu."
+
+  - id: SRC-0705
+    title: Questions and Answers - Strategic Technologies for Europe Platform
+    publisher: European Commission, Directorate-General for Budget
+    url: https://strategic-technologies.europa.eu/about/step-nutshell/questions-and-answers_en
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne pytania i odpowiedzi dotyczące STEP
+    language: en
+    locator: "sekcje Is STEP a new funding programme, What are the eligibility rules, Which technology development phases/stages does STEP support"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "STEP koordynuje istniejące programy, ale nie tworzy automatycznego prawa do finansowania; zasady kwalifikowalności wynikają z każdego programu i naboru."
+
+  - id: SRC-0706
+    title: Innowacje dla bezpieczeństwa - nauka i biznes wobec wyzwań niepewności
+    publisher: Narodowe Centrum Badań i Rozwoju
+    url: https://www.gov.pl/web/ncbr/innowacje-dla-bezpieczenstwa-nauka-i-biznes-wobec-wyzwan-niepewnosci
+    published_at: "2026-03-26"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny opis dostępnych naborów i reguł dual-use
+    language: pl
+    locator: "sekcja Technologie podwójnego przeznaczenia w ofercie NCBR, akapity o Ścieżce SMART i STEP"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "NCBR wskazał dwa nabory po 350 mln zł i warunek rzeczywistego zastosowania cywilnego dla projektów dual-use; terminy i dokumentacja konkretnego naboru pozostają rozstrzygające."
+
+  - id: SRC-0707
+    title: Zwiększymy w FENG wsparcie dla technologii obronnych i inwestycji podwójnego zastosowania
+    publisher: Ministerstwo Funduszy i Polityki Regionalnej
+    url: https://www.gov.pl/web/fundusze-regiony/zwiekszymy-w-feng-wsparcie-dla-technologii-obronnych-i-inwestycji-podwojnego-zastosowania
+    published_at: "2026-02-04"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny komunikat o zmianie programu FENG
+    language: pl
+    locator: "akapity o technologii obronnej, dual-use, dalszych uzgodnieniach i planowanych naborach w II połowie 2026 r."
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Komunikat opisuje kierunek zmiany po decyzji Komitetu Monitorującego, ale sam nie jest dokumentacją naboru ani decyzją o przyznaniu środków."
+
+  - id: SRC-0708
+    title: STEP - Technologie cyfrowe - Innowacyjne technologie krytyczne
+    publisher: Polska Agencja Rozwoju Przedsiębiorczości
+    url: https://www.parp.gov.pl/component/grants/grants/step---technologie-cyfrowe---innowacyjne-technologie-krytyczne
+    published_at: "2026-04-28"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalna karta naboru PARP
+    language: pl
+    locator: "sekcje Cel finansowania, Terminy zgłoszeń, Szczegóły dofinansowania i Dokumenty"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Nabór dotyczący technologii cyfrowych zakończył się 16 lipca 2026 r. Karta potwierdza mechanikę konkursową STEP, ale nie dowodzi kwalifikowalności technologii wyłącznie obronnej ani całego programu Polska 2040."
+
+  - id: SRC-0709
+    title: Ruszyła rekrutacja do IDA Bootcamp 2026 - PFR zaprasza startupy, naukowców i firmy rozwijające technologie dual-use
+    publisher: Polski Fundusz Rozwoju S.A.
+    url: https://pfr.pl/artykul/ruszyla-rekrutacja-do-ida-bootcamp-2026-pfr-zaprasza-startupy-naukowcow-i-firmy-0
+    published_at: "2026-06-16"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny komunikat o programie akceleracyjnym
+    language: pl
+    locator: "opis IDA Bootcamp 2026, odbiorców i form wsparcia"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Program zapewnia walidację, konsultacje i kontakt z użytkownikiem; komunikat nie obiecuje automatycznej inwestycji, grantu ani zamówienia."
+
+  - id: SRC-0710
+    title: Pożyczka z Funduszu Bezpieczeństwa i Obronności dla przedsiębiorców
+    publisher: Bank Gospodarstwa Krajowego
+    url: https://www.bgk.pl/produkty/pozyczka-z-funduszu-bezpieczenstwa-i-obronnosci-dla-przedsiebiorcow/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalna karta produktu finansowego i naboru
+    language: pl
+    locator: "sekcje Wysokość wsparcia, Zobacz na co możesz otrzymać pożyczkę, wyłączenia, Kto może skorzystać i terminy"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Pula pożyczek dla przedsiębiorców wynosi 2,5 mld zł; produkt może finansować do 100% kosztów kwalifikowalnych netto, lecz wyłącza m.in. te same koszty zgłoszone w KPO lub innych programach UE oraz objęte innym wsparciem krajowym."
+
+  - id: SRC-0711
+    title: BGK - Startuje Fundusz Bezpieczeństwa i Obronności. Samorządy i firmy mogą korzystać z finansowania
+    publisher: Bank Gospodarstwa Krajowego
+    url: https://media.bgk.pl/komunikat-prasowy/bgk-startuje-fundusz-bezpieczenstwa-i-obronnosci-samorzady-i-firmy-z-moga-korzystac-z-finansowania/
+    published_at: "2026-07-06"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny komunikat o uruchomieniu funduszu
+    language: pl
+    locator: "akapity o łącznej wartości, finansowaniu z KPO i grupach odbiorców"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Około 23 mld zł jest łączną wartością FBiO dla wielu typów inwestycji samorządów i przedsiębiorstw; nie jest pulą przeznaczoną wyłącznie dla systemów autonomicznych."
+
+  - id: SRC-0712
+    title: Nawet do 70 proc. dofinansowania dla firm rozwijających produkcję dual-use. Nowy instrument BGK wspiera konkurencyjność i bezpieczeństwo
+    publisher: Bank Gospodarstwa Krajowego
+    url: https://media.bgk.pl/komunikat-prasowy/nawet-do-70-proc-dofinansowania-dla-firm-rozwijajacych-produkcje-dual-use-nowy-instrument-bgk-wspiera-konkurencyjnosc-i-bezpieczenstwo/
+    published_at: "2026-07-16"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalna zapowiedź instrumentu FENG
+    language: pl
+    locator: "akapity o puli 400 mln zł, mechanizmie kredyt plus premia, intensywności, minimalnej wartości i terminie naboru"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Na dzień dostępu instrument był zapowiedziany, a nabór miał rozpocząć się 29 października 2026 r.; przed włączeniem do planu trzeba sprawdzić pełną dokumentację opublikowaną dla naboru."
+
+  - id: SRC-0713
+    title: Pierwsze inwestycje Future Tech Poland - BGK i EFI inwestują w technologiczną odporność Polski
+    publisher: Bank Gospodarstwa Krajowego
+    url: https://www.bgk.pl/aktualnosc/pierwsze-inwestycje-future-tech-poland-bgk-i-efi-inwestuja-w-technologiczna-odpornosc-polski-1/
+    published_at: "2026-03-31"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalny komunikat o podpisanych inwestycjach funduszu funduszy
+    language: pl
+    locator: "akapity o 85 mln EUR dla trzech funduszy, charakterze fund-of-funds i docelowej skali"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "85 mln EUR jest zaangażowaniem w trzy fundusze, nie bezpośrednią pulą grantową dla pojedynczych spółek ani programu państwowego."
+
+  - id: SRC-0714
+    title: The EIB Group Operational Plan 2026-2028
+    publisher: European Investment Bank Group
+    url: https://www.eib.org/files/publications/20250345-290126-eib-group-operational-plan-2026-2028-en.pdf
+    published_at: "2026-01-29"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: plan operacyjny Grupy EBI
+    language: en
+    locator: "s. 17-18: Defence and Space Tech, rozszerzona kwalifikowalność, produkty i planowany wolumen finansowania w 2026 r."
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Planowany wolumen 4,5 mld EUR dotyczy całej Grupy EBI i całej UE; nie jest alokacją dla Polski. Ostateczna kwalifikowalność zależy od procesu EBI i konkretnego produktu."
+
+  - id: SRC-0715
+    title: Defence Equity Facility
+    publisher: European Investment Fund
+    url: https://www.eif.org/equity-products/all/investeu-defence-equity-facility
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalna karta instrumentu kapitałowego InvestEU
+    language: en
+    locator: "sekcje How to apply, Signed funds to date i News and updates; aktualizacja czerwiec 2026"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Instrument inwestuje w fundusze VC, private equity i private credit; dostęp spółki portfelowej zależy od strategii i decyzji funduszu, a nie od bezpośredniego wniosku o grant."
+
+  - id: SRC-0716
+    title: Strategia zarządzania długiem sektora finansów publicznych w latach 2026-2029
+    publisher: Ministerstwo Finansów
+    url: https://www.gov.pl/web/finanse/strategia-zarzadzania-dlugiem-sektora-finansow-publicznych-w-latach-2026-2029
+    published_at: "2025-09-30"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: strategia długu publicznego i prognoza fiskalna
+    language: pl
+    locator: "sekcja Strategia przewiduje że, punkty o długu PDP, długu EDP i kosztach obsługi"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "To prognoza oparta na założeniach z 2025 r., nie wykonanie. Wskazuje rosnącą ścieżkę długu i kosztów obsługi; powinna być aktualizowana w modelu po każdej nowej prognozie MF."
+
+  - id: SRC-0717
+    title: Euro area government deficit at 2.9% and EU at 3.1% of GDP - provision of deficit and debt data for 2025, first notification
+    publisher: Eurostat
+    url: https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-22042026-ap
+    published_at: "2026-04-22"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalna notyfikacja danych EDP 2025
+    language: en
+    locator: "tabela krajowa oraz akapit o najwyższych deficytach; metodologia ESA 2010"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Eurostat podał dla Polski deficyt sektora instytucji rządowych i samorządowych w 2025 r. równy 7,3% PKB. Dane podlegają kolejnym notyfikacjom i rewizjom."
+
+  - id: SRC-0718
+    title: 2026 Country Report - Poland
+    publisher: European Commission, Directorate-General for Economic and Financial Affairs
+    url: https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/country-report-poland_en
+    published_at: "2026-06-03"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: sprawozdanie krajowe Komisji Europejskiej i prognoza fiskalna
+    language: en
+    locator: "sekcja o finansach publicznych i wykres 1.1; prognozy deficytu i długu na lata 2026-2027"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Komisja prognozuje, a nie stwierdza wykonanie przyszłych lat. Prognoza powinna być jednym ze scenariuszy fiskalnych, nie jedyną bazą modelu."
+
+  - id: SRC-0719
+    title: Rachunek podaży i wykorzystania wyrobów i usług w 2022 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/rachunki-narodowe/roczne-rachunki-narodowe/rachunek-podazy-i-wykorzystania-wyrobow-i-uslug-w-2022-r-%2C6%2C12.html
+    published_at: "2026-03-31"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalne tablice rachunków narodowych podaży i wykorzystania
+    language: pl
+    locator: "opis zakresu danych i tablice XLSX dla 2022 r."
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Tablice pozwalają oszacować wartość dodaną i importochłonność na poziomie działów PKD/PKWiU, lecz rok 2022 i agregacja sektorowa ograniczają ich użycie do współczynników bazowych i analizy wrażliwości."
+
+  - id: SRC-0720
+    title: Działalność badawcza i rozwojowa w Polsce w 2024 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/dzialalnosc-badawcza-i-rozwojowa-w-polsce-w-2024-r-%2C8%2C14.html
+    published_at: "2025-10-23"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: informacja sygnalna i tablice danych B+R
+    language: pl
+    locator: "wartość GERD, intensywność B+R oraz załączone tablice XLSX"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dane stanowią bazę całej gospodarki, a nie sektora autonomii/dual-use; nie mogą być użyte jako bezpośredni mianownik programu bez mapowania beneficjentów i działalności."
+
+  - id: SRC-0721
+    title: API - Getting started for DS-prefixed datasets from Comext database
+    publisher: Eurostat
+    url: https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started/comext-database
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalna dokumentacja bazy i API statystyki handlu zagranicznego
+    language: en
+    locator: "sekcje About Comext reference database, Listing of available datasets, Files available outside the API"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Comext jest źródłem szczegółowych danych o handlu towarami i jest aktualizowany miesięcznie; mapowanie CN do portfela dual-use wymaga jawnej, wersjonowanej tabeli klasyfikacyjnej."
+
+  - id: SRC-0722
+    title: Regulation (EU, Euratom) 2024/2509 on the financial rules applicable to the general budget of the Union
+    publisher: Official Journal of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2024/2509/
+    published_at: "2024-09-26"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie finansowe UE
+    language: en
+    locator: "art. 193-195, w szczególności art. 194 ust. 1-3"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 194 ustanawia zakaz finansowania tych samych kosztów dwukrotnie z budżetu UE. Zastosowanie do konkretnej kombinacji instrumentów wymaga analizy aktów bazowych i dokumentacji naborów."
+
+  - id: SRC-0723
+    title: Regulation (EU) 2021/241 establishing the Recovery and Resilience Facility
+    publisher: Official Journal of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021R0241
+    published_at: "2021-02-18"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie ustanawiające RRF/KPO
+    language: en
+    locator: "art. 9 Additionality and complementary funding"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 9 dopuszcza wsparcie z innych instrumentów, o ile nie pokrywa tego samego kosztu. FBiO jest finansowany z KPO, więc rozdzielenie kosztów musi być kontrolowane na poziomie projektu."
+
+  - id: SRC-0724
+    title: Komunikat Ministerstwa Finansów w sprawie sposobu funkcjonowania klauzuli obronnej w SRW i regułach UE oraz procesu budżetowego
+    publisher: Ministerstwo Finansów
+    url: https://www.gov.pl/web/finanse/komunikat-ministerstwa-finansow-w-sprawie-sposobu-funkcjonowania-klauzuli-obronnej-w-srw-i-regulach-ue-oraz-procesu-budzetowego-w-odniesieniu-do-stanowiska-rady-fiskalnej-z-15-kwietnia-2026-r
+    published_at: "2026-04-21"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne wyjaśnienie metodologii fiskalnej i reguł wydatkowych
+    language: pl
+    locator: "pkt 1-2, zwłaszcza rozróżnienie ujęcia kasowego i memoriałowego oraz charakter klauzuli"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "MF podkreśla, że klauzula obronna SRW nie tworzy automatycznie dodatkowej przestrzeni wydatkowej i że zakupy sprzętu są ujmowane inaczej kasowo i memoriałowo."

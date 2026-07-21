@@ -1,70 +1,112 @@
 # Polska 2040: szansa dla regionów
 
-- Kompetencje, MŚP i infrastruktura w sieci krajowej
+- Kompetencje, MŚP i usługi publiczne w sieci krajowej
+- Szablon wypełniany wyłącznie aktualnymi danymi danego województwa
 
 ---
 
-# Jeden program, różne specjalizacje
+# Jedna strategia, różne specjalizacje
 
 - Regiony nie kopiują identycznych laboratoriów
+- Profil wynika z firm, uczelni, kadr, infrastruktury i popytu
+- Wspólne standardy pozwalają dzielić zasoby
+- Pilotaż przed trwałym CAPEX
 
 ---
 
-# Regionalne centrum
+# Regionalne centrum to funkcja
 
-- Szkoły, uczelnia, przemysł, laboratorium i użytkownicy publiczni
-
----
-
-# Szkoły patronackie
-
-- Mechatronika, RF, kompozyty, serwis, cyber i integracja
+- Łączy szkoły, uczelnie, firmy i użytkowników publicznych
+- Organizuje dostęp do testów, danych i instruktorów
+- Może działać w istniejącej instytucji lub konsorcjum
+- Nowy budynek nie jest warunkiem wyniku
 
 ---
 
-# Przekwalifikowanie
+# Mapa specjalizacji
 
-- Programy 3-, 6- i 12-miesięczne
+- Kompetencje i realne role
+- Łańcuchy dostaw i serwis
+- Infrastruktura dostępna, nie tylko posiadana
+- Problemy publiczne z właścicielem i bazą
+
+---
+
+# Szkoły i uczelnie
+
+- Matematyka, fizyka, informatyka, robotyka i odpowiedzialne AI
+- Technika: mechatronika, elektronika, RF, CNC, kompozyty i serwis
+- Studia: systemy, dane, cyber, produkcja i prawo
+- Realny projekt i praktyka jako część oceny
+
+---
+
+# Przekwalifikowanie daje szybki efekt
+
+- **REKOMENDACJA:** moduły 3-, 6- i 12-miesięczne
+- Automatycy, elektronicy, programiści, konstruktorzy i operatorzy
+- Mikropoświadczenie po praktycznym zadaniu
+- Mierzyć zatrudnienie i retencję, nie liczbę zapisów
 
 ---
 
 # MŚP w łańcuchu dostaw
 
-- Standardy wejścia, testy i wspólne zamówienia
+- Jasne interfejsy i wymagania jakości
+- Wspólny dostęp do laboratoriów i testów
+- Proporcjonalne cyber i bezpieczeństwo informacji
+- Szybka płatność, feedback oraz ścieżka do kolejnej partii
 
 ---
 
 # Zastosowania lokalne
 
-- Ratownictwo, rolnictwo, energia, kolej, budownictwo i środowisko
+- Ratownictwo, rolnictwo, energia i środowisko
+- Kolej, budownictwo, geodezja i logistyka
+- Pilotaż mierzy zmianę czasu, kosztu, jakości lub ryzyka
+- Kontynuacja z budżetu właściciela albo zamknięcie
 
 ---
 
-# Dane regionalne
+# Karta danych województwa
 
-- Każda prezentacja używa aktualnych danych danego województwa
-
----
-
-# Finansowanie
-
-- Krajowe, europejskie, samorządowe i prywatne źródła bez podwójnego liczenia
+- Źródło, data, definicja i mianownik każdej liczby
+- Kompetencje, płace, firmy, laboratoria i popyt
+- Dane niepewne pozostają `UNKNOWN`
+- Lokalnych wartości nie kopiuje się między regionami
 
 ---
 
-# KPI centrum
+# Finansowanie centrum
 
-- Kompetencje, wdrożenia, firmy, miejsca pracy i eksport
+- Koszt funkcji oddzielony od kosztu budynku i sprzętu
+- Instrument krajowy, UE, samorządowy i prywatny ma inny cel
+- Jeden identyfikator kosztu zapobiega podwójnemu finansowaniu
+- Plan utrzymania po pilotażu jest obowiązkowy
+
+---
+
+# KPI regionalne
+
+- Kompetencje spełniające praktyczny standard
+- Zatrudnienie i retencja po 12/24 miesiącach
+- Projekty po teście użytkownika i wdrożeniu
+- Wykorzystanie infrastruktury, produktywność i wykonany eksport
 
 ---
 
 # Ryzyka
 
-- Infrastruktura bez popytu, powielanie zasobów i odpływ kadr
+- Infrastruktura bez popytu
+- Patronat jako reklama jednej firmy
+- Powielanie zasobów oraz odpływ instruktorów
+- Grant bez zakupów po pilotażu
 
 ---
 
 # Pierwszy krok regionu
 
-- Mapa kompetencji, użytkowników, firm i brakujących danych
-
+- Zbudować mapę problemów, kompetencji, firm i zasobów
+- Wybrać jeden–dwa pilotaże z właścicielem i bazą
+- Wycenić funkcję centrum i plan utrzymania
+- Skalować dopiero po popycie, wykorzystaniu i wyniku

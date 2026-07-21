@@ -1,90 +1,132 @@
 # Polska 2040: decyzje Rady Ministrów
 
-- Nie kolejny program grantowy
-- System realizacji suwerenności technologicznej
+- Suwerenność technologiczna jako system realizacji
+- Niezależny draft ekspercki v0.1 · 21.07.2026
+- Dziś: mandat i przegląd — nie docelowy budżet
 
 ---
 
 # Decyzja, nie manifest
 
-- Uruchomić przegląd, właściciela portfela i pierwsze pilotaże
-- Zamrozić budżet dopiero po audycie bazowym
+- Uruchomić sześciomiesięczny przegląd i ograniczone pilotaże
+- Wskazać właściwego ministra oraz integratora portfela przy KPRM
+- Przyjąć bramki: uruchom → testuj → skaluj albo zamknij
+- Wrócić do RM z bazą, wariantami finansowymi i red-team
 
 ---
 
-# Problem ma siedem wąskich gardeł
+# Dlaczego teraz
 
-- Potrzeby, dane, testy, zamówienia, produkcja, kadry, eksport
+- SAFE: umowa pożyczki 43,7 mld EUR; nie dotacja ani pełna wypłata — **CLM-1208**
+- Plan KPRM: 89% dla polskiej gospodarki; wynik wymaga pomiaru — **CLM-1209**
+- Polska już uczestniczy w BraveTech EU — **CLM-1214**
+- Okno finansowania bez wspólnego systemu może utrwalić fragmentację
+
+---
+
+# Diagnoza: osiem wąskich gardeł
+
+- Potrzeba i użytkownik
+- Dane, test i zamówienie
+- Produkcja, komponenty i serwis
+- Kadry, finansowanie, prawo i eksport
 
 ---
 
 # Cykl realizacji
 
-- Problem → dane → prototyp → test → mała partia → skala albo zamknięcie
+- Każdy etap ma właściciela, dowód i warunek wyjścia
+- Zamknięcie projektu jest wynikiem, nie porażką
+
+![Cykl od problemu do aktualizacji](assets/generated/delivery-cycle.svg)
+
+---
+
+# Governance: najpierw istniejące mechanizmy
+
+- Właściwy minister prowadzi dokument i formalny proces
+- Funkcja KPRM integruje portfel, dane i eskalacje
+- Resorty zachowują odpowiedzialność wykonawczą
+- Nowy pełnomocnik dopiero po dowodzie niewydolności
 
 ---
 
 # Pierwsze 100 dni
 
-- Mandat, audyt, 20 problemów, bezpieczny pokój danych, pięć pilotaży
+- **REKOMENDACJA:** mandat, RACI, audyt bazowy i katalog problemów
+- Pilotaż danych, testów i kontraktów etapowych
+- Raport luk, sprzeczności i kosztu działań odwracalnych
 
----
-
-# Governance przy KPRM
-
-- Właściciel portfela i odpowiedzialni ministrowie
+![Horyzonty realizacji programu](assets/generated/roadmap-horizons.svg)
 
 ---
 
 # Zamówienia iteracyjne
 
-- Małe partie, szybki feedback, jawne kryteria przerwania
+- Problem → wykonalność → prototyp → test użytkownika
+- Mała partia kupuje dane niezawodności i serwisu
+- Skala wymaga TCO, cyber, praw i alternatyw
+- Opcja nie jest automatycznym zobowiązaniem
 
 ---
 
-# Przemysł i dostawcy
+# Dane i odpowiedzialne AI
 
-- Dwie ścieżki dostaw, kontrola interfejsów, 30/90/180 dni
-
----
-
-# Dane i AI
-
-- Dostęp kontrolowany, wersjonowanie, ewaluacja, odpowiedzialność
+- Federacja właścicieli danych, nie jedno centralne jezioro
+- Odseparowany test, wersjonowanie i pełny ślad
+- Karta modelu, monitoring i prawo wstrzymania
+- Minimum: sześć zasad NATO — **CLM-1220**
 
 ---
 
-# Kadry
+# Przemysł i cykl życia
 
-- Technicy, przekwalifikowanie i sieć istniejących uczelni
+- Kontroluj / współkontroluj / dywersyfikuj / zaakceptuj
+- Mierz zweryfikowaną moc, nie deklarację nominalną
+- Interfejsy, konfiguracja, naprawa i aktualizacje
+- Ćwiczenia 30/90/180 dni jako test, nie obietnica
+
+---
+
+# Kadry: popyt przed skalą
+
+- Technicy, produkcja i serwis równie ważne jak konstruktorzy
+- Programy przekwalifikowania dają szybszy efekt niż nowa uczelnia
+- Istniejące szkoły i uczelnie tworzą sieć
+- Miernik: kompetencja, zatrudnienie i retencja 12/24 miesiące
 
 ---
 
 # Ukraina, UE i NATO
 
-- Partnerstwa produktowe z due diligence i ochroną IP
+- Portfolio partnerstw, nie jeden preferowany dostawca
+- Umowa Polska–Ukraina daje ramy, nie gotowe JV — **CLM-1212**
+- BraveTech EU: mierzyć testy, kontrakty, inwestycje i IP — **CLM-1213/1214**
+- Due diligence: właściciele, cyber, eksport i ciągłość
 
 ---
 
-# Finansowanie
+# Finansowanie: trzy scenariusze
 
-- Trzy scenariusze; bez podwójnego liczenia istniejących programów
-
----
-
-# KPI
-
-- Czas, wdrożenie, produkcja, odporność, kadry, eksport i zamknięcia
+- L: integracja i ograniczony pilotaż
+- B: dane, małe partie, komponenty, kadry i regiony
+- H: szeroki CAPEX tylko po bazie, popycie i decyzji ryzyka
+- Jeden identyfikator kosztu — zero podwójnego liczenia
 
 ---
 
-# Ryzyka
+# Dashboard i ryzyka
 
-- Capture dostawców, pozorna lokalizacja, brak danych, rozproszenie odpowiedzialności
+- KPI: czas, test użytkownika, TCO, substytucja, retencja, eksport
+- Raportować projekty zamknięte i uniknięte zobowiązania
+- Ryzyka: vendor capture, pozorna lokalizacja, skala przed dowodem
+- Red-team niezależny od autora, finansującego i dostawcy
 
 ---
 
 # Decyzje na dziś
 
-- Zatwierdzić przegląd, właścicieli, dane i ograniczone pilotaże
-
+- Zatwierdzić mandat, właścicieli i dwukwartalny test modelu
+- Uruchomić audyt, pilotaż danych oraz kontrakty dowodowe
+- Nie zatwierdzać docelowej kwoty, fabryki ani dostawcy
+- Za 6 miesięcy: skaluj, popraw lub zamknij na podstawie dowodów

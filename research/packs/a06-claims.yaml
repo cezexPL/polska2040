@@ -1,0 +1,589 @@
+schema_version: 1
+claims:
+  - id: CLM-0601
+    text: NATO zapowiedziało publikowanie zagregowanego sygnału popytu wynikającego z NDPP oraz informowanie przemysłu o wieloletnich i wielonarodowych możliwościach agregacji zamówień, aby wspierać długoterminowe inwestycje i planowanie.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0601, SRC-0602]
+    locators: ["SRC-0601: para 9, demand signal", "SRC-0602: paras 9–12"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Twierdzenie dotyczy polityki NATO, a nie istnienia kompletnego polskiego sygnału popytu."
+
+  - id: CLM-0602
+    text: Strategia NATO z 8 lipca 2026 r. traktuje modularność, otwarte architektury, standardy w kontraktach i interoperacyjność jako wymagania realizowane w całym cyklu życia systemu.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0601, SRC-0611]
+    locators: ["SRC-0601: paras 10–12", "SRC-0611: Best Practice Standards and intended users"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Otwartość architektury nie oznacza publikacji wrażliwych interfejsów; zakres ujawnienia wymaga reżimu bezpieczeństwa."
+
+  - id: CLM-0603
+    text: NATO w 2026 r. zapowiedziało ćwiczenia stołowe skalowania produkcji, działania na rzecz redundancji i dywersyfikacji łańcuchów oraz ocenę modeli ciągłej produkcji i rezerw strategicznych.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0601]
+    locators: ["SRC-0601: para 13, bullets on TTX, redundancy, diversification and always-on production"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Dokument nie ustala jednego uniwersalnego poziomu zapasów ani liczby dostawców."
+
+  - id: CLM-0604
+    text: Zaktualizowany plan produkcji obronnej NATO wymaga lepszej widoczności zdolności w pokoju, kryzysie i konflikcie, uwzględnienia opcji surge oraz ćwiczeń stołowych, przy ochronie poufności handlowej i bezpieczeństwa narodowego.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0602]
+    locators: ["SRC-0602: paras 13–18"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0605
+    text: MON prowadzi proces lokowania u przedsiębiorców zadań związanych z dostawami sprzętu, środków bojowych, zestawów remontowych i naprawami, a materiały o potrzebach przekazywane przedsiębiorcom w tym procesie mają klauzulę informacji niejawnych.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0603, SRC-0604]
+    locators: ["SRC-0603: akapity 1–14", "SRC-0604: § 2–8 i załącznik 11"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Memo nie odtwarza ani nie domniemywa treści niejawnych potrzeb."
+
+  - id: CLM-0606
+    text: Rozporządzenie dotyczące Planu zabezpieczenia potrzeb Sił Zbrojnych przewiduje identyfikację możliwości produkcyjno-usługowych przedsiębiorców i kooperantów oraz osobne planowanie dostaw, zestawów remontowych i napraw.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0604]
+    locators: ["SRC-0604: załączniki 4–5 i 11"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Istnienie formatu planistycznego nie dowodzi aktualności ani kompletności danych dla proponowanego programu."
+
+  - id: CLM-0607
+    text: Według karty priorytetu P6, w 2025 r. podpisano umowy inwestycyjne dotyczące 12 wniosków oraz dwa aneksy o łącznej wartości 6 928 881 300 zł do przekazania w 2025 r. i latach następnych, natomiast szczegółowy wykaz scenariuszy i źródeł finansowania inwestycji PGZ jest objęty tajemnicą przedsiębiorstwa.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0605]
+    locators: ["SRC-0605: Stan realizacji na 31.03.2026 i działania I kwartału"]
+    as_of: "2026-03-31"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Kwota wsparcia nie jest miarą ukończonej przepustowości ani wartości dodanej pozostającej w Polsce."
+
+  - id: CLM-0608
+    text: W lutym 2026 r. administracja nadal pracowała nad definicją i metodyką pomiaru udziału komponentu krajowego w kluczowych inwestycjach spółek Skarbu Państwa.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0606]
+    locators: ["SRC-0606: sekcja local content P12"]
+    as_of: "2026-02-11"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Nie należy traktować nieuzgodnionego wskaźnika local content jako istniejącej oficjalnej miary."
+
+  - id: CLM-0609
+    text: Agencja Uzbrojenia pełni rolę koordynatora systemu zapewnienia jakości sprzętu wojskowego i polskiej instytucji narodowej ds. zapewnienia jakości w systemie opartym m.in. na STANAG 4107 i publikacjach AQAP.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0607, SRC-0608]
+    locators: ["SRC-0607: opis Agencji Uzbrojenia", "SRC-0608: opis zadań Szefostwa Zapewnienia Jakości"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0610
+    text: System oceny zgodności OiB ma potwierdzać, że wyroby przeznaczone na potrzeby obronności i bezpieczeństwa państwa spełniają wymagania zawarte w specyfikacjach technicznych.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0609]
+    locators: ["SRC-0609: opis celu systemu OiB"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Nie przesądza to, jaki tryb oceny ma zastosowanie do konkretnego wyrobu."
+
+  - id: CLM-0611
+    text: Art. 23 dyrektywy 2009/81/WE pozwala zamawiającemu formułować wymagania bezpieczeństwa dostaw dotyczące organizacji łańcucha, zmian w łańcuchu, dodatkowych potrzeb w kryzysie, utrzymania i modernizacji oraz przekazania środków potrzebnych do produkcji części, gdy dostawca nie może ich dalej zapewniać.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0610]
+    locators: ["SRC-0610: Article 23(c)–(h)"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Zastosowanie do konkretnego postępowania wymaga kwalifikacji prawnej A09; dyrektywa nie tworzy automatycznie obowiązku użycia każdego elementu katalogu."
+
+  - id: CLM-0612
+    text: EDSTAR jest bazą uzgodnionych standardów referencyjnych dla programów obronnych, używanych przez zamawiających i przemysł przy wymaganiach i kontraktach w całym cyklu życia.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0611]
+    locators: ["SRC-0611: homepage, Best Practice Standards and intended users"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Dobór konkretnych standardów musi wynikać z danego programu i oceny A04/A05/A09."
+
+  - id: CLM-0613
+    text: NSPA opisuje zarządzanie cyklem życia jako zakres od pozyskania przez logistykę i wsparcie floty po wycofanie, demilitaryzację, demontaż i utylizację.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0612]
+    locators: ["SRC-0612: Life Cycle Management and capability spectrum"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0614
+    text: Critical Raw Materials Act ustanawia na 2030 r. unijne benchmarki co najmniej 10% wydobycia, 40% przetwarzania, 25% recyklingu oraz nie więcej niż 65% rocznej konsumpcji każdego strategicznego surowca z jednego państwa trzeciego, a także przewiduje monitoring, stress-testy i koordynację zapasów.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0613]
+    locators: ["SRC-0613: Setting benchmarks by 2030; Supply risk preparedness and mitigation"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Benchmarki są unijne i nie są docelowym udziałem krajowym dla każdego polskiego produktu."
+
+  - id: CLM-0615
+    text: Według Eurostatu w 2025 r. 46,8% masy importowanych do UE pierwiastków ziem rzadkich pochodziło z Chin, 25,9% z Rosji i 23,1% z Malezji.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0614]
+    locators: ["SRC-0614: lines 155–167; dataset ds-045409"]
+    as_of: "2025-12-31"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Udziały dotyczą masy importu UE. Nie są miarą zależności Polski ani konkretnego systemu."
+
+  - id: CLM-0616
+    text: W 2024 r. Chiny i USA odpowiadały odpowiednio za 30% i 23% wartości importu produktów high-tech spoza UE, a elektronika i telekomunikacja stanowiły 36% takiego importu; są to agregaty UE, nie dane dla Polski ani obronności.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0615]
+    locators: ["SRC-0615: lines 155–174; dataset DS-018995"]
+    as_of: "2024-12-31"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Ostatnie zdanie jest ograniczeniem zakresu statystyki, nie estymacją ekspozycji krajowej."
+
+  - id: CLM-0617
+    text: Przyjęty EDIP obejmuje granty 1,5 mld euro na lata 2025–2027, wsparcie wspólnych zakupów i zwiększania zdolności produkcyjnych oraz zasadę, że w kwalifikowanych produktach koszt komponentów spoza UE i państw stowarzyszonych nie powinien przekraczać 35%.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0616]
+    locators: ["SRC-0616: lines 127–144"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Reguła programu nie mierzy praw do projektu, konfiguracji, serwisu, aktualizacji ani realnej zastępowalności."
+
+  - id: CLM-0618
+    text: Cyber Resilience Act nie ma zastosowania do produktów rozwijanych lub modyfikowanych wyłącznie dla bezpieczeństwa narodowego lub obronności ani do produktów zaprojektowanych do przetwarzania informacji niejawnych.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0617]
+    locators: ["SRC-0617: Article 2(7)–(8)"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Produkty dual-use wprowadzane na rynek mogą pozostawać w zakresie CRA; kwalifikacja konkretnego produktu wymaga analizy prawnej."
+
+  - id: CLM-0619
+    text: Dla produktów cyfrowych objętych zakresem CRA prawo wymaga m.in. obsługi podatności w okresie wsparcia, dokumentacji technicznej oraz utrzymywania zestawienia komponentów oprogramowania; te mechanizmy mogą stanowić punkt odniesienia kontraktowego, ale nie zastępują odrębnych wymagań obronnych.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0617]
+    locators: ["SRC-0617: Articles 5, 13–14; Annex I Part II; Annex VII"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Pierwsza część wynika z prawa; druga jest wnioskiem projektowym i wymaga recenzji A05/A09."
+
+  - id: CLM-0620
+    text: Polska polityka półprzewodnikowa 2025+ wskazuje projektowanie, komponenty, back-end, materiały, infrastrukturę i współpracę europejską jako obszary rozwoju, ale jej cele inwestycyjne są ambicją polityki, a nie dowodem istniejącej mocy.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0618]
+    locators: ["SRC-0618: linie 132–159"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Dokument podaje cel 2–3 dużych inwestycji i poziom wsparcia, nie uruchomioną przepustowość."
+
+  - id: CLM-0621
+    text: Na dzień 21 lipca 2026 r. trwa drugi etap konkursu na polskie centrum kompetencji półprzewodnikowych, a termin złożenia wniosku został przedłużony do 31 sierpnia 2026 r.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0619]
+    locators: ["SRC-0619: cel centrum i przedłużenie naboru"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Trwający konkurs nie dowodzi operacyjności centrum."
+
+  - id: CLM-0622
+    text: Unijny Chips Act ustanawia monitorowanie łańcucha półprzewodników, mechanizm ostrzegania i kryzysowe narzędzia, a w listopadzie 2025 r. Komisja i wszystkie państwa członkowskie przeprowadziły ćwiczenie reakcji na fikcyjne zakłócenie podaży.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0620, SRC-0621]
+    locators: ["SRC-0620: Articles 19–27", "SRC-0621: opis ćwiczenia z 24.11.2025"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0623
+    text: W kwietniu 2026 r. brytyjski MOD przeprowadził z pięcioma firmami ćwiczenie łańcucha dostaw dla utrzymanego wzrostu popytu, aby wykryć ograniczenia i zweryfikować działania państwa oraz przemysłu.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0622]
+    locators: ["SRC-0622: lines 89–104"]
+    as_of: "2026-04-29"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "To benchmark procesu ćwiczeniowego sojusznika, nie wynik dla Polski."
+
+  - id: CLM-0624
+    text: Publicznie dostępne dane GUS o przemyśle są zagregowane i nie pozwalają wyznaczyć kwalifikowanej przepustowości, czasu zwiększenia produkcji ani zależności dostaw obronnych.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0623, SRC-0603, SRC-0605]
+    locators: ["SRC-0623: wybrane działy przemysłu", "SRC-0603: dane potrzeb chronione", "SRC-0605: szczegóły inwestycji chronione tajemnicą przedsiębiorstwa"]
+    as_of: "2026-07-21"
+    confidence: high
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Wniosek dotyczy jawnych źródeł; właściwe dane mogą istnieć w obiegu chronionym."
+
+  - id: CLM-0625
+    text: Udział wartości wytworzonej w kraju lub reguła pochodzenia komponentów nie są wystarczającą miarą suwerenności technologicznej, jeżeli państwo nie kontroluje konfiguracji, interfejsów, aktualizacji, serwisu i planu substytucji.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0606, SRC-0610, SRC-0616]
+    locators: ["SRC-0606: prace nad metodyką local content", "SRC-0610: Article 23", "SRC-0616: 35% component-cost rule"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Wniosek wymaga wspólnego uzgodnienia definicji z A04, A05, A07 i A09."
+
+  - id: CLM-0626
+    text: Polska powinna klasyfikować elementy łańcucha według krytyczności, czasu substytucji, kontroli projektu i konfiguracji, koncentracji dostaw, ryzyka wpływu wrogiego oraz wymagań jakościowych, zamiast przyjmować pełną autarkię jako cel.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0601, SRC-0602, SRC-0613, SRC-0614, SRC-0615]
+    locators: ["SRC-0601: para 13", "SRC-0602: paras 16–18", "SRC-0613: diversification and stress testing"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: KPRM/MON/MRiT; wynik: zatwierdzona macierz K1–K4; stop-rule: brak finansowania suwerenności bez klasyfikacji i dowodu krytyczności."
+
+  - id: CLM-0627
+    text: Należy zbudować chroniony rejestr bazowy łańcucha dostaw i zdolności, z jawnie publikowanymi wyłącznie agregatami, wersjonowanymi definicjami i niezależną weryfikacją danych dostawców.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0602, SRC-0603, SRC-0604, SRC-0620]
+    locators: ["SRC-0602: paras 13–15", "SRC-0603: proces weryfikacji danych przedsiębiorców", "SRC-0620: Articles 19–21"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: MON/AU z KPRM; wynik: baseline v1; stop-rule: brak uprawnień, klasyfikacji lub podstawy do pozyskania danych blokuje wpis, nie powoduje zgadywania."
+
+  - id: CLM-0628
+    text: Dla elementów krytycznych należy wymagać dwóch kwalifikowanych źródeł albo jednego źródła z testowanym pakietem kompensacyjnym obejmującym substytut, prawa i dokumentację, rezerwę, step-in lub umowę z wiarygodnym partnerem sojuszniczym.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0601, SRC-0602, SRC-0610]
+    locators: ["SRC-0601: para 13, redundancy and diversification", "SRC-0602: paras 16–18", "SRC-0610: Article 23(c)–(h)"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: AU i właściciel zdolności; wynik: plan substytucji; stop-rule: brak wykonalnego zabezpieczenia dla K1/K2 blokuje skalowanie, chyba że organ uprawniony jawnie akceptuje ryzyko w chronionym obiegu."
+
+  - id: CLM-0629
+    text: Kontrakt na system strategiczny powinien od początku obejmować serwis, części, konfigurację, aktualizacje, obsolescencję, bezpieczeństwo dostaw, prawa do interfejsów i dokumentacji, zmianę dostawcy oraz wycofanie i utylizację.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0601, SRC-0610, SRC-0612, SRC-0617]
+    locators: ["SRC-0601: lifecycle and co-sustainment", "SRC-0610: Article 23", "SRC-0612: cradle-to-grave", "SRC-0617: support and vulnerability handling as a civil benchmark"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: AU; wynik: klauzule modelowe po recenzji A09; stop-rule: brak praw lub wsparcia adekwatnego do klasy krytyczności blokuje G5/skala."
+
+  - id: CLM-0630
+    text: Każdy nowy dostawca powinien przejść proporcjonalną ścieżkę jakości obejmującą kwalifikację procesu, pierwszą partię, identyfikowalność konfiguracji, kontrolę zmian, nadzór poddostawców i ponowną kwalifikację po zmianie krytycznej części.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0608, SRC-0609, SRC-0611]
+    locators: ["SRC-0608: STANAG 4107/AQAP", "SRC-0609: conformity to technical specifications", "SRC-0611: standards in lifecycle contracts"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: AU/Szefostwo Zapewnienia Jakości; wynik: wspólne bramki Q0–Q6; stop-rule: brak audytowalnej konfiguracji lub krytyczna niezgodność blokuje dostawę."
+
+  - id: CLM-0631
+    text: Program powinien utworzyć rozproszoną sieć serwisową opartą na wspólnych danych technicznych, narzędziach testowych, szkoleniu, częściach i telemetrii jakości, bez publikowania wrażliwych lokalizacji i stanów zapasów.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0603, SRC-0610, SRC-0612]
+    locators: ["SRC-0603: planowanie zestawów remontowych i napraw", "SRC-0610: Article 23(f)–(h)", "SRC-0612: integrated logistics and supply chain support"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: MON/AU i właściwi użytkownicy; wynik: model utrzymania; stop-rule: produkt bez wykonalnego serwisu i danych nie przechodzi do skali."
+
+  - id: CLM-0632
+    text: Scenariusz ćwiczeniowy 30/90/180 dni powinien mierzyć kolejno wykorzystanie istniejącej zdolności, kwalifikację alternatyw i zmian organizacyjnych oraz uruchomienie dodatkowych komórek lub kooperacji, a wynik musi być potwierdzony próbą fizyczną albo oznaczony jako symulacja.
+    type: SCENARIO
+    status: unverified
+    source_ids: [SRC-0601, SRC-0602, SRC-0621, SRC-0622]
+    locators: ["SRC-0601: para 13 TTX", "SRC-0602: para 15", "SRC-0621: semiconductor exercise", "SRC-0622: sustained-demand wargame"]
+    as_of: "2026-07-21"
+    confidence: medium
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: MON/AU/KPRM z przemysłem; rezultat: krzywa odzyskania i lista decyzji; stop-rule: brak fizycznej walidacji oznacza status SIMULATION, nie READY."
+
+  - id: CLM-0633
+    text: Publiczny CAPEX powinien być uruchamiany etapami dopiero po wykazaniu ważnego popytu, krytycznego wąskiego gardła, gotowości lokalizacyjnej i kadrowej, wykonalnego systemu jakości, pełnego OPEX oraz przewagi nad bezpiecznym zakupem lub współpracą sojuszniczą.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0601, SRC-0602, SRC-0605, SRC-0618]
+    locators: ["SRC-0601: demand signal and scalable facilities", "SRC-0602: paras 9, 22 and 25", "SRC-0605: investment programme", "SRC-0618: infrastructure and investment policy"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: MF/MAP/MRiT/MON; wynik: karta CAPEX G0–G4; stop-rule: brak kotwicy popytu, licencji, danych kosztowych lub przewagi odpornościowej zatrzymuje następną transzę."
+
+  - id: CLM-0634
+    text: Zamiast jednej megafabryki program powinien finansować portfel modułowych zdolności integracji, komponentów, testów, napraw i elastycznej produkcji, możliwych do wykorzystania przez wielu dostawców i rynki dual-use.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0601, SRC-0602, SRC-0616]
+    locators: ["SRC-0601: NATO Engine and scalable flexible facilities", "SRC-0602: sustainability and scalability", "SRC-0616: industrial reinforcement and access for SMEs"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: MRiT/MAP/PFR/MON; wynik: portfel inwestycji; stop-rule: obiekt zależny od jednego produktu bez popytu bazowego lub planu konwersji nie otrzymuje skali."
+
+  - id: CLM-0635
+    text: W półprzewodnikach Polska powinna wybierać węzły łańcucha takie jak projektowanie, materiały, fotonika, elektronika mocy, back-end, integracja i test dopiero po porównaniu przewagi krajowej, popytu i kosztu alternatyw, a nie deklarować budowę kompletnej najnowocześniejszej fabryki procesorów jako cel obronny.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0618, SRC-0619, SRC-0620]
+    locators: ["SRC-0618: filary, specjalizacje i back-end", "SRC-0619: centrum kompetencji", "SRC-0620: monitoring całego łańcucha UE"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: MC/MRiT/MON; wynik: mapa inwestycji; stop-rule: brak niezależnego business case i powiązania z europejskim ekosystemem blokuje CAPEX."
+
+  - id: CLM-0636
+    text: Rzeczywista miesięczna kwalifikowana zdolność polskich przedsiębiorstw dla warstw systemów autonomicznych, C-UAS, sensorów, łączności, napędów, zasilania, elektroniki i serwisu nie jest możliwa do ustalenia z jawnych źródeł użytych w pakiecie.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0603, SRC-0605, SRC-0623]
+    locators: ["SRC-0603: obieg chroniony", "SRC-0605: dane inwestycyjne i tajemnica przedsiębiorstwa", "SRC-0623: statystyki zagregowane"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Wymagane: chroniony audyt AU/MON z walidacją na miejscu i próbą produkcyjną."
+
+  - id: CLM-0637
+    text: Polska ekspozycja na pojedyncze państwa i dostawców dla krytycznych komponentów niższych rzędów nie jest znana z jawnych danych i nie może być wyprowadzona z udziałów importu całej UE.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0614, SRC-0615]
+    locators: ["SRC-0614: zakres UE", "SRC-0615: zakres UE i agregat high-tech"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Wymagane: BOM/HBOM/SBOM i mapa tier-n z jurysdykcją, właścicielem, lead time i alternatywą."
+
+  - id: CLM-0638
+    text: Krzywe zwiększenia produkcji po 30, 90 i 180 dniach dla strategicznych klas produktów pozostają nieznane do czasu ćwiczeń i fizycznej walidacji, nawet jeżeli przedsiębiorca deklaruje moce.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0602, SRC-0603, SRC-0622]
+    locators: ["SRC-0602: potrzeba baseline i TTX", "SRC-0603: weryfikacja danych przedsiębiorcy", "SRC-0622: rola ćwiczeń"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Deklaracja zdolności bez walidacji otrzymuje status CLAIMED, nie VERIFIED."
+
+  - id: CLM-0639
+    text: Jawne źródła nie dostarczają kompletnego zestawu wskaźników dostępności, czasu naprawy, pierwszej skutecznej naprawy, zużycia części i obsolescencji dla całego portfela systemów objętych programem.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0603, SRC-0612]
+    locators: ["SRC-0603: planowanie napraw bez wyników", "SRC-0612: zakres lifecycle jako benchmark"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Wymagane: ujednolicone, chronione dane logistyczne z definicjami i mianownikami."
+
+  - id: CLM-0640
+    text: Nie jest publicznie dostępne pełne powiązanie projektów CAPEX z ważnym popytem, kamieniami milowymi, kosztami operacyjnymi, efektem przepustowości, planem jakości i warunkami zwrotu lub zatrzymania wsparcia.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0605, SRC-0606]
+    locators: ["SRC-0605: agregaty inwestycyjne i poufny wykaz scenariuszy", "SRC-0606: prace nad metodyką komponentu krajowego"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Wymagane: chroniony crosswalk CAPEX–popyt–wydajność–ryzyko z publicznym agregatem."
+
+  - id: CLM-0641
+    text: Dashboard dla premiera powinien raportować warstwami popyt, zweryfikowaną zdolność normalną i surge, koncentrację dostaw, pokrycie substytucją, jakość, serwis, wykonanie CAPEX oraz decyzje stop, bez ujawniania lokalizacji, wolumenów zapasów i podatności.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0601, SRC-0602, SRC-0603, SRC-0620]
+    locators: ["SRC-0601: demand and production", "SRC-0602: baseline and confidentiality", "SRC-0603: protected needs", "SRC-0620: monitoring model"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: KPRM/MON; wynik: dashboard miesięczny; stop-rule: niespójna definicja lub nieweryfikowalne dane są publikowane jako UNKNOWN, nie jako zero."
+
+  - id: CLM-0642
+    text: Każda transza pomocy przemysłowej powinna mieć warunki zawieszenia, odzyskania lub przeprojektowania, gdy zanika popyt, nie osiągnięto kamienia jakościowego, odmówiono weryfikacji danych, pogorszono bezpieczeństwo dostaw albo bezpieczna alternatywa sojusznicza daje wyraźnie lepszy efekt całego cyklu życia.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0601, SRC-0602, SRC-0605, SRC-0610]
+    locators: ["SRC-0601: demand, lifecycle and sustainment", "SRC-0602: capacity and financing", "SRC-0605: staged investments", "SRC-0610: security-of-supply commitments"]
+    as_of: "2026-07-21"
+    confidence: not-applicable
+    author: A06
+    reviewer: null
+    used_in: [research/packs/a06-industry-memo.md]
+    sensitivity: public
+    notes: "Adresat: MF/MAP/MRiT/MON; wynik: standard umowy inwestycyjnej; stop-rule jest treścią rekomendacji i wymaga oceny legalności A09."

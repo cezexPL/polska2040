@@ -33,10 +33,12 @@ def load_records(path: Path, key: str) -> list[dict]:
 
 
 def complete_pack_prefixes() -> set[str]:
-    """Only import packs that have both sources and claims.
+    """Only import packs explicitly accepted by the coordinator.
 
-    Agents write in parallel. Requiring both files prevents a sync from
-    ingesting a half-written research pack.
+    Agents write several files in parallel. The coordinator creates a
+    ``<prefix>.complete`` marker only after receiving the final handoff and
+    reviewing that both required registries exist. This prevents a sync from
+    ingesting a structurally valid but unfinished pack.
     """
     source_prefixes = {
         path.name.removesuffix("-sources.yaml") for path in PACKS.glob("*-sources.yaml")
@@ -44,7 +46,10 @@ def complete_pack_prefixes() -> set[str]:
     claim_prefixes = {
         path.name.removesuffix("-claims.yaml") for path in PACKS.glob("*-claims.yaml")
     }
-    return source_prefixes & claim_prefixes
+    accepted_prefixes = {
+        path.name.removesuffix(".complete") for path in PACKS.glob("*.complete")
+    }
+    return source_prefixes & claim_prefixes & accepted_prefixes
 
 
 def merge(kind: str, key: str, eligible_prefixes: set[str]):

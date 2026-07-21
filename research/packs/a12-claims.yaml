@@ -357,3 +357,23 @@ claims:
     used_in: []
     sensitivity: public
     notes: "Mapa drogowa wymienia je wsrod czterech projektow flagowych i publikuje osobne kamienie milowe ich uruchamiania i funkcjonalnosci."
+
+  - id: CLM-1223
+    text: "Dwie oficjalne strony KAI podaja rozny czas programu Fire Point: strona promocyjna cztery lata, a oferta rekrutacyjna 2026 trzy lata i dziesiec miesiecy."
+    type: FACT
+    status: verified
+    source_ids:
+      - SRC-1201
+      - SRC-1202
+    locators:
+      - "SRC-1201: sekcja Program, wiersz Nauka trwa 4 lata"
+      - "SRC-1202: karta programu Fire Point, pola Licencja 30 i Termin 3r. 10m."
+    as_of: "2026-07-21"
+    confidence: high
+    author: A12
+    reviewer: ROOT
+    used_in:
+      - strategy
+      - ministerial-briefs
+    sensitivity: public
+    notes: "ROOT ponownie otworzyl obie strony 21 lipca 2026 r. i potwierdzil rozbieznosc; nie rozstrzyga ona faktycznego czasu indywidualnego toku studiow."

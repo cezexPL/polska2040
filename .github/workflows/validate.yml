@@ -21,6 +21,10 @@ jobs:
         run: pip install -r requirements.txt
       - name: Validate evidence and documents
         run: python tooling/validate.py
+      - name: Audit claims, citations and artifact completeness
+        run: |
+          python tooling/index_claim_usage.py
+          python tooling/audit_content.py
       - name: Build all artifacts
         run: python tooling/build.py
       - name: Upload review artifacts
@@ -29,4 +33,3 @@ jobs:
           name: polska2040-draft
           path: dist/
           if-no-files-found: error
-

@@ -84,6 +84,7 @@ def evidence_markdown() -> str:
     configs = [
         ("Źródła", "research/sources.yaml", "sources", ["id", "title", "publisher", "published_at", "tier", "status"]),
         ("Twierdzenia", "research/claims.yaml", "claims", ["id", "type", "status", "confidence", "text", "source_ids"]),
+        ("Użycie twierdzeń", "research/claim-usage.yaml", "usages", ["id", "status", "artifact_ids", "source_paths"]),
         ("Sprzeczności", "research/contradictions.yaml", "contradictions", ["id", "claim_ids", "status", "summary"]),
         ("Luki danych", "research/gaps.yaml", "gaps", ["id", "question", "impact", "owner", "status"]),
         ("Decyzje", "research/decisions.yaml", "decisions", ["id", "decision", "addressee", "owner", "status"]),
@@ -233,7 +234,15 @@ def markdown_to_pptx(artifact: dict, text: str, destination: Path):
         lines = [line.rstrip() for line in slide_text.splitlines() if line.strip()]
         title_line = next((line for line in lines if line.startswith("#")), artifact["title"])
         title = text_from_markdown_line(title_line)
-        body_lines = [line for line in lines if line is not title_line and not line.lower().startswith("notes:")]
+        image_pattern = re.compile(r"!\[([^]]*)\]\(([^)]+)\)")
+        image_match = next((image_pattern.fullmatch(line.strip()) for line in lines if image_pattern.fullmatch(line.strip())), None)
+        body_lines = [
+            line
+            for line in lines
+            if line is not title_line
+            and not line.lower().startswith("notes:")
+            and not image_pattern.fullmatch(line.strip())
+        ]
         slide = prs.slides.add_slide(prs.slide_layouts[6])
         slide.background.fill.solid()
         slide.background.fill.fore_color.rgb = PptxRGBColor(255, 255, 255)
@@ -252,7 +261,8 @@ def markdown_to_pptx(artifact: dict, text: str, destination: Path):
         accent.fill.fore_color.rgb = PptxRGBColor(199, 51, 62)
         accent.line.fill.background()
 
-        body_box = slide.shapes.add_textbox(PptxInches(.9), PptxInches(1.8), PptxInches(11.55), PptxInches(4.85))
+        body_width = 5.45 if image_match else 11.55
+        body_box = slide.shapes.add_textbox(PptxInches(.9), PptxInches(1.8), PptxInches(body_width), PptxInches(4.85))
         body_frame = body_box.text_frame
         body_frame.word_wrap = True
         body_frame.clear()
@@ -270,6 +280,26 @@ def markdown_to_pptx(artifact: dict, text: str, destination: Path):
             paragraph.space_after = PptxPt(10)
             if line.startswith("-"):
                 paragraph.text = f"• {clean}"
+
+        if image_match:
+            image_path = (ROOT / image_match.group(2)).resolve()
+            if image_path.exists() and ROOT in image_path.parents:
+                picture_path = image_path
+                if image_path.suffix.lower() == ".svg":
+                    converted_dir = ROOT / "build" / "pptx-media"
+                    converted_dir.mkdir(parents=True, exist_ok=True)
+                    picture_path = converted_dir / f"{artifact['id']}-{slide_index}-{image_path.stem}.png"
+                    cairosvg.svg2png(
+                        url=str(image_path),
+                        write_to=str(picture_path),
+                        output_width=1800,
+                    )
+                slide.shapes.add_picture(
+                    str(picture_path),
+                    PptxInches(6.65),
+                    PptxInches(1.85),
+                    width=PptxInches(5.85),
+                )
 
         footer = slide.shapes.add_textbox(PptxInches(.55), PptxInches(7.08), PptxInches(12.2), PptxInches(.22))
         footer_p = footer.text_frame.paragraphs[0]

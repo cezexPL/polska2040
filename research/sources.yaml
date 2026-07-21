@@ -1,5 +1,2348 @@
 schema_version: 1
 sources:
+- id: SRC-0101
+  title: Strategia Bezpieczeństwa Narodowego Rzeczypospolitej Polskiej 2020
+  publisher: Biuro Bezpieczeństwa Narodowego
+  url: https://www.bbn.gov.pl/ftp/dokumenty/Strategia_Bezpieczenstwa_Narodowego_RP_2020.pdf
+  published_at: '2020-05-12'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: strategia państwowa
+  language: pl
+  locator: s. 5–9, 12–19, 22–23, 35–36 pliku PDF; w szczególności pkt 1.1–1.8, 2.7–2.8 i 3.14
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Strategia zatwierdzona przez Prezydenta RP 12 maja 2020 r.; numer strony odnosi się do numeracji drukowanej, która
+    może różnić się o jedną stronę od licznika przeglądarki PDF.
+- id: SRC-0102
+  title: Strategia Bezpieczeństwa Narodowego Rzeczypospolitej Polskiej
+  publisher: Kancelaria Prezesa Rady Ministrów
+  url: https://www.gov.pl/web/premier/strategia-bezpieczenstwa-narodowego-rzeczypospolitej-polskiej
+  published_at: '2025-07-25'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: komunikat po posiedzeniu Rady Ministrów
+  language: pl
+  locator: 'sekcje: Rada Ministrów przyjęła projekt uchwały; Najważniejsze rozwiązania'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Źródło potwierdza przyjęcie przez Radę Ministrów projektu nowej strategii i opisuje jego priorytety; nie jest dowodem
+    zatwierdzenia strategii przez Prezydenta RP.
+- id: SRC-0103
+  title: Posiedzenie Sejmu nr 55, dzień 3, punkt 14 — informacja rządu o Strategii Bezpieczeństwa Narodowego
+  publisher: Sejm Rzeczypospolitej Polskiej
+  url: https://www.sejm.gov.pl/sejm10.nsf/wypowiedz.xsp?dzien=3&posiedzenie=55&view=3&wyp=2
+  published_at: '2026-04-16'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: stenogram parlamentarny
+  language: pl
+  locator: 'wypowiedź podsekretarza stanu Stanisława Wziątka; akapity zaczynające się od: Dotychczas obowiązuje oraz 25 lipca'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Oficjalny stenogram wskazuje, że nadal obowiązywała strategia z 2020 r., a Prezydent w piśmie z 24 października 2025
+    r. poinformował, że nie może zaakceptować projektu rządowego.
+- id: SRC-0104
+  title: Ustawa z dnia 11 marca 2022 r. o obronie Ojczyzny — tekst ujednolicony
+  publisher: Kancelaria Sejmu / ELI
+  url: https://eli.gov.pl/api/acts/DU/2022/655/text/U/D20220655Lj.pdf
+  published_at: '2022-03-23'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: tekst ujednolicony ustawy
+  language: pl
+  locator: art. 24 ust. 1 pkt 1–10, s. 24–25/451 pliku PDF
+  checksum: sha256:61dbb22bc7d06a5b6f07710c1d15a79ac82f2c4c9ddb30f953ebbf29eafcd903
+  license: null
+  archive_path: null
+  status: verified
+  notes: Tekst ujednolicony wygenerowany przez ELI 7 lipca 2026 r.; stan prawny należy ponownie sprawdzić przed użyciem decyzyjnym.
+- id: SRC-0105
+  title: Wystąpienie Prezydenta RP podczas uroczystości powołania Bartosza Grodeckiego na Szefa BBN
+  publisher: Kancelaria Prezydenta Rzeczypospolitej Polskiej
+  url: https://www.prezydent.pl/aktualnosci/wypowiedzi-prezydenta-rp/wystapienia/wystapienie-prezydenta-rp-podczas-uroczystosci-powolania-bartosza-grodeckiego-na-szefa-bbn%2C120071
+  published_at: '2026-05-08'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalne wystąpienie Prezydenta RP
+  language: pl
+  locator: 'akapit zaczynający się od: Bezpieczeństwo buduje się do wewnątrz'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Prezydent stwierdza, że oczekuje na dokumenty strategiczne, w tym Strategię Bezpieczeństwa Narodowego; źródło wspiera
+    ustalenie stanu procesu po stenogramie sejmowym z kwietnia 2026 r.
+- id: SRC-0106
+  title: Ustawa z dnia 5 grudnia 2024 r. o ochronie ludności i obronie cywilnej — tekst ujednolicony
+  publisher: Kancelaria Sejmu / ELI
+  url: https://eli.gov.pl/api/acts/DU/2024/1907/text/U/D20241907Lj.pdf
+  published_at: '2024-12-23'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: tekst ujednolicony ustawy
+  language: pl
+  locator: art. 4 ust. 1, s. 3–5/127; art. 8, s. 7–8/127; art. 156, s. 96–97/127 pliku PDF
+  checksum: sha256:674999e917cdec9b6a2d48285773c6bee42fd64b7270cb95d2c2930fefc64927
+  license: null
+  archive_path: null
+  status: verified
+  notes: Tekst ujednolicony wygenerowany przez ELI 7 lipca 2026 r.; obejmuje m.in. ciągłość działania administracji, odporność
+    społeczną, rezerwy i infrastrukturę niezbędną do realizacji zadań ochrony ludności.
+- id: SRC-0107
+  title: NATO 2022 Strategic Concept
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/content/dam/nato/webready/documents/publications-and-reports/strategic-concepts/2022/290622-strategic-concept.pdf
+  published_at: '2022-06-29'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: allied strategic concept
+  language: en
+  locator: paras 1–8, 20–27 and 43, pp. 1–7 and 10
+  checksum: sha256:e4b4aa1041bc2549e14b76fc1ff23a17e3e63c01f3739d25b9252461d630798c
+  license: null
+  archive_path: null
+  status: verified
+  notes: Podstawowy jawny dokument strategiczny NATO; rozróżnia trzy zadania podstawowe, wskazuje rolę odporności, interoperacyjności
+    i technologii oraz zasady współpracy NATO–UE.
+- id: SRC-0108
+  title: Resilience, civil preparedness and Article 3
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/what-we-do/deterrence-and-defence/resilience-civil-preparedness-and-article-3
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: NATO topic page
+  language: en
+  locator: 'sections: Civil preparedness has three core functions; seven baseline requirements for national resilience'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Strona opisuje trzy funkcje gotowości cywilnej i siedem bazowych wymagań odporności; data pierwotnej publikacji nie
+    została wskazana na stronie.
+- id: SRC-0109
+  title: The Ankara Summit Declaration
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration
+  published_at: '2026-07-08'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: declaration of NATO heads of state and government
+  language: en
+  locator: paras 1–5
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Najświeższa na dzień dostępu deklaracja szczytu NATO; potwierdza podejście 360 stopni, znaczenie odporności i bazy
+    przemysłowej oraz zdolności bezzałogowych i AI.
+- id: SRC-0110
+  title: Strategy for Industry-NATO Cooperation
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/strategy-for-industry-nato-cooperation
+  published_at: '2026-07-08'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: allied industrial cooperation strategy
+  language: en
+  locator: paras 1–8; section Strategic objectives
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Dokument osadza współpracę z przemysłem w cyklu życia zdolności i NDPP, uznając politykę przemysłową za prerogatywę
+    narodową oraz podkreślając rolę MŚP i podmiotów nietradycyjnych.
+- id: SRC-0111
+  title: NATO Innovation Scale-Up Package
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/nato-innovation-scale-up-package
+  published_at: '2026-07-08'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: allied innovation policy package
+  language: en
+  locator: paras 1–10
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Pakiet wskazuje ogólny cel identyfikacji, testowania i wdrażania nowych technologii w terminie do 24 miesięcy oraz
+    ścieżki zwinnych zamówień, współprojektowania i skalowania.
+- id: SRC-0112
+  title: A Strategic Compass for security and defence
+  publisher: Council of the European Union
+  url: https://www.consilium.europa.eu/en/policies/strategic-compass/
+  published_at: '2022-03-22'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official EU policy overview
+  language: en
+  locator: 'sections: What is the Strategic Compass?; Act; Secure; Invest; Partner'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Oficjalna strona Rady UE przedstawiająca kierunki Kompasu Strategicznego do 2030 r.; strona podaje datę ostatniego
+    przeglądu 28 sierpnia 2025 r.
+- id: SRC-0113
+  title: White Paper for European Defence — Readiness 2030
+  publisher: European Commission, Directorate-General for Defence Industry and Space
+  url: https://defence-industry-space.ec.europa.eu/eu-defence-industry/white-paper-european-defence-readiness-2030_en
+  published_at: '2025-03-19'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: European Commission white paper overview
+  language: en
+  locator: 'sections: European Readiness 2030; Closing the gaps; Supporting European defence industry'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Oficjalne omówienie Białej Księgi; wskazuje priorytetowe luki zdolności, w tym drony i systemy przeciwdronowe we
+    wszystkich domenach, AI, cyber i walkę elektroniczną.
+- id: SRC-0114
+  title: Readiness Roadmap 2030
+  publisher: European Commission, Directorate-General for Defence Industry and Space
+  url: https://defence-industry-space.ec.europa.eu/eu-defence-industry/readiness-roadmap-2030_en
+  published_at: '2025-10-16'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: European defence readiness roadmap overview
+  language: en
+  locator: 'sections: Closing Europe''s capability gaps; European Readiness Flagships; Industrial dimension; Ukraine'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Strona opisuje proponowane kamienie milowe i projekty flagowe; sformułowanie proposed nie jest dowodem realizacji
+    danego kamienia milowego.
+- id: SRC-0115
+  title: EU Preparedness Union
+  publisher: European Commission
+  url: https://commission.europa.eu/topics/preparedness_en
+  published_at: '2025-03-26'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: European Commission preparedness policy overview
+  language: en
+  locator: 'sections: Getting ready; three approaches; key actions'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Strona przedstawia podejście all-hazards, whole-of-government i whole-of-society oraz działania dotyczące funkcji
+    żywotnych, współpracy cywilno-wojskowej i NATO.
+- id: SRC-0116
+  title: Eleventh progress report on the implementation of the common set of proposals endorsed by EU and NATO Councils
+  publisher: North Atlantic Treaty Organization and European Union
+  url: https://www.nato.int/content/dam/nato/webready/documents/eu-nato-progress-reports/EU-NATO-progress-report-nr11-2026-en.pdf
+  published_at: '2026-06-18'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: joint EU-NATO progress report
+  language: en
+  locator: pp. 2–8, sections on resilience, capabilities, industry and emerging technologies
+  checksum: sha256:a5e0aaac96aa1377fc033fe330b4e73611f8974b5d2b87c1e13736d63dad120f
+  license: null
+  archive_path: null
+  status: verified
+  notes: Raport opisuje spójność wymagań odporności NATO i minimalnych wymagań UE, koherencję procesów rozwoju zdolności oraz
+    zasadę jednego zestawu sił.
+- id: SRC-0117
+  title: EDA partners with the European Commission on BraveTech EU
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/news-and-events/news/2026/04/29/eda-partners-with-the-european-commission-on-bravetech-eu
+  published_at: '2026-04-29'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official programme announcement
+  language: en
+  locator: introductory paragraphs; section About BraveTech EU
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Potwierdza mechanizm łączenia przemysłu UE z doświadczeniem ukraińskim, komponent HEDI Operational Experimentation
+    i budżet programu; nie stanowi rekomendacji konkretnego przedsiębiorstwa.
+- id: SRC-0201
+  title: Obwieszczenie Prezesa Rady Ministrów z dnia 20 kwietnia 2026 r. w sprawie ogłoszenia jednolitego tekstu uchwały Rady
+    Ministrów - Regulamin pracy Rady Ministrów
+  publisher: Prezes Rady Ministrów / ELI
+  url: https://eli.gov.pl/eli/MP/2026/404/ogl
+  published_at: '2026-04-21'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: tekst jednolity uchwały Rady Ministrów
+  language: pl
+  locator: §§ 19-25a, 27-31, 34-40, 48-52, 83, 85, 90, 98-100, 152-156
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: 'Status ELI: obowiązujący. Podstawowe źródło dla kolejności prac, wykazu, konsultacji, OSR i trybu szczególnego.'
+- id: SRC-0202
+  title: Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 11 czerwca 2025 r. w sprawie ogłoszenia jednolitego
+    tekstu ustawy o Radzie Ministrów
+  publisher: Marszałek Sejmu / ELI
+  url: https://eli.gov.pl/eli/DU/2025/780/ogl
+  published_at: '2025-06-17'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: tekst jednolity ustawy
+  language: pl
+  locator: art. 5, 7, 10, 10a, 12, 22 ust. 1b, 26, 29, 33
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Czytane łącznie z nowelizacją ujętą jako SRC-0203; strona ELI wskazuje akt zmieniający.
+- id: SRC-0203
+  title: Ustawa z dnia 9 stycznia 2026 r. o zmianie niektórych ustaw związanych z funkcjonowaniem administracji rządowej
+  publisher: Sejm Rzeczypospolitej Polskiej / ELI
+  url: https://eli.gov.pl/eli/DU/2026/160/ogl
+  published_at: '2026-02-12'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: ustawa zmieniająca
+  language: pl
+  locator: art. 2 pkt 1, wprowadzający art. 8a i 8b ustawy o Radzie Ministrów
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Wprowadza ustawową podstawę Wykazu prac legislacyjnych i programowych Rady Ministrów.
+- id: SRC-0204
+  title: Rozporządzenie Prezesa Rady Ministrów z dnia 31 lipca 2025 r. w sprawie szczegółowego zakresu działania Ministra
+    do spraw Nadzoru nad Wdrażaniem Polityki Rządu
+  publisher: Prezes Rady Ministrów / ELI
+  url: https://eli.gov.pl/eli/DU/2025/1047/ogl
+  published_at: '2025-07-31'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: rozporządzenie Prezesa Rady Ministrów
+  language: pl
+  locator: §§ 1-5
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: 'Status ELI: obowiązujący.'
+- id: SRC-0205
+  title: Zarządzenie nr 46 Prezesa Rady Ministrów z dnia 29 sierpnia 2025 r. w sprawie Komitetu Rady Ministrów do spraw Nadzoru
+    nad Wdrażaniem Polityki Rządu
+  publisher: Prezes Rady Ministrów / ELI
+  url: https://eli.gov.pl/eli/MP/2025/869/ogl
+  published_at: '2025-08-29'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: zarządzenie Prezesa Rady Ministrów
+  language: pl
+  locator: §§ 1-11
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: 'Status ELI: obowiązujący. Czytane z nowelizacją SRC-0206.'
+- id: SRC-0206
+  title: Zarządzenie nr 35 Prezesa Rady Ministrów z dnia 25 maja 2026 r. zmieniające zarządzenie w sprawie Komitetu Rady Ministrów
+    do spraw Nadzoru nad Wdrażaniem Polityki Rządu
+  publisher: Prezes Rady Ministrów / ELI
+  url: https://eli.gov.pl/eli/MP/2026/530/ogl
+  published_at: '2026-05-26'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: zarządzenie zmieniające Prezesa Rady Ministrów
+  language: pl
+  locator: § 1, dodający § 2 pkt 1a do zarządzenia nr 46
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Rozszerza zadania Komitetu o modyfikowanie treści zadań w celu ich dostosowania do ustaleń i polityki Rady Ministrów.
+- id: SRC-0207
+  title: Departament Nadzoru nad Wdrażaniem Polityki Rządu
+  publisher: Kancelaria Prezesa Rady Ministrów
+  url: https://www.gov.pl/web/premier/departament-nadzoru-nad-wdrazaniem-polityki-rzadu
+  published_at: '2025-08-27'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny opis komórki organizacyjnej
+  language: pl
+  locator: sekcja 'Departament ... realizuje zadania w zakresie', pkt 1-9; historia wersji 8.0 z 24.03.2026
+  checksum: null
+  license: CC BY-SA 4.0
+  archive_path: null
+  status: verified
+  notes: Pierwsza publikacja 27.08.2025; treść zaktualizowana 24.03.2026.
+- id: SRC-0208
+  title: Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 5 lutego 2025 r. w sprawie ogłoszenia jednolitego
+    tekstu ustawy o zasadach prowadzenia polityki rozwoju
+  publisher: Marszałek Sejmu / ELI
+  url: https://eli.gov.pl/eli/DU/2025/198/ogl
+  published_at: '2025-02-14'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: tekst jednolity ustawy
+  language: pl
+  locator: art. 6-6b, 9-10a, 13-15, 17-19a, 21d-21f
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Czytane w wersji uwzględniającej nowelizację Dz.U. 2025 poz. 1846; nowelizacja nie zmieniła przywołanych reguł strategii
+    i programów.
+- id: SRC-0209
+  title: Ocena wpływu w rządowym procesie legislacyjnym
+  publisher: Kancelaria Prezesa Rady Ministrów
+  url: https://www.gov.pl/web/premier/ocena-wplywu-w-rzadowym-procesie-legislacyjnym
+  published_at: '2020-11-13'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalne wyjaśnienie procesu oceny wpływu
+  language: pl
+  locator: 'sekcje: ''Ocena wpływu'', ''Ocena skutków regulacji'', ''OSR ex post'', ''Konsultacje publiczne'''
+  checksum: null
+  license: CC BY-SA 4.0
+  archive_path: null
+  status: verified
+  notes: Pierwsza publikacja 13.11.2020; wersja strony zaktualizowana 09.08.2024.
+- id: SRC-0210
+  title: Wytyczne do przeprowadzania oceny wpływu oraz konsultacji publicznych w ramach rządowego procesu legislacyjnego
+  publisher: Rządowe Centrum Legislacji
+  url: https://rcl.gov.pl/legislacja/wytyczne-do-przeprowadzania-oceny-wplywu-oraz-konsultacji-publicznych-w-ramach-rzadowego-procesu-legislacyjnego/
+  published_at: '2015-05-05'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: wytyczne rządowe
+  language: pl
+  locator: opis celu wytycznych; informacja o przyjęciu przez Radę Ministrów 05.05.2015; komunikat o aktualizacji
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: RCL informuje, że wytyczne są aktualizowane; przed formalnym użyciem należy sprawdzić wersję obowiązującą w dacie
+    przedłożenia.
+- id: SRC-0211
+  title: Formularz zgłoszenia do Wykazu prac Rady Ministrów
+  publisher: Kancelaria Prezesa Rady Ministrów
+  url: https://www.gov.pl/web/premier/formularz-zgloszenia-do-wykazu-prac-rady-ministrow
+  published_at: '2020-11-13'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: formularz i instrukcja urzędowa
+  language: pl
+  locator: sekcja dotycząca wykazu prac programowych oraz formularzy strategii i programów
+  checksum: null
+  license: CC BY-SA 4.0
+  archive_path: null
+  status: verified
+  notes: Pierwsza publikacja 13.11.2020; wersja strony zaktualizowana 29.11.2023.
+- id: SRC-0212
+  title: Strategia Rozwoju Polski do 2035 r.
+  publisher: Ministerstwo Funduszy i Polityki Regionalnej
+  url: https://www.gov.pl/web/fundusze-regiony/strategia-rozwoju-polski-do-2035-r-
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: strona oficjalna projektu strategii
+  language: pl
+  locator: 'opis przebiegu prac i materiały: konsultacje 10.09-31.10.2025, rekomendacja SKRM 05.03.2026, wersja skierowana
+    na RM 10.04.2026, aktualizacja materiałów 02.07.2026'
+  checksum: null
+  license: CC BY-SA 4.0
+  archive_path: null
+  status: verified
+  notes: Źródło potwierdza etap projektu, nie przyjęcie strategii przez RM. Status trzeba sprawdzić ponownie w dniu formalnego
+    przedłożenia programu Polska 2040.
+- id: SRC-0213
+  title: Projekt uchwały Rady Ministrów w sprawie przyjęcia projektu 'Strategii Rozwoju Polski do 2035 r.'
+  publisher: Kancelaria Prezesa Rady Ministrów
+  url: https://www.gov.pl/web/premier/projekt-uchwaly-rady-ministrow-w-sprawie-przyjecia-projektu-strategii-rozwoju-polski-do-2035-r
+  published_at: '2025-06-30'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: rekord Wykazu prac legislacyjnych i programowych Rady Ministrów
+  language: pl
+  locator: ID132; historia wersji 3.0 z 01.07.2026; organ odpowiedzialny MFiPR; planowany termin II kwartał 2026
+  checksum: null
+  license: CC BY-SA 4.0
+  archive_path: null
+  status: verified
+  notes: Rekord wciąż opisany jako projekt w dniu dostępu; brak twierdzenia, że strategia nie mogła zostać przyjęta inną drogą
+    po ostatniej aktualizacji.
+- id: SRC-0214
+  title: Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.
+  publisher: Zgromadzenie Narodowe / ELI
+  url: https://eli.gov.pl/eli/DU/1997/483/ogl
+  published_at: '1997-07-16'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: Konstytucja
+  language: pl
+  locator: art. 92-93
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Podstawa rozróżnienia rozporządzeń od uchwał i zarządzeń o charakterze wewnętrznym.
+- id: SRC-0215
+  title: Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 26 września 2025 r. w sprawie ogłoszenia jednolitego
+    tekstu ustawy o finansach publicznych
+  publisher: Marszałek Sejmu / ELI
+  url: https://eli.gov.pl/eli/DU/2025/1483/ogl
+  published_at: '2025-10-28'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: tekst jednolity ustawy
+  language: pl
+  locator: art. 136
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Art. 136 sprawdzony także wobec wykazanych w ELI nowelizacji po tekście jednolitym; nowelizacje Dz.U. 2026 poz. 426
+    i 635 nie zmieniły tego artykułu.
+- id: SRC-0216
+  title: Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 15 maja 2026 r. w sprawie ogłoszenia jednolitego tekstu
+    ustawy o udostępnianiu informacji o środowisku i jego ochronie, udziale społeczeństwa w ochronie środowiska oraz o ocenach
+    oddziaływania na środowisko
+  publisher: Marszałek Sejmu / ELI
+  url: https://eli.gov.pl/eli/DU/2026/670/ogl
+  published_at: '2026-05-22'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: tekst jednolity ustawy
+  language: pl
+  locator: art. 46-49, 51, 54-55
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: 'Status ELI: obowiązujący. Art. 47a zawiera wyjątek dla dokumentów przygotowywanych wyłącznie dla celów obrony narodowej
+    lub obrony cywilnej, z zastrzeżeniem Natura 2000.'
+- id: SRC-0217
+  title: Strategiczna OOŚ
+  publisher: Generalna Dyrekcja Ochrony Środowiska
+  url: https://www.gov.pl/web/gdos/strategiczna-oos
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny przewodnik proceduralny
+  language: pl
+  locator: 'sekcje: dokumenty podlegające SOOŚ, etapy, udział społeczeństwa, warunki przyjęcia dokumentu'
+  checksum: null
+  license: CC BY-SA 4.0
+  archive_path: null
+  status: verified
+  notes: Przewodnik należy czytać z aktualnym tekstem ustawy ujętym jako SRC-0216.
+- id: SRC-0218
+  title: System monitorowania projektów strategicznych nie został w pełni wdrożony
+  publisher: Najwyższa Izba Kontroli
+  url: https://www.nik.gov.pl/aktualnosci/rozwoj-i-gospodarka/system-monitorowania-projektow-strategicznych.html
+  published_at: '2023-05-08'
+  accessed_at: '2026-07-21'
+  tier: B2-independent-analysis
+  document_type: informacja o wynikach kontroli
+  language: pl
+  locator: 'sekcje: ''System nie został w pełni wdrożony'', ''(Nie)funkcjonowanie systemu MonAliZa'', ''Wnioski'''
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Źródło historyczne i wspierające; nie przesądza o stanie systemów KPRM w 2026 r.
+- id: SRC-0301
+  title: Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 27 maja 2026 r. w sprawie ogłoszenia jednolitego tekstu
+    ustawy — Prawo zamówień publicznych
+  publisher: Kancelaria Sejmu / ELI
+  url: https://eli.gov.pl/api/acts/DU/2026/793/text/O/D20260793.pdf
+  published_at: '2026-06-16'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: tekst jednolity ustawy
+  language: pl
+  locator: art. 2 ust. 1 pkt 3, art. 11 ust. 1 pkt 3, art. 12 ust. 1, art. 395 ust. 3, art. 410 ust. 1–2, art. 414 ust. 2,
+    art. 417–418, s. 5, 13, 16, 111, 117, 121–122 pliku PDF
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Tekst jednolity uwzględnia stan prawny na 25 maja 2026 r. Przed użyciem w realnym postępowaniu konieczna jest ponowna
+    kontrola późniejszych zmian i progów unijnych. Pakiet A03 nie stanowi opinii prawnej.
+- id: SRC-0302
+  title: Ustawa z dnia 25 lipca 2025 r. o szczególnych zasadach przygotowania i realizacji strategicznych inwestycji w zakresie
+    potrzeb obronności państwa lub kluczowych inwestycji w zakresie potrzeb obronności państwa lub bezpieczeństwa publicznego
+    oraz ustanawiania stref ochronnych terenów zamkniętych
+  publisher: Kancelaria Sejmu / ELI
+  url: https://eli.gov.pl/api/acts/DU/2025/1080/text/O/D20251080.pdf
+  published_at: '2025-08-07'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: ustawa
+  language: pl
+  locator: art. 2 ust. 5, s. 3 pliku PDF
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Art. 2 ust. 5 ustanawia wąskie wyłączenie PZP dla zamówień Sił Zbrojnych RP dotyczących wskazanych kategorii systemów
+    bezzałogowych i środków ich zwalczania po spełnieniu trzech warunków. ELI wskazuje akt jako obowiązujący i posiadający
+    akt zmieniający.
+- id: SRC-0303
+  title: Ustawa z dnia 29 maja 2026 r. o zmianie niektórych ustaw w związku z uregulowaniem funkcjonowania lotnictwa służb
+    porządku publicznego
+  publisher: Kancelaria Sejmu / ELI
+  url: https://eli.gov.pl/api/acts/DU/2026/864/text/O/D20260864.pdf
+  published_at: '2026-06-30'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: ustawa zmieniająca
+  language: pl
+  locator: art. 5 i art. 14, s. 23–24 pliku PDF
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Akt opublikowano 30 czerwca 2026 r. i zgodnie z art. 14 wchodzi w życie po 3 miesiącach, więc na dzień dostępu nie
+    obowiązywał. Jego art. 5 zmienia art. 1 i art. 5 ustawy z 25 lipca 2025 r., a nie art. 2 ust. 5. Stan należy ponownie
+    sprawdzić przed decyzją wykonawczą.
+- id: SRC-0304
+  title: Agencja Uzbrojenia — zadania
+  publisher: Ministerstwo Obrony Narodowej
+  url: https://www.gov.pl/web/obrona-narodowa/agencja-uzbrojenia
+  published_at: '2022-01-03'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalna strona organizacyjna
+  language: pl
+  locator: sekcja Zadania; wersja strony 7.0 z 20 listopada 2025 r.
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: MON przypisuje Agencji Uzbrojenia m.in. definiowanie wymagań sprzętowych, inicjowanie B+R, procedury pozyskiwania,
+    nadzór jakości, offset i zarządzanie prawami IP powstałymi z B+R.
+- id: SRC-0305
+  title: Testy rozwiązań technicznych w zakresie zwalczania bezzałogowych statków powietrznych
+  publisher: Ministerstwo Obrony Narodowej
+  url: https://www.gov.pl/web/obrona-narodowa/testy-rozwiazan-technicznych-w-zakresie-zwalczania-bezzalogowych-statkow-powietrznych
+  published_at: '2025-11-26'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalne ogłoszenie o naborze do testów
+  language: pl
+  locator: akapity po tytule i założenia 1–4 wynikające z decyzji nr 123/MON
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: 'Ogłoszenie potwierdza stosowanie decyzji nr 123/MON oraz cztery jawne zasady: oparcie o jednostki organizacyjne,
+    rozproszone testy, uczciwą i transparentną konkurencję oraz uproszczoną weryfikację kontrwywiadowczą.'
+- id: SRC-0306
+  title: Testy operacyjne innowacyjnych rozwiązań na potrzeby programu „Tarcza Wschód”
+  publisher: Ministerstwo Obrony Narodowej
+  url: https://www.gov.pl/web/obrona-narodowa/testy-operacyjne-innowacyjnych-rozwiazan-na-potrzeby-programu-tarcza-wschod
+  published_at: '2026-04-22'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalny komunikat o portfelu testów
+  language: pl
+  locator: 'akapity: Do tej pory wpłynęło ponad 715 zgłoszeń; Dotychczas przetestowano 36 rozwiązań; Po zakończeniu obecnych
+    testów'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Komunikat daje punktowy obraz lejka na 22 kwietnia 2026 r.; nie publikuje pełnej kohorty, czasu przejścia, kosztów,
+    liczby rekomendacji, kontraktów ani wdrożeń.
+- id: SRC-0307
+  title: Poligon Innowatora
+  publisher: Ministerstwo Obrony Narodowej
+  url: https://www.gov.pl/web/obrona-narodowa/poligon-innowatora
+  published_at: '2026-06-30'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny opis inicjatywy
+  language: pl
+  locator: sekcja Cele Poligonu Innowatora
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: MON opisuje inicjatywę WITU jako służącą wczesnej weryfikacji, dokumentowaniu testów, zgodności regulacyjnej i szybszemu
+    przejściu od koncepcji do wdrożenia; strona nie publikuje regulaminu konwersji test–kontrakt.
+- id: SRC-0308
+  title: NATO Innovation Scale-Up Package
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/nato-innovation-scale-up-package
+  published_at: '2026-07-08'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny pakiet polityki sojuszniczej
+  language: en
+  locator: paras 5–11, especially paras 6–7 and footnote 5
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: NATO przywołuje ogólną ambicję znalezienia, przetestowania i przyjęcia nowych produktów technologicznych w 24 miesiące,
+    z zastrzeżeniem zależności od TRL i natury produktu, oraz wymaga łączenia wyzwań i eksperymentów z wcześniej wskazaną
+    ścieżką kontraktową.
+- id: SRC-0309
+  title: DIANA Accelerator Programme
+  publisher: NATO Defence Innovation Accelerator for the North Atlantic
+  url: https://www.diana.nato.int/accelerator-programme.html
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalny opis programu akceleracyjnego
+  language: en
+  locator: sections Funding & Testing and Mission Track
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Strona podaje finansowanie kontraktowe 100 tys. EUR, dostęp do ponad 200 centrów testowych oraz możliwość do 300
+    tys. EUR w Mission Track. Nie opisuje automatycznego krajowego zamówienia seryjnego po akceleracji.
+- id: SRC-0310
+  title: Hub for EU Defence Innovation (HEDI)
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/what-we-do/research-technology/hedi
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny opis programu innowacji obronnych UE
+  language: en
+  locator: sections From HEDI to HEDI 2.0; Innovators Forge; Uptake of Innovation
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: HEDI 2.0 opisuje fazowy rozwój, walidację w coraz bardziej realistycznych warunkach, eksperymentowanie operacyjne,
+    informację zwrotną opartą na danych i plany skalowania.
+- id: SRC-0311
+  title: EDA's first operational experimentation campaign for defence innovation takes off
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/news-and-events/news/2025/02/13/eda%27s-first-operational-experimentation-campaign-for-defence-innovation-takes-off
+  published_at: '2025-02-13'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalny komunikat o kampanii OPEX
+  language: en
+  locator: sections Areas to be tested and EDA's broader role
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: EDA informuje, że kontrakty do udziału w OPEX 2025 przyznano po konkurencyjnym postępowaniu w sześciu kategoriach.
+    Kampania tworzy dowody z eksperymentu, ale komunikat nie stanowi dowodu zakupu seryjnego przez państwa członkowskie.
+- id: SRC-0401
+  title: Summary of NATO’s Autonomy Implementation Plan
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2022/10/13/summary-of-natos-autonomy-implementation-plan
+  published_at: '2022-10-13'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official NATO policy summary
+  language: en
+  locator: paras 4–13
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Public summary, not the full implementation plan. Supports interoperability, responsible-use and experimentation
+    principles; it does not disclose capability requirements.
+- id: SRC-0402
+  title: EDA Action Plan on Autonomous Systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/publications-and-data/thematic-policy-reports/eda-action-plan-on-autonomous-systems
+  published_at: '2024-10-16'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official EU defence policy report landing page
+  language: en
+  locator: publication description and APAS download; detailed action lines are summarised on the APAS policy page
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: The publication page confirms the document date, scope and participation of Poland. Detailed public APAS statements
+    are captured in SRC-0403.
+- id: SRC-0403
+  title: APAS — Action Plan on Autonomous Systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/apas
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official policy overview
+  language: en
+  locator: APAS objectives, action lines and concept; page lines 131–158 in retrieved version
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Official EDA summary of the action plan approved in 2024. It describes land, air, maritime and cross-domain scope,
+    modular open architectures, TEVV, certification and taxonomy.
+- id: SRC-0404
+  title: Taxonomy — Autonomous Systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/taxonomy
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official policy and taxonomy overview
+  language: en
+  locator: section Why a Common Language Matters; page lines 129–141 in retrieved version
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: The page advocates a common taxonomy centred on autonomy as a function and on capabilities, limitations and operating
+    environments. It does not publish a complete controlled vocabulary.
+- id: SRC-0405
+  title: EDA-led project shapes standards for unmanned systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/news-and-events/news/2023/07/12/eda-led-project-shapes-standards-for-unmanned-systems
+  published_at: '2023-07-12'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official project results communication
+  language: en
+  locator: sections Standardisation of systems, interfaces and Tabletop exercise
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Describes INTERACT recommendations and roadmap. The communication explicitly says a complete standard still required
+    follow-on validation, so it is not treated as a binding standard.
+- id: SRC-0406
+  title: Standardisation — Autonomous Systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/standardisation
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official standardisation policy overview
+  language: en
+  locator: principle on civilian and military standards; EDSTAR; lifecycle standardisation
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: EDA frames EDSTAR as a reference database and recommends civilian standards where possible and military standards
+    where necessary.
+- id: SRC-0407
+  title: Test, Validation, Verification & Certification — Autonomous Systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/taxonomy/test-validation-verification
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official TEVV and certification policy overview
+  language: en
+  locator: sections Test, Validation, and Verification; Certification; The DTEB
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: The page identifies limits of legacy testing for adaptive and non-deterministic autonomy and the need for stepwise
+    certification. It does not define a universal certification scheme.
+- id: SRC-0408
+  title: ISO/IEC/IEEE 15288:2023 — Systems and software engineering — System life cycle processes
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/81702.html
+  published_at: '2023-05-16'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: abstract and general information
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: Only the official public abstract and metadata were used. The full standard was not accessed, and the memo does not
+    claim conformance.
+- id: SRC-0409
+  title: Implementing a Modular Open Systems Approach in Department of Defense Programs
+  publisher: United States Department of Defense, Office of the Under Secretary of Defense for Research and Engineering
+  url: https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf
+  published_at: '2025-02-27'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official government implementation guidebook
+  language: en
+  locator: pp. 5–12, 43–45 and 55–61 of the document
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Foreign acquisition benchmark, not Polish or NATO law. Used for the integrated business-and-technical nature of MOSA,
+    interface/data-rights planning, conformance testing and trade-offs.
+- id: SRC-0410
+  title: Land domain — Autonomous Systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/capability-development/land-domain
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official capability-domain overview
+  language: en
+  locator: Capability Development Priorities and public project list
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Supports recognition of unmanned ground systems and open C2 architectures at policy level. No tactical or performance
+    parameters are used.
+- id: SRC-0411
+  title: Maritime domain — Autonomous Systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/capability-development/maritime-domain
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official capability-domain overview
+  language: en
+  locator: Capability Development Priorities and Technological challenges
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Supports separate treatment of unmanned surface and underwater systems, while recognising cross-domain integration
+    needs.
+- id: SRC-0412
+  title: Air domain — Autonomous Systems
+  publisher: European Defence Agency
+  url: https://eda.europa.eu/what-we-do/eu-policies/autonomous-systems/capability-development/air-domain
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official capability-domain overview
+  language: en
+  locator: Capability Development Priorities and regulatory challenges
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Supports inclusion of UAS and C-UAS in the air-domain portfolio. Operationally sensitive examples and parameters
+    are not reproduced.
+- id: SRC-0413
+  title: Resolution MSC.595(111) — International Code of Safety for Maritime Autonomous Surface Ships (MASS Code)
+  publisher: International Maritime Organization
+  url: https://wwwcdn.imo.org/localresources/en/MediaCentre/Documents/MSC%20111-22-Annex%2016%20%28Secretariat%29.pdf
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official non-mandatory international safety code
+  language: en
+  locator: resolution operative paras 1–6; chapters 6–10 and 15; definitions 4.2, 4.26–4.32 and 4.42–4.43
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Adopted at MSC 111 and invited for application from 1 July 2026. It does not apply to warships under section 2.1.2;
+    the memo uses its function-based, risk-based assurance concepts only as a transferable civil benchmark.
+- id: SRC-0414
+  title: NATO Integrated Air and Missile Defence Policy
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/02/13/nato-integrated-air-and-missile-defence-policy
+  published_at: '2025-02-13'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official NATO policy
+  language: en
+  locator: paras 14–42 and 53–61
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Supports multi-domain interoperability, resilient C2, layered defence, civil-military coordination and planning for
+    degraded conditions.
+- id: SRC-0415
+  title: Allies and industry test the latest counter-drone technology during NATO exercise
+  publisher: NATO Communications and Information Agency
+  url: https://www.ncia.nato.int/newsroom/news/allies-and-industry-test-the-latest-counterdrone-technology-during-nato-exercise
+  published_at: '2026-05-21'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official exercise report
+  language: en
+  locator: TIE 26 scope, architecture and evaluation criteria
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Reports a controlled interoperability exercise, not procurement acceptance or operational effectiveness in every
+    setting.
+- id: SRC-0416
+  title: New NATO Innovation Range starts counter-drone technology testing in Latvia
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/news-and-events/articles/news/2026/03/18/new-nato-innovation-range-starts-counter-drone-technology-testing-in-latvia
+  published_at: '2026-03-18'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official test-range programme report
+  language: en
+  locator: paras describing the five Innovation Ranges and the March 2026 TEVV campaign
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Confirms cross-domain NATO test ranges for uncrewed, cyber, connectivity, underwater and shallow-water technologies.
+- id: SRC-0417
+  title: Plan działania na rzecz ochrony przed dronami i zwalczania dronów
+  publisher: Komisja Europejska
+  url: https://digital-strategy.ec.europa.eu/pl/policies/drone-security
+  published_at: '2026-02-12'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official EU action plan overview
+  language: pl
+  locator: sections Przygotowanie, Wykryj, Odpowiedź and Wzmocnienie
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: The page is a machine-translated official Polish rendering and states a last update of 12 February 2026. It links
+    the civil-security and defence-readiness dimensions without merging their legal authorities.
+- id: SRC-0418
+  title: 'ISO 22166-1:2021 — Robotics — Modularity for service robots — Part 1: General requirements'
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/72715.html
+  published_at: '2021-02-01'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: abstract and status information
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: The standard is published but marked to be revised. It applies specifically to service robots and explicitly is not
+    a safety standard.
+- id: SRC-0419
+  title: 'ISO 22166-201:2024 — Robotics — Modularity for service robots — Part 201: Common information model for modules'
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/82334.html
+  published_at: '2024-02-23'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: abstract and status information
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: Applies to service robots. Used only as evidence that common module information models can support interoperability,
+    reusability and composability.
+- id: SRC-0420
+  title: ISO 55001:2024 — Asset management — Asset management system — Requirements
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/83054.html
+  published_at: '2024-07-03'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public overview
+  language: en
+  locator: overview, benefits and general information
+  checksum: null
+  license: proprietary standard; public metadata and overview
+  archive_path: null
+  status: verified
+  notes: Used as a general lifecycle asset-management benchmark, not as proof that any Polish defence organisation currently
+    conforms.
+- id: SRC-0421
+  title: Commission Implementing Regulation (EU) 2019/947 on the rules and procedures for the operation of unmanned aircraft
+  publisher: European Union, EUR-Lex
+  url: https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj
+  published_at: '2019-06-11'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: EU implementing regulation with consolidated-version metadata
+  language: en
+  locator: recitals 1–6; Article 2; current consolidated version indicated as 1 May 2025
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Civil aviation law. It supports a risk-proportionate classification example and the definition of UAS as aircraft
+    plus control and monitoring unit; it is not used as a military-system classification.
+- id: SRC-0422
+  title: Maritime Unmanned Systems Enablers — CMRE Annual Report 2025
+  publisher: NATO Science and Technology Organization Centre for Maritime Research and Experimentation
+  url: https://www.cmre.nato.int/ar25/maritime-unmanned-systems-enablers/
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official annual-report project page
+  language: en
+  locator: sections Interoperability Standards and Security and Modelling and Simulation
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Reports development and exercise implementation of a new draft version of STANAG 4817. The draft wording is preserved;
+    the source is not treated as a public conformance specification.
+- id: SRC-0501
+  title: Summary of NATO's revised Artificial Intelligence (AI) strategy
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy
+  published_at: '2024-07-10'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official NATO strategy summary
+  language: en
+  locator: paras 2–17
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Public summary. It defines NATO Principles of Responsible Use, data prerequisites and desired TEV&V outcomes; it
+    does not disclose capability requirements.
+- id: SRC-0502
+  title: NATO's Digital Transformation Implementation Strategy 2.0
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/05/26/natos-digital-transformation-implementation-strategy
+  published_at: '2026-05-26'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official NATO implementation strategy
+  language: en
+  locator: paras 1–30
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Current public NATO implementation strategy. Only strategic-level, non-operational content is used.
+- id: SRC-0503
+  title: Alliance Digital Strategy
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/01/13/alliance-digital-strategy
+  published_at: '2026-01-13'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official NATO strategy
+  language: en
+  locator: sections 10–12 and 25
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Supports federated ICAM, standardized labels and metadata, federated data spaces, edge inference and strategy-level
+    KPIs.
+- id: SRC-0504
+  title: Data Quality Framework for the Alliance
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/08/29/data-quality-framework-for-the-alliance
+  published_at: '2025-08-29'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official NATO data quality framework
+  language: en
+  locator: paras 1–26; especially 9–13
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Public data-quality framework; detailed internal NATO data policies referenced by it were not accessed.
+- id: SRC-0505
+  title: Resortowa strategia sztucznej inteligencji do roku 2039
+  publisher: Ministerstwo Obrony Narodowej
+  url: https://www.gov.pl/web/obrona-narodowa/resortowa-strategia-sztucznej-inteligencji-do-roku-2039
+  published_at: '2024-10-11'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: public ministerial strategy and attached PDF
+  language: pl
+  locator: public landing page; PDF pp. 3–10 and 17–32
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: The 2024 diagnosis is evidence of the ministry's assessment at publication time, not proof of the situation in July
+    2026. Operational examples are not reproduced.
+- id: SRC-0506
+  title: Uchwała nr 130 Rady Ministrów z dnia 9 czerwca 2026 r. w sprawie przyjęcia strategii dotyczącej informatyzacji państwa
+  publisher: Rada Ministrów / Elektroniczny Dziennik Ustaw
+  url: https://eli.gov.pl/eli/MP/2026/620/ogl
+  published_at: '2026-06-18'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: official Council of Ministers resolution with state digitalisation strategy
+  language: pl
+  locator: M.P. 2026 poz. 620; strategy pp. 145–161, especially goals 4.2.1–4.2.3
+  checksum: null
+  license: public legal act
+  archive_path: null
+  status: verified
+  notes: The adopted strategy explicitly covers AI safety, public-sector inventory, data standards, PLGrid and research coordination.
+- id: SRC-0507
+  title: Polityka rozwoju sztucznej inteligencji w Polsce do 2030 roku — bezpieczne i odpowiedzialne wykorzystanie sztucznej
+    inteligencji
+  publisher: Ministerstwo Cyfryzacji
+  url: https://www.gov.pl/web/cyfryzacja/polityka-rozwoju-sztucznej-inteligencji-w-polsce-do-2030-roku--bezpieczne-i-odpowiedzialne-wykorzystanie-sztucznej-inteligencji
+  published_at: '2025-11-17'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: published policy document and ministry communication
+  language: pl
+  locator: landing page and attached November 2025 PDF, especially pp. 12–17
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: The ministry published an updated text. A March 2026 government progress page still described interministerial processing;
+    no ELI act adopting this 2030 policy was located by 2026-07-21.
+- id: SRC-0508
+  title: Gaia AI — fabryka sztucznej inteligencji powstaje w Krakowie
+  publisher: Ministerstwo Cyfryzacji
+  url: https://www.gov.pl/web/cyfryzacja/gaia-ai--fabryka-sztucznej-inteligencji-powstaje-w-krakowie
+  published_at: '2026-05-11'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official project launch communication
+  language: pl
+  locator: sections Gaia AI Factory and Informacje o projekcie
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Confirms launch and declared project parameters. It does not prove accreditation for protected defence workloads
+    or current production availability.
+- id: SRC-0509
+  title: Poland — PIAST-AI Factory
+  publisher: European High Performance Computing Joint Undertaking
+  url: https://www.eurohpc-ju.europa.eu/ai-factories/poland_en
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official EuroHPC project profile
+  language: en
+  locator: Services Available from 2026; Services provided
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Official service description. It does not establish authorization for classified or protected operational data.
+- id: SRC-0510
+  title: Uchwała nr 92 Rady Ministrów z dnia 10 marca 2026 r. w sprawie Strategii Cyberbezpieczeństwa Rzeczypospolitej Polskiej
+  publisher: Rada Ministrów / Elektroniczny Dziennik Ustaw
+  url: https://eli.gov.pl/eli/MP/2026/309/ogl
+  published_at: '2026-03-23'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: official Council of Ministers resolution and strategy
+  language: pl
+  locator: M.P. 2026 poz. 309; resolution and implementation plan
+  checksum: null
+  license: public legal act
+  archive_path: null
+  status: verified
+  notes: In force from 2026-03-24.
+- id: SRC-0511
+  title: Ustawa z dnia 23 stycznia 2026 r. o zmianie ustawy o krajowym systemie cyberbezpieczeństwa oraz niektórych innych
+    ustaw
+  publisher: Sejm Rzeczypospolitej Polskiej / Elektroniczny Dziennik Ustaw
+  url: https://eli.gov.pl/eli/DU/2026/252/ogl
+  published_at: '2026-03-02'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: statute
+  language: pl
+  locator: Dz.U. 2026 poz. 252; entry into force metadata and act text
+  checksum: null
+  license: public legal act
+  archive_path: null
+  status: verified
+  notes: In force from 2026-04-03; implements the NIS2-related reform of the Polish KSC.
+- id: SRC-0512
+  title: Ustawa z dnia 3 lipca 2026 r. o systemach sztucznej inteligencji — tekst ustalony po rozpatrzeniu poprawek Senatu
+  publisher: Sejm Rzeczypospolitej Polskiej
+  url: https://orka.sejm.gov.pl/proc10.nsf/ustawy/2443_u.htm
+  published_at: '2026-07-03'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official final parliamentary text awaiting promulgation check
+  language: pl
+  locator: act text and legislative status after Senate amendments
+  checksum: null
+  license: public parliamentary document
+  archive_path: null
+  status: verified
+  notes: Parliamentary text is verified. No matching promulgated act was located in ELI by 2026-07-21, so the memo does not
+    treat it as in force.
+- id: SRC-0513
+  title: Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence
+  publisher: European Parliament and Council / EUR-Lex
+  url: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+  published_at: '2024-07-12'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: EU regulation — Artificial Intelligence Act
+  language: en
+  locator: Article 2; Articles 9–17 and 72; recitals 24 and 90–111
+  checksum: null
+  license: public legal act
+  archive_path: null
+  status: verified
+  notes: Exclusive military, defence and national-security uses are outside scope; mixed or non-excluded uses require a separate
+    legal analysis.
+- id: SRC-0514
+  title: Regulation (EU) 2022/868 on European data governance
+  publisher: European Parliament and Council / EUR-Lex
+  url: https://eur-lex.europa.eu/eli/reg/2022/868/oj
+  published_at: '2022-06-03'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: EU regulation — Data Governance Act
+  language: en
+  locator: recitals 7–17 and 25–28; Articles 2–8
+  checksum: null
+  license: public legal act
+  archive_path: null
+  status: verified
+  notes: Provides a civil secure-processing-environment precedent. Article 3(2)(d) excludes data protected for public security,
+    defence or national security from Chapter II.
+- id: SRC-0515
+  title: Regulation (EU) 2023/2854 on harmonised rules on fair access to and use of data
+  publisher: European Parliament and Council / EUR-Lex
+  url: https://eur-lex.europa.eu/eli/reg/2023/2854/oj
+  published_at: '2023-12-22'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: EU regulation — Data Act
+  language: en
+  locator: Articles 30, 33–36 and 44
+  checksum: null
+  license: public legal act
+  archive_path: null
+  status: verified
+  notes: Supports cloud switching, portability and several layers of interoperability; sector-specific and defence constraints
+    still require separate rules.
+- id: SRC-0516
+  title: Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products with digital elements
+  publisher: European Parliament and Council / EUR-Lex
+  url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+  published_at: '2024-11-20'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: EU regulation — Cyber Resilience Act
+  language: en
+  locator: Articles 13–14; Annex I Parts I–II; Annex VII
+  checksum: null
+  license: public legal act
+  archive_path: null
+  status: verified
+  notes: Used as a product-lifecycle and vulnerability-management benchmark. Scope and transition dates must be checked per
+    product.
+- id: SRC-0517
+  title: Data Spaces Blueprint v2.0 — building block overview and control plane versus data plane
+  publisher: Data Spaces Support Centre
+  url: https://blueprint.dssc.eu/
+  published_at: '2025-05-06'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: EU-funded reference architecture blueprint
+  language: en
+  locator: Building Block Overview; Control Plane vs. Data Plane; identity, trust, policy and observability blocks
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: DSSC is funded by the Digital Europe Programme. The blueprint is a reference pattern, not a defence accreditation
+    standard.
+- id: SRC-0518
+  title: Artificial Intelligence Risk Management Framework (AI RMF 1.0)
+  publisher: National Institute of Standards and Technology
+  url: https://www.nist.gov/itl/ai-risk-management-framework
+  published_at: '2023-01-26'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official voluntary risk-management framework
+  language: en
+  locator: AI RMF 1.0 and Playbook; GOVERN, MAP, MEASURE, MANAGE
+  checksum: null
+  license: US government publication
+  archive_path: null
+  status: verified
+  notes: AI RMF 1.0 is being revised as of 2026; use as a baseline, not a frozen compliance profile.
+- id: SRC-0519
+  title: Artificial Intelligence Risk Management Framework — Generative Artificial Intelligence Profile
+  publisher: National Institute of Standards and Technology
+  url: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+  published_at: '2024-07-26'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: official NIST AI RMF profile
+  language: en
+  locator: NIST AI 600-1, risks and recommended actions
+  checksum: null
+  license: US government publication
+  archive_path: null
+  status: verified
+  notes: Cross-sectoral generative-AI profile; not a military certification scheme.
+- id: SRC-0520
+  title: Secure Software Development Framework (SSDF) Version 1.1
+  publisher: National Institute of Standards and Technology
+  url: https://csrc.nist.gov/pubs/sp/800/218/final
+  published_at: '2022-02-03'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: NIST Special Publication 800-218
+  language: en
+  locator: practice groups PO, PS, PW and RV
+  checksum: null
+  license: US government publication
+  archive_path: null
+  status: verified
+  notes: Version 1.1 is final; Version 1.2 was still a draft in the official publication list at access time.
+- id: SRC-0521
+  title: Zero Trust Architecture
+  publisher: National Institute of Standards and Technology
+  url: https://csrc.nist.gov/pubs/sp/800/207/final
+  published_at: '2020-08-11'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: NIST Special Publication 800-207
+  language: en
+  locator: abstract, tenets and logical components
+  checksum: null
+  license: US government publication
+  archive_path: null
+  status: verified
+  notes: Reference architecture, not an automatic accreditation or a product list.
+- id: SRC-0522
+  title: Developing Cyber-Resilient Systems — A Systems Security Engineering Approach
+  publisher: National Institute of Standards and Technology
+  url: https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final
+  published_at: '2021-12-09'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: NIST Special Publication 800-160 Volume 2 Revision 1
+  language: en
+  locator: abstract; goals to anticipate, withstand, recover and adapt
+  checksum: null
+  license: US government publication
+  archive_path: null
+  status: verified
+  notes: Used for high-level resilience and graceful-degradation principles only.
+- id: SRC-0523
+  title: 2025 Minimum Elements for a Software Bill of Materials (SBOM)
+  publisher: Cybersecurity and Infrastructure Security Agency
+  url: https://www.cisa.gov/sites/default/files/2025-08/2025_CISA_SBOM_Minimum_Elements.pdf
+  published_at: '2025-08-22'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: official government SBOM guidance
+  language: en
+  locator: minimum data fields, automation support and practices
+  checksum: null
+  license: US government publication
+  archive_path: null
+  status: metadata-only
+  notes: Official CISA metadata and search extract were accessible; direct PDF retrieval returned HTTP 403. The memo does
+    not quote detailed field requirements.
+- id: SRC-0524
+  title: Cybersecurity of AI and Standardisation
+  publisher: European Union Agency for Cybersecurity
+  url: https://www.enisa.europa.eu/publications/cybersecurity-of-ai-and-standardisation
+  published_at: '2023-03-14'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: ENISA report
+  language: en
+  locator: executive summary and conclusions on standards gaps
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Assesses the standards landscape; does not itself certify a system.
+- id: SRC-0525
+  title: ENISA's view on Cybersecurity in the Frontier AI Era
+  publisher: European Union Agency for Cybersecurity
+  url: https://www.enisa.europa.eu/sites/default/files/2026-07/ENISA%20view%20on%20cybersecurity%20in%20the%20frontier%20AI%20era_en_0.pdf
+  published_at: '2026-07-07'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: ENISA policy report
+  language: en
+  locator: executive overview and recommendations
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: TLP:CLEAR. Used only for strategic risk framing; no attack technique is reproduced.
+- id: SRC-0526
+  title: ISO/IEC 42001:2023 — Information technology — Artificial intelligence — Management system
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/42001
+  published_at: '2023-12-18'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: public abstract, scope and status
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: Only public metadata and abstract were used; no conformance is claimed.
+- id: SRC-0527
+  title: ISO/IEC 23894:2023 — Information technology — Artificial intelligence — Guidance on risk management
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/77304.html
+  published_at: '2023-02-06'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: public abstract, scope and status
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: Only public metadata and abstract were used.
+- id: SRC-0528
+  title: ISO/IEC 5259-3:2024 — Artificial intelligence — Data quality for analytics and machine learning — Data quality management
+    requirements and guidelines
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/81092.html
+  published_at: '2024-07-02'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: public abstract, scope and status
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: Only public metadata and abstract were used.
+- id: SRC-0529
+  title: ISO/IEC 5259-5:2025 — Artificial intelligence — Data quality for analytics and machine learning — Data quality governance
+    framework
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/84150.html
+  published_at: '2025-02-12'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: public abstract, scope and status
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: Only public metadata and abstract were used.
+- id: SRC-0530
+  title: ISO/IEC 25059:2023 — Quality model for AI systems
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/80655.html
+  published_at: '2023-06-16'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: public abstract, scope and revision status
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: The 2023 edition is published but marked to be revised; no conformance is claimed.
+- id: SRC-0531
+  title: ISO/IEC 42005:2025 — Artificial intelligence — AI system impact assessment
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/42005
+  published_at: '2025-05-06'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard metadata and public abstract
+  language: en
+  locator: public abstract, scope and status
+  checksum: null
+  license: proprietary standard; public metadata and abstract
+  archive_path: null
+  status: verified
+  notes: Only public metadata and abstract were used.
+- id: SRC-0532
+  title: ISO/IEC 5962:2021 — SPDX Specification V2.2.1
+  publisher: International Organization for Standardization
+  url: https://www.iso.org/standard/81870.html
+  published_at: '2021-08-24'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: international standard and public abstract
+  language: en
+  locator: public abstract and revision status
+  checksum: null
+  license: standard available without charge; ISO terms apply
+  archive_path: null
+  status: verified
+  notes: Defines an SBOM data format. The edition is marked to be revised, so procurement should not freeze an obsolete version.
+- id: SRC-0601
+  title: Strategy for Industry-NATO Cooperation
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/strategy-for-industry-nato-cooperation
+  published_at: '2026-07-08'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: strategia przyjęta przez przywódców NATO
+  language: en
+  locator: paras 5, 8–14; especially demand signal, open architectures, production stress tests, redundancy, diversification
+    and co-sustainment
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Najświeższy jawny dokument NATO na dzień kwerendy. Strategia ma charakter polityczny; zgodnie z pkt 14 plan wdrożenia
+    CNAD ma powstać do października 2026 r.
+- id: SRC-0602
+  title: Updated Defence Production Action Plan
+  publisher: North Atlantic Treaty Organization
+  url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/02/13/updated-defence-production-action-plan
+  published_at: '2025-02-13'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: plan działania zatwierdzony przez ministrów obrony NATO
+  language: en
+  locator: paras 9–30, especially 13–18 and 24–30
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Dokument rozdziela agregację popytu, bazowanie zdolności, ochronę łańcuchów, ćwiczenia oraz standaryzację. Nie publikuje
+    krajowych danych produkcyjnych.
+- id: SRC-0603
+  title: Plan zabezpieczenia potrzeb Sił Zbrojnych realizowanych przez przedsiębiorców
+  publisher: Ministerstwo Obrony Narodowej
+  url: https://www.gov.pl/web/obrona-narodowa/materialy-dla-przedsiebiorcow
+  published_at: '2026-01-16'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalna informacja i nabór przedsiębiorców do procesu planistycznego
+  language: pl
+  locator: wersja 13.0; akapity 1–14 oraz sekcja Materiały
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Data published_at odpowiada najnowszej wersji strony, a nie pierwotnej publikacji z 2022 r. MON wskazuje, że materiały
+    o potrzebach przekazywane przedsiębiorcy mają klauzulę informacji niejawnych.
+- id: SRC-0604
+  title: Rozporządzenie Ministra Obrony Narodowej z dnia 22 kwietnia 2022 r. w sprawie opracowania Planu zabezpieczenia potrzeb
+    Sił Zbrojnych realizowanych przez przedsiębiorców
+  publisher: Kancelaria Sejmu / ELI
+  url: https://eli.gov.pl/eli/DU/2022/949/ogl
+  published_at: '2022-04-22'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: rozporządzenie
+  language: pl
+  locator: § 2–8 oraz załączniki 1–11, w szczególności struktura planu i możliwości produkcyjno-usługowe
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Źródło opisuje strukturę planowania; nie ujawnia rzeczywistych potrzeb ani mocy poszczególnych przedsiębiorców.
+- id: SRC-0605
+  title: P6 — Produkcja i serwisowanie sprzętu wojskowego przy wiodącej roli przedsiębiorstw Polskiej Grupy Zbrojeniowej
+  publisher: Kancelaria Prezesa Rady Ministrów
+  url: https://www.gov.pl/web/priorytety/p6
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: karta priorytetu rządu ze stanem realizacji
+  language: pl
+  locator: Stan realizacji na 31.03.2026; główne działania I i II kwartału 2026
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Źródło podaje łączną wartość umów inwestycyjnych, ale wskazuje, że wykaz scenariuszy i źródeł finansowania inwestycji
+    PGZ stanowi tajemnicę przedsiębiorstwa.
+- id: SRC-0606
+  title: Rozbudowa przemysłu obronnego i zwiększenie udziału polskich firm w inwestycjach — posiedzenie Komitetu Nadzoru z
+    Ministrem Aktywów Państwowych
+  publisher: Kancelaria Prezesa Rady Ministrów
+  url: https://www.gov.pl/web/priorytety/rozbudowa-przemyslu-obronnego-i-zwiekszenie-udzialu-polskich-firm-w-inwestycjach--posiedzenie-komitetu-nadzoru-z-ministrem-aktywow-panstwowych
+  published_at: '2026-02-11'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat z przeglądu priorytetów rządu
+  language: pl
+  locator: sekcje Produkcja i serwisowanie oraz local content P12
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Źródło stwierdza, że w lutym 2026 r. nadal trwały prace nad definicją i metodyką pomiaru komponentu krajowego.
+- id: SRC-0607
+  title: Agencja Uzbrojenia
+  publisher: Agencja Uzbrojenia / Ministerstwo Obrony Narodowej
+  url: https://www.wojsko-polskie.pl/au/
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny opis instytucji
+  language: pl
+  locator: sekcja Agencja Uzbrojenia
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Strona wskazuje Agencję Uzbrojenia jako koordynatora systemu zapewnienia jakości i polską instytucję narodową ds.
+    zapewnienia jakości.
+- id: SRC-0608
+  title: Szefostwo Zapewnienia Jakości
+  publisher: Agencja Uzbrojenia / Ministerstwo Obrony Narodowej
+  url: https://www.wojsko-polskie.pl/au/szefostwo-zapewnienia-jakosci/
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny opis funkcji zapewnienia jakości
+  language: pl
+  locator: opis zadań oraz odwołanie do STANAG 4107 i AQAP
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Opis potwierdza istniejącą strukturę GQA/AQAP; nie stanowi wykazu zdolności certyfikacyjnych wszystkich podmiotów.
+- id: SRC-0609
+  title: System oceny zgodności wyrobów przeznaczonych na potrzeby obronności i bezpieczeństwa państwa
+  publisher: Agencja Uzbrojenia / Ministerstwo Obrony Narodowej
+  url: https://www.wojsko-polskie.pl/au/system-oceny-zgodnosci-wyrobow/
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny opis systemu oceny zgodności OiB
+  language: pl
+  locator: opis celu systemu i trybów oceny zgodności
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: 'Źródło potwierdza cel systemu: zgodność wyrobów z wymaganiami specyfikacji technicznych.'
+- id: SRC-0610
+  title: Directive 2009/81/EC on defence and security procurement
+  publisher: European Parliament and Council of the European Union / EUR-Lex
+  url: https://eur-lex.europa.eu/eli/dir/2009/81/oj
+  published_at: '2009-07-13'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: dyrektywa UE
+  language: en
+  locator: Article 1(26), recitals 43–44, Articles 22–23 and 42
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Art. 23 zawiera katalog dopuszczalnych wymagań bezpieczeństwa dostaw, w tym zdolność na kryzys, serwis, informowanie
+    o zmianach w łańcuchu i środki do produkcji części w razie zaprzestania dostaw.
+- id: SRC-0611
+  title: European Defence Standards Reference System
+  publisher: European Defence Agency
+  url: https://edstar.eda.europa.eu/
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalna baza standardów referencyjnych
+  language: en
+  locator: homepage; Best Practice Standards and intended users
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: EDSTAR gromadzi uzgodnione standardy referencyjne do użycia w wymaganiach i kontraktach w całym cyklu życia.
+- id: SRC-0612
+  title: Life Cycle Management
+  publisher: NATO Support and Procurement Agency
+  url: https://www.nspa.nato.int/en/organization/logistics/LogServ/hub.htm
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny opis usług zarządzania cyklem życia
+  language: en
+  locator: sekcja Life Cycle Management i zakres zintegrowanego wsparcia
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: NSPA opisuje podejście cradle-to-grave obejmujące zakupy, wsparcie logistyczne, łańcuch dostaw i wycofanie.
+- id: SRC-0613
+  title: Critical Raw Materials Act
+  publisher: European Commission, Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs
+  url: https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/critical-raw-materials-act_en
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalne objaśnienie rozporządzenia UE 2024/1252
+  language: en
+  locator: sections Setting benchmarks by 2030 and Supply risk preparedness and mitigation
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Strona podaje unijne benchmarki 2030 oraz instrumenty monitorowania, stress-testów i koordynacji zapasów. Benchmarki
+    dotyczą UE, nie Polski ani konkretnego systemu.
+- id: SRC-0614
+  title: EU trade in rare earth elements increased in 2025
+  publisher: Eurostat
+  url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260629-1
+  published_at: '2026-06-29'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: komunikat statystyczny z identyfikatorem zbioru danych
+  language: en
+  locator: lines 155–167; dataset ds-045409
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Dane dotyczą całej UE i masy importu, a nie ekspozycji Polski ani wartości materiału w systemach obronnych.
+- id: SRC-0615
+  title: EU high-tech trade back to a surplus in 2024
+  publisher: Eurostat
+  url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250924-2
+  published_at: '2025-09-24'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: komunikat statystyczny z identyfikatorem zbioru danych
+  language: en
+  locator: lines 155–174; dataset DS-018995
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Agregat high-tech nie jest miarą obronnego łańcucha dostaw i nie wolno przenosić udziałów UE na Polskę.
+- id: SRC-0616
+  title: European Defence Industry Programme — Council gives final approval
+  publisher: Council of the European Union
+  url: https://www.consilium.europa.eu/en/press/press-releases/2025/12/08/european-defence-industry-programme-council-gives-final-approval/
+  published_at: '2025-12-08'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat o przyjęciu EDIP
+  language: en
+  locator: sections A strategic boost, How it will work and Developing a resilient European supply chain
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Próg pochodzenia komponentów jest regułą kwalifikowalności programu, nie kompletną miarą kontroli technologicznej
+    lub bezpieczeństwa dostaw.
+- id: SRC-0617
+  title: Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products with digital elements — Cyber Resilience
+    Act
+  publisher: European Parliament and Council of the European Union / EUR-Lex
+  url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+  published_at: '2024-10-23'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: rozporządzenie UE
+  language: en
+  locator: Articles 2(7)–(8), 5, 13–14; Annex I Part II and Annex VII
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Rozporządzenie wyłącza produkty rozwijane lub modyfikowane wyłącznie dla bezpieczeństwa narodowego lub obronności
+    oraz produkty do informacji niejawnych; dla produktów w zakresie ustanawia m.in. zarządzanie podatnościami i dokumentację
+    komponentów.
+- id: SRC-0618
+  title: Polityka dla sektora półprzewodników gotowa po konsultacjach
+  publisher: Ministerstwo Cyfryzacji
+  url: https://www.gov.pl/web/cyfryzacja/polityka-dla-sektora-polprzewodnikow-gotowa-po-konsultacjach
+  published_at: '2025-06-18'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat i dokument polityki półprzewodnikowej 2025+
+  language: pl
+  locator: siedem filarów; infrastruktura; cele inwestycyjne i finansowanie
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Cele inwestycyjne w komunikacie są celami polityki, a nie dowodem istniejącej mocy produkcyjnej.
+- id: SRC-0619
+  title: Drugi etap konkursu na polskie centrum kompetencji w dziedzinie półprzewodników
+  publisher: Ministerstwo Rozwoju i Technologii
+  url: https://www.gov.pl/web/rozwoj-technologia/drugi-etap-konkursu-na-polskie-centrum-kompetencji-w-dziedzinie-polprzewodnikow
+  published_at: '2026-05-04'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalne ogłoszenie konkursu
+  language: pl
+  locator: cel centrum kompetencji i termin naboru przedłużony do 31.08.2026
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Trwający nabór potwierdza instrument budowy kompetencji, lecz nie dowodzi już działającego centrum ani zdolności
+    seryjnej.
+- id: SRC-0620
+  title: Regulation (EU) 2023/1781 establishing a framework of measures for strengthening Europe's semiconductor ecosystem
+    — Chips Act
+  publisher: European Parliament and Council of the European Union / EUR-Lex
+  url: https://eur-lex.europa.eu/eli/reg/2023/1781/oj
+  published_at: '2023-09-13'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: rozporządzenie UE
+  language: en
+  locator: Articles 19–27; monitoring, alerts, crisis stage and emergency toolbox
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Akt ustanawia unijną koordynację monitorowania i reakcji kryzysowej. Mechanizmy nie zastępują krajowego mapowania
+    części używanych w konkretnych systemach.
+- id: SRC-0621
+  title: Commission and Member States rehearse coordinated response to semiconductor supply chain shortages
+  publisher: European Commission, Directorate-General for Communications Networks, Content and Technology
+  url: https://digital-strategy.ec.europa.eu/en/news/commission-and-member-states-rehearse-coordinated-response-semiconductor-supply-chain-shortages
+  published_at: '2025-11-24'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalny komunikat z ćwiczenia symulacyjnego
+  language: en
+  locator: opis scenariusza, uczestników i celu ćwiczenia
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Ćwiczenie objęło 27 państw i fikcyjny, wiarygodny scenariusz; komunikat nie publikuje krajowych wyników lub podatności.
+- id: SRC-0622
+  title: UK tests defence supply chains under war conditions in major exercise
+  publisher: United Kingdom Ministry of Defence
+  url: https://www.gov.uk/government/news/uk-tests-defence-supply-chains-under-war-conditions-in-major-exercise
+  published_at: '2026-04-29'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalny komunikat z ćwiczenia przemysłowego
+  language: en
+  locator: lines 89–104
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Źródło jest przykładem praktyki sojusznika, nie dowodem gotowości Polski i nie podstawą do kopiowania wrażliwego
+    scenariusza.
+- id: SRC-0623
+  title: Sytuacja społeczno-gospodarcza kraju — Przemysł, dane za maj 2026 r.
+  publisher: Główny Urząd Statystyczny
+  url: https://ssgk.stat.gov.pl/Przemysl.html
+  published_at: '2026-06-24'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalny komunikat statystyczny
+  language: pl
+  locator: produkcja sprzedana przemysłu i wybrane działy, maj 2026
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Dane są zagregowane według działów przemysłu; nie pozwalają wyznaczyć mocy obronnych, kwalifikowanych wolumenów ani
+    zależności komponentowych.
+- id: SRC-0701
+  title: Posiedzenie Rady do Spraw Gospodarczych i Finansowych
+  publisher: Ministerstwo Finansów
+  url: https://www.gov.pl/web/finanse/posiedzenie-rady-ds-gospodarczych-i-finansowych
+  published_at: '2026-02-18'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat o decyzji ECOFIN dotyczącej polskiego planu SAFE
+  language: pl
+  locator: sekcja Finansowanie obronności; akapity o decyzji wykonawczej, maksymalnej kwocie pożyczki i zakresie planu
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: MF podaje maksymalną kwotę pożyczki 43,73 mld EUR i prawie 140 projektów. Źródło nie publikuje pełnej umowy pożyczki,
+    harmonogramu wypłat, oprocentowania ani przypisania kosztów do programu Polska 2040.
+- id: SRC-0702
+  title: Council Regulation (EU) 2025/1106 establishing the Security Action for Europe (SAFE) through the Reinforcement of
+    the European Defence Industry Instrument
+  publisher: Official Journal of the European Union / EUR-Lex
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R1106
+  published_at: '2025-05-28'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: rozporządzenie Rady Unii Europejskiej
+  language: en
+  locator: art. 5-10, w szczególności art. 6, art. 7 ust. 1-3 i art. 10 ust. 2-3
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: SAFE jest pomocą w formie pożyczek; limit całego instrumentu wynosi 150 mld EUR, maksymalny okres umowy pożyczki
+    45 lat, a prefinansowanie może wynieść 15%.
+- id: SRC-0703
+  title: Commission continues to strengthen European collaborative defence research and development with additional EUR 1
+    billion
+  publisher: European Commission, Directorate-General for Defence Industry and Space
+  url: https://defence-industry-space.ec.europa.eu/commission-continues-strengthen-european-collaborative-defence-research-and-development-additional-2025-12-17_en
+  published_at: '2025-12-17'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat i streszczenie programu prac EDF 2026
+  language: en
+  locator: akapity o budżecie 1 mld EUR, 31 tematach, części EUDIS, wsparciu MŚP i usługach akceleracyjnych
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Komunikat opisuje pulę ogólnounijną i instrumenty konkursowe; nie ustanawia alokacji dla Polski ani kwalifikowalności
+    programu Polska 2040.
+- id: SRC-0704
+  title: Interim evaluation of the European Defence Fund
+  publisher: European Commission
+  url: https://defence-industry-space.ec.europa.eu/document/download/50cb88a0-7a4b-4f41-9649-f6272ca987ca_en?filename=COM_2025_299_1_EN_ACT.pdf
+  published_at: '2025-06-17'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: sprawozdanie Komisji COM(2025) 299 final
+  language: en
+  locator: 's. 6-8: budżet i instrumenty EUDIS; s. 7-8: ograniczenia i wyniki modelowania społeczno-gospodarczego'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Komisja wskazuje budżet EUDIS 1,5 mld EUR do 2027 r. oraz zastrzega wczesny etap wdrażania EDF i ograniczenia analizy
+    makroekonomicznej. Wyników dla UE nie należy przenosić na Polskę bez odrębnego modelu.
+- id: SRC-0705
+  title: Questions and Answers - Strategic Technologies for Europe Platform
+  publisher: European Commission, Directorate-General for Budget
+  url: https://strategic-technologies.europa.eu/about/step-nutshell/questions-and-answers_en
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalne pytania i odpowiedzi dotyczące STEP
+  language: en
+  locator: sekcje Is STEP a new funding programme, What are the eligibility rules, Which technology development phases/stages
+    does STEP support
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: STEP koordynuje istniejące programy, ale nie tworzy automatycznego prawa do finansowania; zasady kwalifikowalności
+    wynikają z każdego programu i naboru.
+- id: SRC-0706
+  title: Innowacje dla bezpieczeństwa - nauka i biznes wobec wyzwań niepewności
+  publisher: Narodowe Centrum Badań i Rozwoju
+  url: https://www.gov.pl/web/ncbr/innowacje-dla-bezpieczenstwa-nauka-i-biznes-wobec-wyzwan-niepewnosci
+  published_at: '2026-03-26'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny opis dostępnych naborów i reguł dual-use
+  language: pl
+  locator: sekcja Technologie podwójnego przeznaczenia w ofercie NCBR, akapity o Ścieżce SMART i STEP
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: NCBR wskazał dwa nabory po 350 mln zł i warunek rzeczywistego zastosowania cywilnego dla projektów dual-use; terminy
+    i dokumentacja konkretnego naboru pozostają rozstrzygające.
+- id: SRC-0707
+  title: Zwiększymy w FENG wsparcie dla technologii obronnych i inwestycji podwójnego zastosowania
+  publisher: Ministerstwo Funduszy i Polityki Regionalnej
+  url: https://www.gov.pl/web/fundusze-regiony/zwiekszymy-w-feng-wsparcie-dla-technologii-obronnych-i-inwestycji-podwojnego-zastosowania
+  published_at: '2026-02-04'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat o zmianie programu FENG
+  language: pl
+  locator: akapity o technologii obronnej, dual-use, dalszych uzgodnieniach i planowanych naborach w II połowie 2026 r.
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Komunikat opisuje kierunek zmiany po decyzji Komitetu Monitorującego, ale sam nie jest dokumentacją naboru ani decyzją
+    o przyznaniu środków.
+- id: SRC-0708
+  title: STEP - Technologie cyfrowe - Innowacyjne technologie krytyczne
+  publisher: Polska Agencja Rozwoju Przedsiębiorczości
+  url: https://www.parp.gov.pl/component/grants/grants/step---technologie-cyfrowe---innowacyjne-technologie-krytyczne
+  published_at: '2026-04-28'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalna karta naboru PARP
+  language: pl
+  locator: sekcje Cel finansowania, Terminy zgłoszeń, Szczegóły dofinansowania i Dokumenty
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Nabór dotyczący technologii cyfrowych zakończył się 16 lipca 2026 r. Karta potwierdza mechanikę konkursową STEP,
+    ale nie dowodzi kwalifikowalności technologii wyłącznie obronnej ani całego programu Polska 2040.
+- id: SRC-0709
+  title: Ruszyła rekrutacja do IDA Bootcamp 2026 - PFR zaprasza startupy, naukowców i firmy rozwijające technologie dual-use
+  publisher: Polski Fundusz Rozwoju S.A.
+  url: https://pfr.pl/artykul/ruszyla-rekrutacja-do-ida-bootcamp-2026-pfr-zaprasza-startupy-naukowcow-i-firmy-0
+  published_at: '2026-06-16'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat o programie akceleracyjnym
+  language: pl
+  locator: opis IDA Bootcamp 2026, odbiorców i form wsparcia
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Program zapewnia walidację, konsultacje i kontakt z użytkownikiem; komunikat nie obiecuje automatycznej inwestycji,
+    grantu ani zamówienia.
+- id: SRC-0710
+  title: Pożyczka z Funduszu Bezpieczeństwa i Obronności dla przedsiębiorców
+  publisher: Bank Gospodarstwa Krajowego
+  url: https://www.bgk.pl/produkty/pozyczka-z-funduszu-bezpieczenstwa-i-obronnosci-dla-przedsiebiorcow/
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalna karta produktu finansowego i naboru
+  language: pl
+  locator: sekcje Wysokość wsparcia, Zobacz na co możesz otrzymać pożyczkę, wyłączenia, Kto może skorzystać i terminy
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Pula pożyczek dla przedsiębiorców wynosi 2,5 mld zł; produkt może finansować do 100% kosztów kwalifikowalnych netto,
+    lecz wyłącza m.in. te same koszty zgłoszone w KPO lub innych programach UE oraz objęte innym wsparciem krajowym.
+- id: SRC-0711
+  title: BGK - Startuje Fundusz Bezpieczeństwa i Obronności. Samorządy i firmy mogą korzystać z finansowania
+  publisher: Bank Gospodarstwa Krajowego
+  url: https://media.bgk.pl/komunikat-prasowy/bgk-startuje-fundusz-bezpieczenstwa-i-obronnosci-samorzady-i-firmy-z-moga-korzystac-z-finansowania/
+  published_at: '2026-07-06'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalny komunikat o uruchomieniu funduszu
+  language: pl
+  locator: akapity o łącznej wartości, finansowaniu z KPO i grupach odbiorców
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Około 23 mld zł jest łączną wartością FBiO dla wielu typów inwestycji samorządów i przedsiębiorstw; nie jest pulą
+    przeznaczoną wyłącznie dla systemów autonomicznych.
+- id: SRC-0712
+  title: Nawet do 70 proc. dofinansowania dla firm rozwijających produkcję dual-use. Nowy instrument BGK wspiera konkurencyjność
+    i bezpieczeństwo
+  publisher: Bank Gospodarstwa Krajowego
+  url: https://media.bgk.pl/komunikat-prasowy/nawet-do-70-proc-dofinansowania-dla-firm-rozwijajacych-produkcje-dual-use-nowy-instrument-bgk-wspiera-konkurencyjnosc-i-bezpieczenstwo/
+  published_at: '2026-07-16'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalna zapowiedź instrumentu FENG
+  language: pl
+  locator: akapity o puli 400 mln zł, mechanizmie kredyt plus premia, intensywności, minimalnej wartości i terminie naboru
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Na dzień dostępu instrument był zapowiedziany, a nabór miał rozpocząć się 29 października 2026 r.; przed włączeniem
+    do planu trzeba sprawdzić pełną dokumentację opublikowaną dla naboru.
+- id: SRC-0713
+  title: Pierwsze inwestycje Future Tech Poland - BGK i EFI inwestują w technologiczną odporność Polski
+  publisher: Bank Gospodarstwa Krajowego
+  url: https://www.bgk.pl/aktualnosc/pierwsze-inwestycje-future-tech-poland-bgk-i-efi-inwestuja-w-technologiczna-odpornosc-polski-1/
+  published_at: '2026-03-31'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalny komunikat o podpisanych inwestycjach funduszu funduszy
+  language: pl
+  locator: akapity o 85 mln EUR dla trzech funduszy, charakterze fund-of-funds i docelowej skali
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: 85 mln EUR jest zaangażowaniem w trzy fundusze, nie bezpośrednią pulą grantową dla pojedynczych spółek ani programu
+    państwowego.
+- id: SRC-0714
+  title: The EIB Group Operational Plan 2026-2028
+  publisher: European Investment Bank Group
+  url: https://www.eib.org/files/publications/20250345-290126-eib-group-operational-plan-2026-2028-en.pdf
+  published_at: '2026-01-29'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: plan operacyjny Grupy EBI
+  language: en
+  locator: 's. 17-18: Defence and Space Tech, rozszerzona kwalifikowalność, produkty i planowany wolumen finansowania w 2026
+    r.'
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Planowany wolumen 4,5 mld EUR dotyczy całej Grupy EBI i całej UE; nie jest alokacją dla Polski. Ostateczna kwalifikowalność
+    zależy od procesu EBI i konkretnego produktu.
+- id: SRC-0715
+  title: Defence Equity Facility
+  publisher: European Investment Fund
+  url: https://www.eif.org/equity-products/all/investeu-defence-equity-facility
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalna karta instrumentu kapitałowego InvestEU
+  language: en
+  locator: sekcje How to apply, Signed funds to date i News and updates; aktualizacja czerwiec 2026
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Instrument inwestuje w fundusze VC, private equity i private credit; dostęp spółki portfelowej zależy od strategii
+    i decyzji funduszu, a nie od bezpośredniego wniosku o grant.
+- id: SRC-0716
+  title: Strategia zarządzania długiem sektora finansów publicznych w latach 2026-2029
+  publisher: Ministerstwo Finansów
+  url: https://www.gov.pl/web/finanse/strategia-zarzadzania-dlugiem-sektora-finansow-publicznych-w-latach-2026-2029
+  published_at: '2025-09-30'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: strategia długu publicznego i prognoza fiskalna
+  language: pl
+  locator: sekcja Strategia przewiduje że, punkty o długu PDP, długu EDP i kosztach obsługi
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: To prognoza oparta na założeniach z 2025 r., nie wykonanie. Wskazuje rosnącą ścieżkę długu i kosztów obsługi; powinna
+    być aktualizowana w modelu po każdej nowej prognozie MF.
+- id: SRC-0717
+  title: Euro area government deficit at 2.9% and EU at 3.1% of GDP - provision of deficit and debt data for 2025, first notification
+  publisher: Eurostat
+  url: https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-22042026-ap
+  published_at: '2026-04-22'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalna notyfikacja danych EDP 2025
+  language: en
+  locator: tabela krajowa oraz akapit o najwyższych deficytach; metodologia ESA 2010
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Eurostat podał dla Polski deficyt sektora instytucji rządowych i samorządowych w 2025 r. równy 7,3% PKB. Dane podlegają
+    kolejnym notyfikacjom i rewizjom.
+- id: SRC-0718
+  title: 2026 Country Report - Poland
+  publisher: European Commission, Directorate-General for Economic and Financial Affairs
+  url: https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/country-report-poland_en
+  published_at: '2026-06-03'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: sprawozdanie krajowe Komisji Europejskiej i prognoza fiskalna
+  language: en
+  locator: sekcja o finansach publicznych i wykres 1.1; prognozy deficytu i długu na lata 2026-2027
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Komisja prognozuje, a nie stwierdza wykonanie przyszłych lat. Prognoza powinna być jednym ze scenariuszy fiskalnych,
+    nie jedyną bazą modelu.
+- id: SRC-0719
+  title: Rachunek podaży i wykorzystania wyrobów i usług w 2022 r.
+  publisher: Główny Urząd Statystyczny
+  url: https://stat.gov.pl/obszary-tematyczne/rachunki-narodowe/roczne-rachunki-narodowe/rachunek-podazy-i-wykorzystania-wyrobow-i-uslug-w-2022-r-%2C6%2C12.html
+  published_at: '2026-03-31'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalne tablice rachunków narodowych podaży i wykorzystania
+  language: pl
+  locator: opis zakresu danych i tablice XLSX dla 2022 r.
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Tablice pozwalają oszacować wartość dodaną i importochłonność na poziomie działów PKD/PKWiU, lecz rok 2022 i agregacja
+    sektorowa ograniczają ich użycie do współczynników bazowych i analizy wrażliwości.
+- id: SRC-0720
+  title: Działalność badawcza i rozwojowa w Polsce w 2024 r.
+  publisher: Główny Urząd Statystyczny
+  url: https://stat.gov.pl/obszary-tematyczne/nauka-i-technika-spoleczenstwo-informacyjne/nauka-i-technika/dzialalnosc-badawcza-i-rozwojowa-w-polsce-w-2024-r-%2C8%2C14.html
+  published_at: '2025-10-23'
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: informacja sygnalna i tablice danych B+R
+  language: pl
+  locator: wartość GERD, intensywność B+R oraz załączone tablice XLSX
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Dane stanowią bazę całej gospodarki, a nie sektora autonomii/dual-use; nie mogą być użyte jako bezpośredni mianownik
+    programu bez mapowania beneficjentów i działalności.
+- id: SRC-0721
+  title: API - Getting started for DS-prefixed datasets from Comext database
+  publisher: Eurostat
+  url: https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started/comext-database
+  published_at: null
+  accessed_at: '2026-07-21'
+  tier: A2-primary-data
+  document_type: oficjalna dokumentacja bazy i API statystyki handlu zagranicznego
+  language: en
+  locator: sekcje About Comext reference database, Listing of available datasets, Files available outside the API
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Comext jest źródłem szczegółowych danych o handlu towarami i jest aktualizowany miesięcznie; mapowanie CN do portfela
+    dual-use wymaga jawnej, wersjonowanej tabeli klasyfikacyjnej.
+- id: SRC-0722
+  title: Regulation (EU, Euratom) 2024/2509 on the financial rules applicable to the general budget of the Union
+  publisher: Official Journal of the European Union / EUR-Lex
+  url: https://eur-lex.europa.eu/eli/reg/2024/2509/
+  published_at: '2024-09-26'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: rozporządzenie finansowe UE
+  language: en
+  locator: art. 193-195, w szczególności art. 194 ust. 1-3
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Art. 194 ustanawia zakaz finansowania tych samych kosztów dwukrotnie z budżetu UE. Zastosowanie do konkretnej kombinacji
+    instrumentów wymaga analizy aktów bazowych i dokumentacji naborów.
+- id: SRC-0723
+  title: Regulation (EU) 2021/241 establishing the Recovery and Resilience Facility
+  publisher: Official Journal of the European Union / EUR-Lex
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021R0241
+  published_at: '2021-02-18'
+  accessed_at: '2026-07-21'
+  tier: A1-law
+  document_type: rozporządzenie ustanawiające RRF/KPO
+  language: en
+  locator: art. 9 Additionality and complementary funding
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: Art. 9 dopuszcza wsparcie z innych instrumentów, o ile nie pokrywa tego samego kosztu. FBiO jest finansowany z KPO,
+    więc rozdzielenie kosztów musi być kontrolowane na poziomie projektu.
+- id: SRC-0724
+  title: Komunikat Ministerstwa Finansów w sprawie sposobu funkcjonowania klauzuli obronnej w SRW i regułach UE oraz procesu
+    budżetowego
+  publisher: Ministerstwo Finansów
+  url: https://www.gov.pl/web/finanse/komunikat-ministerstwa-finansow-w-sprawie-sposobu-funkcjonowania-klauzuli-obronnej-w-srw-i-regulach-ue-oraz-procesu-budzetowego-w-odniesieniu-do-stanowiska-rady-fiskalnej-z-15-kwietnia-2026-r
+  published_at: '2026-04-21'
+  accessed_at: '2026-07-21'
+  tier: A3-official-policy
+  document_type: oficjalne wyjaśnienie metodologii fiskalnej i reguł wydatkowych
+  language: pl
+  locator: pkt 1-2, zwłaszcza rozróżnienie ujęcia kasowego i memoriałowego oraz charakter klauzuli
+  checksum: null
+  license: null
+  archive_path: null
+  status: verified
+  notes: MF podkreśla, że klauzula obronna SRW nie tworzy automatycznie dodatkowej przestrzeni wydatkowej i że zakupy sprzętu
+    są ujmowane inaczej kasowo i memoriałowo.
 - id: SRC-1201
   title: FirePoint
   publisher: Komisja rekrutacyjna Kijowskiego Instytutu Lotnictwa (KAI)

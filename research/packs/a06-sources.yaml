@@ -1,0 +1,369 @@
+schema_version: 1
+sources:
+  - id: SRC-0601
+    title: Strategy for Industry-NATO Cooperation
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/strategy-for-industry-nato-cooperation
+    published_at: "2026-07-08"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: strategia przyjęta przez przywódców NATO
+    language: en
+    locator: "paras 5, 8–14; especially demand signal, open architectures, production stress tests, redundancy, diversification and co-sustainment"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Najświeższy jawny dokument NATO na dzień kwerendy. Strategia ma charakter polityczny; zgodnie z pkt 14 plan wdrożenia CNAD ma powstać do października 2026 r."
+
+  - id: SRC-0602
+    title: Updated Defence Production Action Plan
+    publisher: North Atlantic Treaty Organization
+    url: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/02/13/updated-defence-production-action-plan
+    published_at: "2025-02-13"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: plan działania zatwierdzony przez ministrów obrony NATO
+    language: en
+    locator: "paras 9–30, especially 13–18 and 24–30"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dokument rozdziela agregację popytu, bazowanie zdolności, ochronę łańcuchów, ćwiczenia oraz standaryzację. Nie publikuje krajowych danych produkcyjnych."
+
+  - id: SRC-0603
+    title: Plan zabezpieczenia potrzeb Sił Zbrojnych realizowanych przez przedsiębiorców
+    publisher: Ministerstwo Obrony Narodowej
+    url: https://www.gov.pl/web/obrona-narodowa/materialy-dla-przedsiebiorcow
+    published_at: "2026-01-16"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalna informacja i nabór przedsiębiorców do procesu planistycznego
+    language: pl
+    locator: "wersja 13.0; akapity 1–14 oraz sekcja Materiały"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Data published_at odpowiada najnowszej wersji strony, a nie pierwotnej publikacji z 2022 r. MON wskazuje, że materiały o potrzebach przekazywane przedsiębiorcy mają klauzulę informacji niejawnych."
+
+  - id: SRC-0604
+    title: Rozporządzenie Ministra Obrony Narodowej z dnia 22 kwietnia 2022 r. w sprawie opracowania Planu zabezpieczenia potrzeb Sił Zbrojnych realizowanych przez przedsiębiorców
+    publisher: Kancelaria Sejmu / ELI
+    url: https://eli.gov.pl/eli/DU/2022/949/ogl
+    published_at: "2022-04-22"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie
+    language: pl
+    locator: "§ 2–8 oraz załączniki 1–11, w szczególności struktura planu i możliwości produkcyjno-usługowe"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło opisuje strukturę planowania; nie ujawnia rzeczywistych potrzeb ani mocy poszczególnych przedsiębiorców."
+
+  - id: SRC-0605
+    title: P6 — Produkcja i serwisowanie sprzętu wojskowego przy wiodącej roli przedsiębiorstw Polskiej Grupy Zbrojeniowej
+    publisher: Kancelaria Prezesa Rady Ministrów
+    url: https://www.gov.pl/web/priorytety/p6
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: karta priorytetu rządu ze stanem realizacji
+    language: pl
+    locator: "Stan realizacji na 31.03.2026; główne działania I i II kwartału 2026"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło podaje łączną wartość umów inwestycyjnych, ale wskazuje, że wykaz scenariuszy i źródeł finansowania inwestycji PGZ stanowi tajemnicę przedsiębiorstwa."
+
+  - id: SRC-0606
+    title: Rozbudowa przemysłu obronnego i zwiększenie udziału polskich firm w inwestycjach — posiedzenie Komitetu Nadzoru z Ministrem Aktywów Państwowych
+    publisher: Kancelaria Prezesa Rady Ministrów
+    url: https://www.gov.pl/web/priorytety/rozbudowa-przemyslu-obronnego-i-zwiekszenie-udzialu-polskich-firm-w-inwestycjach--posiedzenie-komitetu-nadzoru-z-ministrem-aktywow-panstwowych
+    published_at: "2026-02-11"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny komunikat z przeglądu priorytetów rządu
+    language: pl
+    locator: "sekcje Produkcja i serwisowanie oraz local content P12"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło stwierdza, że w lutym 2026 r. nadal trwały prace nad definicją i metodyką pomiaru komponentu krajowego."
+
+  - id: SRC-0607
+    title: Agencja Uzbrojenia
+    publisher: Agencja Uzbrojenia / Ministerstwo Obrony Narodowej
+    url: https://www.wojsko-polskie.pl/au/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny opis instytucji
+    language: pl
+    locator: "sekcja Agencja Uzbrojenia"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strona wskazuje Agencję Uzbrojenia jako koordynatora systemu zapewnienia jakości i polską instytucję narodową ds. zapewnienia jakości."
+
+  - id: SRC-0608
+    title: Szefostwo Zapewnienia Jakości
+    publisher: Agencja Uzbrojenia / Ministerstwo Obrony Narodowej
+    url: https://www.wojsko-polskie.pl/au/szefostwo-zapewnienia-jakosci/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny opis funkcji zapewnienia jakości
+    language: pl
+    locator: "opis zadań oraz odwołanie do STANAG 4107 i AQAP"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Opis potwierdza istniejącą strukturę GQA/AQAP; nie stanowi wykazu zdolności certyfikacyjnych wszystkich podmiotów."
+
+  - id: SRC-0609
+    title: System oceny zgodności wyrobów przeznaczonych na potrzeby obronności i bezpieczeństwa państwa
+    publisher: Agencja Uzbrojenia / Ministerstwo Obrony Narodowej
+    url: https://www.wojsko-polskie.pl/au/system-oceny-zgodnosci-wyrobow/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny opis systemu oceny zgodności OiB
+    language: pl
+    locator: "opis celu systemu i trybów oceny zgodności"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło potwierdza cel systemu: zgodność wyrobów z wymaganiami specyfikacji technicznych."
+
+  - id: SRC-0610
+    title: Directive 2009/81/EC on defence and security procurement
+    publisher: European Parliament and Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/dir/2009/81/oj
+    published_at: "2009-07-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: dyrektywa UE
+    language: en
+    locator: "Article 1(26), recitals 43–44, Articles 22–23 and 42"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Art. 23 zawiera katalog dopuszczalnych wymagań bezpieczeństwa dostaw, w tym zdolność na kryzys, serwis, informowanie o zmianach w łańcuchu i środki do produkcji części w razie zaprzestania dostaw."
+
+  - id: SRC-0611
+    title: European Defence Standards Reference System
+    publisher: European Defence Agency
+    url: https://edstar.eda.europa.eu/
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalna baza standardów referencyjnych
+    language: en
+    locator: "homepage; Best Practice Standards and intended users"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "EDSTAR gromadzi uzgodnione standardy referencyjne do użycia w wymaganiach i kontraktach w całym cyklu życia."
+
+  - id: SRC-0612
+    title: Life Cycle Management
+    publisher: NATO Support and Procurement Agency
+    url: https://www.nspa.nato.int/en/organization/logistics/LogServ/hub.htm
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny opis usług zarządzania cyklem życia
+    language: en
+    locator: "sekcja Life Cycle Management i zakres zintegrowanego wsparcia"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "NSPA opisuje podejście cradle-to-grave obejmujące zakupy, wsparcie logistyczne, łańcuch dostaw i wycofanie."
+
+  - id: SRC-0613
+    title: Critical Raw Materials Act
+    publisher: European Commission, Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs
+    url: https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/critical-raw-materials-act_en
+    published_at: null
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne objaśnienie rozporządzenia UE 2024/1252
+    language: en
+    locator: "sections Setting benchmarks by 2030 and Supply risk preparedness and mitigation"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Strona podaje unijne benchmarki 2030 oraz instrumenty monitorowania, stress-testów i koordynacji zapasów. Benchmarki dotyczą UE, nie Polski ani konkretnego systemu."
+
+  - id: SRC-0614
+    title: EU trade in rare earth elements increased in 2025
+    publisher: Eurostat
+    url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260629-1
+    published_at: "2026-06-29"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: komunikat statystyczny z identyfikatorem zbioru danych
+    language: en
+    locator: "lines 155–167; dataset ds-045409"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dane dotyczą całej UE i masy importu, a nie ekspozycji Polski ani wartości materiału w systemach obronnych."
+
+  - id: SRC-0615
+    title: EU high-tech trade back to a surplus in 2024
+    publisher: Eurostat
+    url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250924-2
+    published_at: "2025-09-24"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: komunikat statystyczny z identyfikatorem zbioru danych
+    language: en
+    locator: "lines 155–174; dataset DS-018995"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Agregat high-tech nie jest miarą obronnego łańcucha dostaw i nie wolno przenosić udziałów UE na Polskę."
+
+  - id: SRC-0616
+    title: European Defence Industry Programme — Council gives final approval
+    publisher: Council of the European Union
+    url: https://www.consilium.europa.eu/en/press/press-releases/2025/12/08/european-defence-industry-programme-council-gives-final-approval/
+    published_at: "2025-12-08"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny komunikat o przyjęciu EDIP
+    language: en
+    locator: "sections A strategic boost, How it will work and Developing a resilient European supply chain"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Próg pochodzenia komponentów jest regułą kwalifikowalności programu, nie kompletną miarą kontroli technologicznej lub bezpieczeństwa dostaw."
+
+  - id: SRC-0617
+    title: Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products with digital elements — Cyber Resilience Act
+    publisher: European Parliament and Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+    published_at: "2024-10-23"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie UE
+    language: en
+    locator: "Articles 2(7)–(8), 5, 13–14; Annex I Part II and Annex VII"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Rozporządzenie wyłącza produkty rozwijane lub modyfikowane wyłącznie dla bezpieczeństwa narodowego lub obronności oraz produkty do informacji niejawnych; dla produktów w zakresie ustanawia m.in. zarządzanie podatnościami i dokumentację komponentów."
+
+  - id: SRC-0618
+    title: Polityka dla sektora półprzewodników gotowa po konsultacjach
+    publisher: Ministerstwo Cyfryzacji
+    url: https://www.gov.pl/web/cyfryzacja/polityka-dla-sektora-polprzewodnikow-gotowa-po-konsultacjach
+    published_at: "2025-06-18"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalny komunikat i dokument polityki półprzewodnikowej 2025+
+    language: pl
+    locator: "siedem filarów; infrastruktura; cele inwestycyjne i finansowanie"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Cele inwestycyjne w komunikacie są celami polityki, a nie dowodem istniejącej mocy produkcyjnej."
+
+  - id: SRC-0619
+    title: Drugi etap konkursu na polskie centrum kompetencji w dziedzinie półprzewodników
+    publisher: Ministerstwo Rozwoju i Technologii
+    url: https://www.gov.pl/web/rozwoj-technologia/drugi-etap-konkursu-na-polskie-centrum-kompetencji-w-dziedzinie-polprzewodnikow
+    published_at: "2026-05-04"
+    accessed_at: "2026-07-21"
+    tier: A3-official-policy
+    document_type: oficjalne ogłoszenie konkursu
+    language: pl
+    locator: "cel centrum kompetencji i termin naboru przedłużony do 31.08.2026"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Trwający nabór potwierdza instrument budowy kompetencji, lecz nie dowodzi już działającego centrum ani zdolności seryjnej."
+
+  - id: SRC-0620
+    title: Regulation (EU) 2023/1781 establishing a framework of measures for strengthening Europe's semiconductor ecosystem — Chips Act
+    publisher: European Parliament and Council of the European Union / EUR-Lex
+    url: https://eur-lex.europa.eu/eli/reg/2023/1781/oj
+    published_at: "2023-09-13"
+    accessed_at: "2026-07-21"
+    tier: A1-law
+    document_type: rozporządzenie UE
+    language: en
+    locator: "Articles 19–27; monitoring, alerts, crisis stage and emergency toolbox"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Akt ustanawia unijną koordynację monitorowania i reakcji kryzysowej. Mechanizmy nie zastępują krajowego mapowania części używanych w konkretnych systemach."
+
+  - id: SRC-0621
+    title: Commission and Member States rehearse coordinated response to semiconductor supply chain shortages
+    publisher: European Commission, Directorate-General for Communications Networks, Content and Technology
+    url: https://digital-strategy.ec.europa.eu/en/news/commission-and-member-states-rehearse-coordinated-response-semiconductor-supply-chain-shortages
+    published_at: "2025-11-24"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalny komunikat z ćwiczenia symulacyjnego
+    language: en
+    locator: "opis scenariusza, uczestników i celu ćwiczenia"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Ćwiczenie objęło 27 państw i fikcyjny, wiarygodny scenariusz; komunikat nie publikuje krajowych wyników lub podatności."
+
+  - id: SRC-0622
+    title: UK tests defence supply chains under war conditions in major exercise
+    publisher: United Kingdom Ministry of Defence
+    url: https://www.gov.uk/government/news/uk-tests-defence-supply-chains-under-war-conditions-in-major-exercise
+    published_at: "2026-04-29"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalny komunikat z ćwiczenia przemysłowego
+    language: en
+    locator: "lines 89–104"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Źródło jest przykładem praktyki sojusznika, nie dowodem gotowości Polski i nie podstawą do kopiowania wrażliwego scenariusza."
+
+  - id: SRC-0623
+    title: Sytuacja społeczno-gospodarcza kraju — Przemysł, dane za maj 2026 r.
+    publisher: Główny Urząd Statystyczny
+    url: https://ssgk.stat.gov.pl/Przemysl.html
+    published_at: "2026-06-24"
+    accessed_at: "2026-07-21"
+    tier: A2-primary-data
+    document_type: oficjalny komunikat statystyczny
+    language: pl
+    locator: "produkcja sprzedana przemysłu i wybrane działy, maj 2026"
+    checksum: null
+    license: null
+    archive_path: null
+    status: verified
+    notes: "Dane są zagregowane według działów przemysłu; nie pozwalają wyznaczyć mocy obronnych, kwalifikowanych wolumenów ani zależności komponentowych."

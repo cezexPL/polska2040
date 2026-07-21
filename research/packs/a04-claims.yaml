@@ -1,0 +1,505 @@
+schema_version: 1
+claims:
+  - id: CLM-0401
+    text: NATO wskazuje jako pożądane rezultaty wspólne rozumienie systemów autonomicznych, interoperacyjne systemy systemów, zarządzanie różnymi poziomami autonomii, odpowiednie standardy i doktrynę oraz regularne eksperymentowanie operacyjne.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0401]
+    locators: ["SRC-0401: paras 4–5"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Fakt dotyczy jawnego podsumowania planu NATO, nie niejawnych wymagań zdolnościowych."
+
+  - id: CLM-0402
+    text: NATO uznaje dane i AI za kluczowe czynniki autonomii, a wobec systemów autonomicznych wspomaganych AI stosuje zasady odpowiedzialnego użycia obejmujące legalność, odpowiedzialność, identyfikowalność, niezawodność, sterowalność i ograniczanie stronniczości.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0401]
+    locators: ["SRC-0401: paras 6–9"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Polskie tłumaczenie nazw zasad jest robocze; dokument główny powinien zachować oficjalne angielskie odpowiedniki przy pierwszym użyciu."
+
+  - id: CLM-0403
+    text: EDA ujmuje systemy autonomiczne w domenach lądowej, powietrznej, morskiej i międzydomenowej oraz obejmuje planem zarówno pojedyncze systemy, systemy współpracujące, jak i współdziałanie człowiek–maszyna.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0402, SRC-0403]
+    locators: ["SRC-0402: publication description", "SRC-0403: APAS objectives and concept"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie jest to lista zamknięta typów platform ani polska klasyfikacja prawna."
+
+  - id: CLM-0404
+    text: EDA rekomenduje taksonomię opartą na „autonomii jako funkcji”, ponieważ jedna platforma może mieć różny stopień autonomii dla różnych funkcji i etapów działania.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0404]
+    locators: ["SRC-0404: Taxonomy and Why a Common Language Matters"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Źródło podaje zasadę taksonomiczną, ale nie kompletną skalę."
+
+  - id: CLM-0405
+    text: Polska taksonomia nie powinna nadawać całemu systemowi jednego liniowego „poziomu autonomii”; powinna opisywać odrębnie każdą istotną funkcję, rolę człowieka, warunki użycia, ograniczenia i zachowanie po degradacji.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0401, SRC-0404, SRC-0413]
+    locators: ["SRC-0404: autonomy as a function", "SRC-0413: chapters 8–10 and definitions of ODD, fallback and modes"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Rekomendacja porządkuje wymagania, testy i odpowiedzialność; nie ustanawia normy technicznej."
+
+  - id: CLM-0406
+    text: Jawne materiały EDA rozróżniają bezzałogowe systemy powietrzne, lądowe, nawodne i podwodne, ale równocześnie podkreślają potrzebę ich integracji w działaniach międzydomenowych.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0403, SRC-0410, SRC-0411, SRC-0412]
+    locators: ["SRC-0403: scope", "SRC-0410–SRC-0412: capability-domain overviews"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "W memorandum domena morska została rozbita na nawodną i podwodną ze względu na odmienne środowisko, łączność, serwis i certyfikację."
+
+  - id: CLM-0407
+    text: System autonomiczny należy traktować jako zestaw współpracujących elementów — platformy, sensorów lub innych modułów zadaniowych, obliczeń, oprogramowania, danych, łączności, stanowiska nadzoru, operatorów i zaplecza utrzymania — a nie wyłącznie jako pojazd.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0403, SRC-0413, SRC-0421]
+    locators: ["SRC-0403: enabling technologies", "SRC-0413: system, ROC, connectivity and MASS function definitions", "SRC-0421: UAS definition"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To definicja robocza na potrzeby polityki i architektury portfela, nie definicja ustawowa."
+
+  - id: CLM-0408
+    text: APAS wskazuje modularne i otwarte architektury jako środek poprawy interoperacyjności, efektywności kosztowej i zgodności z wyposażeniem starszej generacji.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0403]
+    locators: ["SRC-0403: APAS action lines"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Źródło nie przesądza, które konkretne interfejsy mają być otwarte w Polsce."
+
+  - id: CLM-0409
+    text: Projekt INTERACT EDA wykazał potrzebę standaryzacji systemów i interfejsów tak, aby zasoby i stacje kierowania różnych dostawców oraz domen mogły być zestawiane w elastyczne konfiguracje; w 2023 r. był to jednak nadal materiał do dalszej walidacji standardu.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0405]
+    locators: ["SRC-0405: paras 127–140"]
+    as_of: 2023-07-12
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie należy przedstawiać INTERACT jako obowiązującego standardu europejskiego."
+
+  - id: CLM-0410
+    text: EDA zaleca wykorzystywać standardy cywilne tak szeroko, jak to możliwe, i standardy wojskowe tam, gdzie to konieczne, oraz uwzględniać standaryzację od B+R przez zakupy po cały cykl życia.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0406]
+    locators: ["SRC-0406: standardisation principle and lifecycle paragraph"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zasada nie oznacza automatycznego zastosowania normy cywilnej do zastosowania wojskowego bez analizy luk."
+
+  - id: CLM-0411
+    text: ISO 22166-1:2021 dotyczy otwartego projektowania modułowego i integracji modułów robotów usługowych, ale nie jest normą bezpieczeństwa i jest oznaczona do rewizji.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0418]
+    locators: ["SRC-0418: abstract and status"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie wolno używać tej normy jako samodzielnej podstawy dopuszczenia systemu wojskowego."
+
+  - id: CLM-0412
+    text: ISO 22166-201:2024 określa wspólny model informacji o modułach robotów usługowych w celu wspierania interoperacyjności, ponownego użycia i kompozycyjności.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0419]
+    locators: ["SRC-0419: abstract"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zakres normy jest cywilny i ograniczony do robotów usługowych; stanowi wzorzec modelu informacji, nie gotowy polski profil obronny."
+
+  - id: CLM-0413
+    text: Oficjalny przewodnik MOSA Departamentu Obrony USA ujmuje otwartą architekturę jako zintegrowaną strategię biznesową i techniczną, łączącą modułowy projekt, wyznaczone interfejsy, standardy konsensusowe, prawa do danych oraz weryfikację zgodności.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0409]
+    locators: ["SRC-0409: pp. 5–12 and 43–45"]
+    as_of: 2025-02-27
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To wzorzec zagraniczny, a nie źródło prawa polskiego."
+
+  - id: CLM-0414
+    text: Sam zapis „otwarta architektura” w wymaganiach nie daje wymienności; potrzebne są kontrolowane specyfikacje interfejsów, odpowiednie prawa do dokumentacji i oprogramowania, zarządzanie konfiguracją oraz test zgodności na reprezentatywnych zamiennikach.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0405, SRC-0409]
+    locators: ["SRC-0405: standardisation of interfaces", "SRC-0409: MOSA pillars, data rights and conformance criteria"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wymienność powinna być wykazana testem, a nie deklaracją dostawcy."
+
+  - id: CLM-0415
+    text: Pełna jawność każdego interfejsu nie jest warunkiem modularności; interfejs może być chroniony, o ile państwo ma kontrolowany dostęp, wystarczające prawa, zdolność niezależnego testu oraz możliwość bezpiecznej konkurencji lub substytucji.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0409]
+    locators: ["SRC-0409: pp. 43–45 on interface data rights and proprietary elements"]
+    as_of: 2026-07-21
+    confidence: medium
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zakres praw i dostępu wymaga oceny A09 oraz negocjacji kontraktowej; bezpieczeństwo informacji może ograniczać publikację."
+
+  - id: CLM-0416
+    text: ISO/IEC/IEEE 15288:2023 obejmuje cykl życia systemu od koncepcji przez rozwój, produkcję, użytkowanie i wsparcie po wycofanie, w tym systemy systemów oraz relacje nabywca–dostawca.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0408]
+    locators: ["SRC-0408: abstract"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Fakt opiera się na publicznym abstrakcie; nie stwierdza zgodności któregokolwiek programu z normą."
+
+  - id: CLM-0417
+    text: ISO 55001:2024 ujmuje zarządzanie aktywami jako równoważenie wyników, ryzyka i wydatków w całym cyklu życia.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0420]
+    locators: ["SRC-0420: Why is ISO 55001 important and Benefits"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Ogólny wzorzec zarządzania aktywami, nie szczegółowa norma utrzymania systemów obronnych."
+
+  - id: CLM-0418
+    text: Każdy program powinien utrzymywać wersjonowany pakiet dowodowy obejmujący konfigurację sprzętu, oprogramowania i modeli, interfejsy, dokumentację obsługową, wyniki testów, znane ograniczenia, status części oraz plan bezpiecznego wycofania.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0408, SRC-0409, SRC-0413, SRC-0420]
+    locators: ["SRC-0408: lifecycle scope", "SRC-0409: documentation, T&E and configuration management", "SRC-0413: approval, records and maintenance", "SRC-0420: asset lifecycle"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Dokładny zakres pakietu zależy od krytyczności systemu i reżimu informacji."
+
+  - id: CLM-0419
+    text: EDA ocenia, że tradycyjne podejścia V&V oparte na skończonej liczbie przypadków testowych są niewystarczające dla bardziej autonomicznych, adaptacyjnych i niedeterministycznych systemów oraz wymagają nowych procesów, narzędzi i infrastruktury testowej.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0407]
+    locators: ["SRC-0407: Test, Validation, and Verification"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie oznacza to rezygnacji z testów deterministycznych; oznacza uzupełnienie ich dowodami scenariuszowymi, monitoringiem i ponowną oceną zmian."
+
+  - id: CLM-0420
+    text: MASS Code IMO stosuje podejście funkcjonalne i oparte na ryzyku, wymagając opisu koncepcji użycia, domeny projektowej, granic operacyjnych, stanów awaryjnych, trybów działania i nadzoru człowieka oraz ponownej oceny po istotnych zmianach.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0413]
+    locators: ["SRC-0413: chapters 6–10; definitions 4.26–4.32"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Kodeks nie dotyczy okrętów wojennych; używany jest wyłącznie jako aktualny cywilny wzorzec assurance dla funkcji autonomicznych."
+
+  - id: CLM-0421
+    text: Dla każdej funkcji autonomicznej należy zdefiniować zatwierdzony zakres warunków działania, rolę człowieka, zachowanie przy degradacji, stan bezpieczny lub awaryjny, wymagane logi oraz próg ponownej oceny po zmianie.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0404, SRC-0407, SRC-0413]
+    locators: ["SRC-0404: autonomy as a function", "SRC-0407: stepwise certification", "SRC-0413: ODD, fallback, records and changed assumptions"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nazwy i kryteria muszą zostać dostosowane do domeny oraz prawa."
+
+  - id: CLM-0422
+    text: NATO uruchomiło równoległe poligony innowacji obejmujące między innymi UAS/C-UAS, cyber, łączność, środowisko podwodne i płytkie wody, aby prowadzić iteracyjne TEVV w różnych domenach.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0416]
+    locators: ["SRC-0416: paras 816–825"]
+    as_of: 2026-03-18
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Komunikat potwierdza istnienie i zakres pilotaży, nie publikuje kompletnych kryteriów oceny."
+
+  - id: CLM-0423
+    text: Polska powinna zbudować federację laboratoriów, symulatorów i poligonów z jednym katalogiem usług i wspólnym formatem dowodów, a nie jeden uniwersalny poligon dla wszystkich domen.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0407, SRC-0416]
+    locators: ["SRC-0407: DTEB and networks of excellence", "SRC-0416: domain-specific Innovation Ranges"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Federacja ogranicza duplikację, ale wymaga wspólnych definicji, kalibracji i niezależności oceny."
+
+  - id: CLM-0424
+    text: Polityka NATO IAMD traktuje C-UAS jako element spójnej, skoordynowanej i elastycznej architektury, szczególnie w C2, oraz opiera obronę na interoperacyjności, warstwowości, redundancji, odporności i koordynacji cywilno-wojskowej.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0414]
+    locators: ["SRC-0414: paras 16–22, 31–42 and 53–54"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Fakt na poziomie polityki; memorandum nie rozwija parametrów ani taktyki zwalczania."
+
+  - id: CLM-0425
+    text: TIE 26 NCIA testował współpracę wielu sensorów, aplikacji C2 i środków reagowania oraz oceniał między innymi integrację sensor–C2 i zdolność wymiany danych w wielowarstwowej architekturze C-UAS.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0415]
+    locators: ["SRC-0415: TIE 26 scope, architecture and evaluation criteria"]
+    as_of: 2026-05-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Udział w ćwiczeniu i interoperacyjność techniczna nie są równoznaczne z zakupem, certyfikacją ani skutecznością w każdym scenariuszu."
+
+  - id: CLM-0426
+    text: Plan UE z lutego 2026 r. łączy cywilne bezpieczeństwo wewnętrzne z gotowością obronną przez wspólne testy, obraz sytuacyjny, koordynację reakcji i współpracę przemysłową, lecz pozostawia państwom członkowskim zasadniczą odpowiedzialność za środki reagowania.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0417]
+    locators: ["SRC-0417: lines 67–103 in retrieved page"]
+    as_of: 2026-02-12
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Źródło nie rozstrzyga polskiego podziału kompetencji ani prawnej dopuszczalności konkretnych środków."
+
+  - id: CLM-0427
+    text: Krajowa architektura C-UAS powinna integrować wykrywanie, fuzję i identyfikację, wsparcie decyzji, zgodne z prawem usługi reagowania oraz ocenę skutku, ale techniczna integracja nie może zacierać rozdziału uprawnień MON, MSWiA, służb, zarządzających infrastrukturą i organów lotniczych.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0414, SRC-0415, SRC-0417]
+    locators: ["SRC-0414: functional areas and civil-military coordination", "SRC-0415: multi-layered C-UAS architecture", "SRC-0417: civil-security scope and state responsibility"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Mapa uprawnień wymaga odrębnej weryfikacji prawnej A09; rekomendacja nie wskazuje sposobów neutralizacji."
+
+  - id: CLM-0428
+    text: Suwerenność technologiczna nie wymaga krajowej produkcji każdego elementu; wymaga kontroli architektury, konfiguracji i krytycznych interfejsów, praw do utrzymania i aktualizacji, dostępu do dowodów testowych oraz realnej możliwości zmiany dostawcy lub odtworzenia zdolności.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0403, SRC-0406, SRC-0409]
+    locators: ["SRC-0403: modular open architectures", "SRC-0406: standards and lifecycle", "SRC-0409: modularity, data rights, sustainment and vendor-independence trade-offs"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To robocza definicja na potrzeby strategii Polska 2040, nie definicja prawna."
+
+  - id: CLM-0429
+    text: Oficjalny przewodnik MOSA ostrzega, że większa modularność może zwiększać koszt, cenę lub kompromisy wydajnościowe, dlatego stopień otwartości powinien wynikać z analizy koszt–korzyść i krytyczności, a nie z zasady „wszystko otwarte”.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0409]
+    locators: ["SRC-0409: pp. 43–45, spectrum of modularity and costs-benefits"]
+    as_of: 2025-02-27
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Źródło jest amerykańskim benchmarkiem; wniosek o analizie kompromisów jest przenośny, ale metody oceny należy zlokalizować."
+
+  - id: CLM-0430
+    text: "Polska powinna stosować „otwartość tam, gdzie daje opcję strategiczną”: najwyższe wymagania dla interfejsów i modułów o dużym wpływie, niskiej zastępowalności, długim czasie odtworzenia albo wysokim ryzyku blokady dostawcy."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0409]
+    locators: ["SRC-0409: modularity trade space, key interfaces and vendor-lock assessment"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Kryteria wymagają wspólnej kalibracji z A06, A07 i A09."
+
+  - id: CLM-0431
+    text: Publiczne źródła użyte przez A04 nie pozwalają ustalić, jaki odsetek polskich systemów ma kontrolowane specyfikacje interfejsów, kompletną bazę konfiguracji, wykazaną wymienność dostawców i gotowy pakiet utrzymaniowy.
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0403, SRC-0405, SRC-0406, SRC-0409]
+    locators: ["SRC-0403, SRC-0405, SRC-0406 and SRC-0409: external frameworks only; no Polish portfolio baseline"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Brak w jawnych źródłach nie oznacza braku danych w państwie; wymaga kontrolowanego audytu programów i umów."
+
+  - id: CLM-0432
+    text: CMRE informuje, że nowa wersja projektu STANAG 4817 dotyczącego C2 bezzałogowych systemów wielodomenowych była wdrażana i sprawdzana w ćwiczeniach NATO w 2025 r.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0422]
+    locators: ["SRC-0422: Interoperability Standards and Security, lines 43–50 in retrieved page"]
+    as_of: 2025-12-31
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Źródło nazywa wersję projektem; nie należy deklarować zgodności produktu bez dostępu do obowiązującej wersji standardu i testu zgodności."
+
+  - id: CLM-0433
+    text: Unijne przepisy dla cywilnych UAS definiują system jako statek powietrzny wraz z jednostką sterowania i monitorowania oraz różnicują wymagania według ryzyka operacji w kategoriach otwartej, szczególnej i certyfikowanej.
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0421]
+    locators: ["SRC-0421: recitals 1–6 and Article 2"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Jest to przykład z prawa cywilnego; nie przenosi się automatycznie na systemy wojskowe."
+
+  - id: CLM-0434
+    text: Taksonomia państwowa powinna oddzielać klasę platformy od klasy ryzyka i reżimu dopuszczenia, ponieważ podobna platforma może wykonywać funkcje o różnej krytyczności i w odmiennym środowisku prawnym.
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0404, SRC-0413, SRC-0421]
+    locators: ["SRC-0404: capabilities, limitations and environment", "SRC-0413: function-level and risk-based framework", "SRC-0421: risk-proportionate civil categories"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Wniosek porządkuje politykę, ale ostateczne klasy ryzyka wymagają regulatorów domenowych."
+
+  - id: CLM-0435
+    text: Referencyjna architektura programu powinna obejmować co najmniej warstwy misji i odpowiedzialności, człowieka i stanowiska nadzoru, danych i modeli, oprogramowania autonomii, obliczeń, łączności i C2, sensorów lub innych modułów zadaniowych, platformy i energii oraz utrzymania i TEVV.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0403, SRC-0409, SRC-0413]
+    locators: ["SRC-0403: enabling technologies and AS abilities", "SRC-0409: modular design and interfaces", "SRC-0413: system design, software, ROC, connectivity, maintenance and validation"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Lista jest logicznym modelem polityki, nie projektem konkretnego systemu."
+
+  - id: CLM-0436
+    text: Przed skalowaniem system powinien wykazać nie tylko funkcję zadaniową, ale też zgodność interfejsów, zachowanie w zatwierdzonych warunkach degradacji, możliwość odtworzenia konfiguracji, obsługiwalność, aktualizację z powrotem do bezpiecznej wersji i udokumentowane koszty cyklu życia.
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0407, SRC-0408, SRC-0409, SRC-0413, SRC-0420]
+    locators: ["SRC-0407: TEVV and stepwise certification", "SRC-0408: full lifecycle", "SRC-0409: conformance and sustainment", "SRC-0413: fallback, records and maintenance", "SRC-0420: performance-risk-expenditure balance"]
+    as_of: 2026-07-21
+    confidence: high
+    author: A04
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Progi ilościowe pozostają do ustalenia po audycie bazowym."

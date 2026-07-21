@@ -7,7 +7,7 @@ artifacts:
     audience: leadership
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "35–45 stron"
   - id: implementation-roadmap
     title: "Plan realizacji 2026–2040"
@@ -16,7 +16,7 @@ artifacts:
     audience: government-delivery
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "20–30 stron"
   - id: impact-finance
     title: "Finansowanie i ocena wpływu"
@@ -25,7 +25,7 @@ artifacts:
     audience: finance-and-economy
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "15–25 stron"
   - id: governance-law
     title: "Ład instytucjonalny, prawo i zamówienia"
@@ -34,7 +34,7 @@ artifacts:
     audience: government-and-legal
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "10–15 stron"
   - id: evidence-book
     title: "Księga dowodowa"
@@ -43,7 +43,7 @@ artifacts:
     audience: reviewers
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "50–100 stron"
   - id: restricted-annex-template
     title: "Jawny szablon aneksu ograniczonego"
@@ -52,7 +52,7 @@ artifacts:
     audience: authorized-future-process
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "8–12 stron"
   - id: prime-minister-brief
     title: "Nota decyzyjna dla Premiera i Rady Ministrów"
@@ -61,7 +61,7 @@ artifacts:
     audience: prime-minister-and-cabinet
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "4–6 stron"
   - id: president-bbn-brief
     title: "Nota strategiczna dla Prezydenta i BBN"
@@ -70,7 +70,7 @@ artifacts:
     audience: president-and-bbn
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "4–6 stron"
   - id: ministerial-briefs
     title: "Briefy portfeli ministerialnych"
@@ -79,7 +79,7 @@ artifacts:
     audience: ministries
     language: pl
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "8 × 2 strony"
   - id: international-brief
     title: "Poland 2040: Technology Sovereignty — Executive Brief"
@@ -88,7 +88,7 @@ artifacts:
     audience: international
     language: en
     outputs: [html, pdf, docx]
-    status: skeleton
+    status: draft
     target_length: "4 pages"
   - id: cabinet-deck
     title: "Polska 2040 — decyzje Rady Ministrów"
@@ -97,7 +97,7 @@ artifacts:
     audience: cabinet
     language: pl
     outputs: [html, pdf, pptx]
-    status: skeleton
+    status: draft
     target_length: "15 slajdów"
   - id: president-deck
     title: "Polska 2040 — odporność i ciągłość państwa"
@@ -106,7 +106,7 @@ artifacts:
     audience: president-and-bbn
     language: pl
     outputs: [html, pdf, pptx]
-    status: skeleton
+    status: draft
     target_length: "12 slajdów"
   - id: economic-forum-deck
     title: "Polska 2040 — bezpieczeństwo jako motor produktywności"
@@ -115,7 +115,7 @@ artifacts:
     audience: economic-forum
     language: pl
     outputs: [html, pdf, pptx]
-    status: skeleton
+    status: draft
     target_length: "16–18 slajdów"
   - id: regional-deck
     title: "Polska 2040 — szansa dla regionów"
@@ -124,7 +124,7 @@ artifacts:
     audience: local-and-regional
     language: pl
     outputs: [html, pdf, pptx]
-    status: skeleton
+    status: draft
     target_length: "12–14 slajdów"
   - id: international-deck
     title: "Poland 2040 — Technology Sovereignty"
@@ -133,6 +133,5 @@ artifacts:
     audience: international
     language: en
     outputs: [html, pdf, pptx]
-    status: skeleton
+    status: draft
     target_length: "12 slides"
-

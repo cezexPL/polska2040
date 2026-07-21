@@ -1,0 +1,629 @@
+schema_version: 1
+claims:
+  - id: CLM-0101
+    text: "Strategia Bezpieczeństwa Narodowego z 2020 r. pozostaje formalnie obowiązującą strategią państwa według oficjalnych źródeł dostępnych 21 lipca 2026 r."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0101, SRC-0103, SRC-0105]
+    locators:
+      - "SRC-0101: strona tytułowa i postanowienie Prezydenta z 12 maja 2020 r."
+      - "SRC-0103: wypowiedź zaczynająca się od Dotychczas obowiązuje"
+      - "SRC-0105: akapit zaczynający się od Bezpieczeństwo buduje się do wewnątrz"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Stan procesu jest zmienny; przed publikacją należy ponowić sprawdzenie w KPRM i BBN."
+
+  - id: CLM-0102
+    text: "Rada Ministrów przyjęła 25 lipca 2025 r. projekt nowej Strategii Bezpieczeństwa Narodowego, którego priorytety obejmowały m.in. NATO i UE, odporność, cyberprzestrzeń, przemysł obronny oraz ograniczenie zależności dostaw."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0102]
+    locators:
+      - "SRC-0102: sekcje Rada Ministrów przyjęła projekt uchwały i Najważniejsze rozwiązania"
+    as_of: 2025-07-25
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Przyjęcie projektu przez Radę Ministrów nie jest równoznaczne z zatwierdzeniem strategii przez Prezydenta RP."
+
+  - id: CLM-0103
+    text: "Według oficjalnego stenogramu Sejmu Prezydent RP poinformował 24 października 2025 r., że nie może zaakceptować rządowego projektu strategii; w wystąpieniu z 8 maja 2026 r. nadal wskazywał na oczekiwanie na Strategię Bezpieczeństwa Narodowego."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0103, SRC-0105]
+    locators:
+      - "SRC-0103: wypowiedź podsekretarza stanu Stanisława Wziątka o piśmie z 24 października 2025 r."
+      - "SRC-0105: akapit zaczynający się od Bezpieczeństwo buduje się do wewnątrz"
+    as_of: 2026-05-08
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0104
+    text: "Art. 24 ustawy o obronie Ojczyzny przypisuje Prezydentowi RP m.in. wydawanie rekomendacji przed pracami Rady Ministrów nad strategią, zatwierdzanie strategii na wniosek Prezesa Rady Ministrów oraz zatwierdzanie planów krajowych ćwiczeń systemu obronnego."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0104]
+    locators:
+      - "SRC-0104: art. 24 ust. 1 pkt 1–10, s. 24–25/451"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Ocena znaczenia prawnego wymaga niezależnej weryfikacji A09/RCL; claim odtwarza jawny tekst ustawy."
+
+  - id: CLM-0105
+    text: "Program Polska Autonomia 2040 nie może zastąpić Strategii Bezpieczeństwa Narodowego; może być jej portfelem wykonawczym, programem rozwoju zdolności albo wkładem analitycznym do kolejnej strategii."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0101, SRC-0103, SRC-0104]
+    locators:
+      - "SRC-0101: s. 36, wdrażanie strategii i przeglądy strategiczne"
+      - "SRC-0104: art. 24 ust. 1 pkt 1–3"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Ostateczna kwalifikacja instrumentu wymaga opinii prawnej A09."
+
+  - id: CLM-0106
+    text: "Strategia Bezpieczeństwa Narodowego z 2020 r. przewiduje zintegrowany system zarządzania bezpieczeństwem narodowym, mechanizm koordynacji ponadresortowej, hierarchię dokumentów strategicznych oraz powiązanie planowania obronnego i obrony cywilnej."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0101]
+    locators:
+      - "SRC-0101: pkt 1.1–1.8, s. 12–13"
+    as_of: 2020-05-12
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0107
+    text: "Strategia Bezpieczeństwa Narodowego z 2020 r. ujmuje odporność państwa przez ciągłość kierowania, energię, przemieszczanie ludności, żywność i wodę, zdarzenia masowe, łączność, transport oraz ciągłość infrastruktury krytycznej."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0101]
+    locators:
+      - "SRC-0101: pkt 2.7–2.8, s. 14–15"
+    as_of: 2020-05-12
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0108
+    text: "Strategia Bezpieczeństwa Narodowego z 2020 r. rozpoznaje znaczenie systemów autonomicznych, sztucznej inteligencji, technologii cyfrowych, krajowego potencjału naukowego i przemysłowego oraz rozwiązań odpornych na zagrożenia cybernetyczne."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0101]
+    locators:
+      - "SRC-0101: s. 5–9, pkt 3.14 na s. 18 oraz s. 19 i 35"
+    as_of: 2020-05-12
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0109
+    text: "Strategia Bezpieczeństwa Narodowego z 2020 r. osadza polską obronę w odstraszaniu i obronie NATO, zdolnościach państwa-gospodarza, interoperacyjności, mobilności wojskowej oraz komplementarnej współpracy NATO–UE."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0101]
+    locators:
+      - "SRC-0101: s. 22–23"
+    as_of: 2020-05-12
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0110
+    text: "Ustawa o ochronie ludności i obronie cywilnej obejmuje ciągłość działania administracji, szkolenia i ćwiczenia, odporność społeczną, ocenę ryzyka, rezerwy, utrzymanie niezbędnych łańcuchów dostaw oraz infrastrukturę usług podstawowych."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0106]
+    locators:
+      - "SRC-0106: art. 4 ust. 1, art. 8 i art. 156"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zakres obowiązków konkretnych organów wymaga mapy prawnej A09."
+
+  - id: CLM-0111
+    text: "Koncepcja Strategiczna NATO z 2022 r. ustanawia odstraszanie i obronę, zapobieganie kryzysom i zarządzanie nimi oraz bezpieczeństwo kooperacyjne jako trzy zadania podstawowe, a odporność i przewagę technologiczną traktuje jako elementy realizacji tych zadań."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0107]
+    locators:
+      - "SRC-0107: paras 1–8, pp. 1–4"
+    as_of: 2022-06-29
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0112
+    text: "Koncepcja Strategiczna NATO z 2022 r. określa Federację Rosyjską jako najpoważniejsze i bezpośrednie zagrożenie dla bezpieczeństwa sojuszników oraz pokoju i stabilności obszaru euroatlantyckiego."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0107]
+    locators:
+      - "SRC-0107: para 8, p. 4"
+    as_of: 2022-06-29
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0113
+    text: "Jawna doktryna NATO opisuje odstraszanie jako system obejmujący domeny lądową, morską, powietrzną, cybernetyczną i kosmiczną, odpowiednią gotowość, interoperacyjność, logistykę i zdolność podtrzymania działań, a nie jako pojedynczą kategorię technologii."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0107]
+    locators:
+      - "SRC-0107: paras 20–22, p. 6"
+    as_of: 2022-06-29
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0114
+    text: "NATO wymaga interoperacyjności i odpowiedzialnego wykorzystania nowych technologii, a odporność sojuszniczą opiera na zobowiązaniach narodowych wynikających z art. 3 Traktatu Północnoatlantyckiego."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0107, SRC-0108]
+    locators:
+      - "SRC-0107: paras 24–27, p. 7"
+      - "SRC-0108: introduction and section on national and collective responsibility"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0115
+    text: "NATO definiuje trzy funkcje gotowości cywilnej — ciągłość rządu, ciągłość usług podstawowych i cywilne wsparcie operacji wojskowych — oraz siedem bazowych wymagań odporności narodowej."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0108]
+    locators:
+      - "SRC-0108: sections Civil preparedness has three core functions and seven baseline requirements"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Siedem obszarów obejmuje kierowanie państwem, energię, przemieszczanie ludności, żywność i wodę, zdrowie, łączność oraz transport."
+
+  - id: CLM-0116
+    text: "Deklaracja szczytu NATO w Ankarze z 8 lipca 2026 r. łączy wiarygodne odstraszanie z odpornością, rozbudową produkcji i innowacji przemysłu obronnego oraz zdolnościami bezzałogowymi i AI."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0109]
+    locators:
+      - "SRC-0109: paras 1–5"
+    as_of: 2026-07-08
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0117
+    text: "Strategia współpracy NATO z przemysłem z 2026 r. obejmuje pełny cykl życia zdolności i cele NDPP, pozostawia politykę przemysłową w gestii państw oraz podkreśla rolę MŚP, podmiotów nietradycyjnych, interoperacyjności, skali i podtrzymania produkcji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0110]
+    locators:
+      - "SRC-0110: paras 1–8 and section Strategic objectives"
+    as_of: 2026-07-08
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0118
+    text: "Pakiet skalowania innowacji NATO z 2026 r. ustanawia ogólny cel identyfikacji, testowania i przyjęcia nowych technologii w terminie do 24 miesięcy oraz promuje zwinne zamówienia, współprojektowanie, współprodukcję, ochronę IP i wiarygodne sygnały popytowe."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0111]
+    locators:
+      - "SRC-0111: paras 1–10"
+    as_of: 2026-07-08
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Cel 24 miesięcy jest opisany jako ogólny i nie oznacza gwarancji wdrożenia każdego projektu."
+
+  - id: CLM-0119
+    text: "Proponowane dla Polski terminy 60–120 dni do prototypu i 12 miesięcy do pierwszej partii są ambicją krajową, a nie wymogiem NATO; powinny być oceniane względem ryzyka, poziomu gotowości i jawnego celu NATO do 24 miesięcy dla ogólnej ścieżki adopcji."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0111]
+    locators:
+      - "SRC-0111: paras 2–7"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Nie należy używać celu NATO jako usprawiedliwienia opóźnień ani krajowych terminów jako substytutu bezpieczeństwa i interoperacyjności."
+
+  - id: CLM-0120
+    text: "Kompas Strategiczny UE organizuje działania bezpieczeństwa i obrony wokół filarów Act, Secure, Invest i Partner oraz łączy odporność z rozwojem bardziej zintegrowanej i konkurencyjnej europejskiej bazy technologiczno-przemysłowej."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0112]
+    locators:
+      - "SRC-0112: sections What is the Strategic Compass?, Act, Secure, Invest and Partner"
+    as_of: 2025-08-28
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0121
+    text: "Biała Księga UE Readiness 2030 wskazuje jako priorytety m.in. obronę powietrzną i przeciwrakietową, zdolności strategiczne, mobilność, cyber, AI, walkę elektroniczną oraz drony i systemy przeciwdronowe w domenie powietrznej, lądowej, nawodnej i podwodnej."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0113]
+    locators:
+      - "SRC-0113: sections Closing the gaps and Supporting European defence industry"
+    as_of: 2025-03-19
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Dokument traktuje poziom UE jako wsparcie państw członkowskich w agregowaniu popytu, skali i gotowości, nie jako zamiennik ich odpowiedzialności obronnej."
+
+  - id: CLM-0122
+    text: "Mapa drogowa UE Readiness 2030 proponuje projekty flagowe, w tym European Drone Defence Initiative i Eastern Flank Watch, oraz deklaruje ich komplementarność z planami regionalnymi NATO; proponowany kamień milowy nie jest dowodem jego realizacji."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0114]
+    locators:
+      - "SRC-0114: sections European Readiness Flagships, Industrial dimension and Ukraine"
+    as_of: 2025-10-16
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Przed przypisaniem programu polskiemu harmonogramowi należy sprawdzić bieżący status, zasady udziału i finansowania."
+
+  - id: CLM-0123
+    text: "Strategia Unii Gotowości UE opiera się na podejściu wszystkich zagrożeń, całego rządu i całego społeczeństwa oraz przewiduje ochronę funkcji żywotnych, współpracę publiczno-prywatną, cywilno-wojskową i z NATO."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0115]
+    locators:
+      - "SRC-0115: sections Getting ready, three approaches and key actions"
+    as_of: 2025-05-23
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0124
+    text: "Jedenasty raport UE–NATO z 2026 r. wskazuje prace nad spójnością bazowych wymagań odporności NATO i minimalnych wymagań przygotowania UE, w tym ochroną ludności, wsparciem cywilnym sił zbrojnych, infrastrukturą krytyczną i ćwiczeniami."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0116]
+    locators:
+      - "SRC-0116: pp. 2–3, section on resilience"
+    as_of: 2026-06-18
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0125
+    text: "Wspólny raport UE–NATO uznaje potrzebę koherencji procesów rozwoju zdolności, zasadę jednego zestawu sił oraz fakt, że decyzje o zdolnościach pozostają przedmiotem suwerennych decyzji politycznych państw."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0116]
+    locators:
+      - "SRC-0116: pp. 4–6, section on capabilities"
+    as_of: 2026-06-18
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: null
+
+  - id: CLM-0126
+    text: "BraveTech EU jest oficjalnym mechanizmem łączenia przemysłu UE z ukraińskim doświadczeniem oraz eksperymentowaniem technologii z użytkownikami."
+    type: FACT
+    status: unverified
+    source_ids: [SRC-0117]
+    locators:
+      - "SRC-0117: introductory paragraphs and section About BraveTech EU"
+    as_of: 2026-04-29
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Źródło opisuje mechanizm programu, jego uczestników i budżet; nie zawiera porównawczej oceny konkretnych przedsiębiorstw."
+
+  - id: CLM-0127
+    text: "Polska powinna zdefiniować suwerenność technologiczną jako selektywną, sojuszniczą zdolność do podejmowania decyzji, utrzymania, naprawy, aktualizacji, zastępowania dostawców i skalowania krytycznych zdolności, a nie jako autarkię."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0101, SRC-0107, SRC-0110, SRC-0116]
+    locators:
+      - "SRC-0101: s. 18–23"
+      - "SRC-0107: paras 20–27 and 43"
+      - "SRC-0110: paras 3–8"
+      - "SRC-0116: pp. 4–8"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Definicja wymaga uzgodnienia politycznego i przełożenia na mierzalne kryteria kontroli oraz ciągłości."
+
+  - id: CLM-0128
+    text: "Polska Autonomia 2040 powinna być zarządzana jako międzyresortowy portfel wykonawczy podporządkowany strategii państwa, z oddzielną warstwą jawną i autoryzowanym obiegiem informacji wrażliwych."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0101, SRC-0104, SRC-0106, SRC-0107]
+    locators:
+      - "SRC-0101: pkt 1.1–1.8 i s. 36"
+      - "SRC-0104: art. 24"
+      - "SRC-0107: paras 24–27"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Repozytorium publiczne nie jest właściwym miejscem dla niejawnego aneksu; może zawierać wyłącznie jego strukturę, pytania i reguły przekazania."
+
+  - id: CLM-0129
+    text: "Każda inicjatywa portfela powinna mieć jawny łańcuch: interes bezpieczeństwa, problem użytkownika, efekt zdolnościowy, właściciel, zależności NATO i UE, miernik, termin przeglądu oraz bramkę skaluj–zmień–zamknij."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0101, SRC-0110, SRC-0111, SRC-0116]
+    locators:
+      - "SRC-0101: pkt 1.1–1.8 i s. 36"
+      - "SRC-0110: Strategic objectives"
+      - "SRC-0111: paras 3–10"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Bramka zamknięcia ogranicza finansowanie projektów bez dowodu użyteczności, lecz musi dopuszczać kontrolowane eksperymenty."
+
+  - id: CLM-0130
+    text: "Każdy strategiczny projekt technologiczny powinien przejść bramkę resilience-by-design obejmującą wpływ na ciągłość kierowania, usługi podstawowe, wsparcie wojskowe, infrastrukturę krytyczną, alternatywy dostaw, odtworzenie i testy kryzysowe."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0101, SRC-0106, SRC-0108, SRC-0115]
+    locators:
+      - "SRC-0101: pkt 2.7–2.8"
+      - "SRC-0106: art. 4 i art. 8"
+      - "SRC-0108: three core functions and seven baseline requirements"
+      - "SRC-0115: key actions"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Kryteria szczegółowe muszą być kalibrowane do kategorii projektu i nie mogą ujawniać podatności."
+
+  - id: CLM-0131
+    text: "Rząd powinien utrzymywać jedną macierz koherencji pokazującą dla każdej zdolności powiązania z interesem narodowym, celami NATO i inicjatywami UE, bez tworzenia fikcyjnej hierarchii między NATO i UE."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0107, SRC-0112, SRC-0116]
+    locators:
+      - "SRC-0107: para 43"
+      - "SRC-0112: section Partner"
+      - "SRC-0116: pp. 2–8"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Część zawierająca cele zdolnościowe NATO może wymagać niejawnego lub ograniczonego obiegu."
+
+  - id: CLM-0132
+    text: "Publiczny dashboard powinien raportować zagregowane terminy, dojrzałość, dywersyfikację i wyniki testów, natomiast szczegółowe luki, wolumeny, zapasy, podatności i zależności operacyjne powinny pozostać w obiegu autoryzowanym."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0101, SRC-0106, SRC-0108]
+    locators:
+      - "SRC-0101: pkt 1.1–1.8 i 2.7–2.8"
+      - "SRC-0106: art. 4 i art. 8"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Klasyfikacja konkretnych danych należy do uprawnionych organów; rekomendacja nie przesądza klauzuli."
+
+  - id: CLM-0133
+    text: "Model zarządzania powinien respektować ustawowe role Prezydenta i Rady Ministrów oraz ustanowić wspólny coroczny przegląd strategiczny, bez mieszania patronatu politycznego z odpowiedzialnością wykonawczą i budżetową."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0101, SRC-0104]
+    locators:
+      - "SRC-0101: pkt 1.1–1.8 i s. 36"
+      - "SRC-0104: art. 24 ust. 1"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Szczegółowa podstawa prawna, sekretariat i odpowiedzialność wymagają uzgodnienia A02 i A09."
+
+  - id: CLM-0134
+    text: "Pełny tekst projektu Strategii Bezpieczeństwa Narodowego przyjętego przez Radę Ministrów w 2025 r., komplet uwag Prezydenta i ostateczna ścieżka ich rozstrzygnięcia nie zostały ustalone w wykorzystanych jawnych źródłach."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0102, SRC-0103, SRC-0105]
+    locators:
+      - "SRC-0102: publiczne streszczenie, bez pełnego tekstu w materiale źródłowym"
+      - "SRC-0103: opis pisma Prezydenta, bez jego pełnej treści"
+    as_of: 2026-07-21
+    confidence: medium
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Należy pozyskać formalne potwierdzenie i dokumenty z KPRM oraz BBN przed wersją decyzyjną."
+
+  - id: CLM-0135
+    text: "Niejawne cele zdolnościowe NATO przypisane Polsce, ich krajowe plany wykonania oraz szczegółowa ocena luk odporności nie są dostępne w wykorzystanym materiale publicznym i nie powinny być rekonstruowane przez zgadywanie."
+    type: UNKNOWN
+    status: unverified
+    source_ids: [SRC-0107, SRC-0108, SRC-0110, SRC-0116]
+    locators:
+      - "SRC-0110: odniesienia do NDPP bez publikacji celów przypisanych poszczególnym państwom"
+      - "SRC-0116: jawny opis koherencji procesów bez krajowych luk i wolumenów"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: restricted-placeholder
+    notes: "W repozytorium wolno zapisać pytania, właściciela i wymagany poziom dostępu, ale nie treść danych pozyskanych w obiegu niejawnym."
+
+  - id: CLM-0136
+    text: "Jeżeli program zostanie zorganizowany jako nowy silos grantowy bez właścicieli efektów, zamówień, testów i bramek zamknięcia, prawdopodobnym scenariuszem jest wzrost liczby projektów i laboratoriów bez proporcjonalnego wzrostu gotowych zdolności."
+    type: SCENARIO
+    status: unverified
+    source_ids: [SRC-0101, SRC-0110, SRC-0111]
+    locators:
+      - "SRC-0101: pkt 1.1–1.8"
+      - "SRC-0110: lifecycle and Strategic objectives"
+      - "SRC-0111: contracting, adoption and scale-up pathways"
+    as_of: 2026-07-21
+    confidence: medium
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To scenariusz ryzyka, nie ustalenie o istniejącym programie; wymaga porównania z audytem obecnych instrumentów."
+
+  - id: CLM-0137
+    text: "Program powinien mieć powiązane horyzonty: decyzje pierwszych 100 dni, zdolności i zgodność sojuszniczą do 2030 r. oraz transformację przemysłowo-technologiczną do 2040 r., aktualizowane corocznie."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0101, SRC-0112, SRC-0113, SRC-0114]
+    locators:
+      - "SRC-0101: s. 36"
+      - "SRC-0112: common vision to 2030"
+      - "SRC-0113: Readiness 2030"
+      - "SRC-0114: proposed milestones to 2030"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Horyzont 2040 nie może odraczać decyzji, które mają mierzalny termin w latach 2026–2030."
+
+  - id: CLM-0138
+    text: "Miarą suwerenności technologicznej nie powinien być sam udział krajowej wartości dodanej; potrzebny jest zestaw miar obejmujący kontrolę konfiguracji, prawo i zdolność naprawy, alternatywnych dostawców, czas odtworzenia, interoperacyjność i dostępność w kryzysie."
+    type: RECOMMENDATION
+    status: unverified
+    source_ids: [SRC-0101, SRC-0107, SRC-0110, SRC-0116]
+    locators:
+      - "SRC-0101: s. 18–23"
+      - "SRC-0107: paras 20–27"
+      - "SRC-0110: Strategic objectives"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Progi i wagi tych mierników wymagają uzgodnienia z A06, A07 i użytkownikami końcowymi."
+
+  - id: CLM-0139
+    text: "Informacja o udziale w BraveTech EU nie jest wystarczającą podstawą preferowania konkretnej firmy; wybór partnera wymaga porównania alternatyw i odrębnego due diligence."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0117]
+    locators:
+      - "SRC-0117: opis mechanizmu i uczestników programu, bez rankingu albo due diligence konkretnych firm"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "Zakres due diligence powinny określić A08 i A09."
+
+  - id: CLM-0140
+    text: "Proponowany kamień milowy albo projekt flagowy UE nie powinien być raportowany jako zrealizowany, dopóki jego aktualny status, finansowanie i wykonanie nie zostaną potwierdzone w źródłach pierwotnych."
+    type: INFERENCE
+    status: unverified
+    source_ids: [SRC-0114]
+    locators:
+      - "SRC-0114: sformułowania proposed milestones i proposed flagships"
+    as_of: 2026-07-21
+    confidence: high
+    author: A01
+    reviewer: null
+    used_in: []
+    sensitivity: public
+    notes: "To reguła ostrożności dowodowej, nie ocena stopnia realizacji któregokolwiek projektu."

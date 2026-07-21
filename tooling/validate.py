@@ -70,7 +70,7 @@ def check_sensitive_patterns(errors: list[str]):
     patterns = {
         "private key": re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
         "github token": re.compile(r"(?:ghp_|github_pat_)[A-Za-z0-9_]{20,}"),
-        "openai key": re.compile(r"sk-[A-Za-z0-9_-]{20,}"),
+        "openai key": re.compile(r"(?<![A-Za-z0-9])sk-[A-Za-z0-9_-]{20,}"),
         "password assignment": re.compile(r"(?i)password\s*[:=]\s*[^\s<]{8,}"),
     }
     for path in ROOT.rglob("*"):
@@ -119,7 +119,15 @@ def main() -> int:
             if claim.get("author") == claim.get("reviewer"):
                 errors.append(f"{claim['id']}: author cannot review own claim")
         if claim.get("status") != "verified" and claim.get("used_in"):
-            warnings.append(f"{claim['id']}: non-verified claim is used in {claim['used_in']}")
+            publication_uses = [
+                item
+                for item in claim["used_in"]
+                if not str(item).startswith("research/packs/")
+            ]
+            if publication_uses:
+                warnings.append(
+                    f"{claim['id']}: non-verified claim is used in {publication_uses}"
+                )
 
     for decision in decisions:
         missing_claims = set(decision.get("evidence_claim_ids", [])) - claim_ids
