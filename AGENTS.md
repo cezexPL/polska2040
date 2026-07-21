@@ -123,3 +123,23 @@ Koordynator publikacji po zakończeniu i niezależnej weryfikacji dokumentu:
 7. dopiero po zatwierdzeniu człowieka dopuszcza wdrożenie produkcyjne.
 
 Status `preparing` jest publiczną informacją o trwających pracach, lecz nie udostępnia roboczej treści. Statusy `draft`, `blocked`, `internal` i materiały bez audytu nie mogą otrzymać odnośnika publicznego. Pliki `AGENTS.md`, `GOAL.md`, surowe notatki, rejestry wewnętrzne i aneksy ograniczone nigdy nie są publikowane przez ten mechanizm.
+
+
+## Końcowa integracja repozytorium ze stroną
+
+Po zakończeniu pracy agentów dokumentowych i agentów tworzących podstrony jeden wyznaczony **koordynator integracji strony (Codex)** wykonuje obowiązkowy etap końcowy. Jest jedynym agentem, który w tej fazie może zbiorczo modyfikować landing page, bibliotekę dokumentów i nawigację, aby uniknąć konfliktów równoległych zmian.
+
+Koordynator:
+
+1. skanuje ukończone dokumenty i publiczne podstrony w aktualnym stanie gałęzi integracyjnej;
+2. ustala kanoniczny adres każdego publicznego artefaktu i aktualizuje wszystkie odpowiadające mu odnośniki na landing page, w bibliotece dokumentów, menu oraz przyciskach CTA;
+3. usuwa odnośniki martwe, zdublowane, prowadzące do draftów albo do nieaktualnych nazw plików;
+4. sprawdza, czy tytuły, streszczenia, statusy, daty, liczby, filary, rekomendacje i opisy na stronie są zgodne merytorycznie z dokumentami źródłowymi w repozytorium;
+5. nie przepisuje wniosków strategicznych na podstawie samego landing page — w razie rozbieżności źródłem prawdy jest zatwierdzony dokument w repo, a konflikt wymagający decyzji człowieka zostaje jawnie zgłoszony;
+6. kontroluje spójność między stroną główną, podstronami, HTML, PDF i wersjami językowymi; ten sam dokument nie może mieć sprzecznych streszczeń lub statusów;
+7. uruchamia automatyczną kontrolę linków wewnętrznych, kotwic, plików statycznych i odpowiedzi HTTP oraz waliduje rendering desktopowy i mobilny;
+8. uruchamia `make validate` i `make build` lub równoważne testy repozytorium;
+9. zapisuje w raporcie końcowym listę opublikowanych dokumentów, zmienionych linków, wykrytych rozbieżności, napraw oraz elementów pozostających w przygotowaniu;
+10. uznaje zadanie za ukończone dopiero wtedy, gdy landing page merytorycznie odpowiada aktualnej publicznej treści repozytorium, a wszystkie publiczne odnośniki prowadzą do istniejących artefaktów.
+
+Jeżeli dokument jest ukończony technicznie, ale nie jest dopuszczony do publikacji według obowiązującego kontraktu, koordynator pokazuje na stronie wyłącznie status „w przygotowaniu” i nie tworzy publicznego odnośnika do jego treści. Wdrożenie produkcyjne pozostaje oddzielną operacją zgodną z bramką publikacyjną.
